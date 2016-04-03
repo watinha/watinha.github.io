@@ -1,0 +1,1105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="pt-BR">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Protótipo Interface - No Risk planning</title>	
+	<script type="text/javascript" src="dojo/dojo/dojo.js" djConfig="parseOnLoad:true, isDebug:false"></script>	
+	<noscript>Sem suporte javascript a usabilidade do sistema fica comprometida.</noscript>
+	<script type="text/javascript">
+		function aumentarLetra(){
+			lis = document.getElementsByTagName("li");
+			for (var cont = 0; cont < lis.length; cont++){
+				lis[cont].style.fontSize = "1.3em";
+			}
+
+			ps = document.getElementsByTagName("p");
+			for (cont = 0; cont < ps.length; cont++){
+				ps[cont].style.fontSize = "1.3em";
+			}
+
+			as = document.getElementsByTagName("a");
+			for (cont = 0; cont < as.length; cont++){
+				as[cont].style.fontSize = "1.3em";
+			}
+
+			tds = document.getElementsByTagName("td");
+			for (cont = 0; cont < tds.length; cont++){
+				tds[cont].style.fontSize = "1.3em";
+			}
+
+			ths = document.getElementsByTagName("th");
+			for (cont = 0; cont < ths.length; cont++){
+				ths[cont].style.fontSize = "1em";
+			}
+		}
+
+		function diminuirLetra(){
+			lis = document.getElementsByTagName("li");
+			for (var cont = 0; cont < lis.length; cont++){
+				lis[cont].style.fontSize = "1em";
+			}
+
+			ps = document.getElementsByTagName("p");
+			for (cont = 0; cont < ps.length; cont++){
+				ps[cont].style.fontSize = "1.2em";
+			}
+
+			as = document.getElementsByTagName("a");
+			for (cont = 0; cont < as.length; cont++){
+				as[cont].style.fontSize = "1em";
+			}
+
+			tds = document.getElementsByTagName("td");
+			for (cont = 0; cont < tds.length; cont++){
+				tds[cont].style.fontSize = "1em";
+			}
+
+			ths = document.getElementsByTagName("th");
+			for (cont = 0; cont < ths.length; cont++){
+				ths[cont].style.fontSize = "0.8em";
+			}
+		}
+		
+		dojo.addOnLoad(function(){
+			dojo.require("dijit.form.TextBox");
+			dojo.require("dijit.form.Button");
+			dojo.require("dijit.Tooltip");
+			dojo.require("dijit.Dialog");
+			dojo.require("dojo.parser");
+
+			diminuirLetra();
+
+			dojo.byId("divTamanho").style.visibility = "visible";
+			dojo.byId("tamanhoNormal").onclick = diminuirLetra;
+			dojo.byId("tamanhoAumentado").onclick = aumentarLetra;
+
+			/*dojo.fadeOut({node: "divBody",duration: 1}).play();
+			var anim = dojo.fadeIn({node: "iconesCarregando",duration: 500});
+			
+			var anim1 = dojo.fadeOut({node: "iconesCarregando", duration: 1000});
+			var anim2 = dojo.fadeIn({node: "divBody", duration: 1000});
+
+			dojo.fx.chain([anim, anim1, anim2]).play();*/
+			
+			var numeroLinhas = document.getElementsByTagName("tr").length;
+			var numeroColunas = document.getElementsByTagName("tr")[0].cells.length;
+
+			dojo.byId("icone11Completa").style.display = "none";
+			dojo.byId("icone12Completa").style.display = "none";
+			dojo.byId("icone13Completa").style.display = "none";
+			dojo.byId("icone14Aberta").style.display = "none";
+			dojo.byId("icone15Aberta").style.display = "none";
+
+			// Novas bancas inseridas
+			
+			dojo.byId("icone21Completa").style.display = "none";
+			dojo.byId("icone22Completa").style.display = "none";
+			dojo.byId("icone23Completa").style.display = "none";
+			dojo.byId("icone24Completa").style.display = "none";
+			dojo.byId("icone25Aberta").style.display = "none";
+			
+			// Novas bancas inseridas FIM 
+
+			dojo.byId("icone11Participa").style.display = "none";
+			dojo.byId("icone12Participa").style.display = "none";
+			dojo.byId("icone13Participa").style.display = "none";
+			dojo.byId("icone14Participa").style.display = "none";
+			dojo.byId("icone15Participa").style.display = "none";
+
+			// Novas bancas inseridas
+			
+			dojo.byId("icone21Participa").style.display = "none";
+			dojo.byId("icone22Participa").style.display = "none";
+			dojo.byId("icone23Participa").style.display = "none";
+			dojo.byId("icone24Participa").style.display = "none";
+			dojo.byId("icone25Participa").style.display = "none";
+			
+			// Novas bancas inseridas FIM
+
+			dojo.byId("recusarBanca11").style.display = "none";
+			dojo.byId("recusarBanca12").style.display = "none";
+			dojo.byId("recusarBanca13").style.display = "none";
+
+			dojo.byId("celula1 4").style.backgroundColor = "#AADDCC";
+			dojo.byId("celula1 5").style.backgroundColor = "#AADDCC";
+
+			// Novas bancas inseridas 
+			
+			dojo.byId("recusarBanca21").style.display = "none";
+			dojo.byId("recusarBanca22").style.display = "none";
+			dojo.byId("recusarBanca23").style.display = "none";
+			dojo.byId("recusarBanca24").style.display = "none";
+			
+			dojo.byId("celula2 5").style.backgroundColor = "#AADDCC";			
+			
+			// Novas bancas inseridas FIM
+
+			dojo.fadeOut({node: "inf11",duration: 1}).play();
+
+			/*
+			 * Funcionalidades da primeira banca (domingo no primeiro horário)
+			 */
+
+			/*dojo.byId("link11").onmouseover = function(ev){
+				dojo.fadeIn({node: "inf11",duration: 300}).play();
+			}
+			dojo.byId("link11").onmouseout = function(ev){
+				dojo.fadeOut({node: "inf11",duration: 500}).play();
+			}*/
+			dojo.byId("link11").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca11").show();				
+			}
+			dojo.byId("aceitarBanca11").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca11").hide();
+				dojo.byId("icone11Aberta").style.display = "none";
+				dojo.byId("icone11Completa").style.display = "block";
+				dojo.byId("icone11Participa").style.display = "block";
+				dojo.byId("celula1 1").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca11").style.display = "none";
+				dojo.byId("recusarBanca11").style.display = "block";				
+			}
+			dojo.byId("recusarBanca11").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca11").hide();
+				dojo.byId("icone11Aberta").style.display = "block";
+				dojo.byId("icone11Completa").style.display = "none";
+				dojo.byId("icone11Participa").style.display = "none";
+				dojo.byId("celula1 1").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca11").style.display = "block";
+				dojo.byId("recusarBanca11").style.display = "none";
+			}
+			dojo.byId("fechar11").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca11").hide();
+			}
+
+			/*
+			 * Funcionalidades da segunda banca (segunda-feira no primeiro horário)
+			 */
+			dojo.byId("link12").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca12").show();
+			}
+			dojo.byId("aceitarBanca12").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca12").hide();
+				dojo.byId("icone12Aberta").style.display = "none";
+				dojo.byId("icone12Completa").style.display = "block";
+				dojo.byId("icone12Participa").style.display = "block";
+				dojo.byId("celula1 2").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca12").style.display = "none";
+				dojo.byId("recusarBanca12").style.display = "block";
+			}
+			dojo.byId("recusarBanca12").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca12").hide();
+				dojo.byId("icone12Aberta").style.display = "block";
+				dojo.byId("icone12Completa").style.display = "none";
+				dojo.byId("icone12Participa").style.display = "none";
+				dojo.byId("celula1 2").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca12").style.display = "block";
+				dojo.byId("recusarBanca12").style.display = "none";
+			}
+			dojo.byId("fechar12").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca12").hide();
+			}
+
+			/*
+			 * Funcionalidades da Terceira banca (terca-feira no primeiro horário)
+			 */
+			dojo.byId("link13").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca13").show();
+			}
+			dojo.byId("aceitarBanca13").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca13").hide();
+				dojo.byId("icone13Aberta").style.display = "none";
+				dojo.byId("icone13Completa").style.display = "block";
+				dojo.byId("icone13Participa").style.display = "block";
+				dojo.byId("celula1 3").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca13").style.display = "none";
+				dojo.byId("recusarBanca13").style.display = "block";
+			}
+			dojo.byId("recusarBanca13").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca13").hide();
+				dojo.byId("icone13Aberta").style.display = "block";
+				dojo.byId("icone13Completa").style.display = "none";
+				dojo.byId("icone13Participa").style.display = "none";
+				dojo.byId("celula1 3").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca13").style.display = "block";
+				dojo.byId("recusarBanca13").style.display = "none";
+			}
+			dojo.byId("fechar13").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca13").hide();
+			}
+
+			/*
+			 * Funcionalidades da Quarta banca (quarta-feira no primeiro horário)
+			 */
+			dojo.byId("link14").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca14").show();
+			}
+			dojo.byId("fechar14").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca14").hide();
+			}
+
+			/*
+			 * Funcionalidades da Quinta banca (quinta-feira no primeiro horário)
+			 */
+			dojo.byId("link15").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca15").show();
+			}
+			dojo.byId("fechar15").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca15").hide();
+			}
+
+			// Novas bancas inseridas 
+			
+			dojo.byId("link21").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca21").show();				
+			}
+			dojo.byId("aceitarBanca21").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca21").hide();
+				dojo.byId("icone21Aberta").style.display = "none";
+				dojo.byId("icone21Completa").style.display = "block";
+				dojo.byId("icone21Participa").style.display = "block";
+				dojo.byId("celula2 1").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca21").style.display = "none";
+				dojo.byId("recusarBanca21").style.display = "block";				
+			}
+			dojo.byId("recusarBanca21").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca21").hide();
+				dojo.byId("icone21Aberta").style.display = "block";
+				dojo.byId("icone21Completa").style.display = "none";
+				dojo.byId("icone21Participa").style.display = "none";
+				dojo.byId("celula2 1").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca21").style.display = "block";
+				dojo.byId("recusarBanca21").style.display = "none";
+			}
+			dojo.byId("fechar21").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca21").hide();
+			}
+
+			/*
+			 * Funcionalidades da segunda banca (segunda-feira no primeiro horário)
+			 */
+			dojo.byId("link22").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca22").show();
+			}
+			dojo.byId("aceitarBanca22").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca22").hide();
+				dojo.byId("icone22Aberta").style.display = "none";
+				dojo.byId("icone22Completa").style.display = "block";
+				dojo.byId("icone22Participa").style.display = "block";
+				dojo.byId("celula2 2").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca22").style.display = "none";
+				dojo.byId("recusarBanca22").style.display = "block";
+			}
+			dojo.byId("recusarBanca22").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca22").hide();
+				dojo.byId("icone22Aberta").style.display = "block";
+				dojo.byId("icone22Completa").style.display = "none";
+				dojo.byId("icone22Participa").style.display = "none";
+				dojo.byId("celula2 2").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca22").style.display = "block";
+				dojo.byId("recusarBanca22").style.display = "none";
+			}
+			dojo.byId("fechar22").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca22").hide();
+			}
+
+			/*
+			 * Funcionalidades da Terceira banca (terca-feira no primeiro horário)
+			 */
+			dojo.byId("link23").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca23").show();
+			}
+			dojo.byId("aceitarBanca23").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca23").hide();
+				dojo.byId("icone23Aberta").style.display = "none";
+				dojo.byId("icone23Completa").style.display = "block";
+				dojo.byId("icone23Participa").style.display = "block";
+				dojo.byId("celula2 3").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca23").style.display = "none";
+				dojo.byId("recusarBanca23").style.display = "block";
+			}
+			dojo.byId("recusarBanca23").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca23").hide();
+				dojo.byId("icone23Aberta").style.display = "block";
+				dojo.byId("icone23Completa").style.display = "none";
+				dojo.byId("icone23Participa").style.display = "none";
+				dojo.byId("celula2 3").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca23").style.display = "block";
+				dojo.byId("recusarBanca23").style.display = "none";
+			}
+			dojo.byId("fechar23").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca23").hide();
+			}
+
+			/*
+			 * Funcionalidades da Quarta banca (quarta-feira no primeiro horário)
+			 */
+			dojo.byId("link24").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca24").show();
+			}
+			dojo.byId("aceitarBanca24").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca24").hide();
+				dojo.byId("icone24Aberta").style.display = "none";
+				dojo.byId("icone24Completa").style.display = "block";
+				dojo.byId("icone24Participa").style.display = "block";
+				dojo.byId("celula2 4").style.backgroundColor = "#AADDCC";
+				dojo.byId("aceitarBanca24").style.display = "none";
+				dojo.byId("recusarBanca24").style.display = "block";
+			}
+			dojo.byId("recusarBanca24").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca24").hide();
+				dojo.byId("icone24Aberta").style.display = "block";
+				dojo.byId("icone24Completa").style.display = "none";
+				dojo.byId("icone24Participa").style.display = "none";
+				dojo.byId("celula2 4").style.backgroundColor = "#FFFFDD";
+				dojo.byId("aceitarBanca24").style.display = "block";
+				dojo.byId("recusarBanca24").style.display = "none";
+			}
+			dojo.byId("fechar24").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca24").hide();
+			}
+
+			/*
+			 * Funcionalidades da Quinta banca (quinta-feira no primeiro horário)
+			 */
+			dojo.byId("link25").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca25").show();
+			}
+			dojo.byId("fechar25").onclick = function(ev){
+				dijit.byId("dialogEscolhaBanca25").hide();
+			}
+			
+			// Novas bancas inseridas FIM
+
+			/*
+			 * Sistema de busca do sistema (filtragem em todos os campos)
+			 */
+			dojo.byId("filtroBusca").onkeyup = function(ev){
+				evento = ev || window.event;
+				var str = dojo.byId("filtroBusca").value;
+				
+				for(var lin = 1; lin < numeroLinhas; lin++){
+					for(var col = 1; col < numeroColunas; col++){
+						if(dojo.byId("dialogBanca" + lin + "" + col) != null){
+							var banca = dojo.byId("dialogBanca" + lin + "" + col).innerHTML;
+							if(banca.toUpperCase().match(str.toUpperCase()) == null){
+								dojo.fadeOut({node: "celula" + lin + " " + col,duration: 1000}).play();
+							}else{
+								dojo.fadeIn({node: "celula" + lin + " " + col,duration: 1000}).play();
+							}
+						}else
+							dojo.fadeOut({node: "celula" + lin + " " + col,duration: 1000}).play();	
+						if(dojo.byId("filtroBusca").value.length == 0)
+							dojo.fadeIn({node: "celula" + lin + " " + col,duration: 1000}).play();																				
+					}
+				}
+			}
+			dojo.byId("filtroBusca").onclick = function(ev){
+				this.value = "";
+			}	
+			dojo.byId("filtroBusca").onfocus = function(ev){
+				this.value = "";
+			}
+		});		
+	</script>
+	<noscript>Sem suporte javascript algumas funcionalidades de usabilidade ficam indisponíveis.</noscript>
+	<style type="text/css"> 
+		@import "dojo/dojo/resources/dojo.css";
+		@import "dojo/dijit/themes/tundra/tundra.css";
+		@import "norisk.css";
+	</style>	
+</head>
+<body class="tundra">
+	<div class="header">
+		<div class="logo">
+			<img src="images/logo.png" alt="Logo do sistema No Risk Planning" class="logoSistema"></img>
+		</div>
+		<div class="busca">
+			
+			<img src="images/search.png" alt="Ícone de busca por palavras chave no sistema." class="iconesLabel"></img>
+			
+			<label for="filtroBusca">Procurar: </label>
+			
+			<input class="dijit dijitReset dijitLeft dijitTextBox" type="text" name="busca" id="filtroBusca" value="insira palavras de busca"></input>
+			
+			<img src="images/carregando.gif" alt="Ícone que indica que a página está carregando." class="iconesCarregando" id="iconesCarregando"></img>
+		</div>
+		
+		<div class="tamanho" id="divTamanho">
+				<fieldset title="Tamanho das Letras:">
+					<legend>Tamanho das Letras:</legend>
+					<a href="#" class="iconeTamanho" id="tamanhoNormal"><img src="images/text.png" alt="fonte tamanho Normal." class="iconeTamanhoNormal"></img></a>
+					<a href="#" class="iconeTamanho" id="tamanhoAumentado"><img src="images/text.png" alt="fonte aumentada." class="iconeTamanhoAumentada"></img></a>
+				</fieldset>
+		</div>
+		
+		<div class="logoutSistema">
+			<a class="logoutSistema" href="index.html">Sair do Sistema</a>
+			<a href="index.html" class="iconeLogout"><img src="images/logout.png" alt="Ícone que indica a saida do sistema." class="iconesLabel"></img></a>
+		</div>
+		<div dojoType="dijit.Tooltip" style="display:none" connectId="filtroBusca">
+		    <p class="avisoLogin">Insira palavras para facilitar sua <span class="labelNegrito">busca</span> pelas bancas.</p>
+		</div>
+		<br />
+	</div>
+	
+	<div class="body" id="divBody">
+	
+		<table cellspacing="0">
+			<caption>Tabela de visualização das bancas em formato calendário</caption>
+			<tr>
+				<th class="primeiraCelula">Horários</th>
+<!--				<th class="legendaDia">Domingo 17/07</th>-->
+				<th class="legendaDia">Segunda 09/02</th>
+				<th class="legendaDia">Terça 10/02</th>
+				<th class="legendaDia">Quarta 11/02</th>
+				<th class="legendaDia">Quinta 12/02</th>
+				<th class="legendaDia">Sexta 13/02</th>
+<!--				<th class="legendaDia">Sábado 23/07</th>			-->
+			</tr>
+			<tr>
+				<th>08:00 </th>
+				<td id="celula1 1">
+					<a href="#dialogEscolhaBanca11" id="link11">Engenharia de Software</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link11" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> SOA - Service Oriented Architecture</li>
+							<li><span class="labelNegrito">Área do projeto:</span> Engenharia de Software</li>
+							<li><span class="labelNegrito">Palavras-chave:</span> Webservices, SOA</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone11Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone11Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone11Participa"></img>
+																		
+				</td>
+				<td id="celula1 2">
+					<a href="#dialogEscolhaBanca12" id="link12">Sistemas Web e Interativos</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link12" class="infAd">
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> PorSimples: simplifica&ccedil;&atilde;o textual</li>
+							<li><span class="labelNegrito">Área do projeto:</span> Sistemas Web e Interativos</li>
+							<li><span class="labelNegrito">Palavras-chave:</span> simplifica&ccedil;&atilde;o textual, acessibilidade</li>
+						</ul>
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone12Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone12Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone12Participa"></img>
+													
+				</td>
+				<td id="celula1 3">
+					<a href="#dialogEscolhaBanca13" id="link13">Engenharia de Software</a>				
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link13" class="infAd">
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> Aprendizagem Adaptativa</li>
+						 	<li><span class="labelNegrito">Área do projeto:</span> Engenharia de Software</li>
+						 	<li><span class="labelNegrito">Palavras-chave:</span> adapta&ccedil;&atilde;o, aprendizagem, informações de contexto</li>
+						</ul>
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone13Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone13Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone13Participa"></img>
+													
+				</td>
+				<td id="celula1 4">
+					<a href="#dialogEscolhaBanca14" id="link14">Computa&ccedil;&atilde;o Gr&aacute;fica</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link14" >
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> An&aacute;lise de conte&uacute;do multim&iacute;dia</li>
+							<li><span class="labelNegrito">Área do projeto:</span> Computa&ccedil;&atilde;o Gr&aacute;fica</li>
+							<li><span class="labelNegrito">Palavras-chave:</span> An&aacute;lise multim&iacute;dia</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone14Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone14Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone14Participa"></img>
+																		
+				</td>
+				<td id="celula1 5">
+					<a href="#dialogEscolhaBanca15" id="link15">Sistemas Distribu&iacute;dos</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link15" >
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> An&aacute;lise de desempenho</li>
+							<li><span class="labelNegrito">Área do projeto:</span> Sistemas Distribu&iacute;dos</li>
+							<li><span class="labelNegrito">Palavras-chave:</span> Webservices, desempenho</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone15Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone15Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone15Participa"></img>
+																		
+				</td>
+<!--				<td id="celula1 6">-->
+<!--					<a href="#" id="link16"></a>													-->
+<!--				</td>-->
+<!--				<td id="celula1 7">-->
+<!--					<a href="#" id="link17"></a>													-->
+<!--				</td>			-->
+			</tr>
+<!-- ************************************************************************
+	 ************************************************************************
+	 ************************************************************************
+	 
+	 					Segunda semana acrescentada
+	 
+	 ************************************************************************
+	 ************************************************************************
+	 ************************************************************************	 	   
+ -->
+			<tr>
+				<th>08:50 </th>
+				<td id="celula2 1">
+					<a href="#dialogEscolhaBanca21" id="link21">Redes</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link21" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span> Handover</li>
+							<li><span class="labelNegrito">Área do projeto:</span> Redes</li>
+							<li><span class="labelNegrito">Palavras-chave:</span> Handover, redes sem fio</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone21Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone21Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone21Participa"></img>
+				</td>
+				<td id="celula2 2">
+					<a href="#dialogEscolhaBanca22" id="link22">Inteligência Artificial</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link22" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span>Redes de elementos complexo para processamento de informação</li>
+							<li><span class="labelNegrito">Área do projeto:</span>Inteligência Artificial</li>
+							<li><span class="labelNegrito">Palavras-chave:</span>redes neurais; sistemas dinâmicos</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone22Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone22Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone22Participa"></img>
+				</td>
+				<td id="celula2 3">
+					<a href="#dialogEscolhaBanca23" id="link23">Banco de Dados</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link23" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span>Distribuição dos Dados em Ambientes de Data Warehousing</li>
+							<li><span class="labelNegrito">Área do projeto:</span>Banco de Dados</li>
+							<li><span class="labelNegrito">Palavras-chave:</span>Data Warehouse; Distribuição dos Dados</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone23Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone23Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone23Participa"></img>
+				</td>
+				<td id="celula2 4">
+					<a href="#dialogEscolhaBanca24" id="link24">Computação Gráfica</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link24" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span>Duas Abordagens para Reconstrução Tridimensional a partir de Imagens</li>
+							<li><span class="labelNegrito">Área do projeto:</span>Computação Gráfica</li>
+							<li><span class="labelNegrito">Palavras-chave:</span>image based 3D reconstruction</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone24Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone24Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone24Participa"></img>
+				</td>
+				<td id="celula2 5">
+					<a href="#dialogEscolhaBanca25" id="link25">Sistemas Embarcados</a>
+					<div dojoType="dijit.Tooltip" style="display:none" connectId="link25" >
+<!--					<div id="inf11" class="informacoesAvancadas">-->
+					    <ul class="infAd">
+							<li><span class="labelNegrito">Título:</span>Restabelecimento de Energia em Sistemas de Distribuição</li>
+							<li><span class="labelNegrito">Área do projeto:</span>Sistemas Embarcados</li>
+							<li><span class="labelNegrito">Palavras-chave:</span>Restabelecimento de Energia; Reconfiguração de Redes</li>
+						</ul>					
+					</div>
+					<img src="images/check2.svg.png" alt="Ícone que indica que a banca está completa." class="iconeCompleta" id="icone25Completa"></img>
+					<img src="images/verificar.png" alt="Ícone que indica que a banca está aberta." class="iconeAberta" id="icone25Aberta"></img>
+					<img src="images/user.png" alt="Ícone que indica que o usuários logado participa desta banca." class="iconeParticipa" id="icone25Participa"></img>
+				</td>
+<!--				<td id="celula2 6">-->
+<!--					<a href="#" id="link26"></a>-->
+<!--				</td>-->
+<!--				<td id="celula2 7">-->
+<!--					<a href="#" id="link27"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>09:40 </th>
+				<td id="celula3 1">
+					<a href="#" id="link31"></a>
+				</td>
+				<td id="celula3 2">
+					<a href="#" id="link32"></a>
+				</td>
+				<td id="celula3 3">
+					<a href="#" id="link33"></a>
+				</td>
+				<td id="celula3 4">
+					<a href="#" id="link34"></a>
+				</td>
+				<td id="celula3 5">
+					<a href="#" id="link35"></a>
+				</td>
+<!--				<td id="celula3 6">-->
+<!--					<a href="#" id="link36"></a>-->
+<!--				</td>-->
+<!--				<td id="celula3 7">-->
+<!--					<a href="#" id="link37"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>10:40 </th>
+				<td id="celula4 1">
+					<a href="#" id="link41"></a>
+				</td>
+				<td id="celula4 2">
+					<a href="#" id="link42"></a>
+				</td>
+				<td id="celula4 3">
+					<a href="#" id="link43"></a>
+				</td>
+				<td id="celula4 4">
+					<a href="#" id="link44"></a>
+				</td>
+				<td id="celula4 5">
+					<a href="#" id="link45"></a>
+				</td>
+<!--				<td id="celula4 6">-->
+<!--					<a href="#" id="link46"></a>-->
+<!--				</td>-->
+<!--				<td id="celula4 7">-->
+<!--					<a href="#" id="link47"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>11:30 </th>
+				<td id="celula5 1">
+					<a href="#" id="link51"></a>
+				</td>
+				<td id="celula5 2">
+					<a href="#" id="link52"></a>
+				</td>
+				<td id="celula5 3">
+					<a href="#" id="link53"></a>
+				</td>
+				<td id="celula5 4">
+					<a href="#" id="link54"></a>
+				</td>
+				<td id="celula5 5">
+					<a href="#" id="link55"></a>				
+				</td>
+<!--				<td id="celula5 6">-->
+<!--					<a href="#" id="link56"></a>-->
+<!--				</td>-->
+<!--				<td id="celula5 7">-->
+<!--					<a href="#" id="link57"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>12:20 </th>
+				<td id="celula6 1">
+					<a href="#" id="link61"></a>
+				</td>
+				<td id="celula6 2">
+					<a href="#" id="link62"></a>
+				</td>
+				<td id="celula6 3">
+					<a href="#" id="link63"></a>
+				</td>
+				<td id="celula6 4">
+					<a href="#" id="link64"></a>
+				</td>
+				<td id="celula6 5">
+					<a href="#" id="link65"></a>
+				</td>
+<!--				<td id="celula6 6">-->
+<!--					<a href="#" id="link66"></a>-->
+<!--				</td>-->
+<!--				<td id="celula6 7">-->
+<!--					<a href="#" id="link67"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>14:00 </th>
+				<td id="celula7 1">
+					<a href="#" id="link71"></a>
+				</td>
+				<td id="celula7 2">
+					<a href="#" id="link72"></a>
+				</td>
+				<td id="celula7 3">
+					<a href="#" id="link73"></a>
+				</td>
+				<td id="celula7 4">
+					<a href="#" id="link74"></a>
+				</td>
+				<td id="celula7 5">
+					<a href="#" id="link75"></a>
+				</td>
+<!--				<td id="celula7 6">-->
+<!--					<a href="#" id="link76"></a>-->
+<!--				</td>-->
+<!--				<td id="celula7 7">-->
+<!--					<a href="#" id="link77"></a>-->
+<!--				</td>			-->
+			</tr>
+			<tr>
+				<th>14:50 </th>
+				<td id="celula8 1">
+					<a href="#" id="link81"></a>								
+				</td>
+				<td id="celula8 2">
+					<a href="#" id="link82"></a>
+				</td>
+				<td id="celula8 3">
+					<a href="#" id="link83"></a>
+				</td>
+				<td id="celula8 4">
+					<a href="#" id="link84"></a>
+				</td>
+				<td id="celula8 5">
+					<a href="#" id="link85"></a>
+				</td>
+<!--				<td id="celula8 6">-->
+<!--					<a href="#" id="link86"></a>-->
+<!--				</td>-->
+<!--				<td id="celula8 7">-->
+<!--					<a href="#" id="link87"></a>-->
+<!--				</td>			-->
+			</tr>
+		</table>
+	</div>	
+	<div class="footer">
+		 <img src="images/selo_daSilva.gif" alt="selo de site Acessível" class="selo"></img>
+		Sugestões ao sistema: <div class="email">agsf@icmc.usp.br</div> ou <div class="email">watinha@icmc.usp.br</div>
+	</div>
+	<div dojoType="dijit.Dialog" id="dialogEscolhaBanca11" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca11">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca11">
+							 	<li><span class="labelNegrito">Título:</span> SOA - Service Oriented Architecture</li>
+							 	<li><span class="labelNegrito">Área do projeto:</span> Engenharia de Software</li>
+							 	<li><span class="labelNegrito">Palavras-chave:</span> Webservices, SOA</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Renata Pontin de Mattos Fortes</li>
+							 	<li><span class="labelNegrito">Aluno:</span> Adalberto Gonzaga da Silva Filho</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 09/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:00 am às 08:50 am</li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca11">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca11">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar11">Fechar Janela</a>	
+						</div>
+		</div>			
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca12" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca12">
+						 <div class="resumoDados">
+						 	<h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca12">
+							 	<li><span class="labelNegrito">Título:</span> PorSimples: simplifica&ccedil;&atilde;o textual</li>
+							 	<li><span class="labelNegrito">Área do projeto:</span> Sistemas Web e Interativos</li>
+							 	<li><span class="labelNegrito">Palavras-chave:</span> simplifica&ccedil;&atilde;o textual, acessibilidade</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Renata Pontin de Mattos Fortes</li>
+							 	<li><span class="labelNegrito">Aluno:</span> Willian Massami Watanabe</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 10/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:00  às 08:50 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca12">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca12">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar12">Fechar Janela</a>	
+						</div>
+		</div>
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca13" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca13">
+						 <div class="resumoDados">
+						 	<h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca13">
+							 	<li><span class="labelNegrito">Título:</span> Aprendizagem Adaptativa</li>
+							 	<li><span class="labelNegrito">Área do projeto:</span> Engenharia de Software</li>
+							 	<li><span class="labelNegrito">Palavras-chave:</span> adapta&ccedil;&atilde;o, aprendizagem, informações de contexto</li>
+							 	<li><span class="labelNegrito">Orientador(a):</span> Paulo Fonseca</li>
+							 	<li><span class="labelNegrito">Aluno:</span> João Jill</li>						 	
+							 	<li><span class="labelNegrito">Data da banca:</span> 11/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:00  às 08:50 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca13">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca13">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar13">Fechar Janela</a>	
+						</div>
+					</div>
+					
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca14" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca14">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca14">
+							 	<li><span class="labelNegrito">Título:</span> An&aacute;lise de conte&uacute;do multim&iacute;dia</li>
+								<li><span class="labelNegrito">Área do projeto:</span> Computa&ccedil;&atilde;o Gr&aacute;fica</li>
+								<li><span class="labelNegrito">Palavras-chave:</span> An&aacute;lise multim&iacute;dia</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Maria Josefina</li>
+							 	<li><span class="labelNegrito">Aluno:</span> João José Jonh</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 12/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:00  às 08:50 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a style="display:none;" class="participarBanca" href="#" id="aceitarBanca14">Participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar14">Fechar Janela</a>	
+						</div>
+					</div>
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca15" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca15">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca15">
+							 	<li><span class="labelNegrito">Título:</span> An&aacute;lise de desempenho</li>
+								<li><span class="labelNegrito">Área do projeto:</span> Sistemas Distribu&iacute;dos</li>
+								<li><span class="labelNegrito">Palavras-chave:</span> Webservices, desempenho</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Al&eacute;rcio Miller</li>
+							 	<li><span class="labelNegrito">Aluno:</span> Silvio Mant</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 13/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:00  às 08:50 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a style="display:none;" class="participarBanca" href="#" id="aceitarBanca15">Participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar15">Fechar Janela</a>	
+						</div>
+					</div>
+					
+<!-- ************************************************************************
+	 ************************************************************************
+	 ************************************************************************
+	 
+	 					Segunda semana acrescentada
+	 
+	 ************************************************************************
+	 ************************************************************************
+	 ************************************************************************	 	   
+ -->
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca21" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca21">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca21">
+							 	<li><span class="labelNegrito">Título:</span> Handover</li>
+								<li><span class="labelNegrito">Área do projeto:</span> Redes</li>
+								<li><span class="labelNegrito">Palavras-chave:</span> Handover, redes sem fio</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> João Gusm</li>
+							 	<li><span class="labelNegrito">Aluno:</span> Roberto Rigolin</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 09/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:50  às 09:40 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca21">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca21">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar21">Fechar Janela</a>	
+						</div>
+					</div>
+					
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca22" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca22">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca22">
+							 	<li><span class="labelNegrito">Título:</span>Redes de elementos complexo para processamento de informação</li>
+								<li><span class="labelNegrito">Área do projeto:</span>Inteligência Artificial</li>
+								<li><span class="labelNegrito">Palavras-chave:</span>redes neurais; sistemas dinâmicos</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Lúcio Matmorry</li>
+							 	<li><span class="labelNegrito">Aluno:</span>Thiago Jabur</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 10/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:50  às 09:40 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca22">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca22">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar22">Fechar Janela</a>	
+						</div>
+					</div>
+					
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca23" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca23">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca23">
+							 	<li><span class="labelNegrito">Título:</span>Distribuição dos Dados em Ambientes de Data Warehousing</li>
+								<li><span class="labelNegrito">Área do projeto:</span>Banco de Dados</li>
+								<li><span class="labelNegrito">Palavras-chave:</span>Data Warehouse; Distribuição dos Dados</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Mario Gilberto Cunha</li>
+							 	<li><span class="labelNegrito">Aluno:</span> José Augusto</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 11/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:50  às 09:40 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca23">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca23">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar23">Fechar Janela</a>	
+						</div>
+					</div>
+					
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca24" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca24">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca24">
+							 	<li><span class="labelNegrito">Título:</span>Duas Abordagens para Reconstrução Tridimensional a partir de Imagens</li>
+								<li><span class="labelNegrito">Área do projeto:</span>Computação Gráfica</li>
+								<li><span class="labelNegrito">Palavras-chave:</span>image based 3D reconstruction</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Ynwagn Mao</li>
+							 	<li><span class="labelNegrito">Aluno:</span>Roberto Sadao</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 12/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:50  às 09:40 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a class="participarBanca" href="#" id="aceitarBanca24">Participar da banca</a>
+							 <a class="participarBanca" href="#" id="recusarBanca24">Deixar de participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar24">Fechar Janela</a>	
+						</div>
+					</div>
+					
+		<div dojoType="dijit.Dialog" id="dialogEscolhaBanca25" 
+						 title="Escolha Banca" 
+						 execute=""
+						 name="dialogEscolhaBanca25">
+						 <div class="resumoDados">
+						 	 <h1 class='content'>Informações Específicas da Banca</h1>
+							 <div class='content'></div>
+							 <ul class="dialogBanca" id="dialogBanca25">
+							 	<li><span class="labelNegrito">Título:</span>Restabelecimento de Energia em Sistemas de Distribuição</li>
+								<li><span class="labelNegrito">Área do projeto:</span>Sistemas Embarcados</li>
+								<li><span class="labelNegrito">Palavras-chave:</span>Restabelecimento de Energia; Reconfiguração de Redes</li>							 	
+							 	<li><span class="labelNegrito">Orientador(a):</span> Plages Irnul</li>
+							 	<li><span class="labelNegrito">Aluno:</span> Francisco Lobo das Pradarias</li>
+							 	<li><span class="labelNegrito">Data da banca:</span> 13/02/2009</li>
+							 	<li><span class="labelNegrito">Horário:</span> 08:50  às 09:40 </li>
+							 	<li><span class="labelNegrito">Resumo:</span> Blablablablablablablablablablabla
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablablablablabl
+							 		Blablablablablablablablablablabla.		 		
+							 	</li>
+							 </ul>
+							 <a style="display:none;" class="participarBanca" href="#" id="aceitarBanca25">Participar da banca</a>
+							 <a class="fecharJanela" href="#" id="fechar25">Fechar Janela</a>	
+						</div>
+					</div>					
+
+ 
+ 
+</body>
+</html>

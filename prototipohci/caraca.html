@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>RIA Test</title>
+	<script type="text/javascript" src="dojo/dojo/dojo.js" djConfig="parseOnLoad:true, isDebug:false"></script>
+	<script type="text/javascript">
+		// **********************			TESTES			****************************** 
+		function verificarValor(){
+			selectElement = document.getElementById("selectCity");
+			alert(selectElement);
+			//var indexSelected = selectElement.selectedIndex;
+			//var stringExit =  indexSelected + " : " + selectElement.options[indexSelected].text;			
+			//alert(stringExit); 
+		}
+		dojo.addOnLoad(function(){
+			dojo.require("dijit.form.FilteringSelect");
+			dojo.require("dijit.TitlePane");
+			dojo.require("dijit.form.Button");
+			dojo.require("dijit.Dialog");
+			dojo.require("dijit.Tooltip");
+			dojo.require("dojo.parser");					
+		});
+		var message = "Which city would you like to go?";
+		var inicial = 1;
+	</script>
+	<style type="text/css"> 
+		@import "dojo/dojo/resources/dojo.css";
+		@import "dojo/dijit/themes/tundra/tundra.css";
+	</style>	
+	
+</head>
+
+<body class="tundra"  style="margin:50px 100px 50px 100px;" id="bodyDocument">
+
+	<h1 style="margin-bottom:35px;">Test for V+X and Dojo Widgets in HTML</h1>
+	<form id="form1" name="form1" method="post" action="" >
+		<p>
+			<div class="col_esquerda">
+	  			<label for='selectCity' style="float:left;">Available City: *</label>
+			</div>	
+			<div>
+				<select dojoType="dijit.form.FilteringSelect" name="selectCity" id="selectCity" autoComplete="false" invalidMessage="Invalid City" title="Available City">
+
+					<option value="blank"></option>
+					<option value="Albany (New York)" id="optionCity0">Albany (New York)</option> 
+					<option value="Austin (Texas)" id="optionCity1">Austin (Texas)</option> 
+					<option value="Frankfort (Kentucky)" id="optionCity2">Frankfort (Kentucky)</option> 
+					<option value="Las Vegas (Nevada)" id="optionCity3">Las Vegas (Nevada)</option> 
+					<option value="Miami (Florida)" id="optionCity4">Miami (Florida)</option> 
+					<option value="Montgomery (Alabama)" id="optionCity5">Montgomery (Alabama)</option> 
+					<option value="Nashville (Tennessee)" id="optionCity6">Nashville (Tennessee)</option> 
+					<option value="Phoenix (Arizona)" id="optionCity7">Phoenix (Arizona)</option> 
+					<option value="Sacramento (California)" id="optionCity8">Sacramento (California)</option> 	  
+				</select>	
+				<div dojoType="dijit.Tooltip" style="display:none" connectId="selectCity">
+
+				    <p style="width:300px;">You can fill in this field with voice or by keyboard. If you type or speak the initials, the form will be filled and then you can press the down key to see a list of possible matches for your choice.</p>
+				</div>
+			</div>								
+			
+		</p>
+		<button onclick="verificarValor();return false;">Verify</button>
+	</form>
+</body>
+</html>

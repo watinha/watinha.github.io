@@ -1,0 +1,48 @@
+*{margin:0;padding:0}
+
+/*html{overflow-y:scroll;}*/
+body{font:14px 'Trebuchet MS', Arial, Sans-serif;background:#cdcdcd}
+
+ol,ul{margin-left:50px;background:transparent}
+
+a:link{color:#00f}
+a:visited{color:#00c}
+a:hover,a:focus{color:#8abc43}
+label{cursor:pointer}
+/*span{background:blue}*/
+
+#editor {width:100% !important;width:99%;margin:0 auto;display:block;height:300px}
+#header{height:132px;color:#fff;background:#427ad1}
+#header a{text-decoration:none;color:#fff}
+#porsimples,#title{padding:40px 0 0 55px;height:92px}
+#porsimples{background:url(/facilita/images/bg_header_left.jpg) no-repeat 0 0}
+#porsimples a{font-size:3em;font-weight:700;letter-spacing: -2px;}
+#porsimples .gray{color:#ccc}
+#header{background:url(/facilita/images/bg_header.jpg) #427ad1}
+#title{float:right;background:url(/facilita/images/bg_header_right.jpg) no-repeat right 0;margin-top:-132px;padding-right:45px}
+#title a{font-size:2em;font-weight:700;display:block;padding-top:10px}
+#slogan{float:left;margin:-4em 0 0 75px;font-size:.8em}
+
+#content{padding:20px 40px;background:url(/facilita/images/bg_left.jpg) repeat-y}
+#operacoes{margin-top:10px;text-align:center}
+#operacoes input{margin:0 5px}
+#revisao{margin-top:10px;text-align:center}
+#revisao input{margin:0 5px}
+
+#site{background:url(/facilita/images/bg_right.jpg) repeat-y right 0 #fff;width:100%;min-width:790px;max-width:1100px;margin: 0 auto;}
+#footer{background:url(/facilita/images/bg_footer.jpg) 0 bottom #fff repeat-x;font-size:.8em}
+#cop{background:url(/facilita/images/bg_footer_left.jpg) 0 bottom no-repeat;text-align:center;height:55px}
+#cop p{background:url(/facilita/images/bg_footer_right.jpg) right 0 no-repeat;height:37px;padding:18px 0 0}
+
+.mceStatusbarDestaque{border:1px solid #000 !important;background:#c0c0c0 !important}
+.mceStatusbarDestaque{border:1px solid #000 !important;background:#3167bd !important;color:#fff !important}
+.mceStatusbarDestaque #editor_path_row{font-weight:700;font-size:1.1em;color:#fff}
+
+fieldset{padding:5px;margin:5px 0}
+legend{font-weight:700;font-size:1.1em;border:1px solid #000;padding:0 2px;margin-left:5px}
+
+#simplificador_opcoes_content{margin-left:15px}
+
+#btn_simplifica{background:#8abc43;color:#fff;font-size:1.5em;font-weight:700;border:1px solid #ccc;padding:2px 8px;cursor:pointer}
+#btn_simplifica:hover,#btn_simplifica:focus{background:#98ce4d}
+#btn_simplifica:active{background:#7ca73e}

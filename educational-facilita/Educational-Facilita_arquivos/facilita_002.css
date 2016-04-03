@@ -1,0 +1,182 @@
+/*
+    Document   : prototipo-facilita2
+    Created on : May 23, 2009, 2:41:57 PM
+    Author     : watinha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+div.esquemaAbas{
+  margin: -0.5em 1em 1em 1em;
+  padding: 0em 4em 1em 4em;
+  background-color: #EEEEEE;
+  min-height: 25em;
+}
+div.corpo{
+  padding: 3em 5em 2em 5em;
+  background-color: #FFFFFF;
+  border: solid #AAAACC 0.1em;
+  position: relative;
+  bottom: 1em;
+  z-index: 0;
+}
+div.instrucoes{
+  text-align: justify;
+}
+div.instrucoes p{
+  text-indent: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+div.instrucoes p span{
+  font-weight: bolder;
+}
+div.esquemaAbas li.abas{
+  display: inline;
+  padding: 0.7em 1em 0.7em 1em;
+  background-color: #EEEEFF;
+  font-weight: bolder;
+  font-size: 1em;
+  position: relative;
+  bottom: 0.7em;
+  border: solid #AAAACC 0.1em;
+  margin-right: -0.3em;
+  position: relative;
+  color: #FFFFFF;
+  z-index: 1;
+}
+div.esquemaAbas li.abas:hover{
+  background-color: #FFFFAA;
+  color: #F9F9F9;
+}
+div.esquemaAbas li.abas a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 1.3em;
+  font-family: arial;
+}
+div.esquemaAbas li.abas:hover a{
+
+}
+div.instrucoes .tituloAba{
+  float: right;
+  padding: 0.3em 1em 0.7em 1em;
+  background-color: #EEEEFF;
+  margin: 0.3em 0em 0.3em 1em;
+}
+div.instrucoes ul.instrucoesInstalacao{
+  list-style-type: decimal;
+  line-height: 1.5em;
+}
+div.instrucoes ul{
+  list-style-type: circle;
+}
+div.esquemaAbas li.clicado{
+  background-color: #FFFFFF;
+  color: #000000;
+  border-bottom: none;
+  padding: 1em 1.5em 1em 1.5em;
+}
+div.esquemaAbas li.abas a.clicado{
+  color: #000000;
+}
+span.negrito{
+  font-weight: bolder;
+}
+div.validacoes{
+
+}
+h2.tituloAba a{
+  color: #000000;
+  cursor: default;
+}
+p{
+  font-size:1.2em;
+  font-family: arial;
+}
+ul{
+  font-size:1.2em;
+  font-family: arial;
+}
+div.carregando{
+  text-align: center;
+  padding: 0 auto;
+}
+div#abaCarregando{
+  display: none;
+}
+a.corpoConteudo{
+    display:none;
+}
+div.voltarIndice{
+    margin-top: 1em;
+    text-align: right;
+}
+div.novaMensagem{
+	display: none;
+}
+h3.nova{
+    background-color: #BBBBFF;
+}
+div.novaMensagem{
+    margin-bottom: 3em;
+}
+input#submitMensagem{
+    float:right;
+    padding: 0.1em 0.2em 0.1em 0.2em;
+    background-color: #DDDDFF;
+    font-size: 1.3em;
+    position: relative;
+    top: 0.5em;
+}
+input#submitMensagem:hover{
+    background-color: #EEEEFF;
+}
+div.entrada{
+    margin-left: 2em;
+    margin-top: 1em;
+    background-color: #DDDDFF;
+    padding: 0.5em 2em 0.5em 2em;
+}
+h3.mensagens{
+    padding: 0.1em 3em 0.1em 3em;
+    margin: 1em 0 1em 0;
+}
+h3.lista{
+    background-color: #DDDDEE;
+}
+div.mensagem{
+    margin-left: 2em;
+    margin-top: 1em;
+    background-color: #F6F6F6;
+    padding: 0.5em 2em 0.1em 2em;
+}
+span.auxilio{
+    color: #FF0000;
+}
+ul.listaInline{
+
+}
+ul.listaInline li{
+    display: inline;
+    margin: 1em 1em 1em 1em;
+}
+a.linkNavegador img{
+    border:none;
+}
+div.instrucoes img.navegador{
+    float: right;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+img.superiorDireito{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+span.italico{
+    font-style: italic;
+}

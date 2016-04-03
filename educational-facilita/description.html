@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><head>
+
+
+<meta name="Description" content="Educational Facilita is a Web application that automatically provides reading assistance for Web sites textual content. Educational Facilita was developed under the Jetpack platform.">
+<meta name="Keywords" content="porsimples, textual elaboration, facilita, educational, learning, named entity recognition, lexical elaboration, accessibility, reading assistance">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Distribution" content="Global">
+<meta name="googlebot" content="noodp">
+<meta name="robots" content="index, follow">
+
+<title>Educational Facilita Jetpack</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="Educational-Facilita_arquivos/simplifica2.css" 
+media="screen" rel="stylesheet" type="text/css">
+<link rel="stylesheet" 
+href="Educational-Facilita_arquivos/simplifica.css" type="text/css">
+<link href="Educational-Facilita_arquivos/facilita.css" media="screen" 
+rel="stylesheet" type="text/css">
+<link rel="stylesheet" 
+href="Educational-Facilita_arquivos/facilita_002.css" type="text/css">
+<script src="Educational-Facilita_arquivos/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+</script>
+</head><body>
+<div id="site">
+<a href="#comecoConteudo" style="display: none;">Conteúdo</a>
+<div id="header">
+	<div id="porsimples"><a href="http://caravelas.icmc.usp.br/wiki"><span 
+class="white">Por</span><span class="white">Simples</span></a></div>
+	<div id="slogan">Simplificando o Portugu&ecirc;s</div>
+	<div id="title"><a href="http://caravelas.icmc.usp.br/portal/wiki"><span
+ class="white" id="facilitaHeading">Educational Facilita</span></a></div>
+	<!--<a id="presentation" 
+href="index2.html"><img
+ alt="Versão em português deste mesmo site." class="superiorDireito" 
+src="brazil.jpeg" height="20" width="30"></a>
+--></div>
+
+<div id="content">
+  <div class="esquemaAbas">
+    <ul>
+      
+        <li class="abas" id="index">
+      <a href="index.html" class="linkAbas" id="index" 
+name="comecoConteudo">Presentation</a></li>
+        <li class="abas clicado" id="description">
+      <a href="description.html" class="linkAbas">Description</a></li>
+        <li class="abas" id="howto">
+      <a href="howto.html" class="linkAbas">How to use</a></li>
+        <li class="abas" id="contato">
+      <a href="contact.html" class="linkAbas">Contact</a></li>
+    </ul>
+    <div id="abasDinamicas">
+      <a class="corpoConteudo" name="corpoConteudo">Main Content</a>
+    	<div style="display: block;" class="corpo" id="abaApresentacao">
+  <div class="instrucoes">
+        <h2 class="tituloAba"><a name="apresentacao">Description</a></h2>
+        <p>In order to deliver this functionality we make use of three distinct textual processing modules:</p>
+        <ul>
+          <li><span style="font-weight:bold;">Readability: </span> some of the textual processing techniques that we use require the establishment of concrete relations among the words that belong to a phrase in the text (syntactic analysis). So that we can identify phrases inside any page that is being presented to users we will use the <a href="http://lab.arc90.com/experiments/readability/" title="Arc90 Readability Web page">Readability application</a> implemented by the <a href="http://arc90.com/" title="Arc90 Website">Arc90</a>. The Readability application selects a specific element inside the page that contains the "main" content, and in this "main" content it becomes easier to identify phrases. </li>
+          <li><span style="font-weight:bold;">Named Entities recognition: </span> next we need to identify and present users with informations about named entities in a text. As an example we can look into the expression "Luis Inácio Lula da Silva" which is the name of the President of Brazil. This information is not necessarily available on the text, but is implicit in the expression. In order to make this implicit information available to users, we make use of Rembrandt to both label the expression above with “person” and also direct this expression to its  correspondent link in the <a href="http://pt.wikipedia.org/wiki/Página_principal" title="Portuguese Wikipedia Web application">Wikipedia</a>. It is important to acknowledge that the Named Entities Recognition methods identify the <span style="font-weight:bold">class</span> of the named entities present in the text. And by doing that we can extendt the Educational Facilita prototype to search for references about the named entity identified in other resources available on the Web, in the future. For example: if we find the named entity New York, the named entity recognition system would identify it as being of the class "Place" or "Location". With that information we could look for a reference of the named entity found in the <a href="http://maps.google.com">Google Maps</a> and present it to the user. Another example can be made with the named entity "President Obama". The named entity recognition system would identify it as being of class "person" and by doing that Educational Facilita interpret it and look for President Obama's reference in the <a href="http://www.facebook.com">Facebook</a> or on <a href="http://www.twitter.com">Twitter</a>. This kind of operation or behavior is illustrated on the following Figure. <img src="images/educational_facilita_ner.jpg" width="700px" alt="Named Entity recognition system outline of assistance with multiple Web 2.0 applications."/></li>
+          <li><span style="font-weight:bold;">Lexical Elaboration: </span> finally the last module evaluates the complexity of each word separately. Accordingly to the result of this evaluation Educational Facilita will present the user with synonyms for this word that might be more easily understood by users. We already implemented a very similar functionality in the <a href="http://caravelas.icmc.usp.br" title="PorSimples project Web site">PorSimples Project</a> and will probably reuse it in the Jetpack platform.</li>
+        </ul>
+        <p>The 3 modules would work as presented in the following Figure. First we would apply the readability module on the Web page to identify the main text in it. Next we would run simultaneouly the Named Entity Recognition module and the Lexical Elaboration modules having as input the main text identified by the Readability module. Next we integrate both responses from the Named Entity Recognition and Lexical Elaboration module into a unique HTML code. Finally we insert the unique HTML code in the page which activated the Educational Facilita resource.</p>
+        <img src="images/educational_facilita_modules2.jpg" alt="Educational Facilita's modules working together" width="790px"/>
+        <p>It is important to acknowledge that the Educational Facilita will be implemented, initially, just for Brazilian Portuguese. Given that the applications and modules already implemented are directed to this language. However, the migration of Educational Facilita to other languages just require the substitution of the presented modules by other modules with the same functionality for other languages. Following the same architecture.</p>
+        <p>Now, going for the technological details of the proposed solution for Educational Facilita. Each of the three modules is implemented in a different environment, in a way that they not necessarily can be implemented in Javascript or in the Jetpack Platform. For example, the Lexical Elaboration module was developed in clear php, while the Named Entities recognition operates over groove in Java language. This kind of characteristics among the modules, leads us in the use of webservices to deliver these functionality together in the Educational Facilita. More specifically we will probably use REST to integrate these functionalities.</p>
+        <p>This way, in the technological point of view, the architecture should work like illustrated in the following figure.</p>
+        <img src="images/educational_facilita_technology.jpg" width="790px" alt="Educational Facilita technological architecture"/>
+        <div class="voltarIndice">
+          <a href="#comecoConteudo">Begin of content</a>
+        </div>
+  </div>
+</div>
+
+  	</div>
+  	<div style="display: none;" class="corpo" id="abaCarregando">
+  	    <div class="instrucoes carregando">
+  	      <h2 class="tituloAba"><a name="carregando">Aguarde...</a></h2>
+  	      <img alt="Aguarde, enquanto o conteúdo está sendo carregado" 
+src="Educational-Facilita_arquivos/loading.gif">
+  	    </div>
+  	</div>
+	</div>
+<!--  <div class="validacao">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:none;width:88px;height:31px;float:right;" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!!!" /></a>
+        <a href="http://validator.w3.org/check?uri=referer"><img  style="border:none;float:right;height:31px;width:88px;" src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Strict" /></a>
+  </div>-->
+</div>
+	<div id="footer">
+		<div id="cop">
+		<p>© 2009 <span class="negrito">PorSimples</span></p>
+		</div>
+
+	</div>
+</div>
+</body></html>
