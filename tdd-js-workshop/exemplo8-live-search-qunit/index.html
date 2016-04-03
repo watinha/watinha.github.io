@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Exemplo 8 - Live-search Orientado a Objetos com QUnit</title>
+    </head>
+    <body>
+        <label for="busca">Busca</label><input type="text" name="busca" value="" id="busca"/>
+        <ul id="suggestions"></ul>
+        <script type="text/javascript" charset="utf-8" src="live-search.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var live_search = LiveSearch({
+                    input: document.querySelector("input"),
+                    container: document.querySelector("#suggestions"),
+                    elements: ["Abobrinha", "Uva", "Maçã", "Abacaxi", "Melão"]
+                });
+        </script>
+    </body>
+</html>

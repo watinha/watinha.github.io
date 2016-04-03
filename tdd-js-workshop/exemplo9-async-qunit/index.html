@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Exemplo 9 - Async</title>
+    </head>
+    <body>
+        <label for="search">Search</label><input type="text" name="search" value="" id="search"/>
+        <input id="enviar" type="submit" name="enviar" value="buscar"/>
+        <ul></ul>
+        <script type="text/javascript" charset="utf-8" src="jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="load-books.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        var loader = LoadBooks({
+                target: $("ul")
+            }),
+            search = $("#search");
+        $("#enviar").click(function () {
+            loader.load(search.val());
+        });
+        </script>
+    </body>
+</html>

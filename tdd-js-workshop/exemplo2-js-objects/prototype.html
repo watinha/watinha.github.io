@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Exemplo 2 - Prototype</title>
+        <script type="text/javascript" charset="utf-8">
+            function Contador () {
+                this.cont = 0;
+                this.restart_time();
+            };
+            Contador.prototype = {
+                incrementar: function () {
+                    this.cont++;
+                },
+                restart_time: function () {
+                    this.timer = setInterval(function () {
+                        c.incrementar();
+                    }, 1000);
+                },
+                stop_time: function () {
+                    clearTimeout(this.timer);
+                },
+                alert_time: function () {
+                    document.body.innerHTML += "<p>" + (this.cont) + "</p>";
+                }
+            };
+            var c = new Contador();
+        </script>
+    </head>
+    <body>
+        <button onclick="c.alert_time()">alert time</button>
+        <button onclick="c.stop_time()">stop time</button>
+        <button onclick="c.restart_time()">restart time</button>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+    <body>
+        <button>clique em mim</button>
+        <div style="top:25%;left:25%" class="dialog sumido">Dialog supimpa
+            <button>fechar</button>
+        </div>
+        <div class="overlay sumido"></div>
+        <style type="text/css" media="screen">
+            .overlay {
+                position: fixed; width: 100%; height: 100%;
+                background-color: black; top: 0; left: 0;
+                opacity: 0.70;
+
+                -webkit-transition: height ease-in 1s;
+                   -moz-transition: height ease-in 1s;
+                        transition: height ease-in 1s;
+            }
+            .dialog {
+                position: fixed; z-index: 1; width: 50%;
+                height: 50%; background-color: white;
+                overflow: hidden;
+
+                box-shadow: 3px 3px 3px #666;
+
+                -webkit-transition: height linear 2s;
+                   -moz-transition: height linear 2s;
+                        transition: height linear 2s;
+            }
+            .dialog.sumido{
+                height: 0;
+
+                -webkit-transition: height linear 2s;
+                   -moz-transition: height linear 2s;
+                        transition: height linear 2s;
+            }
+            .overlay.sumido {
+                height: 0;
+            }
+        </style>
+        <script type="text/javascript" charset="utf-8">
+            var botao_apresentar = document.querySelector("body  button"),
+                botao_sumir = document.querySelector(".dialog button"),
+                overlay = document.querySelector(".overlay"),
+                dialog = document.querySelector(".dialog");
+            botao_apresentar.addEventListener("click", function () {
+                dialog.className = "dialog";
+                overlay.className = "overlay";
+            });
+            botao_sumir.addEventListener("click", function () {
+                dialog.className = "dialog sumido";
+                overlay.className = "overlay sumido";
+            });
+            (function () {
+                var draggable = false,
+                    dialogX = (window.screen.availWidth / 4),
+                    dialogY = (window.screen.availHeight / 4),
+                    mouse_distanceX, mouse_distanceY;
+                dialog.addEventListener("mousedown", function (ev) {
+                    draggable = true;
+                    mouse_distanceX = ev.screenX - dialogX;
+                    mouse_distanceY = ev.screenY - dialogY;
+                });
+                dialog.addEventListener("mouseup", function (ev) {
+                    draggable = false;
+                });
+                dialog.addEventListener("mouseout", function (ev) {
+                    draggable = false;
+                });
+                dialog.addEventListener("mousemove", function (ev) {
+                    if (draggable) {
+                        var moveX = (ev.screenX - mouse_distanceX),
+                            moveY = (ev.screenY - mouse_distanceY);
+                        dialog.style.left = moveX + "px";
+                        dialog.style.top =  moveY + "px";
+                        dialogX = moveX;
+                        dialogY = moveY;
+                    }
+                });
+            }());
+        </script>
+    </body>
+</html>

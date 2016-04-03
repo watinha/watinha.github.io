@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Computação Pervasiva</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../../css/reveal.min.css">
+		<link rel="stylesheet" href="../../css/theme/beige.nofont.css" id="theme">
+		<link rel="stylesheet" href="../../lib/css/zenburn.css">
+	</head>
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section data-background="FFFFFF">
+					<h2>Computação Pervasiva</h2>
+					<p>
+						<small><a href="http://wwatana.be">Willian Massami Watanabe</a></small>
+					</p>
+				</section>
+				<section class="left_align" data-background="#99FF99">
+                    <style type="text/css" media="screen">
+                        .left_align .fragment .highlight {
+                            color: #996600;
+                            font-size: 45px;
+                            float: right;
+                        }
+                        .left_align li {
+                            margin: 15px 0;
+                        }
+                    </style>
+                    <h3>Linhas de pesquisa</h3>
+                    <ul>
+                        <li class="fragment">Engenharia Web</li>
+                        <li class="fragment">Engenharia de Usabilidade</li>
+                        <li class="fragment">Engenharia de Software</li>
+                        <li class="fragment">Computação Pervasiva <span class="highlight">--</span></li>
+                    </ul>
+				</section>
+
+                <section data-background="#DDAA99" class="frase_efeito">
+                    <style type="text/css" media="screen">
+                        .frase_efeito .frase {
+                            line-height: 60px;
+                        }
+                        .reveal .slides .frase_efeito > .fragment {
+                            opacity: 1;
+                            transform: translateY(200px);
+                            -webkit-transform: translateY(200px);
+                            -moz-transform: translateY(200px);
+                        }
+                        .reveal .slides .frase_efeito > .fragment.visible {
+                            transform: translateY(0);
+                            -webkit-transform: translateY(0);
+                            -moz-transform: translateY(0);
+                        }
+                        .reveal .slides .frase_efeito > .fragment > .desaparecer{
+                            transition: all linear 1s;
+                            -webkit-transition: all linear 1s;
+                            -moz-transition: all linear 1s;
+                            max-height: 800px;
+                            overflow: hidden;
+                        }
+                        .reveal .slides .frase_efeito > .fragment.visible > .desaparecer{
+                            max-height: 0;
+                            opacity: 0;
+                        }
+                        .reveal .slides .frase_efeito > .fragment .tandan {
+                            opacity: 0;
+                            border: none;
+                            transition: all linear 2s;
+                            -webkit-transition: all linear 2s;
+                            -moz-transition: all linear 2s;
+                        }
+                        .reveal .slides .frase_efeito > .fragment.visible .tandan {
+                            opacity: 1;
+                        }
+                        .reveal .slides .frase_efeito > .fragment img.tandan {
+                            box-shadow: 5px 10px 10px #333;
+                        }
+                    </style>
+                    <div class="fragment">
+                        <h3 class="frase">Quem é o mais famoso cientista da computação?</h3>
+                        <img class="tandan" src="images/tony_stark.jpg" alt="Tony Stark" />
+                    </div>
+                </section>
+
+                <section class="ironman_components components1">
+                    <style type="text/css" media="screen">
+                        .reveal .slides .ironman_components img {
+                            border: none;
+                            box-shadow: 5px 10px 10px #333;
+                        }
+                        .reveal .slides .ironman_components.components1 > img {
+                            transform: translate(-350px, -200px);
+                        }
+                        .reveal .slides .ironman_components > .fragment {
+                            opacity: 1;
+                        }
+                        .reveal .slides .ironman_components > .fragment > .fragment {
+                            position: absolute;
+                            right: 200px;
+                            top: 0px;
+
+                            transform: scale(1.7);
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment {
+                            opacity: 1;
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment.visible {
+                            transform: scale(0.7);
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment.one.visible {
+                            right: 0px;
+                            top: -210px;
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment.second.visible {
+                            right: 50px;
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment.third.visible {
+                            left: 200px;
+                            top: 70px;
+                        }
+                        .reveal .slides .ironman_components > .fragment.visible > .fragment.forth.visible {
+                            top: 200px;
+                            left: 0;
+                        }
+                    </style>
+                    <img height="150px" src="images/tony_stark.jpg" alt="Tony Stark" />
+                    <div class="fragment">
+                        <img class="fragment one"
+                             height="400px"
+                             src="images/tony_stark_talking.png"
+                             alt="Tony Stark talking to his computer" />
+                    </div>
+                    <div class="fragment">
+                        <img class="fragment second"
+                             height="400px"
+                             src="images/ironman-cellphone.jpg"
+                             alt="Tony Stark cellphone" />
+                    </div>
+                    <div class="fragment">
+                        <img class="fragment third"
+                             height="400px"
+                             src="images/tony-computer4.jpg"
+                             alt="Tony Stark holograms" />
+                    </div>
+                    <div class="fragment">
+                        <img class="fragment forth"
+                             height="600px"
+                             src="images/tony-natural-interfaces.png"
+                             alt="Tony Stark interacting with computer" />
+                    </div>
+                </section>
+
+                <section data-background="#AACCFF" class="frase_efeito">
+                    <div class="fragment">
+                        <style type="text/css" media="screen">
+                            .reveal .slides .frase_efeito > .fragment > ul.tandan {
+                                box-shadow: 0 0 0 #000;
+                                height: 300px;
+                            }
+                            .reveal .slides .frase_efeito > .fragment {
+                                transform: translateY(100px);
+                            }
+                        </style>
+                        <h3 class="frase">Como isso é construído?</h3>
+                        <ul class="tandan">
+                            <li>Modelo computacional</li>
+                            <li>Muita matemática</li>
+                            <li class="fragment roll-in">Algoritmos</li>
+                            <li class="fragment roll-in">Interface Humano-Computador</li>
+                            <li class="fragment roll-in">Engenharia de Software</li>
+                            <li class="fragment roll-in">Redes</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="frase_efeito">
+                    <style type="text/css" media="screen">
+                        .frase_efeito .fragment.setinhas .tandan img {
+                            border: none;
+                            box-shadow: 5px 10px 10px #333;
+                        }
+                    </style>
+                    <div class="fragment setinhas">
+                        <h2>Não é tão ficção!!!</h2>
+                        <div class="tandan">
+                            <img src="images/iphone-stark.png" alt="Iphone semelhante ao telefone do Stark" />
+                            <img src="images/xbox-stark.png" alt="Kinnect semelhante à interação do Stark" />
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <style type="text/css" media="screen">
+                        .reveal .slides img {
+                            border: none;
+                            box-shadow: 5px 10px 10px #333;
+                        }
+                    </style>
+                    <img src="images/siri-stark.png" alt="Siri da Apple semelhante ao Jarvis" />
+                </section>
+
+                <section data-background="#FFCC99" class="ironman_components weiser">
+                    <style type="text/css" media="screen">
+                        .reveal .slides .ironman_components.weiser .fragment .fragment.visible.one {
+                            top: 0;
+                            right: 70%;
+                        }
+                        .reveal .slides .ironman_components.weiser .fragment.visible .fragment.second {
+                            top: 150px;
+                            right: 100px;
+                        }
+                        .reveal .slides .ironman_components.weiser .fragment.visible .fragment.visible.second {
+                            transform: scale(1);
+                        }
+                        .reveal .slides .ironman_components.weiser .fragment.visible .fragment.third {
+                            transform: scale(0.5);
+                            top: 0;
+                            right: 0;
+                        }
+                        .reveal .slides .ironman_components.weiser .fragment.visible .fragment.visible.third {
+                            opacity: 0;
+                        }
+                        .reveal .slides .ironman_components.weiser > .fragment.visible > .fragment.forth {
+                            transform: scale(0.7);
+                            top: 80%;
+                            right: 0;
+                        }
+                        .reveal .slides .ironman_components.weiser > .fragment.visible > .fragment.visible.forth {
+                            transform: scale(0.7);
+                            top: 80%;
+                            right: 0;
+                        }
+                    </style>
+                    <img src="images/weiser21.png" alt="Artigo do Weiser" />
+                    <div class="fragment">
+                        <img class="fragment one"
+                             height="400px"
+                             src="images/weiser3.png"
+                             alt="Usuários interagindo com dispositivos móveis e lousa eletrônica" />
+                    </div>
+                    <div class="fragment">
+                        <img class="fragment second"
+                             height="400px"
+                             src="images/weiser4.png"
+                             alt="Modelo de computação do século 21" />
+                    </div>
+                    <div class="fragment">
+                        <div class="fragment third">
+                            <img height="400px"
+                                 src="images/apple-ipad-mini-pr.jpeg"
+                                 alt="iPad" />
+                            <img height="400px"
+                                 src="images/galaxytab.jpg"
+                                 alt="Galaxy Tab" />
+                        </div>
+                    </div>
+                    <div class="fragment">
+                        <img class="fragment forth"
+                             height="100px"
+                             src="images/weiser2.png"
+                             alt="Ano 1991 de publicação na Scientific American" />
+                    </div>
+                </section>
+
+                <section class="frase_efeito">
+                    <style type="text/css" media="screen">
+
+                    </style>
+                    <div class="fragment">
+                        <h3>Computação Pervasiva</h3>
+                        <div class="tandan">
+                            <img class="fragment"
+                                 height="200px"
+                                 src="images/apple-ipad-mini-pr.jpeg"
+                                 alt="iPad" />
+                            <img class="fragment"
+                                 height="200px"
+                                 src="images/galaxytab.jpg"
+                                 alt="GalaxyTab" />
+                            <img class="fragment"
+                                 height="200px"
+                                 src="images/siri-iphone1.png"
+                                 alt="iPhone e Siri" />
+                            <img class="fragment"
+                                 height="200px"
+                                 src="images/xbox.jpg"
+                                 alt="Xbox" />
+                            <img class="fragment"
+                                 height="200px"
+                                 src="images/google-glass.jpg"
+                                 alt="Google Glass" />
+                            <img class="fragment"
+                                 height="100px"
+                                 src="images/google.jpg"
+                                 alt="Google" />
+                            <img class="fragment"
+                                 height="100px"
+                                 src="images/google-maps.jpg"
+                                 alt="Google Maps" />
+                            <img class="fragment"
+                                 height="100px"
+                                 src="images/facebook_logo1.jpg"
+                                 alt="Facebook" />
+                        </div>
+                    </div>
+                </section>
+
+                <section data-background="#AAFFAA" class="frase_efeito">
+                    <style type="text/css" media="screen">
+                        ul.lista {
+                            margin-top: 50px;
+                        }
+                        ul.lista li {
+                            margin: 25px 0;
+                        }
+                    </style>
+                    <div class="fragment">
+                        <h3>Experiência do Usuário</h3>
+                        <ul class="tandan lista">
+                            <li>Importância da transparência de interação</li>
+                            <li>Práticas e conhecimentos tácitos dos usuários</li>
+                            <li>Permitir que os usuários se concentrem nos objetivos de suas atividades</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-background="#AAFFAA">
+                    <h3>Objetivos da computação pervasiva</h3>
+                    <ul class="lista">
+                        <li>Compreensão das práticas das pessoas</li>
+                        <li>Desenvolvimento de dispositivos de interação heterogêneos</li>
+                        <li>Orquestração dos dispositivos para melhorar a experiência do usuário</li>
+                    </ul>
+                </section>
+
+                <section data-background="#AAFFAA">
+                    <h3>Áreas de pesquisa</h3>
+                    <ul class="lista">
+                        <li>Interação física</li>
+                        <li>Temas de aplicações</li>
+                        <li>Teorias de design e avaliação</li>
+                    </ul>
+                </section>
+
+                <section class="frase_efeito">
+                    <div class="fragment">
+                        <h3>Interação física</h3>
+                        <div class="desaparecer">
+                            <img src="images/desktop-devices.png" alt="Dispositivos de entrada convencional" />
+                            <p>Dispositivos de entrada convencional</p>
+                        </div>
+                        <div class="tandan">
+                            <img height="200px"
+                                 src="images/apple-ipad-mini-pr.jpeg"
+                                 alt="iPad" />
+                            <img height="200px"
+                                 src="images/galaxytab.jpg"
+                                 alt="GalaxyTab" />
+                            <img height="200px"
+                                 src="images/siri-iphone1.png"
+                                 alt="iPhone e Siri" />
+                            <img height="200px"
+                                 src="images/xbox.jpg"
+                                 alt="Xbox" />
+                            <img height="200px"
+                                 src="images/google-glass.jpg"
+                                 alt="Google Glass" />
+                            <p>Computação pervasiva</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <style type="text/css" media="screen">
+                        .reveal .slides .negrito {
+                            font-weight: bold;
+                        }
+                    </style>
+                    <h3>Dispositivos de Entrada</h3>
+                    <ul class="lista">
+                        <li><span class="negrito">Explícitos:</span> mouse, teclado e monitor</li>
+                        <li><span class="negrito">Implícitos:</span> escrita, voz e gestos</li>
+                        <li class="fragment"><span class="negrito">Implícitos++:</span> identificação individual, localização e atividade</li>
+                    </ul>
+                    <p class="fragment roll-in"><span class="negrito">Meios Explícitos + Meio Implícitos = Contexto</span></p>
+                </section>
+
+                <section>
+                    <h3>Dispositivos de Entrada: Contexto</h3>
+                    <ul class="lista">
+                        <li>GPS</li>
+                        <li>Notificações de celular via bluetooth</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Meios de saída de informações</h3>
+                    <ul class="lista">
+                        <li>Não exclusividade de um monitor</li>
+                        <li>Diferentes dimensões de dispositivos</li>
+                        <li>Pick and drop</li>
+                        <li>Prioridade de informações</li>
+                        <li>Realidade aumentada</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img class="fragment roll-in"
+                         height="400px"
+                         style="transform: translateY(0px)"
+                         src="images/tony_stark_talking.png"
+                         alt="Tony Stark talking to his computer" />
+                    <img class="fragment roll-in"
+                         height="200px"
+                         style="transform: translate(500px, -200px)"
+                         src="images/tony-computer3.jpg"
+                         alt="Tony Stark holograms" />
+                    <img class="fragment roll-in"
+                         height="300px"
+                         style="transform: translate(-400px, -100px)"
+                         src="images/tony-natural-interfaces.png"
+                         alt="Tony Stark interacting with computer" />
+                 </section>
+
+                <section>
+                    <h3>Temas das aplicações</h3>
+                    <p>
+                        <span class="negrito">Objetivo:</span>
+                        integração de diferentes serviços
+                    </p>
+                    <ul class="lista">
+                        <li>Ciência de contexto</li>
+                        <li>Captura e acesso</li>
+                        <li>Continuidade de serviços</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Ciência de contexto</h3>
+                    <p>
+                        <span class="negrito">Informações de contexto:</span>
+                        onde, quem, quando, o que e porquê
+                    </p>
+                    <ul class="lista">
+                        <li>Perceber e interpretar as informações de contexto</li>
+                        <li>Representação de informações</li>
+                        <li>Combinação de informações</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Captura e acesso</h3>
+                    <p>
+                        Capturar as informações para realizar revisões no futuro
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Continuidade dos serviços</h3>
+                    <p>
+                        Foco na atividade
+                    </p>
+                    <ul class="lista">
+                        <li>Fim e começo</li>
+                        <li>Concorrência de atividades</li>
+                        <li>Tempo da atividade</li>
+                        <li>Modelos associativos</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Referências</h3>
+                    <ul class="lista">
+                        <li>Abowd, G. D., Mynatt, E. D., and Rodden, T. 2002. The Human Experience. IEEE Pervasive Computing 1, 1 (Jan. 2002), 48-57. DOI= http://dx.doi.org/10.1109/MPRV.2002.993144</li>
+                        <li>M. Weiser, The Computer of the 21st Cen-
+                        tury, Scientific American, vol. 265, no. 3,
+                        Sept. 1991, pp. 66–75 (reprinted in this
+                        issue, see pp. 19–25).</li>
+                    </ul>
+                </section>
+			</div>
+
+		</div>
+
+		<script src="../../lib/js/head.min.js"></script>
+		<script src="../../js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../../plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

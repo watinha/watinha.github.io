@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Exemplo 3 - Revisão DOM</title>
+        <style type="text/css">
+            ul li {
+                padding: 10px;
+                -moz-transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                -ie-transition: all linear 0.3s;
+                transition: all linear 0.3s;
+                box-shadow: 3px 2px 3px #666;
+            }
+            ul li:hover {
+                background-color: #FFEE66 !important;
+                transform: scale(1.2) translateX(150px);
+                -moz-transform: scale(1.2) translateX(150px);
+                -webkit-transform: scale(1.2) translateX(150px);
+                -o-transform: scale(1.2) translateX(150px);
+                -ie-transform: scale(1.2) translateX(150px);
+            }
+            ul li span {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exemplo 3</h1>
+        <button id="stop">stop</button><button id="restart">restart</button>
+        <ul></ul>
+        <script type="text/javascript" src="closure.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var lista = document.querySelector("ul"),
+                contador = Contador(),
+                button_stop = document.querySelector("#stop");
+                button_start = document.querySelector("#restart");
+
+            button_stop.addEventListener("click", function () {
+                contador.stop_time();
+            });
+            button_start.addEventListener("click", function () {
+                contador.restart_time();
+            });
+            for (var i = 1; i <= 15; i++) {
+                var li = document.createElement("li");
+                li.style.backgroundColor = (i % 2 == 0) ? "white" : "#EDEDED";
+                li.innerHTML = "Lista com DOM " + i;
+                li.addEventListener("click", function () {
+                    this.innerHTML += "<span> ! clickado em " + contador.get_time() + "</span>";
+                });
+                lista.appendChild(li);
+            };
+        </script>
+    </body>
+</html>
