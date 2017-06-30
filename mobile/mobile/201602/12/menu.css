@@ -1,0 +1,322 @@
+/*
+	Jéssica Terada
+	Paulo Nakatsura
+*/
+body{
+	background-color:white;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-style: verdana;
+}
+
+/*----------------------MENU-------------------------*/
+.direita{
+	float:right;
+	width:65%;
+	margin:0%;
+	padding-top:40px;
+	padding-left:2%;
+	overflow:hidden;
+	display:inline;
+}
+.menu{ /*juncao de todos os dropdown*/
+    color: white;
+	width:95%;
+    padding-right: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	left:0;
+	top:0;	
+}
+.menu ul{
+	float:left;
+	list-style-type:none;
+	
+}
+.dropdown{ /*menu*/
+	padding:1%;
+	display:inline-block;
+
+}
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+
+.logo{
+	display:inline;
+	max-width:50%;
+	min-width:30%;
+}
+.logo img{
+	max-height:30%;
+	max-width:30%;
+	min-height:100px;
+	min-width:200px;
+	width:auto;
+	height:auto;
+}
+.dropdown-conteudo { /*submenu*/
+	list-style-type:none;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:3px;
+	border-radius:10px;
+	border: 2px sollid;
+}
+.navbar{ 
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:inline-block;
+	position:fixed;
+	width:100%;
+	top:0;
+
+	min-width:800px;
+}
+.blue{
+	color:white;
+	background-color:#104F92;
+}
+.opaca{
+	opacity:0.8;
+	filter: alpha(opacity=30);
+}
+.menu-screen{
+	display:none;	
+}
+
+/*----------------------IMAGEM PRINCIPAL-------------------------*/
+.img-inicial{ /*imagem principal*/
+	position: absolute;
+	left:0;
+	top:0;
+	z-index:-2;
+	width: 100%;
+	height:700px;
+	
+}
+.textoprincipal{
+	position:absolute;
+	top:230px;
+	text-align: center;
+	width:70%;
+	left:15%;
+	color: white;
+}
+.img-inicial img{
+	z-index=-2;
+}
+.figural{
+	float:left;	
+}
+.figural img{ /*projetos especiais*/
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	max-width:230px;
+	max-height:230px;
+	min-width:230px;
+	min-height:180px;
+	height:auto;
+}
+.titulo{
+	font-size:30px;
+	font-style:bold;
+	text-shadow: black 0.1em 0.1em 0.3em;
+}
+.descr{
+	font-size:20px;
+	text-align:center;
+	text-shadow: black 0.1em 0.1em 0.3em;
+}
+/*----------------------BOX 1-------------------------*/
+a.fill-div{
+	height: 100%;
+	width: 100%;
+	text-decoration: none;				
+}
+.meio{
+	text-align: center;
+	position: absolute;
+	top: 480px;
+	width: 100%;
+	z-index: -1;
+}
+.box1{ 
+	text-align: center;
+	background-color: rgba(0,76,153,.75);
+	padding: 30px 12px 10px 30px;		
+	margin: 0px 8px;
+	display: inline-block;
+	color: #ffffff;		
+	margin-bottom: 60px;
+	position: relative;	
+}	
+.figura{
+	display: inline-block;
+	width: 143px;
+	height: 145px;
+	background-size: contain;
+	margin: 0 auto 20px;
+}
+.escrita{
+	width: 175px;
+	height: 200px;
+	display: inline-block;
+}
+
+/*----------------------BOX 2-------------------------*/
+.box2{
+	display:inline-block;
+}
+
+.conteiner{
+	position: relative;
+	top: 800px;
+	width: 100%;
+	height: 350px;
+	display: inline-block;
+	text-align: center;
+	z-index: -1;	
+	color: black;
+}
+.quad1{
+	display: inline;
+}
+.quad2{
+	display: inline;
+}
+.blocofig figural{
+	text-align: center;
+	display: inline-block;
+}
+.blocofig div{
+	display: block;
+}
+.blocofig{
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.figural img{ /*projetos especiais*/
+	padding: 0 10px 0;
+	margin: 0 0 0 0;
+	height:auto;
+}
+.desc{
+	padding: 5px;
+    text-align: center;
+	color: black;
+}
+.texto-center{
+	text-align: center;
+	font-size: 40px;
+	color: #38b0de;
+}
+
+/*-------------------MEDIA SCREEN------------------------*/
+@media (max-width: 1000px){
+	.dropdown{
+		display:none;
+	}
+	.menu-screen{
+		display:inline-block;
+		float:right;
+	}
+}
+
+@media screen and (max-width: 1170px){	
+	.figura{
+		width: 0px;
+		height: 0px;
+		margin: 0px;
+	}
+	.icone-mobilidade{
+		display: none;
+	}
+	.icone-clima{
+		display: none;
+	}
+	.icone-qualidade{
+		display: none;
+	}
+	.escrita{
+		width: 170px;
+		height: 200px;
+		text-align: center;
+	}
+	.textoprincipal{
+		top: 170px;
+	}
+}
+
+
+@media screen and (max-width: 1330px){
+	.box2 div {
+		display:block;
+	}
+	.quad1, .quad2{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 730px){
+	.img-inicial{
+		height: 500px;
+	}
+	.meio{
+		top: 500px;
+		display: block;
+		position: relative;
+	}
+	.box1{
+		background-color: #3232CD;
+		padding: 0px;
+		display: block;
+		margin: 0;	
+		text-align: center;
+	}
+	.figura{
+		width: 100%;
+		height: 160px;
+		margin: 0px;
+		display: block;
+		text-align: center;	
+		left: 50%;		
+	}
+	.escrita{
+		width: 100%;
+		height: 120px;
+		margin:0;
+		font-size: 20px;
+		display: block;
+		
+	}
+	.icone-mobilidade{
+		display: block;
+	}
+	.icone-clima{
+		display: block;
+	}
+	.icone-qualidade{
+		display: block;
+	}
+	.conteiner{
+		top: 560px;
+		margin:0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	.img-inicial{
+		z-index: -2;
+	}
+
+}
+
+@media (max-width: 600px){
+	.body{
+		overflow:scroll;		
+	}
+}

@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* Posicionamento */
+
+	/* Display e Box Model */
+	display: block;
+
+	margin: 0;
+	padding: 0;
+
+	/* Cores */
+
+	/* Texto */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+
+	line-height: 1.32;
+
+	/* Outros */
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+button {
+	border: 0;
+    background: none;
+    cursor: pointer;
+
+    align-items: flex-start;
+    text-align: center;
+}

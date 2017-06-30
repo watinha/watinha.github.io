@@ -1,0 +1,222 @@
+body {
+	margin: 0
+}
+
+.wrapall{
+	max-width: 950px;
+	height: 120px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+.menu{
+	width: 950px;
+	height: 120px;
+	position: fixed;
+	background-color: white;
+	opacity: 0.9;
+}
+.menu img {
+	float: left;
+	margin-top: 15px;
+}
+.button_position{
+	width: 5%;
+	height: 5%;
+	display: block;
+	float: left;
+	margin-top: -60px; 
+}
+.button_menu{
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 4px;
+	margin-left: 100px;
+	visibility: hidden;
+}
+.opc{
+	float: left;
+	margin-top: 50px
+}
+.opc a{
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.margin1{
+	border-bottom: 1px solid #A9A9A9;
+}
+.background_propaganda1{
+	max-width: 950px;
+	height: 400px;	
+	margin: 0 auto 0 auto;	
+	margin-top: 10px;
+}
+.background_propaganda2{
+	max-width: 950px;
+	height: 117px;
+	margin: 0 auto 0 auto;
+	margin-top: 15px;
+}
+.background_propaganda2 a{
+	font-family: "Open Sans";
+}
+.propaganda2_left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.left_msg{
+	width: 80%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.box1_model{
+	width: 80px;
+	height: 50px;
+	background-color: #860000;
+	display: block; 
+	float: left;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+.propaganda2_right{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.right_msg{
+	width: 52.6%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.right_video{
+	width: 47.4%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.venda{
+	width: 950px;
+	height: 750px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+.venda p{
+	font-family: "Open Sans";
+}
+.venda_p{
+	width: 33%;
+	height: 88%;
+	margin: 0 auto 0 auto;
+	float: left;
+	display: block;
+}
+.venda_p img{
+	height: 193px;
+	width: 298px;
+}
+.venda_p p{
+	margin-left: 18%;
+	display: block;
+}
+.inventory {
+	width: 19%;
+	height: 4%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 38%;
+}
+.inventory a{
+	width: 180px;
+	height: 30px;
+	background-color: #860000;
+	display: block; 
+	float: left;
+	border-radius: 2px;
+	text-align: center;	
+}
+.button_up_position{
+	width: 70px;
+	height: 70px;
+	float: right;
+	margin-right: 12px;
+	margin-bottom: 10px;
+}
+
+
+@media (max-width: 920px){
+	.background_propaganda1{
+		height: 300px;
+	}
+	.venda{
+		margin-top: 30px;
+	}
+	.propaganda2_left{
+		width: 100%;
+	}
+	.propaganda2_right{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.left_msg{
+		width: 73% 
+	}
+	.right_msg{
+		width: 46%;
+	}
+	.opc{
+		visibility: hidden;
+	}
+	.button_position img{
+		margin-left: 460px;
+	}
+	.button_menu{
+		visibility: visible;
+	}
+}
+@media (max-width: 800px){
+	.background_propaganda1{
+		height: 250px;
+	}
+	.venda{
+		margin-top: 120px;
+	}
+	.button_position img{
+		margin-left: 360px;
+	}
+	.venda_p{
+		float: none;
+		margin-right: 370px;
+	}
+}
+@media (max-width: 700px){
+	.background_propaganda1{
+		height: 200px;
+	}
+	.button_position img{
+		margin-left: 260px;
+	}
+	.venda_p{
+		margin-right: 570px;
+	}
+}
+@media (max-width: 600px){
+	.button_position img{
+		margin-left: 160px;
+	}
+}
+@media (max-width: 500px){
+	.button_position img {
+		margin-left: 60px;
+	}
+}
+@media (max-width: 450px){
+	.button_position img{
+		margin-left: 10px;
+	}
+}

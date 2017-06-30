@@ -1,0 +1,396 @@
+			a:link{
+				text-decoration:none;
+			}
+			a.LinkManchete:link{
+				color: red;
+			}
+			a.LinkManchete:visited{
+				color: red;
+			}
+			a.one:hover{
+			transform: translateZ(0);
+			position: relative;
+			}			
+			a.one:hover::before{
+			content: "";
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 0;
+			top: -1;
+			height: 2px;
+			background: red;
+			}
+			a.two:hover{
+			transform: translateZ(0);
+			position: relative;
+			}	
+			a.two:hover::before{
+			content: "";
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 2px;
+			background: green;
+			
+			}
+			a.three:hover{
+			transform: translateZ(0);
+			position: relative;
+			}	
+			a.three:hover::before{
+			content: "";
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 2px;
+			background: orange;
+			}
+			a.four:hover{
+			transform: translateZ(0);
+			position: relative;
+			}	
+			a.four:hover::before{
+			content: "";
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 2px;
+			background: blue;
+			}
+			.globo{
+				font-family: arial;
+				font-weight: bold;
+				color: blue;
+			}
+			.g1{
+				font-family: arial;
+				font-weight: bold;
+				color: red;
+				display: inline-block;
+				padding-left:5px;
+			}
+			.globoesporte{
+				font-family: arial;
+				font-weight: bold;
+				color: green;
+				padding-left:5px;
+				
+			}
+			.gshow{
+				font-family: arial;
+				font-weight: bold;
+				color: orange;
+				padding-left:10px;
+			}
+			.famosos{
+				font-family: arial;
+				font-weight: bold;
+				color: orange;
+				padding-left:10px;
+			}
+			.videos{
+				font-family: arial;
+				font-weight: bold;
+				color: blue;
+				padding-left:10px;
+			}
+			.barra{
+				background-color:#f3f3f3;
+				margin: -10px -10px 0px -10px;
+				padding: 15px 15px 15px 15px;
+				width: 100%;
+				display: inline-block;
+				
+			}
+			.traco{
+				margin-right: 60px;
+			}
+			.traco b{
+				width: 21px;
+				height: 4px;
+				border-radius: 2px;
+				background: #fff;
+				margin-bottom: 4px;
+				display: block;
+				float: left;
+				
+			}
+			.barra_menu_vermelha{
+				background-color:#c4170c;
+				width: 100%;
+				height: 50px;
+				padding: 10px 10px 10px 15px;
+				margin: 0px -10px -10px -10px;
+				display: inline-block;
+				border-style: solid;
+				border-color: #8B2323;
+				border-top: 1px;
+				
+			}
+			.G1{
+				margin-left: 100px;
+				margin-top: -15px;
+				padding: 1px 1px 1px 1px;
+			}
+			.Buscar{
+				margin-left: 80%;
+				margin-top: -65px;
+				padding: 1px 1px 1px 1px;
+			
+			}
+			.Lupa{
+			position: float;
+					
+			}
+			@media (max-width: 800px){
+			.barra{
+					font-size: 10px;
+				}
+				.email{
+					display: none;
+				}
+				.central{
+					display: none;
+				}
+				.assine{
+					display: none;
+				}
+			.Propaganda{
+				display:none;
+			}
+			.LinkManchete{
+				font-size: 20px;
+			}
+			.conteudoTextual{
+			font-size: 10px;
+			font-family: Arial,sans-serif;		
+			}
+			.item{
+			display:none;	
+			}
+			.Buscar{
+				display:none;
+			}
+			}
+			@media (max-width: 500px){
+			.Noticias1{
+			display:none;
+			}
+			
+			}
+			.G1 h1{
+				text-align: center;
+				font-size: 30px;
+				color: white;
+				font-weight: bold;
+				font-family: Arial;
+			}
+			.Juncao{
+				width: 100px;
+				height: 30px;	
+				padding: 15px 30px 10px 20px;
+				display: inline-block;
+				float: left;
+			}
+			.alinha{
+				float: left;
+
+			}
+			.PalavraMenu{
+			font-family: Arial;
+			font-style: normal;
+			font-weight: bold;
+			color: white;
+			padding-left: 40px;
+			}
+			.news{
+				width: auto;
+				height: auto;
+				background-color: none;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-top: 50px;
+				margin-bottom: 100px;
+			}
+			.coluna{
+				width: auto;
+				height: auto;
+				display: inline;
+				background-color:none;
+			}
+			.Noticias1{
+			width: 49%;
+			height: 510px;
+			background-color:white;
+			border-style: solid;
+			border-color: lightgray;
+			border-width: 1px;
+			float: left;
+			
+			}
+			.Manchete{
+			text-align: left;
+			font-family: Arial,sans-serif;
+			font-size:36px;
+			color: #c4170c;
+			margin-left: 10%;
+			}
+			.Noticias2{
+				width: 49%;
+				height: 250px;
+				margin-bottom: 5px;
+				border-style: solid;
+				border-color: lightgray;
+				border-width: 1px;
+				float: right;
+			}
+			.gravura1{
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+				background-image: url("http://s2.glbimg.com/xGtaCeIh81tnhwIN6rjawE4k6hY=/0x0:3840x2560/690x0/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2016/b/9/ADF9g7TACQsA0GPHlcGg/s-1636.jpg");
+			}
+			.gravura2{
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+				background-image: url("http://s2.glbimg.com/KpVlXd7VrVl6W2RJxid5g8yEoAk=/620x465/s.glbimg.com/jo/g1/f/original/2016/08/29/fabio_rodrigues_pozzebom-agencia_brasil_-2.jpg");
+			}		
+		
+			.X{
+			font-family: Arial,sans-serif;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #fff;
+			margin: 10px 10px 20px;
+			display: block;
+			
+			}
+			.EmbaixoX::after{
+			content: "";
+			width: 50px;
+			height: 4px;
+			margin: 17px 0 20px;
+			background-color: #c4170c;
+			display: block;
+			}
+			.barraV{
+			list-style:none;
+			display: inline-block;
+			}
+			.texto{
+			font-size: 14px;
+			color:black;
+			text-transform: uppercase;
+			margin: 10px 10px 20px;
+			margin-left: 10%;
+			display: block;	
+			}
+			.separar{
+			margin-top: -15px;
+			margin-left: 5px;
+			left: 0;
+			width: 1px;
+			height: 10px;
+			background: #ddd;
+			display:inline-block;
+			}
+			.Propaganda{
+			width: 60%;
+			height: 100px;
+			background-image: url("http://www.flatout.com.br/wp-content/uploads/2015/01/Chevrolet-Bowtie-Evolution-720x340.jpg");
+			margin-left: 200px;
+			margin-top: 50px;
+			}
+			.item{
+			font-family: Arial,sans-serif;
+			font-size:14px;
+			color: black;
+			margin-left: 5%;
+			}
+			.conteudoTextual{
+			font-size: 14px;
+			font-family: Arial,sans-serif;
+			color:black;
+			margin: 10px 10px 20px;
+			margin-left: 10%;
+				
+			}
+			.feed{
+			font-family: Helvetica,Arial,sans-serif;
+			font-size: 20px;
+			margin-bottom: 4px;
+
+			}
+			.CaixaFeed{
+				width: 65%;
+				height: 150px;
+				margin-top: 5%;
+				border-style: solid;
+				border-color: lightgray;
+				border-width: 1px;
+				float: left;
+				display: block;
+			}
+			.Pagina{
+				width: 85%;
+				height: auto;
+				background-color:black;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-top: 50px;
+				margin-bottom: 100px;
+				display: inline-block;
+			
+			}
+			.Economia{
+				width: 34%;
+				height: 450px;
+				margin-top: 5%;
+				border-style: solid;
+				border-color: lightgray;
+				border-width: 1px;
+				float: right;
+			}
+			
+			.menu-videos:hover{
+			background: #fff;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+			opacity: 20;
+			position: absolute;
+			visibility: visible;
+			z-index: 30;
+			}
+			.menu-videos:hover{
+			visibility: visible;
+			}
+			.assine{
+			 	padding-left: 10px;
+			 	float: right;
+			    font-family: arial;
+			    font-size: 12px;
+			    color: #999;
+			}
+			.central{
+				padding-left: 10px;
+			    float: right;
+			    font-family: arial;
+			    font-size: 12px;
+			    color: #999;
+			 }
+			 .email{
+			 	padding-left: 5px;
+				padding-right: 25px;
+			    float: right;
+			    font-family: arial;
+			    font-size: 12px;
+			    color: #999;
+			 }

@@ -1,0 +1,424 @@
+		h1 {
+			font-family: Arial;
+			color: #1C1C1C;
+			font-size: 35px;
+			margin-right: 50px;
+			color:  #4F4F4F;
+		 }
+		 h3{
+		 	font-family: Arial;
+		 	font-size: 17px;
+		 	margin-left: 10px;
+		 	margin-right: 70px;
+		 	color:  #4F4F4F;
+		 }
+		 input[type=text]{
+		 	border-radius: 5px;
+		 	background-color: white;
+		 	border: 1px solid #CDCDC1;
+		 	width: 48%;
+		 	height: 35px;
+		 	font-family: arial;
+		 	color:  #4F4F4F;
+		 }
+		 label{
+		 	font-family: arial;
+		 	font-size: 12px;
+		 	color: #4F4F4F;
+		 }
+		 @media screen and (max-width: 990px){
+		 	label{
+		 		display: none;
+		 	}
+		 	br{
+		 		display: none;
+		 	}
+		 }
+	/*header*/
+	.cabeca{
+		position: absolute;
+		width: 100%;
+		height: 70px;
+		border: 2px solid #CDCDC1;
+		position: fixed;
+		margin: -10px;
+		display: block;
+	}
+	.boxbotaobusins{
+		position: relative;
+		width: 35%;
+		height: 70px;
+		float:left;
+		background-color: white;
+
+	}
+	.boxlogo{
+		width: 30%;
+		height: 70px;
+		float:left;
+		background-color: white;
+		text-align: center;
+	}
+	.boxlinks{
+		width: 35%;
+		height: 70px;
+		float: left;
+		background-color: white;
+	}
+	.logo{
+		position: relative;
+		top: 25%;
+	}
+	.nome{
+		position: relative;
+		top: 25%;
+	}
+	.btn{
+		position: absolute;
+		top:27%;
+		right:5%;
+		bottom: 25%;
+		left: 30%;
+		margin: auto;
+
+		text-align: center;
+		font-family: arial;
+		font-size: 12px;
+		font-weight: bold;
+		cursor: pointer;
+		background-color: white;
+		color: #1E90FF;
+		border: 1px solid #1E90FF;
+		border-radius: 5px;
+	}
+	.btn:hover{
+		background-color: white;
+		color:#0000FF;
+		border:1px solid #0000FF;
+	}
+	.btnbaixar{
+		margin-top: 30px;
+		font-size: 14px;
+		font-family: arial;
+		cursor:pointer;
+		background-color: white;
+		border: none;
+		color: #1E90FF;
+		margin-left: 20%;
+	}
+	.btnbaixar:hover{
+		background-color: white;
+		text-decoration: underline;
+		color: #0000FF;
+	}
+	.btnacessar{
+		margin-top: 30px;
+		font-size: 14px;
+		font-family: arial;
+		cursor:pointer;
+		background-color: white;
+		border: none;
+		color: #1E90FF;
+	}
+	.btnacessar:hover{
+		background-color: white;
+		text-decoration: underline;
+		color: #0000FF;
+	}
+	@media screen and (max-width: 990px){
+		.btn{
+		position: absolute;
+		top:25%;
+		right: 0%;
+		bottom: 25%;
+		left: 30%;
+		margin: auto;
+
+		}
+		.btnbaixar{
+		position: absolute;
+		top: 25%;
+		right: 5%;
+		left: 80%;
+		bottom: 25%;
+		margin: auto;
+
+		text-align: center;
+		font-family: arial;
+		font-size: 12px;
+		cursor: pointer;
+		background-color: white;
+		color: #1E90FF;
+		border: 1px solid #1E90FF;
+		border-radius: 5px;
+		}
+		.btnbaixar:hover{
+		background-color: white;
+		color:#0000FF;
+		text-decoration: none;
+		border:1px solid #0000FF;
+	}
+		.btnacessar{
+			display: none;
+		}
+	}
+	@media screen and (max-width: 760px){
+		.boxbotaobusins{
+			width: 0%;
+			height: 70px;
+			background-color: white;
+			}
+		.btn{
+			display: none;
+			}
+		.btnbaixar{
+			display: none;
+		}
+		.boxlogo{
+			width: 100%;
+			height: 70px;
+			background-color: white;
+			text-align: center;
+			display: inline-block;
+		}
+		.boxlinks{
+			width: 0%;
+			height: 70px;
+			background-color: white;
+		}
+		.logo{
+			position: relative;
+			top:25%;
+		}
+		.nome{
+		display: none;
+		}
+
+	}
+	/*====================CORPO===============*/
+	.boxroupa{
+		width: 101.5%;
+		margin-left: -1%;
+		height: 100%;
+		background-color: #F8F8FF;
+	}
+	.boxcorpo{
+		margin-left: 10%;
+		width: 80%;
+		height: 1300px;
+		background-color: #F8F8FF;
+	}
+	.boximagem{
+		margin-left: 12.5%;
+		width: 70%;
+		height: 30%;
+		background-color:  #F8F8FF;
+	}
+	.animacao{
+		margin-top: 100px;
+		background-color: #F8F8FF;
+	}
+	.boxtexto{
+		margin-top: 20px;
+		margin-left: 30px; 
+		width: 46%;
+		height: 400px;
+		background-color: #F8F8FF;
+		float: left;
+	}
+	.boxcadastro{
+		margin-top: 20px;
+		width: 46%;
+		height: 400px;
+		background-color: #F8F8FF;
+		float: left;
+	}
+	.boxtextoalign{
+		width: 80%;
+		height: 400px;
+		background-color: #F8F8FF;
+		margin-right: 100px;
+		float: left;
+	}
+	.boxformulario{
+		width: 80%;
+		height: 400px;
+		background-color: #F8F8FF;
+		float: right;
+	}
+	.btnregistrar{
+		height: 40px;
+		width: 100%;
+		text-align: center;
+		font-family: arial;
+		font-size: 15px;
+		font-weight: bold;
+		cursor: pointer;
+		background-color: #1C86EE;
+		color: white;
+		border-radius: 5px;
+		border: none;
+	}
+	.btnregistrar:hover{
+		background-color: #1E90FF;
+	}
+	.btngoogle{
+		margin-top: 25px;
+		height: 40px;
+		width: 100%;
+		text-align: center;
+		font-family: arial;
+		font-size: 15px;
+		font-weight: bold;
+		cursor: pointer;
+		background-color: #104E8B;
+		color: white;
+		border-radius: 5px;
+		border: none;
+	}
+	.btnfazerlogin{
+		display: none;
+	}
+	.btngoogle:hover{
+		background-color: #1874CD;
+	}
+	.box-sign-in{
+		display: none;
+	}
+	@media screen and (max-width: 1300px){
+		.boxformulario{
+			width: 85%;
+		}
+		.boxtextoalign{
+			width: 85%;
+		}
+
+	}
+	@media screen and (max-width: 1230px){
+		.boxformulario{
+			width: 90%;
+		}
+		.boxtextoalign{
+			width: 90%;
+		}
+	}
+	@media screen and (max-width: 1150px){
+		.boxformulario{
+			width: 100%;
+		}
+		.boxtextoalign{
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 990px){
+		.boximagem{
+			display: none;
+		}
+		.boxtexto{
+			width:80%;
+			height: 20%;
+			margin-left: 15%;
+			margin-top: 10%;
+			text-align: center;
+		}
+		.boxtextoalign{
+			width: 80%;
+			margin-left: 10%;
+			height: 100%;
+
+		}
+		.boxcadastro{
+			width: 50%;
+			height: 20%;
+			margin-left: 25%;
+			margin-top: 5%;
+			text-align:center;
+		}
+		.boxformulario{
+			margin-top: -10%;
+			width: 100%;
+			height: 100%;
+			text-align:center;
+		}
+		.btnregistrar{
+			height: 35px;
+			width: 100%;
+			text-align: center;
+			font-family: arial;
+			font-size: 12px;
+			font-weight: bold;
+			cursor: pointer;
+			background-color: #F8F8FF;
+			color: #1E90FF;
+			border: 1px solid #1E90FF;
+			border-radius: 5px;
+		}
+		.btnregistrar:hover{
+			background-color: #F8F8FF;
+			color:#0000FF;
+			border:1px solid #0000FF;
+		}
+		.ar{
+			display: none;
+		}
+		.btngoogle{
+			display: none;
+		}
+		.label{
+			display: none;
+		}
+		.btnfazerlogin{
+			display: block;
+			margin-top: 30px;
+			font-size: 14px;
+			font-family: arial;
+			cursor:pointer;
+			background-color: white;
+			border: none;
+			color: #1E90FF;
+			margin-left: 38%;
+		}
+		.btnfazerlogin:hover{
+			background-color: white;
+			text-decoration: underline;
+			color: #0000FF;
+		}
+	}
+	@media screen and (max-width: 800px){
+		.boxcorpo{
+			width: 85%;
+		}
+		.boxtexto{
+			width: 90%;
+		}
+		.boxtextoalign{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		.boxcadastro{
+			margin-top: 5%;
+		}
+	}
+	@media screen and (max-width: 650px){
+		.boxcorpo{
+			width: 90%;
+		}
+		.boxtexto{
+			width: 100%;
+		}
+		.boxtextoalign{
+			margin-left: 0%;
+			margin-right: 0%;
+		}
+		.boxcadastro{
+			margin-top: 8%;
+		}
+		.btnfazerlogin{
+			margin-left: 25%;
+		}
+	}
+	@media screen and (max-width: 490px){
+		.boxcorpo{
+			width: 100%;
+		}
+	}

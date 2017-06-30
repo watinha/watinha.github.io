@@ -1,0 +1,30 @@
+.tabela table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tabela th, td {
+    text-align: left;
+    padding: 12px;
+
+}
+.tabela th {
+	background-color: black;
+}
+.tabela tr{
+	background-color: #141414;
+}
+
+.tabela tr:nth-child(even){background-color: black}
+
+.tabela th {
+    color: white;
+}
+.check{
+	background-color: red;
+}
+
+.uncheck{
+	background-color: blue;
+}

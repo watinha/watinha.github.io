@@ -1,0 +1,818 @@
+@charset "UTF-8";
+
+
+.menu .menu-mobile{
+	display: none;
+	
+}
+@media (max-width: 1050px) {
+	.menu .m1{
+		width: 65%;
+	}
+	.menu .m2{
+		width: 20%;
+	}
+	.menu .m2 li{
+		float: right;
+	}
+	.menu .m2 #favorito{
+		display: none;
+	}
+	.menu .m2 #pesquisa{
+		display: none;
+	}
+	.menu .m2 #site{
+		display: none;
+	}
+	.menu .m2 #menu-mobile{
+		display: inline-block;
+
+	}
+	.menu .m2 #menu-mobile img{
+
+	}
+
+
+	/*====  tipo1  ===*/
+	.contexto{
+		background-color: white;
+	}
+	.tipo1{
+		background-color: white;
+		border: 0;
+		
+	}
+	
+	.a1 img{
+		width: 94%;
+	}
+	.tipo1 .titulo{
+		display: table;
+		position: static;
+		background-color: white;
+		color: black;
+		width: 94.1%;
+		padding-left: 6%;
+
+	
+	}
+	.tipo1 .opcoes{
+		padding: 0;
+		display: inline-block;
+		color: white;
+		background-color: white;
+		margin: 0;
+	}
+	
+	.tipo1 .opcoes{
+		padding: 0;
+		position: static;
+		display: inline-block;
+		color: white;
+		background-color: white;
+		margin: 0;
+
+	}
+		/*===== Tipo 2 ======*/
+
+		.tipo2{
+		width: 94%;
+		display: inline-block;
+		position: relative;
+		margin: 0;
+	}
+	.tipo2 .col{
+		width: 100%;
+		margin-left: 0;
+		
+		padding: 0;
+	}
+	.tipo3{
+
+		
+	}
+	.row{
+		display: table;
+		width: 94%;
+		
+	}
+
+	.col #produto3{
+		margin-top: 0;
+	}
+
+}
+@media(max-width: 1240px){
+		.col #produto3{
+		margin-top: -100px;
+	}
+
+}
+@media(max-width: 990px){
+		.col #produto3{
+		margin-top: 0px;
+
+		}
+	.col #titulo3{width: 31%;}
+	.col #produto1{width: 31%;}
+	.col #produto2{width: 31%;}
+	.col #produto3{width: 31%;}
+
+
+}
+@media(max-width: 700px){
+	.col #titulo3{width: 40%;}
+	.col #produto1{width: 40%;}
+	.col #produto2{width: 40%;}
+	.col #produto3{width: 40%;}
+
+}
+@media(max-width: 560px){
+	.col #titulo3{width: 94%;}
+	.col #produto1{width: 94%;}
+	.col #produto2{width: 94%;}
+	.col #produto3{width: 94%;}
+
+}
+	 
+    
+
+
+
+
+	
+}
+#menu-mobile{
+	display: none;
+}
+#menu-mobile img{
+	margin-top: -8px;
+}
+@media (max-width: 790px){
+	
+	
+	.menu h2{   /* esconte o logo sony*/
+		display: none;
+		
+	}
+	.menu ul{ /* esconde o menu normal*/
+		display: none;
+	}
+	.menu .menu-mobile{  /* aparece o menu moblie  */
+		display: inline-block;
+		background-color: black;
+		width: 94%;
+		height: 100%;
+	}	
+	.menu .menu-mobile img{  /*icone utilizado no menu mobile*/
+		float: left; /* esta alinhado a direta*/
+		border-right: 1px solid #808080;  /*possui uma borda de 1px*/
+	}
+	.menu .menu-mobile h3{  /*logo da sony no menu mobile*/
+		margin-top: 5px;	
+		margin-left: 35%;
+		display: inline-block;
+		padding: 0;
+
+	}
+
+}
+/*essa parte so aparece quando redimensiona a tela*/
+nav.menu h3{
+	padding: 0;
+	font-size: 30px;
+
+}
+nav.menu  a{
+	display: block;
+
+	color: #fff;
+	padding-top: 0;
+	
+	
+}
+/*===============================================================*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+body li{
+	display: inline-block;  /*deixa todos as linha de uma lista em inline- bloc*/
+
+}
+body ul{
+	display: inline-block; /*deixa todas as listas em inline-block*/
+
+}
+h1{
+		/*é utilizada no txt do cabeçalho  */
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	font-size: 3em;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+    text-rendering: optimizeLegibility;		
+	
+}
+
+
+		/*é utlizado  no rodapé nas opçoes do rodpé*/
+p{ 
+	font-family:  "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;	
+}
+
+h4{        /*é utilizado no titulo do cabelhado laranja*/
+	margin-left: 6%;	/*posicionamento dentro da caixa*/
+	margin-right: 6%;
+	color: #fff;		/* cor da letra*/
+    margin-bottom: 0;
+    font-family: "SST W01 Medium","Helvetica Neue",Helvetica,Arial,sans-serif;   /*fonte utilizada*/
+    font-size: 1.625em;		/*tamanho da fonte*/
+}
+
+/*===================FORMATAÇÃO DO MENU===================*/
+
+/*=============================================================================================================*/
+
+/*===================FORMATAÇÃO DA DIV===================*/
+nav.menu{
+	display: inline-block; /*posicionamento do menu em linha*/
+	background-color: black;/* cor de fundo do menu*/
+
+	height: 9.6875%;/* altura do menu*/
+	width: 100%;/*largura do menu*/
+	display:list-item;
+	float:letf;
+	
+}
+.logo{
+	margin-top: 1.597960985931502%;/*posicionamento do logo*/
+	text-align: center;
+	height: 3.060269828362581%;/*altura do log*/ 
+	width: 10%;/*largura*/
+	float: left;
+	color: white;
+	margin-left: 5%;/*margem da direita*/
+	font-size: 30px;/*tamanho da fonte da letra*/
+}
+
+nav.menu ul{
+	margin-top: 10px;
+ 	height: 60px;
+	list-style: none;
+	flex-grow: 1;
+}
+nav.menu #menu-mobile{
+	display: none;
+}
+nav.menu li{ 
+	color: #C0C0C0;  /*cor da fonte da letra do menu*/
+	height:35px;/*tamanho da fonte da letra do menu*/
+	padding: 10px;
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif; /*fonte menu*/
+	font-weight: 300;
+
+	margin-left: 4px;
+	margin-right: 4px;
+	-webkit-transition: 0.5s ease;/*efeito de transição*/
+    transition: 0.5s ease;/*tempo de transição do menu*/
+}
+
+nav.menu li:hover{
+	-webkit-transition: 0.5s ease;/*houver da o efeito da bora azul no bottom do menu*/
+    transition: 0.5s ease;
+    border-bottom: 5px solid #5887f5;;/*cor da  transição do menu*/
+}
+.m1{
+	width: 40%;
+
+}
+.m1 li{
+	margin-top: 7px;
+}
+.m2{
+	width: 30%;
+	float: right;
+	font-size: 14px;
+
+	
+}
+
+.m2 li{
+	border-bottom: 0;
+	margin-top:5px;
+}
+#favorito{
+	width: 10px;
+	height: 10px;
+}
+#pesquisa {
+	background-color: #A9A9A9; /*co de fundo do botão pesquisar menu*/
+	color: white;
+	font-size: 12px;/*tamanho da fonte*/
+		height: 20px;/*altura do botão*/
+		padding-top: 6px;
+		padding-bottom: 4px;
+		border-bottom: 0;
+}
+#pesquisa:hover{
+	background: #5887f5;
+}
+#site{
+	color: white; /*cor da letra*/
+	background-color: #696969;/*co de fundo do botão pesquisar menu*/
+	font-size: 12px;/*tamanho da fonte*/
+		height: 20px;
+		padding-top: 6px;
+		padding-bottom: 4px;
+		border-bottom: 0;
+}
+
+
+/*=================================================================
+===================================================================
+*/
+/*1300px*/
+div.contexto{
+	
+	float: left;
+	width:100%;/*tamanho total do layout*/
+	
+	
+	
+	/*margin-top: -17px; para retirar a margem padrão do navegador*/
+}
+div.tipo1{	
+	position: relative;  /*posição da div tipo 1*/
+	float: left;  
+	width: 100%; /*   largura da div tipo1 */
+	  /* altura da div tipo1*/
+	background-color: #151515;   /*cor da div tipo 1*/
+	color:white;
+
+	
+}
+div .a1{
+	
+	
+	height: 100%;
+	
+}
+div.a1 img{
+	float: right;	
+	padding-right: 5%;
+	height: 100%;
+
+}
+
+
+/*==========layout em destaque a1===========*/
+header.container1{
+	
+	width: 100%;
+	float: left;
+	
+}
+/*=======Titulo principal da pagina=========*/
+div.titulo{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	
+	
+	
+	
+	
+}
+/*formatacao texto*/
+div.titulo  p{
+
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	margin-bottom: -2px;
+	font-size: 35%;
+
+}
+div.titulo h1{
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+
+	font-size: 300%;
+
+}
+/*posicionamento da escrita bravia */
+
+/*posicionamento da escrita*/
+
+
+/*==========Inicio do corpo do site promoções e produtos=======*/
+
+/*============ A1 ============Botão azul =============*/
+nav.opcoes{
+	position: absolute;
+	top: 100%;
+	height: 5.547899159663866%;				/*altura e largura do botão*/
+	width: 15.612898443291327%;
+}
+
+nav.opcoes ul{
+	
+	position: relative;  /* pos~ição da lista   que fica inserida o botão*/
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;  /*fonte da letra utilizada no texto dentro do botão*/
+    font-weight: 400;    
+    font-style: normal;/*Letra caixa alta*/
+	list-style: none; /*Não mostrar a bolinha*/
+	font-size: 55%;	
+}
+nav.opcoes li{
+	width: 100%;		/*o texto ocupa todo o espaço do ul  largura e altura*/
+	height: 100%;
+	display: inline-block;
+	border-bottom: 0;		/*botão não possui borda*/
+	background-color:#5887f5;	/* cor azul do botão em hexadecimal*/
+	padding: 15%  40% 15% 40%;  /* posicionamento da escrita dentro do botão*/
+	position: relative;     
+	 
+}
+
+/*========== OS mais Recentes =================*/
+
+div.tipo2{
+	
+	display: inline-block;
+    height: 48%;
+    width: 94%;
+   
+
+}
+/*========titulo:  OS mais recentes : css===========*/
+div.titulo1{
+	
+	float: left;
+	height: 16%;
+	width: 100%;
+
+
+}
+.tipo2 .col{
+	display: inline-block;
+	
+}
+
+
+/*=======imagem: posição e tamanho=============*/
+div.tipo2 .col #im1{
+	display: inline-block;
+	width: 100%;
+	margin-top: 1.2%;
+}
+div.tipo2 .col #im2{
+	display: inline-block;
+	width: 100%;
+	margin-top: 1.2%;
+}
+
+/*ambas as imagens fica com a mesma altura*/
+div.tipo2 .col img{
+	height: 100%;
+}
+div.tipo2 .col #im2{
+	height: 480px;
+}
+/*======================  Vantagens ======================*/
+
+div.tipo3{
+	
+    height: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  	padding-left: 6%;
+ }
+ 
+/* linha */
+.row {
+   padding-left: 6%;
+}
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+    .row:after {
+        clear: both;
+    }
+
+ /*=========Titulo: Vantagens : css ======================*/
+ div#t2{
+	
+	position: relative;
+	float: left;
+	height: 20%;
+	width: 100%;
+
+
+}
+/*============== caixa laranja: css ======================*/
+div#titulo3{
+	display: inline-block;
+	float: left;
+	height: 20%;
+	width: 33%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	margin-right: 1.5%;
+}
+
+
+/*==========cabeçalho da caixa laranja ============*/
+header#c2{
+	float: relative;
+	background-color: #ebab3d;
+	width: 95%;
+	height: 40%;
+	padding-top:  0.5%;
+	padding-left: 4%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+	
+}
+/*===========formatação do texto caixa laranja==============*/
+header#c2 h5{
+	position: relative;
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 150%;
+    margin-top: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
+header#c2 h4{
+	font-size: 200%;
+}
+/*=========Produto Lanterna : posicionamento============*/
+div#produto1{
+	display: inline-block;
+	position: relative;
+	height: 30%;
+	width: 18.4%;
+	margin-top: 1.5%;
+	margin-left: 1%;
+	float: left;
+	
+
+}
+div#produto1 img{
+	width: 100%;
+}
+
+
+/*configuração escrita lanterna: descrição e preço */
+div#prd-nome{
+	background-color: #ffffff;
+	display: table;
+	position: relative;
+	
+	width: 100%;
+	height: 100%;
+}
+
+
+/*produto: tv :  posicionamento*/
+div#produto2{
+	display: inline-block;
+	position: relative;
+	height: 30%;
+	width: 33.333%;
+	margin-top: 1.5%;
+	margin-left: 2%;
+
+	
+}
+div#produto2 img{
+	width: 100%;
+}
+
+/*produto : receptor e controle: posicionamento */
+div#produto3{
+	margin-top: -220px;
+	margin-bottom: 10px;
+	position: relative;
+	display: inline-block;	
+	height: 30%;
+	width: 15.2%;
+
+
+	
+
+}
+div#produto3 img{
+
+
+}
+/*tamanho:; imagem controle e receptor*/
+
+
+	/*div  ULTIMAS NOVIDADES */
+	/*posicionamento  interno*/
+div#tipo4{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 30%;
+	background: #f1f5f9;
+}
+/*transparencia interna */
+div#internot4{
+	position: relative;
+	float: left;
+	width: 82%;
+	height: 30%;
+	margin-left: 6%;
+	margin-bottom: 5%;
+
+}
+/*titulo : Ultimas vantagens */
+div#t3{
+	position: relative;
+	float: left;
+	height: 5%;
+	width: 100%;
+}
+/*traço limite entere imagem  e titulo posicionamento e formataçao*/
+ div#risco1{
+	position: relative;
+	float: left;
+	height: 3px;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: 	#DCDCDC;
+}
+
+/*imagens ultimas novidades posicionamento*/
+div#novi{
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: auto;
+	height:100%;
+
+}
+div#novi ul li{
+	border-bottom: 0;
+}
+/*tamanho padrão das imagens de novidades*/
+img.nov{
+	height: 100%;
+	width: auto;
+}
+
+
+/*=================== div rodapé================*/
+/*posicionamento do rodapé*/
+div#tipo5{
+	position: relative;
+	float: left;
+	width: auto;
+	height: 100%;
+	background-color: #1f2024;
+}
+div#reta{
+	position: relative;
+	float: left;
+	height: 3px;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: 	#DCDCDC;
+}
+/*notas de rodapé*/
+div#notas{
+	position: relative;
+	float: right;
+	width: auto;
+	background-color: #f1f5f9; 
+	margin-top:-2%;
+	margin-right:6%;
+	
+}
+/*configuração da escrita */
+div#notas p{
+	position: relative;
+	float: right;
+	margin-right: 13%;
+}
+/*inicio do rodapé lista*/
+div#rodape{
+	position: relative;
+	width: 100%;
+}
+/*class do rodapé */
+div.rodapesony{
+	color: white;
+	margin-top: 5%;
+	position: relative;
+	float: left;
+	margin-left:5%;
+	margin:6%;
+}
+#column1{
+	float:left;
+	width:auto;
+	margin:5%;
+	color:white;
+}
+#column2{
+	float:left;
+	width:auto;
+	margin:5%;
+	color:white;
+}
+#column3{
+	float:left;
+	width:auto;
+	color:white;
+	margin-top: 5%;
+	font-size:90%;
+	display: inline-block;
+}
+p{
+	color:#83838f;
+}
+#column4{
+	float:left;
+	margin-top: 5%;
+	position:relative;
+	color:#83838f;
+	font-size:70%;
+	width:68%;
+	margin:6%;
+	margin-top:-1%;
+}
+#column5{
+	float:left;
+	color:white;
+	margin:5%;
+	font-size:60%;
+	margin-top:-4%;
+	width:auto;
+	margin:6%;
+	margin-top:-5%
+}
+#localização{
+	
+	margin-top: 10%;
+
+}
+#portugal{
+	margin-top: 40%;
+	position: relative;
+	float: left;
+	height: 100%;
+}
+	
+
+	/* ===================Classes====================*/
+/* ===================Classes====================*/
+h2.titulo{
+	
+	margin-bottom: 0%;
+	font-family: "SST W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    font-style: normal;  
+    color: #2f353d;
+    font-size: 24px;  
+}
+strong.txt{
+	font-family: "SST W01 Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 12px; 
+    box-sizing: border-box;
+    color: #2f353d;
+}
+
+strong.txt p{
+	margin-top: 0;
+	color: #83838f;
+	font-size: 11px;
+}
+
+/*corpo do site tamanho*/
+body{
+	margin:0;
+	min-height:100%;
+	width:auto;
+	
+}

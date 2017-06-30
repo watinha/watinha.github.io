@@ -1,0 +1,502 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+body li{
+	display: inline-block;  /*deixa todos as linha de uma lista em inline- bloc*/
+
+}
+body ul{
+	display: inline-block; /*deixa todas as listas em inline-block*/
+
+}
+h1{
+		/*é utilizada no txt do cabeçalho  */
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	font-size: 3em;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+    text-rendering: optimizeLegibility;		
+	
+}
+
+
+		/*é utlizado  no rodapé nas opçoes do rodpé*/
+p{ 
+	font-family:  "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;	
+}
+
+h4{        /*é utilizado no titulo do cabelhado laranja*/
+	margin-left: 6%;	/*posicionamento dentro da caixa*/
+	margin-right: 6%;
+	color: #fff;		/* cor da letra*/
+    margin-bottom: 0;
+    font-family: "SST W01 Medium","Helvetica Neue",Helvetica,Arial,sans-serif;   /*fonte utilizada*/
+    font-size: 1.625em;		/*tamanho da fonte*/
+}
+
+/*===================FORMATAÇÃO DO MENU===================*/
+
+/*=============================================================================================================*/
+
+/*===================FORMATAÇÃO DA DIV===================*/
+nav.menu{
+	display: inline-block; /*posicionamento do menu em linha*/
+	background-color: black;/* cor de fundo do menu*/
+	height: 80px;/* altura do menu*/
+	width: 100%;/*largura do menu*/
+}
+.logo{
+	margin-top: 20px;/*posicionamento do logo*/
+	text-align: center;
+	height: 55px;/*altura do log*/ 
+	width: 10%;/*largura*/
+	float: left;
+	color: white;
+	margin-left: 5%;/*margem da direita*/
+	font-size: 30px;/*tamanho da fonte da letra*/
+}
+nav.menu ul{
+	margin-top: 20px;
+	list-style: none;
+	flex-grow: 1;
+}
+nav.menu li{ 
+	color: #C0C0C0;  /*cor da fonte da letra do menu*/
+	height: 35px;/*tamanho da fonte da letra do menu*/
+	padding: 10px;
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif; /*fonte menu*/
+	font-weight: 300;
+	margin-left: 4px;
+	margin-right: 4px;
+	-webkit-transition: 0.5s ease;/*efeito de transição*/
+    transition: 0.5s ease;/*tempo de transição do menu*/
+}
+
+li:hover{
+	-webkit-transition: 0.5s ease;/*houver da o efeito da bora azul no bottom do menu*/
+    transition: 0.5s ease;
+    border-bottom: 4px solid blue;/*cor da  transição do menu*/
+}
+.m2{
+	margin-left: 20%;
+	font-size: 14px;
+
+	
+}
+.m2 li{
+
+	border-bottom: 0;
+}
+#pesquisa {
+	background-color: #A9A9A9; /*co de fundo do botão pesquisar menu*/
+	color: white;
+	font-size: 12px;/*tamanho da fonte*/
+		height: 20px;/*altura do botão*/
+		padding-top: 6px;
+		padding-bottom: 4px;
+		border-bottom: 0;
+}
+#site{
+	color: white; /*cor da letra*/
+	background-color: #696969;/*co de fundo do botão pesquisar menu*/
+	font-size: 12px;/*tamanho da fonte*/
+		height: 20px;
+		padding-top: 6px;
+		padding-bottom: 4px;
+		border-bottom: 0;
+}
+
+
+/*=================================================================
+===================================================================
+*/
+
+div#interface{	
+	width: 100%;/*tamanho total do layout*/
+	height: 100%; /*tamanho total do layout */
+	background-color: #ffffff;
+	margin-top: -17px; /*para retirar a margem padrão do navegador*/
+}
+
+/*==========layout em destaque a1===========*/
+header#titulo1{
+position: relative;		
+	width: 40%;
+	height: 50%;
+	margin-left: 10%; 
+	float: left;
+}
+/*=======Titulo principal da pagina=========*/
+div#tituloP {
+	width: 70%;
+	height: 50%;
+	margin-top: 30%;
+	
+}
+/*formatacao texto*/
+div#tituloP p{
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: -2px;
+	font-size: 15px;
+
+}
+
+/*posicionamento da escrita bravia */
+div#bravia{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 20%;
+	margin-top:  20%;
+	margin-left: 15%;
+    padding: 0;
+    border: 0;
+  
+}
+/*posicionamento da escrita*/
+div#a1{
+	position: relative;
+	float: right;
+	width: 42%;
+	height: 100%;
+
+}
+div#a1 img{
+	width: 566px;
+	height: 587px;
+
+}
+
+/*==========Inicio do corpo do site promoções e produtos=======*/
+div#tipo1{	
+	position: relative;  /*posição da div tipo 1*/
+	float: left;  
+	width: 100%; /*   largura da div tipo1 */
+	height: 30%;  /* altura da div tipo1*/
+	background-color: #151515;   /*cor da div tipo 1*/
+	color:white;
+	
+}
+/*============ A1 ============Botão azul =============*/
+nav#opcoes{
+	height: 58px;				/*altura e largura do botão*/
+	width: 100px;
+}
+
+nav#opcoes ul{
+	
+	position: relative;  /* pos~ição da lista   que fica inserida o botão*/
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;  /*fonte da letra utilizada no texto dentro do botão*/
+    font-weight: 400;    
+    font-style: normal;/*Letra caixa alta*/
+	list-style: none; /*Não mostrar a bolinha*/
+	font-size: 55%;	
+}
+nav#opcoes li{
+	width: 100%;		/*o texto ocupa todo o espaço do ul  largura e altura*/
+	height: 100%;
+	display: inline-block;
+	border-bottom: 0;		/*botão não possui borda*/
+	background-color:#5887f5;	/* cor azul do botão em hexadecimal*/
+	padding: 15%  40% 15% 40%;  /* posicionamento da escrita dentro do botão*/
+	position: relative;     
+	 
+}
+
+/*========== OS mais Recentes =================*/
+
+div#tipo2{
+	position: relative;
+	float: left;
+    height: 48%;
+    width: 94%;
+    margin-left: 6%;
+    overflow: scroll;
+
+
+}
+/*========titulo:  OS mais recentes : css===========*/
+div#t1{
+	position: relative;
+	float: left;
+	height: 16%;
+	width: 100%;
+
+
+}
+div#tipo2 ul li{
+	border-bottom: 0;
+}
+/*=========imagem: crie a sua discoteca: css==========*/
+div#img1{
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: 50%;
+	width: 53%;
+	margin-right: 5%;
+	margin-top: 1%;
+
+}
+/*=======imagem:ouça apenas os graves: css=============*/
+div#img2{
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: 50%;
+	width: 30%;
+	margin-top: 1.2%;
+}
+/*======================  Vantagens ======================*/
+
+div#tipo3{
+	position: relative;
+	float: left;
+    height: 48%;
+    width: 94%;
+    margin-left: 6%;
+ }
+
+ /*=========Titulo: Vantagens : css ======================*/
+ div#t2{
+	
+	position: relative;
+	float: left;
+	height: 20%;
+	width: 100%;
+
+
+}
+/*============== caixa laranja: css ======================*/
+div#titulo3{
+	display: inline-block;
+	float: left;
+	height: 20%;
+	width: 33%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	margin-right: 1.5%;
+}
+
+
+/*==========cabeçalho da caixa laranja ============*/
+header#c2{
+	float: relative;
+	background-color: #ebab3d;
+	width: 95%;
+	height: 40%;
+	padding-top:  0.5%;
+	padding-left: 4%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+	
+}
+/*===========formatação do texto caixa laranja==============*/
+header#c2 h5{
+	position: relative;
+	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 150%;
+    margin-top: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
+/*=========Produto Lanterna : posicionamento============*/
+div#produto1{
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 30%;
+	width: 15%;
+	margin-top: 1.5%;
+	margin-left: 1%;
+
+}
+
+
+/*configuração escrita lanterna: descrição e preço */
+div#prd-nome{
+	background-color: #ffffff;
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*produto: tv :  posicionamento*/
+div#produto2{
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 30%;
+	width: 33%;
+	margin-top: 1.5%;
+	margin-left: 2%;
+
+}
+
+/*produto : receptor e controle: posicionamento */
+div#produto3{
+	position: relative;
+	float: left;
+	height: 30%;
+	width: 15.2%;
+	margin-top: -18.6%;
+
+}
+/*tamanho:; imagem controle e receptor*/
+div#produto3 img{
+	position: relative;
+	width: 96%;
+}	
+
+	/*div  ULTIMAS NOVIDADES */
+	/*posicionamento  interno*/
+div#tipo4{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 30%;
+	background: #f1f5f9;
+}
+/*transparencia interna */
+div#internot4{
+	position: relative;
+	float: left;
+	width: 82%;
+	height: 30%;
+	margin-left: 6%;
+	margin-bottom: 5%;
+
+}
+/*titulo : Ultimas vantagens */
+div#t3{
+	position: relative;
+	float: left;
+	height: 5%;
+	width: 100%;
+}
+/*traço limite entere imagem  e titulo posicionamento e formataçao*/
+ div#risco1{
+	position: relative;
+	float: left;
+	height: 3px;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: 	#DCDCDC;
+}
+
+/*imagens ultimas novidades posicionamento*/
+div#novi{
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+div#novi ul li{
+	border-bottom: 0;
+}
+/*tamanho padrão das imagens de novidades*/
+img.nov{
+	height: 396px;
+	width: 355px;
+}
+
+
+/*=================== div rodapé================*/
+/*posicionamento do rodapé*/
+div#tipo5{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 50%;
+	background-color: #151515; 
+}
+/*notas de rodapé*/
+div#notas{
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #f1f5f9; 
+}
+/*configuração da escrita */
+div#notas p{
+	position: relative;
+	float: right;
+	font-size: 13px;
+	margin-right: 12%;
+}
+/*inicio do rodapé lista*/
+div#rodape{
+	position: relative;
+	float: left;
+	height: 50%;
+	width: 94%;
+	margin-left: -4%;
+}
+/*class do rodapé */
+div.rodapesony{
+	color: #808080;
+	margin-top: 5%;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 10%;
+}
+/*cor da fonte e tamanho */
+.rod1{
+	color: #fff;
+	font-size: 12px;	
+}
+	
+
+
+/* ===================Classes====================*/
+h2.titulo{
+	margin-top: 4%;
+	margin-bottom: 0%;
+	font-family: "SST W01 Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    font-style: normal;  
+    color: #2f353d;
+    font-size: 24px;  
+}
+strong.txt{
+	font-family: "SST W01 Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 12px; 
+    box-sizing: border-box;
+    color: #2f353d;
+}
+
+strong.txt p{
+	margin-top: 0;
+	color: #83838f;
+	font-size: 11px;
+}
+
+/*corpo do site tamanho*/
+body{
+	margin:0;
+	min-height:100%;
+	width:100%;
+}

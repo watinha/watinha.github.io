@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+  	.container, header{
+  		width: 480px;
+  	}
+
+  	.sacola{
+		background-size: 30px 50px;
+		font-size: 14px;
+		padding-right: -50px;
+		padding-top: 8px;
+		text-align: center;
+		width: 100px;
+		position: relative;
+		top: 0;
+		right: -10%;
+	}
+
+	header h1{
+		margin-left: 50px;
+	}
+
+	.menu-opcoes{
+		position: relative;
+		bottom: 0;
+		right: -0;
+	}
+
+
+  	.menu-departamentos{
+  		width: 385px;
+  	}
+
+  	#foto-destaque{
+  		width: 360px;
+  	}
+
+  	.novidades{
+      width: 350px;
+  	}
+
+    .mais-vendidos{
+      width: 350px;
+      float: none;
+    }
+
+    footer, .social{
+      width: 380px;
+    }
+
+    .social a{
+      margin-left: 30px;
+    }
+
+    .busca{
+      width: 390px;
+    }
+
+
+ .busca input[type=search]{
+    width: 340px;
+  }
+
+
+}
