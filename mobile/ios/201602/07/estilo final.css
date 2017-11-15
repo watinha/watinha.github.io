@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+
+/* Header */
+
+.header{
+	height: 71px;
+    background: #ffffff;
+    border-bottom:1px solid #CCC;
+    width:100%;
+    margin:0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+/* Formatação do Menu */
+
+ul.topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    display: none;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a{
+    display: inline-block;
+    color: #2A5993;
+    text-align: center;
+    padding: 25.5px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    height: 100%;
+    position: relative;
+}
+
+ul.topnav li a:hover{
+    background-color: #00AFF0;
+    color: white;
+}
+
+
+/*Formatação da logo*/
+
+h1.logo{
+  	background: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Skype_logo.svg") 0 0 no-repeat;
+  	margin: 0.95% 0 0 15%;
+    text-indent: 100%;
+    background-size: 90px 40px;
+    float: left;
+    cursor: pointer;
+}
+
+/*Menu Entrar em*/
+
+input[type=checkbox]{
+    display: none;
+}
+label{
+    border-radius: 50px;
+    background-color: transparent;
+    color: #2A5993;
+    font-size: 16px;
+    border: 2px solid #0078CA;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+    width: 128.17px;
+    height: 36px;
+    margin-top: 20px;
+    display: inline-block;
+}
+ul.zika{
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    margin:0;
+    padding:0;
+    display: none;
+}
+ul.zika li{
+    background-color: #fff;
+}
+ul.zika li:hover{
+    color: #FFF;
+}
+ul.zika li a{
+    text-decoration: none;
+}
+input[type=checkbox]:checked ~ label {
+    text-align: center;
+}
+input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+#checkbox-toggle{
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+.linkconta{
+    color: #0000FF;
+}
+
+.linkconta:hover{
+    text-decoration: underline;
+}
+
+/*seção de ibagens*/
+
+#coverSection {
+    text-align: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+#coverSection li{
+    display: block;
+}
+
+.imagem{
+    background-image: url("https://secure.skypeassets.com/content/dam/scom/images/newhome/hero-1-sm.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    max-height: 900px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    -webkit-filter: contrast(90%);
+    filter: contrast(90%);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    margin-top: 71px;
+}
+
+.texto1{
+    padding-top: 170px;
+}
+
+.texto1 h1{
+    color: white;
+    font-size: 20pt;
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin-bottom: 0.43em;
+}
+.texto1 p{
+    color: white;
+    font-size: 14pt;
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+.texto1 ul{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.botao1{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 14pt;
+    width: 62%;
+    height: 59px;
+    color: white;
+    max-width: 440px;
+    min-width: 200px;
+}
+
+.botao2 {
+    background-color: #0078CA;
+    border: 0;
+    border-radius: 50px;
+    font-size: 14pt;
+    width: 62%;
+    height: 59px;
+    color: white;
+    margin-top: 20px;
+    max-width: 440px;
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.botao1:hover{
+    background-color: #ffffff;
+    transition: background 0.5s;
+    color:#00AFF0;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background-color: #2A5993;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px){
+    .imagem{
+        background-image: url("https://secure.skypeassets.com/content/dam/scom/images/newhome/hero-1-md.jpg");
+    }
+    .texto1 h1{
+        font-size: 30pt;
+    }
+    .texto1 p{
+        font-size: 18pt;
+    }
+    .botao1{
+        width: 225px;
+    }
+    .botao2{
+        width: 225px;
+    }
+    ul.topnav{
+        display: inline-block;
+    }
+    .dropdown{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .imagem{
+        background-image: url("https://secure.skypeassets.com/content/dam/scom/images/newhome/hero-1.jpg");
+    }
+    .texto1 h1{
+        font-size: 45pt;
+    }
+    .texto1 p{
+        font-size: 24pt;
+    }
+    #coverSection li{
+        display: inline-block;
+    }
+    .botao1{
+        margin-right: 10px;
+    }
+    .botao2{
+        margin-left: 10px;
+    }
+    ul.topnav{
+        display: inline-block;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.botao1 a:hover{
+    color:#00AFF0;
+}

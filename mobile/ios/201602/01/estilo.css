@@ -1,0 +1,242 @@
+.home{
+  margin: 0;
+  padding: 0;
+}
+.barra-cinza{
+  background-color: #efefef;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+}
+  .barra-cinza ul {
+      margin-top: 0px;
+      list-style-type: none;
+      padding: 0px;
+      display: table;
+      margin: auto;
+        margin-left: 13%;
+  }
+    .barra-cinza ul a.ativo {
+      border-top: 3px solid #dd4814;
+      color: #dd4814;
+      opacity: 1;
+      text-decoration: none;
+      padding-top: 2px;
+    }
+      .barra-cinza li {
+      	  display: inline;
+      	  float: left;
+      }
+        .barra-cinza li a {
+      	  display: block;
+      	  color: black;
+          text-decoration: none;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 1.6;
+          margin-left: 8px;
+          margin-right: 8px;
+          margin-bottom: 0px;
+          padding-bottom: 4px;
+          padding-top: 5px;
+          position: relative;
+          font-family: Ubuntu;
+        }
+
+.barra-laranja {
+  background: #e95420;
+  height: 48px;
+  width: auto;
+  border-bottom: 1px solid #eb6233;
+  border-top: 1px solid #eb6233;
+}
+  .barra-laranja div{
+    display: inline-block;
+    height: 48px;
+  }
+    .logo {
+      margin-left: 13%;
+      padding-right: 16px;
+      border-right: 1px solid #df4a16;
+    }
+    .menu {
+      /*position: absolute;*/
+      overflow: hidden;
+      border-right: 1px solid #cc4414;
+      margin-left: -4px;
+    }
+      .menu ul{
+          padding: 0;
+      }
+      .menu li{
+        display: inline;
+        padding: 17px 12px 17px;
+        border-left: 1px solid #eb6233;
+        border-right: 1px solid #df4a16;
+      }
+      .menu li:hover {
+        text-decoration: none;
+        background-color: #eb6233;
+        cursor: pointer;
+      }
+        #ultimo{
+          border-right: none;
+        }
+      .menu a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300px;
+        font-family: Ubuntu;
+        text-align: center;
+      }
+    .pesquisa{
+      position: relative;
+    }
+      .search{
+        position: absolute;
+        margin-left: 50px;
+        padding-right: 30px;
+        width: 160px;
+        height: 38px;
+        border: 0;
+        background-color: #c34113;
+        border-radius: 4px;
+        background-image: url("img/lupa.png");
+        background-position: right center;
+        background-repeat: no-repeat;
+        outline: none;
+        overflow: hidden;
+        text-indent: -999em;
+        top: 5px;
+      }
+      .etiqueta{
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 4px;
+        color: black;
+        z-index: 3;
+      }
+      .button{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        display: block;
+        height: 48px;
+        outline: none;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        text-indent: -999em;
+        top: 0;
+        width: 24px;
+      }
+
+.conteudo{
+  max-width: auto;
+}
+  .sessao-1{
+    position: relative;
+    height: 35vw;
+    min-height: 350px;
+    padding-top: 10vw;
+    background-size: 100vw;
+    background-image: url("img/fundo1.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+  }
+    .chamada{
+      display: inline-block;
+      width: 315px;
+      position: absolute;
+      margin-left: 11%;
+      margin-top: -2%;
+      margin-right: 60%;
+      padding-left: 25px;
+      color: #fff;
+      font-family: Ubuntu;
+    }
+      .chamada h1{
+        font-size: 2.8125em;
+        margin-bottom: .5em;
+        font-weight: 300;
+        line-height: 1.3;
+      }
+      .chamada p{
+        font-size: 1.25em;
+        line-height: 1.4;
+        margin-bottom: .75em;
+        font-weight: 300;
+        margin-bottom: 45px;
+      }
+      .chamada a{
+        color: #fff;
+        background-color: #e95420;
+        text-decoration: none;
+        font-size: 1em;
+        margin: 0;
+        top: 20px;
+        padding: 11px 70px;
+        text-align: center;
+        border: 0;
+        border-radius: 2px;
+        outline: none;
+        font-weight: 300;
+        cursor: pointer;
+      }
+
+  .sessao-2{
+    background: #f7f7f7;
+    padding-top: 20px;
+  }
+    .news{
+      margin-left: 10%
+    }
+      .sessao-2 h2{
+        background: url("https://assets.ubuntu.com/v1/e1bba201-external-link-cool-grey.svg") left center no-repeat;
+        background-size: 16px;
+        padding-left: 22px;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-decoration:none;
+        margin-bottom: 30px;
+        font-family: Ubuntu;
+        font-weight: 300;
+        line-height: 1.3;
+      }
+        #lastnews {
+          color: #333;
+          font-size: 1em;
+        }
+      .caixinhas ul{
+        display: inline-block;
+        position: relative;
+      }
+        .caixinhas li{
+          display: inline-block;
+          position: relative;
+          width: 20%;
+          margin-right: 2%;
+          float: left;
+          font-size: 16px;
+          line-height: 1.5;
+          min-width: 150px;
+        }
+          .news a {
+            text-decoration: none;
+            color: #e95420;
+            font-family: Ubuntu;
+            font-size: 1.3075em;
+            font-weight: 300;
+            line-height: 1.3;
+          }
+          .news p {
+            font-family: Ubuntu;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 1.5;
+          }

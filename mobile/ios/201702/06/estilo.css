@@ -1,0 +1,176 @@
+.top{
+	background-color: #0C4B33;
+    position: relative;
+    overflow: hidden;
+    height: 1.5%;
+    width: 100%;
+    padding-bottom: 0.8%;
+    border-right: 10%;
+}
+.top2{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 4.16667%;
+
+}
+
+body{
+	margin: 0;
+}
+
+
+.logo{
+    font-size: 35px;
+    font-family: "Diodrum", sans-serif;
+    color: white;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    float: left;
+    margin-top: 1.2%;
+    margin-right: 1.5%;
+    letter-spacing: -1px;
+}
+
+.texto_logo{
+	font-family: "Roboto", sans-serif;
+    float: left;
+    width: 190px;
+    color: #44B78B;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    margin-top: 1.5%;
+}
+
+
+.hLink{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 11px;
+    font-weight: 700;
+    font-size: 12.3px;
+    margin-right: 8px;
+    letter-spacing: 0.1px;
+}
+
+.hLink:hover{
+	color: #C9F0DD;
+}
+
+ul{
+    float: right;
+    margin-top: 2.3%;
+}
+
+li{
+    list-style: none;
+	display: inline-block;
+}
+
+.mid{
+    float: left;
+    width: 90%;
+    height: 130px;
+    background: #44B78B;
+    margin: 4% 5%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.cTexto{
+    font-family: "Roboto", sans-serif;
+    color: #C9F0DD;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.texto_1{
+    text-align: center;
+}
+
+.mid_2{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+.texto_2{
+	font-family: "Roboto", sans-serif;
+    text-align: center;
+    background: white;
+    font-size: 36px;
+    font-weight: 300;
+	line-height: 1.3;
+}
+
+.texto_2 em{
+	color: #0C3C26;
+	font-style: normal;
+}
+
+.btnStart{
+    float: left;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 38%;
+    padding: 1.5% 5%;
+    font-family: "Roboto", sans-serif;
+    background-color: #44B78B;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btnStart:hover{
+	background-color: #51be95;
+}
+
+.icon{
+    margin-top: 10px;
+    margin-left: 100px;
+    text-decoration-color: white;
+
+}
+.menu-button{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 30px;
+    float: right;
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .texto_logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hLinks{
+        display: none;
+    }
+    .menu-button{
+        display: inherit;
+    }
+    .mid{
+        clear: left;
+        font-size: 11px;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .mid_2{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .btnStart{
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+}

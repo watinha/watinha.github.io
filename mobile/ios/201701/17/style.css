@@ -1,0 +1,175 @@
+/*configurando a cor e a fonte base de todos 
+os textos do site direto no body*/
+body{
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header{
+	position: relative;
+}
+
+.sacola{
+	background: url(img/sacola.png)no-repeat top right;
+	background-size: 30px 50px;
+	font-size: 14px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-align: right;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.menu-opcoes{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-opcoes a{
+	color: #003366;
+}
+#cabecalho{
+	display: inline;
+	margin-left: 20px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
+
+.menu-departamentos{ /*indica ao "menu-departamentos" que ele deve flutuar a esquerda*/
+	clear: left;		/*mas não ao lado de outro elemento*/
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.busca,
+.menu-departamentos{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	width: 230px;
+	float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+	margin: 10px;
+}
+
+.menu-departamentos li{
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-departamentos a{
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input{
+	vertical-align: middle;
+}
+
+.busca input[type=search]{
+	width: 170px;
+}
+
+.busca input[type=image]{
+	width: 20px;
+	height: 20px;
+}
+
+.destaque{
+	margin-top: 10px;
+}
+
+.painel{
+	margin: 10px 0;
+	padding: 10px;
+	width: 445px;
+}
+
+.novidades{
+	float: left;
+	background-color: rgb(0, 105, 120);
+}
+
+.mais-vendidos{
+	float: right;
+	background-color: rgb(183, 0, 120);
+}
+
+.painel li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.painel a{
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.social a{
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+.social a[href*="facebook.com"]{
+	background-image: url(img/facebook.png);
+	background-size: 40px;
+}
+
+
+.social a[href*="twitter.com"]{
+	background-image: url(img/twitter.jpg);
+	background-size: 35px;
+}
+
+
+.social a[href*="google.com"]{
+	background-image: url(img/g+.png);
+	background-size: 40px;
+}
+
+footer{
+	background-image: url(img/fundo-footer.jpg);
+	clear: both;
+	padding: 20px 0;
+}
+
+
+footer .container{
+	position: relative;
+}
+
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+
+.social li{
+	float: left;
+	margin-left: 25px;
+}
+
+

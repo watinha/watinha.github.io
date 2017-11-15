@@ -1,0 +1,333 @@
+::selection { background: #1f6a8f; color: #fff; }
+.bloco1, .bloco2{ padding: 8px;}
+
+.bloco1 { background-color: #DDD;}
+.bloco2 { background-color: #EEE;}
+.bloco3 { background-color: #768900;}
+
+p{text-align: justify;}
+
+body{ padding-top: 40px;}
+
+
+
+.cabecalho{
+  position: relative;
+  margin-bottom: 5px;
+
+}
+
+@media (max-width: 1200px) {
+  .excluir_1200{
+  display: none !important;
+}
+}
+
+@media (min-width: 1200px) {
+  .mostra_1200{
+  display: none !important;
+}
+}
+
+
+.corpo-pagina{
+
+  margin-bottom: 5px;
+  
+}
+
+.topo-rodape{
+
+  background-color: #333;
+  color: #f8f8f8;
+}
+
+figure.logotipo{
+
+  width: 120px;
+  height: 120px;
+  float: left;
+  padding-top: 5px;
+}
+
+header h1{
+
+  padding-top: 10px;
+  margin-bottom: -20px;
+
+}
+
+header h3{
+
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+@media (min-width: 1200px) {
+
+  .unidade{
+  background-image: url('../img/imagem_lateral.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+
+}
+
+div.index_app{
+
+  overflow: hidden;
+
+}
+
+h1.chamada{
+
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+address.endereco p{
+
+  font-size: 18px;
+  line-height: 17px;
+  margin-top: -10px;
+
+}
+
+
+figure.rodape{
+
+  width: 120px;
+  height:120px;
+  float: left;
+}
+
+a.index {
+  color: #468847;
+}
+
+div.solucao{
+  clear: both;
+}
+
+img.social{
+
+  width: 80px;
+  height: 80px;
+  float: left;
+  opacity: 0.9; 
+  padding-left: 3.5px;
+}
+
+img.social:hover {
+opacity: 1.0; 
+}
+
+p.social{
+  float: left;
+  padding-top: 30px;
+}
+
+div.social{
+  
+  overflow: hidden;
+  white-space: wrap;
+}
+
+p.ind1{
+
+  padding-top:10px;
+}
+
+div.contato{
+  clear: both;
+}
+
+div.loja{
+  height: 745px;
+  text-align: center;
+  padding-top: 370px;
+}
+
+.lateral{
+
+  height: 260px;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+div.contatotop{
+  background-color: #eeeeee;
+  color: #333;
+  border-color: #eeeeee;
+
+}
+
+figure.projeto img{
+  width: 258px;
+  height: 146px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+
+div.projeto{
+
+  height: 180px;
+}
+
+div.parceiros{
+
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-left: 12px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+div.parceiros img{
+
+  
+
+}
+
+
+div.anunciotop{
+
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+figure.foto{
+
+  
+}
+
+@media (min-width: 480px) {
+  .excluir_480{
+  display: none !important;
+
+
+}
+
+}
+
+@media (min-width: 979px){
+  .mostra_900{
+  display: none !important;
+
+
+}
+}
+
+.titulo-topo{
+  padding-top: 20px;
+}
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+  .bs-docs-container {
+    max-width: 970px;
+  }
+  .bs-docs-sidenav {
+    width: 258px;
+  }
+  .bs-docs-sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+  /* Unfloat brand */
+  body > .topo-fixo .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Inline-block quick links for more spacing */
+  .quick-links li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  /* When affixed, space properly */
+  .bs-docs-sidenav {
+    top: 0;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  /* Widen masthead and social buttons to fill body padding */
+  .jumb {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .bs-docs-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .bs-docs-sidenav.affix {
+    top: 0;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Widen masthead and social buttons to fill body padding */
+  .jumb {
+    padding: 40px 20px;
+    margin-top:   -20px; /* Offset bottom margin on .navbar */
+    margin-right: -20px;
+    margin-left:  -20px;
+  }
+  .masthead h1 {
+    font-size: 90px;
+  }
+  .masthead p,
+  .masthead .botao {
+    font-size: 24px;
+  }
+  .marketing .largura4 {
+    margin-bottom: 40px;
+  }
+  .bs-docs-social {
+    margin: 0 -20px;
+  }
+
+  /* Space out the show-grid examples */
+  .show-grid [class*="span"] {
+    margin-bottom: 5px;
+  }
+
+  /* Sidenav */
+  .bs-docs-sidenav {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .bs-docs-sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+
+}

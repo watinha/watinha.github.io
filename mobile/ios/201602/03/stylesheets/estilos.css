@@ -1,0 +1,447 @@
+body {
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	
+}
+
+body, input, button  {
+	font-family: 'Clan';
+	font-size: 14px;
+	line-height: 1.4;
+	font-weight: 300;
+	color: #383838;
+}
+
+body, html {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+ .container {
+    position: relative;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Responsividade do tamanho de janelas*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1210px;
+  }
+}
+
+/*fim tamanho da responsividade*/
+
+.col-md-4 {
+	width: 33.33333333%;
+}
+
+.col-sm-6 {
+	width: 50%;
+}
+.col-xs-6 {
+	padding-right: 7px;
+	width: 50%;
+}
+
+.col-12 {
+	width: 100%;
+
+}
+.col-12, .col-xs-6 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 12px;
+}
+.col-12, .col-xs-6, .col-sm-6, .col-md-4 {
+	float: left;
+}
+
+/*Banner*/
+#banner-fundo {
+	height: 1080px;
+	background-image: url("../imagens/wallpaper-home-br4.jpg");
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 0;
+	background-position: top center;
+}
+
+
+/* Inicio MENU-PRINCIPAL */
+ .header-fixed {
+ 	position: fixed;
+	top: 0;
+	background: #000000;
+	width: 100%;
+	z-index: 100;
+ }
+
+.titulo {
+	float: left;
+	margin: 10px 15px 0 10px;
+	padding-bottom: 20px;
+}
+h1 {
+	font-size: 2em;
+}
+
+.titulo a {
+	padding-top: -100px;
+	float: left;
+	width: 122px;
+	height: 54px;
+	background: url(../imagens/logo-avell.png) no-repeat;
+	background-size: 100%;
+}
+
+.titulo a span {
+	display: none;
+}
+
+.form {
+	width: 300px;
+	float: left;
+	margin: 16px 40px 0 0;
+	position: relative;
+}
+
+.form input {
+	border: 0 none;
+	float: left;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 60px 0 15px;
+	width: 100%;
+	margin: 0;
+}
+
+.input-form {
+	background: #FFFFFF;
+	color: #777777;
+	outline: 0;
+}
+
+.botao {
+	background: url(../imagens/botao.png) center center no-repeat;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	width: 60px;
+}
+
+.btn-hide-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: normal 18px 'fontello';
+    line-height: 92px;
+    text-align: center;
+}
+
+a {
+	color: #b1b1b1;
+}
+
+.menu li {
+	float: left;
+	margin: 0 12px 0 0;
+	padding: 12px 15px;
+	text-align: center;
+	min-height: 92px;
+}
+
+li {
+	list-style: none;
+}
+
+li span {
+	color: #c5c2c2;
+	float: left;
+	position: relative;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 40px 0 0;
+}
+
+li.atendimento-online span {
+	width: 80px;
+	background: url(../imagens/icon-atendimento.png) center 0 no-repeat;
+}
+li.minha-conta span {
+	width: 40px;
+	background: url(../imagens/icon-minha-conta.png) center 1px no-repeat;
+}
+li.carrinho-de-compras span {
+	width: 100px;
+	background: url(../imagens/icon-carrinho.png) center 5px no-repeat;
+}
+
+.menu-dropdown {
+	float: right;
+	position: relative;
+	margin: 30px 3px 0;
+	background: #525151;
+	border: solid 1px #4b4b4b;
+}
+.menu-dropdown .label {
+	position: relative;
+	padding: 4px 27px 0 7px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+/* Fim MENU-PRINCIPAL*/
+
+/*Inicio MENU-NAVEGAÇÃO*/
+#menu-navegacao {
+	z-index: 90;
+	padding-top: 93px;
+}
+
+#menu-navegacao .menu-nav {
+	margin-bottom: 0;
+	background: #383838;
+	height: 56px;
+	position: relative;
+}
+
+#menu-navegacao .menu-nav li {
+	float: left;
+	font-size: 13px;
+	line-height: 56px;
+}
+
+#menu-navegacao .menu-nav li a {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 35px;
+	text-decoration: none;
+	background-color: transparent;
+}
+/*Fim MENU-NAVEGAÇÃO*/
+
+/*Inicio BANNER*/
+.slider {
+	display: block;
+	position: relative;
+}
+.list {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.track {
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.slide {
+	display: block;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+}
+.banner-desktop {
+	display: block;
+}
+figure {
+	margin:0;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+}
+
+/*Fim BANNER*/
+
+/* Inicio FILTO  */
+
+.wrap {	
+	padding: 25px 3px;
+	clear: both;
+	background: #fff;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 16px;
+	line-height: 1px;
+	padding: 0 10px;
+	margin: -6px 0;
+}
+#filter {
+	position: relative;
+	height: 152px;
+	z-index: 1;
+}
+.wrap-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 32px 30px 0;
+	background: #e4e3e3;	
+}
+.wrap-2 {
+	height: 120px;
+}
+
+.p0 {
+	padding: 0 !important;
+}
+
+.title-filter {
+	font-size: 16px;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+#filter li {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.checker {
+	width: 19px;
+	height: 19px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+/* Fim FILTRO */
+
+.titulo-pagina {
+	font-size: 22px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #9a9a9a;
+	margin: 0 0 30px;
+}
+
+.slick {
+	display: block;
+}
+.slick-initialized {
+	position: relative;
+	box-sizing: border-box;
+}
+.item {
+	overflow: hidden;
+	position: relative;
+	border: solid 1px #e6e6e6;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.item .image {
+	width: 100%;
+	padding: 20px 10px 0; 
+}
+.item .image figure {
+	border-bottom: solid 1px #e7e7e7;
+	padding: 0 0 25px;
+}
+.informacoes {
+	width: 100%;
+	padding: 15px;
+	border-bottom: solid 1px #e7e7e7;
+}
+.informacoes h2 {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+.acoes {
+	padding: 15px 15px 50px;
+}
+.gear {
+	width: 100%;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+.buttom {
+	display: inline-block;
+	border-style: solid;
+	border-width: 0 0 3px;
+	text-align: center;
+	color: #858585;
+	background: #dedede;
+	border-color: #cecdcd;
+}
+
+.buttom-small {
+	font-size: 12px;
+	line-height: 26px;
+	padding: 3px 5px 0;
+}
+.button-red {
+	color: #FFFFFF;
+	background: #b25252;
+	border-color: 3px 5px 0;
+}
+.icon-gear {
+	background: url("../imagens/icon-gear.png") no-repeat center center;
+	width: 19px;
+	height: 23px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.icon-bay {
+	background: url("../imagens/icon-car.png") no-repeat center center;
+	width: 19px;
+	height: 23px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.prices {
+	background: #e6e6e6;
+	padding: 15px;
+}
+.billet {
+	margin-bottom: 0px;
+	line-height: 22px;
+}
+.credit-card {
+	font-size: 13px;
+	font-weight: 400;
+}
+.credit-card .price {
+	color: #95464a;
+	font-size: 14px;
+}

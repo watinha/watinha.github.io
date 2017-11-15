@@ -1,0 +1,517 @@
+.wrapper {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 900px;
+    font-family: Tahoma;
+}
+
+
+
+
+
+
+
+
+
+.header {
+
+	position: fixed;
+    width: 100%;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    height: 50px;
+}
+
+.googleCloudPlataform{
+	position: fixed;
+	width: 275px;
+	height: 50px;
+	left: -2px;
+
+  }
+ .googleCloudPlataformText{
+ 	float: left;]
+ }
+
+.opcoes{
+	float: left;
+}
+
+.pesquisa{
+	float: right;
+	padding-right: 23px;
+	padding-top: 6px;
+}
+
+.pesquisaInput{
+	width: 200px;
+	height: 35px;
+	background-color: #f7f7f7;
+	color: gray;
+	background-image:url(lupa.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: 25px 10px;
+	text-align: center;
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 17px;
+}
+
+.imagemLupa{
+
+}
+
+.console{
+	width: 78px;
+	height: 50px;
+	float: right;
+	color: #039be5;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+.configuracoesUsuario{	
+	float: right;
+	position: relative;
+}
+.minhaConta{
+	float: right;
+	padding-right: 0px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ads {
+		font-family: 'Roboto',sans-serif;
+
+    position: fixed;
+    width: 100%;
+    top: 48px;
+    height: 48px;
+    background-color: #f7f7f7;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
+.esquerda{
+    max-width: 60%;
+    position: fixed;
+    overflow: hidden;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+    color: gray;
+    font-size: 13px;
+	font-weight: 200px;
+}
+
+.porQueOGoogle
+{
+	width: 150px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.produtos{
+	width: 100px;
+	height: 28px;
+	float: left;
+	border-bottom: ridge;
+	border-color: blue;
+	text-align: center;
+	color: black;
+}
+
+.solucoes{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.launcher{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.precos{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.clientes{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.documentacao{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+
+
+
+
+
+.direita{
+
+	position:relative;
+    padding-top: 8px;
+    padding-right: 15px;
+    max-height: 40px;
+    width: 600px;
+    right: 10px;
+    float: right;
+	background-color :#f7f7f7;
+	font-size: 15px;
+	font-weight: 500;
+	height: 48px;
+}
+
+.botaoRolagem{
+	position: fixed;
+	top: 48px;
+	float: left;
+}
+
+.testeGratis{	
+	background-color: #039be5;
+	margin-right: 30px;
+	height: 34px;
+	float: right;
+	color: white;
+	width: 230px;
+	text-align: center;
+	font-size: 13px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.testeGratis a{
+	line-height:2.7;
+}
+.entreEmContato{
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	background-color: white;
+	height: 34px;
+	width: 200px;
+	float: right;
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+
+}
+
+.entreEmContato a{
+	line-height: 2.7;
+}
+
+
+
+
+
+
+
+.corpo{
+	height: 100%;
+	width:  91%;
+}
+
+
+.avaliacaoGratuita{
+	background-color: #039be5;
+	margin-right: 30px;
+	height: 34px;
+	float: left;
+	color: white;
+	width: 230px;
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	padding-bottom: 9px;
+	padding-top: 5px;
+	background-image:url(detalheBotao.svg) !important;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+}
+
+
+.assunto1{
+	width: 100%;
+	height: 198px;
+	padding-left: 128px;
+	padding-top: 32px;
+	font: 400 20px/32px Roboto,sans-serif;
+	background-image:url(imgbody1.png) !important;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.imgbody1{
+	position: relative;
+	background-position: right;	
+}
+.primeiro{
+	color: #757575;
+	font: 300 34px/40px Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 3px;
+}
+
+.primeiroh2{
+	color: 757575;
+	font-size: 16px;
+	max-width: 80%;
+	font-weight: 100;
+}
+
+.avaliacaoGratuita{
+	margin-left: 2px;
+	height: 32px;
+	width: 238px;
+}
+
+.assunto2{
+	width: 100%;
+	height: 400px;
+	padding-top: 85px;
+	/*background-color: gray;*/
+	padding-left: 125px;
+	font: 400 20px/32px Roboto,sans-serif;
+	background-color: #f7f7f7;
+	
+	line-height: normal;
+}
+.segundo{
+	max-width: 640px;
+	color: #757575;
+	font-weight: 400;
+	font-size: 34px;
+
+
+
+}
+
+.segundoh2{
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	max-width: 640px;
+	color: #757575;
+
+}
+
+.imgbody2{
+	float: right;
+	background-repeat: no-repeat;
+	padding-right: 120px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1325px){
+	.assunto1{
+		height: 215px;
+	}
+
+}
+
+
+@media screen and (max-width: 1020px){
+	.console{
+		display: none;
+	}
+
+	.imgbody2{
+		padding-right: 20px;
+	}
+
+	.assunto1{
+		padding-left: 90px;
+	}
+	.assunto2{
+		padding-left: 90px;
+	}
+}
+@media screen and (max-width: 900px){
+
+	.imgbody2{
+		display: none;
+	}
+	.segundo{
+		max-width: 80%;
+	}
+	.segundoh2{
+		max-width: 80%;
+	}
+
+	.primeiro{
+	    font-size: 20px;
+	}
+
+	.segundo{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.imagemLupa{
+		display: none;
+	}
+	.pesquisa{
+		display: none;
+	}
+	.pesquisaInput{
+		display: none;
+	}
+	.googleCloudPlataform{
+		display: none;
+	}
+	.googleCloudPlataformText{
+		position: fixed;
+		color: rgba(0,0,0,.54);
+		display: inline-block;
+		font: 20px/36px Roboto,sans-serif;
+		padding-top: 5px;
+	}
+	.opcoes{
+		display: inline;
+	}
+
+	.porQueOGoogle{
+		display: none;
+	}
+	.precos{
+		display: none;
+	}
+	.solucoes{
+		display: none;
+	}
+	.launcher{
+		display: none;
+	}
+	.clientes{
+		display: none;
+	}
+	.documentacao{
+		display: none;
+	}
+	.botaoRolagem{
+		display: none;
+	}
+	.avaliacaoGratuita{
+		width: 90%;
+	}
+
+	.assunto1{
+		padding-left: 30px;
+	}
+	.assunto2{
+		padding-left: 30px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.produtos{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 530px){
+	.testeGratis{	
+		width: 180px;
+	}
+
+	.entreEmContato{
+		width: 140px;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	.assunto1{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	.assunto1{
+		height: 280px;
+	}
+	.direita{	
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+
+}
+
+@media screen and (max-width: 370px){
+	.testeGratis{	
+		font-size: 8px;
+		width: 130px;
+		
+	}
+
+	.entreEmContato{
+		font-size: 8px;
+		width: 110px;
+	}
+
+}
+
+@media screen and (max-width: 300px){
+	.assunto1{
+		height: 310px;
+	}
+}

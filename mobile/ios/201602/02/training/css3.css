@@ -1,0 +1,49 @@
+/*estiliza as seções do menu*/
+
+#lateral .box {
+	list-style-type:none;/*sem marcador para a lista*/
+	margin-bottom:1em;
+	padding-bottom:1em;
+	}
+
+#lateral h3 {
+	display:inline-block;
+	font-weight:bold;
+	font-size:1.6em;
+	font-style:normal;
+	padding-bottom:0.2em;
+	margin: 2em 0 2em 0.81em;
+	color:rgb(0,0,0);
+	border-bottom: 4px solid rgb(155,155,155);
+	}
+
+#menu {
+	font-style:italic;
+	position:relative;
+	font-size:1.0em;
+	margin:1em 0 1em -1em;
+	padding:0;
+	}
+
+#menu li {padding:0; margin:0;}
+
+#menu li a,  #menu li a:link {
+	font-size:1.2em;
+	color:rgb(0,0,0);
+	text-decoration: none;
+	padding: 0.8em 0 0.8em 1em;
+	display: block;
+	-moz-transition: all 1.2s ease;
+			-webkit-transition: all 1.2s ease;
+				-o-transition: all 1.2s ease;
+					transition: all 1.2s ease;
+	}
+
+#menu li a:hover {
+	color:rgb(255,255,255);
+	background-color:rgba(247,226,75);
+	-moz-transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+	}

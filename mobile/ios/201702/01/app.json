@@ -1,0 +1,17 @@
+{
+  "name": "web-class-react-website-deployment-steps",
+  "description": "Steps for deployment on React website copy",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}

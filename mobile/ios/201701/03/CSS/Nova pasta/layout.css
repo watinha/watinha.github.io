@@ -1,0 +1,159 @@
+/*
+* Francisco da Crux Xavier
+* 30/02/2017
+*
+* Layout basico netflix
+*/
+html{
+	background-color: black;
+  	overflow-x:hidden;
+  	font-family: helvetica, sans-serif;
+  	line-height: 1;
+  	color: white;
+}
+body{ 
+    padding: 0;
+    width: 100%;
+    padding-bottom: 0px;
+    display: inline-table;
+    background: -webkit-linear-gradient(left  ,rgba(0,0,0,0.7),rgba(0,0,0,0)),
+    url("../Imagens/fundo.jpg") no-repeat; /*Safari 5.1-6*/
+    background-size: 100% 45%;
+}
+h1 {
+	font-size: 70px;
+	margin-bottom: 10px;
+	margin-top: 5%;
+}
+
+ul{
+	width: 100%;
+	position: relative;
+	
+
+}
+ ul li{
+	display: inline-block;
+	
+}
+
+
+.logo{
+	width: 30%;
+	margin-top: -21px;
+	margin-left: -14px;
+	
+}
+.linha{
+	width: 100%;
+}
+
+
+
+.botao{
+	background-color: #df0712;
+	border-radius: 2px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+
+}
+
+
+.botao.btn2{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: : 60px;
+		}
+.botao:hover{
+	background-color: #f40612;
+}
+
+.login{
+	position: absolute;
+	background-color: #df0712;
+	border-radius: 2px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	right: 85px;
+	top: -4px;
+
+}
+.topo{
+	height: 360px;
+	padding: 40px;
+}
+
+
+
+.conteudo{	
+	display: inline-block;
+	position: relative;
+}
+.conteudo p{
+	font-size: 26px;
+	margin-top: 15px;
+}
+
+.conteudo img{
+	width:100%;
+	height: 100%;
+}
+.conteudo.direita{
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+.conteudo.menu{
+	width: 70%;
+	height: 600px;
+	margin: 0 auto;
+	display: table;/*centraliza a div */
+}
+.conteudo.interno{
+	margin: 10;
+	margin-top: 40px;
+}
+.conteudo.interno h3{
+	text-align: center;
+
+}
+.conteudo.interno p{
+	text-align: center;
+
+}
+
+.conteudo.metade{
+	width: 45%;
+	margin-left: 30px;
+}
+.conteudo.dois-tercos{
+	width: 66%;
+}
+.conteudo.dois-tercos img{
+	width:50%;
+	height: 50%;
+}
+.conteudo.um-terco{
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	vertical-align: top;
+}
+.conteudo.um-terco img{
+	width: 100%;
+	height: 100%;
+}
+

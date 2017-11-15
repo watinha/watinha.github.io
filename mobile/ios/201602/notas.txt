@@ -1,0 +1,149 @@
+Grupo 1: João Vitor Rodrigues Alves e Alyson Lopes Cordeiro
+- nubank.com
+- Pequenas diferenças no site da NUBANK
+- Faltando ícones no links
+- Design responsivo OK
+Nota: 80
+
+Grupo 2: Jessica e Paulo Toshio
+- energiaeambiente.org.br
+- dropdown feito
+- faltando centralizar ícones no design responsivo
+- falta de simetria
+Nota: 80
+
+Grupo 3: Gianluca e Paulo Diego
+- Brooklyn Bridge Park
+- faltou inserir informações do tempo no mobile
+Nota: 100
+
+Grupo 4: Bruno Rafael de Oliveira Batista
+- Site da AVEL
+- imagens do menu e de botões levemente desalinhadas
+- design responsivo faltando
+Nota: 70
+
+Grupo 5: Murilo Horácio Pereira da Cruz e Lucas de Oliveira Alves
+- pottermore.com
+- design responsivo ok
+- ícones sobrescrevem um ao outro
+Nota: 90
+
+Grupo 6: Henrique Jacomini e Lucas Gabriel Augustino
+- japaneseclassics
+- faltando alinhamento vertical em alguns botões
+- faltando ícone no header
+- design responsivo: faltando alinhamentos de ícones
+Nota: 70
+
+Grupo 7: Ricardo Corassa e Thayna Gimenez
+- Startup weekend
+- posicionamento de ícones e inputs, faltando detalhes
+- design responsivo: faltando a parte de definição do novo header
+Nota: 80
+
+Grupo 8: Edson Yuiti e Felipe Sampaio
+- Dropbox - mais simples
+- faltando alguns ícones
+- desgin responsivo: faltando detalhamento de imagens e detalhes de estilo da fonte
+Nota: 80
+
+Grupo 9: Arcádio e Laís
+- ubuntu
+- website desktop ok
+- Design responsivo: várias adaptações necessárias
+Nota: 70
+
+Grupo 10: Mattiello e Pedro Paulo Gonçalvez
+- CNSTORE
+- Faltando alinhamento de texto em botões.
+- Faltando detalhamento do menu
+- Design responsivo OK
+Nota: 80
+
+Grupo 11: Matheus Affonso
+- Coca-cola - mais simples
+- faltando ícones posicionados sobre imagem
+- faltando acertar o controle sobre sprites de imagens
+- Design responsivo: faltando bastante detalhamentos.
+Nota: 70
+
+Grupo 12: Rafael Hiroshi
+- ubuntu.com
+- website desktop ok
+- Design responsivo: faltando detalhamento e semelhança com o site original
+Nota: 80
+
+Grupo 13: Pablo Jacon e Murilo Almeida
+- g1.globo.com
+- faltando detalhes de ícones nos menus e no input de busca
+- design responsivo: separado em duas colunas no website, mas no site do g1 fica em uma única coluna
+Nota: 70
+
+Grupo 14: Tamyres Yukari
+- tremdasgerais.com.br
+- faltando barra de busca, detalhes no layout do header e centralização geral da página web.
+- design responsivo: não foi implementado
+Nota: 60
+
+Grupo 15: Aryanne e Gabrielli
+- globo.com
+- nenhum elemento do layout feito
+Nota: 0
+
+Grupo 16: Bruno Anken e Bruno de Paulo
+- http://redhotchilipeppers.com/
+- faltando ícone do menu, scroll lateral e pequenos detalhes de posicionamento de caixas
+- design responsivo: faltou o reposicionamento do menu e da imagem dos discos.
+Nota: 80
+
+Grupo 17: Erick Iwamoto e Glauco
+- skype.com
+- URL absolutas nos endereços de código CSS.
+- fizeram apenas a primeira parte, mais básica.
+- botão de entrar ficou desalinhado no layout comum.
+- design  responsivo: faltou alterar o layout do botão de entrar.
+Nota: 80
+
+Grupo 19: Rafael Yamaki e Eduardo Albano
+- samsung.com
+- Faltando ícone principal do site
+- Faltando detalhes de ícones nos links e menu de navegação.
+- Scroll lateral
+- design responsivo: faltando acertar o novo posicionamento dos elementos.
+    - muito básico.
+Nota: 70
+
+Grupo 19: Vinícius e Higor Mendonça
+- http://www.cnsr.com.br/
+- Faltando detalhes mínimos no posicionamento dos elementos
+- Layout híbrido elástico líquido não funcionando bem.
+- Design responsivo: ok
+Nota: 80
+
+Grupo 20: Nasser e Samuel Souza
+- https://escribacafe.com/
+- design no desktop: OK
+- Design responsivo: faltou posicionar melhor os múltiplos ítens de conteúdo.
+Nota: 80
+
+Grupo 21: Gabriel Camlofski e Henrique Reche
+- http://devnaestrada.com.br/
+- Design desktop: OK
+- Design responsivo: só um pequeno detalhe em um botão.
+Nota: 100
+
+Grupo 22: Diego Vilella
+- nasa.gov
+- Design desktop: faltou alinhar e centralizar os elementos
+- Design responsivo: OK
+Nota: 80
+
+Grupo 23: Evelyn
+- letterboxd.com
+- Design desktop: ok
+- Design responsivo: layout quebrando com as múltiplas imagens
+Nota: 60
+
+Grupo 24: Bruna
+Nota: 0

@@ -1,0 +1,176 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Express - framework de aplicativo da web Node.js</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+  <body>
+		<header>
+	  			<input type="checkbox" id="toggle" unchecked>
+	  				<label for="toggle" class="button"><div id="threelines"></div></label>
+	  			<section id="logo">
+	  				<a >Express</a>
+	  			</section>
+	  			<div id="navbar">
+		  			<ul id="navmenu">
+		  				<li>
+		  					<a id="hide" ><strong>Página Inicial</strong></a>
+		  				</li>
+		  				<li>
+		  					<a >Introdução</a>
+		  					<ul id="introducao">
+		  						<li>
+		  							<a >Instalação</a>
+		  						</li>
+		  						<li>
+		  							<a >Hello World</a>
+		  						</li>
+		  						<li>
+		  							<a >Gerador do Express</a>
+		  						</li>
+		  						<li>
+		  							<a >Roteamento Básico</a>
+		  						</li>
+		  						<li>
+		  							<a >Arquivos Estáticos</a>
+		  						</li>
+		  						<li>
+		  							<a >Perguntas mais Frequentes</a>
+		  						</li>
+		  					</ul>
+		  				</li>
+		  				<li>
+		  					<a >Guia</a>
+		  					<ul id="guia">
+		  						<li>
+		  							<a >Roteamento</a>
+		  						</li>
+		  						<li>
+		  							<a >Escrevendo o middleware</a>
+		  						</li>
+		  						<li>
+		  							<a >Usando o middleware</a>
+		  						</li>
+		  						<li>
+		  							<a >Usando o mecanismo de modelo</a>
+		  						</li>
+		  						<li>
+		  							<a >Manipulação de erros</a>
+		  						</li>
+		  						<li>
+		  							<a >Depuração</a>
+		  						</li>
+		  						<li>
+		  							<a >Express atrás de proxies</a>
+		  						</li>
+		  						<li>
+		  							<a >Migrando para o Express 4</a>
+		  						</li>
+		  						<li>
+		  							<a >Migrando para o Express 5</a>
+		  						</li>
+		  						<li>
+		  							<a >Integração de Banco de dados</a>
+		  						</li>
+		  					</ul>
+		  				</li>
+		  				<li>
+		  					<a >Referêcia a API</a>
+		  					<ul id="refenrencia">
+		  						<li>
+		  							<a >4.x</a>
+		  						</li>
+		  						<li>
+		  							<a >3.x(descontinuada)</a>
+		  						</li>
+		  						<li>
+		  							<a >2.x(descontinuada)</a>
+		  						</li>
+		  					</ul>
+		  				</li>
+		  				<li>
+		  					<a >Tópicos Avançados</a>
+		  					<ul id="topicos">
+		  						<li>
+		  							<a >Mecanismos de modelo</a>
+		  						</li>
+		  						<li>
+		  							<a >Usando Gerenciadores de processos</a>
+		  						</li>
+		  						<li>
+		  							<a >Atualizações de segurança</a>
+		  						</li>
+		  						<li>
+		  							<a >Melhores práticas de segurança</a>
+		  						</li>
+		  						<li>
+		  							<a >Melhores práticas de desempenho</a>
+		  						</li>
+		  					</ul>
+		  				</li>
+		  				<li>
+		  					<a >Recursos</a>
+		  					<ul id="recursos">
+		  						<li>
+		  							<a >Glossário</a>
+		  						</li>
+		  						<li>
+		  							<a >Middleware</a>
+		  						</li>
+		  						<li>
+		  							<a >Comunidade</a>
+		  						</li>
+		  						<li>
+		  							<a >Livros e blogs</a>
+		  						</li>
+		  					</ul>
+		  				</li>
+		  			</ul>
+	  			</div>
+		</header>
+
+		<section id="main-content">
+			<div class="left-content">
+				<a href="#" class="express-text">Express</a>
+				<a class="express-version">4.15.4</a> <br/>
+				<span class="description">
+					Framework web rápido, flexível e  minimalista para
+					<a target="_blank" href="https://nodejs.org/en/">Node.js</a>
+				</span>
+
+				<blockquote>
+					$ npm install express --save
+				</blockquote>
+			</div>
+
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/HxGt_3F0ULg" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section id="features">
+			<div class="boxes">
+				<div id="web">
+					<h2>Aplicativos da Web</h2>
+					<p>O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</p>
+				</div>
+				<div id="apis">
+					<h2>APIs</h2>
+					<p>Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil. </p>
+				</div>
+				<div id="performance">
+					<h2>Desempenho</h2>
+					<p>O Express fornece uma camada fina de recursos fundamentais para aplicativos da web, sem obscurecer os recursos do Node.js que você conhece e ama.</p>
+				</div>
+				<div id="frameworks">
+					<h2>Frameworks</h2>
+					<p>Muitas <a target="_blank" href="http://expressjs.com/en/resources/frameworks.html">frameworks populares</a> são baseadas no Express.</p>
+				</div>
+			</div>
+		</section>
+  </body>
+</hmtl>

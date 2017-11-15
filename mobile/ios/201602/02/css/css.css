@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*, html, body {
+   margin:0;
+   padding:0;
+   }
+... /* mais regras CSS reset */
+
+/* regra para o box-sizing */
+*, *:before, *:after {/*aplicar na página inteira (*) e para os pseudo elementos (before, after)*/
+    -webkit-box-sizing: border-box;/*para funfar no Chrome, Safari e Android*/
+       -moz-box-sizing: border-box;/*para funfar no Firefox*/
+            box-sizing: border-box;/*padding e border não são adicionados às medidas do objeto*/
+}
+/* regra para o clear float */
+.cf:before,.cf:after {/*resolve altas tretas de colapso e paradas interbrowsers*/
+    content: " ";
+    display: table;
+  }
+
+.cf:after {clear: both;}/*controla as propriedades de flutuação dos elementos*/
+
+.cf {*zoom: 1;}
+
+body {
+   margin-left:55px; /* espaço à esquerda para a barra vertical vísivel do menu */
+   font:  62.5%/1.2 Verdana, Helvetica, Arial, sans-serif;

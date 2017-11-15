@@ -1,0 +1,331 @@
+body{
+	background-color: #eee;
+}
+
+.headerCoca{
+    height: 200px;
+    width: 100%;
+    background-color: #f40000;
+}
+
+.container{
+    max-width:1250px;/* Largura máxima */
+    margin:0 auto;/* Alinha ao centro */
+    overflow:hidden;
+    margin-top: -200px;
+}
+
+#container1{
+    /* Largura máxima */
+    max-width:1250px;
+    /* Alinha ao centro */
+    margin:0 auto;
+    overflow:hidden;
+    margin-top: 20px;
+}
+
+.header{
+    margin-top: -1%;
+    display: block;
+    position: relative;
+    background-color: #f40000;
+    float: left;
+    max-width: 1250px;
+    width: 100%;
+    height: 200px;
+    border-top: 10px solid #eee;
+    overflow: hidden;
+}
+
+.logo {
+    /*Logo cabecaho da coca*/
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 0 0 -476px;
+    width: 952px;
+    height: 198px;
+    left: 50%;
+    cursor: default;
+    background-size: 100%;
+}
+
+.menu ul{
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+}
+
+li a{
+    width: auto;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Gotham SSm A','Gotham SSm B',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: red;
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 0 30px 0 0px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.slide-logo{
+    /*Logo Slide da coca*/
+    display: block;
+    position: relative;
+    padding-bottom: 3%;
+    padding-top: 0%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 300px;
+    z-index: 1;
+}
+
+.radio{
+	/*Logo radio da coca*/
+    min-width: 100px;
+    min-height: 100px;
+	width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.botaoRadio{
+    text-decoration: none;
+    display: block;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    background: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f40000;
+    width: 90px;
+    min-width: 50px;
+}
+
+.btn,.btn-more {
+    font-family: 'Gotham SSm A','Gotham SSm B',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #f40000;
+    min-width: 110px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 10px solid #bbb;
+    margin: 0 3px 10px -70px;
+    padding: 4px 15px 2px 15px;
+    font-size: 14px;
+}
+
+.main{
+    position: relative;
+    background-color: white;
+    float: left;
+    width: 100%;
+    height: 500px;
+    border-top: 10px solid #eee;
+    overflow: hidden;
+}
+
+.headline {
+    width: 320px;
+    line-height: 1.1em;
+    font-weight: bold;
+    margin: 0px auto 35px;
+}
+
+#facebook{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#facebook a:hover{
+    /*background-color: blue;*/
+}
+
+#twitter{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#twitter a:hover{
+    background-image:url(img/social-twitter135x135.png);
+}
+
+#youtube{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#youtube a:hover{
+    background-image:url(img/social-youtube135x135.png);
+}
+
+#insta{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#insta a:hover{
+    background-image:url(img/instagram135x270.png);
+}
+
+#google{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#google a:hover{
+    background-image:url(img/google_135x270px_b.png);
+}
+
+#flickr{
+    display: inline-block;
+    list-style: none;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .6;
+}
+
+#flickr a:hover{
+    background-image:url(img/flickr_135x270px_e.png);
+}
+
+.footer{
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+.garrafa{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.imagem-coca-footer{padding-top: 2%;}
+
+.imagem-brasil{padding-top: 2%;}
+
+.colunaFooter{
+	float: left;
+    width: 100%;
+    display: block;
+    padding: 0 0 6px 0;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+    font-weight: normal;
+    opacity: 1;
+    text-indent: 0;
+    margin: 0;
+}
+
+.brasil{
+	font-size: 16px;
+	background-color: #ddd;
+	display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 200px;
+    border-top: 10px solid #eee;
+    overflow: hidden;
+}
+
+.creditos{
+    font-size: 13px;
+	background-color: white;
+	display: block;
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: auto;
+    border-top: 10px solid #eee;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.fonte-vermelha{
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+
+h2{
+    font-family: 'Gotham A','Gotham B',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 1.2em;/*Especifica a altura da linha de todo meu elemento <h2>*/
+    margin: 0 auto 0 auto;
+    font-size: 42px;
+    letter-spacing: -0.06em;/*Diminui os espaçamentos entre os caractres de todos os meus elementos <h2>*/
+}

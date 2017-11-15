@@ -1,0 +1,52 @@
+/*
+* Francisco da Crux Xavier
+* 30/02/2017
+*
+* rodape netflix
+*/
+.rodape {
+	color: #9e9e9e;
+	width: 75%;
+	margin: auto;
+	
+}
+.rodape ul{
+	list-style-type: none;
+    
+}
+.rodape p{
+	font-size: 16px;
+}
+.rodape ul li{
+	width: 22%;
+	display: inline-block;
+	margin-top: 15px;
+
+}
+
+.rodape ul  a{
+	font-size: 15px;
+	color: #9e9e9e;
+	text-decoration: none;
+
+}
+.rodape ul  a:hover{
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+}
+
+
+@media  only screen and (max-width: 400px){
+	
+	.rodape{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.rodape ul li {
+		width: 40%;
+		margin-right: 10px;
+
+	}
+}

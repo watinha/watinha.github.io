@@ -1,0 +1,46 @@
+@media (max-width: 500px) {/*essa classe se trata da responsividade do menu*/
+
+body {margin-left:0;
+	background-size:100% 28em!important; /*mostra pro código que isso é importante, em é o tamanho da fonte*/
+}
+
+#lateral {
+	padding:0;
+	-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	font-size:1.2em;
+	height:100%;
+	overflow:auto; /*aparece uma barra de rolagem caso ocorra overflow para mostrar o resto do conteúdo*/
+	width:100%; 
+	position:static;/*padrão, pras paradas aparecerem na ordem em que são colocadas*/
+	top:0;
+	left:0;
+	}
+
+#lateral:before {
+	z-index:1000;/*VAI APARECER POR CIMA SIM*/
+	width:0;
+	text-align:center;/*as paradas vão aparecer no meio, deixa responsivasso*/
+	content: "";
+	font-size:0;
+	color:white;
+	position:static;
+	top:0;
+	left:0;
+	display:inline-block; 
+	}
+
+#lateral:hover, #lateral:focus {
+	overflow:scroll;
+	-moz-transform: none;
+		-webkit-transform: none;
+			-o-transform:none;
+				transform:none;
+	}
+
+#menu li a {border-bottom:1px solid #ccc;}
+
+#menu li:first-child a {border-top:1px solid #ccc;}	
+}
