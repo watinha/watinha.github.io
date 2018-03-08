@@ -1,0 +1,276 @@
+body {
+  color: #455A64;
+   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   margin: 0px;
+}
+
+.hero {
+    margin-top: 30px;
+    background: #fff;
+    padding: 160px 48px 48px 48px;
+    width: 90%
+}
+
+.hero h2 {
+    background: url("AngularJS-large.png");
+    background-size: 40% auto;
+    background-repeat: no-repeat;
+    background-origin: left;
+    background-position: top;
+    height: 108px;
+    margin: 0 auto 64px auto;
+    overflow: hidden;
+    text-indent: -3000px;
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .hero h2 {
+        background-size: 33% auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero h2 {
+        background-size: 50% auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .hero h2 {
+        background-size: 90% auto;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-buttons{
+	text-transform: uppercase
+}
+
+.button-blue{
+	background: #1E88E5 url("button-logo-white.png");
+	background-repeat: no-repeat;
+    background-origin: center;
+    position: relative;
+    display: inline-block;
+	background-position: 16px;
+	padding: 0px 16px 0 48px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+	border-radius: 2px;
+	transition: all 0.3s;
+	text-decoration-line: none;
+	font-size: 14px;
+    line-height: 56px;
+}
+
+
+.button-blue:hover{
+	background-color: #2196F3;
+	box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s;
+	color: white;
+}
+
+
+.button-blue:link {
+    color: white;
+}
+
+.button-blue:visited {
+    color: white;
+}
+
+.button-blue:active {
+    color: white;
+}
+.button-blue .badge-new {
+    background: url("new-ribbon.png");
+    background-repeat: no-repeat;
+    background-origin: left;
+    background-position: top;
+    height: 41px;
+    overflow: hidden;
+    position: absolute;
+    right: -2px;
+    text-indent: -3000px;
+    top: -3px;
+    width: 40px;
+    z-index: 1
+}
+
+.button-white{
+	background: #ffffff url("button-logo.png");
+	background-repeat: no-repeat;
+    background-origin: center;
+    position: relative;
+    display: inline-block;
+	background-position: 16px;
+	padding: 0px 16px 0 48px;
+	border-radius: 2px;
+	transition: all 0.3s;
+	text-decoration-line: none;
+	font-size: 14px;
+    line-height: 56px;
+    border: 1px solid #ECEFF1;
+    color: #90A4AE
+}
+
+
+.button-white:hover{
+	border: 1px solid #2196F3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s;
+	color: #36A0F5;
+}
+
+.button-white:link {
+    color: #90A4AE
+}
+
+.button-white:visited {
+    color: #90A4AE
+}
+
+.button-white:active {
+    color: #90A4AE
+}
+.button-white .badge-new {
+    background: url("new-ribbon.png");
+    background-repeat: no-repeat;
+    background-origin: left;
+    background-position: top;
+    height: 41px;
+    overflow: hidden;
+    position: absolute;
+    right: -2px;
+    text-indent: -3000px;
+    top: -3px;
+    width: 40px;
+    z-index: 1
+}
+
+.box-b{
+	margin-top: 20px;
+	background: rgba(236,239,241,0.56);
+	box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+	padding: 32px;
+	width: 95.25%;
+}
+
+.itens-box-b{
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: : center;
+}
+
+.bt-gplus{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 5px;
+    text-decoration-line: none;
+    width: 24px;
+    height: 24px;
+}
+
+.group-link{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.m-li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 16px;
+}
+
+
+.texto-g{
+    font-size: 11px;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    padding: 7px;
+    font-color: #455A64;
+}
+
+
+.bt-github{
+    color: #90999D;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 24px;
+    width: auto;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    padding: 7px;
+    text-decoration-line: none;
+    transition: all 0.3s;
+}
+
+.bt-github:hover {
+    box-shadow: 0 0 4px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+    text-decoration: none;
+    background: #fff;
+    color: #2196F3;
+    transition: all 0.3s;
+}
+
+.bt-github:link {
+ 	color: #90999D;
+}
+
+.bt-github:active {
+ 	color: #90999D;
+}
+
+.bt-twitter{
+    background-color: #1b95e0;
+    color: white;
+    padding: 5px;
+    font-size: 8pt;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+
+.button-twitter{
+    background: #1b95e0 url("twitter.png");
+    font-size: 7pt;
+    color: white;
+    background-repeat: no-repeat;
+    background-origin: center;
+    position: relative;
+    display: inline-block;
+    background-position: 8px;
+    padding: 0px 10px 0 25px;
+    border-radius: 2px;
+    text-decoration-line: none;
+    line-height: 20px
+}
+
+.button-twitter:hover{
+    background: #0c7abf url("twitter.png");
+    background-repeat: no-repeat;
+    background-position: 8px;
+    color: white;
+}
+
+.button-twitter:link {
+    color: white
+}
+
+.button-twitter:visited {
+    color: white
+}
+
+.button-twitter:active {
+    color: white
+}

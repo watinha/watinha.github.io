@@ -1,0 +1,330 @@
+body {
+   background-color:#31302b;
+    margin:0;
+    min-height: 800px;
+    
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+ul li {
+    list-style: none;
+    list-style-image: none;
+    margin-left: 0;
+    list-style: none;
+}
+
+h5 {
+    font: 14px/30px sans-serif;
+    color: #a6abb0;
+    text-transform:uppercase;
+}
+
+@media (min-width: 1200px) {
+    #menu-container {    
+    width: 1170px;
+}
+}
+
+
+
+
+#header {
+    background: #f4f6f5;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    height: 106px;
+    border-bottom: 1px solid #cac3b4;
+}
+
+@media (max-width: 979px) {
+    #header {
+        height: 55px;
+    }
+}
+
+#menu-container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+#logo { 
+    width: 160px;
+    height: 46px;
+    float: left;
+    margin-top: 23px;
+    z-index: 10;
+    position: absolute;
+    left: 0; 
+}
+
+@media (max-width: 979px) {
+    #logo {
+    width: 135px;
+    height: 40px;
+    margin-top: 7px;
+    left: 10px;
+    }
+    
+}
+
+#logo a {
+    display: block;
+    background: url(/images/logo.svg) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 160px;
+    height: 46px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+@media (max-width: 979px) {
+    #logo a {
+    width: 135px;
+    height: 40px;
+}
+}
+
+
+#menu-account {
+    width: 100%;
+    float:right;
+}
+
+#my-account {
+    float:right;
+    height: 52px;
+    font: 14.5px/45px 'OpenSansRegular',sans-serif;
+    text-align: right;
+}
+
+#my-account a {
+    font: inherit;
+    color: #7b756b;
+    display: inline-block;
+    margin-left: 15px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+#lupa {
+    width:15px;
+    height: 15px;
+    float: right;
+    margin: 15px 5px;
+}
+
+#menu {
+    float:left;
+    width: 100%;
+}
+
+@media (max-width: 979px) {
+    #menu {
+        display:none;
+    }
+}
+
+
+#menu ul {
+    float: right;
+}
+
+#menu ul li {
+    float:left;
+    display:inline-block;
+    line-height: 20px;
+}
+
+#menu ul li a {
+    color: #626366;
+    border: 0;
+    padding: 10px 15px 10px;
+    margin-bottom: 15px;
+    cursor: default;
+    letter-spacing: 1px;
+    font-size: 14px;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+background-color: #fff;
+    color: #e54e4b;
+    text-decoration: none;
+    text-shadow: none;
+    outline: 0;
+}
+
+#menu ul li:last-child a{
+    border: solid 1px #d8d9da;
+    color: #f16321;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+#main-content {
+    background-color: #fff;
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 120px;
+    max-width: 100%;
+    height: 545px;
+}
+
+#content {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(https://magento.com/sites/default/files/Home_page_banner_scarf_4.png), linear-gradient(to bottom, #ffffff 0%,#eef2f3 100%);
+    background-size: 100% auto;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding-top:100px;
+}
+
+#txt-content {
+    padding-bottom: 155px;
+    width: 100%;
+    min-height: 290px;
+}
+
+@media (max-width:767px) {
+    #txt-content {
+        width:auto;
+    }
+    
+}
+
+#content h1 {
+    color: #000;
+    line-height: 70px;
+    font-weight: 400;
+    font-size:70px;
+    
+}
+@media (max-width:767px) {
+    #content h1 {
+        font-size:50px;
+    }
+    
+}
+
+#texto {
+   display: block;
+    float: left;
+    width: 45%;
+    min-height: 30px;
+    margin-left: 3%;
+    
+}
+
+@media (max-width:767px) {
+    #texto {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#texto p {
+    color: #6e6e70;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+
+.txt-laranja {
+    color: #f46f25;
+}
+
+.btn-main {
+    border-color: transparent;
+    border-radius: 0;
+    background-color: #f46f25;
+    background-image: none;
+    color: #FFF;
+    padding: 15px 30px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+
+#footer {
+    padding: 50px 0px;
+    max-width: 1400px;
+    margin:0 auto;
+    height: 275px;
+}
+
+#container-footer {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#content-footer {
+    float:left;
+    width:23%;
+}
+
+
+@media (max-width: 767px) {
+ #content-footer {
+    float:none;
+    width:100%;
+    display: block;
+    padding-left: 30px;
+}
+}
+
+#content-footer ul {
+    padding:0px;
+    margin:0px;
+}
+
+
+#content-footer ul li a {
+    color: #d8d9da;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: none;
+}
+
+#social {
+    width: 100%;
+    border-top: 1px solid #fff;
+    float: left;
+    margin-top: 20px;
+
+
+}
+
+#social .copy {
+    color: #a6abb0;
+    line-height: 1.25em;
+    font-size:14px;
+    margin:10px auto;
+    display: inline-block;
+}

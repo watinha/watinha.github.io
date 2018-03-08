@@ -1,0 +1,40 @@
+#lateral {
+	padding:0 0 0 50px;/*dá uma aproximada*/
+	-moz-transition: all 0.5s ease;/*transições em diferentes browsers, desloca tudo (bg, padding) com duração de 0.5 segundos*/
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+	font-size:1.2em;
+	background:rgb(247,226,75);/*cor do BG*/
+	
+	height:100%;
+	overflow:hidden;/*se o conteúdo der overflow na box, fixa o que já apareceu e deixa o resto invisível */
+	width:370px; 
+	position:fixed;/*posição fixada*/
+	top:0;
+	right:-419px;/*posição inicial da bagaça*/
+}
+
+#lateral:before {
+	z-index:1000;/*pra ter CERTEZA que vai ficar por cima*/
+	content: url(icone-menu.png);
+	font-size:4em;
+	color:white;
+	position:fixed;
+	right:4px;
+	top:45px;
+}
+
+#lateral:hover:before, #lateral:focus:before {/*posicionamento do menu quando escondido*/
+		right:-500px
+}
+
+#lateral:hover, #lateral:focus,  #lateral:active{/*translate vai fazer o menu se deslocar em relação à direita. Novamente, para diversos browsers*/
+	overflow-y:scroll;
+	-moz-transform: translate(-400px, 0);
+		-webkit-transform: translate(-400px, 0);/*desloca 400 pixels para a esquerda, deixando aparecer a barra de rolagem*/
+			-o-transform: translate(-400px, 0);
+				transform: translate(-400px, 0);
+	padding-right:0;
+	}	

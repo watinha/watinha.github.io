@@ -1,0 +1,23 @@
+{
+  "title": "Web class react website",
+  "name": "web-class-react-website",
+  "version": "1.0.0",
+  "description": "Copy react website for web development class",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davikawasaki/web-class-react-website.git"
+  },
+  "author": "Davi Kawasaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davikawasaki/web-class-react-website/issues"
+  },
+  "homepage": "https://github.com/davikawasaki/web-class-react-website#readme"
+}

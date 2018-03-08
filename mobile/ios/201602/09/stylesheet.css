@@ -1,0 +1,415 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    padding: 14px 2% 12px 2%;
+    display: inline-block;
+    width: 96%;
+    height: 50px;
+}
+
+header ul {
+    float: left;
+    padding-left: 35px;
+    font-size: 16.5px;
+}
+
+header img {
+    float: left;
+    padding-left: 38px;
+}
+
+header nav .nav-bar {
+    position: relative;
+    height: 50px;
+}
+
+header ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+header ul li:link {
+    color: #21272D;
+}
+
+header ul li a:link, header ul li a:visited {
+    text-decoration: none;
+    color: #21272D;
+}
+
+header ul li a:hover {
+    color: #E67E22;
+    transition: 0.3s;
+}
+
+header nav .nav-bar li a:hover {
+    color: #E67E22;
+    transition: 0.3s;
+}
+
+#apoiar {
+    color: #E67E22;
+    font-weight: bold;
+    padding: 8px 17px 8px 17px;
+    border-radius: 2px;
+    font-size: 0.85em;
+    border: 2px solid #E67E22;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#apoiar:hover {
+    color: #ffffff;
+    background-color: #E67E22;
+    transition: 0.4s;
+}
+
+#apoiar:link {
+    color: #E67E22;
+    text-decoration: none;
+}
+
+.cover {
+    width: 100%;
+    /*background-color: #000000;*/
+    background-image: url("https://github.com/devnaestrada/devnaestrada.com.br/blob/develop/public/assets/img/cover-photo.jpg?raw=true");
+    height: 300px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cover h1 {
+    max-width: 50%;
+    margin: auto;
+    padding-top: 86px;
+    font-size: 28px;
+}
+
+.cover ul {
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.cover ul li {
+    background-color: #E67E22;
+    margin: 0px 8px 0px 8px;
+    border-radius: 2px;
+    list-style: none;
+    display: inline-block;
+}
+
+.cover ul li a:link {
+    padding: 6px 11px 6px 11px;
+    border-radius: 2px;
+    list-style: none;
+    display: inline-block;
+}
+
+.cover ul li a {
+    background-color: #E67E22;
+    border: 2px solid #E67E22;
+    border-radius: 2px;
+}
+
+.cover ul li {
+    background-color: transparent;
+}
+
+
+.cover ul li a:link {
+    text-decoration: none;
+}
+
+.cover ul li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cover ul li a:hover {
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+.sponsors {
+    width: 100%;
+    float: left;
+    height: 275px;
+}
+
+.sponsors h2 {
+    font-size: 18.1px;
+    text-align: center;
+    padding-top: 80px;
+    color: #21272D;
+    margin: 0px;
+}
+
+.sponsors ul{
+    list-style: none;
+    float: left;
+    padding-top: 14px;
+    padding-left: 0px;
+    width: 99%;
+    text-align: center;
+}
+
+.sponsors ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 0px;
+} 
+
+.sponsors ul li a:hover img {
+    opacity: 0.5;
+    transition: 0.35s;
+}
+
+
+.acessoRapido {
+    border: 0.5px dotted #808080;
+    margin-bottom: 60px;
+}
+
+
+.acessoRapido h1 {
+    font-size: 1.7em;
+    color: #21272D;
+}
+
+.acessoRapido select {
+    background-color: #ffffff;
+    width: 60%;
+    height: 40px;
+    font-size: 1.15em;
+    border-color: #808080;
+    float: left;
+}
+
+.acessoRapido a {
+    color: #E67E22;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 0.9em;
+    border: 2px solid #E67E22;
+    float: left;
+    text-decoration: none;
+}
+
+.acessoRapido a:hover {
+    color: #ffffff;
+    background-color: #E67E22;
+    transition: 0.4s;
+}
+
+.acessoRapido a:link {
+    color: #E67E22;
+}
+
+.acessoRapido {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 150px;
+}
+
+.acessoRapido h1, .acessoRapido select, .acessoRapido a {
+    margin-left: 20px;
+}
+
+.acessoRapido a {
+    width: 24%;
+    padding: 10px 0px 0px 0px;
+    height: 26px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.acessoRapido select {
+    width: 60%;
+    margin-right: 10%;
+}
+
+
+@media screen and (max-width: 752px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        display: inline-block;
+        width: 100%;
+        height: 147.5px;
+        margin: auto;
+        padding: 0px;
+    }
+
+    header ul {
+        float: left;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 4px;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    header ul li {
+        text-align: center;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    header .imagem {
+        float: center;
+        margin-top: 16px;
+        padding: 0px;
+        text-align: center;
+        /*width: 90%;*/
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    header .imagem a {
+        display: block;
+        height: 50px;
+        padding: 0px;
+        width: 90%;
+        margin: auto;
+        position: relative;
+        text-align: center;
+    }
+
+    header .imagem a:link img {
+        text-align: center;
+    }
+
+    header .imagem a img {
+        padding: 0px;
+        width: 270px;
+        position: absolute;
+        margin-left: -135px;
+        left: 50%;
+    }
+
+    header #apoiar {
+        display: block;
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 87%;
+        float: left;
+        border-radius: 3px; 
+        text-align: center;
+    }
+
+    .cover {
+        width: 100%;
+        /*height: 320px;*/
+    }
+
+    .cover h1 {
+        padding: 0px;
+        padding-top: 30px;
+        margin: 0px;
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        max-width: 90%;
+    }
+
+    .cover ul {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+    }
+
+    .cover ul li {
+        padding-left: 0px;
+        margin-right: 16px;
+        width: 40%;
+    }
+
+    .cover ul li {
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .cover li a:link {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .sponsors h2 {
+        width: 88%;
+        margin-left: 6%;
+        margin-right: 6%;        
+    }
+
+    .sponsors ul{
+        list-style: none;
+        float: left;
+        padding-top: 14px;
+        padding-left: 0px;
+        width: 82%;
+        text-align: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .acessoRapido {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 200px;
+    }
+
+    .acessoRapido h1, .acessoRapido select, .acessoRapido a {
+        margin-left: 20px;
+        margin-top: 20px;   
+    }
+
+    .acessoRapido a {
+        padding: 10px 18px 0px 18px;
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    /*.acessoRapido a {
+        width: 24%;
+        padding: 10px 0px 0px 0px;
+        margin-top: 20px;
+        margin-left: 10%;
+        margin: 0px;
+        position: relative;
+        text-align: center;
+    }*/
+
+    .acessoRapido select {
+        width: 80%;
+        margin-right: 10%;
+    }
+}

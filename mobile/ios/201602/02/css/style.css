@@ -1,0 +1,235 @@
+.botao-esquerda{
+	left: 50pt;/* top e left é pra posicionar na tela*/
+	top: 50pt;
+	width: 10%;
+	height: 10%;
+	max-width: 100%;
+	max-height: auto;
+	margin: 0;
+	content: '';
+	background-image: url("img/logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 2;/*pra ficar sobreposto ao resto*/
+	position: fixed;/*pra ficar fixado HUR DUR*/
+}
+
+.botao-esquerda:hover{
+	background-image: url("img/home.png");
+}
+
+main.principal{
+	max-width: 100%;
+	text-align: center;
+	letter-spacing: .025em;
+	line-height: 1;
+	font-family: "CooperHerwitt-Book",sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+img.img-logo{
+	position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+.separador{
+	width: 100%;
+	min-height: 50px;
+	max-height: 120px;
+	background-image: url("img/wood.jpeg");
+	margin: 0;
+}
+.section-banner{
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	align-items: flex-end;
+	min-height: 33.57143vw;
+	background-image: cover;
+	margin: 0;
+	font-family: "CooperHerwitt-Heavy", sans-serif;
+	font-weight: normal;
+	background-image: url("img/bear.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+}
+.section-banner h3{
+	width: 90%;
+	max-width: 470px;
+	margin-top: auto;
+	font-size: 25px;
+
+	text-align: left;
+}
+.section-banner h3::after{
+	content: '';
+	display: flex;
+	width: 96px;
+	height: 40px;
+	background-color: #f4d81e;
+	opacity: .85;
+	z-index: 1;
+	position: relative;
+	margin-top: 20px;
+}
+.conteudo{
+	background-image: url("img/back.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #e2e2da;
+	padding-bottom: 180px;
+	padding-top: 180px;
+	position: relative;
+}
+.pseudo::before{
+	padding-top: 0;
+	width: 973px;
+	height: 568px;
+	background-image: url("img/asa.png");
+	background-position: top right;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-size: contain;
+	z-index: 0;
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+.news{
+	position: relative;
+	z-index: 1;
+}
+.heading{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #48a9bb;
+	font-family: "CooperHerwitt-Heavy", sans-serif;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 25px;
+
+}
+.posts{
+	margin: 30px 0;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	flex-direction: row;
+	z-index: 1;
+}
+.post1{
+	background-color: rgba(232, 232, 225, .2);
+	box-sizing: border-box;
+	z-index: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	display: flex;
+	flex-direction: row;
+}
+.capa1 a{
+	background-image: url("img/capa1.jpeg");
+	margin-bottom: 0;
+	display: block;
+	margin: auto auto 30px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	left: 20px;
+	/*flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 32%;
+	z-index: 1;*/
+}
+.contPost1{
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	z-index: 1;
+	padding-right: 7vw;
+	padding-left: 7vw;
+}
+.titulo h3{
+	font-size: 18px;
+	font-family: "CooperHerwitt-Heavy", sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	color: #48a9bb;
+	text-align: left;
+}
+.corpo1 h3{
+	color: #48a9bb;
+	font-size: 25px;
+	font-family: "CooperHerwitt-Heavy", sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	cursor: auto;
+}
+.corpo1 h3::before{
+	content: '';
+	display: block;
+	width: 40px;
+	height: 96px;
+	position: absolute;
+	top: 50%;
+	right: auto;
+	right: -40px;
+	background-color: #f4d81e;
+	opacity: .85;
+}
+.texto{
+	text-align: left;
+}
+.botao{
+	zoom: 1;
+	margin-top: auto;
+	padding-top: 25px;
+	z-index: 2;
+}
+.botao h1{
+	font-family: 'CooperHerwitt-Heavy';
+	font-size: 14px;
+	line-height: 1;
+	text-transform: uppercase;
+	background-color: #48a9bb;
+	color: #fffef9;
+	padding: 14px 30px 10px;
+	z-index: 2;
+}
+.botao h1::after{
+	content:'';
+	display: table;
+	clear both;
+	box-sizing: inherit;
+	z-index: 2;
+}
+@media only screen and (min-width: 1024px){
+	.heading{
+		text-align: center;
+	}
+}
+@media only screen and(min-width: 973px){
+	.conteudo::before{
+		padding-top: 0;
+		width: 973px;
+		height: 568px;
+	}
+}

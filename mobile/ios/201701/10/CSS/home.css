@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFAFA;
+	font-family: Arial;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 100%;
+	/*wrapper estava pequeno entao alterei*/
+}
+.nav{
+	background-color: black;
+	width: 100%;
+	height: 50px;
+}
+.nav > ul {
+	background-color: black;
+	font-size: 12pt;
+	color: white;
+}
+.nav > ul > li {
+	display: inline;
+	padding:5px 5%;
+	line-height: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.nav > ul > li:hover{
+	color: #A9A9A9;
+}
+.telarodativa{
+	width: 100%;
+	height: 648px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: url("../resources/images/image5_iphone7red.png");
+	background-position: 50% 50%;
+	margin: 0;
+
+}
+.promos_wwdc{
+	width:24.8%;
+	height: 200px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	background-image: url("../resources/images/image1_wwdc17_2.jpeg");
+	margin: 1px 1px 1px 1px;
+	background-position: 50% 50%;
+}
+
+
+.promos_mackbook{
+	width: 24.8%;
+	height: 200px;
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+	background-image: url("../resources/images/image2_macbook_2.jpg");
+	background-position: 50% 50%;
+}
+
+
+
+.promos_acessories{
+	width: 24.8%;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 1px 1px 1px 1px;
+	float: left;
+	position: relative;
+	background-image: url("../resources/images/image3_accessories_2.jpg");
+	background-position: 50% 50%;
+}
+
+.promos_suppliers{
+	width: 24.8%;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin: 1px 1px 1px 1px;
+	float: left;
+	position: relative;
+	background-image: url("../resources/images/image4_supplier_2.jpg");
+	background-position: 50% 50%;
+}
+@media screen and (max-width: 680px) {
+	.promos_wwdc{
+		width: 49.8%;
+		height: 200px;
+		display: inline-block;
+		background-image: url("../resources/images/image1_wwdc17_2.jpeg ");
+	}
+	.promos_mackbook{
+		width: 49.8%;
+		height: 200px;
+		display: inline-block;
+		background-image: url("../resources/images/image2_macbook_2.jpg");
+	}
+	.promos_acessories{
+		width: 49.8%;
+		height: 200px;
+		display: inline-block;
+		background-image: url("../resources/images/image3_accessories_2.jpg");
+	}
+	.promos_suppliers{
+		width: 49.8%;
+		height: 200px;
+		display: inline-block;
+		background-image: url("../resources/images/image4_supplier_2.jpg");
+	}
+}
+@media screen and (max-width: 340px) {
+	.promos_wwdc{
+		width: 100%;
+		height: 200px;
+		display: block;
+		background-image: url("../resources/images/image1_wwdc17.jpg ");
+	}
+	.promos_mackbook{
+		width: 100%;
+		height: 200px;
+		display: block;
+		background-image: url("../resources/images/image2_macbook.jpg");
+	}
+	.promos_acessories{
+		width: 100%;
+		height: 200px;
+		margin-top: 1px;
+		float: block;
+		background-image: url("../resources/images/image3_accessories.jpg");
+	}
+	.promos_suppliers{
+		width: 100%;
+		height: 200px;
+		margin-top: 1px;
+		float: none;
+		display: block;
+		background-image: url("../resources/images/image4_supplier.jpg");
+		background-position: 50% 50%;
+	}
+	.columns{
+		position: relative;
+		font-size: 10pt;
+		display: inline-block;
+		padding-left: 10%;
+	}
+
+	.columns > div > ul{
+		margin-left: 10%;
+		font-weight: bold;
+
+	}
+	.columns > div > ul > li{
+		position: absolute;
+		opacity: 0;
+	}
+	.columns > div > ul > li:active{
+		position: absolute;
+		opacity: 1;
+	}
+}
+.columns{
+	position: relative;
+	font-size: 10pt;
+	display: inline-block;
+	padding-left: 10%;
+}
+
+.columns > div > ul{
+	margin-left: 10%;
+	font-weight: bold;
+
+}
+.columns > div > ul > li{
+	position: relative;
+	list-style-type: none;
+	font-weight: normal;
+	color: #696969;
+}
+.columns > div > ul > li:hover{
+	text-decoration:underline;
+	color: black;
+}
+.shop-alinhamento{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	margin: 0px;
+	position: 0px;
+	font-size: 9pt;
+	line-height: 150%;
+}
+.app-alinhamento{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding-left: 0%;
+	font-size: 9pt;
+	line-height: 150%;
+}
+.edu-alinhamento{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding-left: 0%;
+	font-size: 9pt;
+	line-height: 150%;
+}
+.conta-alinhamento{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding-left: 0;
+	font-size: 9pt;
+	line-height: 150%;
+
+}
+.sobre-alinhamento{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding-left: 0%;
+	font-size: 9pt;
+	line-height: 150%;
+}
+.footer{
+
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>irror Fashion</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mediaQ.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="icon" href="img/logo.icon" type="image/x-icon" />
+	<!--definindo um estilo padrão para o html com reset.css !-->
+</head>
+<body>
+	<!-- tag header com o significado real doq representam ao inves de divs !-->
+	<header class="container"> 
+		<!-- logo com img dentro do <h1> para dar importância semântica,
+				dará o devido destaque semântico para ao logo, 
+				colocando-o como elemento principal.
+				"alt" dará o conteúdo textual a busca do google por exemplo !-->
+		<h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
+		
+		<p class="sacola">Nenhum Item na Sacola</p>
+		
+		<nav class="menu-opcoes">
+			<ul>
+				<li id="cabecalho"><a href="#">Sua Conta</a></li>
+				<li id="cabecalho"><a href="#">Lista de Desejos</a></li>
+				<li id="cabecalho"><a href="#">Cartão Fidelidade</a></li>
+				<li id="cabecalho"><a href="#">Sobre</a></li>
+				<li id="cabecalho"><a href="#">Sua Conta</a></li>
+				<li id="cabecalho"><a href="#">Ajuda</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container destaque">
+		<section class="busca">
+			<h2>Busca</h2>
+			<form>
+				<input type="search">
+				<input type="image" src="img/lupa.png">
+			</form>
+		</section>
+
+		<section class="menu-departamentos">
+			<h2>Departamentos</h2>
+			<nav>
+				<ul>
+					<li><a href="#">Blusas e Camisas</a></li>
+					<li><a href="#">Calças</a></li>
+					<li><a href="#">Saias</a></li>
+					<li><a href="#">Vestidos</a></li>
+					<li><a href="#">Sapatos</a></li>
+					<li><a href="#">Bolsas e Carteiras</a></li>
+					<li><a href="#">Acessórios</a></li>
+				</ul>
+			</nav>
+		</section>
+		<img id="foto-destaque" src="img/destaque-home.png" alt="Promoção: Big City Nights">
+	</div>
+
+	<div class="container paineis"> <!-- recebe as mesmas propriedades de alinhamento do bloco de cima !-->
+		<section class="painel novidades">
+			<h2>Novidades</h2>
+			<ol>
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto1.jpg">
+						<figcaption>Moletom Abercombie Vinho por R$ 48,95</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto2.jpg">
+						<figcaption>Camiseta Hollister Verde por R$ 57,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto3.jpg">
+						<figcaption>Camiseta Abercombie Vinho por R$ 68,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto4.jpg">
+						<figcaption>Camisa Richards Sam por R$ 33,00</figcaption>
+					</figure>
+				</li>
+
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto5.jpg">
+						<figcaption>Camisa Tiup por R$ 120,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/produtos/produto6.jpg">
+						<figcaption>Moletom Aber por R$ 48,95</figcaption>
+					</figure>
+				</li>
+			</ol>
+		</section>
+
+		<section class="painel mais-vendidos">
+			<h2>Mais Vendidos</h2>
+			<ol>
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto1.jpg">
+						<figcaption>Camisa Finnavaro por R$ 240,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto2.jpg">
+						<figcaption>Camisa Richards Sam por R$ 33,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto3.jpg">
+						<figcaption>Jeans Levis por R$ 88,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto4.jpg">
+						<figcaption>Hollister Moletom por R$ 110,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto5.jpg">
+						<figcaption>Camisa Tiup por R$ 120,00</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<a href="#"></a>
+					<figure>
+						<img src="img/maisvendidos/produto1.jpg">
+						<figcaption>Hollister Polo Total White por R$ 93,11</figcaption>
+					</figure>
+				</li>
+			</ol>
+		</section>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<img src="img/logo-footer.png" alt="Logo Mirror Fashion">
+			<ul class="social">
+				<li><a href="http://facebook.com">Facebook</a></li>
+				<li><a href="http://twitter.com">Twitter</a></li>
+				<li><a href="http://google.com">Google+</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
+
+</html>

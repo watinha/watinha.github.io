@@ -1,0 +1,470 @@
+* {
+	-webkit-box-sizing: border-box;/*faz com que as dimensões de todos os elementos levem em consideração o tamanho da borda*/
+	box-sizing: border-box;
+}
+ol, ul{
+	list-style: none;/*retira qualquer estilo de listagem, o padrão é um círculo preenchido à esquerda do item*/
+}
+li {
+	display: list-item;/*faz com que o elemento se comporte como um item de lista*/
+	text-align: -webkit-match-parent;
+}
+body {/*faz com que a página não tenha nenhum tipo de espaçamento antes dos conteúdos*/
+	margin:	0;
+	padding: 0;
+	border: 0;
+}
+
+button, h1, h2, h3, h4, h5 {/*define para todas essas classes a regra da família de fonte à ser usada*/
+	font-family: "Magorian Regular",Georgia,Times,"Times New Roman",serif;
+}
+
+h1{/*define o tamanho da fonte para h1 e a altura da linha*/
+	font-size: calc(98px * .75);
+	line-height: calc(104px * .75);
+}
+
+.header {
+	background-color: transparent;
+	height: 65px;
+	width: 100%;
+	-webkit-transition:all .5s;/*tempo que irá levar para desenhar o elemento*/
+	transition: all .5s;
+}
+.header_inner {
+	position: absolute;/*faz com que os elementos dessa classe se posicionem no top 0 em relação ao primeiro elemento não estático. No caso se não houver nenhum elemento não estático acima de um elemnto que pertença a essa classe este se posicionará em relação ao elemento body*/
+	top: 0;
+	width: 100%;
+	-webkit-transition:all .2s;
+	transition: all .2s;
+	z-index: 3;
+}
+.header_menu {
+	background-color: transparent;
+	position: relative;
+	height: 65px;
+	text-align: center;
+	-webkit-transition: height .5s, background .25s;
+	transition: height .5s, background .25s;
+	-webkit-transition-delay:0s, .5s;
+	transition-delay: 0s,.5s;
+}
+.primary_navigation {
+	padding-top: 20px;
+	height: 80vh;
+	overflow-y: auto;/*faz com que caso algum elemento estoure o tamanho em altura da janela crie uma barra de rolagem vertical*/
+	overflow-x: hidden;/*faz com que mesmo os elementos estourando o tamanho em largura da página não crie uma barra de rolagem horizontal*/
+	display: none;/*por padrão este elemento deve ser invisível, esta propriedade é alterada de acordo com os @media para telas de tamanho diferente*/
+}
+.primary_navigation_item {
+	line-height: 16px;
+	opacity: 0;
+	-webkit-transform: scale(1,1) translateY(-24px);
+	-ms-transform: scale(1,1) translateY(-24px);
+	transform: scale(1,1) translateY(-24px);
+	-webkit-transition: opacity .35s ease-out, -webkit-transform .35s ease-out;
+	transition: opacity .35s ease-out, -webkit-transform .35s ease-out;
+	transition: opacity .35s ease-out, transform .35s ease-out;
+	transition: opacity .35s ease-out, transform .35s ease-out, -webkit-transform .35s ease-out;
+	text-align: center;
+}
+
+.primary_navigation_link {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	font: 20px/24px "Magorian Regular", Georgia, Times,"Times New Roman",serif;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.primary_navigation_link:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.header_toggle {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 50%;
+	height: 20px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform .5s .4s;
+	transition: -webkit-transform .5s .4s;
+	transition: transform .5s .4s;
+	transition: transform .5s .4s, -webkit-transform .5s .4s;
+}
+
+.header_toggle_menu {
+	right: auto;
+	left: 22.5px;
+}
+
+.header_toggle_discover {
+	margin-left: 10%;
+	left: 22.5px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.main_article {
+	margin-top: -133px;
+	width: 100%;
+	height: 1080px;
+	background: url(mainbackground.jpg) no-repeat;
+}
+
+.bottom {
+	position: relative;
+	background-color: #222;
+	height: 300px;
+	width: 100%;
+}
+
+.header_toggle_menu>span{
+	display: inline-block;
+	margin: 9px 0;
+	position: relative;
+	font-size: 0;
+	height: 2px;
+	width: 20px;
+	background-color: #fff;
+	-webkit-transition: background-color .25s;
+	transition: background-color .25s;
+	opacity: 1;
+}
+
+.header_toggle_menu>span:after, .header_toggle_menu>span:before {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	content: '';
+	height: 2px;
+	width: 20px;
+	background-color: #fff;
+	-webkit-transition:-webkit-transform .5s;
+	transition: -webkit-transform .5s;
+	transition: transform .5s;
+	transition: transform .5s, -webkit-transform .5s;
+	-webkit-transform-origin:right center;
+	-ms-transform-origin:right center;
+	transform-origin: right center;
+}
+
+.header_toggle_menu>span:after{
+	bottom: -7px;
+}
+
+.header_toggle_menu>span:before {
+	top: -7px;
+}
+
+.header_logo_img {
+	display: inline-block;
+	margin-top: 11px;
+	width: 100px;
+	height: 39px;
+	-webkit-transition: background .5s;
+	transition: background .5s;
+}
+
+.header_toggle_profile, .header_toggle_login, .header_toggle_cart {
+	position: absolute;
+	height: auto;
+	right: 22.5px;
+	display: block;
+	color: #fff;
+	font: 10px/18px "Roboto Regular", Arial, sans;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header_toggle_login, .header_toggle_profile {
+	right: 57px;
+}
+
+.footer {
+	background-color: #222;
+	color: #fff;
+	font-family: "Roboto Regular", Arial, sans;
+	padding: 20px 0 70px;
+	text-align: center;
+	display: block;
+}
+
+.footer_social_header {
+	font-family: "Roboto Regular", Arial, sans;
+	font-size: 10px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	margin: 36px auto 0;
+	position: relative;
+	width: 286px;
+}
+
+.footer_social_header:after {
+	border-bottom: 1px solid #4f4f4f;
+	content: " ";
+	display: block;
+	clear: both;
+	position: absolute;
+	width: 100%;
+	bottom: 50%;
+	left: 0;
+	z-index: 1;
+}
+
+.footer_social_header span {
+	background-color: #222;
+	padding: 0 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.social_share{
+	height: 45px;
+	list-style: none;
+	text-align: center;
+	margin: auto;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+
+.social_share.footer_social_main{
+	border-bottom: 1px solid #4f4f4f;
+	margin: 12px auto 50px;
+	height: 67px;
+	width: 286px;
+}
+
+.social_button {
+	margin-right: 8px;
+	display: inline-block;
+}
+
+.social_share a{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	border-radius: 45px;
+	background: rgba(0,0,0,.2);
+	text-decoration: none;
+	color: #fff;
+	font-size: 45px;
+	line-height: 0;
+	-webkit-transition: background .1s;
+	padding: 0;
+}
+
+.footer .footer_sites a{
+	display: inline-block;
+	display: table;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 auto 10px;
+	line-height: 30px;
+	font: 12px/18px "Roboto Regular", Arial, sans;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.carousel_item-content{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
+}
+.carousel_item-content-inner{
+	width: 84.74576%;
+
+}
+.carousel_item-title{
+	margin-bottom: 15px;
+	font:30px/36px "Magorian Regular",Georgia,Times,"Times New Roman",serif;
+}
+.carousel_item_button {
+	text-decoration: none;
+	color: white;
+	padding: 1.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border: 1px solid #fff;
+	position: relative;
+	top: 150px;
+	font: 20px/24px "Roboto Regular", Arial, sans;
+	text-transform: uppercase;
+	-webkit-transition:all .5s;
+	transition: all .5s;
+}
+.carousel_item_button:hover {
+	background-color: #fff;
+	color: #000;
+	-webkit-transition:all .5s;
+	transition: all .5s;
+	cursor: pointer;
+}
+
+@media (min-width: 48em){
+	.header {
+		height: 86px;
+	}
+	.header_menu {
+		height: 86px;
+	}
+	.header_toggle_menu {
+		right: auto;
+		left: 40px;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+
+	.header_toggle_discover {
+		margin-left: 13%;
+	}
+	.header_toggle_menu:before {
+		margin-right: auto;
+		margin-left: 16px;
+		content: "Menu";
+	}
+	.header_toggle_discover:before{
+		margin-left: 10px;
+		content: 'Discover';
+	}
+	.header_toggle:before{
+		font: 10px/18px "Roboto Regular",Arial,sans;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	.primary_navigation_item {
+		line-height: inherit;
+	}
+
+	.header_logo_img {
+		margin-top: 15px;
+		width: 152px;
+		height: 57px;
+	}
+	.header_toggle_profile, .header_toggle_login, .header_toggle_profile {
+		right: 28px;
+		font-size: 10px;
+		line-height: 18px;
+	}
+	.header_toggle_login, .header_toggle_profile {
+		right: 75px;
+	}
+	.footer_social_header {
+		width: 240px;
+	}
+	.social_share.footer_social_main{
+		height: 57px;
+	}
+	.social_share a{
+		font-size: 20px;
+		width: 35px;
+		height: 35px;
+		border-radius: 35px;
+	}
+	.carousel_item-content-inner{
+		width: 59.32203%;
+	}
+}
+
+@media(min-width: 30.0625em){
+	.carousel_item-title{
+		font:36px/42px "Magorian Regular",Georgia,Times,"Times New Roman",serif;
+	}
+}
+@media(min-width: 481px){
+	button, h1, h2, h3, h4, h5 {
+		font-family: "Magorian Regular", Georgia, Times, "Times New Roman",serif;
+	}
+}
+
+@media (min-width: 62em) {
+	.header_toggle_menu {
+		display: none;
+	}
+	.header_toggle_discover{
+		margin-left: 1%;
+
+	}
+	.header {
+		height: 121px;
+	}
+	.header_menu {
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+	}
+	.primary_navigation {
+		/*background-color: #1a1c39;*/
+		background: transparent;
+		padding-top: 0;
+		display: block;
+		height: auto;
+	}
+	.primary_navigation_list {
+		margin: 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content: center;
+	}
+	.primary_navigation_item {
+	    padding: 0;
+	    opacity: 1;
+	    -webkit-transform: none;
+	    -ms-transform: none;
+	    transform: none;
+	    border: 2px solid transparent;
+	    -webkit-transition: border .35s ease-out,-webkit-transform .35s ease-out;
+	    transition: border .35s ease-out,-webkit-transform .35s ease-out;
+	    transition: border .35s ease-out,transform .35s ease-out;
+	    transition: border .35s ease-out,transform .35s ease-out,-webkit-transform .35s ease-out;
+	    cursor: pointer;
+	}
+	.primary_navigation_item:hover {
+		border-bottom-color: #fff;
+	}
+	.primary_navigation_link {
+		display: block;
+		margin-bottom: 0;
+		font: 14px/18px "Magorian Regular", Georgia, Times,"Times New Roman",serif;
+		line-height: 14px;
+		padding: 12px 8px 9px;
+		color: white;
+	}
+	.primary_navigation_link:hover {
+		border-bottom: none;
+	}
+}

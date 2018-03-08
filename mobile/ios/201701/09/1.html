@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+			/*verifica a idioma do navegador*/
+			var userLang = navigator.language || navigator.userLanguage; 
+			
+
+			/*redireciona para o idioma correto*/
+			if(userLang == "en-US"){
+				window.location = "us/index.html";
+			}else{
+				window.location = "br/index.html";
+			}
+	</script>
+</head>
+
+</html> 

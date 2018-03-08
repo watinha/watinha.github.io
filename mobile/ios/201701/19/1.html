@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nike.com</title>
+  <style type="text/css">
+
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Trebuchet MS";
+      color: gray;
+      font-size: 12px;
+    }
+
+    .menu{
+      width: 100%;
+      height: 80px;
+      background-color: white;
+      visibility: visible;
+      margin-top: 15px;
+    }
+    .menu ul{
+      list-style: none;
+      position: relative;
+      border-top: 1px solid lightgray;
+    }
+    .menu ul li{
+      width: 70px;
+      float: left;
+      padding-left: 20px;
+      margin-left: 65px;
+    }
+    .menu a{
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: left;
+        background-color: white;
+        color: black;
+    }
+    .menu ul ul{
+      position: absolute;
+      visibility: hidden;
+    }
+    .menu ul li:hover ul{
+      visibility: visible;
+      z-index: 1;
+    }
+    .menu a:hover{
+      color: lightgray;
+    }
+    .menu ul ul li{
+      float: none;
+
+    }
+    #negrito{
+      font-weight: bold;
+    }
+    label[for="btn_menu"]{
+      visibility: hidden;
+      cursor: pointer;
+    }
+    #btn_menu{
+      display: none;
+    }
+
+
+
+    .frete{
+      position: relative;
+      text-align: center;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      z-index: 0;
+      background-color: #EEEEE0;
+      font-size: 10px;
+      font-family: "Arial";
+      color: black;
+    }
+    #caixaPesquisa{
+      margin-top: 20px;
+      margin-left: 30px;
+      font-weight: bold;
+    }
+    #caixaPesquisa2{
+      margin-top: 30px;
+      float: right;
+      padding-right: 50px;
+    }
+    #caixaPesquisa3{
+      margin-top: 30px;
+      float: right;
+      padding-right: 10px;
+      visibility: visible;
+    }
+    span.sublinhado{
+      text-decoration: underline;
+      color: black;
+    }
+    span.sublinhado a{
+      text-decoration: underline;
+      color: black;
+    }
+    span.sublinhado a:hover{
+      text-decoration: underline;
+      color: gray;
+    }
+    span.negrito{
+      font-weight: bold;
+      font-size: 13px;
+      color: black;
+      font-family: "Trebuchet MS";
+    }
+    span.textoAnuncio{
+      font-family: "Arial";
+      font-size: 14px;
+      width: 100px;
+      height: 50px;
+      background-color: black;
+      position: absolute;
+      border-right: 100px;
+      border-top: 100px;
+    }
+
+    div.iconesEsqTopo{
+      height: 30px;
+      color: lightgray;
+      font-size: 6px;
+      margin-left: 30px;
+      margin-right: 15px;
+      margin-top: 9px;
+      margin-bottom: 15px;
+      list-style: none;
+      display: inline-block;
+      float: left;
+      visibility: visible;
+    }
+    div.iconesDirTopo{
+      color:lightgray;
+      font-size: 8px;
+      margin-left: 25px;
+      margin-right: 15px;
+      margin-top: 9px;
+      margin-bottom: 15px;
+      list-style: none;
+      display: inline-block;
+      float: right;
+      visibility: visible;
+    }
+    .iconesDirTopo a{
+      text-decoration: none;
+    }
+    .iconesEsqTopo a{
+      text-decoration: none;
+    }
+    span.iconeNikeMenu{
+      float: left;
+      margin-left: -310px;
+    }
+
+
+    #imagem {
+      width: 100%;
+      height: 500px;
+    }
+    #textoImg {
+      position: absolute;
+      margin-top: -470px;
+      margin-left: 1150px;
+      color: white;
+      font-family: calibri;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    #textoImg2{
+      position: absolute;
+      margin-top: -440px;
+      margin-left: 1080px;
+      color: white;
+      font-family: calibri;
+      font-size: 14px;
+    }
+    #textoImg3{
+      position: absolute;
+      margin-top: -425px;
+      margin-left: 1175px;
+      color: white;
+      font-family: calibri;
+      font-size: 14px;
+    }
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+    #lupa{
+      width: 15px;
+      height: 15px;
+      padding-top: 7px;
+      padding-left: 5px;
+      visibility: visible;
+    }
+    #divBusca{
+      background-color: white;
+      border:solid 1px lightgray;
+      margin-top: 20px;
+      float: right;
+      padding-right: 10px;
+      visibility: visible;
+      margin-right: -90px;
+      border-radius:3px;
+    }
+
+    #txtBusca{
+      float:left;
+      background-color:transparent;
+      padding-left:5px;
+      font-size:12px;
+      border:none;
+      height: 30px;
+      width: 150px;
+      visibility: visible;
+    }
+
+    #divBusca img{
+      float:left;
+      visibility: visible;
+    }
+    #botao1{
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      position: absolute;
+      margin-top: -400px;
+      margin-left: 1150px;
+      color: black;
+      font-family: "Trebuchet MS";
+      font-size: 13px;
+      font-weight: bold;
+      border-color: white;
+      text-align: center;
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      visibility: visible;
+    }
+    #botao2{
+      width: 80px;
+      height: 35px;
+      background-color: white;
+      position: absolute;
+      margin-top: -400px;
+      margin-left: 1240px;
+      color: black;
+      font-family: "Trebuchet MS";
+      font-size: 13px;
+      font-weight: bold;
+      border-color: white;
+      text-align: center;
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      visibility: visible;
+    }
+
+    div.menuTopoMobile{
+      height: 100px;
+      width: 100%;
+      display: none;
+      background-color: gray;
+    }
+
+    @media only screen and (max-width: 400px) {
+
+      #botao2{
+        visibility: hidden;
+      }
+      #botao1{
+        visibility: hidden;
+      }
+      #divBusca{
+        visibility: hidden;
+      }
+      #imagem{
+        height: 220px;
+        width: 400px;
+        margin-top: -100px;
+      }
+      #textoImg{
+        font-size: 14px;
+        margin-top: 100px;
+      }
+      #caixaPesquisa3{
+        visibility: hidden;
+      }
+      .frete{
+        width: 410px;
+        height: 35px;
+        top: -200px;
+        padding: 25px auto;
+        background-color: lightgray;
+        text-align: center;
+        font-size: 8px;
+        margin-top: 200px;
+      }
+      .menu{
+        visibility: hidden;
+      }
+      div.iconesEsqTopo{
+        visibility: hidden;
+      }
+      div.iconesDirTopo{
+        visibility: hidden;
+      }
+
+
+    }
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <input type="checkbox" id="btn_menu">
+  <label for="btn_menu">&#9776;</label>
+
+  <div class="iconesEsqTopo">
+      <li><a href="#">Nike+</a></li>
+  </div>
+  <div class="iconesEsqTopo">
+    <li><a href="#">Vem Junto</a></li>
+  </div>
+  <div class="iconesEsqTopo">
+    <li><a href="#"><img src="img/AirJordan.png" height="15px" width="15px" /></a></li>
+  </div>
+
+
+  <div class="iconesDirTopo">
+    <li><a href="#"><img src="img/bandeira.png" width="15px" height="15px" /></a></li>
+  </div>
+  <div class="iconesDirTopo">
+    <li><a href="#"><img src="img/carrinho.png" alt="Minha sacola" width="15px" height="15px" /></a></li>
+  </div>
+  <div class="iconesDirTopo">
+    <li><a href="#">Ajuda</a></li>
+  </div>
+  <div class="iconesDirTopo">
+    <li><a href="#">Inscreva-se</a></li>
+  </div>
+  <div class="iconesDirTopo">
+    <li><a href="#">Cadastro/Login</a></li>
+  </div>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#"><span class="iconeNikeMenu"><img src="img/iconeNike.png" width=60px height=60px /></span></a>
+      <li id="caixaPesquisa"><a href="#">MASCULINO</a>
+        <ul>
+          <li id="negrito"><a href="#">CALÇADOS</a></li>
+          <li><a href="#">Todos os calçados</a></li>
+          <li><a href="#">Casual</a></li>
+          <li><a href="#">Corrida</a></li>
+          <li><a href="#">Treino e Academia</a></li>
+          <li><a href="#">Chuteiras</a></li>
+          <li><a href="#">Basquete</a></li>
+          <li><a href="#">Skateboarding</a></li>
+          <li><a href="#">Para Jogar Tênis</a></li>
+        </ul>
+      </li>
+      <li id="caixaPesquisa"><a href="#">FEMININO</a>
+        <ul>
+          <li id="negrito"><a href="#">CALÇADOS</a></li>
+          <li><a href="#">Todos os calçados</a></li>
+          <li><a href="#">Casual</a></li>
+          <li><a href="#">Corrida</a></li>
+          <li><a href="#">Chuteira</a></li>
+          <li><a href="#">Para Jogar Tênis</a></li>
+          <li><a href="#">Treino e Academia</a></li>
+        </ul>
+      </li>
+
+      <li id="caixaPesquisa"><a href="#">MENINOS</a>
+        <ul>
+          <li id="negrito"><a href="#">COMPRE POR TAMANHO</a></li>
+          <li id="negrito"><a href="#">CALÇADOS</a></li>
+          <li><a href="#">Bebês (16 - 18)</a></li>
+          <li><a href="#">Pré-adolescentes (34 - 37.5)</a></li>
+          <li><a href="#">Crianças (18.5 - 33.5)</a></li>
+        </ul>
+      </li>
+
+      <li id="caixaPesquisa"><a href="#">MENINAS</a>
+        <ul>
+          <li id="negrito"><a href="#">COMPRE POR TAMANHO</a></li>
+          <li id="negrito"><a href="#">CALÇADOS</a></li>
+          <li><a href="#">Bebês (16 - 18)</a></li>
+          <li><a href="#">Pré-adolescentes (34 - 37.5)</a></li>
+          <li><a href="#">Crianças (18.5 - 33.5)</a></li>
+        </ul>
+      </li>
+
+      <div id="divBusca">
+        <img  id="lupa" src="img/lupa.png" />
+        <input type="text" id="txtBusca" placeholder="O que você procura?"/>
+      </div>
+
+
+    </ul>
+  </nav>
+
+  <div class="frete">
+    <span class="negrito">FRETE GRÁTIS</span> para todo o Brasil. <span class="sublinhado"><a href="#">Veja Detalhes</a></span>
+  </div>
+
+  <a href="#"><img id="imagem" src="img/corinthians2.jpg" /></a>
+  <div id="textoImg">FÉ ALVINEGRA</div>
+  <div id="textoImg2">Conheça o novo manto sagrado do Timão</div>
+  <div id="textoImg3">O manto da Fé Alvinegra</div>
+
+  <a href="#"><input type="submit" id="botao1" name="SaibaMais" value="SAIBA MAIS"></a>
+  <a href="#"><input type="submit" id="botao2" name="Comprar" value="COMPRAR"></a>
+
+</body>
+</html>

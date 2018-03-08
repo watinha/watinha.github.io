@@ -1,0 +1,181 @@
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 70px;
+}
+
+#titulo{
+	color: #303C47;
+	text-align: center;
+	font-size: 42pt; 
+	font-family: Arial;
+	font-weight: 900;
+	margin-top: 150px;
+}
+
+#subTitulo{
+	color: #303C47;
+	text-align: center;
+	font-size: 19pt; 
+	font-family: Arial;
+}
+
+a.matriculeja{
+	text-decoration: none;
+	position: absolute;
+	color: #E74B63;
+	font-family: Arial;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 40%;
+	border: 2px solid #E74B63;
+	border-radius: 5px;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+
+}
+
+a.matriculeja:hover{
+	color: #FFFFFF;
+	background-color: #E74B63;
+	transition: 0.2s ease-out;
+
+}
+
+#quadroinferior{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: inherit;
+	background-color: #E74B63;
+	
+}
+
+a.teclado{
+	box-sizing: inherit;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #303C47;
+	font-family: Arial;
+	text-align: left;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+	width: 34%;
+	height: 95%;
+	display: block;
+}
+
+a.teclado:hover{
+	box-shadow: inset 0px 5px 0 0px #FAE040;
+}
+
+a.cordas{
+	box-sizing: inherit;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #303C47;
+	font-family: Arial;
+	text-align: left;
+	border-top: 3px solid #3CD9E8;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+	width: 65.5%;
+	height: 45%;
+	display: block;
+}
+
+a.cordas:hover{
+	box-shadow: inset 0px 5px 0 0px #3CD9E8;
+}
+
+a.canto{
+	box-sizing: inherit;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #303C47;
+	font-family: Arial;
+	text-align: left;
+	border-top: 3px solid #EE505C;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+	width: 65.5%;
+	height: 45%;
+}
+
+a.canto:hover{
+	box-shadow: inset 0px 5px 0 0px #EE505C;
+
+}
+
+a.teoria{
+	box-sizing: inherit;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #303C47;
+	font-family: Arial;
+	text-align: left;
+	border-top: 3px solid #78DF5B;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+	width: 65.5%;
+	height: 45%;
+	display: block;
+}
+
+a.teoria:hover{
+	box-shadow: inset 0px 5px 0 0px #78DF5B;
+}
+
+a.bateria{
+	box-sizing: inherit;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #303C47;
+	font-family: Arial;
+	text-align: left;
+	border-top: 3px solid #FFBE4B;
+	padding: 20px 50px 20px 50px;
+	font-weight: 700;
+	width: 65.5%;
+	height: 45%;
+	display: block;
+}
+
+a.bateria:hover{
+	box-shadow: inset 0px 5px 0 0px #FFBE4B;
+}
+
+#cursosde{
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#curso{
+	font-size: 30px;
+}
+
+#descricao{
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+#logoinstrumentos{
+	margin-top: 30px;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+#logoteclado{
+	margin-top: 30px;
+	width: 80px;
+	height: 100px;
+}
+
+
+@media(max-width: 360px){
+
+
+
+	#cursosde{
+		text-align: center;
+	}
+}
