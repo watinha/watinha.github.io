@@ -1,0 +1,282 @@
+/* resetando as configurações da página */
+
+* {
+    /* zerando a margin */
+    margin: 0;
+    /* zerando o padding */
+    padding: 0;
+    /* por estar trabalhando com unidades relativas
+    o tamanho da fonte tem que ser 100% */
+    font-size: 100%;
+    /* retirando as bordas */
+    border: none;
+    outline: none;
+    /* definindo o padrão de font-weight */
+    font-weight: 300;
+    /* box-sizing: quando utilizar um padding
+    ele não ira alterar o tamanho do elemento */
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* ====================
+ definindo os links */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+
+/* ====================
+definindo o tamanho da imagem*/
+
+img {
+    max-width: 100%;
+}
+
+
+/* ====================
+ definição dos div, do principal até o final */
+
+.principal {
+    width: 100%;
+    text-align: center;
+}
+
+.topo {
+    height: 350px;
+    width: 100%;
+    background: url(../_imagens/topo.jpg) center center/850px no-repeat;
+}
+
+.meio {
+    width: 100%;
+    background: url(../_imagens/fundo.jpg) center center/850px no-repeat;
+    float: center;
+    padding: 20px;
+}
+
+.fim {
+    height: 300px;
+    width: 100%;
+    background: url(../_imagens/fim.jpg) center center/850px no-repeat;
+}
+
+
+/* ====================
+Navegação Menu criando o ícone */
+
+.btn-menu {
+    width: 45px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #151515);
+    margin: 2% 2%;
+}
+
+
+/* ====================
+ Navegação Menu escondendo 
+ opção de visualizar as opções */
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0, 0.9);
+    left: 0;
+}
+
+.menu li a {
+    color: #fff;
+}
+
+.menu {
+    display: none;
+}
+
+.drift p {
+    display: none;
+}
+
+
+/* ====================
+ adicionando título, subtítulo 
+ e botão learn more */
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    padding: 10% 2%;
+}
+
+.titulo h1 {
+    font-size: 2em;
+    color: white;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.titulo h2 {
+    font-size: .9em;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.botao1 {
+    font-size: .6em;
+    margin-top: 100%;
+    padding: 5px 70px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.titulo a {
+    color: #fff;
+    margin-top: 100%;
+}
+
+
+/* ====================
+ texto do div meio */
+
+.texto {
+    margin-bottom: 2em;
+}
+
+.texto h4 {
+    font-size: 1.5em;
+    color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+.texto p {
+    margin-top: 1px;
+    color: gray;
+    padding: 1px;
+    text-align: center;
+}
+
+
+/* ====================
+   media querys, editando a parte para impressão */
+
+@media print {
+    /* alterando a letra pra impressão */
+    body {
+        font-family: 'Arial', 'Times New Roman';
+    }
+    .btn-menu {
+        display: none;
+    }
+    .botao1 {
+        display: none;
+    }
+    .titulo h1 {
+        font-size: 2em;
+        color: black;
+        font-weight: 700;
+    }
+    .titulo h2 {
+        font-size: 1em;
+        padding: 5px;
+        color: black;
+    }
+    .texto h4 {
+        font-size: 1.2em;
+        color: #130400;
+    }
+    .texto p {
+        margin-top: 2%;
+        color: black;
+    }
+}
+
+
+/*======================
+ editando wide screen*/
+
+@media screen and (min-width: 900px) {
+    .alinhamento {
+        width: 81.5%;
+    }
+    body {
+        font-family: 'PT Sans', sans-serif;
+    }
+    .btn-menu {
+        display: none;
+    }
+    .menu {
+        width: auto;
+        height: 0;
+        background-color: #fff;
+        display: block;
+        position: static;
+        float: right;
+    }
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu li {
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 1%;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1em;
+        float: left;
+        margin-right: 20px;
+    }
+    .drif p {
+        float: left;
+        color: #FFF;
+        margin-left: 262px;
+    }
+    .botao1 {
+        font-size: 1em;
+        margin-top: 1%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 3%;
+        border: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+    .alinha-texto {
+        width: 75.5%;
+    }
+    .alinha-titulo {
+        width: 100%;
+    }
+    .texto h4 {
+        margin-left: 340px;
+        margin-top: 15px;
+        font-size: 1.2em;
+        color: #333333;
+    }
+    .texto p {
+        margin-left: 340px;
+        color: gray;
+        float: center;
+    }
+}

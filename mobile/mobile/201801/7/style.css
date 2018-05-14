@@ -1,0 +1,159 @@
+header{
+    background-color:rgb(255,0,6);
+    padding-top:60px;
+
+}
+body{
+    margin:0;
+}
+.logoheader{
+    margin-left:202px;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 33px;
+    display: block;
+    overflow: auto;
+
+}
+.listaCabecalho{
+   height:10%;
+   width: 100%;
+}
+.headerLista{
+    margin-left: 100px;
+}
+.itemHeader{
+    margin-left: 40px;
+    width: 7%;
+    float: left;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.itemHeader p{
+    font-size: 10px;
+}
+.listaCabecalho a:hover{
+    background-color: rgb(128, 22, 22);
+    border-radius: 5px;
+}
+
+.listaCabecalho a p{
+    text-align: center;
+}
+.fontHeader{
+    font-size: 5px;
+}
+.textoMaior{
+    font-size:29px !important;
+    float:left;
+    margin-top:10px;
+}
+.textoMenor{
+    font-size: 13px !important;
+    float:left;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.container{
+    background-color:rgb(235, 221, 221);
+    display:block;
+    padding-top: 50px;
+}
+.conteudo{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+    width:70%;
+    top:50px;
+    margin: auto;
+    display:block;
+    overflow:auto;
+}
+.imgConteudo{
+    background-image: url("img/terracoitalia.jpg");
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lista{
+    float:left;
+    width:20%;
+    margin-top:20px;
+    margin-left:30px;
+
+}
+.tituloLista{
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li{
+    font-family: sans-serif;
+    font-weight: normal;
+    color:gray;
+}
+li::before {
+    content: "\002022";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+ul {
+    list-style: none
+}
+.subTituloLista{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.botaoRead{
+    visibility: hidden;
+}
+@media only screen and (max-width: 900px) {
+    header {
+        background-color: rgb(255,0,6);
+        padding-top:0px;
+    }
+    .logoHeader{
+        font-size:10px;
+    }
+    .itemHeader{
+        visibility: hidden;
+        text-align: center;
+    }
+    .textoMenor{
+        visibility: hidden;
+    }
+    .container{
+        padding-top: -30px;
+    }
+    .conteudo{
+        width:100%;
+    }
+    .Lista{
+        width:100%;
+    }
+    li{
+        padding-top:10px;
+    }
+    .botaoRead{
+        visibility: visible;
+        width:90%;
+        height:10%;
+        background-color:rgb(255,0,6);
+        color:white;
+        border-radius: 7px;
+        border-width: 0.5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+}

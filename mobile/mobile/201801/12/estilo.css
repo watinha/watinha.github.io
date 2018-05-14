@@ -1,0 +1,262 @@
+.cabecalho {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.cabecalhoHeader {
+  display: inline-block;
+  height: auto;
+  text-align: right;
+  width: 100%;
+}
+
+.headerMenuButton {
+  background-color: #4d4d4d;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  background-position: center;
+  background-size: 70% 50%;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-image: url('menu.png');
+}
+
+.conteudoCab {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("new-york-city.jpg");
+  background-position: center;
+  background-size: 175%;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 50px;
+  margin-left: 15%;
+}
+
+.conteudo {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  float: right;
+  height: auto;
+}
+
+.label {
+  color: rgb(77, 77, 77);
+  font-family: "raleway", Times, serif;
+}
+
+.textoSup {
+  color: rgb(77, 77, 77);
+  font-family: "raleway", Times, serif;
+}
+
+.tamanho {
+  width: 40%;
+  display: inline-block;
+}
+
+.botaoGetStarted {
+  border: 1px solid rgb(77, 77, 77);
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  color: rgb(77, 77, 77);
+  font-family: "raleway", Times, serif;
+  float: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.textoInf {
+  color: rgb(77, 77, 77);
+  font-family: "raleway", Times, serif;
+  text-align: center;
+}
+
+.linha1 {
+  width: 10%;
+  border-top: 1px solid rgb(77, 77, 77);
+  margin: 25px auto;
+  margin-top: 60px;
+}
+
+.callout1 {
+  font-family: "raleway", Times, serif;
+  font-size: 20px;
+  margin: 25px auto;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+.callout2 {
+  font-family: "raleway", Times, serif;
+  font-size: 10px;
+  margin: 25px auto;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  width: 20%;
+}
+
+.botaobottom1 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(77, 77, 77);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('button1.svg');
+  border-radius: 50%;
+  color: rgb(77, 77, 77);
+  margin-right: -4px;
+}
+
+.botaobottom2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(77, 77, 77);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('button2.svg');
+  border-radius: 50%;
+  color: rgb(77, 77, 77);
+  margin-right: -4px;
+}
+
+.botaobottom3 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(77, 77, 77);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('button3.svg');
+  border-radius: 50%;
+  color: rgb(77, 77, 77);
+  margin-right: -4px;
+}
+
+.botaobottom4 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(77, 77, 77);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('button4.svg');
+  border-radius: 50%;
+  color: rgb(77, 77, 77);
+  margin-right: -4px;
+}
+
+.botaobottom5 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(77, 77, 77);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url('button5.svg');
+  border-radius: 50%;
+  color: rgb(77, 77, 77);
+  margin-right: -4px;
+}
+
+.espacoLinha {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.linha2 {
+  width: 40px;
+  border-top: 1px solid rgb(77, 77, 77);
+}
+
+.callout3 {
+  font-family: "raleway", Times, serif;
+  font-size: 10px;
+  margin: 25px auto;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  width: 60%;
+}
+
+.botaoDetails {
+  border: 1px solid rgb(77, 77, 77);
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 25px;
+  color: rgb(77, 77, 77);
+  font-family: "raleway", Times, serif;
+  margin: 25px auto;
+  display: block;
+}
+
+/* (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .espacoLinha {
+    display: none;
+  }
+  .botaobottom4 {
+    display: none;
+  }
+  .botaobottom5 {
+    display: none;
+  }
+  .botaobottom1 {
+    margin-right: 6px;
+  }
+  .botaobottom2 {
+    margin-right: 6px;
+  }
+  .img {
+    width: 150px;
+    height: 150px;
+    float: center;
+  }
+  .tamanho {
+    width: 100%;
+    text-align: center;
+  }
+  .label {
+    text-align: center;
+  }
+  .textoSup {
+    text-align: center;
+    font-size: 12px;
+  }
+  .botaoGetStarted {
+    width: 100%;
+    text-align: center
+  }
+  .callout3 {
+    display: none;
+  }
+  .botaoDetails {
+    display: none;
+  }
+  .callout2 {
+    width: 80%;
+    font-size: 12px;
+  }
+}

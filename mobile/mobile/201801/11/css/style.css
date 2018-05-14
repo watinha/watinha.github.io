@@ -1,0 +1,223 @@
+/*add font icon*/
+@font-face {
+    font-family: "aweasome";
+    src: url("../fonts/fa-solid-900.ttf");
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+body{
+    margin: 0px;
+    background: #f5f5f5;
+}
+/*icons*/
+.down-icon::before{
+    font-family: "aweasome";
+    content: "\F078";
+    font-size: 10px;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+.user-icon::before{
+    font-family: "aweasome";
+    content: "\F007";
+    font-size: 1.3em;
+}
+.water-icon::before{
+    font-family: "aweasome";
+    content: "\F043";
+    font-size: 1.3em;
+}
+.config-icon::before{
+    font-family: "aweasome";
+    content: "\F013";
+    font-size: 1.3em;
+}
+
+
+ul {
+    list-style: none;
+    display: inline;
+}
+ ul li{
+    display: inline;
+    font-size: .8em;
+    margin-left: 30px;
+}
+nav{
+    float: right;    
+}
+.header-mob{
+    display: none;
+}
+.btn{
+    background-color: #EA6C76;
+    margin: 50px auto; 
+    width:180px;  
+    display: block;
+}
+
+a:visited {
+    color:white;
+}
+.bold{
+    font-family: 'Noto Sans CJK JP Black', sans-serif;
+}
+.btn-txt{
+    font-size: .8em;
+    display: block;
+    padding: 10px 6px; 
+  
+}
+.title-center h2{
+    color: #EA6C76;
+}
+.card-img{
+    width: 3em;
+    height: 3em;
+    color:white;
+    text-align: center;
+    padding-top: 0.8em;
+    border-radius: 50%;
+    margin: 0 auto;   
+    background: linear-gradient(to bottom left, #D2606A 50%,#EA6C76 50%); 
+}
+.page-link{
+    display: inline;   
+}
+.top-page{
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    color:white;
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(52,53,70,0.8)*/
+    background: url("../img/top-image.png") ; 
+    background-repeat: repeat-x;
+}
+.post-card{
+    background: #fff;
+    text-align: center;
+    padding: 3% 3%;
+}
+.posts{
+    padding: 4% 10%;
+}
+.title-center{
+    width: 50%;
+    text-align: center;
+    margin: 5em auto;
+}
+.content-title{
+    text-align: center;
+    width: 100%;
+    margin: 15px auto;
+}
+.content-title h2{
+    display: inline;
+    padding: 0 20px;
+    color: #4b4b4b;    
+}
+.content-header{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #808080;
+}
+.lines1{
+    /* inverte a imagem */
+    transform: scaleX(-1);
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.post-card h4{
+    color: #424242;
+}
+.post-card p{
+    color: #808080;
+}
+@media screen and (min-width: 900px) {
+    .posts{
+        width: 100%;
+        float: left;       
+    }    
+    .post-card{
+        width: 32%;
+        margin-bottom: 3%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .post-card:nth-child(3){
+        margin-right: 0;
+    }    
+}
+@media screen and ( max-width: 481px) {
+    .btn{
+        
+        margin: 50px auto; 
+        width:100%;  
+        display: block;
+    }
+    .post-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .posts{
+        padding: 3% 3%;
+    }
+    .header-desk{
+        display: none;
+    }
+    .header-mob{
+       display: block;       
+    }
+    .menu{
+        width: 50px;
+        height: 35px;
+        
+        text-align: center;
+        padding-top: 8px;
+        background-color: rgba(255,255,255, 0.4);
+    }
+    .menu-icon::before{
+        font-family: "aweasome";
+        content: "\F0C9";
+        font-size: 1em;
+    }
+    .title-center{
+        width: 80%;
+        
+       
+        
+        
+    
+    }
+    .title-center h1{
+        font-size: 1.7em;
+    }
+    .top-page{
+        height:400px;
+    }
+    .content-header{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .content-title h2{
+        font-size: 1.2em;       
+    }
+    .content-title h2{
+        font-size: 1.2em;       
+    }
+    .content-title{
+        margin-bottom:40px;
+    }
+    .line{
+        max-width: 20%;
+    }
+}

@@ -1,0 +1,201 @@
+body {
+   	padding: 0;
+	margin: 0;
+	font-family: 'Lato';
+}
+
+.branco {
+	color: white;
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	height: 637px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+	
+#capa {
+	width: 410px;
+	height: 100%;
+	float: left;
+	display: block;
+	color: #ccc;
+	font-weight: 600;
+	line-height: 30px;
+	min-width: 320px;
+	text-align: right;
+	background-image: url("fog.jpg");
+	background-size: cover;
+	background-position: left;
+}
+
+#conteudo {
+	width: calc(100% - 410px - 30px);
+	height: calc(100% - 90px);
+	float: left;
+	padding: 70px 15px 20px 15px;	
+}
+#works img {
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+#logo {
+	position: relative;
+	top: 40px;
+	right: 40px;
+	margin-bottom: 20px;
+}
+
+#description {
+	width: 80%;
+	margin: 40px auto;
+}
+	
+#redes {
+	width: 100%;
+	position: relative;
+	bottom: 40px;
+	right: 40px;
+	margin-top: 300px;
+}
+	
+.icon {
+	width: 20px;
+	height: 20px;
+	margin: auto 5px;
+	filter: invert(100%);
+}
+	
+#copyright {
+	margin: 0px auto;
+	right: 40px;
+	position: relative;
+	font-size: 10px;
+}
+
+
+#t1 {
+	color: gray;	
+	font-size: 30px;
+}
+
+#t2 {
+	color: darkgray;
+}
+
+#caixa{
+	width: 100px;
+    padding: 1%;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+	color: gray;
+	font-size: 12px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+hr {
+	margin: 35px 0;
+	border: thin solid #f0f0f0
+}
+
+#linha{
+	position: relative;
+	color: darkgray;
+	top: 25%;
+	left: 10%;
+}
+
+#t3 {
+	color: gray;
+}
+
+#imagem1 {
+	position: relative;
+	left: 0%;
+	width: 25%;
+	height: 50%;
+}
+
+#imagem2 {
+	position: relative;
+	left: 5%;
+	width: 30%;
+	height: 30%;
+}
+
+@media (max-width: 640px) {
+	#capa, #conteudo {
+		width: 100%;
+		height: 50%;
+		display: block;
+	}
+	#conteudo {
+		padding-top: 20px;
+		width: calc(100% - 30px);
+	}
+
+	#logo {
+		position: static;
+		width: 80px;
+		height: 80px;
+		margin: 20px auto 5px auto;
+	}
+	#description {
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	#capa {
+		height: 40%;
+	}
+
+	#t1 {
+		color: gray;	
+		font-size: 20px;
+	}
+
+	#t2{
+		font-size: 15px;
+		color: darkgray;
+	}
+
+	#caixa{
+		width: 100px;
+		height: 40px;
+    	border: 2px solid lightgray;
+		color: gray;
+	}
+
+
+	#linha{
+		position: relative;
+		color: darkgray;
+	}
+
+	#t3{
+		position: relative;
+		color: gray;
+	}
+
+
+	#copyright {
+		display: none;
+		}
+
+	.icon {
+		display: none;
+	}
+
+	#works img {
+		max-width: calc(100%);
+		height: 200px;
+		margin-bottom: 20px;
+	}
+}

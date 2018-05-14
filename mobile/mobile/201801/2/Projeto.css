@@ -1,0 +1,282 @@
+   .Fundo {
+      height:100%;
+      width:100%;
+      position:fixed;
+      top:0px;
+      left:0px;
+      background-image: linear-gradient(45deg,#a3578c , #684899);
+   }
+
+   .circle {
+       margin:auto;
+       background-color: #aaa;
+       border-radius: 50%;
+       width: 50px;
+       height: 50px;
+       overflow: hidden;
+       position: relative;
+       margin-right: auto;
+       top: 10%;
+     }
+
+   .circle img {
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+     }
+
+
+    .circle2 {
+        background-color: #aaa;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        left: 80%;
+        top: 10%;
+        border: 1px solid #c3bfd3;
+    }
+
+    .circle2 img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+   .box{
+          width:27%;
+          height:30%;
+          top: 5%;
+          position:relative;
+          margin: auto auto auto auto;
+          background-color: transparent;
+        }
+
+    .box2{
+          width:41%;
+          align-items: center;
+          position:relative;
+          margin: auto auto auto auto;
+          background-color: transparent;
+        }
+
+    .css3gradient {
+         width:110px;height:1.5px;
+         background-color:#f9a3ae;
+         filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#f9a3ae, endColorstr=#ab98cc);
+         background-image:-moz-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+         background-image:linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+         background-image:-webkit-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+         background-image:-o-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+         background-image:-ms-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+         background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#f9a3ae), color-stop(50%,#ab98cc),color-stop(100%,#7fc7f4));
+         top:18%;left:5%;position: relative;
+       }
+
+   .cinza{
+     height:10%;
+     width:100%;
+     position:relative;
+     background-color: #f7f7f7;
+     border-radius: 5px;
+   }
+   .branco{
+     height:100%;
+     width:87%;
+     position:relative;
+     top:5%;
+     left:5%;
+     background-color: white;
+     border-radius: 5px;
+   }
+
+   .button {
+        background-color: #f7f7f7;
+        border: none;
+        color: #c3bfd3;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 15px 5px;
+        cursor: pointer;
+   }
+
+   .button1 {border-radius: 4px;}
+   .button1:hover {
+    background-color: white;
+    }
+
+    .button2 {
+         background-color: white;
+         border: 1px solid #c3bfd3;
+         color: #7777a3;
+         padding: 10px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 65px;
+         cursor: pointer;
+    }
+
+    .button2 {border-radius: 4px;}
+    .button2:hover {
+     background-color: white;
+     }
+
+    h1{font-family:"Trebuchet MS";
+      text-align: center;
+      color: white;
+      font-size: 45px;
+      font-weight: 100;
+      position: relative;
+      top: 10%;
+      line-height: 1;
+    }
+   p{
+     font-family:"Trebuchet MS";
+     text-align: center;
+     color: #c3bfd3;
+     font-size: 18px;
+     font-weight: 100;
+     position: relative;
+     top: 8%;
+     line-height: 1.5;
+   }
+   h2{font-family:"Trebuchet MS";
+    position: absolute;
+
+     text-align: center;
+     color: #7777a3;
+     font-size: 30px;
+     font-weight: 100;
+     top: 18%;
+     left: 5%;
+   }
+   p2{
+     font-family:"Trebuchet MS";
+     text-align: justify;
+     color: #7777a3;
+     font-size: 16px;
+     font-weight: 100;
+     position: absolute;
+     top: 32%; right: 50%; left: 5%;
+     line-height: 1.5;
+   }
+
+
+
+   @media screen and (max-width: 480px){
+        .circle {
+          margin:auto;
+            background-color: #aaa;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            overflow: hidden;
+            position: relative;
+            margin-right: auto;
+            top: 7%;
+          }
+
+          .box{
+                 width:80%;
+                 height:30%;
+                 top: 3%;
+                 position:relative;
+                 margin: auto auto auto auto;
+                 background-color: transparent;
+               }
+
+         .branco{
+               width:90%;
+               position:relative;
+               top:0%;
+               left:5%;
+               background-color: white;
+               border-radius: 7px;
+          }
+
+          .css3gradient {
+               width:80px;height:2px;
+               background-color:#f9a3ae;
+               filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#f9a3ae, endColorstr=#ab98cc);
+               background-image:-moz-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+               background-image:linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+               background-image:-webkit-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+               background-image:-o-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+               background-image:-ms-linear-gradient(left, #f9a3ae 0%, #ab98cc 50%,#7fc7f4 100%);
+               background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#f9a3ae), color-stop(50%,#ab98cc),color-stop(100%,#7fc7f4));
+               top:39%;left:40%;position: relative;
+             }
+
+          .cinza{display: none}{
+          }
+
+          .button {display: none}{
+          }
+          .button2 {display: none}{
+          }
+
+          .circle2 {
+            background-color: #aaa;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            left: 25%;
+            top: 5%;
+            border: 1px solid #aaa;
+          }
+
+          .Fundo {
+          height:100%;
+          width:100%;
+          position:fixed;
+          top:0px;
+          left:0px;
+          background-image: linear-gradient(45deg,#744896 , #684899);
+        }
+          h1{
+            font-family:"Trebuchet MS";
+            text-align: center;
+            color: white;
+            font-size: 45px;
+            font-weight: 100;
+            position: relative;
+            top: 10%;}
+          p{
+            font-family:"Trebuchet MS";
+            text-align: center;
+            color: #c3bfd3;
+            font-size: 18px;
+            font-weight: 100;
+            position: relative;
+            top: 8%;
+            line-height: 1.5}
+          h2{
+            font-family:"Trebuchet MS";
+            text-align: center;
+            color: #7777a3;
+            font-size: 20px;
+            font-weight: 100;
+            position: absolute;
+            top: 32%;
+            left: 28%;}
+          p2{
+            font-family:"Trebuchet MS";
+            text-align: center;
+            color: #7777a3;
+            font-size: 15px;
+            font-weight: 100;
+            position: absolute;
+            top: 42%;
+            right: 8%;
+            line-height: 1.5;
+            left: 8%;
+          }
+      }

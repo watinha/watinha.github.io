@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Web</title>
+</head>
+<style type="text/css">
+	html,body{
+		background:#f7f9f9;
+		height: 100%;
+		margin: 0 auto;
+    	padding: 0;
+    	font-family: Calibri;
+	}
+	#session1{
+		background:url('montanha.jpg');
+		background-size: cover;
+		width: 100%;
+		height: 70%;
+	}
+	#menu ul{
+		margin: 0 auto;
+		font-size: 14pt;
+		padding: 2% 0;
+   		list-style: none;
+   		text-align: center;
+	}
+	#menu ul li {
+		margin:1%;
+		display: inline; 
+	}
+	#menu ul li a{
+		text-decoration: none;
+		color:#b3bfc3;
+	}
+	#menu2 ul{
+		display: none;
+	}
+	#btn{
+		display: none;
+	}
+	#botao{
+		text-align: center;
+		padding: 1% 0;
+		width: 12%;
+		height: 10%;
+		font-size: 20pt;
+		background: #ff664c;
+		color: white;
+		border:0px;
+		margin: 7% 0 2% 0;
+	}
+	#session1 h1{
+		color: white;
+		text-align: center;
+		font-size: 20pt;
+	}
+	#session1 p{
+		color:#b3bfc3;
+		text-align: center;
+	}
+	#session2{
+		padding: 0;
+		margin: 0 auto;
+		width: 80%;
+		height: 50%;
+	}
+	#session2 p{
+		margin: 0;
+		padding: 3% 0;
+		font-size: 24pt;
+		color: #565d60;
+		text-align: center;
+		letter-spacing: -1px;
+	}
+	#session2 #p2{
+		width: 68%;
+		float: left;
+		margin: 0 0 0 6%;
+		padding: 3% 0;
+		font-size: 15pt;
+		color: #565d60;
+		text-align: right;
+		letter-spacing: -1px;
+	}
+	#botao2{
+		float: right;
+		text-align: center;
+		margin: 3% 9% 0 0;
+		padding: 1% 0;
+		width: 15%;
+		height: 5%;
+		font-size: 11pt;
+		color: #565d60;
+		border:1px solid grey;
+		background: #f7f9f9;
+	}
+	
+	@media screen and (max-width: 992px) {
+		#session1{
+			height: auto;
+		}
+		#menu ul{
+			display: none;
+		}
+
+		img#btn{
+			display: block;
+			width: 10%;
+		}
+		#btn:hover{
+			background-color: #868e93;
+
+		}
+		#botao{
+			padding: 1% 0;
+			width: 35%;
+			font-size: 170%;
+			height: 20%;
+		}
+		#session1 h1{
+			padding: 0 10%;
+			font-size:150%;
+		}
+		#session1 p{
+			text-align: center;
+			font-size: 130%;
+			padding: 0 10% 5% 10%;
+
+		}
+
+		#session2{
+			width: 90%;
+		}
+		#session2 p{
+			padding: 5% 0;
+			font-size: 150%;
+			text-align: left;
+		}
+		#session2 #p2{
+			margin: 0 auto;
+			padding: 3% 0;
+			font-size: 130%;
+			color: #565d60;
+			text-align: left;
+			width: 90%;
+		}
+		#botao2{
+			float: left;
+			margin: 0 0 5% 0 ;
+			padding: 2% 0 ; 
+			width: 100%;
+			height: auto;
+			font-size: 130%;
+		}
+	}
+
+</style>
+<body>
+	<section id="session1">
+		<nav id="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Dropdown</a></li>
+				<li><a href="#">Left Sidebar</a></li>
+				<li><a href="#">Right Sidebar</a></li>
+				<li><a href="#">No Sidebar</a></li>
+				<li><a href="#">Elements</a></li>
+			</ul>
+		</nav>
+		<nav id="menu2">
+          <img id="btn" src="btn.png">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Dropdown</a></li>
+				<li><a href="#">Left Sidebar</a></li>
+				<li><a href="#">Right Sidebar</a></li>
+				<li><a href="#">No Sidebar</a></li>
+				<li><a href="#">Elements</a></li>
+			</ul>
+		</nav>
+			<center><button id="botao"><b>Latitude</b></button></center>
+			<h1>Magna phasellus consequat sed ipsum dolor</h1>
+			<p>Feugiat cursus tempus adipiscing, phasellus sit amet lorem ipsum.</p>
+		
+		
+	</section>
+	<section id="session2">
+		<p><b>Etiam sed feugiar</b> consequat amed lorem phasellus sed ultrices imperdiet dolore lacus feugiat adipiscing magna consequat</p>
+		<hr>
+		<div id="p2">Vestibulum viverra quam tortor ultricies convallis eros condimentum. Vestibulum vulputate sagittis sem tincidunt susticidunt vestibulum congue lorem natoque paneibus et magnis dis parturient</div>
+		<a href="#"><div id="botao2"><b>Continue Reading</b></div> </a>
+	</section>
+
+</body>
+</html>

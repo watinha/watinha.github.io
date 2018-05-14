@@ -1,0 +1,310 @@
+.background {
+    height: 400px;
+    width: 100%;
+    background:url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Blurred-Wallpapers-HD-Free-Download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background2 {
+    height: 200px;
+    width: 100%;
+    background:url(http://webluxo.com.br/home/wp-content/uploads/2015/09/nova-york-vista-alto-predios-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+h1{
+	text-align:center;
+}
+
+.icon{
+    display: none;
+}
+
+.tabela-botao{
+    float: top;
+	position: relative;
+	margin: auto;
+    top: 15%;
+    border-spacing: 20px;
+    display:table;
+}
+
+.firstelement{
+	border-radius: 7px;
+    padding:10px;
+    border-style:solid;
+    border-width:1px;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:#FFFFFF;
+	color:gray;
+    font-weight:bold;
+    width: 130px;
+    text-align: center;
+}
+
+.secondelement{
+	border-radius: 7px;
+    padding:10px;
+    border-style:solid;
+    border-width:1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:#FFFFFF;
+	color: white;
+    font-weight:bold;
+    width: 130px;
+    text-align: center;
+
+}
+
+.quebra{
+	word-break: break-all;
+}
+
+p.fontesup1{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    top: 60px;
+    font-size: x-large;
+}
+
+p.fontesup2{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    top: 45px;
+    font-size: medium;
+}
+
+.central1 {
+	border-radius: 5px;
+    height: 300px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 300px;
+    left: 25%;
+    background-color: white;
+}
+
+.central2 {
+	border-radius: 5px;
+    height: 300px;
+    width: 51%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: 330px;
+    left: 0%;
+    background-color: white;
+}
+
+.header {
+    height: 200px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 25%;
+    background-color: white;
+}
+
+.overlinep{
+	text-decoration:overline;
+	width:100%;
+}
+
+.right-menu {
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    color: antiquewhite;
+}
+
+.left-menu{
+
+    color: antiquewhite;
+}
+
+
+.division{
+    float: left;
+    display: block;
+    width: 50%;
+}
+
+.green-button{
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: green;
+}
+
+.red-button{
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+}
+
+.adjust{
+    position: relative;
+	word-break: break-all;	
+    top: 20px;
+}
+
+/*TELA CELULAR*/
+@media screen and (max-width: 700px){
+    
+    body{
+        background-color: #F5F5F5;
+    }
+    
+    h1{
+        text-align:center;
+    }
+    
+    .quebra{
+        word-break: break-all;
+    }
+    
+    p.fontesup1{
+        position: relative;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        top: 60px;
+        font-size: x-large;
+    }
+    
+    p.fontesup2{
+        position: relative;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        top: 45px;
+        font-size: medium;
+    }
+    
+    .central1 {
+        border-radius: 5px;
+        height: 300px;
+        width: 100%;
+        display: block;
+
+        text-align: center;
+        /*border: 1px solid black;*/
+        position: absolute;
+        top: 425px;
+        left: 0%;
+        background-color: white;
+    }
+    
+    .central2 {
+        border-radius: 5px;
+        height: 300px;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: 1px solid black;*/
+        position: relative;
+        top: 422px;
+        left: 0%;
+        background-color: white;
+    }
+
+
+    .background {
+        height: 400px;
+        width: 100%;
+        background:url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Blurred-Wallpapers-HD-Free-Download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .background2 {
+        height: 200px;
+        width: 99%;
+        background:url(http://webluxo.com.br/home/wp-content/uploads/2015/09/nova-york-vista-alto-predios-02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tabela-botao{
+        float: top;
+        position: relative;
+        margin: auto;
+        top: 15%;
+        border-spacing: 80px;
+        width:100%;    
+    }
+
+
+    .firstelement{
+        border-radius: 7px;
+        padding:10px;
+        border-style:solid;
+        border-width:1px;
+        background-color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color:#FFFFFF;
+        color:gray;
+        font-weight:bold;
+        width: 100%;
+        text-align: center;
+        display:block;
+    }
+    
+    .secondelement{
+        border-radius: 7px;
+        top: 5%;
+        padding:10px;
+        width: 100%;
+        border-style:solid;
+        border-width:1px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color:#FFFFFF;
+        color: white;
+        font-weight:bold;
+        text-align: center;
+        display:block;
+    
+    }
+
+
+.left-menu{
+    display: none;
+}
+    .right-menu {
+        display: none;
+    }
+    
+
+
+}

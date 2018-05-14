@@ -1,0 +1,242 @@
+body{
+    font-family: helvetica;
+    font-size: 14px;
+    margin: 0px;
+    background-color: #ddd6;
+    line-height: 1.6;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: rgb(128, 124, 149);
+    height: 50px;
+}
+
+header > nav > a, header > a{
+    text-decoration: none;
+    color: rgb(255, 252, 237);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header > a{
+    font-size: 22px;
+}
+header > nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header > nav > a{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+header > nav > a:active, header > nav > a:hover{
+    background-color: rgb(96, 93, 112);
+}
+.camera {
+    padding-left: 11%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    background-image: url('camera.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.camera > button, .infos-1 > button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid white;
+    color: white;
+}
+.camera > button > svg {
+    font-size: 14px;
+    padding-left: 5px;
+}
+header > a >svg{
+    color: rgb(255, 90, 85);
+}
+
+.camera > h1 {
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.camera > h2 {
+    width: 35%;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.infos-1 h1{
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.infos-1 {
+    padding-top: 20px;
+    padding-left: 10%;
+    background-color: rgb(255, 90, 85);
+}
+.infos-1 p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.infos-2 h1{
+    color: rgb(255, 90, 85);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.infos-1, .infos-2{
+    width: 45%;
+}
+.infos-2 p{
+    color: rgb(155, 156, 166);
+}
+
+.infos-2 h1, .infos-2 p{
+    padding-left: 5%;
+}
+.auct{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+}
+.auct p{
+    margin-bottom: 50px;
+}
+.infos-2 h1, .infos-2 p{
+    padding-left: 5%;
+}
+.infos-1 > button {
+    width: 120px;
+}
+
+@media (max-width: 930px) {
+    header{
+        justify-content: space-around;
+        padding-left: 5%;
+    }
+
+	.camera {
+        justify-content: safe;
+        height: 450px;
+
+    }
+    .camera > h1 {
+
+        width: 40%;
+    }
+    .camera > h2 {
+        width: 40%;
+    }
+}
+@media (max-width: 730px) {
+
+	.infos-2 h2 {
+        margin: 10px 0px;
+    }
+    .camera > h1 {
+        width: 50%;
+    }
+    .camera > h2 {
+        width: 50%;
+    }
+}
+@media (max-width: 650px) {
+    header > nav {
+        display: none; /*some com o menu nav*/
+    }
+    header { 
+        justify-content: space-between;/*propriedade do display;flex, usa os espaço que sobram entre os elementos e distribui*/
+    }
+    header > div {
+        padding: 15px; /*Adiciona uma padding na div pra criar um quadrado, dar forma a div*/
+        background-color: rgb(255, 90, 85); /*cor da div vermelha pro botão*/
+    }
+    .container {
+        text-align: center; /*centraliza todos os textos dentro da div .container*/
+    }
+    .camera > button, .infos-1 > button {
+        width: 90%; /*faz o botão ocupar 90% da tela*/
+        height: 60px; /*aumenta a altura do botão pra 60px*/
+        font-weight: 700; /*aumenta a intensidade da fonte, deixando o texto em negrito*/
+        font-size: 20px; /*aumenta tamanho da fonte*/
+        margin: 0 auto; /*propriedade pra centralizar botão (centering-css-complete-guide)*/
+        cursor: pointer;/*muda ponteiro do mouse pra simular o do clique*/
+    }
+
+	.camera {
+        background-image: url('camera1.jpg');
+        background-position: center;
+        filter: grayscale(100%); /*deixa imagem cinza*/
+        padding: 30px 0; /*padding pra separar das outras divs ... 30px 0 é a memsa coisa que padding: 30px 0px 30px 0px, que é a mesma coisa que padding-top:30px padding-bottom:30px*/
+    }
+    .camera > h1 {
+        width: 100%;
+    }
+    .camera > h2 {
+        width: 100%;
+        font-weight: 250;
+    }
+    .infos-1, .infos-2 {
+        width: 100%;
+    }
+    .infos-2 h1, .infos-2 p{
+        padding: 0 5px;
+        text-align: center;
+    }
+    .infos-1 {
+        padding: 30px 0;/*padding pra separar das outras divs*/
+        margin: 0;
+    }
+    /*Botão do menu de navegação pra mobile */
+    .botao {
+        display: block;
+        cursor: pointer; /*Muda o cursor do mouse pro de clique*/
+        border-bottom: 2px solid white; /*Adiciona uma borda na label de 2px branca de cor sólida*/
+        width: 20px; /* Define uma largura de 20px pra label*/
+        margin-bottom: 4px;/*Adiciona uma margem de 4px pra separar essa label dos outros conteudos :before e :after, sem isso ficam todas uma encima da outra*/
+        float: right; /*Essa propriedade faz o botão ficar no canto direito da header*/
+    }
+    .botao:before {
+        content: "";/*Adiciona um conteúdo vazio, a partir desse conteúdo vazio é possível usar as propriedades abaixo*/
+        display: block; /*Por padrão é display:inline, faz-se necessário mudar pra block pra aparecer na tela*/
+        border-bottom: 2px solid white;/*mesma coisa da propriedade do .botão*/
+        width: 100%; /*poderia ser usado o 20px, 100% é em relação ao seu pai, o .botao*/
+        margin-bottom: 4px;/*mesma coisa da propriedade do .botão*/
+    }
+    .botao:after { /*Faz a mesma coisa que o :before*/
+        content: "";
+        display: block;
+        border-bottom: 2px solid white;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+}
+@media (max-width: 430px) {
+	.camera {
+        height: 400px; /*aumenta a altura da div .camera, pro botão não ficar colado com a outra div */
+    }
+}
