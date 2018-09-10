@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>手机搜狐网</title>
+    <meta name="keywords" content="手机搜狐,手机搜狐网,搜狐手机版,搜狐新闻,搜狐,搜狐网,资讯,娱乐,体育,财经,汽车,房产,NBA,自媒体,视频,直播,小说" />
+    <meta name="description" content="手机搜狐网，懂手机，更懂你！手机搜狐是国内最大的移动门户之一，利用搜狐门户矩阵资源，内容覆盖新闻、财经、体育、娱乐、汽车、房产、图库、视频等资讯，为10亿手机用户打造随时随地的掌上资讯生活。手机搜狐网，手机搜狐触版- m.sohu.com" />
+    <meta name="referrer" content="always"/>
+    <!-- <meta name="referrer" content="unsafe-url"/> -->
+    <script type="text/javascript">
+        var pageData = {};
+        var AB_TEST = {
+            headlineCode: null,
+            subjectCode: null
+        };
+    </script>
+</head>
+<body data-spm="home">
+    <div id="app">
+        <!--头部信息栏-->
+<div class="index_head_area" id="indexHeader">
+    <div class="fixed_box" data-spm="hdn">
+        <a class="logo" href="index.html" data-spm-acode="3002">
+            <img src="http://29e5534ea20a8.cdn.sohucs.com/mobile/sohu-logo-d.png">
+        </a>
+        <div class="search_box">
+            <section id="queryInput" class="query" @click="queryHandler" v-text="query_input" data-spm-acode="3001"></section>
+            <footer class="qbtn icon-query" @click="queryHandler"></footer>
+        </div>
+        <a class="sites" href="c/7918/index.html?_once_=000025_topdh_sy">名站</a>
+        <span id="avatar"><avatar :stat_code="10120355"></avatar></span>
+    </div>
+</div>        <div id="pageBody">
+            <!--悬浮菜单-->
+            <div id="backTop">
+                <back-top 
+                    :is_index="true" 
+                    :addto_desktop_id="10120301" 
+                    :webclip_action_id="10120366" 
+                    :addto_desktop_id_ios="10120375" 
+                    app_down_type="msohu_putDesk">
+                </back-top>
+            </div>
+            <!--导航栏-->
+<div id="navMenu" class="nav-menu-area">
+    <div class="normal" data-spm="nav-ch">
+        <ul class="expand-list" :class="menu_expand_class">
+            <li><a href="ch/8/index.html?_f=m-index_important_hsdh">新闻</a></li>
+            <li><a href="ch/15/index.html?_f=m-index_business_hsdh">财经</a></li>
+            <li><a href="c/3/index.html?_f=m-index_sports_hsdh&amp;_once_=000025_top_tiyu_v3">体育</a></li>
+            <li><a href="c/4/index.html?_f=m-index_yule_hsdh&amp;_once_=000025_top_yule_v3">娱乐</a></li>
+            <li><a href="ch/10/index.html?_f=m-index_mil_hshd">军事</a></li>
+                        <li><a href="picture?_f=m-index_pic_hshd&amp;_once_=000025_top_tuku_v3">图库</a></li>
+            <li><a href="ch/24/index.html?_f=m-index_health_hshd">健康</a></li>
+            <li><a href="https://m.auto.sohu.com/?_f=m-index_auto_hsdh">汽车</a></li>
+            <li><a href="https://m.focus.cn/?_f=m-index_focus_hsdh&channelId=361&amp;_once_=000025_top_fangchan_v3">房产</a></li>
+            <li><a href="https://read.sohu.com/?_once_=000218_rk_dh">小说</a></li>
+            <li><a href="ch/13/index.html?_f=m-index_history_hshd">历史</a></li>
+            <li><a href="ch/30/index.html?_f=m-index_it_hshd">科技</a></li>
+            <li><a href="ch/25/index.html?_f=m-index_edu_hshd">教育</a></li>
+            <li><a href="ch/26/index.html?_f=m-index_baobao_hshd">母婴</a></li>
+            <li><a href="ch/23/index.html?_f=m-index_fashion_hshd">时尚</a></li>
+            <li><a href="ch/12/index.html?_f=m-index_cul_hshd">文化</a></li>
+            <li><a href="ch/43/index.html?_f=m-index_society_hshd">社会</a></li>
+            <li><a href="ch/40">警法</a></li>
+            <li><a href="ch/42/index.html?_f=m-index_game_hshd">游戏</a></li>
+            <li><a href="ch/41/index.html?_f=m-index_acg_hshd">动漫</a></li>
+            <li><a href="ch/29/index.html?_f=m-index_travel_hshd">旅游</a></li>
+            <li><a href="ch/28/index.html?_f=m-index_chihe_hshd">美食</a></li>
+            <li><a href="ch/27/index.html?_f=m-index_astro_hshd">星座</a></li>
+            <li><a href="ch/45/index.html?_f=m-index_fun_hshd">搞笑</a></li>
+            <li><a href="ch/44/index.html?_f=m-index_pets_hshd">宠物</a></li>
+            <li><a href="http://zhibo.m.sohu.com/?_f=m-index_live_hshd&_once_=000090_zhibo">直播</a></li>
+            <li><a href="c/24/index.html?_f=m-index_nba_hshd&amp;_once_=000025_top_nba_v3">NBA</a></li>
+            <li><a href="http://m.zhidao.sohu.com?_f=m-index_zhidao_hshd">知道</a></li>
+            <li><a href="v/index.html?_f=m-index_video_hshd" class="link-video">看点<i class="dot" v-bind:class="{'show': !has_clicked_video}"></i></a></li>
+        </ul>
+        <div class="toggle-area" @click="toggleNavMenu" data-spm-acode="3003" :data-spm-click-pm="action_num">
+            <i class="toggle" :class="toggle_class"></i>
+            <i class="bar-dot dot" v-bind:class="{'show': !has_clicked_video && toggle_class === 'icon-fold'}"></i>
+        </div>
+    </div>
+</div>            <!--视频相关 快捷入口-->
+<div class="tv-layer-area" data-spm="tvpromo" >
+    <ul class="tv-layer">
+        <li class="item"><i class="sohu-video"></i><a href="http://m.tv.sohu.com/?src=1412%7C0001&_once_=000025_top_nav_sohutv">视频</a></li>
+        <li class="item"><a href="http://m.tv.sohu.com/pgc/71010000?src=1411&_once_=000025_top_nav_show">自媒体</a></li>
+        <li class="item"><a href="http://m.tv.sohu.com/drama?src=1413%7C0001&_once_=000025_top_nav_drama">电视剧</a></li>
+        <li class="item"><a href="http://m.tv.sohu.com/drama_us?src=1414%7C0001&_once_=000025_top_nav_drama_us">美剧</a></li>
+        <li class="item"><a href="https://m.tv.sohu.com/movie?src=1410&_once_=000025_top_nav_drama_jk">电影</a></li>
+    </ul>
+</div>            <!--焦点图-->
+            <section id="indexFocus" class="focus_wrapper" data-spm="pic-focus">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="a/252959459_123753?_f=m-index_top_pic_1" data-log-content-ev="m-index_top_pic_1" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/bd81d32734002b9ffdc44d50681ea061.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">CPI涨幅连续俩月超2% 未来物价怎么走?</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="a/252782857_658437?_f=m-index_top_pic_2" data-log-content-ev="m-index_top_pic_2" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/3ad25802675c0bbbefeafaa0d91159d7.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">被韩国“宠着”的农民</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="a/253027691_260616?_f=m-index_top_pic_3" data-log-content-ev="m-index_top_pic_3" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/37242f99a502db1733c6145715b504ca.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">极右翼政党获大选胜利 瑞典会脱欧吗</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://www.sohu.com/picture/252942778?_f=m-index_top_pic_4" data-log-content-ev="m-index_top_pic_4" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/26b0b74ca383fd2af71fb26f56fd621f.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">那些老照片里的人民教师</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://www.sohu.com/picture/252922001?_f=m-index_top_pic_5" data-log-content-ev="m-index_top_pic_5" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/8e8af692c1a1bd24a2a869ef9c3c82c6.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">网红被指遛狗不栓绳 殴打孕妇致先兆早产</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://www.sohu.com/picture/252999389?_f=m-index_top_pic_6" data-log-content-ev="m-index_top_pic_6" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/35bfa81ca27db1e401b6d525acf23b89.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">毁于“9·11”地铁站重开 墙绘《独立宣言》</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://www.sohu.com/picture/253000324?_f=m-index_top_pic_7" data-log-content-ev="m-index_top_pic_7" 
+                    data-promo="true" class="focus-item__jump">
+                        <img src="http://29e5534ea20a8.cdn.sohucs.com/q_70,c_fill,w_640,h_320,g_faces/os/news/18907f495c71c83c01aa65874a1a5625.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">北海道地震致数十人死伤 安倍视察灾区</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>            </section>
+            <!--头条新闻-->
+<div class="dang-news" data-spm="d-news">
+<div class="f" data-spm-type="resource">
+    <a href="a/253053571_267106?_f=m-index_top_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_top_news_1">习近平：坚持特色社会主义教育发展道路</a>
+</div>
+
+</div>
+<div class="hot-rec-news" data-spm="hot-news">
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253075581_260616?_f=m-index_top_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_top_news_2">两部门：将对网约车驾驶员进行背景核查</a>
+</div>
+
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253025272_260616?_f=m-index_top_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_top_news_3">美威胁对全部中国产品加征关税 中方回应</a>
+</div>
+
+</div>            <!-- 实时推荐 -->
+<div class="real-time" data-spm="rt-promo">
+    <div class="item-list">
+            <a class="item" href="promotion?posId=10080101&amp;itemId=7875&amp;link=https%253A%252F%252Fm.tv.sohu.com%252F20180830%252Fn600588725.shtml%253Fsrc%253D1004033374&amp;_f=m-index_tv_tg_1" data-promo="true" data-log-content-ev="m-index_tv_tg_1">
+                <i class="sohu_tv icon-sohu_tv"></i>
+                <h3 class="title"><唐诗三百案>：蛊女李柏蓉奇招破迷案</h3>
+            </a>
+            <a class="item" href="promotion?posId=10080201&amp;itemId=7936&amp;link=https%253A%252F%252Fm.tv.sohu.com%252F20180909%252Fn600592636.shtml%253Fsrc%253D1004033373&amp;_f=m-index_tv_tg_2" data-promo="true" data-log-content-ev="m-index_tv_tg_2">
+                <i class="sohu_tv icon-sohu_tv"></i>
+                <h3 class="title"><娘道>：土味村姑阴差阳错陷豪门宫斗</h3>
+            </a>
+        <div id="recentRead">
+            <recent-read></recent-read>
+        </div>
+    </div>
+</div>            <!-- 要闻 -->
+<div class="plate important" data-channelid="8" data-channelname="important">
+    <header class="plate__head" data-spm="nav-important">
+        <h2><cite class="vline"></cite>
+            <a href="ch/8.1">要闻</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/10.1">军事</a>
+            <a class="btn" href="ch/43.1">社会</a>
+            <a class="btn" href="c/10/index.html?_once_=000025_xiaodaohang_xinwen_4v3">图库</a>
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-important" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253020843_203783?_f=m-index_important_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_1">遭遇严重洪灾后 寿光书记"另有任用"了</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253042231_139908?_f=m-index_important_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_2">计划生育成历史!一图读懂卫健委三定方案</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253054891_410494?_f=m-index_important_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_3">洪泽湖鱼蟹死亡：污水来源哪一省存争议</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253039199_100001551?_f=m-index_important_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_4"> 华谊：王忠军、王忠磊正常履职未被通缉</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253059566_162522?_f=m-index_important_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_5">土耳其总统将于9月23-27日访问美国</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253052540_162522?_f=m-index_important_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_6">安倍同普京举行日俄首脑会谈 握手合影</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="subject/311912?_f=m-index_important_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_7">德千名右翼分子举行抗议游行|国际专题</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253079863_161795?_f=m-index_important_news_8" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_8">乘客打滴滴被挟持？一键报警形同虚设？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253021924_117351?_f=m-index_important_news_9" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_9">金正恩这个信号特朗普说收到 僵局破了?</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="subject/311901?_f=m-index_important_news_10" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_10">在韩国当公务员：常调动岗位防止腐败</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253048120_260616?_f=m-index_important_news_11" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_11">高铁盒饭：时常被吐槽，一直未解决</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253066301_260616?_f=m-index_important_news_12" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_12">重庆公安系统一个月内落马3“虎”</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253023555_162758?_f=m-index_important_news_13" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_13">媒体：批评滴滴 不是为了回到黑车时代</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253062375_115376?_f=m-index_important_news_14" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_14">9·11事件17周年 亲历者：一切都变了</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253025797_398039?_f=m-index_important_news_15" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_15">贵州歌手身中数刀身亡 事发于商演过程中</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253028121_114988?_f=m-index_important_news_16" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_16">无绳遛狗、踢伤孕妇：这个网红要“凉”</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="http://www.sohu.com/picture/253062342?_f=m-index_important_news_17" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_17">男教师给女朋友出气 打20名学生被开除</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253057469_123753?_f=m-index_important_news_18" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_18">土耳其搜捕102名参与2016年政变军人</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="http://www.sohu.com/picture/253032400?_f=m-index_important_news_19" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_19">游客在甘肃天池内游泳 还发抖音炫耀</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253046434_461392?_f=m-index_important_news_20" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_important_news_20">FIFA最佳阵容前锋候选名单 C罗入围</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10040101&amp;itemId=7923&amp;link=https%253A%252F%252Fm.hao123.com%252Fnews%252FmidNews%253Fid%253D47979275%2526tn%253Dsohu06" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_important_news_21">少年捡杯子喝水中剧毒求生一个月离世
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10110101&amp;itemId=7832&amp;link=https%253A%252F%252Fbook.m.sohu.com%252Fbook%252F70277%252F26180158%252F%253Fc%253D0" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_important_news_22">他们执行的都是永不解密的最高机密任务
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-important">
+            <a class="item" href="ch/8?_f=m-index_important_pd">
+                <h5 class="txt">进入要闻频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+            <!--各个板块-->
+<div class="plate yule" data-channelid="19" data-channelname="yule">
+    <header class="plate__head" data-spm="nav-yule">
+        <h2><cite class="vline"></cite>
+            <a href="c/4/index.html">娱乐</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="c/284/index.html?_once_=000025_xiaodaohang_yule_2v3">电影</a>
+            <a class="btn" href="c/290/index.html?_once_=000025_xiaodaohang_yule_3v3">电视</a>
+            <a class="btn" href="c/10/index.html?_once_=000025_xiaodaohang_yule_4v3#4">图库</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-yule">
+<a class="focus" href="http://www.sohu.com/picture/252911652?_f=m-index_yule_pic_1" data-log-content-ev="m-index_yule_pic_1">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_0,y_10,w_549,h_366/os/news/413c6ab192abb30ea183577f062fe504.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">C罗女友身材也太好了吧！</footer>
+</a>
+<a class="focus" href="http://www.sohu.com/picture/252918057?_f=m-index_yule_pic_2" data-log-content-ev="m-index_yule_pic_2">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_75,y_1,w_375,h_250/os/news/888dc343071bde380c110684f9ef8015.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">赵丽颖肚子隆起孕味浓！</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-yule" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/252859805_114941?_f=m-index_yule_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_1">冯小刚发文怒斥恶意造谣：没有阴阳合同!</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252707911_112864?_f=m-index_yule_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_2">董洁秀美背结果尽是骨头 像行走的骷髅！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253015842_413670?_f=m-index_yule_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_3">马云辞职阿里巴巴当老师 你还不快来上课</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252882669_373401?_f=m-index_yule_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_4">井柏然分手后恋上李冰冰？亲密视频曝光</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252932864_114941?_f=m-index_yule_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_5">张雨绮怼大S 她说:让男人剥虾的女人太作</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252935423_114941?_f=m-index_yule_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_6">又一位男星涉嫌持毒遭逮捕 车内发现针筒</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252781224_114941?_f=m-index_yule_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_yule_news_7">两位女星大打出手 脱高跟鞋飞砸场面曝光</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10060101&amp;itemId=7924&amp;link=https%253A%252F%252Fm.hao123.com%252Fnews%252FmidNews%253Fid%253D47979276%2526tn%253Dsohu06" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_yule_news_8">袁立再次手撕李冰冰和华谊：三观一致的人是绝配
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-yule">
+            <a class="item" href="c/4/index.html?_f=m-index_yule_pd">
+                <h5 class="txt">进入娱乐频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate sports" data-channelid="17" data-channelname="sports">
+    <header class="plate__head" data-spm="nav-sports">
+        <h2><cite class="vline"></cite>
+            <a href="c/3/index.html">体育</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="c/24/index.html?_once_=000025_xiaodaohang_tiyu_2v3">NBA</a>
+            <a class="btn" href="c/82/index.html?_once_=000025_xiaodaohang_tiyu_3v3">中超</a>
+            <a class="btn" href="http://zhibo.m.sohu.com/#program/5?_once_=000025_xiaodaohang_tiyu_4v3">直播</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-sports">
+<a class="focus" href="picture/253095445?_f=m-index_sports_pic_1" data-log-content-ev="m-index_sports_pic_1">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_0,y_30,w_819,h_546/os/news/bc2704d37785e5c784dc3c3f9ca3d3d3.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">国足0-0巴林 武磊劲射中柱懊恼不已</footer>
+</a>
+<a class="focus" href="picture/253103231?_f=m-index_sports_pic_2" data-log-content-ev="m-index_sports_pic_2">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_134,y_9,w_819,h_546/os/news/3bfadefae093211f77c5a8d94cda63ed.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">里皮赛后以手遮面 神情疲惫</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-sports" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253100185_463728?_f=m-index_sports_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_1">热身赛-武磊2中框失必进球 国足0-0巴林</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253032312_461392?_f=m-index_sports_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_2">FIFA年度最佳阵容门将候选名单 布冯领衔</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252999383_463728?_f=m-index_sports_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_3">前国脚之子入选国奥:爸爸说我表现不错</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252998967_463728?_f=m-index_sports_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_4">希丁克:国奥水平不是我想要的 4-5人可用</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253044124_461392?_f=m-index_sports_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_5">FIFA年度最佳阵容中场候选名单 魔笛领衔</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253046434_461392?_f=m-index_sports_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_6">FIFA年度最佳阵容前锋候选 C罗携MSN入围</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253062068_114977?_f=m-index_sports_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_sports_news_7">上体院确认录取孙杨 专业为运动人体科学</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10070101&amp;itemId=7926&amp;link=https%253A%252F%252Fm.hao123.com%252Fnews%252FmidNews%253Fid%253D47979278%2526tn%253Dsohu06" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_sports_news_8">世界杯英雄涉禁药丑闻亲爹说漏:他打激素了
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-sports">
+            <a class="item" href="c/3/index.html?_f=m-index_sports_pd">
+                <h5 class="txt">进入体育频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate business" data-channelid="15" data-channelname="business">
+    <header class="plate__head" data-spm="nav-business">
+        <h2><cite class="vline"></cite>
+            <a href="ch/15.1">财经</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/15/994">宏观</a>
+            <a class="btn" href="ch/15/998">理财</a>
+            <a class="btn" href="ch/15/997">股票</a>
+        </section>
+    </header>
+    <div id="businessStock">
+        <optional-stock></optional-stock>
+    </div>
+    <section class="f-list" data-spm="fd-business" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253096568_114988?_f=m-index_business_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_1">8月CPI同比上涨2.3% 创年内第二高</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253096767_114988?_f=m-index_business_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_2">演出消费升级，三四线城市票房激增</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253085045_539588?_f=m-index_business_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_3">这才是马云宣布“退位”的真相！国人沸腾！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253053832_100001551?_f=m-index_business_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_4">印纪传媒爆4亿元债务违约 货币资金仅剩1亿多元</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252969753_104543?_f=m-index_business_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_5">个人房贷破20万亿  上市银行半年报暗藏啥隐忧？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253066327_260616?_f=m-index_business_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_6">国务院金融委提出要防黑天鹅事件，金融政策将发生什么变化？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253095393_115362?_f=m-index_business_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_7">上海明匠2017年巨亏6577万 黄河旋风再遭交易所问询</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252963952_561670?_f=m-index_business_news_8" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_8">沪指跌0.63%失守2700点 创业板指逼近1400点关口</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253091313_115495?_f=m-index_business_news_9" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_business_news_9">亚太区房地产投资创历史新高</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10050101&amp;itemId=7927&amp;link=https%253A%252F%252Fm.hao123.com%252Fnews%252FmidNews%253Fid%253D47979279%2526tn%253Dsohu06" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_business_news_10">走近后厂村程序员的真实生活：拿命换钱
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-business">
+            <a class="item" href="ch/15?_f=m-index_business_pd">
+                <h5 class="txt">进入财经频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate auto" data-channelid="18" data-channelname="auto">
+    <header class="plate__head" data-spm="nav-auto">
+        <h2><cite class="vline"></cite>
+            <a href="http://m.auto.sohu.com/">汽车</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="http://db.m.auto.sohu.com/">选车</a>
+            <a class="btn" href="http://db.m.auto.sohu.com/jiangjia/0-0-0-all-all-td-0.shtml">降价</a>
+            <a class="btn" href="http://haochebang.auto.sohu.com/show/">好车榜</a>
+            <a class="btn" href="http://db.m.auto.sohu.com/video">精彩视频</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-auto">
+<a class="focus" href="a/252816970_430555?_f=m-index_auto_pic_1" data-log-content-ev="m-index_auto_pic_1">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_253,y_167,w_983,h_655/os/news/d8a6ec678aeff726e69d075f07665e29.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">测试2018款一汽-奥迪全新Q5L</footer>
+</a>
+<a class="focus" href="http://db.m.auto.sohu.com/photo/type/2/picgroup/147695?_f=m-index_auto_pic_2" data-log-content-ev="m-index_auto_pic_2">
+    <div class="focus__bg" style="background: url(http://29e5534ea20a8.cdn.sohucs.com/q_70,c_zoom,w_375/c_cut,x_-5,y_352,w_899,h_600/os/news/1137986350cc65af36ba018ea0f10791.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">美女车模巨乳纤腰 性感撩人</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-auto" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="http://m.auto.sohu.com/#more_brand?_f=m-index_auto_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_1">新森林人/哈弗F5/风行T5等 9月新车前瞻</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252708489_507811?_f=m-index_auto_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_2">曝福特新电动SUV 外观和Mustang一样霸气</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252947271_430526?_f=m-index_auto_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_3">2019款奔腾B50上市 售8.59-10.49万元</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252952321_430526?_f=m-index_auto_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_4">代号992 全新一代保时捷911无伪谍照曝光</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252911615_151376?_f=m-index_auto_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_5">起亚大型SUV实车图曝光 你期待国产吗?</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252875209_115722?_f=m-index_auto_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_auto_news_6">新型碰瓷!开宝马扔螺母碰到千万提高警觉</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-auto">
+            <a class="item" href="http://m.auto.sohu.com/?_f=m-index_auto_pd">
+                <h5 class="txt">进入汽车频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+            <a class="item" href="http://m.2sc.sohu.com/?_f=m-index_auto_pd">
+                <h5 class="txt">进入二手车频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+    <div id="plate_house">
+        <house @house-mounted="addExpose"></house>
+    </div>
+<div class="plate mil" data-channelid="10" data-channelname="mil">
+    <header class="plate__head" data-spm="nav-mil">
+        <h2><cite class="vline"></cite>
+            <a href="ch/10.1">军事</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/10/1469">环球</a>
+            <a class="btn" href="ch/10/1468">国防</a>
+            <a class="btn" href="ch/10/1470">兵器</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-mil">
+<a class="focus" href="a/253068174_591766?_f=m-index_mil_pic_1" data-log-content-ev="m-index_mil_pic_1">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/a1b4db878fdf4e2fa4bc94701ddeb1c8.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">美军不排除打击俄罗斯和伊朗目标！美媒：这是打赢决战的最后一招</footer>
+</a>
+<a class="focus" href="a/253059044_346466?_f=m-index_mil_pic_2" data-log-content-ev="m-index_mil_pic_2">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/76d5dd1cb51f4b6e801b3f4f569a104e.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">中国这6种武器，连美国、俄罗斯都羡慕，个个世界领先</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-mil" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/252586615_403246?_f=m-index_mil_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_1">无视特朗普警告，俄罗斯打响叙利亚决战第一枪</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253099331_99913295?_f=m-index_mil_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_2">菲律宾打响禁毒战争，血腥报复不断，半年内6位市长被枪杀！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253036177_624627?_f=m-index_mil_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_3">假如美国禁枪会如何？一名罪犯给出惊人答案</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253082071_614127?_f=m-index_mil_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_4">输赢并不是最重要的：中国歼10再次同泰国鹰狮进行对抗！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252958883_612162?_f=m-index_mil_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_5">俄罗斯战机发威，美军溜之大吉，叛军炸开花</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253092696_115362?_f=m-index_mil_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_6">英国“空中出租车”将在4年内拉客</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253100336_476335?_f=m-index_mil_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_7">铁杆盟友也变心？美军小弟造场地，迎接俄导弹入驻？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252989656_603563?_f=m-index_mil_news_8" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_mil_news_8">叙利亚要想打赢收复战，还得看这三国“脸色”</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-mil">
+            <a class="item" href="ch/10?_f=m-index_mil_pd">
+                <h5 class="txt">进入军事频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate it" data-channelid="30" data-channelname="it">
+    <header class="plate__head" data-spm="nav-it">
+        <h2><cite class="vline"></cite>
+            <a href="ch/30.1">科技</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/30/911">互联网</a>
+            <a class="btn" href="ch/30/934">通讯</a>
+            <a class="btn" href="ch/30/882">智能硬件</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-it">
+<a class="focus" href="a/253044933_115565?_f=m-index_it_pic_1" data-log-content-ev="m-index_it_pic_1">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/26235de2aa144835a065c80d718763d5.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">百度难搜品牌官网，公立医院变“山寨”</footer>
+</a>
+<a class="focus" href="a/253043653_139533?_f=m-index_it_pic_2" data-log-content-ev="m-index_it_pic_2">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/c40374cd41ca4c7b998ee4f398dd82f4.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">滴滴出台整改方法，选了最节省成本的一种</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-it" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253096288_549401?_f=m-index_it_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_1">马云宣布“交棒”：阿里江湖迭代，大佬的“教师梦”</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253048160_116048?_f=m-index_it_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_2">马云教师节“转岗”做老师，他不在的日子，阿里巴巴准备好了么？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253089533_114986?_f=m-index_it_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_3">桑德伯格： Facebook盈利女强人 | 人物</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252923022_114778?_f=m-index_it_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_4">西门子中国研究院院长朱骁洵：不做家电很多年的西门子，早已转型做数字化 | 36氪专访</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253003157_354973?_f=m-index_it_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_5">千年未解质数之谜或藏在准晶体结构中？新研究发现原子排列与质数序列惊人重合</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253089168_115888?_f=m-index_it_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_it_news_6">国内手机出货量连续3月下降趋势扩大 市场疲软靠谁来拯救</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-it">
+            <a class="item" href="ch/30?_f=m-index_it_pd">
+                <h5 class="txt">进入科技频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate society" data-channelid="43" data-channelname="society">
+    <header class="plate__head" data-spm="nav-society">
+        <h2><cite class="vline"></cite>
+            <a href="ch/43.1">社会</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/43/1452">畅言</a>
+            <a class="btn" href="ch/43/1453">百态</a>
+            <a class="btn" href="ch/43/1455">新知</a>
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-society" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253095813_349247?_f=m-index_society_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_1">大连女子悬赏万元寻找一部旧手机！里面的东西太重要…</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253082887_349060?_f=m-index_society_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_2">“今晚没有网约车，没有出租车，50一位走不走？”丨滴滴消失的夜晚</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253031852_349112?_f=m-index_society_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_3">【绝了】“能不能借我3000块钱？明天还你…”刷爆了朋友圈！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253084357_617374?_f=m-index_society_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_4">@薛之谦！杭州警方有件事要告诉你</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252973395_220095?_f=m-index_society_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_5">娘炮与硬汉，一定是非黑即白吗？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253001895_157078?_f=m-index_society_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_society_news_6">家长群里的16种戏精人设 8个场景测测你是谁？</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-society">
+            <a class="item" href="ch/43?_f=m-index_society_pd">
+                <h5 class="txt">进入社会频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate history" data-channelid="13" data-channelname="history">
+    <header class="plate__head" data-spm="nav-history">
+        <h2><cite class="vline"></cite>
+            <a href="ch/13.1">历史</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/13/1423">隋唐</a>
+            <a class="btn" href="ch/13/1338">三国</a>
+            <a class="btn" href="ch/13/1342">清史</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-history">
+<a class="focus" href="a/253060420_247380?_f=m-index_history_pic_1" data-log-content-ev="m-index_history_pic_1">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/a4ffd7790244419594950793eaa2b804.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">河北这个普通的小山村，为什么会一度成为中央驻地</footer>
+</a>
+<a class="focus" href="a/253008511_247380?_f=m-index_history_pic_2" data-log-content-ev="m-index_history_pic_2">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/780d8e2f26fe484db0bbff8c1a229049.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">东条英机有个孙女，比他更无耻，说的话毫无廉耻，毫无底线</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-history" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253088619_100096482?_f=m-index_history_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_1">一农民在战场捡破烂，挖开地洞后，发现2000名日军窝藏在地下</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253090802_100161747?_f=m-index_history_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_2">她是民国第1美女才女，晚年瘦成这样，60岁象80岁</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253052401_436131?_f=m-index_history_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_3">一大学教授，他弃学从政数年当上总理，执政36年、身后毁誉参半</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253026523_605774?_f=m-index_history_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_4">贪官看到儿子财宝堆在地窑里，而且还娶了27房妻妾，他说：完了！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252913172_239401?_f=m-index_history_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_5">中国上将访美，总统不见，他说啥话？总统接见，七任国防部长陪宴</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253054083_119066?_f=m-index_history_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_history_news_6">解放战争到了后期，国民党军吃的已经很惨了.....</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-history">
+            <a class="item" href="ch/13?_f=m-index_history_pd">
+                <h5 class="txt">进入历史频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate cul" data-channelid="12" data-channelname="cul">
+    <header class="plate__head" data-spm="nav-cul">
+        <h2><cite class="vline"></cite>
+            <a href="ch/12.1">文化</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/12/1401">人物</a>
+            <a class="btn" href="ch/12/1350">读书</a>
+            <a class="btn" href="c/10/index.html?_once_=000092_pindao2tuku#16879">图片</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-cul">
+<a class="focus" href="a/252954621_479136?_f=m-index_cul_pic_1" data-log-content-ev="m-index_cul_pic_1">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/cb3f3c38bceb434caea9937e72c7d6cb.jpg) center center / cover no-repeat;"></div>
+    <footer class="title">古代女子内衣秀：深深懂得如何让胸更挺</footer>
+</a>
+<a class="focus" href="a/253040177_100171034?_f=m-index_cul_pic_2" data-log-content-ev="m-index_cul_pic_2">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/37f4c8b4330c44a1ada0596892a8a7ef.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">英国的养老金制度：老有所养，贫有所依</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-cul" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253081422_547862?_f=m-index_cul_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_1">这个男人，骗走了我的全部青春</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253082879_366834?_f=m-index_cul_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_2">这是今年我最期待的岛国资源了（没有之一），快点出吧</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253072499_452431?_f=m-index_cul_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_3">写小说走火入魔，小伙竟插足邻居生活找灵感！这片，结局太意外了</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252944402_114778?_f=m-index_cul_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_4">那些卖房的女性：不敢嫁，不敢生，不敢老</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253062558_553178?_f=m-index_cul_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_5">​扯白||周慧敏到底老不老？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253090931_479917?_f=m-index_cul_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_6">来聊聊路人鉴定师这个“职业”。</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253026690_351337?_f=m-index_cul_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_cul_news_7">轰动！昨天，中国半个魔术圈的高手来万州了！</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-cul">
+            <a class="item" href="ch/12?_f=m-index_cul_pd">
+                <h5 class="txt">进入文化频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate fashion" data-channelid="23" data-channelname="fashion">
+    <header class="plate__head" data-spm="nav-fashion">
+        <h2><cite class="vline"></cite>
+            <a href="ch/23.1">时尚</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/23/1045">时装</a>
+            <a class="btn" href="ch/23/1057">奢品</a>
+            <a class="btn" href="ch/23/1051">美容</a>
+        </section>
+    </header>
+    <div class="focus-area clear" data-spm="focus-fashion">
+<a class="focus" href="a/253063636_477735?_f=m-index_fashion_pic_1" data-log-content-ev="m-index_fashion_pic_1">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/fa7781821c1d4671b283fc473f7ebba0.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">五年前我被你们嘲笑的偶像，现在他们何止1亿五千万的流量</footer>
+</a>
+<a class="focus" href="a/253064443_131816?_f=m-index_fashion_pic_2" data-log-content-ev="m-index_fashion_pic_2">
+    <div class="focus__bg" style="background: url(http://5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_320,h_240,g_faces/images/20180910/960ab99072184c0585dcd6cadfebb3f0.jpeg) center center / cover no-repeat;"></div>
+    <footer class="title">秋天要买什么鞋？新鞋！</footer>
+</a>
+    </div>
+    <section class="f-list" data-spm="fd-fashion" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253091269_546085?_f=m-index_fashion_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_1">5种不花大钱买就亏了的经典男装单品｜绅装老爷会</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253089251_544020?_f=m-index_fashion_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_2">纽约时装周超级男模们回归，仿佛又回到了众神时代！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253065353_543653?_f=m-index_fashion_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_3">有钱就是任性！自行车我只骑爱马仕，垃圾桶我只用LV ！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253086828_479982?_f=m-index_fashion_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_4">秃头女孩哭着要的生发液测评，终于来了！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252911383_546486?_f=m-index_fashion_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_5">这个美甲师什么来头？Lady Gaga、麻辣鸡竟都是她的死忠粉！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253071429_409966?_f=m-index_fashion_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_6">尴尬！王珞丹红毯被求婚，身穿白裙，好像婚纱！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253089554_108276?_f=m-index_fashion_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fashion_news_7">安妮海瑟薇、“鹰眼”杰瑞米·雷纳奔赴波司登纽约时装周现场？事情没那么简单…</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-fashion">
+            <a class="item" href="ch/23?_f=m-index_fashion_pd">
+                <h5 class="txt">进入时尚频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate learning" data-channelid="25" data-channelname="learning">
+    <header class="plate__head" data-spm="nav-learning">
+        <h2><cite class="vline"></cite>
+            <a href="ch/25.1">教育</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="ch/25/22">资讯</a>
+            <a class="btn" href="ch/25/1435">家长帮</a>
+            <a class="btn" href="ch/25/1201">校园</a>
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-learning" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253090738_554568?_f=m-index_learning_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_1">E句话看天下丨Saya打骂孕妇，这么丑恶的嘴脸难怪王思聪都会下场怒怼</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253092940_405849?_f=m-index_learning_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_2">“高师精神”究竟是一种什么样的精神？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253036584_701436?_f=m-index_learning_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_3">孩子上高三了，家长要做哪些准备？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253086443_539838?_f=m-index_learning_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_4">周一升国旗的仪式也取消了，只为挤出时间上课，应该吗？！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252959633_380731?_f=m-index_learning_news_5" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_5">马云选定接班人，从此他要回到讲台，当一名老师</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253101738_117503?_f=m-index_learning_news_6" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_6">老师在坚守,学生“挖”不走</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252896322_404519?_f=m-index_learning_news_7" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_learning_news_7">6岁萌娃开学演讲 网友:你是大一新生吧</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-learning">
+            <a class="item" href="ch/25?_f=m-index_learning_pd">
+                <h5 class="txt">进入教育频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate health" data-channelid="24" data-channelname="health">
+    <header class="plate__head" data-spm="nav-health">
+        <h2><cite class="vline"></cite>
+            <a href="ch/24.1">健康</a>·<a href="ch/26.1">母婴</a>
+        </h2>
+        <section class="hot-tags">
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-health" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253099534_647840?_f=m-index_health_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_health_news_1">恩哥问答：45岁月经两个月没来了，应该查什么？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253087203_456074?_f=m-index_health_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_health_news_2">我院召开“以案促改制度化常态化推进会”</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253059906_564034?_f=m-index_health_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_health_news_3">【涨姿势】嘴里带有这种怪味，暗示身体可能出问题了</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253086302_377326?_f=m-index_health_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_health_news_4">只有医护能听懂的段子，关于老师的……</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253087224_149602?_f=m-index_baobao_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_baobao_news_1">福原爱：一个智慧的妈妈，胜过千万个老师</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253079719_102265?_f=m-index_baobao_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_baobao_news_2">不怕生错命，就怕起错名：起名的4个误区</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253083504_232140?_f=m-index_baobao_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_baobao_news_3">产后恢复 | 产后想快速变瘦 做“这两个运动”就对了！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253083268_232140?_f=m-index_baobao_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_baobao_news_4">科学育儿 | 孩子在家门口玩耍，危险藏在身边，这7点你要懂！</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-health">
+            <a class="item" href="ch/24?_f=m-index_health_pd">
+                <h5 class="txt">进入健康频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+            <a class="item" href="ch/26?_f=m-index_baobao_pd">
+                <h5 class="txt">进入母婴频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+        <div id="plate_ctrip_service">
+            <ctrip-service page-type="index" @ctrip_service_mounted="addExpose"></ctrip-service>
+        </div>
+<div class="plate travel" data-channelid="29" data-channelname="travel">
+    <header class="plate__head" data-spm="nav-travel">
+        <h2><cite class="vline"></cite>
+            <a href="ch/29.1">旅游</a>·<a href="ch/28.1">美食</a>
+        </h2>
+        <section class="hot-tags">
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-travel" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253093790_437360?_f=m-index_travel_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_travel_news_1">“鲜为人知的神山秘境”——那曲比如，附史上最全进藏注意事项！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253092678_437360?_f=m-index_travel_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_travel_news_2">“大自然馈赠的礼物”！多次进藏老司机，教你如何区分虫草的好坏</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/252845424_99945595?_f=m-index_travel_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_travel_news_3">中国人到了欧洲这国才知道, 男人喜欢来这旅游是有原因的</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253092765_115865?_f=m-index_travel_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_travel_news_4">高铁开通能否“加热”赴港游</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253079749_614732?_f=m-index_chihe_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_chihe_news_1">又是一年开学季，这款不开火健身餐拿好不谢！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253016570_530214?_f=m-index_chihe_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_chihe_news_2">厦门金屋子您来过了吗？三社（美联社、法新社、路透社）都来报道了</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253077149_539528?_f=m-index_chihe_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_chihe_news_3">开学了，给小学生准备的一周早餐，你们家孩子早餐都咋解决呢？</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253066082_134333?_f=m-index_chihe_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_chihe_news_4">这菜比韭菜好吃，每次炒这个菜，我都要添米饭，太下饭了！</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-travel">
+            <a class="item" href="ch/29?_f=m-index_travel_pd">
+                <h5 class="txt">进入旅游频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+            <a class="item" href="ch/28?_f=m-index_chihe_pd">
+                <h5 class="txt">进入美食频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate fiction" data-channelid="0" data-channelname="fiction">
+    <header class="plate__head" data-spm="nav-fiction">
+        <h2><cite class="vline"></cite>
+            <a href="http://book.m.sohu.com/?_once_=000218_rk_tg_dh_xs">小说</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="http://book.m.sohu.com/top/week/list?_once_=000218_rk_tg_dh_1">排行</a>
+            <a class="btn" href="http://book.m.sohu.com/freeLimit/list?channel=1&_once_=000218_rk_tg_dh_2">限免</a>
+            <a class="btn" href="http://book.m.sohu.com/top/competitive?_once_=000218_rk_tg_dh_3">精品</a>
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-fiction" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100101&amp;itemId=4468&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F44%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_1">热销|你可知如何自如地操控升迁密码？
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100201&amp;itemId=4376&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F42%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_2">冲榜|最强兵王成为冷艳美女总裁的贴身秘书
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100301&amp;itemId=4258&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F39%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_3">人气|身边美女太多，自认纯洁的兵王压力山大......
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100401&amp;itemId=4261&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F41%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_4">经典|未婚妻竟天天上演极致诱惑？
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100501&amp;itemId=3661&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F33%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_5">完结|邂逅美女董事长后小伙日子就不消停
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100601&amp;itemId=3661&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F33%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_6">都市|男子做护花使者酒吧救美 却惹了更大的麻烦
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10100701&amp;itemId=4738&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F48%252F" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_fiction_news_7">玄幻|不屈少年，一剑逆天，狂神归来！
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-fiction">
+            <a class="item" href="http://book.m.sohu.com/?_once_=000218_rk_tg_dh_xs&_f=m-index_fiction_pd">
+                <h5 class="txt">进入小说频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate astro" data-channelid="27" data-channelname="astro">
+    <header class="plate__head" data-spm="nav-astro">
+        <h2><cite class="vline"></cite>
+            <a href="ch/27.1">星座</a>·<a href="ch/45.1">搞笑</a>
+        </h2>
+        <section class="hot-tags">
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-astro" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253102776_190942?_f=m-index_astro_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_astro_news_1">【周运】柒爸一周星座运势（9.10-9.16）</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253059698_106779?_f=m-index_astro_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_astro_news_2">（周运）佩妮每周星座运程9.10-9.16</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253073685_509231?_f=m-index_astro_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_astro_news_3">在家怂，在外却蛮横的星座！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253088908_347975?_f=m-index_fun_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fun_news_1">最近，整个武汉都被这6个人刷屏了！9月15日，所有人都将涌向……</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253088766_347975?_f=m-index_fun_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fun_news_2">老婆出差了，他竟然在厕所和女鬼...</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253040437_162238?_f=m-index_fun_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_fun_news_3">这位高颜值学霸网红被求婚了？</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-astro">
+            <a class="item" href="ch/27?_f=m-index_astro_pd">
+                <h5 class="txt">进入星座频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+            <a class="item" href="ch/45?_f=m-index_fun_pd">
+                <h5 class="txt">进入搞笑频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate acg" data-channelid="41" data-channelname="acg">
+    <header class="plate__head" data-spm="nav-acg">
+        <h2><cite class="vline"></cite>
+            <a href="ch/41.1">动漫</a>·<a href="ch/42.1">游戏</a>
+        </h2>
+        <section class="hot-tags">
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-acg" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a href="a/253083118_599332?_f=m-index_acg_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_acg_news_1">二次元每日快讯#|SAO第三季：新手村第一步，要致富先撸树！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253080932_469932?_f=m-index_acg_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_acg_news_2">《复联4》中，绿巨人最怕的角色是谁？马克叔又来剧透了！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253085701_550365?_f=m-index_acg_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_acg_news_3">魏无羡的“恩人”，隐藏大boss，一问三不知，装蒜小能手</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253086989_596157?_f=m-index_acg_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_acg_news_4">日本忍者风丧钟登场 超级佣兵化身致命忍者</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253091214_628730?_f=m-index_game_news_1" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_game_news_1">911后的美国电子游戏</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253091215_628730?_f=m-index_game_news_2" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_game_news_2">30年前被任天堂挡在门外的小孩，后来在NS上发布了自己的游戏</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253057781_548161?_f=m-index_game_news_3" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_game_news_3">Theshy刀妹被持续军训，JDG绝境逆转将iG拉入决胜局！太励志了！</a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a href="a/253074327_282865?_f=m-index_game_news_4" data-spm-type="content" data-promo="false" data-log-content-ev="m-index_game_news_4">“新黎明”即将来临 《侍魂》完全新作定档2019年！</a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-acg">
+            <a class="item" href="ch/41?_f=m-index_acg_pd">
+                <h5 class="txt">进入动漫频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+            <a class="item" href="ch/42?_f=m-index_game_pd">
+                <h5 class="txt">进入游戏频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+<div class="plate video" data-channelid="0" data-channelname="video">
+    <header class="plate__head" data-spm="nav-video">
+        <h2><cite class="vline"></cite>
+            <a href="http://m.tv.sohu.com/?src=10011035&amp;_once_=000025_xiaodaohang_shipin_1v3">视频</a>        </h2>
+        <section class="hot-tags">
+            <a class="btn" href="http://m.tv.sohu.com/drama?src=10011032&amp;_once_=000025_xiaodaohang_shipin_2v3">电视</a>
+            <a class="btn" href="http://m.tv.sohu.com/drama_us?src=1004033079&amp;_once_=000025_xiaodaohang_shipin_3v3">美剧</a>
+            <a class="btn" href="http://m.tv.sohu.com/show?src=10011034&amp;_once_=000025_xiaodaohang_shipin_4v3">综艺</a>
+        </section>
+    </header>
+    <section class="f-list" data-spm="fd-video" data-spm-stop="init">
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090101&amp;itemId=7930&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FdXMvMjc0MzgzNjczLzEwNjAzMTkzNS5zaHRtbA%253D%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_1">婚礼现场玻璃顶棚掉落 两名亲友被砸伤
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090201&amp;itemId=7931&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FdXMvMzI2ODQ2ODk3LzEwNjAzNjYzNy5zaHRtbA%253D%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_2">马云明年卸任董事局主席 CEO张勇接棒
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090301&amp;itemId=7932&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FdXMvMjc0MzgzNjczLzEwNjAyNzU0NC5zaHRtbA%253D%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_3">男子开宝马“花式遛狗” 成功吸引交警
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090401&amp;itemId=7933&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FdXMvMzI2NTU5MjQ2LzEwNjAzMTQ2NC5zaHRtbA%253D%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_4">高铁盒饭变质发霉？ 广铁：立即整改
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090501&amp;itemId=7934&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FcGwvOTQ1NjEzNy8xMDYwMjQyMzQuc2h0bWw%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_5">算不算正当防卫？小伙陷传销勒死监工
+    </a>
+</div>
+
+<div class="f" data-spm-type="resource">
+    <a class="f_rec" href="promotion?posId=10090601&amp;itemId=7935&amp;link=https%253A%252F%252Fm.tv.sohu.com%252Fv%252FdXMvMzI0ODA3OTcwLzEwNjA0MDUxMi5zaHRtbA%253D%253D.html" data-spm-type="promotion" data-promo="true" data-log-content-ev="m-index_video_news_6">巴黎发生持刀袭击 致7人受伤含2名游客
+    </a>
+</div>
+
+        <footer class="multi-more-news" data-spm="footer-video">
+            <a class="item" href="http://m.tv.sohu.com/?src=10011035&amp;_once_=000025_xiaodaohang_shipin_1v3&amp;_f=m-index_video_pd">
+                <h5 class="txt">进入视频频道</h5>
+                <i class="icon icon-right"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+            <!-- 生活服务 -->
+            <div id="plate_life_service">
+                <life-service page-type="index" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="ch/23/index.html?_f=m_fashion_dbdh">时尚</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <!-- 首页浮动广告-->
+            <div id="indexCarAd">
+                <ad-index-car-2nd></ad-index-car-2nd>
+            </div>
+        </div>
+        <footer id="apkBanner">
+            <apk-banner></apk-banner>
+        </footer>
+        <footer id="apkPopup">
+            <apk-popup @show-popup="showAd"></apk-popup>
+        </footer>
+        <footer id="webClip">
+            <web-clip ref="webclip"></web-clip>
+        </footer>
+    </div>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.index();
+    </script>
+</body>
+</html>

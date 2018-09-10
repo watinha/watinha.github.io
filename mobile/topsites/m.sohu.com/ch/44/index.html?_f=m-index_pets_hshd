@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>宠物频道 - 手机搜狐</title>
+        <meta name="keywords" content="宠物,喵星人,汪星人,狗狗,猫咪,视频,哈士奇,柴犬,金毛,阿拉斯加,蓝猫,gif,饲养,领养" /><meta name="description" content="搜狐宠物是搜狐旗下的宠物资讯平台，服务于拥有爱宠的你，为你提供最亲切的护宠信息，科学专业的喂养指南,和轻松幽默的萌宠趣闻。" />
+    <meta name="data-spm" content="smwp">
+    <script>
+        var cfgs = {
+            channel_id : '44'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch44">
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120268" 
+        :addto_desktop_id="10120302" :webclip_action_id="10120367" 
+        :addto_desktop_id_ios="10120376"
+        app_down_type="mchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header fixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/44">宠物</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<section class="channel-layer-area" data-spm="nav">
+    <section class="layer-box ">
+        <a href="http://m.sohu.com/ch/44/1428" class="btn">汪星人</a>
+        <a href="http://m.sohu.com/ch/44/1429" class="btn">喵星人</a>
+        <a href="http://m.sohu.com/ch/44/1430" class="btn">迷你宠</a>
+        <a href="http://m.sohu.com/ch/44/1431" class="btn">珍奇宠</a>
+        <a href="http://m.sohu.com/ch/44/1432" class="btn">护宠指南</a>
+    </section>
+</section>
+        <section id="channelFocus" class="focus_wrapper" data-spm="fspic">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252965493_640227?_f=m-channel_44_focus_1" data-log-content-ev="m-channel_44_focus_1" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/0391a0f4435e414996098ae68245ab88.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">起床踩到沾着血的眼球，铲屎官差点被吓疯：这是谁的...</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252965088_230366?_f=m-channel_44_focus_2" data-log-content-ev="m-channel_44_focus_2" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/e73eafc1f4a843bd925909e389e64977.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">狗狗犯错后的表情，柴犬是奸笑，泰迪笑的渗人，而二哈最无耻！</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252992434_354642?_f=m-channel_44_focus_3" data-log-content-ev="m-channel_44_focus_3" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/f2df435756e3496ca11b6353a2a82d4f.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">车陷住了狗去帮忙反被主人一顿责骂，女孩养的花枝纷纷被说是老鼠</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252965728_640227?_f=m-channel_44_focus_4" data-log-content-ev="m-channel_44_focus_4" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/194319bb3ec949e08c94a5dcc22d7a0e.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">学生上课时，发现老师的背包里冒出来了一颗狗头...</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253050745_119939?_f=m-channel_44_focus_5" data-log-content-ev="m-channel_44_focus_5" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/eb8ddde4dcc74e6a8b03f3ba91a2730e.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">小猫咪，你知道自己有多可爱吗？ ​​​​</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>        </section>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253045379_511145?_f=m-channel_44_feeds_1&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">贝嫂恭喜布鲁克林生命中又有了新女孩，小七哈珀也高兴坏了</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/25672386e9334fc98e86632ebd6f166e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/146a33e2fd6f4afba99cca1118e9fdf4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4dad8fd214f741959fee0b517496e973.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">绿茵猫</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 19:02</span>
+	<span class="com" data-state-loading="253045379">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253045379">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252965739_165703?_f=m-channel_44_feeds_2&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">盘点哈士奇犯二的瞬间，二哈：犯二是一种与生俱来的气质</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4c2af07fb2d347c3b01c69ec24b0fc96.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/05ffb16525e84435a80f93db9a48806a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c197ba0c07d1419ca21cf58b95b3ed70.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">萌宠星球</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 09:30</span>
+	<span class="com" data-state-loading="252965739">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252965739">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253036166_575481?_f=m-channel_44_feeds_3&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_3" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">柴犬上前去打招呼，却被猫咪一拳干翻，网友：狗子这演技没谁了！</h4>
+<footer class="feed__detail">
+		<span class="name">爱萌宠笔记</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:24</span>
+	<span class="com" data-state-loading="253036166">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253036166">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/3098ed1e7a874bdba2b27133c56ad329.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253081598_638501?_f=m-channel_44_feeds_4&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_4" data-spm-type='content'>
+            <h4 class="feed__title">哈士奇一大家子，一大早就在开晨会，主人下床后直奔厨房拿刀</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b786ba7ed9fd48449e67f0a4ff2a0ad0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/5ff1805c7e764f37945972e9bf0d6466.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/6c171d41d55942ab99dd2ec16cbe07a3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">哈士奇生活馆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:21</span>
+	<span class="com" data-state-loading="253081598">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253081598">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253092897_385798?_f=m-channel_44_feeds_5&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">奶牛猫被主人揍一顿就不见了，找到时，这家伙姿势让人笑喷！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/e502aed4760f4cdcbba8c056f0061c37.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/48e9f659def44182b8f309732527c83f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/2fe2306ceb204f569359f8ce728300f4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">北京萌宠</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:09</span>
+	<span class="com" data-state-loading="253092897">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253092897">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253085443_638829?_f=m-channel_44_feeds_6&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_6" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">一只游荡的拉布拉多犬，每天挨个菜摊要吃的，莫非有高人指点？</h4>
+<footer class="feed__detail">
+		<span class="name">金毛生活馆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:50</span>
+	<span class="com" data-state-loading="253085443">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253085443">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ac3581c9bc344ece87f351f12321328f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253086715_381417?_f=m-channel_44_feeds_7&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">主人吃鸡腿后假装食物中毒，金毛会救主人？它竟然“求神拜佛”</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ac2de7878ee241b8a759f41473c6f327.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/47a582d8968f41a988f1e4e4ca704a13.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ade862259f294086869e7c793e716046.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">握爪者联盟</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:30</span>
+	<span class="com" data-state-loading="253086715">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253086715">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253014537_575481?_f=m-channel_44_feeds_8&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_8" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">小鹿犬被奶奶养成猪后，还吓唬狗狗太胖活不长，网友：肚子随奶奶</h4>
+<footer class="feed__detail">
+		<span class="name">爱萌宠笔记</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 16:59</span>
+	<span class="com" data-state-loading="253014537">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253014537">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d0773773f33c4d05b5ceca56971959f4.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252965496_640227?_f=m-channel_44_feeds_9&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_9" data-spm-type='content'>
+            <h4 class="feed__title">回家发现二哈又拆家，刚想发火可看了这货三秒后，瞬间没脾气了！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/a38982c30f634f95af6ee293aeba171b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4f32f9f3647342ef961e74e06bbf308c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/a8e9b0c159f9483c9ddec69eac520d5e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">大爱狗狗控</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 12:36</span>
+	<span class="com" data-state-loading="252965496">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252965496">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252962314_119816?_f=m-channel_44_feeds_10&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">天呐！现在狗都成了戏精还会套路人了？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/3377f698235244abb92632fbfd48d9b1.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/45037cb79145413baa32f5464bf8cf35.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/8d06a51a1b4e4261ba461376f26451f8.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">狗与爱的世界</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 11:56</span>
+	<span class="com" data-state-loading="252962314">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252962314">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253081974_575481?_f=m-channel_44_feeds_11&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_11" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">主人假装喂金毛吃苹果，把狗狗直接惹怒了，狗：哼！我不要面子啊</h4>
+<footer class="feed__detail">
+		<span class="name">爱萌宠笔记</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:46</span>
+	<span class="com" data-state-loading="253081974">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253081974">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b3e92028aa3d45309fefda71cecc236c.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252984256_415938?_f=m-channel_44_feeds_12&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_12" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">主人给猫咪洗澡却引来质问，众人：别欺负我手机看不了动图</h4>
+<footer class="feed__detail">
+		<span class="name">兽医小明</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:38</span>
+	<span class="com" data-state-loading="252984256">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252984256">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/234bc35153264cee973fa58004801f04.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253078906_381417?_f=m-channel_44_feeds_13&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_13" data-spm-type='content'>
+            <h4 class="feed__title">主人想教训一下金毛，便说要“吃狗肉”，结果反被金毛给教训了</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/400b76046d514e88bcc419624dd59796.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/533cd93c1835495b9b750e3a07c35581.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c90799effcbf487ba166de705f2df986.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">握爪者联盟</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:26</span>
+	<span class="com" data-state-loading="253078906">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253078906">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253043828_139533?_f=m-channel_44_feeds_14&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_14" data-spm-type='content'>
+            <h4 class="feed__title">#Meme：你最近打算因为什么吃掉一只“竹鼠”？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/a336ba00bcef4f91bd4d5576ce9e4988.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/889ed1ea2b3a48b6837675c8eba03997.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e71eaa14f552479ea17819dfda80aed7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">好奇心日报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:00</span>
+	<span class="com" data-state-loading="253043828">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253043828">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252948410_509073?_f=m-channel_44_feeds_15&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_15" data-spm-type='content'>
+            <h4 class="feed__title">熊黛林怀孕大肚子抱狗上街，你还在因怀孕丢弃狗狗吗？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e2fa70f0f082438aa8a05915bb591bc4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/42e435b8f58a4fa99cd3d9451dca766d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/8d239e8383f44343a033f305733f71ea.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">可爱萌宠圈</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 11:08</span>
+	<span class="com" data-state-loading="252948410">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252948410">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253038739_418362?_f=m-channel_44_feeds_16&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_16" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">5招防止狗狗走失,资深养狗人士的经验之谈</h4>
+<footer class="feed__detail">
+		<span class="name">狗爸狗妈</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:04</span>
+	<span class="com" data-state-loading="253038739">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253038739">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b1eb23b0bce7444ea460261609258f92.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252953771_355019?_f=m-channel_44_feeds_17&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">职场告状狗，舍我其谁！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/f705686c55ca4f10adc64b7df84b837f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b17dea8f84934a10877eeaa5e7aca112.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/dc3f456e180e4defbf9c524b7fe25a08.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">差评</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 11:36</span>
+	<span class="com" data-state-loading="252953771">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252953771">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253022570_119309?_f=m-channel_44_feeds_18&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">莫斯科博物馆“馆猫”遭人绑架，劫匪竟然是出于这个目的...</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/2ef877759d884b8297868cf96b960427.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d368ac9e71624288893b5da82afa79f5.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ba5f0e4bf8744f24a7a57296fa867b58.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">萌宠</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:01</span>
+	<span class="com" data-state-loading="253022570">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253022570">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253062503_556496?_f=m-channel_44_feeds_19&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">10岁的阿拉斯加即将失明，主人豪气包场带它看电影，暖哭！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c91e389e74c34c429159ff401e312f36.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/52f1e99b26f24d3e93db9d2b99cb6c99.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/48ee0085bfc448dfa6ab3d33b863d51a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">阿拉斯加生活馆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:25</span>
+	<span class="com" data-state-loading="253062503">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253062503">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253040757_198679?_f=m-channel_44_feeds_20&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_44_feeds_20" data-spm-type='content'>
+            <h4 class="feed__title">你真是我带过最差的一届哈士奇！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/f07564cda0774afda006423821f02a09.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e7050f6a9e084bc4905ed5f65d2e3728.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e4f02f25a8b24e458493a728428bdc61.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">吾皇万睡</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:56</span>
+	<span class="com" data-state-loading="253040757">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253040757">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+    <feed-list :is_server='true' :channel_id="'44'" :is_channel="true" @load_more="addExpose"></feed-list>
+</div>    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channel(cfgs);
+    </script>
+</body>
+</html>

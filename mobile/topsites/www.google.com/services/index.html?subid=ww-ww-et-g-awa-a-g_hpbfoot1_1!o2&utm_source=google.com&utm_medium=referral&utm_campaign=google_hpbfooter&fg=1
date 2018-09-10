@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html class="google mmfb" dir="ltr" lang="pt-BR">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Software de gerenciamento de negócios | Soluções do Google para Empresas – Google
+    </title>
+    <meta content=
+    "Saiba mais sobre a lista completa de softwares de serviço que as Soluções do Google para Empresas oferecem para análise de dados, publicidade, avaliação de desempenho do site e muito mais."
+    name="description">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=pt-BR" rel=
+    "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=pt-BR" rel=
+    "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=pt-BR" rel=
+    "stylesheet">
+    <link href="css/business-solutions.min.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/external_hosted/modernizr/v2_8_3/basic.js"></script>
+    <link href="../images/branding/product/ico/googleg_alldp.ico" rel=
+    "shortcut icon" type="image/x-icon">
+    <link href="https://www.google.com/intl/pt-BR_br/services/" rel="canonical">
+    <style type="text/css">
+    svg.c1 {enable-background:new 0 0 23 15;}
+    </style>
+  </head>
+  <body data-current-section="currentSection" data-ng-app="rs.services.single"
+  data-rs-scroll-section-spy="">
+    <header class="header" role="banner">
+      <h1 class="product-logo">
+        <a href="https://www.google.com/services/"><img alt="Google" src=
+        "../images/branding/googlelogo/1x/googlelogo_color_116x41dp.png"
+        srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png 2x">
+        <span class="site-name">Soluções para Empresas</span></a>
+      </h1>
+      <nav class="main-navigation contains-sub-nav" data-ng-controller=
+      "rs.navigation.NavCtrl as navCtrl">
+        <h1>
+          Soluções para Empresas
+        </h1>
+        <ul>
+          <li class="active">
+            <a href="https://www.google.com.br/services">Visão geral</a>
+            <ul class="sub-nav" data-rs-elastic-bar="" data-rs-elastic-bar-selected=
+            "currentSection">
+              <li class="nav-item bar-anchor" data-anchor-id="advertise">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#advertise" target="_self">Anunciar</a>
+              </li>
+              <li class="nav-item bar-anchor" data-anchor-id="work-smarter">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#work-smarter" target="_self">Trabalhar
+                de forma mais eficiente</a>
+              </li>
+              <li class="nav-item bar-anchor" data-anchor-id="earn-money-from-ads">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#earn-money-from-ads" target=
+                "_self">Ganhar dinheiro com anúncios</a>
+              </li>
+              <li class="nav-item bar-anchor" data-anchor-id="measure-learn">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#measure-learn" target="_self">Avaliar e
+                aprender</a>
+              </li>
+              <li class="nav-item bar-anchor" data-anchor-id="test-my-site">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#test-my-site" target="_self">Otimizar o
+                site</a>
+              </li>
+              <li class="nav-item bar-anchor" data-anchor-id="see-all-solutions">
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#see-all-solutions" target="_self">Ver
+                todas as soluções</a>
+              </li>
+              <li>
+                <div class="line-selected"></div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://www.google.com.br/services/success-stories/index.html">Histórias de
+            Sucesso</a>
+          </li>
+        </ul>
+      </nav><button aria-label="Alternar o menu de navegação" class=
+      "nav-toggle-button"><span class="icon-menu-els"><span class="menu-bar"></span> <span class=
+      "menu-bar"></span> <span class="menu-bar"></span></span></button>
+    </header>
+    <div class="main" role="main">
+      <section class="section section-hero no-margin" data-rs-trigger="businessAnimation" id=
+      "hero">
+        <div class="site-width">
+          <div class="cols-row">
+            <div class="section-hero-copy col-6">
+              <h1>
+                Mostre sua empresa no Google.
+              </h1>
+              <p class="font-large section-business-copy">
+                Divulgue seu horário de funcionamento, número de telefone e rotas na Pesquisa
+                Google e no Google Maps com o Google Meu Negócio.
+              </p>
+              <p>
+                <a class="button cta-main" href=
+                "https://www.google.com/local/business/add?service=plus&amp;gmbsrc=br-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;ppsrc=GMBLG&amp;utm_campaign=br-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;utm_source=gmb&amp;utm_medium=z&amp;subid=br-ww-et-bizsol&amp;hl=pt-BR"
+                rel="noopener" target="_blank">Começar agora</a>
+              </p>
+              <p>
+                <a class="link-more" href=
+                "https://www.google.com.br/intl/pt-BR/business/?gmbsrc=br-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;subid=br-ww-et-bizsol"
+                rel="noopener" target="_blank">Saiba mais<svg class="icon-arrow-more"
+                enable-background="new 0 0 32 32" height="14px" version="1.1" viewbox="0 0 32 32"
+                width="14px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d=
+                "M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z">
+                </path></svg></a>
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="phone-search-animation phone-search-animation--small" data-rs-active=
+              "businessAnimation" data-rs-animation-router="" data-rs-phone-search-animation=
+              "businessAnimation">
+                <div class="phone-screen-wrapper open-application" data-class-name=
+                "open-application" data-rs-trigger-class="open-application">
+                  <div class="phone-screen" ng-cloak="">
+                    <div class="phone-screen-inner">
+                      <div class="typer-wrp" data-class-name="typer-wrp">
+                        <div class="phone-type font-dark" data-rs-typer="typer">
+                          Padaria da Ana
+                        </div>
+                      </div>
+                      <div class="phone-touch rs-touch-indicator" data-rs-touch-indicator="touch">
+                      </div><picture><source media="(min-width: 768px)" srcset=
+                      "../ads/images/phone-search-animation/ok-google_1x.png, ../ads/images/phone-search-animation/ok-google_2x.png 2x"><img alt=""
+                      class="ok-google-initial" data-class-name='ok-google-initial'
+                      data-rs-trigger-class='ok-google-initial' src=
+                      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture>
+                      <picture><source media="(min-width: 768px)" srcset=
+                      "../ads/images/phone-search-animation/nav_1x.png, ../ads/images/phone-search-animation/nav_2x.png 2x">
+                      <img alt="" class="nav" data-class-name='nav' data-rs-trigger-class='nav'
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture>
+                      <ul class="suggestions suggestive-search" data-class-name="suggestive-search"
+                      data-rs-trigger-class="suggestive-search">
+                        <li class="suggestion">
+                          <svg class="search-icon" enable-background="new 0 0 32 32" height="16px"
+                          version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space=
+                          "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                          "http://www.w3.org/1999/xlink" y="0px">
+                          <path d=
+                          "M30.3,27.3L22,18.9c-0.3-0.3-0.7-0.4-1.1-0.4c1.4-1.8,2.2-4.1,2.2-6.6c0-6-4.9-10.9-10.9-10.9S1.3,5.9,1.3,11.9 s4.9,10.9,10.9,10.9c2.3,0,4.4-0.7,6.1-1.9c-0.1,0.4,0,0.9,0.4,1.3l8.3,8.3c0.5,0.5,1.4,0.5,2,0l1.4-1.4 C30.9,28.7,30.9,27.8,30.3,27.3z M12.2,19.6c-4.2,0-7.7-3.4-7.7-7.7s3.4-7.7,7.7-7.7s7.7,3.4,7.7,7.7S16.4,19.6,12.2,19.6z">
+                          </path></svg> comentários do Padaria da Ana <svg class=
+                          "icon-arrow-related arrow" enable-background="new 0 0 32 32" height=
+                          "16px" version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space=
+                          "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                          "http://www.w3.org/1999/xlink" y="0px">
+                          <polygon points=
+                          "16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+                          </polygon></svg> <img alt="ícone de seta" class=
+                          "icon-arrow-related arrow" height="16" src=
+                          "https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width="16">
+                        </li>
+                        <li class="suggestion">
+                          <svg class="search-icon" enable-background="new 0 0 32 32" height="16px"
+                          version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space=
+                          "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                          "http://www.w3.org/1999/xlink" y="0px">
+                          <path d=
+                          "M30.3,27.3L22,18.9c-0.3-0.3-0.7-0.4-1.1-0.4c1.4-1.8,2.2-4.1,2.2-6.6c0-6-4.9-10.9-10.9-10.9S1.3,5.9,1.3,11.9 s4.9,10.9,10.9,10.9c2.3,0,4.4-0.7,6.1-1.9c-0.1,0.4,0,0.9,0.4,1.3l8.3,8.3c0.5,0.5,1.4,0.5,2,0l1.4-1.4 C30.9,28.7,30.9,27.8,30.3,27.3z M12.2,19.6c-4.2,0-7.7-3.4-7.7-7.7s3.4-7.7,7.7-7.7s7.7,3.4,7.7,7.7S16.4,19.6,12.2,19.6z">
+                          </path></svg> fotos do Padaria da Ana <svg class=
+                          "icon-arrow-related arrow" enable-background="new 0 0 32 32" height=
+                          "16px" version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space=
+                          "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                          "http://www.w3.org/1999/xlink" y="0px">
+                          <polygon points=
+                          "16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+                          </polygon></svg> <img alt="ícone de seta" class=
+                          "icon-arrow-related arrow" height="16" src=
+                          "https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width="16">
+                        </li>
+                      </ul><picture><source media="(min-width: 768px)" srcset=
+                      "../services/images/phone-animation-results_1x.png, ../services/images/phone-animation-results_2x.png 2x"><img alt=""
+                      class="products-panel" data-class-name='products-panel'
+                      data-rs-trigger-class='products-panel' src=
+                      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture>
+                    </div><picture><source media="(min-width: 768px)" srcset=
+                    "../ads/images/phone-search-animation/keyboard_1x.png, ../ads/images/phone-search-animation/keyboard_2x.png 2x"><img alt=""
+                    class="keyboard" data-class-name='keyboard' data-rs-trigger-class='keyboard'
+                    src=
+                    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section-hero-media-mobile mobile-image deep-teal">
+          <picture><source media="(min-width: 768px)" srcset=
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img alt="plano de fundo principal"
+          srcset=
+          "../services/images/hero-bg_m_1x.png, ../services/images/hero-bg_m_2x.png 2x"></picture>
+        </div>
+        <div class="site-width">
+          <div class="mobile-nav">
+            <ul>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#advertise" target="_self">
+                <h4 class="section-sub-heading border-blue">
+                  Anunciar
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#scale-your-business" target="_self">
+                <h4 class="section-sub-heading border-red">
+                  Expanda seus negócios
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#earn-money-from-ads" target="_self">
+                <h4 class="section-sub-heading border-green">
+                  Ganhar dinheiro com anúncios
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#test-my-site" target="_self">
+                <h4 class="section-sub-heading border-green">
+                  Otimizar o site
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#measure-learn" target="_self">
+                <h4 class="section-sub-heading border-yellow">
+                  Avaliar e aprender
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+              <li>
+                <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#see-all-solutions" target="_self">
+                <h4 class="section-sub-heading border-blue">
+                  Ver todas as soluções
+                </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+                version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+                <img alt="" class="icon-arrow-down" height="12" src=
+                "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="section-hero-media section-hero-media-right text-align-center deep-teal">
+            <picture><source media="(min-width: 768px)" srcset=
+            "../services/images/hero-bg_1x.png, ../services/images/hero-bg_2x.png 2x"><img alt=
+            "plano de fundo principal" class="hero-static" src=
+            "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></picture>
+          </div>
+        </div><a class="fab fab-bottom-center google-blue gweb-smoothscroll-control" href=
+        "index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#advertise"><svg class="icon-fab-scroll" enable-background="new 0 0 32 32" height="18px"
+        version="1.1" viewbox="0 0 32 32" width="18px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-fab-scroll" height="18" src=
+        "https://www.google.com.br/ads/images/icons/icon-fab-scroll.png" width="18"></a>
+      </section>
+      <section class="section section-advertise" id="advertise" rs-scroll-section="">
+        <a class="in-page-nav" data-nav-item="js-advertise" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#advertise">
+        <h4 class="section-sub-heading border-blue">
+          Anunciar
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <div class="cols-row">
+            <div class="col-6 section-intro-content">
+              <h4 class="section-sub-heading border-blue">
+                Anunciar
+              </h4>
+              <h2>
+                Anuncie no Google.
+              </h2>
+              <p class="font-large">
+                Tenha mais acessos ao seu site ou receba mais chamadas telefônicas com anúncios na
+                Pesquisa Google, no Google Maps, no YouTube e muito mais.
+              </p>
+              <p class="talk-to-human">
+                Nossos especialistas ajudam você a dar os primeiros passos.
+              </p>
+              <p class="phone-number phone-number-large">
+                <a aria-label="Ligue para nós" href="tel:0800%20724%206646"><svg class=
+                "icon-phone-green" enable-background="new 0 0 32 32" height="16px" version="1.1"
+                viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d=
+                "M6.4,13.9c2.6,5,6.7,9.1,11.7,11.7l3.9-3.9c0.5-0.5,1.2-0.6,1.8-0.4c2,0.7,4.1,1,6.4,1c1,0,1.8,0.8,1.8,1.8v6.2 c0,1-0.8,1.8-1.8,1.8C13.5,32,0,18.5,0,1.8C0,0.8,0.8,0,1.8,0H8c1,0,1.8,0.8,1.8,1.8c0,2.2,0.4,4.4,1,6.4c0.2,0.6,0.1,1.3-0.4,1.8 L6.4,13.9z">
+                </path></svg> <img alt="" class="icon-phone-green" height="16" src=
+                "https://www.google.com.br/ads/images/icons/icon-ui-phone.png" width="16"> 0800 724
+                6646</a>
+              </p>
+              <p class="font-small">
+                * Suporte telefônico gratuito para empresas que desejam investir acima de R$20 por
+                dia. Atendimento disponível de segunda a sexta, das 9h às 19h.
+              </p>
+            </div>
+            <div class="col-5 col-offset-1">
+              <div class="card card-success card-main">
+                <div class="card-inner">
+                  <div class="card-success-video">
+                    <a data-glue-modal-disabled-on-mobile="true" data-glue-modal-trigger=
+                    "ss-yt-LDKYXDZdFU4" href=
+                    "https://www.youtube.com/watch?v=LDKYXDZdFU4"><img alt="Anunciar cartão"
+                    srcset="../services/images/section-advertise-card-img_1x.jpg, ../services/images/section-advertise-card-img_2x.jpg 2x"></a>
+                    <a aria-label="Reproduzir vídeo" class="fab google-red"
+                    data-glue-modal-disabled-on-mobile="true" data-glue-modal-trigger=
+                    "ss-yt-LDKYXDZdFU4" href=
+                    "https://www.youtube.com/watch?v=LDKYXDZdFU4"><svg class="icon-fab-video"
+                    enable-background="new 0 0 32 32" height="24px" version="1.1" viewbox=
+                    "0 0 32 32" width="24px" x="0px" xml:space="preserve" xmlns=
+                    "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y=
+                    "0px">
+                    <path d=
+                    "M28.8,3.8c-1-0.3-6.9-0.6-12.8-0.6c-5.9,0-11.8,0.3-12.8,0.6C0.7,4.6,0,10.2,0,16s0.7,11.4,3.2,12.2c1,0.3,6.9,0.6,12.8,0.6 c5.9,0,11.8-0.3,12.8-0.6C31.3,27.4,32,21.8,32,16S31.3,4.7,28.8,3.8 M12.8,22.4V9.6l8.8,6.4L12.8,22.4z">
+                    </path></svg> <img alt="" class="icon-fab-video" height="24" src=
+                    "https://www.google.com.br/ads/images/icons/icon-fab-video.png" width="24"></a>
+                    <div data-glue-modal="ss-yt-LDKYXDZdFU4" data-rs-modal="" id=
+                    "ss-yt-LDKYXDZdFU4">
+                      <div class="spinner-pivot">
+                        <div class="spinner-dot spinner-dot-1"></div>
+                        <div class="spinner-dot spinner-dot-2"></div>
+                        <div class="spinner-dot spinner-dot-3"></div>
+                        <div class="spinner-dot spinner-dot-4"></div>
+                        <div class="spinner-dot spinner-dot-5"></div>
+                        <div class="spinner-dot spinner-dot-6"></div>
+                        <div class="spinner-dot spinner-dot-7"></div>
+                        <div class="spinner-dot spinner-dot-8"></div>
+                      </div>
+                      <div class="youtube-embed glue-modal-content dark-modal" data-video-id=
+                      "LDKYXDZdFU4" data-youtube-params=
+                      "hl=pt-BR&amp;cc_lang_pref=pt-BR&amp;cc_load_policy=1"></div>
+                    </div>
+                  </div>
+                  <div class="card-success-content">
+                    <p>
+                      A empresa Tree House Brothers foi criada desde o início com a ajuda do Google
+                      Ads.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-row section-cards-row">
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/adwords/?sourceid=awo&amp;subid=br-ww-et-bizsol"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/ads/images/icons/icon-product-ads-new-64.png">
+              <h3>
+                Google Ads
+              </h3>
+              <p class="last">
+                Anuncie para as pessoas no Google enquanto elas pesquisam o que você oferece.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/retail/?fmp=1&amp;utm_id=bizsol&amp;mcsubid=br-pt-et-g-mc-bizsol"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/icons/material/product/1x/shopping_64dp.png">
+              <h3>
+                Campanhas do Shopping
+              </h3>
+              <p class="last">
+                Divulgue seus produtos a compradores interessados enquanto eles pesquisam no
+                Google.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "http://www.youtube.com/yt/advertise/pt-BR/?subid=ww-ww-et-v_ads_buis_sol&amp;sourceid=awo&amp;utm_source=embedded_promo&amp;utm_medium=et&amp;utm_campaign=buis_solutions&amp;utm_term=et&amp;utm_content=ww"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/branding/product/1x/youtube_64dp.png">
+              <h3>
+                Anúncios do YouTube
+              </h3>
+              <p class="last">
+                Conte suas melhores histórias e atraia mais clientes com anúncios em vídeo do
+                YouTube.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://adwords.google.com/intl/pt-BR_br/home/how-it-works/app-ads/?subid=br-ww-et-g-aw-a-uac_adsol"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/icons/material/system/1x/smartphone_black_36dp.png">
+              <h3>
+                Campanhas universais para apps
+              </h3>
+              <p class="last">
+                Promova seu aplicativo com a ajuda de <i>machine learning</i> para encontrar os
+                melhores usuários no Google.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-work-smarter" id="scale-your-business" rs-scroll-section="">
+        <a class="in-page-nav" data-nav-item="js-work-smarter" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#scale-your-business">
+        <h4 class="section-sub-heading border-red">
+          Expanda seus negócios
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <div class="cols-row">
+            <div class="col-8 section-intro-content">
+              <h4 class="section-sub-heading border-red">
+                Expanda seus negócios
+              </h4>
+              <h2 class="font-large cloud-logo-lockup">
+                <img alt="" srcset=
+                "../services/images/cloud_logo_lockup_1x.png, ../services/images/cloud_logo_lockup_2x.png 2x">
+              </h2>
+              <p class="font-large">
+                O Google Cloud inclui o G Suite para colaboração em equipe e o Google Cloud
+                Platform para proporcionar uma infraestrutura escalável e fácil de usar. Confira
+                nossas <a href=
+                "https://www.google.com/cloud/solutions/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=solutions"
+                target="_blank">soluções</a> para empresas de todos os tipos e tamanhos.
+              </p>
+            </div>
+          </div>
+          <div class="cols-row section-cards-row gcloud-cards">
+            <div class="col-4 col-m-3 card card-related position-rel">
+              <a class="card-inner" href=
+              "https://gsuite.google.com/signup/basic/welcome/?utm_source=bizsol_worksmarter&amp;utm_medium=et&amp;utm_campaign=tryitfree"
+              target="_blank"><img alt="" class="product-logo product-logos" src=
+              "https://www.google.com.br/images/branding/product/1x/gmail_64dp.png"> <img alt="" class=
+              "product-logo product-logos" src=
+              "https://www.google.com.br/images/icons/product/docs-64.png"> <img alt="" class=
+              "product-logo product-logos" src=
+              "https://www.google.com.br/images/branding/product/1x/drive_64dp.png"> <img alt="" class=
+              "product-logo product-logos" src=
+              "https://www.google.com.br/images/branding/product/1x/calendar_64dp.png">
+              <h3>
+                G Suite
+              </h3>
+              <p class="last">
+                Trabalhe em equipe com e-mails personalizados (como jorge@suaempresa) do Gmail e
+                ferramentas de produtividade como o Docs, o Drive e o Agenda.
+              </p>
+              <p class="try-it-free"></p></a><a class="button try-it-free-button" href=
+              "https://gsuite.google.com/signup/basic/welcome/?utm_source=bizsol_worksmarter&amp;utm_medium=et&amp;utm_campaign=tryitfree"
+              rel="noopener" target="_blank"><span class="try-it-free-text">teste
+              gratuitamente</span></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://cloud.google.com/solutions/smb/web-hosting/?utm_source=bizsol_worksmarter&amp;utm_medium=et&amp;utm_campaign=webhosting"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/icons/product/cloud_platform-64.png">
+              <h3>
+                Hospedagem na Web
+              </h3>
+              <p class="last">
+                Hospede seu site, blog ou loja on-line. Nossas soluções de hospedagem são fáceis de
+                usar, além de serem otimizadas para proporcionar um desempenho ágil e confiável. Dê
+                os primeiros passos com um crédito de R$ 300,00.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://cloud.google.com/solutions/smb/storage/?utm_source=bizsol_worksmarter&amp;utm_medium=et&amp;utm_campaign=cloudstorage"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/icons/product/cloud_platform-64.png">
+              <h3>
+                Cloud Storage
+              </h3>
+              <p class="last">
+                Armazene e faça o backup de todos os seus dados com segurança. Não é necessário
+                gerenciar nenhum hardware, e você paga apenas pelo que usa.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://cloud.google.com/solutions/smb/data-analytics/?utm_source=bizsol_worksmarter&amp;utm_medium=et&amp;utm_campaign=dataanalytics"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/images/icons/product/cloud_platform-64.png">
+              <h3>
+                Análise de dados
+              </h3>
+              <p class="last">
+                Conecte e analise todos os dados de várias fontes para entender melhor seus
+                clientes e o comportamento deles.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-earn" id="earn-money-from-ads" rs-scroll-section="">
+        <a class="in-page-nav" data-nav-item="js-earn-money-from-ads" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#earn-money-from-ads">
+        <h4 class="section-sub-heading border-green">
+          Ganhar dinheiro com anúncios
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <div class="cols-row">
+            <div class="col-6 section-intro-content">
+              <h4 class="section-sub-heading border-green">
+                Ganhar dinheiro com anúncios
+              </h4>
+              <h2>
+                Transforme sua paixão em lucro.
+              </h2>
+              <p class="font-large">
+                Exiba anúncios no seu site ou aplicativo para dispositivos móveis. Você ganha
+                dinheiro sempre que um usuário clica.
+              </p>
+            </div>
+            <div class="col-5 col-offset-1">
+              <div class="card card-success card-main">
+                <div class="card-inner">
+                  <div class="card-success-video">
+                    <a data-glue-modal-disabled-on-mobile="true" data-glue-modal-trigger=
+                    "ss-yt-taqggFQaJtE" href=
+                    "https://www.youtube.com/watch?v=taqggFQaJtE"><img alt="Receber cartão" srcset=
+                    "../services/images/section-earn-card-img_1x.jpg, ../services/images/section-earn-card-img_2x.jpg 2x"></a>
+                    <a aria-label="Reproduzir vídeo" class="fab google-red"
+                    data-glue-modal-disabled-on-mobile="true" data-glue-modal-trigger=
+                    "ss-yt-taqggFQaJtE" href=
+                    "https://www.youtube.com/watch?v=taqggFQaJtE"><svg class="icon-fab-video"
+                    enable-background="new 0 0 32 32" height="24px" version="1.1" viewbox=
+                    "0 0 32 32" width="24px" x="0px" xml:space="preserve" xmlns=
+                    "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y=
+                    "0px">
+                    <path d=
+                    "M28.8,3.8c-1-0.3-6.9-0.6-12.8-0.6c-5.9,0-11.8,0.3-12.8,0.6C0.7,4.6,0,10.2,0,16s0.7,11.4,3.2,12.2c1,0.3,6.9,0.6,12.8,0.6 c5.9,0,11.8-0.3,12.8-0.6C31.3,27.4,32,21.8,32,16S31.3,4.7,28.8,3.8 M12.8,22.4V9.6l8.8,6.4L12.8,22.4z">
+                    </path></svg> <img alt="" class="icon-fab-video" height="24" src=
+                    "https://www.google.com.br/ads/images/icons/icon-fab-video.png" width="24"></a>
+                  </div>
+                  <div class="card-success-content">
+                    <p>
+                      Criadores de conteúdo do mundo inteiro usam o Google AdSense para transformar
+                      paixão em lucro.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-row section-cards-row">
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/adsense/start/?subid=WW-EN-ET-bizsol-inpage&amp;utm_source=Internal&amp;utm_medium=ET&amp;utm_campaign=business-sol-in-page-txt"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/ads/images/icons/icon-product-adsense-new-64.png">
+              <h3>
+                Google AdSense
+              </h3>
+              <p class="last">
+                Ganhe dinheiro exibindo anúncios no seu site. É fácil e gratuito.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/admob/?subid=ww-ww-et-bizsol&amp;_adc=eww-ww-et-bizsol&amp;utm_source=Internal&amp;utm_medium=ET&amp;utm_campaign=business-sol-in-page-txt"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/ads/images/icons/icon-product-admob-new-64.png">
+              <h3>
+                AdMob
+              </h3>
+              <p class="last">
+                Analise, gere receita e promova seus aplicativos. Tudo em uma única plataforma.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+          </div>
+        </div>
+        <div data-glue-modal="ss-yt-taqggFQaJtE" data-rs-modal="" id="ss-yt-taqggFQaJtE">
+          <div class="spinner-pivot">
+            <div class="spinner-dot spinner-dot-1"></div>
+            <div class="spinner-dot spinner-dot-2"></div>
+            <div class="spinner-dot spinner-dot-3"></div>
+            <div class="spinner-dot spinner-dot-4"></div>
+            <div class="spinner-dot spinner-dot-5"></div>
+            <div class="spinner-dot spinner-dot-6"></div>
+            <div class="spinner-dot spinner-dot-7"></div>
+            <div class="spinner-dot spinner-dot-8"></div>
+          </div>
+          <div class="youtube-embed glue-modal-content dark-modal" data-video-id="taqggFQaJtE"
+          data-youtube-params="hl=pt-BR&amp;cc_lang_pref=pt-BR&amp;cc_load_policy=1"></div>
+        </div>
+      </section>
+      <section class="section section-test-my-site" id="test-my-site" rs-scroll-section="">
+        <a class="in-page-nav" data-nav-item="js-test-my-site" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#test-my-site">
+        <h4 class="section-sub-heading border-green">
+          Otimizar o site
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <h4 class="section-sub-heading border-green">
+            Otimizar o site
+          </h4>
+          <div class="cols-row">
+            <div class="col-5">
+              <h2>
+                Seu site é rápido o suficiente? Faça o teste agora.
+              </h2>
+              <p class="font-large">
+                A maioria dos sites para dispositivos móveis perde metade dos visitantes durante o
+                carregamento. Vamos te ajudar a deixar seu site mais rápido.
+              </p>
+            </div>
+            <div class="col-6 col-offset-1 align-vertical-center">
+              <form action=
+              "https://testmysite.thinkwithgoogle.com/intl/pt-br/?utm_source=bizsol&amp;utm_medium=referral&amp;utm_content=br-ww-bizsol"
+              class="form" data-ng-cloak="" data-ng-submit="formCtrl.submit($event)" id=
+              "test_my_site" method="get" name="test_my_site" target="_blank">
+                <div class="input-wrp">
+                  <input aria-label="Insira o URL do seu site" class="form-text form-required"
+                  data-ng-blur="formCtrl.urlFocus = false" data-ng-focus="formCtrl.urlFocus = true"
+                  data-ng-model="formCtrl.formData.url" data-rs-fbx-server-error=""
+                  data-rs-fbx-url-sans-protocol="" id="url" name="url" novalidate="" placeholder=
+                  "Insira o URL do seu site" required="required" type="text"> <input name=
+                  "utm_source" type="hidden" value="bizsol"> <input name="utm_medium" type="hidden"
+                  value="referência"> <input name="utm_content" type="hidden" value="br-ww-bizsol">
+                  <div class="hidden-field">
+                    <input>
+                  </div>
+                </div><button class="button" data-ng-disabled="!test_my_site.$valid" type="submit"
+                value="Testar Agora">Testar Agora</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-measure-learn" id="measure-learn" rs-scroll-section="">
+        <a class="in-page-nav" data-nav-item="js-measure-learn" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#measure-learn">
+        <h4 class="section-sub-heading border-yellow">
+          Avaliar e aprender
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <div class="cols-row">
+            <div class="col-7 section-intro-content">
+              <h4 class="section-sub-heading border-yellow">
+                Avaliar e aprender
+              </h4>
+              <h2 class="section-padding-right">
+                Avalie o desempenho dos seus sites, aplicativos e anúncios.
+              </h2>
+              <p class="font-large">
+                O Google Analytics ajuda você a entender o que está funcionando e a corrigir o que
+                não está.
+              </p>
+            </div>
+          </div>
+          <div class="cols-row section-cards-row">
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/analytics/?utm_source=Internal&amp;utm_campaign=InPage&amp;utm_medium=BusinessSolutions"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/ads/images/icons/analytics-new_1x.png">
+              <h3>
+                Google Analytics
+              </h3>
+              <p class="last">
+                Receba os insights de que você precisa para melhorar sua pequena empresa.
+                Gratuitamente.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+            <div class="col-4 col-m-3 card card-related">
+              <a class="card-inner" href=
+              "https://www.google.com.br/intl/pt-BR/analytics/features/mobile-app-analytics.html?utm_source=Internal&amp;utm_campaign=InPage&amp;utm_medium=BusinessSolutions"
+              target="_blank"><img alt="" class="product-logo" src=
+              "https://www.google.com.br/ads/images/icons/analytics-new_1x.png">
+              <h3>
+                Google Analytics para aplicativos para dispositivos móveis
+              </h3>
+              <p class="last">
+                Avalie o valor completo do seu aplicativo.
+              </p><svg class="icon-arrow-related" enable-background="new 0 0 32 32" height="16px"
+              version="1.1" viewbox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns=
+              "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <polygon points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+              </polygon></svg> <img alt="ícone de seta relacionado" class="icon-arrow-related"
+              height="16" src="https://www.google.com.br/ads/images/icons/icon-arrow-related.png" width=
+              "16"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-explore-solutions" id="see-all-solutions" rs-scroll-section=
+      "">
+        <a class="in-page-nav" data-nav-item="js-see-all-solutions" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#see-all-solutions">
+        <h4 class="section-sub-heading border-blue">
+          Ver todas as soluções
+        </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px" version=
+        "1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+        "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg> <img alt=
+        "" class="icon-arrow-down" height="12" src=
+        "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+        <div class="site-width">
+          <h2>
+            Explore todas as soluções para empresas.
+          </h2>
+          <div class="cols-row">
+            <div class="col-4 solution">
+              <h4 class="section-sub-heading border-yellow">
+                Aparecer no Google
+              </h4>
+              <ul class="more-solutions-list">
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/business/?gmbsrc=br-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;subid=br-ww-et-bizsol"
+                  rel="noopener" target="_blank">Google Meu Negócio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 solution">
+              <h4 class="section-sub-heading border-blue">
+                Anunciar
+              </h4>
+              <ul class="more-solutions-list">
+                <li>
+                  <a href="https://www.google.com.br/intl/pt-BR/adwords/?subid=br-ww-et-bizsol"
+                  rel="noopener" target="_blank">Google Ads</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=br-ww-et-awx-bizsol&amp;utm_content=othersol"
+                  rel="noopener" target="_blank">AdWords Express</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/retail/shopping-campaigns/?utm_source=Internal&amp;utm_medium=BusinessSolutions&amp;utm_campaign=shoppingcampaigns"
+                  rel="noopener" target="_blank">Campanhas do Shopping</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.youtube.com/yt/advertise/pt-BR/?subid=ww-ww-et-v_ads_buis_sol&amp;sourceid=awo&amp;utm_source=embedded_promo&amp;utm_medium=et&amp;utm_campaign=buis_solutions&amp;utm_term=et&amp;utm_content=ww"
+                  rel="noopener" target="_blank">Anúncios do YouTube</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 solution">
+              <h4 class="section-sub-heading border-red">
+                Expanda seus negócios
+              </h4>
+              <ul class="more-solutions-list">
+                <li>
+                  <a href=
+                  "https://gsuite.google.com.br/intl/pt-BR/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=explore"
+                  rel="noopener" target="_blank">G Suite</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://cloud.google.com/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Google Cloud Platform</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://enterprise.google.com/maps/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Google Maps APIs</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://enterprise.google.com/chrome/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Chrome Enterprise</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.android.com/enterprise/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Android Enterprise</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://domains.google/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Google Domains</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://hire.google.com/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=seeallsolutions"
+                  rel="noopener" target="_blank">Google Hire</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 solution">
+              <h4 class="section-sub-heading border-green">
+                Ganhar dinheiro
+              </h4>
+              <ul class="more-solutions-list">
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/adsense/start/?subid=WW-EN-ET-bizsol-othersol&amp;utm_source=Internal&amp;utm_medium=ET&amp;utm_campaign=business-sol-other-sol"
+                  rel="noopener" target="_blank">Google AdSense</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/admob/?subid=ww-ww-et-bizsol&amp;_adc=eww-ww-et-bizsol&amp;utm_source=Internal&amp;utm_medium=ET&amp;utm_campaign=business-sol-other-sol"
+                  rel="noopener" target="_blank">AdMob</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.doubleclickbygoogle.com/solutions/revenue-management/join-dfp/" rel=
+                  "noopener" target="_blank">Google Ad Manager 360</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 solution">
+              <h4 class="section-sub-heading border-yellow">
+                Avaliar e aprender
+              </h4>
+              <ul class="more-solutions-list">
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/analytics/?utm_source=Internal&amp;utm_campaign=InPage&amp;utm_medium=BusinessSolutions"
+                  rel="noopener" target="_blank">Google Analytics</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/analytics/features/mobile-app-analytics.html?utm_source=Internal&amp;utm_campaign=InPage&amp;utm_medium=BusinessSolutions"
+                  rel="noopener" target="_blank">Google Analytics para aplicativos para
+                  dispositivos móveis</a>
+                </li>
+                <li>
+                  <a href=
+                  "https://www.google.com.br/intl/pt-BR/analytics/tag-manager/?utm_source=Internal&amp;utm_medium=BusinessSolutions&amp;utm_campaign=ExploreSolutions"
+                  rel="noopener" target="_blank">Gerenciador de tags</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-align-right">
+            <a class="back-to-top gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#hero">Voltar ao
+            início<svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </div>
+        </div>
+      </section>
+      <div class="mobile-nav mobile-nav-dropdown" data-ng-controller=
+      "rs.stickyNavigation.NavCtrl as navCtrl">
+        <ul>
+          <li class="js-advertise">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#advertise" target="_self">
+            <h4 class="section-sub-heading border-blue">
+              Anunciar
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+          <li class="js-work-smarter">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#scale-your-business" target="_self">
+            <h4 class="section-sub-heading border-red">
+              Expanda seus negócios
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+          <li class="js-earn-money-from-ads">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#earn-money-from-ads" target="_self">
+            <h4 class="section-sub-heading border-green">
+              Ganhar dinheiro com anúncios
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+          <li class="js-test-my-site">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#test-my-site" target="_self">
+            <h4 class="section-sub-heading border-green">
+              Otimizar o site
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+          <li class="js-measure-learn">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#measure-learn" target="_self">
+            <h4 class="section-sub-heading border-yellow">
+              Avaliar e aprender
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+          <li class="js-see-all-solutions">
+            <a class="gweb-smoothscroll-control" href="index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1#see-all-solutions" target="_self">
+            <h4 class="section-sub-heading border-blue">
+              Ver todas as soluções
+            </h4><svg class="icon-arrow-down" enable-background="new 0 0 32 32" height="12px"
+            version="1.1" viewbox="0 0 32 32" width="12px" x="0px" xml:space="preserve" xmlns=
+            "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            <img alt="" class="icon-arrow-down" height="12" src=
+            "https://www.google.com.br/ads/images/icons/icon-arrow-down.png" width="12"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-nav-overlay"></div>
+    </div>
+    <footer class="footer" id="footer" role="contentinfo">
+      <div class="site-width">
+        <div class="footer-upper cols-row">
+          <div class="footer-social col-6">
+            <dl>
+              <dt>
+                Siga-nos no:
+              </dt>
+              <dd>
+                <a href="https://plus.google.com/+GoogleAdsPortugu%C3%AAs" rel="noopener nofollow"
+                target="_blank" title="Google+"><svg class="icon-footer-gplus c1" height="20px"
+                version="1.1" viewbox="0 0 23 15" width="30px" x="0px" xml:space="preserve" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="23,6 21,6 21,4 19,4 19,6 17,6 17,8 19,8 19,10 21,10 21,8 23,8">
+                </polygon>
+                <path d=
+                "M11.8,8.9c-0.1,1.3-1.3,3.4-4.3,3.4c-2.6,0-4.6-2.1-4.6-4.7S5,2.9,7.5,2.9c1.5,0,2.4,0.6,3,1.1 l0,0l2-2c-1.3-1.2-3-2-5-2C3.4,0.1,0,3.5,0,7.6s3.4,7.5,7.5,7.5c4.3,0,7.2-3,7.2-7.3c0-0.6-0.1-1.1-0.2-1.5h-7V9L11.8,8.9L11.8,8.9 z">
+                </path></svg> <img alt="Google+" class="icon-footer-gplus" height="20" src=
+                "https://www.google.com.br/ads/images/icons/icon-footer-gplus.png" width="20"></a>
+              </dd>
+              <dd>
+                <a href="https://blog.google/products/ads/" rel="noopener" target="_blank" title=
+                "Blogger"><svg class="icon-footer-blogger" enable-background="new 0 0 32 32"
+                height="20px" version="1.1" viewbox="0 0 32 32" width="20px" x="0px" xml:space=
+                "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                "http://www.w3.org/1999/xlink" y="0px">
+                <path d=
+                "M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0 M22.4,11.2v1.6c0,0.9,0.7,1.6,1.6,1.6c0.9,0,1.6,0.7,1.6,1.6v4.8c0,2.7-2.1,4.8-4.8,4.8h-9.6 c-2.7,0-4.8-2.1-4.8-4.8V9.6c0-2.6,2.1-4.8,4.8-4.8h6.4c2.7,0,4.8,2.2,4.8,4.8V11.2z M12.7,12.8h4.2c0.9,0,1.6-0.7,1.6-1.6 s-0.7-1.6-1.6-1.6h-4.2c-0.9,0-1.6,0.7-1.6,1.6S11.8,12.8,12.7,12.8 M19.2,17.6h-6.5c-0.9,0-1.6,0.7-1.6,1.6c0,0.9,0.7,1.6,1.6,1.6 h6.5c0.9,0,1.6-0.7,1.6-1.6C20.8,18.3,20.1,17.6,19.2,17.6">
+                </path></svg> <img alt="Blogger" class="icon-footer-blogger" height="20" src=
+                "https://www.google.com.br/ads/images/icons/icon-footer-blogger.png" width="20"></a>
+              </dd>
+              <dd>
+                <a href="https://twitter.com/googleadspt" rel="noopener nofollow" target="_blank"
+                title="Twitter"><svg class="icon-footer-twitter" enable-background="new 0 0 32 32"
+                height="20px" version="1.1" viewbox="0 0 32 32" width="20px" x="0px" xml:space=
+                "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                "http://www.w3.org/1999/xlink" y="0px">
+                <path d=
+                "M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0z M25.1,11.7c-0.1,7.4-4.8,12.5-11.9,12.8c-2.9,0.1-5-0.8-6.9-2c2.2,0.3,4.8-0.5,6.2-1.7 c-2.1-0.2-3.4-1.3-3.9-3c0.6,0.1,1.2,0.1,1.8,0c-1.9-0.6-3.3-1.8-3.3-4.3C7.7,13.7,8.3,13.9,9,14c-1.4-0.8-2.5-3.8-1.3-5.7 c2.1,2.3,4.7,4.2,8.8,4.5c-1-4.5,4.9-6.9,7.4-3.9c1.1-0.2,1.9-0.6,2.7-1c-0.3,1-1,1.8-1.8,2.4c0.9-0.1,1.6-0.3,2.3-0.7 C26.8,10.3,25.9,11.1,25.1,11.7z">
+                </path></svg> <img alt="Twitter" class="icon-footer-twitter" height="20" src=
+                "https://www.google.com.br/ads/images/icons/icon-footer-twitter.png" width="20"></a>
+              </dd>
+              <dd>
+                <a href="https://www.youtube.com/googleads" rel="noopener" target="_blank" title=
+                "YouTube"><svg class="icon-footer-youtube" enable-background="new 0 0 32 32"
+                height="20px" version="1.1" viewbox="0 0 32 32" width="20px" x="0px" xml:space=
+                "preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                "http://www.w3.org/1999/xlink" y="0px">
+                <path d=
+                "M28.8,3.8c-1-0.3-6.9-0.6-12.8-0.6c-5.9,0-11.8,0.3-12.8,0.6C0.7,4.6,0,10.2,0,16s0.7,11.4,3.2,12.2c1,0.3,6.9,0.6,12.8,0.6 c5.9,0,11.8-0.3,12.8-0.6C31.3,27.4,32,21.8,32,16S31.3,4.7,28.8,3.8 M12.8,22.4V9.6l8.8,6.4L12.8,22.4z">
+                </path></svg> <img alt="YouTube" class="icon-footer-youtube" height="20" src=
+                "https://www.google.com.br/ads/images/icons/icon-footer-youtube.png" width="20"></a>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <nav class="footer-nav cols-row">
+          <dl class="col-3">
+            <dt>
+              Aprendizagem e suporte
+            </dt>
+            <dd>
+              <a href="https://support.google.com/?hl=pt-BR">Central de Ajuda</a>
+            </dd>
+            <dd>
+              <a href="https://plus.google.com/+adwordsbrasil">Google Ads no Google+</a>
+            </dd>
+            <dd>
+              <a href="https://plus.google.com/+GoogleAnalytics/?hl=pt-BR">Google Analytics no
+              Google+</a>
+            </dd>
+            <dd>
+              <a href=
+              "http://yourprimer.com.br/?utm_source=digital&amp;utm_medium=embeddedpromo&amp;utm_campaign=gbsbr">
+              Primer</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              Desenvolvedores
+            </dt>
+            <dd>
+              <a href="https://developers.google.com/?hl=pt-BR">Site do Google Developers</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              Produtos relacionados
+            </dt>
+            <dd>
+              <a href="https://www.google.com.br/intl/pt-BR/streetview/hire">Business View do
+              Google Maps</a>
+            </dd>
+            <dd>
+              <a href=
+              "https://www.google.com.br/intl/pt-BR/services/sitemap.html?utm_source=Internal&amp;utm_medium=BusinessSolutions&amp;utm_campaign=trustedstores">
+              Diretório de Soluções Empresariais</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              Mais soluções do Google
+            </dt>
+            <dd>
+              <a href=
+              "https://gsuite.google.com.br/intl/pt-BR/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=footer">
+              G Suite</a>
+            </dd>
+            <dd>
+              <a href=
+              "https://www.google.com.br/intl/pt-BR/analytics/?utm_source=Internal&amp;utm_medium=BusinessSolutions&amp;utm_campaign=Footer">
+              Página inicial do Google Analytics</a>
+            </dd>
+            <dd>
+              <a href=
+              "https://cloud.google.com/?utm_medium=et&amp;utm_source=bizsol_worksmarter&amp;utm_campaign=footer">
+              Google Cloud</a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="footer-lower cols-row">
+          <div class="footer-meta-links col-9">
+            <ul>
+              <li>
+                <a href="https://support.google.com/?hl=br"><svg class="icon-footer-help"
+                enable-background="new 0 0 32 32" height="20px" version="1.1" viewbox="0 0 32 32"
+                width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path clip-rule="evenodd" d=
+                "M16 0C7.2 0 0 7.2 0 16c0 3 .9 5.9 2.3 8.3L0 32l7.7-2.3C10.2 31.1 13 32 16 32c8.8 0 16-7.2 16-16S24.8 0 16 0zm1.3 24.6c-.3.3-.7.5-1.2.5s-1-.2-1.2-.5c-.3-.3-.4-.7-.4-1.1 0-.2 0-.4.1-.6.1-.2.2-.4.3-.5.1-.1.3-.3.5-.3.2-.1.4-.1.7-.1.3 0 .5 0 .7.1.2.1.4.2.5.3.1.1.3.3.3.5.1.2.1.4.1.6 0 .5-.1.8-.4 1.1zm3.8-11.4c-.2.5-.4.9-.6 1.3l-.9 1.2c-.3.4-.7.8-1 1.1-.4.4-.7.9-.9 1.4-.2.5-.2.8-.3 1.8h-2.8c0-1 0-1.2.1-1.6.1-.4.2-1 .3-1.3.2-.3.4-.7.6-1 .2-.3.6-.7.9-1 .2-.3.5-.5.7-.7.2-.2.4-.5.6-.7.2-.3.3-.5.4-.8.1-.3.1-.6.1-1 0-.8-.2-1.4-.6-1.8-.4-.4-1-.6-1.7-.6-.3 0-.6.1-.9.1-.3.1-.5.2-.8.4s-.4.6-.5.8c-.1.3-.2 1.2-.2 1.2h-3c0-2 .2-1.6.4-2.2.3-.6.7-1.2 1.1-1.6.5-.4 1-.7 1.7-.9.8-.3 1.5-.4 2.2-.4.8 0 1.6.1 2.2.3.7.2 1.2.5 1.7.9s.8.9 1 1.5c.2.6.4 1.3.4 2.1 0 .6-.1 1.1-.2 1.5z"
+                fill-rule="evenodd"></path></svg> <img alt="Ajuda" class="icon-footer-help" height=
+                "20" src="https://www.google.com.br/ads/images/icons/icon-footer-help.png" width="20">
+                Ajuda</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.br/">Google</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.br/intl/pt-BR/policies/privacy/">Privacidade</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.br/intl/pt-BR/policies/terms/">Termos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-locale-switcher col-3">
+            <label class="visually-hidden" for="footer-locales"><span>Alterar o idioma ou a
+            região:</span></label><select class="footer-locales" id="footer-locales" onchange=
+            "var href=this[this.selectedIndex].value;if(href!=''){window.location.href=href};">
+              <option value="//www.google.co.id/intl/id/services/">
+                Bahasa Indonesia – Indonesia
+              </option>
+              <option value="//www.google.com.my/intl/ms/services/">
+                Bahasa Melayu – Malaysia
+              </option>
+              <option value="//www.google.es/intl/ca/services/">
+                Català – Espanya
+              </option>
+              <option value="//www.google.cz/intl/cs/services/">
+                Čeština – Česká republika
+              </option>
+              <option value="//www.google.dk/intl/da/services/">
+                Dansk – Danmark
+              </option>
+              <option value="//www.google.de/intl/de/services/">
+                Deutsch – Deutschland
+              </option>
+              <option value="//www.google.at/intl/de/services/">
+                Deutsch – Österreich
+              </option>
+              <option value="//www.google.ch/intl/de/services/">
+                Deutsch – Schweiz
+              </option>
+              <option value="//www.google.ee/intl/et/services/">
+                Eesti – Eesti
+              </option>
+              <option value="//www.google.com/intl/en/services/">
+                English
+              </option>
+              <option value="//www.google.com.au/intl/en/services/">
+                English – Australia
+              </option>
+              <option value="//www.google.ca/intl/en/services/">
+                English – Canada
+              </option>
+              <option value="//www.google.com.cy/intl/en/services/">
+                English – Cyprus
+              </option>
+              <option value="//www.google.com.eg/intl/en/services/">
+                English – Egypt
+              </option>
+              <option value="//www.google.com.hk/intl/en/services/">
+                English – Hong Kong
+              </option>
+              <option value="//www.google.co.in/intl/en/services/">
+                English – India
+              </option>
+              <option value="//www.google.ie/intl/en/services/">
+                English – Ireland
+              </option>
+              <option value="//www.google.com.my/intl/en/services/">
+                English – Malaysia
+              </option>
+              <option value="//www.google.co.nz/intl/en/services/">
+                English – New Zealand
+              </option>
+              <option value="//www.google.com.ng/intl/en/services/">
+                English – Nigeria
+              </option>
+              <option value="//www.google.com.pk/intl/en/services/">
+                English – Pakistan
+              </option>
+              <option value="//www.google.com.ph/intl/en/services/">
+                English – Philippines
+              </option>
+              <option value="//www.google.com.sa/intl/en/services/">
+                English – Saudi Arabia
+              </option>
+              <option value="//www.google.com.sg/intl/en/services/">
+                English – Singapore
+              </option>
+              <option value="//www.google.co.za/intl/en/services/">
+                English – South Africa
+              </option>
+              <option value="//www.google.lk/intl/en/services/">
+                English – Sri Lanka
+              </option>
+              <option value="//www.google.ae/intl/en/services/">
+                English – United Arab Emirates
+              </option>
+              <option value="//www.google.co.uk/intl/en/services/">
+                English – United Kingdom
+              </option>
+              <option value="//www.google.com/intl/en/services/">
+                English – United States
+              </option>
+              <option value="//www.google.es/intl/es/services/">
+                Español – España
+              </option>
+              <option value="//www.google.com.ar/intl/es-419/services/">
+                Español (Latinoamérica) – Argentina
+              </option>
+              <option value="//www.google.com.bo/intl/es-419/services/">
+                Español (Latinoamérica) – Bolivia
+              </option>
+              <option value="//www.google.cl/intl/es-419/services/">
+                Español (Latinoamérica) – Chile
+              </option>
+              <option value="//www.google.com.co/intl/es-419/services/">
+                Español (Latinoamérica) – Colombia
+              </option>
+              <option value="//www.google.co.cr/intl/es-419/services/">
+                Español (Latinoamérica) – Costa Rica
+              </option>
+              <option value="//www.google.com.ec/intl/es-419/services/">
+                Español (Latinoamérica) – Ecuador
+              </option>
+              <option value="//www.google.com.sv/intl/es-419/services/">
+                Español (Latinoamérica) – El Salvador
+              </option>
+              <option value="//www.google.com/intl/es-419/services/">
+                Español (Latinoamérica) – Estados Unidos
+              </option>
+              <option value="//www.google.com.gt/intl/es-419/services/">
+                Español (Latinoamérica) – Guatemala
+              </option>
+              <option value="//www.google.hn/intl/es-419/services/">
+                Español (Latinoamérica) – Honduras
+              </option>
+              <option value="//www.google.com.mx/intl/es-419/services/">
+                Español (Latinoamérica) – México
+              </option>
+              <option value="//www.google.com.ni/intl/es-419/services/">
+                Español (Latinoamérica) – Nicaragua
+              </option>
+              <option value="//www.google.com.pa/intl/es-419/services/">
+                Español (Latinoamérica) – Panamá
+              </option>
+              <option value="//www.google.com.py/intl/es-419/services/">
+                Español (Latinoamérica) – Paraguay
+              </option>
+              <option value="//www.google.com.pe/intl/es-419/services/">
+                Español (Latinoamérica) – Perú
+              </option>
+              <option value="//www.google.com.pr/intl/es-419/services/">
+                Español (Latinoamérica) – Puerto Rico
+              </option>
+              <option value="//www.google.com.do/intl/es-419/services/">
+                Español (Latinoamérica) – República Dominicana
+              </option>
+              <option value="//www.google.com.uy/intl/es-419/services/">
+                Español (Latinoamérica) – Uruguay
+              </option>
+              <option value="//www.google.co.ve/intl/es-419/services/">
+                Español (Latinoamérica) – Venezuela
+              </option>
+              <option value="//www.google.com.ph/intl/fil/services/">
+                Filipino – Pilipinas
+              </option>
+              <option value="//www.google.dz/intl/fr/services/">
+                Français – Algérie
+              </option>
+              <option value="//www.google.be/intl/fr/services/">
+                Français – Belgique
+              </option>
+              <option value="//www.google.ca/intl/fr/services/">
+                Français – Canada
+              </option>
+              <option value="//www.google.fr/intl/fr/services/">
+                Français – France
+              </option>
+              <option value="//www.google.ch/intl/fr/services/">
+                Français – Suisse
+              </option>
+              <option value="//www.google.tn/intl/fr/services/">
+                Français – Tunisie
+              </option>
+              <option value="//www.google.hr/intl/hr/services/">
+                Hrvatski – Hrvatska
+              </option>
+              <option value="//www.google.it/intl/it/services/">
+                Italiano – Italia
+              </option>
+              <option value="//www.google.lv/intl/lv/services/">
+                Latviešu – Latvija
+              </option>
+              <option value="//www.google.lt/intl/lt/services/">
+                Lietuvių – Lietuva
+              </option>
+              <option value="//www.google.hu/intl/hu/services/">
+                Magyar – Magyarország
+              </option>
+              <option value="//www.google.be/intl/nl/services/">
+                Nederlands – België
+              </option>
+              <option value="//www.google.nl/intl/nl/services/">
+                Nederlands – Nederland
+              </option>
+              <option value="//www.google.no/intl/no/services/">
+                Norsk – Norge
+              </option>
+              <option value="//www.google.pl/intl/pl/services/">
+                Polski – Polska
+              </option>
+              <option selected value="//www.google.com.br/intl/pt-BR/services/">
+                Português (Brasil) – Brasil
+              </option>
+              <option value="//www.google.pt/intl/pt-PT/services/">
+                Português (Portugal) – Portugal
+              </option>
+              <option value="//www.google.md/intl/ro/services/">
+                Română – Republica Moldova
+              </option>
+              <option value="//www.google.ro/intl/ro/services/">
+                Română – România
+              </option>
+              <option value="//www.google.sk/intl/sk/services/">
+                Slovenčina – Slovensko
+              </option>
+              <option value="//www.google.si/intl/sl/services/">
+                Slovenščina – Slovenija
+              </option>
+              <option value="//www.google.fi/intl/fi/services/">
+                Suomi – Suomi
+              </option>
+              <option value="//www.google.se/intl/sv/services/">
+                Svenska – Sverige
+              </option>
+              <option value="//www.google.com.vn/intl/vi/services/">
+                Tiếng Việt – Việt Nam
+              </option>
+              <option value="//www.google.com.tr/intl/tr/services/">
+                Türkçe – Türkiye
+              </option>
+              <option value="//www.google.gr/intl/el/services/">
+                Ελληνικά – Ελλάδα
+              </option>
+              <option value="//www.google.bg/intl/bg/services/">
+                Български – България
+              </option>
+              <option value="//www.google.by/intl/ru/services/">
+                Русский – Беларусь
+              </option>
+              <option value="//www.google.kz/intl/ru/services/">
+                Русский – Казахстан
+              </option>
+              <option value="//www.google.ru/intl/ru/services/">
+                Русский – Россия
+              </option>
+              <option value="//www.google.rs/intl/sr/services/">
+                Српски – Србија
+              </option>
+              <option value="//www.google.com.ua/intl/uk/services/">
+                Українська – Україна
+              </option>
+              <option value="//www.google.co.il/intl/iw/services/">
+                ‫עברית – ישראל‬
+              </option>
+              <option value="//www.google.com/intl/ar/services/">
+                ‫العربية‬
+              </option>
+              <option value="//www.google.ae/intl/ar/services/">
+                ‫العربية – الإمارات العربية المتحدة‬
+              </option>
+              <option value="//www.google.dz/intl/ar/services/">
+                ‫العربية – الجزائر‬
+              </option>
+              <option value="//www.google.com.sa/intl/ar/services/">
+                ‫العربية – المملكة العربية السعودية‬
+              </option>
+              <option value="//www.google.tn/intl/ar/services/">
+                ‫العربية – تونس‬
+              </option>
+              <option value="//www.google.com.eg/intl/ar/services/">
+                ‫العربية – مصر‬
+              </option>
+              <option value="//www.google.co.in/intl/hi/services/">
+                हिन्दी – भारत
+              </option>
+              <option value="//www.google.co.th/intl/th/services/">
+                ไทย – ไทย
+              </option>
+              <option value="//www.google.co.kr/intl/ko/services/">
+                한국어 – 대한민국
+              </option>
+              <option value="http://www.google.cn/intl/zh-CN/services/">
+                中文（简体中文） – 中国
+              </option>
+              <option value="//www.google.com.tw/intl/zh-TW/services/">
+                中文（繁體中文） – 台灣
+              </option>
+              <option value="//www.google.com.hk/intl/zh-TW/services/">
+                中文（繁體中文） – 香港
+              </option>
+              <option value="//www.google.co.jp/intl/ja/services/">
+                日本語 – 日本
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-messages.min.js"></script>
+    
+    <script async data-gtmid="GTM-DJXNX" src=
+    "../ads/js/peitho2/peitho2.min.js"></script> 
+    <script src="js/business-solutions.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 30}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="光明网">
+    <meta name="sharecontent" content="批评滴滴、自如，不是为了回到黑车、黑中介时代">
+    <meta name="keywords" content="批评, 滴滴, 自如, 不是, 是为了, 回到, 黑车, 黑中介, 时代" />
+    <meta name="description" content="作者：杨三喜9月8日起，滴滴暂停提供深夜23:00-5:00时间段的出租车、快车、优步、优享、拼车、专车、豪华车服务，进行安全大整治。据媒体报道，就在滴滴暂停深夜服务的第一天，各地的乘客就感受到了深夜..." />
+<meta itemprop="dateUpdate" content="2018-09-10 17:37:18" />
+<meta itemprop="datePublished" content="2018-09-10 17:37:18" />    <title>批评滴滴、自如，不是为了回到黑车、黑中介时代-科技频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253023555_162758" />
+    <script>
+        var cfgs = {
+            channelId : '30',
+            media_id: '162758',
+            cms_id: '549075604',
+            title: '批评滴滴、自如，不是为了回到黑车、黑中介时代',
+            authorId : '162758',
+            path: 'http://guancha.gmw.cn/2018-09/10/content_31088491.htm',
+            authorName : '光明网',
+            newsId : '253023555',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/30?_f=m-article_ch">科技</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">批评滴滴、自如，不是为了回到黑车、黑中介时代</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/162758">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/be20ad10dd2a42668c6585b4be3c0f28_1478657407211"/>
+                    <div class="infos-wrapper">
+                        <header class="name">光明网</header>
+                        <footer class="time">
+                            09-10 17:37
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmte0ode02@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p><strong>作者：杨三喜</strong></p>
+<p>9月8日起，滴滴暂停提供深夜23:00-5:00时间段的出租车、快车、优步、优享、拼车、专车、豪华车服务，进行安全大整治。据媒体报道，就在滴滴暂停深夜服务的第一天，各地的乘客就感受到了深夜打车出行难的痛苦。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/32112a589c2a45a2bbc38554b95b222e.jpeg" class="content-image">
+<p>很多网友分享了滴滴停运第一夜的打车经历，出租车漫天要价、强行拼车、拒载，黑车暴增等等。在北京三里屯，23点刚过，就有黑车司机在路边开始大喊：“今晚没有滴滴！早上车早回家！”有乘客亲身经历平时50元不到的车程，开价150，砍价后120。</p>
+<p>滴滴安全大整治，乘客就陷入打车难，固然与当前网约车市场滴滴一家独大，其他网约车平台难以填补滴滴暂时退出而出现的供求缺口有关，这并不是一个健康的市场现象。但滴滴整改，承担代价的也不应该是普通消费者。</p>
+<p>另一方面也充分说明网约车这一新业态在满足民众多样化的出行需求方面的巨大价值。在大城市，出租车的运力难以满足民众的出行需求，其服务水平也还有很大的提升空间。实际上，很多互联网企业之所以能够发展壮大，正是因为在某一领域公共服务缺位，难以满足民众的需求，而互联网企业找到了民众需求的痛点，利用互联网，用更加公开、透明的方式解决了这些痼疾。就出行领域而言，滴滴一停运，就重现打车难问题，这也从另外一个层面说明，在网约车快速发展并成功改变民众的出行习惯、改善民众出行体验的同时，传统出行行业，并没有太多的进步。从网友分享的打车经历来看，谁都不愿意回到出租车拒载，黑车横行的时代。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">53</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>近来，一些互联网平台暴露出了由于快速发展而存在的诸多问题，引发了民众对这类以创新模式改变生活的互联网公司的质疑和批评。这种情况不仅出现在出行领域，在租房领域同样如此。自如等长租公寓，通过互联网的力量，挤压了黑中介的生存空间，节省了租房者的时间和精力成本，也降低了租房被黑中介坑的风险成本，同时在提高租房者的居住体验上带来了不少进步。但是其商业模式也暴露出了不少问题，比如近期爆发的甲醛超标问题，对租户的身体健康带来了严重的威胁。这迫切需要平台进行彻底的反思和整改，但同样，对于租房者来说，谁也不愿意回到黑中介时代。</p>
+<p>衣食住行是民生大事，不管是网约车出行，还是大城市租房，抑或是其他民生领域，便捷、高效都是民众的需求，但在便捷、高效之上，安全无疑是最低的底线。民众针对滴滴、自如等企业的质疑与批评，企业必须照单全收，有则改之，无则加勉。但是舆论场上一些非理性、情绪化的声音，诸如一些自媒体以及网友，一见企业出事，就喊出“xx去死”，仿佛这些曾经服务于我们日常生活的互联网平台，都只是做在一件事情，那就是裹挟着资本的力量无恶不作一般。对于这类情绪化的声音也应该积极引导，而不是任其蔓延。一些自媒体缺少把关人，在评论公共话题时不需要承担任何言责，充满戾气，并不利于营造一个良性互动的舆论空间，更无助于问题的解决。这种舆论现象，尤其值得关注。</p>
+<p>忽视用户安全导致的各类问题，企业必须承担责任，没有辩驳的余地，也无可推卸。但是批评这些企业，批评它们存在的问题，不是要彻底否定它们存在的价值，不是要回到黑中介、黑车时代，而是为了鞭策这些企业守住底线，不断改进服务，为我们带来更安全、更便利的消费体验。（杨三喜）</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77937?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">公司</a>
+            <a class="tag" href="http://m.sohu.com/tag/69233?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">滴滴</a>
+            <a class="tag" href="http://m.sohu.com/tag/77661?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">互联网</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253023555">阅读 (<em data-state="253023555" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253023555'" :region-id="'30'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

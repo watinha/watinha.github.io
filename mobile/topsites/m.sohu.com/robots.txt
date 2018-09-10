@@ -1,0 +1,32 @@
+User-agent: Baiduspider
+Disallow: /*?*
+User-agent: *
+Disallow: /api/
+Disallow: /dynamic/
+User-agent: ToutiaoSpider
+Disallow: / 
+
+
+Sitemap: http://m.sohu.com/sitemap-astro-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-auto-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-baobao-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-business-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-caipiao-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-chihe-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-emotion-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-fashion-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-health-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-history-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-it-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-joke-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-leaning-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-mil-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-news-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-picturegroup-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-roll-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-sports-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-travel-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-wemedia-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-yule-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-blog-update-index.xml
+Sitemap: http://m.sohu.com/sitemap-ext-update-index.xml

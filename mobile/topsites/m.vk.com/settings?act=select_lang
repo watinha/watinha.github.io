@@ -1,0 +1,468 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+    <html
+      xmlns="http://www.w3.org/1999/xhtml"
+      class="vk vk_js_no  vk_flex_no r d h  vk_appAuth_no"
+    >
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="MobileOptimized" content="176" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="theme-color" content="#5181b8" />
+        <base id="base">
+        <meta name="robots" content="noindex,nofollow" /><meta http-equiv="origin-trial" data-feature="getInstalledRelatedApps" data-expires="2018-01-30" content="AqnBW3j/m56zAZN0fBjy5CYB0Z+nCthDicsVAa+nub6HQaZ2JaRPv8KZhidJHoyt/kmyGoAYcnby1QXbPjwbSwAAAABfeyJvcmlnaW4iOiJodHRwczovL3ZrLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW5zdGFsbGVkQXBwIiwiZXhwaXJ5IjoxNTE3MjcwNDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZX0="><meta name="apple-itunes-app" content="app-id=564177498" /><meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        <title>Налаштування</title>
+        <link rel="shortcut icon" href="images/icons/favicons/fav_logo.ico?8"></link>
+        <script>
+          (function() {
+            window.isMVK = true;
+            window.isNewMail = false;
+            window.isNewLongpoll = false;
+            window.audioSubscribe = false;
+            window.isArticleWebView = false;
+
+            var vkElem = document.querySelector('.vk');
+            var vkClass = vkElem.getAttribute('class');
+
+            var supports = {
+              js: true,
+              flex: window.CSS && CSS.supports && (
+                CSS.supports('display', 'flex') ||
+                CSS.supports('display', '-webkit-flex') ||
+                CSS.supports('display', '-ms-flexbox')
+              )
+            };
+
+            supports.js && (vkClass = vkClass.replace('vk_js_no', 'vk_js_yes'));
+            supports.flex && (vkClass = vkClass.replace('vk_flex_no', 'vk_flex_yes'));
+            vkElem.setAttribute('class', vkClass);
+          })();
+        </script>
+
+        <script type="text/javascript">
+<!--
+    (function(k,a,d,e,f){function l(){var c=function(){var b=!1;try{b=new XMLHttpRequest}catch(a){try{b=new ActiveXObject("Msxml2.XMLHTTP")}catch(d){try{b=new ActiveXObject("Microsoft.XMLHTTP")}catch(c){b=!1}}}return b?e:f}(),g=function(){var b=k.createElement("div");b.innerHTML='<input type="file" />';b=b.getElementsByTagName("input")[0];return"file"!=b.type||b.disabled?f:e}(),h="ontouchstart"in a?e:f,m;try{m=typeof navigator.geolocation!==d?e:typeof a.google!==d&&typeof google.gears!==d?e:typeof device!==d&&typeof device.getServiceObject!==d?e:typeof Mojo!==d&&"Mojo.Service.Request"!==typeof Mojo.Service.Request?e:f}catch(p){m=f}var l=function(b){try{var d=a.Audio?new Audio:k.createElement("audio");if(d.canPlayType&&d.canPlayType(b)&&"no"!=d.canPlayType(b))return e}catch(c){}return f}("audio/mpeg"),n=function(b){try{for(var a=k.createElement("div"),c=0,g=["webkit","Moz","ms","O",""],h=g.length;c<h;c++){var l=g[c],m=l?l+b:b.toLowerCase();if(typeof a.style[m]!==d)return e}return f}catch(n){return f}}("Transform");return c+g+h+m+l+n+((a.XMLHttpRequest||a.XDomainRequest)&&(a.FormData||a.FileReader&&(a.XMLHttpRequest&&XMLHttpRequest.sendAsBinary||a.ArrayBuffer&&a.Uint8Array&&(a.MozBlobBuilder||a.WebKitBlobBuilder||a.BlobBuilder)))?e:f)}var c=a.screen,g=c.width||0,c=c.height||0,n=a.devicePixelRatio||1,p=(k.cookie.match(/(^|;\s+)remixmdevice=([^;]+)/)||[])[2]||"",h=p.split("/");p&&g==h[0]&&c==h[1]&&7==h[3].length||(g=[g,c,n,l()].join("/"),k.cookie="remixmdevice=; expires="+(new Date(0)).toUTCString()+"; path=/",k.cookie="remixmdevice="+g+"; expires="+(new Date((new Date).getTime()+7776E6)).toUTCString()+"; path=/; domain=.vk.com",location.replace(location.toString()))})(document,window,"undefined","!","-");!function(o,a){var e=o.hash||"",t=e.substr(2);if("#/"==e.substr(0,2)){var i=window.locDomain,n=new Date;n.setTime(n.getTime()+864e5);var r="; expires="+n.toGMTString();document.cookie=["remixtmp_hash_nav","=",o.href,r,"; path=/",i?"; domain=."+i:""].join(""),!a&&(t.match(/^\/*(away|login)(\.php)?([^a-z0-9\.]|$)/)&&(t=""),o.replace(o.protocol+"//"+o.host+"/"+t))}}(location);setTimeout(function(){!location.hash&&window.scrollTo(0,/android/i.test(navigator.userAgent)?1:0)},0);
+//-->
+</script>
+        <link type="text/css" rel="stylesheet" href="css/s_q.css?33"></link>
+<script type="text/javascript" src="js/s_z.js?2"></script>
+<link rel="manifest" href="manifest.webapp" />
+        
+            <link rel="apple-touch-icon-precomposed" type="image/png" href="images/safari_60.png?1">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="76x76" href="images/safari_76.png?1">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="120x120" href="images/safari_120.png?1">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="images/safari_152.png?1">
+      </head>
+
+      <body  class="vk__page _ivk _touch _ios _ios_11 vk_ios_yes _hfixed vk_stickers_hints_support_no opera_mini_no vk_safari_yes  vk_al_no">
+            <div class="layout">
+      
+      
+          <div class="layout__header mhead" id="vk_head">
+      <div class="hb_wrap">
+        <div class="hb_btn">&nbsp;</div>
+      </div>
+    </div>
+      <div class="layout__body " id="vk_wrap">
+        <div class="layout__leftMenu" id="l">
+          
+        </div>
+        <div class="layout__basis" id="m">
+              <div class="basis">
+      <div class="basis__header mhead" id="mhead"><a href="index.html" accesskey="*" class="hb_wrap mhb_logo">
+  <div class="hb_btn mhi_logo">&nbsp;</div>
+  <h1 class="hb_btn mh_header">&nbsp;</h1>
+</a>
+</div>
+      
+      <div class="basis__content mcont" id="mcont" data-canonical=""><div class="pcont fit_box">
+  <h4 class="sub_header">Оберіть Вашу мову</h4>
+  <div class="upanel bl_cont">
+    <div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=57" class="sel_row">
+    <div class="sel_label">Azərbaycan dili</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=69" class="sel_row">
+    <div class="sel_label">Bahasa Indonesia</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=72" class="sel_row">
+    <div class="sel_label">Bosanski</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=64" class="sel_row">
+    <div class="sel_label">Dansk</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=6" class="sel_row">
+    <div class="sel_label">Deutsch</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=22" class="sel_row">
+    <div class="sel_label">Eesti</div>
+  </a>
+</div><div class="select_item">
+  <a href="settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=3" class="sel_row">
+    <div class="sel_label">English</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=4" class="sel_row">
+    <div class="sel_label">Español</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=555" class="sel_row">
+    <div class="sel_label">Esperanto</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=16" class="sel_row">
+    <div class="sel_label">Français</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=9" class="sel_row">
+    <div class="sel_label">Hrvatski</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=7" class="sel_row">
+    <div class="sel_label">Italiano</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=379" class="sel_row">
+    <div class="sel_label">Karjalan kieli</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=95" class="sel_row">
+    <div class="sel_label">Kiswahili</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=56" class="sel_row">
+    <div class="sel_label">Latviešu</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=19" class="sel_row">
+    <div class="sel_label">Lietuvių</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=666" class="sel_row">
+    <div class="sel_label">Lingua Latina</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=10" class="sel_row">
+    <div class="sel_label">Magyar</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=270" class="sel_row">
+    <div class="sel_label">Mirandés</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=66" class="sel_row">
+    <div class="sel_label">Moldovenească</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=61" class="sel_row">
+    <div class="sel_label">Nederlands</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=55" class="sel_row">
+    <div class="sel_label">Norsk</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=65" class="sel_row">
+    <div class="sel_label">O‘zbek</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=15" class="sel_row">
+    <div class="sel_label">Polski</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=12" class="sel_row">
+    <div class="sel_label"><b>Português</b></div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=73" class="sel_row">
+    <div class="sel_label">Português brasileiro</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=54" class="sel_row">
+    <div class="sel_label">Română</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=59" class="sel_row">
+    <div class="sel_label">Shqip</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=71" class="sel_row">
+    <div class="sel_label">Slovenščina</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=5" class="sel_row">
+    <div class="sel_label">Suomi</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=60" class="sel_row">
+    <div class="sel_label">Svenska</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=79" class="sel_row">
+    <div class="sel_label">Tagalog</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=457" class="sel_row">
+    <div class="sel_label">Taqbaylit</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=75" class="sel_row">
+    <div class="sel_label">Tiếng Việt</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=373" class="sel_row">
+    <div class="sel_label">Tolışə zıvon</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=62" class="sel_row">
+    <div class="sel_label">Türkmen</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=82" class="sel_row">
+    <div class="sel_label">Türkçe</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=21" class="sel_row">
+    <div class="sel_label">Čeština</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=14" class="sel_row">
+    <div class="sel_label">Ελληνικά</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=53" class="sel_row">
+    <div class="sel_label">Slovenčina</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=106" class="sel_row">
+    <div class="sel_label">Адыгабзэ</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=102" class="sel_row">
+    <div class="sel_label">Адыгэбзэ</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=51" class="sel_row">
+    <div class="sel_label">Башҡортса</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=114" class="sel_row">
+    <div class="sel_label">Беларуская</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=2" class="sel_row">
+    <div class="sel_label">Беларуская (тарашкевiца)</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=67" class="sel_row">
+    <div class="sel_label">Буряад</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=8" class="sel_row">
+    <div class="sel_label">Български</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=100" class="sel_row">
+    <div class="sel_label">Дореволюцiонный</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=91" class="sel_row">
+    <div class="sel_label">Ирон</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=375" class="sel_row">
+    <div class="sel_label">Коми кыв</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=87" class="sel_row">
+    <div class="sel_label">Кыргыз тили</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=236" class="sel_row">
+    <div class="sel_label">Къумукъ тил</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=118" class="sel_row">
+    <div class="sel_label">Лезги чІал</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=80" class="sel_row">
+    <div class="sel_label">Монгол</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=298" class="sel_row">
+    <div class="sel_label">Русинськый</div>
+  </a>
+</div><div class="select_item">
+  <a href="settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=0" class="sel_row">
+    <div class="sel_label">Русский</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=50" class="sel_row">
+    <div class="sel_label">Татарча</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=105" class="sel_row">
+    <div class="sel_label">Саха тыла</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=777" class="sel_row">
+    <div class="sel_label">Советский</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=70" class="sel_row">
+    <div class="sel_label">Тоҷикӣ</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=344" class="sel_row">
+    <div class="sel_label">Тыва дыл</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=11" class="sel_row">
+    <div class="sel_label">Српски</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=52" class="sel_row">
+    <div class="sel_label">Чăвашла</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=101" class="sel_row">
+    <div class="sel_label">Эрзянь кель</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=357" class="sel_row">
+    <div class="sel_label">Хальмг келн</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=107" class="sel_row">
+    <div class="sel_label">Удмурт</div>
+  </a>
+</div><div class="select_item sel_selected">
+  <a href="settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=1" class="sel_row">
+    <div class="sel_label">Українська</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=454" class="sel_row">
+    <div class="sel_label">Українська (Галицка)</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=452" class="sel_row">
+    <div class="sel_label">Українська (клясична)</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=97" class="sel_row">
+    <div class="sel_label">Қазақша</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=83" class="sel_row">
+    <div class="sel_label">नेपाली</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=76" class="sel_row">
+    <div class="sel_label">हिन्दी</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=78" class="sel_row">
+    <div class="sel_label">বাংলা</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=94" class="sel_row">
+    <div class="sel_label">ಕನ್ನಡ</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=77" class="sel_row">
+    <div class="sel_label">සිංහල</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=68" class="sel_row">
+    <div class="sel_label">ภาษาไทย</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=63" class="sel_row">
+    <div class="sel_label">ქართული</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=81" class="sel_row">
+    <div class="sel_label">ဗမာစာ</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=20" class="sel_row">
+    <div class="sel_label">日本語</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=18" class="sel_row">
+    <div class="sel_label">汉语</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=119" class="sel_row">
+    <div class="sel_label">臺灣話</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=17" class="sel_row">
+    <div class="sel_label">한국어</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=376" class="sel_row">
+    <div class="sel_label">Արեւմտահայերէն</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=58" class="sel_row">
+    <div class="sel_label">Հայերեն</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=99" class="sel_row">
+    <div class="sel_label">עברית</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=85" class="sel_row">
+    <div class="sel_label">اردو</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=98" class="sel_row">
+    <div class="sel_label">العربية</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=74" class="sel_row">
+    <div class="sel_label">فارسی</div>
+  </a>
+</div><div class="select_item">
+  <a href="https://m.vk.com/settings?act=change_regional&amp;hash=2b98fc7369bb615636&amp;lang_id=90" class="sel_row">
+    <div class="sel_label">پنجابی</div>
+  </a>
+</div>
+  </div>
+</div></div>
+      
+      
+          <div class="_cntrs" style="height:0;overflow:hidden;">
+      <img width="1" height="1" src="https://counter.yadro.ru/hit?uhttps%3A%2F%2Fm.vk.com%2Fsettings%3Fact%3Dselect_lang;rhttps%3A%2F%2Fm.vk.com%2F;31186792" alt="" align="left" />
+      <img width="1" height="1" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=13765216&amp;c3=&amp;c4=https%3A%2F%2Fm.vk.com%2Fsettings%3Fact%3Dselect_lang&amp;c5=&amp;c9=https%3A%2F%2Fm.vk.com%2F&amp;c15=&amp;cv=2.0&amp;cj=1&amp;rn=31186792" alt="" align="left" />
+      
+      <img src="https://top-fwz1.mail.ru/counter?id=2579437;pid=0;r=https%3A%2F%2Fm.vk.com%2F" style="border:0;" height="1" width="1" />
+    </div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+        
+        <script type="text/javascript">
+<!--
+parent&&parent!=window&&(document.getElementsByTagName('body')[0].innerHTML='');
+//-->
+</script>
+        <div id="vk_utils"></div>
+        <div id="z"></div>
+        <div id="vk_bottom"></div>
+        
+      </body>
+    </html>

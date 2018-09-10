@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 13}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="闲来读史">
+    <meta name="sharecontent" content="一大学教授，他弃学从政数年当上总理，执政36年、身后毁誉参半">
+    <meta name="keywords" content="一大, 大学教授, 弃学, 从政, 数年, 当上, 总理, 执政, 36, 身后, 毁誉参半" />
+    <meta name="description" content="1926年，葡萄牙爆发了军事政变，军政府建立后，因对糟糕的经济束手无策，邀请大学教授萨拉查为财政部长。结果，萨拉查干了几天后，辞职回到大学继续教书，理由是掣肘太多，根本无法施展自己经济理念。军政府只好..." />
+<meta itemprop="dateUpdate" content="2018-09-10 19:48:41" />
+<meta itemprop="datePublished" content="2018-09-10 19:48:41" />    <title>一大学教授，他弃学从政数年当上总理，执政36年、身后毁誉参半-历史频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253052401_436131" />
+    <script>
+        var cfgs = {
+            channelId : '13',
+            media_id: '436131',
+            cms_id: '549093397',
+            title: '一大学教授，他弃学从政数年当上总理，执政36年、身后毁誉参半',
+            authorId : '436131',
+            path: 'null',
+            authorName : '闲来读史',
+            newsId : '253052401',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/13?_f=m-article_ch">历史</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">一大学教授，他弃学从政数年当上总理，执政36年、身后毁誉参半</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/436131">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/54bd4139efe642f59e75f543cdd86573_1483918655068"/>
+                    <div class="infos-wrapper">
+                        <header class="name">闲来读史</header>
+                        <footer class="time">
+                            09-10 19:48
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('DFA26589E1AFB7EF48DD0A592A7CA471@qq.sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>1926年，葡萄牙爆发了军事政变，军政府建立后，因对糟糕的经济束手无策，邀请大学教授萨拉查为财政部长。结果，萨拉查干了几天后，辞职回到大学继续教书，理由是掣肘太多，根本无法施展自己经济理念。军政府只好另请他人，经济形势更加恶化。两年后，无计可施的军政府再请萨拉查出山，并承诺让他独揽财政大权。萨拉查只用了一年时间，国家财政就实现了“扭亏为盈”，高超的理财能力给他带来崇高声望。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/f924d88e1ee146488e02edbb590d20fd.jpeg" max-width="600" class="content-image">
+<p>萨拉查，1889年出生于一个农村家庭，早年接受的是天主教免费教育，不过他不愿当神职人员，而是却考入了科英布拉大学，并获得了政治经济学及金融学博士学位，毕业后留校任教。作为一名大学教授，萨拉查经常发表文章抨击政府经济政策，往往能够切中肯綮，因此在经济学界颇有威望。当萨拉查被赋予财政大权后，他一面进行经济改革，另一面积极寻求政治上的权力，组建政党，逐步将由军官把持的军人政府替换为文人政府。</p>
+<p>1932年，萨拉查当上了内阁总理。他的政治手腕和经济头脑一样高明，通过调节政府、军队、教会之间的关系，将三者为自己所用，打造了一个足以压制人民力量的统治体系。面对下层民众，他采取“胡萝卜加大棒”的策略，充分利用天主教来麻痹人民，对反抗者毫不留情镇压。为巩固统治地位，他还组建秘密特务组织，专门捕捉异己政见者，压制言论自由。因为这些强硬措施，他被称为“教授独裁”。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">48</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/844695259c9342bd9e2a5b40e307f005.jpeg"></p>
+<p>不过，萨拉查是个特殊的独裁者，他把自己看成葡萄牙的“拯救者”，要努力打造自己理想中的样子。他从来不以权谋私，也从不贪污受贿，不给自己家族的人安插职务，他衣食简朴，没有特殊的嗜好，平时非常喜欢独处，终生也没有结婚。他所建立的带法西斯性质的官僚独裁体制，与当时其他独裁国家相比，显得温和多了。依靠这种特别政治体制，萨拉查得以推行自己的经济政策，葡萄牙的经济在一定程度也得以了恢复。</p>
+<p>二战时，萨拉查努力使葡萄牙保持中立地位，通过向交战双方兜售战争物资，带动葡萄牙沿海的自由港口兴盛起来。由于保持中立，葡萄牙的海外殖民地，除了帝汶岛被日本侵占外，几乎没有受到任何损失。然而二战后，很多欧洲国家自愿或被迫放弃其殖民地，萨拉查却妄想维持葡萄牙早已没落的荣光，拒绝放弃殖民地，并为维持着庞大的殖民帝国进行了长久的战争。结果，他逐渐失去了民心，尤其遭到中下级军官的反对。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/0ceb366c0c33461a8015df3b10347e77.jpeg"></p>
+<p>1968年，萨拉查因中风而无法处理国政，将权力移交给同为教授出身的卡埃塔诺，两年后病逝。在他去世4年后，葡萄牙发生了不流血的革命，他所建立的体制被推翻。时光荏苒，2007年葡萄牙举行了一个“最伟大的葡萄牙人”评选活动，萨拉查被选为第一名。有趣的是，此前刚刚结束的“最糟糕的葡萄牙人”评选中，他也高居榜首。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/55587?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">战争</a>
+            <a class="tag" href="http://m.sohu.com/tag/78057?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">教育</a>
+            <a class="tag" href="http://m.sohu.com/tag/49561?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">二战</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253052401">阅读 (<em data-state="253052401" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253052401'" :region-id="'19'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 18}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="Top Test">
+    <meta name="sharecontent" content="不只是轴距加长 测试2018款一汽-奥迪全新Q5L">
+    <meta name="keywords" content="不只是, 轴距, 加长, 测试, 2018, 一汽, 奥迪, 全新, q5l" />
+    <meta name="description" content="全新奥迪Q5L应该是一汽-奥迪今年最重要的车型了，早在年初，各种海外车展和试驾就已经将这辆车曝光无余，对于它的各种参数配置，关注者基本上也都早就了如指掌了。" />
+<meta itemprop="dateUpdate" content="2018-09-10 00:45:24" />
+<meta itemprop="datePublished" content="2018-09-10 00:45:24" />    <title>不只是轴距加长 测试2018款一汽-奥迪全新Q5L-汽车频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/252816970_430555" />
+    <script>
+        var cfgs = {
+            channelId : '18',
+            media_id: '430555',
+            cms_id: '548985069',
+            title: '不只是轴距加长 测试2018款一汽-奥迪全新Q5L',
+            authorId : '430555',
+            path: 'null',
+            authorName : 'Top Test',
+            newsId : '252816970',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.auto.sohu.com/?_f=m-article_ch">汽车</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">不只是轴距加长 测试2018款一汽-奥迪全新Q5L</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/430555">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/2cb918cdb2364106b9206e6a76fcf10e_1468805079214"/>
+                    <div class="infos-wrapper">
+                        <header class="name">Top Test</header>
+                        <footer class="time">
+                            09-10 00:45
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('shichebang@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>【搜狐汽车 Top Test】（图/文：滕飞）全新奥迪Q5L应该是一汽-奥迪今年最重要的车型了，早在年初，各种海外车展和试驾就已经将这辆车曝光无余，对于它的各种参数配置，关注者基本上也都早就了如指掌了。外观上，它改变了多处细节，比如中网和大灯，走的是最新的家族式风格，线条更加锐利。<strong>加长轴距则是奥迪国产的一贯作风，这一点毫无悬念。</strong>除了这些看得见的之外，在看不见的地方，<strong>比如底盘的调校，他们也根据中国的路况进行了改变。</strong>大家最为关注的四驱系统和变速箱，在这次测试里，我们也进行了一番体验。总的来说，这台车给人的感觉还是突出了一个稳字。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/4998616ce491405181a983d2d3175786.jpeg" max-width="600" class="content-image">
+<p>动力上，<strong>全新一代奥迪Q5L与新A4L保持一致，搭载第三代EA888 2.0T发动机</strong>，其中低功率版机型最大功率190马力，高功率版达252马力。本次测试的是搭载高功版本发动机的顶配车型。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9213d64fd1e949b6bff11cdf8c237407.jpeg" max-width="600" class="content-image">
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">84</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/a90b888ca63143e29b0b114fbc0ff107.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/8d5601c6cc7e477faeb30191f410fb80.jpeg"></p>
+<p><strong>变速箱匹配的是代号为DL382的7速湿式双离合变速箱，增加了由Luk提供的带离心摆的双质量飞轮。</strong>它允许发动机转速被下放至1000rpm区域，从而达到节省燃油的效果，且可以减轻低转速下的振动和噪音。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/a7082bceef32471ebada40f11ba2571a.jpeg"></p>
+<p>新换装的7速双离合变速箱是人们比较关注的地方，毕竟上一代的8AT大家用着比较顺手，感觉没有什么换的必要。不过在试驾过程中，<strong>由于带离心摆的双质量飞轮的加入，它开起来感觉和之前的8AT没什么区别</strong>，并没有大家担心的低速闯动发生。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/e47649479d6245648e2c43fd4d31e6fe.jpeg"></p>
+<p>另一个关注点就是它采用了新的quattro ultra四驱系统，quattro一词在意大利语就是“四”的意思。早在1980年奥迪就在日内瓦车展上亮相了搭载quattro四驱系统的双门轿车，并命名为quattro。后缀的ultra意味着该车搭载的四驱系统专注于更高的燃油经济性，而不是单纯追求车辆脱困能力。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/a59b510965e744758e353262f99baa9f.jpeg"></p>
+<p>在这台Q5L上，<strong>第六代quattro纯机械四驱系统改成了奥迪目前最新的quattro ultra电控四驱。将之前的托森式中央限滑差速器，改换为在城市SUV上常见的多片离合器式中央限滑差速器，四驱形式也由全时四驱改为适时四驱。</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/83cd801315ac4bf0b863016813507c0d.jpeg"></p>
+<p>简单来说，<strong>全新奥迪Q5L在大多数路况下，都只是辆前驱车。</strong>值得注意的是，它在<strong>右后半轴上搭载了一个牙嵌式离合器</strong>，能让传动轴和后差速器壳体在两驱模式时停止转动，以减小后轮的转动惯量——一言蔽之就是为了省油。根据厂商的说法，这套新的四驱系统能让Q5L节省约0.3L/100km的油耗。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/2e23719a771549098ad6c7ac6b6b0a0a.jpeg"></p>
+<p>另外，<strong>由于采用了传输速率更高的FlexRay总线来执掌各个主要控制系统之间的数据传输，所以它的四驱系统反应速度要比其它一些适时四驱车型反应更快。</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/2c6f8fc3bc554fdebbf68af84dd77123.jpeg"></p>
+<p>由于quattro ultra四驱系统摒弃了纯机械式的中央差速器，引入更多电控元件和电子传感器，所以这套系统其实与大多数适时四驱系统结构类似，故而它的定位并不是那些天堑，而是通途。不过它确实也具备一定的脱困能力，且更加省油。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/252ee0b7dcec47f3a265f59022380682.jpeg"></p>
+<p>而动力方面就更不用担心了，高功EA888应该是众多大众车主都比较熟悉的发动机了，就算你没开过大众车，身为热血男儿，对这台神机应该也有所耳闻。<strong>这次Q5L同样提供了驾驶模式选择</strong>，基本上，如果你想省油，就一直在舒适模式开。动力够用，在城市道路上合法的完成常规动作没问题。但你要是想来点激情，那就运动模式走起，转速会保持在更高的位置，变速箱降挡意愿更强烈，开起来更游刃有余。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/f6161a7366e44f29beb10cc440dfc059.jpeg"></p>
+<p>6.88秒的直线加速成绩也彰显了它并不是一台慢车。对于一台中型SUV来说，这个成绩很不错了，相比很多同排量的轿车都快不少。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/927b33e4d1a34910aa950bc3d17e7682.jpeg"></p>
+<p>至于<strong>针对国内情况调校后的底盘，总得来说就是比海外版Q5更软，更偏向舒适。</strong>避震从中段开始保留了韧性，用以支撑和保持车身稳定，前段调的软一些，可以过滤路面连续的波动。在绕桩时可以看出，车身姿态保持的还不错，在车内也没有明显的感觉。高速过弯时，车内乘客没有明显的抛离感。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/fecaa9431f674e34b1ac930e0f7aefd1.jpeg"></p>
+<p>不过···不知道为什么，Q5L的前排座椅为什么那么硬。坐垫摸上去硬邦邦的，坐久了屁股真有点不舒服。这么好的悬架，感觉被座椅的硬给掩盖了大部分功力。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9b7a423f659f4d3cb314d1e461742b24.jpeg"></p>
+<p><strong>外观着笔于细节处 风格更硬朗</strong></p>
+<p>全新Q5L的外观采用了奥迪最新的家族式设计风格，看上去更加硬朗精致。和上一代相比，它像是健身了一样，肌肉感更明显，线条更紧绷，完全没有赘肉。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/d6f98766df5f4d4882e399ffe37f8212.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/53d3afbf635a4d69b3ec8d0199d44990.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/622b32c601134ae4bd774e4fce1358cd.jpeg"></p>
+<p>作为一个灯厂，奥迪在车灯上绝不含糊。这款采用14组LED发光单元的矩阵式大灯采用远近光分体式结构，转向灯采用了奥迪拿手的动态扫描点亮方式。在海外版上它是选配，你得花1900欧才能给装在车上。国产以后，它出现在了顶配车型的配置表上，可谓良心。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/1fd3ae67e3c24af3aac45ec6b8d098f9.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/bf4998b72d3d4b2ab380f77d7f476dcc.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/cdf9575831a648b3a12fd6324d4c45d8.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/e281dff3c9134f198162ae27aa3a8dc3.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/32fd856d60704ea78221d8c5e30c1bce.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/3e3125b1ee3f4af38e76eae4d2b114cf.jpeg"></p>
+<p><strong>内饰与A4L如出一辙 彰显科技感</strong></p>
+<p><strong>由于同样源自MLB Evo平台，奥迪Q5L车内的大部分部件都和A4L是通用的</strong>，所以坐进去你会发现很熟悉。悬浮式中控屏同样不支持触控，平底运动方向盘充满动感，全液晶仪表盘让人啧啧称赞。质感没的说，做工也是一流。不过，这车里边的塑料是不是有点多了？这个级别车上，你不多来点皮子，是不是有点说不过去了？还有就是<strong>它和海外版不一样，虽然搭载了S-Line套件，但在内饰上并没有体现。</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/6c7482f37fb749c8a4ff9be574ef0f5c.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/a1574c6af7fb4dfd9b38675793dfecfd.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/d1842dd52e694f98b5aaf2ac28acf3dc.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/cc6fca8b346847789863b8198369290b.jpeg"></p>
+<p>温控按钮区域下方的一排银色镶边按键分别是驾驶模式选项、自动启停开关、ESP、自动泊车、前雷达、陡坡缓降等，质感出色，使用方便。由于把杯架放在了扶手箱前方，所以它不会像A4L那样，放了水瓶就挡住按钮了。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/beb553b2816744f78c050f9e79faa9e4.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9ddd9e6c551a4dc4b0939c47348c9cd9.jpeg"></p>
+<p>12.3英寸的全液晶仪表是车内最显身份的配置，基本上可以说它是同级车中最好的液晶仪表了。和海外版一样，它的地图同样也支持实时路况，海外版数据是由谷歌提供的，国产车型上目测用的是here提供的地图信息。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/6758e89afffe4544ae7978830d39156c.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9c5079537ff84bd4b6d8a5d714a79b77.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/3e4c6954b06f485cbe1a06cce48ec827.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/8fd864810c02447ea02d5091f9d232bd.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/fc1e285e82c94aba97d7cbc286bbc4e5.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/e6bd4f371d5642d28ec0cae809c56069.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9406df1d873f4807aa440977be5a9d75.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/66de095cf71449ad91d4498dd2dffa0f.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/8c7683dec05942149794e12305acea10.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/c2f00a86a62c4d7581bfcccd62bd8a87.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/1caec64be5944339889b328d022d87ac.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/b9d3be0fa6bb43ceaf2542ca0e58fa9b.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/16095cf37bdc49d494335e2c8714dde0.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/c6790ee0a3ca4d8da46bb9a17e3a0afb.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/719b13de9d204169abb43a4e26749790.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/7792ca8808c14bdd85eeb26225ebf5de.jpeg"></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/3de507b4d1ec40db801ef23428611401.jpeg"></p>
+<p><strong>总结</strong></p>
+<p>由于竞争对手宝马X3进入国内后并未加长轴距，所以对“大体格”车型充满无限渴望的国人，多数都将眼光放到了这台加长了88毫米的奥迪Q5L之上。轴距的加长对于改善后排空间是有一定的帮助，但是奥迪Q5L均衡的调校才应该是选择它的真正理由。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/66196?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">奥迪</a>
+            <a class="tag" href="http://m.sohu.com/tag/77783?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">汽车</a>
+            <a class="tag" href="http://m.sohu.com/tag/66107?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">变速箱</a>
+    </footer>
+    <section class="promotion" data-spm-acode="3416">
+        <a href="javascript:void(0)" data-uuid="" data-link="http://autoapp.auto.sohu.com/public/landing.html?from=mpnews">
+            <img class="promo-logo" src="http://statics.itc.cn/mobile/img/auto.png"/>
+            <p class="promo-title">告诉你一个秘密，想买车的人都在用搜狐汽车APP，里面有海量的汽车资讯，最全的车型库，精美的汽车图片，还有好车榜能让你更懂车哦，快去体验吧></p>
+        </a>
+    </section>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="252816970">阅读 (<em data-state="252816970" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'252816970'" :region-id="'33'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

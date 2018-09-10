@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="keywords" content="家长帮">
+    <title>家长帮-新闻列表-手机搜狐</title>
+    <script>
+        var cfgs = {
+            channel_id : '25',
+            sub_id : '1435'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch25-1435">
+    <div id="backTop">
+        <back-top :is_index="false" 
+        :addto_desktop_id="10120305" 
+        :webclip_action_id="10120369" 
+        :addto_desktop_id_ios="10120378"
+        app_down_type="msubchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../25.1">家长帮</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253096417_534145?_f=m-sub_channel_1435_feeds_1&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">还有什么比保护孩子们的梦想更重要的事情吗？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/e7d258c24e56431b91fc2bca2f6d5305.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/aba793ff337d444fbc3335d131a8aae0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/2bf009ef6ed44fef894f77152c061219.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">High-end Life</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:54</span>
+	<span class="com" data-state-loading="253096417">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253096417">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253042876_100266510?_f=m-sub_channel_1435_feeds_2&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">打造家庭学习生态，做个神助教老爸</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b6442581be71452486e88440e0cdaaa0.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0e0201d0e6ce4d86becaf09b8286bd37.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/409e88ba58ef407e9d610d35d1d22740.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">咕课教育</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:59</span>
+	<span class="com" data-state-loading="253042876">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253042876">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253018077_164605?_f=m-sub_channel_1435_feeds_3&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">二胎：才说坚决不生，怎么就反悔了？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/5d2e96724b814574918fb8fab2fe3aa4.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/e43ed0b0dab146db9774c505eb57a50a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/250acaffd86442dfb453b17ed8f3ee7c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">尹建莉父母学堂</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:14</span>
+	<span class="com" data-state-loading="253018077">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253018077">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253040588_398596?_f=m-sub_channel_1435_feeds_4&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_4" data-spm-type='content'>
+            <h4 class="feed__title">非广州户籍家长注意：如何就读公办小学?全面解读来了!</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/00b3078a1cdc4cd48a77c0d9ffec59a2.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/15fe07bce8a44026a9228eee81e9ffaf.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/69bb7ad19d8149f4a267d0d2ad6bb421.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">昇庚生活户口直通车</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:48</span>
+	<span class="com" data-state-loading="253040588">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253040588">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252984806_486999?_f=m-sub_channel_1435_feeds_5&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">孩子黏妈妈背后的情感秘密</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0dae0ecdc40143b6950f5ecfbc56fe84.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/aeda013ec7244493bf9a047b3e732b9c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/5d740835a60d4f59973eeb81201447d3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">乐贝通童忆成长</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:41</span>
+	<span class="com" data-state-loading="252984806">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252984806">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253066075_100248914?_f=m-sub_channel_1435_feeds_6&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">教师节送礼成风，家长纷纷上网求助！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/49db28f05ba749d1b455e83ba38d3b44.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/3a2ba5ab147c480b9a1d8dfee8a33806.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/41f38096df204683a1c169347aacc3b2.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">憨仔老师</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:06</span>
+	<span class="com" data-state-loading="253066075">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253066075">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252939349_100147263?_f=m-sub_channel_1435_feeds_7&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">北京一小学坚持18年教师节不收礼 引导教师&quot;拒收一枝花&quot;</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/313c6ac5172c44b79f467e435e4dc569.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/89030ff622d449c7bf39e1e15bf16ee3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/24ff696dce014aeda1217cee0e59dd7b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">郑祖伟</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 10:36</span>
+	<span class="com" data-state-loading="252939349">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252939349">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252987340_486999?_f=m-sub_channel_1435_feeds_8&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_8" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">婚姻中“指责”的毒，需要“赞美”来解！</h4>
+<footer class="feed__detail">
+		<span class="name">乐贝通童忆成长</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:55</span>
+	<span class="com" data-state-loading="252987340">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252987340">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/9d87b0a8ef034ffe846d9562cd94dff6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253030375_100072602?_f=m-sub_channel_1435_feeds_9&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_9" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">什么是亲子游学 | 西奥夫海外学院</h4>
+<footer class="feed__detail">
+		<span class="name">西奥夫</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:08</span>
+	<span class="com" data-state-loading="253030375">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253030375">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f7f7db45a78e46efba787210b2599243.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253028912_100184278?_f=m-sub_channel_1435_feeds_10&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">大数据颠覆！学习成绩好坏竟然和这些因素没关系</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/ded695a31bd7413c92403603b712af3e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/72daeaa0673140d5a8994e3b9ca1117f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/7d6c5c469f04448c8de2e40492ed7e95.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">酷哥机器人</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:56</span>
+	<span class="com" data-state-loading="253028912">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253028912">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253021363_164605?_f=m-sub_channel_1435_feeds_11&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_11" data-spm-type='content'>
+            <h4 class="feed__title">一个孩子连自己真实的感受都不敢表达！究竟谁的错？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/6cff99a67f2544298593cdbefb584eec.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/9583de9357bc4322a8b40d6fec236fdc.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/5a8d1fc22d824f639f90fdeb18d5cdf7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">尹建莉父母学堂</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:26</span>
+	<span class="com" data-state-loading="253021363">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253021363">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252920263_424554?_f=m-sub_channel_1435_feeds_12&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_12" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">老师，您辛苦了，祝您身体健康</h4>
+<footer class="feed__detail">
+		<span class="name">孙金龙家庭教育</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 09:06</span>
+	<span class="com" data-state-loading="252920263">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252920263">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/56287759318c4b0faf6c7acd8906d21a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252912090_458471?_f=m-sub_channel_1435_feeds_13&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_13" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">张家界公交车司机捡到7800元，换得一张纸条，媒体报道后他成网红</h4>
+<footer class="feed__detail">
+		<span class="name">广西游仔</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 08:14</span>
+	<span class="com" data-state-loading="252912090">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252912090">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b4b92e335066457b8e020a8f15dd2fba.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252865172_616577?_f=m-sub_channel_1435_feeds_14&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_14" data-spm-type='content'>
+            <h4 class="feed__title">钢管舞到00后妈妈,我们在给孩子看什么?</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/d5133a31f7a543f2b15cea8ad260eafa.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/dd3edd46b9774800aaebcc81f6d95b8e.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/73e51c06e8454e19ba0c1d12f15d6f9e.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">世界华人周刊</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 20:50</span>
+	<span class="com" data-state-loading="252865172">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252865172">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252338682_569317?_f=m-sub_channel_1435_feeds_15&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_15" data-spm-type='content'>
+            <h4 class="feed__title">李镇西：我的中学时代——教师节感念师恩之二</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180906/3ec1504fb0f744ed96a042aabff32d4d.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180906/fd673ec6c1dc47968818b9869ab4862b.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180906/72a68276713341f8a3f7faa2844c4e63.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">升学帮</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 22:47</span>
+	<span class="com" data-state-loading="252338682">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252338682">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252762394_627211?_f=m-sub_channel_1435_feeds_16&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">予人所需，取己之需；虑人所虑，解己之虑。</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/f6b4304871bb427e8a8a3a06fe459384.png" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/4c57cc3cb2a447c5817f26c9459c96cd.png" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180909/477e59c68ccd40ceb3669388bf4b7e68.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">诺亚方舟心理</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 01:32</span>
+	<span class="com" data-state-loading="252762394">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252762394">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252657875_486999?_f=m-sub_channel_1435_feeds_17&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">家长群变为攀比群、马屁群？家长老师这样沟通才安全……</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180908/dd2c0eee9e7e4d2c98348ea2c248e85d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180908/7e558e7bea5d4128a6c3c680c8a74691.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180908/cacddd0773c54bb9a257c2d2db3af1e2.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">乐贝通童忆成长</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 11:06</span>
+	<span class="com" data-state-loading="252657875">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252657875">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252561043_164605?_f=m-sub_channel_1435_feeds_18&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_18" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">不要否定孩子的写作，一次都不要</h4>
+<footer class="feed__detail">
+		<span class="name">尹建莉父母学堂</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 07:35</span>
+	<span class="com" data-state-loading="252561043">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252561043">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/fe914ce496254dc1b6fef1e82f454e49.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252564685_164605?_f=m-sub_channel_1435_feeds_19&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">让孩子懂事，是种残忍的教养</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/304354c706fd4cd9886da918bfcdb07b.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/38f51bcab85a475e92d32b097f1a6382.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/820152885fa84d52a7e6f8005e3ab50a.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">尹建莉父母学堂</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 07:30</span>
+	<span class="com" data-state-loading="252564685">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252564685">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252573830_569317?_f=m-sub_channel_1435_feeds_20&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1435_feeds_20" data-spm-type='content'>
+            <h4 class="feed__title">喝了碗汤，一家3口中毒！明明用土法验过毒，还是出事了！医生：荒唐</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/8bd285129a2b46158c6d1d48adba2ac7.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/5b20606cacad437ca55475aeb022b31b.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/b5424888f738449cb4e6487040279f54.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">升学帮</span>
+		<span class="dot">·</span>
+	<span class="time">09-07 21:46</span>
+	<span class="com" data-state-loading="252573830">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252573830">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+	<feed-list :is_server="true" :sub_id="'1435'" @load_more="addExpose"></feed-list>
+</div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channelSub(cfgs);
+    </script>
+</body>
+</html>

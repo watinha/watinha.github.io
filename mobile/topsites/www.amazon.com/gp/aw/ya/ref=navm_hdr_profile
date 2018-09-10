@@ -1,0 +1,3380 @@
+
+
+
+<!doctype html><html class="a-no-js a-touch a-mobile" data-19ax5a9jf="mongoose">
+  <head>
+<script type='text/javascript'>var ue_t0=ue_t0||+new Date();</script>
+<script type='text/javascript'>
+window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1;
+if (window.ue_ihb === 1) {
+
+var ue_csm = window,
+    ue_hob = +new Date();
+(function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Date};e.d=function(b){return f()-(b?0:d.ue_t0)};e.stub=function(b,a){if(!b[a]){var c=[];b[a]=function(){c.push([c.slice.call(arguments),e.d(),d.ue_id])};b[a].replay=function(b){for(var a;a=c.shift();)b(a[0],a[1],a[2])};b[a].isStub=1}};e.exec=function(b,a){return function(){if(1==window.ueinit)try{return b.apply(this,arguments)}catch(c){ueLogError(c,{attribution:a||"undefined",logLevel:"WARN"})}}}})(ue_csm);
+
+
+    var ue_err_chan = 'jserr-rw';
+(function(d,e){function h(f,b){if(!(a.ec>a.mxe)&&f){a.ter.push(f);b=b||{};var c=f.logLevel||b.logLevel;c&&c!==k&&c!==m&&c!==n&&c!==p||a.ec++;c&&c!=k||a.ecf++;b.pageURL=""+(e.location?e.location.href:"");b.logLevel=c;b.attribution=f.attribution||b.attribution;a.erl.push({ex:f,info:b})}}function l(a,b,c,e,g){d.ueLogError({m:a,f:b,l:c,c:""+e,err:g,fromOnError:1,args:arguments},g?{attribution:g.attribution,logLevel:g.logLevel}:void 0);return!1}var k="FATAL",m="ERROR",n="WARN",p="DOWNGRADED",a={ec:0,ecf:0,
+pec:0,ts:0,erl:[],ter:[],mxe:50,startTimer:function(){a.ts++;setInterval(function(){d.ue&&a.pec<a.ec&&d.uex("at");a.pec=a.ec},1E4)}};l.skipTrace=1;h.skipTrace=1;h.isStub=1;d.ueLogError=h;d.ue_err=a;e.onerror=l})(ue_csm,window);
+
+
+var ue_id = '54Q47YSV0WJ99KXHD3PD',
+    ue_url = '/ap/uedata',
+    ue_navtiming = 1,
+    ue_mid = 'ATVPDKIKX0DER',
+    ue_sid = '134-2821069-4911223',
+    ue_sn = 'www.amazon.com',
+    ue_furl = 'fls-na.amazon.com',
+    ue_surl = 'https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod',
+    ue_int = 0,
+    ue_fcsn = 1,
+    ue_urt = 3,
+    ue_rpl_ns = 'cel-rpl',
+    ue_ddq = 1,
+    ue_fpf = '//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:134-2821069-4911223:54Q47YSV0WJ99KXHD3PD$uedata=s:',
+    ue_mcimp = 0,
+
+    ue_swi = 1;
+function ue_viz(){(function(c,e,a){function k(b){if(c.ue.viz.length<p&&!l){var a=b.type;b=b.originalEvent;/^focus./.test(a)&&b&&(b.toElement||b.fromElement||b.relatedTarget)||(a=e[m]||("blur"==a||"focusout"==a?"hidden":"visible"),c.ue.viz.push(a+":"+(+new Date-c.ue.t0)),"visible"==a&&(ue.isl&&uex("at"),l=1))}}for(var l=0,f,g,m,n=["","webkit","o","ms","moz"],d=0,p=20,h=0;h<n.length&&!d;h++)if(a=n[h],f=(a?a+"H":"h")+"idden",d="boolean"==typeof e[f])g=a+"visibilitychange",m=(a?a+"V":"v")+"isibilityState";
+k({});d&&e.addEventListener(g,k,0);c.ue&&d&&(c.ue.pageViz={event:g,propHid:f})})(ue_csm,document,window)};
+
+(function(a,g,D){function w(a){return a&&a.replace&&a.replace(/^\s+|\s+$/g,"")}function q(a){return"undefined"===typeof a}function r(d,c,b,h){var g=h||+new Date,m;a.ueam&&a.ueam(c,d,h);if(c||q(b)){if(d)for(m in h=c?f("t",c)||f("t",c,{}):a.ue.t,h[d]=g,b)b.hasOwnProperty(m)&&f(m,c,b[m]);return g}}function f(d,c,b){var f=a.ue,g=c&&c!=f.id?f.sc[c]:f;g||(g=f.sc[c]={});"id"==d&&b&&(f.cfa2=1);return g[d]=b||g[d]}function x(d,c,b,f,g){b="on"+b;var m=c[b];"function"===typeof m?d&&(a.ue.h[d]=m):m=function(){};
+c[b]=g?function(a){f(a);m(a)}:function(a){m(a);f(a)};c[b]&&(c[b].isUeh=1)}function A(d,c,b){function h(c,b){var e=[c],E=0,g={},m,h;b?(e.push("m=1"),g[b]=1):g=a.ue.sc;for(h in g)if(g.hasOwnProperty(h)){var k=f("wb",h),l=f("t",h)||{},p=f("t0",h)||a.ue.t0,n;if(b||2==k){k=k?E++:"";e.push("sc"+k+"="+h);for(n in l)3>=n.length&&!q(l[n])&&null!==l[n]&&e.push(n+k+"="+(l[n]-p));e.push("t"+k+"="+l[d]);if(f("ctb",h)||f("wb",h))m=1}}!y&&m&&e.push("ctb=1");return e.join("&")}function z(c,b,e,d){if(c){var f=a.ue_err,
+h;a.ue_url&&(!d||!a.ue.log)&&c&&0<c.length&&(h=new Image,a.ue.iel.push(h),h.src=c);F?a.ue_fpf&&g.encodeURIComponent&&c&&(d=new Image,c=""+a.ue_fpf+g.encodeURIComponent(c)+":"+(+new Date-a.ue_t0),a.ue.iel.push(d),d.src=c):a.ue.log&&(h=g.chrome&&"ul"==b,a.ue.log(c,"uedata",a.ue_svi?{n:1,img:!d&&h?1:0}:{n:1}),a.ue.ielf.push(c));f&&!f.ts&&f.startTimer();a.ue.b&&(f=a.ue.b,a.ue.b="",z(f,b,e,1))}}function m(c){if(!ue.collected){var b=c.timing,e=c.navigation,d=ue.t;b&&(d.na_=b.navigationStart,d.ul_=b.unloadEventStart,
+d._ul=b.unloadEventEnd,d.rd_=b.redirectStart,d._rd=b.redirectEnd,d.fe_=b.fetchStart,d.lk_=b.domainLookupStart,d._lk=b.domainLookupEnd,d.co_=b.connectStart,d._co=b.connectEnd,d.sc_=b.secureConnectionStart,d.rq_=b.requestStart,d.rs_=b.responseStart,d._rs=b.responseEnd,d.dl_=b.domLoading,d.di_=b.domInteractive,d.de_=b.domContentLoadedEventStart,d._de=b.domContentLoadedEventEnd,d._dc=b.domComplete,d.ld_=b.loadEventStart,d._ld=b.loadEventEnd,b=d.na_,c="function"!==typeof c.now||q(b)?0:new Date(b+c.now())-
+new Date,d.ntd=c+a.ue.t0);e&&(d.ty=e.type+a.ue.t0,d.rc=e.redirectCount+a.ue.t0);ue.collected=1}}function t(b){var c=n&&n.navigation?n.navigation.type:v,d=c&&2!=c,e=a.ue.bfini;a.ue.cfa2||(e&&1<e&&(b+="&bfform=1",d||(a.ue.isBFT=e-1)),2==c&&(b+="&bfnt=1",a.ue.isBFT=a.ue.isBFT||1),a.ue.ssw&&a.ue.isBFT&&(q(a.ue.isNRBF)&&(c=a.ue.ssw(a.ue.oid),c.e||q(c.val)||(a.ue.isNRBF=1<c.val?0:1)),q(a.ue.isNRBF)||(b+="&nrbf="+a.ue.isNRBF)),a.ue.isBFT&&!a.ue.isNRBF&&(b+="&bft="+a.ue.isBFT));return b}if(c||q(b)){for(var l in b)b.hasOwnProperty(l)&&
+f(l,c,b[l]);r("pc",c,b);l=f("id",c)||a.ue.id;var e=a.ue.url+"?"+d+"&v="+a.ue.v+"&id="+l,y=f("ctb",c)||f("wb",c),n=g.performance||g.webkitPerformance,k,p;y&&(e+="&ctb="+y);1<a.ueinit&&(e+="&ic="+a.ueinit);!a.ue._fi||"at"!=d||c&&c!=l||(e+=a.ue._fi());if(!("ld"!=d&&"ul"!=d||c&&c!=l)){if("ld"==d){try{g.onbeforeunload&&g.onbeforeunload.isUeh&&(g.onbeforeunload=null)}catch(x){}if(g.chrome)for(p=0;p<ue.ulh.length;p++)B("beforeunload",ue.ulh[p]);(p=D.ue_backdetect)&&p.ue_back&&p.ue_back.value++;a._uess&&
+(k=a._uess());a.ue.isl=1}ue._bf&&(e+="&bf="+ue._bf());a.ue_navtiming&&n&&n.timing&&(f("ctb",l,"1"),1==a.ue_navtiming&&r("tc",v,v,n.timing.navigationStart));n&&m(n);a.ue.t.hob=a.ue_hob;a.ue.t.hoe=a.ue_hoe;a.ue.ifr&&(e+="&ifr=1")}r(d,c,b);b="ld"==d&&c&&f("wb",c);var u;b||c&&c!==l||G(c);b||l==a.ue.oid||H((f("t",c)||{}).tc||+f("t0",c),+f("t0",c));a.ue_mbl&&a.ue_mbl.cnt&&!b&&(e+=a.ue_mbl.cnt());b?f("wb",c,2):"ld"==d&&(s.lid=w(l));for(u in a.ue.sc)if(1==f("wb",u))break;if(b){if(a.ue.s)return;e=h(e,null)}else p=
+h(e,null),p!=e&&(p=t(p),a.ue.b=p),k&&(e+=k),e=h(e,c||a.ue.id);e=t(e);if(a.ue.b||b)for(u in a.ue.sc)2==f("wb",u)&&delete a.ue.sc[u];k=0;ue._rt&&(e+="&rt="+ue._rt());b||(a.ue.s=0,(k=a.ue_err)&&0<k.ec&&k.pec<k.ec&&(k.pec=k.ec,e+="&ec="+k.ec+"&ecf="+k.ecf),k=f("ctb",c),f("t",c,{}));e&&a.ue.tag&&0<a.ue.tag().length&&(e+="&csmtags="+a.ue.tag().join("|"),a.ue.tag=a.ue.tagC());e&&a.ue.viz&&0<a.ue.viz.length&&(e+="&viz="+a.ue.viz.join("|"),a.ue.viz=[]);e&&!q(a.ue_pty)&&(e+="&pty="+a.ue_pty+"&spty="+a.ue_spty+
+"&pti="+a.ue_pti);e&&a.ue.tabid&&(e+="&tid="+a.ue.tabid);e&&a.ue.aftb&&(e+="&aftb=1");e&&a.ue.sbf&&(e+="&sbf=1");!a.ue._ui||c&&c!=l||(e+=a.ue._ui());a.ue.a=e;z(e,d,k,b)}}function G(a){var c=g.ue_csm_markers||{},b;for(b in c)c.hasOwnProperty(b)&&r(b,a,v,c[b])}function t(d,c,b){b=b||g;a.ue_pel&&window.EventTarget&&window.EventTarget.prototype&&window.EventTarget.prototype.addEventListener?window.EventTarget.prototype.addEventListener.call(b,d,c,!!window.ue_clf):b.addEventListener?b.addEventListener(d,
+c,!!window.ue_clf):b.attachEvent&&b.attachEvent("on"+d,c)}function B(d,c,b){b=b||g;a.ue_pel&&window.EventTarget&&window.EventTarget.prototype&&window.EventTarget.prototype.removeEventListener?window.EventTarget.prototype.removeEventListener.call(b,d,c,!!window.ue_clf):b.removeEventListener?b.removeEventListener(d,c,!!window.ue_clf):b.detachEvent&&b.detachEvent("on"+d,c)}function C(){function d(){a.onUl()}function c(a){return function(){b[a]||(b[a]=1,A(a))}}var b=a.ue.r,f,q;a.onLd=c("ld");a.onLdEnd=
+c("ld");a.onUl=c("ul");f={stop:c("os")};g.chrome?(t("beforeunload",d),ue.ulh.push(d)):f[I]=a.onUl;for(q in f)f.hasOwnProperty(q)&&x(0,g,q,f[q]);a.ue_viz&&ue_viz();t("load",a.onLd);r("ue")}function H(d,c){a.ue_mbl&&a.ue_mbl.ajax&&a.ue_mbl.ajax(d,c);a.ue.tag("ajax-transition")}a.ueinit=(a.ueinit||0)+1;var s={t0:g.aPageStart||a.ue_t0,id:a.ue_id,url:a.ue_url,rid:a.ue_id,a:"",b:"",h:{},r:{ld:0,oe:0,ul:0},s:1,t:{},sc:{},iel:[],ielf:[],fc_idx:{},viz:[],v:"0.201591.0",d:a.ue&&a.ue.d,log:a.ue&&a.ue.log,clog:a.ue&&
+a.ue.clog,onflush:a.ue&&a.ue.onflush,onunload:a.ue&&a.ue.onunload,stub:a.ue&&a.ue.stub,lr:a.ue&&a.ue.lr,exec:a.ue&&a.ue.exec,event:a.ue&&a.ue.event,onSushiUnload:a.ue&&a.ue.onSushiUnload,onSushiFlush:a.ue&&a.ue.onSushiFlush,ulh:[],cfa2:0},F=a.ue_fpf?1:0,I="beforeunload",v;s.oid=w(s.id);s.lid=w(s.id);a.ue=s;a.ue._t0=a.ue.t0;a.ue.tagC=function(){var a={};return function(c){c&&(a[c]=1);c=[];for(var b in a)a.hasOwnProperty(b)&&c.push(b);return c}};a.ue.tag=a.ue.tagC();a.ue.ifr=g.top!==g.self||g.frameElement?
+1:0;ue.attach=t;ue.detach=B;ue.reset=function(d,c){d&&(a.ue_cel&&a.ue_cel.reset(),a.ue.t0=+new Date,a.ue.rid=d,a.ue.id=d,a.ue.fc_idx={},a.ue.viz=[])};a.uei=C;a.ueh=x;a.ues=f;a.uet=r;a.uex=A;C()})(ue_csm,window,ue_csm.document);
+
+
+ue.stub(ue,"log");ue.stub(ue,"onunload");ue.stub(ue,"onflush");
+(function(b){var a=b.ue;a.cv={};a.cv.scopes={};a.count=function(c,b,d){var e={},f=a.cv;e.counter=c;e.value=b;e.t=a.d();d&&d.scope&&(f=a.cv.scopes[d.scope]=a.cv.scopes[d.scope]||{},e.scope=d.scope);if(void 0===b)return f[c];f[c]=b;c=0;d&&d.bf&&(c=1);!ue_csm.ue_sclog&&a.clog&&0===c?a.clog(e,"csmcount",{bf:c}):a.log&&a.log(e,"csmcount",{c:1,bf:c})};a.count("baselineCounter2",1);a&&a.event&&(a.event({requestId:b.ue_id||"rid",server:b.ue_sn||"sn",obfuscatedMarketplaceId:b.ue_mid||"mid"},"csm","csm.CSMBaselineEvent.4"),
+a.count("nexusBaselineCounter",1,{bf:1}))})(ue_csm);
+
+
+(function(g,h,m){var l,n,u,p,f,v,q,r,w,x=["mouseenter","mouseleave"],y="click dblclick mousedown mouseover mouseout touchstart keydown keypress MSPointerDown pointerdown".split(" ").concat(x),s=!1,t=[];"function"===typeof h.addEventListener&&"function"===typeof m.querySelectorAll&&(p=function(a){for(var c=[];a;)c.push(a),a=a.parentNode;return c},n=function(a,c){var b=-1,d;for(d=0;d<c.length;d++)if(c[d]===a){b=d;break}return b},r=function(a,c){var b=n(a,c);0<=b&&c.splice(b,1)},u=function(a){var c;
+a=p(a);for(var b,d,e=0;e<a.length;e++)if(d=a[e],(b=d.nodeName)&&b!==m.nodeName){b=b.toLowerCase();if(d.id)return b+"#"+d.id+(c?">"+c:"");(d=d.getAttribute("class"))&&(b=b+"."+d.split(" ").join("."));c=b+(c?">"+c:"")}return c},w=function(a){return a.replace(/[^\w.:\-]/g,function(a){return"#"===a?"::":">"===a?":-":"_"})},q=function(a,c){var b,d,e;if(g.ue&&g.ue.count&&g.ueLogError)for(b=u(a),e=w(b),d="degraded"===c?"A UX degrading element has entered the viewport: "+b:"A "+c+" was not handled on element: "+
+b,g.ueLogError({m:d,fromOnError:1},{logLevel:"ERROR",attribution:b,message:d}),b=["TNR","TNR:"+c,"TNR:"+e,"TNR:"+c+":"+e],f=0;f<b.length;f++)g.ue.count(b[f],(g.ue.count(b[f])||0)+1)},v=function(a){a=a.getBoundingClientRect();return a.top<a.bottom&&a.left<a.right&&0<=a.bottom&&a.top<=h.innerHeight&&0<=a.right&&a.left<=h.innerWidth},l=function(){s||(s=!0,setTimeout(function(){[].forEach.call(m.querySelectorAll("[data-ux-degraded]"),function(a){v(a)?0>n(a,t)&&(t.push(a),q(a,"degraded")):r(a,t)});s=!1},
+250))},h.addEventListener("scroll",l),h.addEventListener("resize",l));l=function(a){var c=!1,b=0>n(a,x);m.addEventListener(a,function(d){if(!c){c=!0;var e=[],f=b?p(d.target):[d.target],k,g,h;for(g=0;g<f.length;g++)k=f[g],k.getAttribute&&("mouseover"===a&&k===d.target&&((h=k.getAttribute("data-ux-jq-mouseenter"))||""===h)&&e.push(k),((h=k.getAttribute("data-ux-"+a))||""===h)&&e.push(k));e.length?(d.ack=d.acknowledge=function(a){a=a||d.currentTarget;r(a,e)},setTimeout(function(){var b;for(b=0;b<e.length;b++)q(e[b],
+a);c=!1},250)):c=!1}},!0)};for(f=0;f<y.length;f++)l(y[f])})(ue_csm,window,document);
+
+
+var ue_hoe = +new Date();
+}
+window.ueinit = window.ue_ihb;
+</script>
+
+<!-- 211b2 --><script>var aPageStart = (new Date()).getTime();</script><meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1, user-scalable=no, shrink-to-fit=no"><meta charset="utf-8">
+    <title dir="ltr">Amazon Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    
+      
+      
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/611bmIzQWcL._RC|11iHkiAT2oL.css,01wLsDqViEL.css,11YRQRZ3riL.css,31JhtlVsImL.css,31CbeTPAj0L.css,01DHz7m6lhL.css_.css#AUIClients/AmazonUI.min" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/01SdjaY0ZsL._RC|413IJ+PbX0L.css,21FwP-8TvpL.css_.css#AUIClients/AuthenticationPortalAssets.debug.device_type-mobile.secure-true.min" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/CVFAssets-807886b3afc932f042672cf115a85b51c30a5ed4._V2_.css#AUIClients/CVFAssets.debug.device_type-mobile.secure-true.min" />
+<script>
+(function(g,h,K,la){function V(a){t&&t.tag&&t.tag(q(":","aui",a))}function v(a,b){t&&t.count&&t.count("aui:"+a,0===b?0:b||(t.count("aui:"+a)||0)+1)}function m(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function w(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function q(a,b,c,e){b=b&&c?b+a+c:b||c;return e?q(a,b,e):b}function B(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(e){a[b]=c}return c}function L(){return setTimeout(W,
+0)}function ma(a,b){var c=a.length,e=c,f=function(){e--||(M.push(b),N||(L(),N=!0))};for(f();c--;)X[a[c]]?f():(x[a[c]]=x[a[c]]||[]).push(f)}function na(a,b,c,e,f){var d=h.createElement(a?"script":"link");w(d,"error",e);f&&w(d,"load",f);if(a){d.type="text/javascript";d.async=!0;if(a=c)a=-1!==b.indexOf("images/I")||/AUIClients/.test(b);a&&d.setAttribute("crossorigin","anonymous");d.src=b}else d.rel="stylesheet",d.href=b;h.getElementsByTagName("head")[0].appendChild(d)}function Y(a,b){function c(c,e){function f(){na(b,
+c,h,function(b){!C&&h?(h=!1,v("resource_retry"),f()):(v("resource_error"),a.log("Asset failed to load: "+c,C?"WARN":void 0));b&&b.stopPropagation?b.stopPropagation():g.event&&(g.event.cancelBubble=!0)},e)}if(Z[c])return!1;Z[c]=!0;v("resource_count");var h=!0;return!f()}if(b){var e=0,f=0;c.andConfirm=function(a,b){return c(a,function(){e++;b&&b.apply(this,arguments)})};c.confirm=function(){f++};c.getCsriCounters=function(){return{reqs:e,full:f}}}return c}function oa(a,b,c){for(var e={name:a,guard:function(c){return b.guardFatal(a,
+c)},logError:function(c,d,e){b.logError(c,d,e,a)}},f=[],d=0;d<c.length;d++)D.hasOwnProperty(c[d])&&(f[d]=O.hasOwnProperty(c[d])?O[c[d]](D[c[d]],e):D[c[d]]);return f}function y(a,b,c,e,f){return function(d,h){function l(){var a=null;e?a=h:"function"===typeof h&&(p.start=z(),a=h.apply(g,oa(d,k,m)),p.end=z());if(b){D[d]=a;a=d;for(X[a]=!0;(x[a]||[]).length;)x[a].shift()();delete x[a]}p.done=!0}var k=f||this;"function"===typeof d&&(h=d,d=void 0);b&&(d=(d||"__NONAME__").replace(/^prv:/,""),P.hasOwnProperty(d)&&
+k.error(q(", reregistered by ",q(" by ",d+" already registered",P[d]),k.attribution),d),P[d]=k.attribution);for(var m=[],n=0;n<a.length;n++)m[n]=a[n].replace(/^prv:/,"");var p=aa[d||"anon"+ ++pa]={depend:m,registered:z(),namespace:k.namespace};c?l():ma(m,k.guardFatal(d,l));return{decorate:function(a){O[d]=k.guardFatal(d,a)}}}}function ba(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:y(b,!1,a,!1,this),register:y(b,!0,a,!1,this)}}}function Q(a,b){return function(c,
+e){e||(e=c,c=void 0);var f=this.attribution;return function(){u.push(b||{attribution:f,name:c,logLevel:a});var d=e.apply(this,arguments);u.pop();return d}}}function E(a,b){this.load={js:Y(this,!0),css:Y(this)};B(this,"namespace",b);B(this,"attribution",a)}function ca(){h.body?n.trigger("a-bodyBegin"):setTimeout(ca,20)}function A(a,b){if(b){for(var c=a.className.split(" "),e=c.length;e--;)if(c[e]===b)return;a.className+=" "+b}}function da(a,b){for(var c=a.className.split(" "),e=[],f;void 0!==(f=c.pop());)f&&
+f!==b&&e.push(f);a.className=e.join(" ")}function ea(a){try{return a()}catch(b){return!1}}function F(){if(G){var a=g.innerWidth?{w:g.innerWidth,h:g.innerHeight}:{w:k.clientWidth,h:k.clientHeight};5<Math.abs(a.w-R.w)||50<a.h-R.h?(R=a,H=4,(a=l.mobile||l.tablet?450<a.w&&a.w>a.h:1250<=a.w)?A(k,"a-ws"):da(k,"a-ws")):0<H&&(H--,fa=setTimeout(F,16))}}function qa(a){(G=void 0===a?!G:!!a)&&F()}function ra(){return G}"use strict";var I=K.now=K.now||function(){return+new K},z=function(a){return a&&a.now?a.now.bind(a):
+I}(g.performance);la=z();var p=g.AmazonUIPageJS||g.P;if(p&&p.when&&p.register)throw Error("A copy of P has already been loaded on this page.");var t=g.ue;V();V("aui_build_date:3.18.12-2018-08-28");var M=[],N=!1,W;W=function(){for(var a=L(),b=I();M.length;)if(M.shift()(),50<I()-b)return;clearTimeout(a);N=!1};m(/OS 6_[0-9]+ like Mac OS X/i)&&w(g,"scroll",L);var X={},x={},Z={},C=!1;w(g,"beforeunload",function(){C=!0;setTimeout(function(){C=!1},1E4)});var P={},D={},O={},aa={},pa=0,S,u=[],ga=g.onerror;
+g.onerror=function(a,b,c,e,f){f&&"object"===typeof f||(f=Error(a,b,c),f.columnNumber=e,f.stack=b||c||e?q(String.fromCharCode(92),f.message,"at "+q(":",b,c,e)):void 0);var d=u.pop()||{};f.attribution=q(":",f.attribution||d.attribution,d.name);f.logLevel=d.logLevel;f.attribution&&console&&console.log&&console.log([f.logLevel||"ERROR",a,"thrown by",f.attribution].join(" "));u=[];ga&&(d=[].slice.call(arguments),d[4]=f,ga.apply(g,d))};E.prototype={logError:function(a,b,c,e){b={message:b,logLevel:c||"ERROR",
+attribution:q(":",this.attribution,e)};if(g.ueLogError)return g.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,e){a=Error(q(":",e,a,c));a.attribution=q(":",this.attribution,b);throw a;},guardError:Q(),guardFatal:Q("FATAL"),guardCurrent:function(a){var b=u[u.length-1];return b?Q(b.logLevel,b).call(this,a):a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:y([],!0,!0,!0),register:y([],!0),execute:y([]),AUI_BUILD_DATE:"3.18.12-2018-08-28",
+when:ba(),now:ba(!0),trigger:function(a,b,c){var e=I();this.declare(a,{data:b,pageElapsedTime:e-(g.aPageStart||NaN),triggerTime:e});c&&c.instrument&&S.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new E(a)},_namespace:function(a,b){return new E(a,b)}};var n=B(g,"AmazonUIPageJS",new E);S=n._namespace("PageJS","AmazonUI");S.declare("prv:p-debug",aa);n.declare("p-recorder-events",[]);n.declare("p-recorder-stop",
+function(){});B(g,"P",n);ca();if(h.addEventListener){var ha;h.addEventListener("DOMContentLoaded",ha=function(){n.trigger("a-domready");h.removeEventListener("DOMContentLoaded",ha,!1)},!1)}var k=h.documentElement,T=function(){var a=["O","ms","Moz","Webkit"],b=h.createElement("div");return{testGradients:function(){b.style.cssText="background-image:-webkit-gradient(linear,left top,right bottom,from(#9f9),to(white));background-image:-webkit-linear-gradient(left top,#9f9,white);background-image:linear-gradient(left top,#9f9,white);";
+return-1<b.style.backgroundImage.indexOf("gradient")},test:function(c){var e=c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(e+" ")+e+" "+c).split(" ");for(e=c.length;e--;)if(""===b.style[c[e]])return!0;return!1},testTransform3d:function(){var a=!1;g.matchMedia&&(a=g.matchMedia("(-webkit-transform-3d)").matches);return a}}}(),p=k.className,ia=/(^| )a-mobile( |$)/.test(p),ja=/(^| )a-tablet( |$)/.test(p),l={audio:function(){return!!h.createElement("audio").canPlayType},video:function(){return!!h.createElement("video").canPlayType},
+canvas:function(){return!!h.createElement("canvas").getContext},svg:function(){return!!h.createElementNS&&!!h.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in h.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!g.history||!g.history.pushState)},webworker:function(){return!!g.Worker},
+autofocus:function(){return"autofocus"in h.createElement("input")},inputPlaceholder:function(){return"placeholder"in h.createElement("input")},textareaPlaceholder:function(){return"placeholder"in h.createElement("textarea")},localStorage:function(){return"localStorage"in g&&null!==g.localStorage},orientation:function(){return"orientation"in g},touch:function(){return"ontouchend"in h},gradients:function(){return T.testGradients()},hires:function(){var a=g.devicePixelRatio&&1.5<=g.devicePixelRatio||
+g.matchMedia&&g.matchMedia("(min-resolution:144dpi)").matches;v("hiRes"+(ia?"Mobile":ja?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return T.testTransform3d()},touchScrolling:function(){return m(/Windowshop|android.([3-9]|[L-Z])|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},ios:function(){return m(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!m(/trident|Edge/i)},android:function(){return m(/android.([1-9]|[L-Z])/i)&&!m(/trident|Edge/i)},
+mobile:function(){return ia},tablet:function(){return ja}},r;for(r in l)l.hasOwnProperty(r)&&(l[r]=ea(l[r]));for(var U="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),J=0;J<U.length;J++)l[U[J]]=ea(function(){return T.test(U[J])});var G=!0,fa=0,R={w:0,h:0},H=4;F();w(g,"resize",function(){clearTimeout(fa);H=4;F()});var ka={getItem:function(a){try{return g.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return g.localStorage.setItem(a,
+b)}catch(c){}}};da(k,"a-no-js");A(k,"a-js");!m(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||g.navigator.standalone||m(/safari/i)||A(k,"a-ember");p=[];for(r in l)l.hasOwnProperty(r)&&l[r]&&p.push("a-"+r.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));A(k,p.join(" "));k.setAttribute("data-aui-build-date","3.18.12-2018-08-28");n.register("p-detect",function(){return{capabilities:l,localStorage:l.localStorage&&ka,toggleResponsiveGrid:qa,responsiveGridEnabled:ra}});m(/UCBrowser/i)||l.localStorage&&
+A(k,ka.getItem("a-font-class"));n.declare("a-event-revised-handling",!1);n.declare("a-fix-event-off",!1);v("pagejs:pkgExecTime",z()-NaN)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/61ea4y7yPdL._RC|11IYhapguOL.js,61NWAQ0LciL.js,31fv8bqHLoL.js,31f4+QIEeqL.js,319DotbLfhL.js,51ac7ZDYV+L.js,01qkmZhGmAL.js,31GKacHgi2L.js,61eghFk5dUL.js,31yPmSSpnoL.js_.js#AUIClients/AmazonUI.min');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/21vfT2Nk71L._RC|211EUFpgkFL.js,21iupLBtpBL.js,31cUg-H1r+L.js,21jcP0X3W6L.js,01NWclkFp0L.js,511rfWeXpgL.js_.js#AUIClients/AuthenticationPortalAssets.debug.device_type-mobile.secure-true.min');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AuthenticationPortalInlineAssets-a1df4a7938ca7f9e8fd75772fbc27c1b97cd0314._V2_.js#AUIClients/AuthenticationPortalInlineAssets.debug.secure-true.min');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/CVFAssets-112cbfeac441343fabda52fa1bfbd188383ac19a._V2_.js#AUIClients/CVFAssets.debug.device_type-mobile.secure-true.min');
+</script>
+
+      
+    
+  <script type='text/javascript'>
+window.ue_ihe = (window.ue_ihe || 0) + 1;
+if (window.ue_ihe === 1) {
+(function(e,c){function h(b,a){f.push([b,a])}function g(b,a){if(b){var c=e.head||e.getElementsByTagName("head")[0]||e.documentElement,d=e.createElement("script");d.async="async";d.src=b;d.setAttribute("crossorigin","anonymous");a&&a.onerror&&(d.onerror=a.onerror);a&&a.onload&&(d.onload=a.onload);c.insertBefore(d,c.firstChild)}}function k(){ue.uels=g;for(var b=0;b<f.length;b++){var a=f[b];g(a[0],a[1])}ue.deffered=1}var f=[];c.ue&&(ue.uels=h,c.ue.attach&&c.ue.attach("load",k))})(document,window);
+(function(k,l,g){function m(a){c||(c=b[a.type].id,"undefined"===typeof a.clientX?(e=a.pageX,f=a.pageY):(e=a.clientX,f=a.clientY),2!=c||h&&(h!=e||n!=f)?(r(),d.isl&&l.setTimeout(function(){p("at",d.id)},0)):(h=e,n=f,c=0))}function r(){for(var a in b)b.hasOwnProperty(a)&&d.detach(a,m,b[a].parent)}function s(){for(var a in b)b.hasOwnProperty(a)&&d.attach(a,m,b[a].parent)}function t(){var a="";!q&&c&&(q=1,a+="&ui="+c);return a}var d=k.ue,p=k.uex,q=0,c=0,h,n,e,f,b={click:{id:1,parent:g},mousemove:{id:2,
+parent:g},scroll:{id:3,parent:l},keydown:{id:4,parent:g}};d&&p&&(s(),d._ui=t)})(ue_csm,window,document);
+
+
+
+    if (window.ue && window.ue.uels) {
+                    ue.uels("https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript-16f8e70a73113de25cd7bf8747195fe6e3f5d25e._V2_.js");
+    }
+
+(function(k,c){function l(a,b){return a.filter(function(a){return a.initiatorType==b})}function f(a,c){if(b.t[a]){var g=b.t[a]-b._t0,e=c.filter(function(a){return 0!==a.responseEnd&&m(a)<g}),f=l(e,"script"),h=l(e,"link"),k=l(e,"img"),n=e.map(function(a){return a.name.split("/")[2]}).filter(function(a,b,c){return a&&c.lastIndexOf(a)==b}),q=e.filter(function(a){return a.duration<p}),s=g-Math.max.apply(null,e.map(m))<r|0;"af"==a&&(b._afjs=f.length);return a+":"+[e[d],f[d],h[d],k[d],n[d],q[d],s].join("-")}}
+function m(a){return a.responseEnd-(b._t0-c.timing.navigationStart)}function n(){var a=c[h]("resource"),d=f("cf",a),g=f("af",a),a=f("ld",a);delete b._rt;b._ld=b.t.ld-b._t0;b._art&&b._art();return[d,g,a].join("_")}var p=20,r=50,d="length",b=k.ue,h="getEntriesByType";b._rre=m;b._rt=c&&c.timing&&c[h]&&n})(ue_csm,window.performance);
+
+
+(function(s,f){function m(b,e,c){var a=l;f.ue_cmi&&(a=t);c=c||new Date(+new Date+a);c="expires="+c.toUTCString();n.cookie=b+"="+e+";"+c+";path=/"}function p(b){b+="=";for(var e=n.cookie.split(";"),c=0;c<e.length;c++){for(var a=e[c];" "==a.charAt(0);)a=a.substring(1);if(0===a.indexOf(b))return decodeURIComponent(a.substring(b.length,a.length))}return""}function q(b,e,c){if(!e)return b;-1<b.indexOf("{")&&(b="");for(var a=b.split("&"),g,d=!1,f=!1,h=0;h<a.length;h++)g=a[h].split(":"),g[0]==e?(!c||d?a.splice(h,
+1):(g[1]=c,a[h]=g.join(":")),f=d=!0):2>g.length&&(a.splice(h,1),f=!0);f&&(b=a.join("&"));!d&&c&&(0<b.length&&(b+="&"),b+=e+":"+c);return b}var k=s.ue||{},l=6048E5,t=100*l,n=ue_csm.document||f.document,r=null,d;a:{try{d=f.localStorage;break a}catch(u){}d=void 0}k.count&&k.count("csm.cookieSize",document.cookie.length);k.cookie={get:p,set:m,updateCsmHit:function(b,e,c){try{var a;if(!(a=r)){var g;a:{try{if(d&&d.getItem){g=d.getItem("csm-hit");break a}}catch(k){}g=void 0}a=g||p("csm-hit")||"{}"}a=q(a,
+b,e);f.ue_cmi&&(a=q(a,"t",+new Date));r=a;try{d&&d.setItem&&d.setItem("csm-hit",a)}catch(l){}m("csm-hit",a,c)}catch(h){"function"==typeof f.ueLogError&&ueLogError(Error("Cookie manager: "+h.message),{logLevel:"WARN"})}}}})(ue_csm,window);
+
+(function(m,d){function c(b){b="";var c=a.isBFT?"b":"s",d=""+a.oid,f=""+a.lid,g=d;d!=f&&20==f.length&&(c+="a",g+="-"+f);a.tabid&&(b=a.tabid+"+");b+=c+"-"+g;b!=e&&100>b.length&&(e=b,a.cookie?a.cookie.updateCsmHit(n,b+("|"+ +new Date),h):document.cookie="csm-hit="+b+("|"+ +new Date)+p+"; path=/")}function q(){e=0}function k(b){!0===d[a.pageViz.propHid]?e=0:!1===d[a.pageViz.propHid]&&c({type:"visible"})}var h=new Date(+new Date+6048E5),p="; expires="+h.toGMTString(),n="tb",e,a=m.ue||{},l=a.pageViz&&
+a.pageViz.event&&a.pageViz.propHid;a.attach&&(a.attach("click",c),a.attach("keyup",c),l||(a.attach("focus",c),a.attach("blur",q)),l&&(a.attach(a.pageViz.event,k,d),k({})));a.aftb=1})(ue_csm,document);
+
+
+ue_csm.ue.stub(ue,"impression");
+
+
+(function(k,d,h){function f(a,c,b){a&&a.indexOf&&0===a.indexOf("http")&&0!==a.indexOf("https")&&l(s,c,a,b)}function g(a,c,b){a&&a.indexOf&&(location.href.split("#")[0]!=a&&null!==a&&"undefined"!==typeof a||l(t,c,a,b))}function l(a,c,b,e){m[b]||(e=u&&e?n(e):"N/A",d.ueLogError&&d.ueLogError({message:a+c+" : "+b,logLevel:v,stack:"N/A"},{attribution:e}),m[b]=1,p++)}function e(a,c){if(a&&c)for(var b=0;b<a.length;b++)try{c(a[b])}catch(d){}}function q(){return d.performance&&d.performance.getEntriesByType?
+d.performance.getEntriesByType("resource"):[]}function n(a){if(a.id)return"//*[@id='"+a.id+"']";var c;c=1;var b;for(b=a.previousSibling;b;b=b.previousSibling)b.nodeName==a.nodeName&&(c+=1);b=a.nodeName;1!=c&&(b+="["+c+"]");a.parentNode&&(b=n(a.parentNode)+"/"+b);return b}function w(){var a=h.images;a&&a.length&&e(a,function(a){var b=a.getAttribute("src");f(b,"img",a);g(b,"img",a)})}function x(){var a=h.scripts;a&&a.length&&e(a,function(a){var b=a.getAttribute("src");f(b,"script",a);g(b,"script",a)})}
+function y(){var a=h.styleSheets;a&&a.length&&e(a,function(a){if(a=a.ownerNode){var b=a.getAttribute("href");f(b,"style",a);g(b,"style",a)}})}function z(){if(A){var a=q();e(a,function(a){f(a.name,a.initiatorType)})}}function B(){e(q(),function(a){g(a.name,a.initiatorType)})}function r(){var a;a=d.location&&d.location.protocol?d.location.protocol:void 0;"https:"==a&&(z(),w(),x(),y(),B(),p<C&&setTimeout(r,D))}var s="[CSM] Insecure content detected ",t="[CSM] Ajax request to same page detected ",v="WARN",
+m={},p=0,D=k.ue_nsip||1E3,C=5,A=1==k.ue_urt,u=!0;ue_csm.ue_disableNonSecure||(d.performance&&d.performance.setResourceTimingBufferSize&&d.performance.setResourceTimingBufferSize(300),r())})(ue_csm,window,document);
+
+
+
+if(window.ue&&uet) { uet('bb'); }
+
+}
+</script></head>
+
+  <body class="a-color-offset-background  ap-locale-en_US a-m-us a-aui_149818-c a-aui_152852-c a-aui_157141-c a-aui_158613-c a-aui_160684-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_140932-c a-aui_ux_113788-c a-aui_ux_114039-c a-aui_ux_138741-c a-aui_ux_145937-c a-aui_ux_60000-c">    <img height="1" width="1" style='display:none;visibility:hidden;' src='https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:134-2821069-4911223:54Q47YSV0WJ99KXHD3PD$uedata=s:%2Fap%2Fuedata%3Fstaticb%26id%3D54Q47YSV0WJ99KXHD3PD:0' alt="" onload="window.ue_sbl && window.ue_sbl();"/>
+
+
+<script type='text/javascript'>
+
+(function(){function l(a){for(var c=b.location.search.substring(1).split("&"),e=0;e<c.length;e++){var d=c[e].split("=");if(d[0]===a)return d[1]}}window.amzn=window.amzn||{};amzn.copilot=amzn.copilot||{};var b=window,f=document,g=b.P||b.AmazonUIPageJS,h=f.head||f.getElementsByTagName("head")[0],m=0,n=0;amzn.copilot.checkCoPilotSession=function(){f.cookie.match("cpidv")&&("undefined"!==typeof jQuery&&k(jQuery),g&&g.when&&g.when("jQuery").execute(function(a){k(a)}),b.amznJQ&&b.amznJQ.available&&b.amznJQ.available("jQuery",
+function(){k(jQuery)}),b.jQuery||g||b.amznJQ||q())};var q=function(){m?b.ue&&"function"===typeof b.ue.count&&b.ue.count("cpJQUnavailable",1):(m=1,f.addEventListener?f.addEventListener("DOMContentLoaded",amzn.copilot.checkCoPilotSession,!1):f.attachEvent&&f.attachEvent("onreadystatechange",function(){"complete"===f.readyState&&amzn.copilot.checkCoPilotSession()}))},k=function(a){if(!n){n=1;amzn.copilot.jQuery=a;a=l("debugJS");var c="https:"===b.location.protocol?1:0,e=1;url="/gp/copilot/handlers/copilot_strings_resources.html";
+window.texas&&texas.locations&&(url=texas.locations.makeUrl(url));g&&g.AUI_BUILD_DATE&&(e=0);amzn.copilot.jQuery.ajax&&amzn.copilot.jQuery.ajax({url:url,dataType:"json",data:{isDebug:a,isSecure:c,includeAUIP:e},success:function(a){amzn.copilot.vip=a.serviceEndPoint;amzn.copilot.enableMultipleTabSession=a.isFollowMe;r(a)},error:function(){b.ue.count("cpLoadResourceError",1)}})}},r=function(a){var c=amzn.copilot.jQuery,e=function(){amzn.copilot.setup(c.extend({isContinuedSession:!0},a))};a.CSSUrls&&
+c.each(a.CSSUrls[0],function(a,c){var b=f.createElement("link");b.type="text/css";b.rel="stylesheet";b.href=c;h.appendChild(b)});a.CSSTag&&s(a.CSSTag);if(a.JSUrls){var d=l("forceSynchronousJS"),b=a.JSUrls[0];c.each(b,function(a,c){a===b.length-1?p(c,d,e):p(c,d)})}a.JSTag&&(t(a.JSTag),P.when("CSCoPilotPresenterAsset").execute(function(){e()}))},t=function(a){var c=f.createElement("div");c.innerHTML=a;a=0;for(var b=c.children.length;a<b;a++){var d=f.createElement("script");d.type="text/javascript";
+d.innerHTML=c.children[a].innerHTML;h.appendChild(d)}},s=function(a){var b=f.createElement("div");b.innerHTML=a;a=0;for(var e=b.children.length;a<e;a++)h.appendChild(b.children[a])},p=function(a,b,e){var d=f.createElement("script");d.type="text/javascript";d.src=a;d.async=b?!1:!0;e&&(d.onload=e);h.appendChild(d)}})();
+
+amzn.copilot.checkCoPilotSession();
+
+</script>
+<div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{"AUI_149818":null,"AUI_152852":null,"AUI_157141":null,"AUI_158613":null,"AUI_160684":null,"AUI_57326":null,"AUI_72554":null,"AUI_ACCESSIBILITY_49860":null,"AUI_ATTR_VALIDATIONS_1_51371":null,"AUI_BOLT_62845":null,"AUI_PERF_130093":"C","AUI_TNR_140932":"C","AUI_UX_113788":null,"AUI_UX_114039":null,"AUI_UX_138741":null,"AUI_UX_145937":null,"AUI_UX_60000":null}</script>
+    <div class="a-section a-spacing-none">
+      
+      
+      <style>.nav-sprite-v3 .nav-sprite {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sm-smile-sprite-global-1x_blueheaven._CB496507362_.png);
+  background-repeat: no-repeat;
+}
+.nav-spinner {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/snake._CB192571611_.gif);
+}
+</style><!--  -->
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/511wljBBJqL._RC|31zNzX8PNWL.css,01+72+wCC9L.css_.css?AUIClients/AmazonNavigationMobileMetaAsset#mobile" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/21d6fQizXDL.css?AUIClients/RetailSearchAutocompleteAssets#mobile" />
+
+      <!-- From remote config v3-->
+<script type="text/javascript">
+(function(d){document.createElement("header");function b(e){return[].slice.call(e)}function c(f,e){return{m:f,a:b(e)}}var a=function(f){var g={};g._sourceName=f;g._replay=[];g.getNow=function(i,h){return h};function e(i,h,j){i[j]=function(){g._replay.push(h.concat(c(j,arguments)))}}g.when=function(){var i=[c("when",arguments)];var h={};e(h,i,"run");e(h,i,"declare");e(h,i,"publish");e(h,i,"build");return h};e(g,[],"declare");e(g,[],"build");e(g,[],"publish");e(g,[],"importEvent");a._shims.push(g);return g};a._shims=[];if(!d.$Nav){d.$Nav=a("rcx-nav")}if(!d.$Nav.make){d.$Nav.make=a}}(window));
+$Nav.importEvent('navbarJS-mobile');
+$Nav.declare('img.sprite', {
+  'png32': 'https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sm-smile-sprite-global-1x_blueheaven._CB496507362_.png',
+  'png32-2x': 'https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sm-smile-sprite-global-2x_blueheaven._CB496507362_.png'
+});
+window._navbarSpriteUrl = 'https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sm-smile-sprite-global-1x_blueheaven._CB496507362_.png';
+$Nav.declare('img.pixel', 'https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB386942464_.gif');
+var nav_t_after_preload_JS = + new Date();
+</script>
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sm-smile-sprite-global-1x_blueheaven._CB496507362_.png" style="display:none" alt=""/>
+<!--  -->
+<script>
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('navCF').execute(function(){
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/41hnizKJASL._RC|41FTejCA1rL.js,016ONSVP8QL.js,31kByMCr23L.js_.js?AUIClients/AmazonNavigationMobileMetaAsset');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/51yWvA3USTL.js?AUIClients/RetailSearchAutocompleteAssets#mobile');
+});
+</script>
+
+
+      
+      
+            
+
+
+
+
+
+
+
+
+
+<!-- NAVYAAN-UPNAV -->
+<script type="text/javascript">var nav_t_upnav_begin = + new Date();</script>
+
+
+
+
+
+
+<!-- navmet initial definition -->
+
+  <script type='text/javascript'>
+    if(window.navmet===undefined) { 
+      window.navmet=[];
+      if (window.performance && window.performance.timing && window.ue_t0) {
+        var t = window.performance.timing;
+        var now = + new Date();
+        window.navmet.basic = {
+          'networkLatency': (t.responseStart - t.fetchStart),
+          'navFirstPaint': (now - t.responseStart),
+          'NavStart': (now - window.ue_t0)
+        };
+      }
+    }
+  </script>
+
+
+<script type='text/javascript'>window.navmet.tmp=+new Date();</script>
+<style type="text/css">#nav-mobile-airstream-stripe img {max-width: 100%;}</style><script type='text/javascript'>window.$Nav && $Nav.when('jQuery', 'searchScoping').run(function($){var hidden=$('#nav-search-form input[type=hidden]'); if(hidden.length===2 && hidden[1].value==='10329849011') {hidden[0].remove();}})</script><script type="text/javascript">var nav_t_after_ANI = + new Date();</script>
+<script type='text/javascript'>
+  window.$Nav && window.$Nav.declare("config", 
+
+
+
+  
+
+
+
+
+  {"searchISS":{"cxNoiseReductionTreatment":1,"isInIssXCatWeblabTreatment":0,"pageType":"Standard","isAutoCompleteLegacyJsEnabled":0,"issRequestParamsTreatment":1,"sessionId":"134-2821069-4911223","updateMobileWebIssReftag":1,"opfSwitch":0,"ime":0,"autoScrollUpSearchBoxTreatment":0,"requestId":"54Q47YSV0WJ99KXHD3PD","language":"en_US","disableArabicHighlighting":1,"useSXISS":"","mktID":"1","useApiV2Mobile":0,"host":"completion.amazon.com/search/complete","customerId":"","opfMobileSwitch":0,"aliases":"aps,amazon-custom-products,amazon-devices,amazonbasics,amazonfresh,stripbooks,popular,apparel,electronics,sporting,sports-and-fitness,outdoor-recreation,fan-shop,garden,videogames,toys-and-games,jewelry,digital-text,digital-music,prime-digital-music,watches,grocery,hpc,instant-video,handmade,handmade-jewelry,handmade-home-and-kitchen,prime-instant-video,shop-instant-video,baby-products,office-products,software,magazines,tools,automotive,misc,industrial,mi,pet-supplies,digital-music-track,digital-music-album,mobile,mobile-apps,movies-tv,music-artist,music-album,music-song,stripbooks-spanish,electronics-accessories,pantry,photo,audio-video,computers,furniture,kitchen,audible,audiobooks,beauty,shoes,arts-crafts,appliances,gift-cards,pets,outdoor,lawngarden,collectibles,replacement-parts,financial,fine-art,fashion,fashion-womens,fashion-womens-clothing,fashion-womens-jewelry,fashion-womens-shoes,fashion-womens-watches,fashion-womens-handbags,fashion-mens,fashion-mens-clothing,fashion-mens-jewelry,fashion-mens-shoes,fashion-mens-watches,fashion-girls,fashion-girls-clothing,fashion-girls-jewelry,fashion-girls-shoes,fashion-girls-watches,fashion-boys,fashion-boys-clothing,fashion-boys-jewelry,fashion-boys-shoes,fashion-boys-watches,fashion-baby,fashion-baby-boys,fashion-baby-girls,fashion-luggage,3d-printing,tradein-aps,local-services,vehicles,video-shorts,warehouse-deals,luxury-beauty,banjo-apps,alexa-skills,subscribe-with-amazon,courses,amazon-global-store,prime-wardrobe"},"pseudoPrimeFirstBrowse":0,"searchIconAction":"footer","searchIconEvent":"nojs","navDeviceType":"mobile","mobileBlueheaven":"true","windowWidths":0}
+);
+</script>
+<script type="text/javascript">var nav_t_after_config_declaration = + new Date();</script>
+<script type='text/javascript'>
+window.uet && uet('ns');
+
+</script>
+<!-- navp-6mdenY/Le1aIvOzkM5wE3dpzPibzFquxcyuV1M1NnSDsbADWUXNY8vQvWVH+BihC rid-54Q47YSV0WJ99KXHD3PD (Mon Sep 10 13:01:01 2018) --><script type='text/javascript'>window.navmet.push({key:'PreNav',end:+new Date(),begin:window.navmet.tmp});</script>
+
+<!-- navp-6mdenY/Le1aIvOzkM5wE3dpzPibzFquxcyuV1M1NnSDsbADWUXNY8vQvWVH+BihC rid-54Q47YSV0WJ99KXHD3PD (Mon Sep 10 13:01:01 2018) -->
+
+<script type='text/javascript'>window.navmet.main=+new Date();</script>
+
+
+<!-- NAVYAAN -->
+<header class="nav-mobile nav-locale-us nav-lang-en nav-ssl nav-unrec nav-blueheaven">
+    <div id="navbar" role="navigation" class="nav-t-basicNoAuth nav-sprite-v3">
+        <div id="nav-logobar">
+            <div class="nav-left">
+                
+                
+                
+                <script type='text/javascript'>window.navmet.tmp=+new Date();</script>
+  <div id="nav-logo" >
+    <a href="../../../ref=navm_hdr_logo" class="nav-logo-link" >
+      <span class="nav-sprite nav-logo-base"></span>
+      <span class="nav-sprite nav-logo-ext"></span>
+      <span class="nav-sprite nav-logo-locale"></span>
+    </a>
+  </div>
+<script type='text/javascript'>window.navmet.push({key:'Logo',end:+new Date(),begin:window.navmet.tmp});</script>
+            </div>
+            <div class="nav-right">
+                
+                
+                
+                  
+            </div>
+        </div>
+        
+
+        
+        
+        <script type="text/javascript">var nav_t_after_searchbar = + new Date();</script>
+
+        
+        
+        
+
+        
+        
+        
+        
+
+
+
+        
+    </div>
+
+    
+    
+</header>
+
+
+<script type="text/javascript">var nav_t_after_navbar = + new Date();</script>
+<script type='text/javascript'>window.navmet.push({key:'NavBar',end:+new Date(),begin:window.navmet.main});</script>
+<script type='text/javascript'>window.navmet.tmp=+new Date();</script>
+<script type='text/javascript'>
+(function (i) {
+i.onload = function() {window.uet && uet('ne')};
+i.src = window._navbarSpriteUrl;
+}(new Image()));
+var nav_t_end_nav = + new Date();
+
+
+if (window.P && typeof window.P.declare === "function" && typeof window.P.now === "function") {
+  window.P.now('packardGlowIngressMobileJsEnabled').execute(function(glowEnabled) {
+    if (!glowEnabled) {
+      window.P.declare('packardGlowIngressMobileJsEnabled', true);
+        window.P.declare('packardSpeedMobileWebEnabled', true);
+    }
+  });
+  window.P.now('glowMobileSelectedLocationType').execute(function(locationType) {
+    if (!locationType) {
+      window.P.declare('glowMobileSelectedLocationType', '');
+    }
+  });
+  window.P.now('glowMobileSelectedLocationValue').execute(function(locationValue) {
+    if (!locationValue) {
+      window.P.declare('glowMobileSelectedLocationValue', '');
+    }
+  });
+  window.P.now('glowMobileBottomSheetCallRefactor').execute(function(glowCallRefactor) {
+    if (!glowCallRefactor) {
+      window.P.declare('glowMobileBottomSheetCallRefactor', true);
+    }
+  });
+  window.P.now('glowMobileStoreName').execute(function(storeName) {
+    if (!storeName) {
+      window.P.declare('glowMobileStoreName', 'NoStoreName');
+    }
+  });
+  window.P.now('glowMobileDoneBottonEnabled').execute(function(doneBottonEnabled) {
+    if (!doneBottonEnabled) {
+      window.P.declare('glowMobileDoneBottonEnabled', true);
+    }
+  });
+  window.P.now('glowMobileDoneBottonLabel').execute(function(doneBottonLabel) {
+    if (!doneBottonLabel) {
+      window.P.declare('glowMobileDoneBottonLabel', 'DONE');
+    }
+  });
+}
+</script>
+<script type='text/javascript'>window.navmet.push({key:'PostNav',end:+new Date(),begin:window.navmet.tmp});</script>
+<script type='text/javascript'>window.navmet.MainEnd = new Date();</script>
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;NAV:Constants&quot;}">{"aa_searchBox_in":"in","aa_all_departments":"All Departments"}</script>
+
+
+
+
+
+
+    </div>
+
+    <div class="a-container">
+      <div class="a-section a-spacing-none">
+        
+      </div>
+
+      
+
+      <div class="a-section a-spacing-none auth-pagelet-mobile-container">
+        
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+      </div>
+
+      <div class="a-section auth-pagelet-mobile-container">
+        
+        
+
+
+
+
+
+<!-- Needed to display non-BMP unicode characters correctly -->
+
+
+
+
+
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;moa_registration_v2_info&quot;}">{}</script>
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;auth-prepopulate-credential-state&quot;}">{"isPrepopulateEnabled":true}</script>
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;accordion-page-state&quot;}">{"isAccordionPageAuth":"true"}</script>
+
+<!--Variables for register and signin -->
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div id="auth-alert-window" class="a-box a-alert a-alert-error a-spacing-small" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><h4 class="a-alert-heading">There was a problem</h4><div class="a-alert-content">
+  <ul class="a-unordered-list a-vertical auth-error-messages" role="alert">
+    <li id="auth-customerName-missing-alert"><span class="a-list-item">
+      Enter your name
+    </span></li>
+    <li id="auth-customerNamePronunciation-missing-alert"><span class="a-list-item">
+      Enter your name pronunciation
+    </span></li>
+    <li id="auth-phoneNumber-missing-alert"><span class="a-list-item">
+      Enter your mobile number
+    </span></li>
+    <li id="auth-phoneNumber-invalid-phone-alert"><span class="a-list-item">
+      The mobile number you entered does not seem to be valid
+    </span></li>
+    <li id="auth-email-missing-alert"><span class="a-list-item">
+      Enter your email or mobile phone number
+    </span></li>
+    <li id="auth-password-missing-alert"><span class="a-list-item">
+      Enter your password
+    </span></li>
+    <li id="auth-password-invalid-password-alert"><span class="a-list-item">
+      Passwords must be at least 6 characters.
+    </span></li>
+    <li id="auth-guess-missing-alert"><span class="a-list-item">
+      Enter the characters as they are given in the challenge.
+    </span></li>
+    <li id="auth-email-invalid-email-alert"><span class="a-list-item">
+      Enter a valid email address
+    </span></li>
+  </ul>
+</div></div></div>
+
+<div id="outer-accordion-signin-signup-page" class="a-section">
+  <h2 class="a-text-bold">
+    Welcome
+  </h2>
+  <div id="accordion-signin-signup-page" data-a-accordion-name="accordion-signin-signup-page" class="a-box-group a-accordion a-spacing-medium a-spacing-top-mini" role="radiogroup">
+    <div id="accordion-row-register" class="a-box" data-a-accordion-row-name="accordion-row-register"><div class="a-box-inner a-accordion-row-container">
+      <div class="a-accordion-row-a11y" role="radio" aria-checked="false" aria-expanded="false"><a id="register_accordion_header" aria="" data-action="a-accordion" class="a-accordion-row a-declarative" href="https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fpsi.html%3Fie%3DUTF8%26cartID%3D134-2821069-4911223%26destinationURL%3D%252Fgp%252Faw%252Fya%26packedQuery%3Dref_%257Cnavm_hdr_profile&prevRID=54Q47YSV0WJ99KXHD3PD&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=anywhere_v2_us&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=anywhere_us&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" aria-label=""><i class="a-icon a-accordion-radio a-icon-radio-inactive"></i><h5>
+        <div class="a-row">
+          <span class="a-size-base">Create account</span>.
+          <span class="a-size-mini accordionHeaderMessage">New to Amazon?</span>
+        </div>
+      </h5></a></div>
+      <div class="a-accordion-inner">
+        
+
+
+
+
+
+
+
+
+
+	
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;auth-phone-verification-modal&quot;}">{"formIdToBindTo":"ap_register_form"}</script>
+
+<span class="a-declarative" data-action="a-modal" data-a-modal="{&quot;max-width&quot;:&quot;95%&quot;,&quot;width&quot;:&quot;300px&quot;,&quot;name&quot;:&quot;verifyContinueModal&quot;,&quot;header&quot;:&quot;Verification Required&quot;,&quot;height&quot;:&quot;240px&quot;}" id="auth-verify-modal-action"></span>
+
+
+<div class="a-popover-preload" id="a-popover-verifyContinueModal">
+  
+  <div class="a-row">
+    <p>
+      We will send you a text to verify this number:
+    </p>
+  </div>
+
+  <div class="a-row">
+    <span id="auth-register-verify-mobile-number-text" class="a-size-small a-text-bold">
+      
+      <span id="auth-verify-mobile-country-code"></span>
+      <span>
+        +<span id="auth-verify-mobile-calling-code"></span>
+      </span>
+      <span id="auth-verify-mobile-national-number"></span>
+    </span>
+  </div>
+
+  <div class="a-row a-spacing-top-extra-large">
+    <span class="a-size-mini">
+      Message and Data rates may apply.
+    </span>
+  </div>
+
+  <hr class="a-divider-normal">
+
+  
+    
+    
+    
+      
+      
+      
+      
+    
+  
+
+  <div class="a-row">
+    <div class="a-column a-span6">
+      <span class="a-declarative" data-action="a-popover-close" data-a-popover-close="{}">
+        <span id="auth-verification-cancel" class="a-button a-button-span12"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="auth-verification-cancel-announce"><span id="auth-verification-cancel-announce" class="a-button-text" aria-hidden="true">
+          Cancel
+        </span></span></span>
+      </span>
+    </div>
+
+    <div class="a-column a-span6 a-span-last">
+      <span class="a-declarative" data-action="auth-verify-modal-complete" data-auth-verify-modal-complete="{}">
+        <span id="auth-verification-ok" class="a-button a-button-span12 a-button-primary"><span class="a-button-inner"><button id="auth-verification-ok-announce" class="a-button-text" type="button">
+          OK
+        </button></span></span>
+      </span>
+    </div>
+  </div>
+</div>
+
+
+        <div class="a-section a-spacing-large mp_reg_fix">
+          
+            
+              
+              
+              
+              
+            
+            
+          
+
+          <form id="ap_register_form" name="register" method="post" novalidate action="https://www.amazon.com/ap/register" data-enable-mobile-account-js="true" class="ap_ango_default fwcim-form auth-validate-form auth-clearable-form">
+
+            
+            <input type="hidden" name="appActionToken" value="jZVTLoG4mxAM6X3q37Q5lgrTfukj3D" /><input type="hidden" name="appAction" value="REGISTER" />
+
+            
+            
+
+
+
+
+
+  
+    <input type="hidden" name="openid.pape.max_auth_age" value="ape:MA==">
+  
+    <input type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9hdy9wc2kuaHRtbD9pZT1VVEY4JmNhcnRJRD0xMzQtMjgyMTA2OS00OTExMjIzJmRlc3RpbmF0aW9uVVJMPSUyRmdwJTJGYXclMkZ5YSZwYWNrZWRRdWVyeT1yZWZfJTdDbmF2bV9oZHJfcHJvZmlsZQ==">
+  
+    <input type="hidden" name="prevRID" value="ape:NTRRNDdZU1YwV0o5OUtYSEQzUEQ=">
+  
+    <input type="hidden" name="openid.identity" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjAvaWRlbnRpZmllcl9zZWxlY3Q=">
+  
+    <input type="hidden" name="openid.assoc_handle" value="ape:YW55d2hlcmVfdjJfdXM=">
+  
+    <input type="hidden" name="openid.mode" value="ape:Y2hlY2tpZF9zZXR1cA==">
+  
+    <input type="hidden" name="openid.ns.pape" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvZXh0ZW5zaW9ucy9wYXBlLzEuMA==">
+  
+    <input type="hidden" name="prepopulatedLoginId">
+  
+    <input type="hidden" name="failedSignInCount" value="ape:MA==">
+  
+    <input type="hidden" name="openid.claimed_id" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjAvaWRlbnRpZmllcl9zZWxlY3Q=">
+  
+    <input type="hidden" name="pageId" value="ape:YW55d2hlcmVfdXM=">
+  
+    <input type="hidden" name="openid.ns" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjA=">
+  
+
+
+
+            <div class="a-row a-spacing-base">
+              <label for="ap_customer_name" class="a-form-label auth-mobile-label">
+                Name
+              </label>
+              <div class="a-input-text-wrapper auth-required-field accordionFontFamily"><input type="text" maxlength="50" id="ap_customer_name" placeholder="Name" name="customerName"></div>
+              
+
+<div id="ap_customer_name_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+              
+
+
+
+
+
+
+  
+
+
+
+<div id="auth-customerName-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your name
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            
+            
+
+            
+              
+              
+                
+              
+            
+
+            
+
+
+
+
+
+
+
+
+  
+  
+    
+      
+      
+      
+      
+        
+        
+      
+    
+  
+
+
+
+<div class="a-section ap_mobile_number_fields">
+  <div class="a-row a-spacing-small">
+    
+      We'll send you a text verification.
+    
+
+    
+  </div>
+
+  <div class="a-row">
+    <div id="auth-unable-populate-phone-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      We were unable to fill your current number
+    </div></div></div>
+  </div>
+
+  <div class="a-row">
+    <div class="a-column a-span5">
+      
+
+
+
+
+
+
+
+
+  
+  
+
+
+<span class="a-dropdown-container"><select name="countryCode" autocomplete="off" data-a-touch-header="Country/Region Code" id="auth-country-picker" tabIndex="-1" class="a-native-dropdown">
+  
+    
+    
+
+    <option data-calling-code="93" data-country-code="AF" value="AF" data-a-html-content="Afghanistan +93">
+      
+      AF +93
+    </option>
+  
+    
+    
+
+    <option data-calling-code="358" data-country-code="AX" value="AX" data-a-html-content="Aland Islands +358">
+      
+      AX +358
+    </option>
+  
+    
+    
+
+    <option data-calling-code="355" data-country-code="AL" value="AL" data-a-html-content="Albania +355">
+      
+      AL +355
+    </option>
+  
+    
+    
+
+    <option data-calling-code="213" data-country-code="DZ" value="DZ" data-a-html-content="Algeria +213">
+      
+      DZ +213
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="AS" value="AS" data-a-html-content="American Samoa +1">
+      
+      AS +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="376" data-country-code="AD" value="AD" data-a-html-content="Andorra +376">
+      
+      AD +376
+    </option>
+  
+    
+    
+
+    <option data-calling-code="244" data-country-code="AO" value="AO" data-a-html-content="Angola +244">
+      
+      AO +244
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="AG" value="AG" data-a-html-content="Antigua and Barbuda +1">
+      
+      AG +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="54" data-country-code="AR" value="AR" data-a-html-content="Argentina +54">
+      
+      AR +54
+    </option>
+  
+    
+    
+
+    <option data-calling-code="374" data-country-code="AM" value="AM" data-a-html-content="Armenia +374">
+      
+      AM +374
+    </option>
+  
+    
+    
+
+    <option data-calling-code="297" data-country-code="AW" value="AW" data-a-html-content="Aruba +297">
+      
+      AW +297
+    </option>
+  
+    
+    
+
+    <option data-calling-code="61" data-country-code="AU" value="AU" data-a-html-content="Australia +61">
+      
+      AU +61
+    </option>
+  
+    
+    
+
+    <option data-calling-code="43" data-country-code="AT" value="AT" data-a-html-content="Austria +43">
+      
+      AT +43
+    </option>
+  
+    
+    
+
+    <option data-calling-code="994" data-country-code="AZ" value="AZ" data-a-html-content="Azerbaijan +994">
+      
+      AZ +994
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="BS" value="BS" data-a-html-content="Bahamas, The +1">
+      
+      BS +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="973" data-country-code="BH" value="BH" data-a-html-content="Bahrain +973">
+      
+      BH +973
+    </option>
+  
+    
+    
+
+    <option data-calling-code="880" data-country-code="BD" value="BD" data-a-html-content="Bangladesh +880">
+      
+      BD +880
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="BB" value="BB" data-a-html-content="Barbados +1">
+      
+      BB +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="375" data-country-code="BY" value="BY" data-a-html-content="Belarus +375">
+      
+      BY +375
+    </option>
+  
+    
+    
+
+    <option data-calling-code="32" data-country-code="BE" value="BE" data-a-html-content="Belgium +32">
+      
+      BE +32
+    </option>
+  
+    
+    
+
+    <option data-calling-code="501" data-country-code="BZ" value="BZ" data-a-html-content="Belize +501">
+      
+      BZ +501
+    </option>
+  
+    
+    
+
+    <option data-calling-code="229" data-country-code="BJ" value="BJ" data-a-html-content="Benin +229">
+      
+      BJ +229
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="BM" value="BM" data-a-html-content="Bermuda +1">
+      
+      BM +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="975" data-country-code="BT" value="BT" data-a-html-content="Bhutan +975">
+      
+      BT +975
+    </option>
+  
+    
+    
+
+    <option data-calling-code="591" data-country-code="BO" value="BO" data-a-html-content="Bolivia +591">
+      
+      BO +591
+    </option>
+  
+    
+    
+
+    <option data-calling-code="387" data-country-code="BA" value="BA" data-a-html-content="Bosnia and Herzegovina +387">
+      
+      BA +387
+    </option>
+  
+    
+    
+
+    <option data-calling-code="267" data-country-code="BW" value="BW" data-a-html-content="Botswana +267">
+      
+      BW +267
+    </option>
+  
+    
+    
+
+    <option data-calling-code="55" data-country-code="BR" value="BR" data-a-html-content="Brazil +55">
+      
+      BR +55
+    </option>
+  
+    
+    
+
+    <option data-calling-code="673" data-country-code="BN" value="BN" data-a-html-content="Brunei Darussalam +673">
+      
+      BN +673
+    </option>
+  
+    
+    
+
+    <option data-calling-code="359" data-country-code="BG" value="BG" data-a-html-content="Bulgaria +359">
+      
+      BG +359
+    </option>
+  
+    
+    
+
+    <option data-calling-code="226" data-country-code="BF" value="BF" data-a-html-content="Burkina Faso +226">
+      
+      BF +226
+    </option>
+  
+    
+    
+
+    <option data-calling-code="257" data-country-code="BI" value="BI" data-a-html-content="Burundi +257">
+      
+      BI +257
+    </option>
+  
+    
+    
+
+    <option data-calling-code="855" data-country-code="KH" value="KH" data-a-html-content="Cambodia +855">
+      
+      KH +855
+    </option>
+  
+    
+    
+
+    <option data-calling-code="237" data-country-code="CM" value="CM" data-a-html-content="Cameroon +237">
+      
+      CM +237
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="CA" value="CA" data-a-html-content="Canada +1">
+      
+      CA +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="238" data-country-code="CV" value="CV" data-a-html-content="Cape Verde +238">
+      
+      CV +238
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="KY" value="KY" data-a-html-content="Cayman Islands +1">
+      
+      KY +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="236" data-country-code="CF" value="CF" data-a-html-content="Central African Republic +236">
+      
+      CF +236
+    </option>
+  
+    
+    
+
+    <option data-calling-code="235" data-country-code="TD" value="TD" data-a-html-content="Chad +235">
+      
+      TD +235
+    </option>
+  
+    
+    
+
+    <option data-calling-code="56" data-country-code="CL" value="CL" data-a-html-content="Chile +56">
+      
+      CL +56
+    </option>
+  
+    
+    
+
+    <option data-calling-code="86" data-country-code="CN" value="CN" data-a-html-content="China +86">
+      
+      CN +86
+    </option>
+  
+    
+    
+
+    <option data-calling-code="57" data-country-code="CO" value="CO" data-a-html-content="Colombia +57">
+      
+      CO +57
+    </option>
+  
+    
+    
+
+    <option data-calling-code="269" data-country-code="KM" value="KM" data-a-html-content="Comoros +269">
+      
+      KM +269
+    </option>
+  
+    
+    
+
+    <option data-calling-code="242" data-country-code="CG" value="CG" data-a-html-content="Congo +242">
+      
+      CG +242
+    </option>
+  
+    
+    
+
+    <option data-calling-code="243" data-country-code="CD" value="CD" data-a-html-content="Congo, The Democratic Republic of the +243">
+      
+      CD +243
+    </option>
+  
+    
+    
+
+    <option data-calling-code="682" data-country-code="CK" value="CK" data-a-html-content="Cook Islands +682">
+      
+      CK +682
+    </option>
+  
+    
+    
+
+    <option data-calling-code="506" data-country-code="CR" value="CR" data-a-html-content="Costa Rica +506">
+      
+      CR +506
+    </option>
+  
+    
+    
+
+    <option data-calling-code="225" data-country-code="CI" value="CI" data-a-html-content="Cote D'ivoire +225">
+      
+      CI +225
+    </option>
+  
+    
+    
+
+    <option data-calling-code="385" data-country-code="HR" value="HR" data-a-html-content="Croatia +385">
+      
+      HR +385
+    </option>
+  
+    
+    
+
+    <option data-calling-code="53" data-country-code="CU" value="CU" data-a-html-content="Cuba +53">
+      
+      CU +53
+    </option>
+  
+    
+    
+
+    <option data-calling-code="357" data-country-code="CY" value="CY" data-a-html-content="Cyprus +357">
+      
+      CY +357
+    </option>
+  
+    
+    
+
+    <option data-calling-code="420" data-country-code="CZ" value="CZ" data-a-html-content="Czech Republic +420">
+      
+      CZ +420
+    </option>
+  
+    
+    
+
+    <option data-calling-code="45" data-country-code="DK" value="DK" data-a-html-content="Denmark +45">
+      
+      DK +45
+    </option>
+  
+    
+    
+
+    <option data-calling-code="253" data-country-code="DJ" value="DJ" data-a-html-content="Djibouti +253">
+      
+      DJ +253
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="DM" value="DM" data-a-html-content="Dominica +1">
+      
+      DM +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="DO" value="DO" data-a-html-content="Dominican Republic +1">
+      
+      DO +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="593" data-country-code="EC" value="EC" data-a-html-content="Ecuador +593">
+      
+      EC +593
+    </option>
+  
+    
+    
+
+    <option data-calling-code="20" data-country-code="EG" value="EG" data-a-html-content="Egypt +20">
+      
+      EG +20
+    </option>
+  
+    
+    
+
+    <option data-calling-code="503" data-country-code="SV" value="SV" data-a-html-content="El Salvador +503">
+      
+      SV +503
+    </option>
+  
+    
+    
+
+    <option data-calling-code="240" data-country-code="GQ" value="GQ" data-a-html-content="Equatorial Guinea +240">
+      
+      GQ +240
+    </option>
+  
+    
+    
+
+    <option data-calling-code="291" data-country-code="ER" value="ER" data-a-html-content="Eritrea +291">
+      
+      ER +291
+    </option>
+  
+    
+    
+
+    <option data-calling-code="372" data-country-code="EE" value="EE" data-a-html-content="Estonia +372">
+      
+      EE +372
+    </option>
+  
+    
+    
+
+    <option data-calling-code="251" data-country-code="ET" value="ET" data-a-html-content="Ethiopia +251">
+      
+      ET +251
+    </option>
+  
+    
+    
+
+    <option data-calling-code="500" data-country-code="FK" value="FK" data-a-html-content="Falkland Islands (Malvinas) +500">
+      
+      FK +500
+    </option>
+  
+    
+    
+
+    <option data-calling-code="298" data-country-code="FO" value="FO" data-a-html-content="Faroe Islands +298">
+      
+      FO +298
+    </option>
+  
+    
+    
+
+    <option data-calling-code="679" data-country-code="FJ" value="FJ" data-a-html-content="Fiji +679">
+      
+      FJ +679
+    </option>
+  
+    
+    
+
+    <option data-calling-code="358" data-country-code="FI" value="FI" data-a-html-content="Finland +358">
+      
+      FI +358
+    </option>
+  
+    
+    
+
+    <option data-calling-code="33" data-country-code="FR" value="FR" data-a-html-content="France +33">
+      
+      FR +33
+    </option>
+  
+    
+    
+
+    <option data-calling-code="594" data-country-code="GF" value="GF" data-a-html-content="French Guiana +594">
+      
+      GF +594
+    </option>
+  
+    
+    
+
+    <option data-calling-code="689" data-country-code="PF" value="PF" data-a-html-content="French Polynesia +689">
+      
+      PF +689
+    </option>
+  
+    
+    
+
+    <option data-calling-code="241" data-country-code="GA" value="GA" data-a-html-content="Gabon +241">
+      
+      GA +241
+    </option>
+  
+    
+    
+
+    <option data-calling-code="220" data-country-code="GM" value="GM" data-a-html-content="Gambia, The +220">
+      
+      GM +220
+    </option>
+  
+    
+    
+
+    <option data-calling-code="995" data-country-code="GE" value="GE" data-a-html-content="Georgia +995">
+      
+      GE +995
+    </option>
+  
+    
+    
+
+    <option data-calling-code="49" data-country-code="DE" value="DE" data-a-html-content="Germany +49">
+      
+      DE +49
+    </option>
+  
+    
+    
+
+    <option data-calling-code="233" data-country-code="GH" value="GH" data-a-html-content="Ghana +233">
+      
+      GH +233
+    </option>
+  
+    
+    
+
+    <option data-calling-code="350" data-country-code="GI" value="GI" data-a-html-content="Gibraltar +350">
+      
+      GI +350
+    </option>
+  
+    
+    
+
+    <option data-calling-code="30" data-country-code="GR" value="GR" data-a-html-content="Greece +30">
+      
+      GR +30
+    </option>
+  
+    
+    
+
+    <option data-calling-code="299" data-country-code="GL" value="GL" data-a-html-content="Greenland +299">
+      
+      GL +299
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="GD" value="GD" data-a-html-content="Grenada +1">
+      
+      GD +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="590" data-country-code="GP" value="GP" data-a-html-content="Guadeloupe +590">
+      
+      GP +590
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="GU" value="GU" data-a-html-content="Guam +1">
+      
+      GU +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="502" data-country-code="GT" value="GT" data-a-html-content="Guatemala +502">
+      
+      GT +502
+    </option>
+  
+    
+    
+
+    <option data-calling-code="224" data-country-code="GN" value="GN" data-a-html-content="Guinea +224">
+      
+      GN +224
+    </option>
+  
+    
+    
+
+    <option data-calling-code="245" data-country-code="GW" value="GW" data-a-html-content="Guinea-Bissau +245">
+      
+      GW +245
+    </option>
+  
+    
+    
+
+    <option data-calling-code="592" data-country-code="GY" value="GY" data-a-html-content="Guyana +592">
+      
+      GY +592
+    </option>
+  
+    
+    
+
+    <option data-calling-code="509" data-country-code="HT" value="HT" data-a-html-content="Haiti +509">
+      
+      HT +509
+    </option>
+  
+    
+    
+
+    <option data-calling-code="504" data-country-code="HN" value="HN" data-a-html-content="Honduras +504">
+      
+      HN +504
+    </option>
+  
+    
+    
+
+    <option data-calling-code="852" data-country-code="HK" value="HK" data-a-html-content="Hong Kong +852">
+      
+      HK +852
+    </option>
+  
+    
+    
+
+    <option data-calling-code="36" data-country-code="HU" value="HU" data-a-html-content="Hungary +36">
+      
+      HU +36
+    </option>
+  
+    
+    
+
+    <option data-calling-code="354" data-country-code="IS" value="IS" data-a-html-content="Iceland +354">
+      
+      IS +354
+    </option>
+  
+    
+    
+
+    <option data-calling-code="91" data-country-code="IN" value="IN" data-a-html-content="India +91">
+      
+      IN +91
+    </option>
+  
+    
+    
+
+    <option data-calling-code="62" data-country-code="ID" value="ID" data-a-html-content="Indonesia +62">
+      
+      ID +62
+    </option>
+  
+    
+    
+
+    <option data-calling-code="98" data-country-code="IR" value="IR" data-a-html-content="Iran, Islamic Republic of +98">
+      
+      IR +98
+    </option>
+  
+    
+    
+
+    <option data-calling-code="964" data-country-code="IQ" value="IQ" data-a-html-content="Iraq +964">
+      
+      IQ +964
+    </option>
+  
+    
+    
+
+    <option data-calling-code="353" data-country-code="IE" value="IE" data-a-html-content="Ireland +353">
+      
+      IE +353
+    </option>
+  
+    
+    
+
+    <option data-calling-code="972" data-country-code="IL" value="IL" data-a-html-content="Israel +972">
+      
+      IL +972
+    </option>
+  
+    
+    
+
+    <option data-calling-code="39" data-country-code="IT" value="IT" data-a-html-content="Italy +39">
+      
+      IT +39
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="JM" value="JM" data-a-html-content="Jamaica +1">
+      
+      JM +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="81" data-country-code="JP" value="JP" data-a-html-content="Japan +81">
+      
+      JP +81
+    </option>
+  
+    
+    
+
+    <option data-calling-code="962" data-country-code="JO" value="JO" data-a-html-content="Jordan +962">
+      
+      JO +962
+    </option>
+  
+    
+    
+
+    <option data-calling-code="7" data-country-code="KZ" value="KZ" data-a-html-content="Kazakhstan +7">
+      
+      KZ +7
+    </option>
+  
+    
+    
+
+    <option data-calling-code="254" data-country-code="KE" value="KE" data-a-html-content="Kenya +254">
+      
+      KE +254
+    </option>
+  
+    
+    
+
+    <option data-calling-code="686" data-country-code="KI" value="KI" data-a-html-content="Kiribati +686">
+      
+      KI +686
+    </option>
+  
+    
+    
+
+    <option data-calling-code="850" data-country-code="KP" value="KP" data-a-html-content="Korea, Democratic People's Republic of +850">
+      
+      KP +850
+    </option>
+  
+    
+    
+
+    <option data-calling-code="82" data-country-code="KR" value="KR" data-a-html-content="Korea, Republic of +82">
+      
+      KR +82
+    </option>
+  
+    
+    
+
+    <option data-calling-code="965" data-country-code="KW" value="KW" data-a-html-content="Kuwait +965">
+      
+      KW +965
+    </option>
+  
+    
+    
+
+    <option data-calling-code="996" data-country-code="KG" value="KG" data-a-html-content="Kyrgyzstan +996">
+      
+      KG +996
+    </option>
+  
+    
+    
+
+    <option data-calling-code="856" data-country-code="LA" value="LA" data-a-html-content="Lao People's Democratic Republic +856">
+      
+      LA +856
+    </option>
+  
+    
+    
+
+    <option data-calling-code="371" data-country-code="LV" value="LV" data-a-html-content="Latvia +371">
+      
+      LV +371
+    </option>
+  
+    
+    
+
+    <option data-calling-code="961" data-country-code="LB" value="LB" data-a-html-content="Lebanon +961">
+      
+      LB +961
+    </option>
+  
+    
+    
+
+    <option data-calling-code="266" data-country-code="LS" value="LS" data-a-html-content="Lesotho +266">
+      
+      LS +266
+    </option>
+  
+    
+    
+
+    <option data-calling-code="231" data-country-code="LR" value="LR" data-a-html-content="Liberia +231">
+      
+      LR +231
+    </option>
+  
+    
+    
+
+    <option data-calling-code="218" data-country-code="LY" value="LY" data-a-html-content="Libya +218">
+      
+      LY +218
+    </option>
+  
+    
+    
+
+    <option data-calling-code="423" data-country-code="LI" value="LI" data-a-html-content="Liechtenstein +423">
+      
+      LI +423
+    </option>
+  
+    
+    
+
+    <option data-calling-code="370" data-country-code="LT" value="LT" data-a-html-content="Lithuania +370">
+      
+      LT +370
+    </option>
+  
+    
+    
+
+    <option data-calling-code="352" data-country-code="LU" value="LU" data-a-html-content="Luxembourg +352">
+      
+      LU +352
+    </option>
+  
+    
+    
+
+    <option data-calling-code="853" data-country-code="MO" value="MO" data-a-html-content="Macao +853">
+      
+      MO +853
+    </option>
+  
+    
+    
+
+    <option data-calling-code="389" data-country-code="MK" value="MK" data-a-html-content="Macedonia, The Former Yugoslav Republic of +389">
+      
+      MK +389
+    </option>
+  
+    
+    
+
+    <option data-calling-code="261" data-country-code="MG" value="MG" data-a-html-content="Madagascar +261">
+      
+      MG +261
+    </option>
+  
+    
+    
+
+    <option data-calling-code="265" data-country-code="MW" value="MW" data-a-html-content="Malawi +265">
+      
+      MW +265
+    </option>
+  
+    
+    
+
+    <option data-calling-code="60" data-country-code="MY" value="MY" data-a-html-content="Malaysia +60">
+      
+      MY +60
+    </option>
+  
+    
+    
+
+    <option data-calling-code="960" data-country-code="MV" value="MV" data-a-html-content="Maldives +960">
+      
+      MV +960
+    </option>
+  
+    
+    
+
+    <option data-calling-code="223" data-country-code="ML" value="ML" data-a-html-content="Mali +223">
+      
+      ML +223
+    </option>
+  
+    
+    
+
+    <option data-calling-code="356" data-country-code="MT" value="MT" data-a-html-content="Malta +356">
+      
+      MT +356
+    </option>
+  
+    
+    
+
+    <option data-calling-code="692" data-country-code="MH" value="MH" data-a-html-content="Marshall Islands +692">
+      
+      MH +692
+    </option>
+  
+    
+    
+
+    <option data-calling-code="596" data-country-code="MQ" value="MQ" data-a-html-content="Martinique +596">
+      
+      MQ +596
+    </option>
+  
+    
+    
+
+    <option data-calling-code="222" data-country-code="MR" value="MR" data-a-html-content="Mauritania +222">
+      
+      MR +222
+    </option>
+  
+    
+    
+
+    <option data-calling-code="230" data-country-code="MU" value="MU" data-a-html-content="Mauritius +230">
+      
+      MU +230
+    </option>
+  
+    
+    
+
+    <option data-calling-code="52" data-country-code="MX" value="MX" data-a-html-content="Mexico +52">
+      
+      MX +52
+    </option>
+  
+    
+    
+
+    <option data-calling-code="691" data-country-code="FM" value="FM" data-a-html-content="Micronesia, Federated States of +691">
+      
+      FM +691
+    </option>
+  
+    
+    
+
+    <option data-calling-code="373" data-country-code="MD" value="MD" data-a-html-content="Moldova, Republic of +373">
+      
+      MD +373
+    </option>
+  
+    
+    
+
+    <option data-calling-code="377" data-country-code="MC" value="MC" data-a-html-content="Monaco +377">
+      
+      MC +377
+    </option>
+  
+    
+    
+
+    <option data-calling-code="976" data-country-code="MN" value="MN" data-a-html-content="Mongolia +976">
+      
+      MN +976
+    </option>
+  
+    
+    
+
+    <option data-calling-code="382" data-country-code="ME" value="ME" data-a-html-content="Montenegro +382">
+      
+      ME +382
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="MS" value="MS" data-a-html-content="Montserrat +1">
+      
+      MS +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="212" data-country-code="MA" value="MA" data-a-html-content="Morocco +212">
+      
+      MA +212
+    </option>
+  
+    
+    
+
+    <option data-calling-code="258" data-country-code="MZ" value="MZ" data-a-html-content="Mozambique +258">
+      
+      MZ +258
+    </option>
+  
+    
+    
+
+    <option data-calling-code="95" data-country-code="MM" value="MM" data-a-html-content="Myanmar +95">
+      
+      MM +95
+    </option>
+  
+    
+    
+
+    <option data-calling-code="264" data-country-code="NA" value="NA" data-a-html-content="Namibia +264">
+      
+      NA +264
+    </option>
+  
+    
+    
+
+    <option data-calling-code="674" data-country-code="NR" value="NR" data-a-html-content="Nauru +674">
+      
+      NR +674
+    </option>
+  
+    
+    
+
+    <option data-calling-code="977" data-country-code="NP" value="NP" data-a-html-content="Nepal +977">
+      
+      NP +977
+    </option>
+  
+    
+    
+
+    <option data-calling-code="31" data-country-code="NL" value="NL" data-a-html-content="Netherlands +31">
+      
+      NL +31
+    </option>
+  
+    
+    
+
+    <option data-calling-code="0" data-country-code="AN" value="AN" data-a-html-content="Netherlands Antilles +0">
+      
+      AN +0
+    </option>
+  
+    
+    
+
+    <option data-calling-code="687" data-country-code="NC" value="NC" data-a-html-content="New Caledonia +687">
+      
+      NC +687
+    </option>
+  
+    
+    
+
+    <option data-calling-code="64" data-country-code="NZ" value="NZ" data-a-html-content="New Zealand +64">
+      
+      NZ +64
+    </option>
+  
+    
+    
+
+    <option data-calling-code="505" data-country-code="NI" value="NI" data-a-html-content="Nicaragua +505">
+      
+      NI +505
+    </option>
+  
+    
+    
+
+    <option data-calling-code="227" data-country-code="NE" value="NE" data-a-html-content="Niger +227">
+      
+      NE +227
+    </option>
+  
+    
+    
+
+    <option data-calling-code="234" data-country-code="NG" value="NG" data-a-html-content="Nigeria +234">
+      
+      NG +234
+    </option>
+  
+    
+    
+
+    <option data-calling-code="683" data-country-code="NU" value="NU" data-a-html-content="Niue +683">
+      
+      NU +683
+    </option>
+  
+    
+    
+
+    <option data-calling-code="672" data-country-code="NF" value="NF" data-a-html-content="Norfolk Island +672">
+      
+      NF +672
+    </option>
+  
+    
+    
+
+    <option data-calling-code="47" data-country-code="NO" value="NO" data-a-html-content="Norway +47">
+      
+      NO +47
+    </option>
+  
+    
+    
+
+    <option data-calling-code="968" data-country-code="OM" value="OM" data-a-html-content="Oman +968">
+      
+      OM +968
+    </option>
+  
+    
+    
+
+    <option data-calling-code="92" data-country-code="PK" value="PK" data-a-html-content="Pakistan +92">
+      
+      PK +92
+    </option>
+  
+    
+    
+
+    <option data-calling-code="680" data-country-code="PW" value="PW" data-a-html-content="Palau +680">
+      
+      PW +680
+    </option>
+  
+    
+    
+
+    <option data-calling-code="970" data-country-code="PS" value="PS" data-a-html-content="Palestinian Territories +970">
+      
+      PS +970
+    </option>
+  
+    
+    
+
+    <option data-calling-code="507" data-country-code="PA" value="PA" data-a-html-content="Panama +507">
+      
+      PA +507
+    </option>
+  
+    
+    
+
+    <option data-calling-code="675" data-country-code="PG" value="PG" data-a-html-content="Papua New Guinea +675">
+      
+      PG +675
+    </option>
+  
+    
+    
+
+    <option data-calling-code="595" data-country-code="PY" value="PY" data-a-html-content="Paraguay +595">
+      
+      PY +595
+    </option>
+  
+    
+    
+
+    <option data-calling-code="51" data-country-code="PE" value="PE" data-a-html-content="Peru +51">
+      
+      PE +51
+    </option>
+  
+    
+    
+
+    <option data-calling-code="63" data-country-code="PH" value="PH" data-a-html-content="Philippines +63">
+      
+      PH +63
+    </option>
+  
+    
+    
+
+    <option data-calling-code="48" data-country-code="PL" value="PL" data-a-html-content="Poland +48">
+      
+      PL +48
+    </option>
+  
+    
+    
+
+    <option data-calling-code="351" data-country-code="PT" value="PT" data-a-html-content="Portugal +351">
+      
+      PT +351
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="PR" value="PR" data-a-html-content="Puerto Rico +1">
+      
+      PR +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="974" data-country-code="QA" value="QA" data-a-html-content="Qatar +974">
+      
+      QA +974
+    </option>
+  
+    
+    
+
+    <option data-calling-code="262" data-country-code="RE" value="RE" data-a-html-content="Reunion +262">
+      
+      RE +262
+    </option>
+  
+    
+    
+
+    <option data-calling-code="40" data-country-code="RO" value="RO" data-a-html-content="Romania +40">
+      
+      RO +40
+    </option>
+  
+    
+    
+
+    <option data-calling-code="7" data-country-code="RU" value="RU" data-a-html-content="Russian Federation +7">
+      
+      RU +7
+    </option>
+  
+    
+    
+
+    <option data-calling-code="250" data-country-code="RW" value="RW" data-a-html-content="Rwanda +250">
+      
+      RW +250
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="KN" value="KN" data-a-html-content="Saint Kitts and Nevis +1">
+      
+      KN +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="LC" value="LC" data-a-html-content="Saint Lucia +1">
+      
+      LC +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="508" data-country-code="PM" value="PM" data-a-html-content="Saint Pierre and Miquelon +508">
+      
+      PM +508
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="VC" value="VC" data-a-html-content="Saint Vincent and the Grenadines +1">
+      
+      VC +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="685" data-country-code="WS" value="WS" data-a-html-content="Samoa +685">
+      
+      WS +685
+    </option>
+  
+    
+    
+
+    <option data-calling-code="378" data-country-code="SM" value="SM" data-a-html-content="San Marino +378">
+      
+      SM +378
+    </option>
+  
+    
+    
+
+    <option data-calling-code="239" data-country-code="ST" value="ST" data-a-html-content="Sao Tome and Principe +239">
+      
+      ST +239
+    </option>
+  
+    
+    
+
+    <option data-calling-code="966" data-country-code="SA" value="SA" data-a-html-content="Saudi Arabia +966">
+      
+      SA +966
+    </option>
+  
+    
+    
+
+    <option data-calling-code="221" data-country-code="SN" value="SN" data-a-html-content="Senegal +221">
+      
+      SN +221
+    </option>
+  
+    
+    
+
+    <option data-calling-code="381" data-country-code="RS" value="RS" data-a-html-content="Serbia +381">
+      
+      RS +381
+    </option>
+  
+    
+    
+
+    <option data-calling-code="248" data-country-code="SC" value="SC" data-a-html-content="Seychelles +248">
+      
+      SC +248
+    </option>
+  
+    
+    
+
+    <option data-calling-code="232" data-country-code="SL" value="SL" data-a-html-content="Sierra Leone +232">
+      
+      SL +232
+    </option>
+  
+    
+    
+
+    <option data-calling-code="65" data-country-code="SG" value="SG" data-a-html-content="Singapore +65">
+      
+      SG +65
+    </option>
+  
+    
+    
+
+    <option data-calling-code="421" data-country-code="SK" value="SK" data-a-html-content="Slovakia +421">
+      
+      SK +421
+    </option>
+  
+    
+    
+
+    <option data-calling-code="386" data-country-code="SI" value="SI" data-a-html-content="Slovenia +386">
+      
+      SI +386
+    </option>
+  
+    
+    
+
+    <option data-calling-code="677" data-country-code="SB" value="SB" data-a-html-content="Solomon Islands +677">
+      
+      SB +677
+    </option>
+  
+    
+    
+
+    <option data-calling-code="252" data-country-code="SO" value="SO" data-a-html-content="Somalia +252">
+      
+      SO +252
+    </option>
+  
+    
+    
+
+    <option data-calling-code="27" data-country-code="ZA" value="ZA" data-a-html-content="South Africa +27">
+      
+      ZA +27
+    </option>
+  
+    
+    
+
+    <option data-calling-code="211" data-country-code="SS" value="SS" data-a-html-content="South Sudan +211">
+      
+      SS +211
+    </option>
+  
+    
+    
+
+    <option data-calling-code="34" data-country-code="ES" value="ES" data-a-html-content="Spain +34">
+      
+      ES +34
+    </option>
+  
+    
+    
+
+    <option data-calling-code="94" data-country-code="LK" value="LK" data-a-html-content="Sri Lanka +94">
+      
+      LK +94
+    </option>
+  
+    
+    
+
+    <option data-calling-code="249" data-country-code="SD" value="SD" data-a-html-content="Sudan +249">
+      
+      SD +249
+    </option>
+  
+    
+    
+
+    <option data-calling-code="597" data-country-code="SR" value="SR" data-a-html-content="Suriname +597">
+      
+      SR +597
+    </option>
+  
+    
+    
+
+    <option data-calling-code="268" data-country-code="SZ" value="SZ" data-a-html-content="Swaziland +268">
+      
+      SZ +268
+    </option>
+  
+    
+    
+
+    <option data-calling-code="46" data-country-code="SE" value="SE" data-a-html-content="Sweden +46">
+      
+      SE +46
+    </option>
+  
+    
+    
+
+    <option data-calling-code="41" data-country-code="CH" value="CH" data-a-html-content="Switzerland +41">
+      
+      CH +41
+    </option>
+  
+    
+    
+
+    <option data-calling-code="963" data-country-code="SY" value="SY" data-a-html-content="Syria +963">
+      
+      SY +963
+    </option>
+  
+    
+    
+
+    <option data-calling-code="886" data-country-code="TW" value="TW" data-a-html-content="Taiwan +886">
+      
+      TW +886
+    </option>
+  
+    
+    
+
+    <option data-calling-code="992" data-country-code="TJ" value="TJ" data-a-html-content="Tajikistan +992">
+      
+      TJ +992
+    </option>
+  
+    
+    
+
+    <option data-calling-code="255" data-country-code="TZ" value="TZ" data-a-html-content="Tanzania, United Republic of +255">
+      
+      TZ +255
+    </option>
+  
+    
+    
+
+    <option data-calling-code="66" data-country-code="TH" value="TH" data-a-html-content="Thailand +66">
+      
+      TH +66
+    </option>
+  
+    
+    
+
+    <option data-calling-code="670" data-country-code="TL" value="TL" data-a-html-content="Timor-leste +670">
+      
+      TL +670
+    </option>
+  
+    
+    
+
+    <option data-calling-code="228" data-country-code="TG" value="TG" data-a-html-content="Togo +228">
+      
+      TG +228
+    </option>
+  
+    
+    
+
+    <option data-calling-code="676" data-country-code="TO" value="TO" data-a-html-content="Tonga +676">
+      
+      TO +676
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="TT" value="TT" data-a-html-content="Trinidad and Tobago +1">
+      
+      TT +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="216" data-country-code="TN" value="TN" data-a-html-content="Tunisia +216">
+      
+      TN +216
+    </option>
+  
+    
+    
+
+    <option data-calling-code="90" data-country-code="TR" value="TR" data-a-html-content="Turkey +90">
+      
+      TR +90
+    </option>
+  
+    
+    
+
+    <option data-calling-code="993" data-country-code="TM" value="TM" data-a-html-content="Turkmenistan +993">
+      
+      TM +993
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="TC" value="TC" data-a-html-content="Turks and Caicos Islands +1">
+      
+      TC +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="688" data-country-code="TV" value="TV" data-a-html-content="Tuvalu +688">
+      
+      TV +688
+    </option>
+  
+    
+    
+
+    <option data-calling-code="256" data-country-code="UG" value="UG" data-a-html-content="Uganda +256">
+      
+      UG +256
+    </option>
+  
+    
+    
+
+    <option data-calling-code="380" data-country-code="UA" value="UA" data-a-html-content="Ukraine +380">
+      
+      UA +380
+    </option>
+  
+    
+    
+
+    <option data-calling-code="971" data-country-code="AE" value="AE" data-a-html-content="United Arab Emirates +971">
+      
+      AE +971
+    </option>
+  
+    
+    
+
+    <option data-calling-code="44" data-country-code="GB" value="GB" data-a-html-content="United Kingdom +44">
+      
+      GB +44
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="US" value="US" data-a-html-content="United States +1" selected>
+      
+      US +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="598" data-country-code="UY" value="UY" data-a-html-content="Uruguay +598">
+      
+      UY +598
+    </option>
+  
+    
+    
+
+    <option data-calling-code="998" data-country-code="UZ" value="UZ" data-a-html-content="Uzbekistan +998">
+      
+      UZ +998
+    </option>
+  
+    
+    
+
+    <option data-calling-code="678" data-country-code="VU" value="VU" data-a-html-content="Vanuatu +678">
+      
+      VU +678
+    </option>
+  
+    
+    
+
+    <option data-calling-code="58" data-country-code="VE" value="VE" data-a-html-content="Venezuela +58">
+      
+      VE +58
+    </option>
+  
+    
+    
+
+    <option data-calling-code="84" data-country-code="VN" value="VN" data-a-html-content="Vietnam +84">
+      
+      VN +84
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="VG" value="VG" data-a-html-content="Virgin Islands, British +1">
+      
+      VG +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="1" data-country-code="VI" value="VI" data-a-html-content="Virgin Islands, U.S. +1">
+      
+      VI +1
+    </option>
+  
+    
+    
+
+    <option data-calling-code="967" data-country-code="YE" value="YE" data-a-html-content="Yemen +967">
+      
+      YE +967
+    </option>
+  
+    
+    
+
+    <option data-calling-code="260" data-country-code="ZM" value="ZM" data-a-html-content="Zambia +260">
+      
+      ZM +260
+    </option>
+  
+    
+    
+
+    <option data-calling-code="263" data-country-code="ZW" value="ZW" data-a-html-content="Zimbabwe +263">
+      
+      ZW +263
+    </option>
+  
+</select><span tabIndex="-1" id="auth-country-picker-container" class="a-button a-button-dropdown"><span class="a-button-inner"><span class="a-button-text a-declarative" data-action="a-dropdown-button" role="button" tabIndex="0" aria-hidden="true"><span class="a-dropdown-prompt">US +1</span></span><i class="a-icon a-icon-dropdown"></i></span></span></span>
+
+    </div>
+
+    <div class="a-column a-span7 a-span-last">
+      
+
+      <label for="ap_phone_number" class="a-form-label auth-mobile-label">
+        Mobile number
+      </label>
+	  <div class="a-row a-spacing-base">
+	      <div data-validation-id="phoneNumber" class="a-input-text-wrapper a-form-normal auth-required-field auth-require-phone-validation"><input type="tel" maxlength="50" id="ap_phone_number" placeholder="Mobile number" name="email"></div>
+	      
+
+<div id="ap_phone_number_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+	      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div id="auth-phoneNumber-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your mobile number
+</div></div></div>
+
+  
+
+
+
+<div id="auth-phoneNumber-invalid-phone-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  The mobile number you entered does not seem to be valid
+</div></div></div>
+
+  
+
+
+
+<div id="auth-email-missing-alert-ango-phone" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your mobile number
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+  
+    
+
+
+
+
+
+
+<div class="a-row">
+  
+    
+    
+      <div class="a-section">
+        <span id="ap_use_email" class="a-button"><span class="a-button-inner"><button id="ap_use_email-announce" class="a-button-text" type="button">
+          Use your email instead
+        </button></span></span>
+      </div>
+    
+  
+</div>
+  
+</div>
+
+            
+            
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+      
+      
+        
+        
+      
+      
+      
+    
+
+  
+
+
+<div class="a-section ap_email_fields ap_hidden">
+  
+  
+  <label for="ap_email" class="a-form-label auth-mobile-label">
+    Your email address
+  </label>
+  <div class="a-row a-spacing-base">
+	  <div data-validation-id="email" class="a-input-text-wrapper a-form-disabled auth-require-email-validaton auth-required-field"><input type="email" maxlength="64" id="ap_email" placeholder="Your email address" name="email" autocorrect="off" autocapitalize="off" disabled="disabled"></div>
+	  
+
+<div id="ap_email_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your email
+</div></div></div>
+
+  
+
+
+
+<div id="auth-email-invalid-email-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter a valid email address
+</div></div></div>
+
+  
+
+
+
+<div id="auth-email-invalid-claim-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Wrong or Invalid email address or mobile phone number. Please correct and try again.
+</div></div></div>
+
+  
+  
+
+
+
+<div id="auth-email-missing-alert-ango-email" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your email
+</div></div></div>
+
+  
+
+
+
+<div id="auth-email-missing-alert-ango-phone" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your mobile phone number
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  
+  
+    
+
+
+
+
+
+
+<div class="a-row">
+  
+    
+    
+      <div class="a-section">
+        <span id="ap_use_mobile" class="a-button"><span class="a-button-inner"><button id="ap_use_mobile-announce" class="a-button-text" type="button">
+          Use your mobile number instead
+        </button></span></span>
+      </div>
+    
+  
+</div>
+  
+</div>
+
+
+            
+            <div id="auth-register-mobile-custom-message">
+              
+                
+              
+            </div>
+
+            
+            
+
+
+
+
+
+
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;auth-show-password&quot;}">{"isShowPasswordEnabled":true,"showPasswordChecked":true}</script>
+<div class="a-input-text-group a-spacing-small">
+
+  
+    
+    
+      
+      <label for="ap_password" class="a-form-label auth-mobile-label">
+        Create a password
+      </label>
+    
+  
+  
+   <div id="auth-password-container" class="a-input-text-wrapper auth-required-field auth-require-password-validation auth-password-container auth-password"><input type="password" maxlength="1024" id="ap_password" autocomplete="off" placeholder="Create a password" name="password" autocorrect="off" autocapitalize="off"></div>
+  
+
+<div id="ap_password_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+
+  
+  
+
+
+<div class="a-box a-alert-inline a-alert-inline-info auth-inlined-information-message a-spacing-top-mini"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Passwords must be at least 6 characters.
+</div></div></div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div id="auth-password-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-small a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your password
+</div></div></div>
+
+  
+
+
+
+<div id="auth-password-invalid-password-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-small a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Passwords must be at least 6 characters.
+</div></div></div>
+
+
+
+
+
+
+
+  
+  
+    <div class="a-row auth-visible-password-container auth-show-password-empty">
+      <span id="auth-visible-password" class="a-size-small a-color-secondary auth-visible-password"></span>
+    </div>
+
+    <input type="hidden" name="showPasswordChecked" value="true" id="ap_show_password_checked">
+  
+</div>
+
+<div class="a-row">   
+  
+    <div class="a-column a-span12 a-spacing-medium">
+      <div id="auth-show-password-checkbox-container" class="a-checkbox a-checkbox-fancy a-control-row a-touch-checkbox auth-show-password-checkbox"><label for="auth-register-show-password-checkbox"><input id="auth-register-show-password-checkbox" type="checkbox" name="" value="" checked><i class="a-icon a-icon-checkbox"></i><span class="a-label a-checkbox-label">
+        <span class="a-size-small auth-password-margin">
+          Show password
+        </span>
+      </span></label></div>
+    </div>
+  
+</div>       
+ 
+
+            
+            
+
+            
+            
+
+
+
+
+
+
+
+
+            
+            
+              
+                
+              
+              
+            
+
+            <div class="a-section ap_mobile_number_fields">
+              <span id="auth-continue" class="a-button a-spacing-medium a-button-primary"><span class="a-button-inner"><input id="continue" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce"><span id="auth-continue-announce" class="a-button-text" aria-hidden="true">
+                
+                  
+                  
+                    Continue
+                  
+                
+              </span></span></span>
+            </div>
+
+            
+
+            
+              <div class="a-section ap_email_fields ap_hidden">
+                <span id="auth-create-account-button" class="a-button a-spacing-medium a-button-primary"><span class="a-button-inner"><input id="continue" class="a-button-input" type="submit" aria-labelledby="auth-create-account-button-announce"><span id="auth-create-account-button-announce" class="a-button-text" aria-hidden="true">
+                  Create your Amazon account
+                </span></span></span>
+              </div>
+            
+
+            
+            
+          </form>
+        </div>
+      </div>
+    </div></div>
+
+    <div id="accordion-row-login" class="a-box a-accordion-active" data-a-accordion-row-name="accordion-row-login"><div class="a-box-inner a-accordion-row-container">
+      <div class="a-accordion-row-a11y" role="radio" aria-checked="true" aria-expanded="true"><a id="login_accordion_header" aria="" data-action="a-accordion" class="a-accordion-row a-declarative" href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fpsi.html%3Fie%3DUTF8%26cartID%3D134-2821069-4911223%26destinationURL%3D%252Fgp%252Faw%252Fya%26packedQuery%3Dref_%257Cnavm_hdr_profile&prevRID=54Q47YSV0WJ99KXHD3PD&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=anywhere_v2_us&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=anywhere_us&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" aria-label=""><i class="a-icon a-accordion-radio a-icon-radio-active"></i><h5>
+        <div class="a-row">
+          <div class="a-column a-span12">
+            <span class="a-size-base">Login.</span>
+            <span class="a-size-mini accordionHeaderMessage">Already a customer?</span>
+          </div>
+        </div>
+      </h5></a></div>
+      <div class="a-accordion-inner">
+
+        <form id="ap_login_form" name="signIn" method="post" novalidate action="https://www.amazon.com/ap/signin" class="auth-validate-form fwcim-form auth-clearable-form">
+          
+            
+
+            
+              
+                
+                  <input type="hidden" name="appActionToken" value="Pq0W1qARzsn41LjpkpJWHCId6uMj3D" /><input type="hidden" name="appAction" value="SIGNIN_PWD_COLLECT" />
+                
+                
+              
+            
+          
+
+          
+
+
+
+
+
+  
+    <input type="hidden" name="openid.pape.max_auth_age" value="ape:MA==">
+  
+    <input type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9hdy9wc2kuaHRtbD9pZT1VVEY4JmNhcnRJRD0xMzQtMjgyMTA2OS00OTExMjIzJmRlc3RpbmF0aW9uVVJMPSUyRmdwJTJGYXclMkZ5YSZwYWNrZWRRdWVyeT1yZWZfJTdDbmF2bV9oZHJfcHJvZmlsZQ==">
+  
+    <input type="hidden" name="prevRID" value="ape:NTRRNDdZU1YwV0o5OUtYSEQzUEQ=">
+  
+    <input type="hidden" name="openid.identity" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjAvaWRlbnRpZmllcl9zZWxlY3Q=">
+  
+    <input type="hidden" name="openid.assoc_handle" value="ape:YW55d2hlcmVfdjJfdXM=">
+  
+    <input type="hidden" name="openid.mode" value="ape:Y2hlY2tpZF9zZXR1cA==">
+  
+    <input type="hidden" name="openid.ns.pape" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvZXh0ZW5zaW9ucy9wYXBlLzEuMA==">
+  
+    <input type="hidden" name="prepopulatedLoginId">
+  
+    <input type="hidden" name="failedSignInCount" value="ape:MA==">
+  
+    <input type="hidden" name="openid.claimed_id" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjAvaWRlbnRpZmllcl9zZWxlY3Q=">
+  
+    <input type="hidden" name="pageId" value="ape:YW55d2hlcmVfdXM=">
+  
+    <input type="hidden" name="openid.ns" value="ape:aHR0cDovL3NwZWNzLm9wZW5pZC5uZXQvYXV0aC8yLjA=">
+  
+
+
+          
+            
+              
+                
+                
+                  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+  
+  
+    
+  
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;login-with-otp-state&quot;}">{"isLoginWithOTPEnabled":true}</script>
+
+<div class="a-input-text-group a-spacing-medium a-spacing-top-micro">
+  <label for="ap_email_login" class="a-form-label auth-mobile-label">ap_ra_email_or_phone
+  </label>
+  <div class="a-input-text-wrapper auth-required-field auth-fill-claim"><input type="email" maxlength="128" id="ap_email_login" placeholder="Email (phone for mobile accounts)" name="email" autocorrect="off" autocapitalize="off"></div>
+  
+
+<div id="ap_email_login_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+
+  
+
+  
+    
+    
+      <div class="a-input-text-wrapper hide"><input type="password" maxlength="1024" id="ap-credential-autofill-hint" name="password"></div>
+    
+  
+
+  
+
+
+
+<div id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your email or mobile phone number
+</div></div></div>
+
+</div>
+
+<div class="a-row">
+  
+    
+
+
+
+
+
+
+
+  
+</div>
+
+<div class="a-section">
+  <div class="a-button-stack">
+    <span id="continue" class="a-button a-spacing-medium a-button-span12 a-button-primary"><span class="a-button-inner"><input id="continue" class="a-button-input" type="submit" aria-labelledby="continue-announce"><span id="continue-announce" class="a-button-text" aria-hidden="true">
+      Continue
+    </span></span></span>
+    
+<script>
+  function cf() {
+    if (typeof window.uet === 'function') {
+      uet('cf');
+    }
+    if (window.embedNotification &&
+      typeof window.embedNotification.onCF === 'function') {
+      embedNotification.onCF();
+    }
+  }
+</script>
+
+<script type="text/javascript">cf()</script>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="a-section">
+  <div aria-live="polite" class="a-row a-expander-container a-expander-inline-container">
+    <a href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+      Need help?
+    </span></a>
+    
+      <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        
+
+
+
+  
+  
+  
+    
+  
+
+<a id="auth-fpp-link-bottom" class="a-link-normal" href="https://www.amazon.com/ap/forgotpassword?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=anywhere_us&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fpsi.html%3Fie%3DUTF8%26cartID%3D134-2821069-4911223%26destinationURL%3D%252Fgp%252Faw%252Fya%26packedQuery%3Dref_%257Cnavm_hdr_profile&prevRID=54Q47YSV0WJ99KXHD3PD&openid.assoc_handle=anywhere_v2_us&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+  Forgot your password?
+</a>
+      </div>
+    
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+      <a id="ap-other-signin-issues-link" class="a-link-normal" href="https://www.amazon.com/gp/aw/contact-us/ref=csl_contactus">
+        Other issues with sign in
+      </a>
+    </div>
+  </div>
+</div>
+
+
+                
+              
+            
+            
+          
+
+          
+
+          
+
+
+
+
+  
+  
+  
+    
+      
+      
+      
+        
+        
+      
+    
+  
+
+
+          
+          
+        </form>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+      </div>
+
+      
+      <!-- footer pilu --><style type="text/css"><!--
+#navFooter{margin:30px 0 8px 0;padding:0 0 7px 0}#navFooter.navFooterWithStripe{margin:30px 0 0 0;padding:0}html.a-js .navFooterMobileStripe,html.a-no-js .navFooterMobileStripe{margin:10px 0 0 0}.navFooterMobileStripe{display:block;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;line-height:50px;text-align:center;margin:10px -8px 0 -8px;background:#f2f2f2;font-weight:bold;min-width:1000px;font-size:large}#navFooter img{border:0}#navFooter table{width:100%}#navFooter td{font-family:"arial","sans-serif";font-size:13px;line-height:120%;padding:0 10px}#navFooter a:link,#navFooter a:visited{font-family:"arial","sans-serif";color:#004B91;text-decoration:none}#navFooter a:hover,#navFooter a:active,#navFooter a:hover span,#navFooter a:active span{font-family:"arial","sans-serif";color:#E47911;text-decoration:underline}#navFooter a,#navFooter span{font-family:"arial","sans-serif";white-space:nowrap}#navFooter table.navFooterVerticalColumn{margin:0 auto 0 auto;width:auto}.navFooterThreeColumn .navFooterColSpacerOuter{width:35%;padding:0 15px}.navFooterThreeColumn .navFooterColSpacerInner{width:15%;padding:0 15px}.navFooterVerticalColumn .navFooterColSpacerInner{width:10%;padding:0 15px}.navFooterLinkCol{color:#333;vertical-align:top}.navFooterLinkCol ul{padding:0;margin:0}.navFooterLinkCol ul li{list-style-type:none;white-space:nowrap;margin:0 0 8px 0}ul.navFooterCondensed li{margin:0 0 4px 0}.navFooterColHead{font-family:"arial","sans-serif";color:#333;font-size:16px;margin:6px 0 14px 0;white-space:nowrap}div.navFooterLine{font-family:"arial","sans-serif";color:#767676;font-size:11px;text-align:center;line-height:18px}div.navFooterLogoLine{margin:30px 8px 4px 8px;font-size:1px;line-height:0px}.navFooterLinkLine{margin:0 8px 0 8px}.navFooterDLicense{text-align:center;margin:8px 8px 0 8px}.navFooterLinkLine ul,.navFooterLinkLine span{list-style-type:none;display:inline-block;padding:0px;margin:0px}.navFooterLinkLine ul li{display:inline}.navFooterLineDivider ul li{border-left:1px solid #999}.navFooterLinkCol ul li.nav_a_carat{position:relative;padding-left:0px}.navFooterLinkCol ul li.nav_a_carat span.nav_a_carat{top:0px;font-size:15px;color:#E47911;font-weight:bold;line-height:15px}.navFooterLinkCol ul li.nav_a_carat a{padding-left:4px}.navFooterLineDivider ul li.nav_first{border-left:0px}.navFooterDLicenseItem{font-size:11px;color:#767676}.navFooterDLicenseLine{text-align:center;line-height:20px}.navFooterPadItemLine a,.navFooterPadItemLine span{padding:0 0.6em}.navFooterDescLine{margin:20px 0 14px 0}.navFooterDescSpacer{padding:0}#navFooter .navFooterBackToTop{background-color:#f3f3f3;margin-bottom:25px}#navFooter .navFooterBackToTop span{display:block;text-align:center;color:#111;padding:15px 0}#navFooter .navFooterBackToTop:hover,#navFooter .navFooterBackToTop:focus,#navFooter .navFooterBackToTop:active{background-color:#efefef}#navFooter .navFooterBackToTop:hover span,#navFooter .navFooterBackToTop:focus span,#navFooter .navFooterBackToTop:active span{color:#111;text-decoration:none}#navFooter #navBackToTop:hover,#navFooter #navBackToTop:focus,#navFooter #navBackToTop:active{color:#111;text-decoration:none}#navFooter .navFooterDescItem{font-size:11px !important;padding:0 0.75em;vertical-align:top;text-align:left;line-height:115%}.navFooterDescText{font-size:10px;color:#767676;line-height:110%;display:block;margin-bottom:1px}#navFooter.navGreyFooter{margin:30px -8px -8px;padding:0}#navFooter.navGreyFooter .navFooterColHead{font-weight:normal;line-height:22px;font-size:17px;color:#333;margin:0 0 16px 0}#navFooter.navGreyFooter div.navFooterLogoLine{margin:30px 8px 10px 8px}#navFooter.navGreyFooter .navFooterLinkLine{margin:0}#navFooter.navGreyFooter .navFooterDescItem a:link,#navFooter.navGreyFooter .navFooterDescItem a:visited{color:#666}#navFooter.navGreyFooter .navFooterPadItemLine{margin-bottom:10px}#navFooter.navGreyFooter .navFooterLinkCol a:link,#navFooter.navGreyFooter .navFooterLinkCol a:visited{color:#888}#navFooter.navGreyFooter .navFooterPadItemLine a:link,#navFooter.navGreyFooter .navFooterPadItemLine a:visited,#navFooter.navGreyFooter .navFooterPadItemLine .nav_last{color:#333}#navFooter.navGreyFooter .navFooterDescItem a:hover,#navFooter.navGreyFooter .navFooterPadItemLine a:hover,#navFooter.navGreyFooter .navFooterLinkCol a:hover{color:#E47911}#navFooter.navGreyFooter .navFooterDescLine{margin:24px 0 0;padding:36px 0 40px 0;background-color:#F3F3F3;border-top:1px solid #ddd}#navFooter.navGreyFooter .navFooterDescText{font-weight:normal;line-height:11px}#navFooter.navGreyFooter .navFooterEasterEgg{background-color:#F3F3F3}
+
+--></style>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="nav-mobile nav-locale-us nav-lang-en nav-ftr-batmobile">
+  <div id="nav-ftr" class="nav-t-basicNoAuth nav-sprite-v3">
+
+<ul class='nav-ftr-horiz '><li class='nav-li '><a href='https://www.amazon.com/gp/aw/help/ref=navm_ftr_cou?ie=UTF8&amp;id=cou' class='nav-a'>Conditions of Use</a></li><li class='nav-li '><a href='https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&amp;nodeId=468496' class='nav-a'>Privacy Notice</a></li><li class='nav-li '><a href='https://www.amazon.com/gp/aw/help/ref=navm_ftr_iba?ie=UTF8&amp;id=201308670' class='nav-a'>Interest-Based Ads</a></li></ul>
+<div id="nav-ftr-copyright">&copy; 1996-2018, Amazon.com, Inc. or its affiliates</div>
+
+
+  </div>
+</footer>
+<!-- whfh-6mdenY/Le1aIvOzkM5wE3dpzPibzFquxcyuV1M1NnSDsbADWUXNY8vQvWVH+BihC rid-54Q47YSV0WJ99KXHD3PD -->
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="https://s.amazon-adsystem.com/iu3?d=amazon.com&amp;slot=navFooter&amp;a2=0101a075cda232a7bdaf5de7aab802629012b586bcdd04abd5f5e7342382818e9303&amp;old_oo=0&amp;cb=1536609661344" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script><!-- footer tilu -->
+
+
+
+      
+      <!-- btf pilu -->
+  <script type='text/javascript'>
+    var component = 'navCF';
+    try {
+      (window.AmazonUIPageJS ? AmazonUIPageJS : P).register(component, function(){return {};});
+    }
+    catch(e) {
+      var error = e.message.toLowerCase();
+      var alreadyRegisteredMsg = component + ' already registered';
+ 
+      if (error.indexOf(alreadyRegisteredMsg.toLowerCase()) === -1) {
+        throw(e);
+      }
+    }
+  
+  </script>
+
+
+
+
+
+<!--NAVYAAN-HEADER-DATA-->
+
+<!--NAVYAAN-HEADER-DATA-END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+  window.$Nav && $Nav.when('$').run('searchScoping', function($) {
+    $('#nav-search-keywords-data').attr('data-implicit-alias', 'aps' );
+  });
+</script>
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form style="display: none;">
+  <input type="hidden" id="rwol-display-called" value="0">
+</form>
+
+    <script type="a-state" data-a-state="{&quot;key&quot;:&quot;rw-dynamic-modal-bootstrap&quot;}">{"origSessionId":"134-2821069-4911223","subPageType":null,"pageType":"Standard","ASIN":null,"path":"/ap/signin","isAUI":"1"}</script>
+      
+
+      <script>
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('navCF').execute(function(){
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11ceECUxsqL.js?AUIClients/RetailWebsiteOverlayAUIAssets');
+});
+</script>
+
+
+<!-- btf tilu -->
+
+
+
+    </div>
+
+    
+
+
+
+
+<script id="fwcim-script" crossorigin="anonymous" type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/login/fwcim._CB471568891_.js"></script>
+<script type="text/javascript">
+if (typeof fwcim != "undefined") {
+
+fwcim.useMercury('https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/login/mercury9._CB372126632_.swf')
+
+
+
+fwcim.profile('signIn');
+
+
+}
+</script>
+
+
+   
+
+<!-- cache slot rendered -->
+
+  </div><div id='be' style="display:none;visibility:hidden;"><form name='ue_backdetect' action="https://www.amazon.com/ap/get"><input type="hidden" name='ue_back' value='1' /></form>
+
+
+<script type="text/javascript">
+window.ue_ibe = (window.ue_ibe || 0) + 1;
+if (window.ue_ibe === 1) {
+
+var ue_mbl=ue_csm.ue.exec(function(e,a){function l(f){b=f||{};a.AMZNPerformance=b;b.transition=b.transition||{};b.timing=b.timing||{};e.ue.exec(m,"csm-android-check")()&&b.tags instanceof Array&&(f=-1!=b.tags.indexOf("usesAppStartTime")||b.transition.type?!b.transition.type&&-1<b.tags.indexOf("usesAppStartTime")?"warm-start":void 0:"view-transition",f&&(b.transition.type=f));"reload"===c._nt&&e.ue_orct||"intrapage-transition"===c._nt?a.performance&&performance.timing&&performance.timing.navigationStart?
+b.timing.transitionStart=a.performance.timing.navigationStart:delete b.timing.transitionStart:"undefined"===typeof c._nt&&a.performance&&performance.timing&&performance.timing.navigationStart&&a.history&&"function"===typeof a.History&&"object"===typeof a.history&&history.length&&1!=history.length&&(b.timing.transitionStart=a.performance.timing.navigationStart);f=b.transition;var d;d=c._nt?c._nt:void 0;f.subType=d;a.ue&&a.ue.tag&&a.ue.tag("has-AMZNPerformance");c.isl&&a.uex&&uex("at","csm-timing");
+n()}function p(b){a.ue&&a.ue.count&&a.ue.count("csm-cordova-plugin-failed",1)}function m(){return a.webclient&&"function"===typeof a.webclient.getRealClickTime?a.cordova&&a.cordova.platformId&&"ios"==a.cordova.platformId?!1:!0:!1}function n(){try{P.register("AMZNPerformance",function(){return b})}catch(a){}}function h(){if(!b)return"";ue_mbl.cnt=null;for(var a=b.timing,d=b.transition,a=["mts",k(a.transitionStart),"mps",k(a.processStart),"mtt",d.type,"mtst",d.subType,"mtlt",d.launchType],d="",c=0;c<
+a.length;c+=2){var e=a[c],g=a[c+1];"undefined"!==typeof g&&(d+="&"+e+"="+g)}return d}function k(a){if("undefined"!==typeof a&&"undefined"!==typeof g)return a-g}function q(a,c){b&&(g=c,b.timing.transitionStart=a,b.transition.type="view-transition",b.transition.subType="ajax-transition",b.transition.launchType="normal",ue_mbl.cnt=h)}var c=e.ue||{},g=e.ue_t0,b;if(a.P&&a.P.when&&a.P.register)return a.P.when("CSMPlugin").execute(function(a){a.buildAMZNPerformance&&a.buildAMZNPerformance({successCallback:l,
+failCallback:p})}),{cnt:h,ajax:q}},"mobile-timing")(ue_csm,window);
+
+(function(d){d._uess=function(){var a="";screen&&screen.width&&screen.height&&(a+="&sw="+screen.width+"&sh="+screen.height);var b=function(a){var b=document.documentElement["client"+a];return"CSS1Compat"===document.compatMode&&b||document.body["client"+a]||b},c=b("Width"),b=b("Height");c&&b&&(a+="&vw="+c+"&vh="+b);return a}})(ue_csm);
+
+(function(a){var b=document.ue_backdetect;b&&b.ue_back&&a.ue&&(a.ue.bfini=b.ue_back.value);a.uet&&a.uet("be");a.onLdEnd&&(window.addEventListener?window.addEventListener("load",a.onLdEnd,!1):window.attachEvent&&window.attachEvent("onload",a.onLdEnd));a.ueh&&a.ueh(0,window,"load",a.onLd,1);a.ue&&a.ue.tag&&(a.ue_furl&&a.ue_furl.split?(b=a.ue_furl.split("."))&&b[0]&&a.ue.tag(b[0]):a.ue.tag("nofls"))})(ue_csm);
+(function(g,h){function d(a,d){var b={};if(!e||!f)try{var c=h.sessionStorage;c?a&&("undefined"!==typeof d?c.setItem(a,d):b.val=c.getItem(a)):f=1}catch(g){e=1}e&&(b.e=1);return b}var b=g.ue||{},a="",f,e,c,a=d("csmtid");f?a="NA":a.e?a="ET":(a=a.val,a||(a=b.oid||"NI",d("csmtid",a)),c=d(b.oid),c.e||(c.val=c.val||0,d(b.oid,c.val+1)),b.ssw=d);b.tabid=a})(ue_csm,window);
+ue_csm.ue.exec(function(e,f){var a=e.ue||{},b=a._wlo,d;if(a.ssw){d=a.ssw("CSM_previousURL").val;var c=f.location,b=b?b:c&&c.href?c.href.split("#")[0]:void 0;c=(b||"")===a.ssw("CSM_previousURL").val;!c&&b&&a.ssw("CSM_previousURL",b);d=c?"reload":d?"intrapage-transition":"first-view"}else d="unknown";a._nt=d},"NavTypeModule")(ue_csm,window);
+ue_csm.ue.exec(function(c,a){function g(a){a.run(function(e){d.tag("csm-feature-"+a.name+":"+e);d.isl&&c.uex("at")})}if(a.addEventListener)for(var d=c.ue||{},f=[{name:"touch-enabled",run:function(b){var e=function(){a.removeEventListener("touchstart",c,!0);a.removeEventListener("mousemove",d,!0)},c=function(){b("true");e()},d=function(){b("false");e()};a.addEventListener("touchstart",c,!0);a.addEventListener("mousemove",d,!0)}}],b=0;b<f.length;b++)g(f[b])},"csm-features")(ue_csm,window);
+
+
+(function(b,c){var a=c.images;a&&a.length&&b.ue.count("totalImages",a.length)})(ue_csm,document);
+(function(b){function c(){var d=[];a.log&&a.log.isStub&&a.log.replay(function(a){e(d,a)});a.clog&&a.clog.isStub&&a.clog.replay(function(a){e(d,a)});d.length&&(a._flhs+=1,n(d),p(d))}function g(){a.log&&a.log.isStub&&(a.onflush&&a.onflush.replay&&a.onflush.replay(function(a){a[0]()}),a.onunload&&a.onunload.replay&&a.onunload.replay(function(a){a[0]()}),c())}function e(d,b){var c=b[1],f=b[0],e={};a._lpn[c]=(a._lpn[c]||0)+1;e[c]=f;d.push(e)}function n(b){q&&(a._lpn.csm=(a._lpn.csm||0)+1,b.push({csm:{k:"chk",
+f:a._flhs,l:a._lpn,s:"inln"}}))}function p(a){if(h)a=k(a),b.navigator.sendBeacon(l,a);else{a=k(a);var c=new b[f];c.open("POST",l,!0);c.setRequestHeader&&c.setRequestHeader("Content-type","text/plain");c.send(a)}}function k(a){return JSON.stringify({rid:b.ue_id,sid:b.ue_sid,mid:b.ue_mid,mkt:b.ue_mkt,sn:b.ue_sn,reqs:a})}var f="XMLHttpRequest",q=1===b.ue_ddq,a=b.ue,r=b[f]&&"withCredentials"in new b[f],h=b.navigator&&b.navigator.sendBeacon,l="//"+b.ue_furl+"/1/batch/1/OE/",m=b.ue_fci_ft||5E3;a&&(r||h)&&
+(a._flhs=a._flhs||0,a._lpn=a._lpn||{},a.attach&&(a.attach("beforeunload",g),a.attach("pagehide",g)),m&&b.setTimeout(c,m),a._ffci=c)})(window);
+
+
+ue_csm.ue._rtn = 1;
+(function(e,f){function h(a){a=a.split("?")[0]||a;a=a.replace("http://","").replace("https://","").replace("resource://","").replace("res://","").replace("undefined://","").replace("chrome://","").replace(/\*/g,"").replace(/!/g,"").replace(/~/g,"");var b=a.split("/");a=a.substr(a.lastIndexOf("/")+1);b.splice(-1);b=b.map(function(a){c[a]||(c[a]=(k++).toString(36));return c[a]});b.push(a);return b.join("!")}function l(){return f.getEntriesByType("resource").filter(function(a){return d._rre(a)<d._ld}).sort(function(a,
+b){return a.responseEnd-b.responseEnd}).splice(0,m).map(function(a){var b=[],c;for(c in a)g[c]&&a[c]&&b.push(g[c]+Math.max(a[c]|0,-1).toString(36));b.push("i"+a.initiatorType);(1==d._rtn&&d._afjs>n||2==d._rtn)&&b.push("n"+h(a.name));return b.join("_")}).join("*")}function p(){var a="pm",b;for(b in c)c.hasOwnProperty(b)&&(a+="*"+c[b]+"_"+b);return a}function q(){d.log({k:"rtiming",value:l()+"~"+p()},"csm")}if(f&&f.getEntriesByType&&Array.prototype.map&&Array.prototype.filter&&e.ue&&e.ue.log){var g=
+{connectStart:"c",connectEnd:"C",domainLookupStart:"d",domainLookupEnd:"D",duration:"z",encodedBodySize:"e",decodedBodySize:"E",fetchStart:"f",redirectStart:"r",redirectEnd:"R",requestStart:"q",responseStart:"s",responseEnd:"S",startTime:"a",transferSize:"t"},d=e.ue,c={},k=1,n=20,m=200;d&&d._rre&&(d._art=function(){d._ld&&window.setTimeout(q,0)})}})(ue_csm||{},window.performance);
+
+
+(function(c,d){var b=c.ue,a=d.navigator;b&&b.tag&&a&&(a=a.connection||a.mozConnection||a.webkitConnection)&&a.type&&b.tag("netInfo:"+a.type)})(ue_csm,window);
+
+
+(function(c,d){function h(a,b){for(var c=[],d=0;d<a.length;d++){var e=a[d],f=b.encode(e);if(e[k]){var g=b.metaSep,e=e[k],l=b.metaPairSep,h=[],m=void 0;for(m in e)e.hasOwnProperty(m)&&h.push(m+"="+e[m]);e=h.join(l);f+=g+e}c.push(f)}return c.join(b.resourceSep)}function s(a){var b=a[k]=a[k]||{};b[t]||(b[t]=c.ue_mid);b[u]||(b[u]=c.ue_sid);b[f]||(b[f]=c.ue_id);b.csm=1;a="//"+c.ue_furl+"/1/"+a[v]+"/1/OP/"+a[w]+"/"+a[x]+"/"+h([a],y);if(n)try{n.call(d[p],a)}catch(g){c.ue.sbf=1,(new Image).src=a}else(new Image).src=
+a}function q(){g&&g.isStub&&g.replay(function(a,b,c){a=a[0];b=a[k]=a[k]||{};b[f]=b[f]||c;s(a)});l.impression=s;g=null}if(!(1<c.ueinit)){var k="metadata",x="impressionType",v="foresterChannel",w="programGroup",t="marketplaceId",u="session",f="requestId",p="navigator",l=c.ue||{},n=d[p]&&d[p].sendBeacon,r=function(a,b,c,d){return{encode:d,resourceSep:a,metaSep:b,metaPairSep:c}},y=r("","?","&",function(a){return h(a.impressionData,z)}),z=r("/",":",",",function(a){return a.featureName+":"+h(a.resources,
+A)}),A=r(",","@","|",function(a){return a.id}),g=l.impression;n?q():(l.attach("load",q),l.attach("beforeunload",q));try{d.P&&d.P.register&&d.P.register("impression-client",function(){})}catch(B){c.ueLogError(B,{logLevel:"WARN"})}}})(ue_csm,window);
+
+
+
+var ue_pty = "AuthenticationPortal";
+
+var ue_spty = "SignInClaimCollect";
+
+
+
+var ue_adb = 4;
+var ue_adb_rtla = 1;
+ue_csm.ue.exec(function(w,a){function q(){if(d&&f){var a;a:{try{a=d.getItem(g);break a}catch(c){}a=void 0}if(a)return b=a,!0}return!1}function r(){b=h;k();if(f)try{d.setItem(g,b)}catch(a){}}function s(){b=1===a.ue_adb_chk?l:h;k();if(f)try{d.setItem(g,b)}catch(c){}}function m(){a.ue_adb_rtla&&c&&0<c.ec&&!1===n&&(c.elh=null,ueLogError({m:"Hit Info",fromOnError:1},{logLevel:"INFO",adb:b}),n=!0)}function k(){e.tag(b);e.isl&&a.uex&&uex("at",b);p&&p.updateCsmHit("adb",b);c&&0<c.ec?m():a.ue_adb_rtla&&c&&
+(c.elh=m)}function t(){return b}if(a.ue_adb){a.ue_fadb=a.ue_fadb||10;var e=a.ue,h="adblk_yes",l="adblk_no",b="adblk_unk",d;a:{try{d=a.localStorage;break a}catch(x){}d=void 0}var g="csm:adb",c=a.ue_err,p=e.cookie,f=void 0!==a.localStorage,u=Math.random()>1-1/a.ue_fadb,n=!1,v=q();u||!v?e.uels("https://m.media-amazon.com/images/G/01/csm/showads.v2.js",{onerror:r,onload:s}):k();a.ue_isAdb=t;a.ue_isAdb.unk="adblk_unk";a.ue_isAdb.no=l;a.ue_isAdb.yes=h}},"adb")(document,window);
+
+
+
+
+(function(d,l,g){function m(a){if(a)try{if(a.id)return"//*[@id='"+a.id+"']";var b,e=1,c;for(c=a.previousSibling;c;c=c.previousSibling)c.nodeName===a.nodeName&&(e+=1);b=e;var f=a.nodeName;1!==b&&(f+="["+b+"]");a.parentNode&&(f=m(a.parentNode)+"/"+f);return f}catch(d){return"DETACHED"}}function h(a){if(a&&a.getAttribute)return a.getAttribute(n)?a.getAttribute(n):h(a.parentElement)}var p=d.ue||{},n="data-cel-widget",k=!1,c=[];p.isBF=function(){var a=l.performance||l.webkitPerformance,b=g.ue_backdetect&&
+g.ue_backdetect.ue_back&&g.ue_backdetect.ue_back.value,c=p.bfini;return a&&a.navigation&&2===a.navigation.type||1<c||!c&&1<b}();d.ue_utils={getXPath:m,getFirstAscendingWidget:function(a,b){d.ue_cel&&d.ue_fem?!0===k?b(h(a)):c.push({element:a,callback:b}):b()},notifyWidgetsLabeled:function(){if(!1===k){k=!0;for(var a=h,b=0;b<c.length;b++)if(c[b].hasOwnProperty("callback")&&c[b].hasOwnProperty("element")){var e=c[b].callback,d=c[b].element;"function"===typeof e&&"function"===typeof a&&e(a(d))}c=null}}}})(ue_csm,
+window,document);
+
+
+
+
+ue_csm.ue_unrt = 750;
+(function(d,a,s){function t(b,f){var c=b.srcElement||b.target||{},a={k:u,t:f.t,x:b.pageX,y:b.pageY,p:v(c),n:c.nodeName};d.ue_cdt&&f.dt&&(a.dt=f.dt);b.button&&(a.b=b.button);c.type&&(a.ty=c.type);c.href&&(a.r=c.href);c.id&&(a.i=c.id);c.className&&c.className.split&&(a.c=c.className.split(/\s+/));e+=1;w(c,function(b){a.wd=b;d.ue.log(a,q)})}function x(b){if(!y(b.srcElement||b.target)){h+=1;m=!0;var f=g=d.ue.d(),c;d.ue_cdt&&n&&"function"===typeof n.now&&b.timeStamp&&(c=n.now()-b.timeStamp,c=parseFloat(c.toFixed(2)));
+r=a.setTimeout(function(){t(b,{t:f,dt:c})},z)}}function A(b){if(b){var a=b.filter(B);b.length!==a.length&&(p=!0,k=d.ue.d(),m&&p&&(d.ue_cmr&&k&&g&&d.ue.log({k:C,t:g,m:Math.abs(k-g)},q),l(),p=!1,k=0))}}function B(b){if(!b)return!1;var a="characterData"===b.type?b.target.parentElement:b.target;if(!a||!a.hasAttributes||!a.attributes)return!1;var c={"class":["gw-clock","gw-clock-aria","s-item-container-height-auto","feed-carousel"],id:["dealClock","deal_expiry_timer","timer"],role:["timer"]},d=!1;Object.keys(c).forEach(function(b){var e=
+a.attributes[b]?a.attributes[b].value:"";(c[b]||"").forEach(function(b){-1!==e.indexOf(b)&&(d=!0)})});return d}function y(b){if(!b)return!1;var a=(b.nodeName||"").toLowerCase(),c=(b.type||"").toLowerCase(),d=(b.href||"").toLowerCase();b=(b.id||"").toLowerCase();var e="checkbox color date datetime-local email file month number password radio range reset search tel text time url week".split(" ");if(-1!==["select"].indexOf(a)||"input"===a&&-1!==e.indexOf(c)||"a"===a&&-1!==d.indexOf("http")||-1!==["sitbreaderrightpageturner",
+"sitbreaderleftpageturner","sitbreaderpagecontainer"].indexOf(b))return!0}function l(){m=!1;g=0;a.clearTimeout(r)}function D(){a.ue.onSushiUnload(function(){ue.event({violationType:"unresponsive-clicks",violationCount:e,totalScanned:h},"csm","csm.ArmoredCXGuardrailsViolation.3")});a.ue.onunload(function(){ue.count("armored-cxguardrails.unresponsive-clicks.violations",e);ue.count("armored-cxguardrails.unresponsive-clicks.violationRate",e/h*100||0)})}if(a.MutationObserver&&a.addEventListener&&Object.keys&&
+d&&d.ue_unrt&&d.ue_utils){var z=d.ue_unrt,q="cel",u="unr_mcm",C="res_mcm",n=a.performance,v=d.ue_utils.getXPath,w=d.ue_utils.getFirstAscendingWidget,m=!1,g=0,r=0,p=!1,k=0,e=0,h=0;a.addEventListener&&(a.addEventListener("mousedown",x,!0),a.addEventListener("beforeunload",l,!0),a.addEventListener("visibilitychange",l,!0),a.addEventListener("pagehide",l,!0));a.ue&&a.ue.event&&a.ue.onSushiUnload&&a.ue.onunload&&D();(new MutationObserver(A)).observe(s,{childList:!0,attributes:!0,characterData:!0,subtree:!0})}})(ue_csm,
+window,document);
+
+
+ue_csm.ue.exec(function(g,f){if(f.ue_err){var e="";f.ue_err.addContextInfo=function(a){if(!a.logLevel||"FATAL"===a.logLevel)if(e=g.getElementsByTagName("html")[0].innerHTML){var b=e.indexOf("var ue_t0=ue_t0||+new Date();");if(-1!=b){var b=e.substr(0,b).split("\n"),d=Math.max(b.length-5-1,0),b=b.slice(d,b.length-1);a.fcsmln=b.length+1;a.cinfo=a.cinfo||{};for(var c=0;c<b.length;c++)a.cinfo[d+c+1+""]=b[c]}b=e.split("\n");a.cinfo=a.cinfo||{};if(!(a.f||void 0===a.l||a.l in a.cinfo))for(c=+a.l-1,d=Math.max(c-
+2,0),c=Math.min(c+2,b.length-1);d<=c;d++)a.cinfo[d+1+""]=b[d]}}}},"fatals-context")(document,window);
+
+
+
+
+}
+/* ◬ */
+</script>
+
+</div>
+
+<noscript>
+    <img height="1" width="1" style='display:none;visibility:hidden;' src='https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:134-2821069-4911223:54Q47YSV0WJ99KXHD3PD$uedata=s:%2Fap%2Fuedata%3Fnoscript%26id%3D54Q47YSV0WJ99KXHD3PD:0' alt=""/>
+</noscript>
+</body>
+</html>

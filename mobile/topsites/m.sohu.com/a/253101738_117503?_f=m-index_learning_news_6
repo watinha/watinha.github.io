@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 25}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="新华每日电讯">
+    <meta name="sharecontent" content="老师在坚守,学生“挖”不走">
+    <meta name="keywords" content="老师, 坚守, 学生" />
+    <meta name="description" content="会同一中学生在跑操。(会同一中供图)本报记者段羡菊、明星、高文成又是一个新学期开始了,在湖南,像往年一样,不少的学生前往地级市或省会,开始他们的求学路。一些名校、民校若明若暗的“挖人大战”,将一些县级..." />
+<meta itemprop="dateUpdate" content="2018-09-11 02:21:21" />
+<meta itemprop="datePublished" content="2018-09-11 02:21:21" />    <title>老师在坚守,学生“挖”不走-教育频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253101738_117503" />
+    <script>
+        var cfgs = {
+            channelId : '25',
+            media_id: '117503',
+            cms_id: '549114276',
+            title: '老师在坚守,学生“挖”不走',
+            authorId : '117503',
+            path: 'http://203.192.15.131/content/20180911/Articel08002BB.htm',
+            authorName : '新华每日电讯',
+            newsId : '253101738',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/25?_f=m-article_ch">教育</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">老师在坚守,学生“挖”不走</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/117503">
+                    <img class="avatar"
+                    src="http://5b0988e595225.cdn.sohucs.com/avatar/picon/2012/11/30/1354273608493.png"/>
+                    <div class="infos-wrapper">
+                        <header class="name">新华每日电讯</header>
+                        <footer class="time">
+                            09-11 02:21
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmt3viz8y@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p><table> 
+  <tbody> 
+   <tr> 
+    <td></td> 
+   </tr> 
+   <tr> 
+    <td><strong>老师在坚守,学生“挖”不走</strong></td> 
+   </tr> 
+   <tr> 
+    <td>来自湖南“教育另类县”会同的调查</td> 
+   </tr> 
+   <tr> 
+    <td></td> 
+   </tr> 
+   <tr> 
+    <td>稿件来源：新华每日电讯 每日焦点</td> 
+   </tr> 
+   <tr> 
+    <td></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180911/e2c8c223389d4dde9ce9a26a54338308.jpeg" width="500" height="333" class="content-image">
+<p><table> 
+  <tbody> 
+   <tr> 
+    <td> <span> <p><table> 
+        <tbody> 
+         <tr> 
+          <td><span align="center"></span></td> 
+         </tr> 
+        </tbody> 
+       </table></p></span></td> 
+   </tr> 
+   <tr> 
+    <td><span align="center">会同一中学生在跑操。 </span><span>(会同一中供图) </span></td> 
+   </tr> 
+   <tr> 
+    <td></td> 
+   </tr> 
+   <tr> 
+    <td></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">98</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>本报记者段羡菊、明星、高文成 </p>
+<p>又是一个新学期开始了,在湖南,像往年一样,不少的学生前往地级市或省会,开始他们的求学路。一些名校、民校若明若暗的“挖人大战”,将一些县级成绩好的学生“掐尖”走。生源流失对县级教育带来冲击,不少地方的县级教育出现“失血”状态。 </p>
+<p>然而,在湖南省也有一些县,却在“生源大战”面前,阵地岿然不动。湖南省怀化市会同县,就是这样一个“教育另类县”。教师节前夕,记者来到这个“教育自信”爆棚的山区贫困县探访。 </p>
+<p><strong>也曾“哀求学生和家长留下来”</strong></p>
+<p>在怀化市,一些高中的校领导们经常分片区到下面县里“挖”初中的尖子生,可大家都不情愿分到会同,因为挖会同的学生,难。 </p>
+<p>“有一个学校的领导辗转找到我,说,你们前一百名的学生我们挖不走,能不能推荐几个两百名以内的学生,我回去好交差。我说,那怎么行!”县长周立志告诉记者。 </p>
+<p>作为全县教育的领头羊,在生源流失面前,会同一中也曾有不堪回首的一页。 </p>
+<p>身板硬朗、不知疲倦的校长侯邦明有一股山里人办学的倔强劲。2002年,他到会同一中担任校长。他清晰记得,2004年会同中考的前10名,有7人准备到外地读书。他说自己永远记得当时“哀求学生和家长留下来”、却无功而返的情景。 </p>
+<p>“学生走了,说明学生和家长对学校不信任,这让我和老师们感觉很痛苦。” </p>
+<p>那段时间,跑到外面的学生高考失利后,想回到会同一中来复读,被向来爱护学生的侯邦明一概拒绝,“就是为了争一口气。” </p>
+<p>为了这一口气,会同一中狠抓教学质量。“这是能不能留住学生的主要因素。”侯邦明说。2005年,会同一中高考“打了一个翻身仗”,高考成绩跻身怀化市前列。他明显感觉到,“家长、学生和社会的态度都变化了,以后学生流失明显减少了。” </p>
+<p>由于生源流失,湖南不少历史上办学质量很高、为一县精英主要输出地的县一中现在已经滑坡,由此引发县级初中、小学办学质量下滑的连锁反应。与此形成鲜明对比,2017年,会同高考质量综合评估列怀化全市第一,实现“六连冠”。初中毕业学业水平考试9门科目平均分、合格率、优秀率27项指标17项列全市第一,综合指标连续四年列全市第一。 </p>
+<p>会同一中更是亮出了“怀化市一流,湖南省知名”的办学目标。侯邦明说,除非因为亲戚调动等特殊原因,会同的高中生很少外流。“还经常有外县学生想来我们会同一中上学,可是招生政策限制,他们难以如愿。” </p>
+<p>新学期开学,会同县城小学生入学人数比幼儿园结业人数多了200多个,其中大部分学生是从外地回流。小学校长们认为,会同的教育质量名声好,是吸引这些外出者子女的重要因素。 </p>
+<p>城北学校校长饶菊芳是当地资深的小学教师,自己女儿中考后,她曾经也动了送女儿去长沙读书的念头。 </p>
+<p>可是,经过反复考察比较后,一家人决定“坚信会同的教育”,“把孩子放在身边陪伴,陪伴是最好的教育。”提到现已在知名大学医学院读大三的女儿,饶菊芳笑着对记者说:“我这一步走对了。” </p>
+<p>也曾有成绩优秀的孩子,到长沙“名校”就读,然而高考成绩并不理想。“虽然发挥不理想的因素很多,可之后好多家长送孩子出去上学变得更加谨慎了。我们会同自己的中学在怀化市就数一数二,没必要送出去。”饶菊芳说。 </p>
+<p>黄若萱是会同一中的高二学生,经常考进年级前十的她是个“学霸”。 </p>
+<p>中考成绩优异的她也想过出去读高中,可念头只是一闪而过。她认为,“出去读书一是太麻烦家里人了,照顾我的负担会比较重。更重要的是,我们会同一中也不差,我们老师很负责。” </p>
+<p><strong>“我们不是只盯着尖子生”</strong></p>
+<p>穷县会同,有一群战斗力“爆表”的教师队伍,他们坚守岗位,甘于清贫,默默奉献。 </p>
+<p>还有4年就要退休的谢超宝老师,是会同一中的一员老将。他回忆两年前任高三年级组长时说,“我坚持和班主任一样,几乎天天守在学校,有时晚上12点以后还不能休息。在高考最关键的2016年上半年,我吃住在学校,仅在家里住过三个晚上。” </p>
+<p>为了增加学生营养,会同一中的班主任梁芳、李小林、庄芬香等老师,还经常给学生煮鸡蛋。谢超宝说,捧着一颗心来,不带半根草去。“从教35年,我深深地体会到,教育的根是苦的,教育的果是甜的,只有火才能点燃火,只有心才能塑造心。” </p>
+<p>饶菊芳是全县小学屈指可数的“特级教师”。为了山区的孩子们,她放弃了多次外调的机会。2016年,长沙某知名学校邀请她任教导主任,在县教育局挽留后,她婉拒了。一家在会同投资房地产的老板,以高额年薪邀请她任贵阳项目配套小学的校长,她没有动心。 </p>
+<p>她说,自己的使命,就是“为新开办的城北学校"找到北"。 </p>
+<p>多年来,在长三角、珠三角等薪酬待遇较高地区学校“挖人”冲击前,尽管也有“孔雀东南飞”,但会同一中的教师队伍总体保持了较好的稳定。2016年前后,会同一中经历了一次骨干教师流失的严峻考验。 </p>
+<p>近些年相邻的贵州某县,苦于缺乏优秀师资力量,把“挖人”目标锁定住名气较大的会同一中。如同一部惊险的谍战剧,这个县派员“卧底”会同县,四处搜集骨干教师的情况,通过熟人介绍,使用超常规手段开出特殊优厚的条件,少数教师因此出走。 </p>
+<p>会同县领导获知情况后,心急如焚,立即安排已从一中调任县教育局局长的侯邦明前往劝说。 </p>
+<p>地理骨干教师粟明坤,是侯邦明当年的学生,在劝说下回归了会同一中。“这边是尊敬的老师,大打感情牌,我听得热泪盈眶,不好拒绝；那边是8万元安家费和一套120平方米的房子,令我左右为难。” </p>
+<p>“别人问我为什么回来?我后来想通了,是会同一中这个平台锻炼成长了我。如果我们跑了,一中的教学质量下来了,靠什么留住学生?当老师,就不能只是看到金钱,一中是块净土,很多老师很纯粹,我想我也得坚守这块阵地。”粟明坤对记者说。 </p>
+<p>为了稳定一中教师队伍,会同县再出“奇招”——安排教育局局长侯邦明,再度返回一中出任校长。他一回来,不少老师就打消了出走的念头。从教32年的他,治学和管理经验丰富,在一中教师队伍中有很高的威信。有人比喻,侯校长堪称会同一中的“定海神针”。 </p>
+<p>顾全大局、临危受命回任校长、把教师队伍稳住了的他,对于一中少数的数学教师的出走依然耿耿于怀。“不是学数学的毕业生都能当好数学教师。一个好老师,业务水平和敬业精神要达到一定程度,需要多年的锤炼和积累。” </p>
+<p>高二女学生杨文芳(化名)告诉记者,成绩全靠学校学习,没参加过课外补习班。不仅是她自己,会同一中绝大部分学生都是如此。她家暑期想花钱请自己的任课老师补补课,开小灶,被老师婉拒了。“老师表示,课程学习中有什么困难的地方,下课后可以随时问,不用来家里补课。” </p>
+<p>9月4日晚上,会同一中教学楼内灯火通明。教室内学生埋头自习,张一军站在教室门口,随时接受学生的提问。他是会同一中的副校长,也是一名高二数学老师。 </p>
+<p>“我最快乐的时候,就是站在讲台上。把课上好,什么烦恼都没有了。”张一军深知自己的学生和大城市的孩子不一样,“我们会同县,没有校外办补习班的风气,教育部门管理也严格。很多孩子来自农村,也没钱去上课外补习班。” </p>
+<p>“大城市不少名校的老师教学进度快,学生成绩两极分化,成绩跟不上,就可能要靠补课了。我们的教学进度,是照顾大多数,不让每一个有希望的学生掉队。”他说,“我们不是只盯着尖子生,还尽量等待那些基础薄弱的同学追上来,帮助每一个孩子都能成功。” </p>
+<p><strong>“教师是学校乃至地方的核心资源”</strong></p>
+<p>会同位于湘西南的大山里,全县人口中,侗族、苗族等少数民族超过65%。 </p>
+<p>如果你是外来者,去随机走访这里的学校,可能难以想象这是一个财政穷县。 </p>
+<p>听闻会同的学校建得好,一次,市长前来寻访,担心县里只是堆砌“盆景工程”,自己“手动”选点。 </p>
+<p>全县地图摆上来,他把目光定格到全县最偏远的地方,雪峰山里的金子岩侗族苗族乡。 </p>
+<p>两个多小时山路后,一座崭新宽敞、容纳近700名学生的乡镇小学出现在他的面前,教室里设备先进,老师都安排了可拎包入住的周转房,孩子们笑脸如花。 </p>
+<p>而就在两年前,这座学校的情形还是简陋不堪,让人落泪:上课靠挤,吃饭只能站,住宿两人钻一铺。 </p>
+<p>“全县最漂亮的房子就应该建在学校。”市政协副主席、县委书记杨陵俐不止一次在公开场合宣言。 </p>
+<p>中小学时期遭遇“文革”、一度荒废学业的他说,自己一定程度是抱着“疗伤”的心情,全力支持教育事业。 </p>
+<p>办学质量在怀化市鼎鼎大名的会同一中,条件设施长期垫底。2011年,当年县级财政收入只有3亿多元,县里下决心盘活资源、筹资2亿多元,启动县一中的搬迁新建。2015年投入使用后,一中成为县城建筑“地标”。 </p>
+<p>位于县城黄金地段的一中原址,成了开发商眼中的“风水宝地”,如果拍卖,政府获得的土地出让金将可能以亿计。 </p>
+<p>让他们意外的是,县三中迁入原县一中的校园,三中的校园则腾给城郊的林城镇中学搬入。 </p>
+<p>2018年9月3日,现代新颖的城北学校开学,2000多名以前为“大班额”困扰的小学生,开始了新学期。 </p>
+<p>在“化债攻坚战”的大背景下,会同县停了一些投资项目,但教育项目“一个也没有停”。 </p>
+<p>尽管会同财政穷,但县里想方设法在“尽心尽力”办教育,这是很多会同教育界人士的看法。 </p>
+<p>林城镇一完小校长马拥军,一口气列出一份清单: </p>
+<p>财政出钱,为老师免费体检。 </p>
+<p>在按政策向乡镇老师发放乡村补助同时,考虑到县城学生多、教学任务重,设立了“城区教师绩效考核奖”。 </p>
+<p>在一中已建100多套教师周转房基础上,再建120套,解决青年教师住房难问题。 </p>
+<p>其他部门的表彰活动,现在从严控制,教师节颁奖则“轰轰烈烈”。 </p>
+<p>多位会同人告诉记者,会同县尊师重教已形成生态,地方对教育的重视在一个细节上充分体现:在县城的高中生如果在学校晚自习,可以搭乘财政买单的公交车回家。据介绍,政府此举既是鼓励学生学习,也有利于学生交通安全。 </p>
+<p>“无论我们修再好的学校,配置再好的仪器设备,如果教师都生存不下去、都跑了,那还有什么意义?我们的教育质量能提高吗?”2016年庆祝教师节会议,县长周立志提到给取得出色高考成绩的县一中发放22万元奖金时,“感觉这点钱拿不出手,愧对在座的教师们。” </p>
+<p>教师住房公积金的单位缴纳部分,县财政按政策最高上限拨付；对学校提升办学质量的奖励,由2016年的80万元增加到2017年的300万元……会同县咬紧牙关,勒紧裤带,不断出台提高老师待遇的举措。 </p>
+<p>“教师是一个学校乃至地方的核心资源,名师是一个学校的灵魂。”这是杨陵俐的观点。从县领导到公务员和社会各界,提起会同一中都很自豪,提起会同的老师,透露的语气,不仅有赞美,崇敬,还有感恩: </p>
+<p>孩子们不要背井离乡到外地上学,家长们减轻了不菲的学杂费、住宿费、路费,免了陪读,增了亲情。 </p>
+<p>在本县就能考上大学、好大学,会同的学子会增加自信,热爱会同乡土。 </p>
+<p>教育成为会同金光闪闪的名片,为会同形象长了脸。 </p>
+<p>大批人才为会同脱贫致富,为会同长远发展,积累了后劲。 </p>
+<p>提到这些“教育效应”,张一军转述当地老百姓一句比喻,“对教育的投资,是花最小的本钱,做最大的买卖。” </p>
+<p>获评“全国优秀教师”的县一中罗长海老师,婉谢了外面名校调动的邀请。“县里尊师重教的氛围深,为家乡培养学子,我从教的幸福感强。”他说,“何况,我如果动了心想调走,面对侯校长,也不好意思开口。”</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77978?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">历史</a>
+            <a class="tag" href="http://m.sohu.com/tag/70454?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">教师</a>
+            <a class="tag" href="http://m.sohu.com/tag/57884?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">校长</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253101738">阅读 (<em data-state="253101738" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253101738'" :region-id="'25'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

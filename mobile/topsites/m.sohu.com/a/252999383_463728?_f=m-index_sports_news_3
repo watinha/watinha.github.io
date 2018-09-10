@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 17}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="射门中国">
+    <meta name="sharecontent" content="前国脚谢育新之子开心入选国奥:爸爸说我表现不错">
+    <meta name="keywords" content="国脚, 之子, 开心, 入选, 国奥, 爸爸, 表现, 不错" />
+    <meta name="description" content="9月8日晚18:35，中国男足U21国家队在曲靖四国赛上1-1战平了乌兹别克斯坦U21，以一胜两平的成绩拿到了本次杯赛的亚军。赛后，U21国足队员谢维军也接受了媒体的采访。本届曲靖四国赛中，谢维军发挥..." />
+<meta itemprop="dateUpdate" content="2018-09-10 15:52:50" />
+<meta itemprop="datePublished" content="2018-09-10 15:52:50" />    <title>前国脚谢育新之子开心入选国奥:爸爸说我表现不错-体育频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/252999383_463728" />
+    <script>
+        var cfgs = {
+            channelId : '17',
+            media_id: '463728',
+            cms_id: '549060926',
+            title: '前国脚谢育新之子开心入选国奥:爸爸说我表现不错',
+            authorId : '463728',
+            path: 'null',
+            authorName : '射门中国',
+            newsId : '252999383',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/c/3/?_f=m-article_ch">体育</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">前国脚谢育新之子开心入选国奥:爸爸说我表现不错</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/463728">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/f1c0ffd6e8344081bfeba8f27d272c69_1517474453443"/>
+                    <div class="infos-wrapper">
+                        <header class="name">射门中国</header>
+                        <footer class="time">
+                            09-10 15:52
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('ppag920379ca2740@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p class="ql-align-center"><img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/8cb56e3cd89f4cbd966d18da784f8e17.jpeg" max-width="600" class="content-image"></p> 
+<p>9月8日晚18:35，中国男足U21国家队在曲靖四国赛上1-1战平了乌兹别克斯坦U21，以一胜两平的成绩拿到了本次杯赛的亚军。赛后，U21国足队员谢维军也接受了媒体的采访。</p> 
+<p>本届曲靖四国赛中，谢维军发挥出色，取得了1粒进球和1次助攻的表现，对于自己的发挥，谢维军表示：“我很开心又一次入选了U21国家队，这次比赛感觉自己发挥很不错，因为比赛是在高原。所以体能上多少有点影响，但是经过我们前一段时间的储备和适应后，最后大家在比赛中表现都很好。”</p> 
+<p>在第一场比赛送出助攻后，谢维军曾在个人的社交媒体上晒出了自己和父亲的一些对比照片，谢维军的父亲谢育新也曾经是著名的前国脚，对于这其中的含义，谢维军表示：“我在赛后发和父亲合照，因为赛前和我妈通了下电话吧，她得知我穿12号以后，她说了一句小谢育新吧。比赛之后我看朋友圈，看到我爸转了很多有关我的新闻，他说我表现不错。”</p> 
+<p>记者提问谢维军此次国家队比赛与以往有什么不同，他觉得自己在场上的优势是什么呢？对此谢维军回答：“U21国家队集训有很多新球员组合在一起，不过我们也很快融合在一起，比赛中也很团结。我自己的优势主要是向前的速度和头球，当然我也还有很多环节需要改进。”</p> 
+<p>本赛季谢维军成为了泰达U23球员的常备选择，对于自己在中超联赛中获得的经验是否对自己有帮助这个问题时，谢维军表示：“比赛强调在同年龄段我没什么问题，有中超出场的经历后，参加国家队大赛也不会紧张了，能更好地发挥自己的能力。平时俱乐部的老大哥们给了我很多建议，帮助我在场上发挥自己的优势”（关轩）</p>
+                        </div>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/65793?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">国足</a>
+            <a class="tag" href="http://m.sohu.com/tag/59639?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">国家队</a>
+            <a class="tag" href="http://m.sohu.com/tag/65791?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">中超</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="252999383">阅读 (<em data-state="252999383" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'252999383'" :region-id="'21'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

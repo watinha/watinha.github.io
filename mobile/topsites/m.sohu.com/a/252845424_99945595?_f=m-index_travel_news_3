@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 29}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="雪灵谷">
+    <meta name="sharecontent" content="中国人到了欧洲这国才知道, 男人喜欢来这旅游是有原因的">
+    <meta name="keywords" content="中国人, 到了, 欧洲, 知道, 男人, 喜欢, 旅游, 原因" />
+    <meta name="description" content="选择旅行地的理由是什么呢？看从来没有看过的风景？品味特色美食？了解不同民族？感受不一样的生活方式？还是看美女？拉脱维亚位于欧洲的东部，紧挨着波罗的海，是一个面积并算大的小国，对于这样一个小国来说身上的..." />
+<meta itemprop="dateUpdate" content="2018-09-10 17:40:58" />
+<meta itemprop="datePublished" content="2018-09-10 17:40:58" />    <title>中国人到了欧洲这国才知道, 男人喜欢来这旅游是有原因的-旅游频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/252845424_99945595" />
+    <script>
+        var cfgs = {
+            channelId : '29',
+            media_id: '99945595',
+            cms_id: '548997361',
+            title: '中国人到了欧洲这国才知道, 男人喜欢来这旅游是有原因的',
+            authorId : '99945595',
+            path: 'null',
+            authorName : '雪灵谷',
+            newsId : '252845424',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/29?_f=m-article_ch">旅游</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">中国人到了欧洲这国才知道, 男人喜欢来这旅游是有原因的</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/99945595">
+                    <img class="avatar"
+                    src="http://5b0988e595225.cdn.sohucs.com/a_auto,c_cut,x_2,y_0,w_469,h_469/images/20180727/9bb02b0316fd4fa1bfe7b61276bb9669.png"/>
+                    <div class="infos-wrapper">
+                        <header class="name">雪灵谷</header>
+                        <footer class="time">
+                            09-10 17:40
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('D2B577284C3D2729DB65689720E09030@qq.sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>选择旅行地的理由是什么呢？看从来没有看过的风景？品味特色美食？了解不同民族？感受不一样的生活方式？还是看美女？</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/98658c85a7934970989ef6f5d0932a44.jpg" max-width="600" class="content-image">
+<p>拉脱维亚位于欧洲的东部，紧挨着波罗的海，是一个面积并算大的小国，对于这样一个小国来说身上的国际标签可不少，欧元区、金融中心、白沙滩、金发美女、等等都是人们对于它的印象。</p>
+<p>拉脱维亚的主要旅游地区有：里加古城、尤尔马拉海滨度假区 、采西斯风景区、隆达列宫等等。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/e8ce310e458341c994fb939997db8f74.jpeg" max-width="600" class="content-image">
+<p>只有在这里待过，你才会知道盛产美女的拉脱维亚确实名不虚传，大概是得益于夹杂于俄罗斯和欧洲之间的原因吧，这里的人们很好的融合了两边的优势。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/a780be68234a474ba55667e1156807ca.jpeg" max-width="600" class="content-image">
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">91</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>在这里的女性颜值确实要远远高于欧洲的其它国家，自从拉脱维亚在加入欧盟之后，因为边界的开放，大量的欧盟成员国游客纷纷涌入这里。其中尤尔马拉的白色沙滩尤其受到游客欢迎。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/b4fb0df0082c4e5e83ebb6cab44039ba.jpeg"></p>
+<p>在这片长达三十三公里的海滩上，全国的拉脱维亚人都喜欢来这里度假悠闲，大量的拉脱维亚美女穿着清凉的沐浴着阳光，外国的游客行走在这里可谓是大饱眼福。</p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/67483c690f174dc08950160e601d17d1.jpeg"></p>
+<p>同时在这片海滨度假区中，酒店、餐厅、娱乐服务设施一应俱全。在夜晚中去酒吧邂逅美女的几率大的离谱，正是得益于这个，许多欧洲的游客来这旅游确实都是醉翁之意不在酒。</p>
+<p><strong>当然，以下这十个理由足以让你将拉脱维亚列入你的旅行愿望清单。</strong></p>
+<p><strong>1. 里加老城，越品越有味</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/25e0b0eeae66457bb2b09ff70959feff.jpeg"></p>
+<p>里加老城区的鹅卵石街道 </p>
+<p>里加老城的城墙看似破旧，没有欧洲一些国家的建筑讨人喜欢，但是当你一条条大街小巷转悠下来，会发现越走越有味道。历史悠久的建筑、教堂接踵而至、颇具韵味的鹅卵石街道都会给你带来惊喜。在那些古老的中世纪建筑中，隐藏着很多有意思的故事，记载着古城曾经的磨难与辉煌。</p>
+<p>广场中央，小巷深处，到处都是啤酒花园和咖啡馆，夏季，无论是当地人还是世界各地的游客都喜欢在这里谈天说地，享受悠闲时光。冬天的里加老城就是圣诞卡上给人印象最深的场景，这里是世界上第一颗圣诞树的诞生地。你不想来圣诞树的故乡过一个特别的圣诞节吗？</p>
+<p><strong>2. 新艺术派建筑，彰显欧洲文化风格</strong></p>
+<p><strong></strong><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/680487f9792747128f6b4b2254f351bd.jpeg"></p>
+<p>里加以独特的新艺术时期建筑而闻名</p>
+<p>对于喜爱新艺术派建筑和设计的人而言，里加是您的首选之地。20世纪初，新艺术风格席卷整个欧洲，里加建筑师们也建造了许多特色鲜明、造型独特的建筑，尽管遭受战争的破坏，也依旧保存着750多座新艺术派建筑。漫步在街道上，您会发现许多建筑外墙上都装饰着精美的浮雕，如：裸胸女神和神兽。您可以在里加新艺术博物馆（Rīga Art Nouveau Museum），更深入地探索新艺术时期的建筑和设计；或是在装饰艺术与设计博物馆（Museum of Decorative Arts &amp; Design），欣赏新艺术风格的家具和织物。</p>
+<p><strong>3. 阳光、海浪、沙滩、比基尼，就差一个你</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/55a0db38370d49f58bfd32f2b385ed76.jpeg"></p>
+<p>尤尔马拉海滩</p>
+<p>初到波罗的海的游客常常会被如此美丽的海滩所震慑。可以说，无论何时这样的海滩都非常受欢迎！而盛夏之时，无边无际的金色沙滩是孩子们最喜爱的地方。尤尔马拉（Jūrmala）距首都里加仅20公里，是拉脱维亚最受欢迎的海滨小镇，有着许多豪华的度假木屋和大型水疗酒店。若您想要享受更为轻松惬意的休闲时光，可以前往东北部的文茨皮尔斯（Ventspils）。</p>
+<p><strong>4. 历史遗迹，了解前苏联的美与丑</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/20dd523be7fd4aba82b52c8af055df38.jpeg"></p>
+<p>里加科学院 </p>
+<p>拉脱维亚是原苏联加盟共和国之一，如果您对苏联的好、坏和丑陋的一面感兴趣，不妨到拉脱维亚一探究竟。“好”则以让人又爱又恨的建筑为代表，如：里加科学院（Academy of Science）--曾光彩一时的摩天大楼（别名叫做“斯大林的婚礼蛋糕”），以及拉脱维亚被占领时期博物馆（Museum of the Occupation of Latvia）--现代化的四方大楼。博物馆内的文物和档案文件都展现了苏联生活“坏”的一面，如：驱逐、古拉格劳改营和赎罪。至于“丑陋”的一面，在博物馆的旅游区不远处，您便可以看到许多阴暗的建筑，它们都是前苏联的写照。</p>
+<p><strong>5. 伦达尔宫，皇室奢华生活了解一下</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/5f2faf7b9a6e464d82b6e146f6da5079.jpeg"></p>
+<p>伦达尔宫的宏伟外观</p>
+<p>如果说单调的建筑是共产主义的特点，那过分炫耀就是俄罗斯帝国的象征。伦达尔宫（Rundāle Palace），18世纪时为库尔兰公爵（Duke of Courland）而建，它是意大利天才建筑大师巴托罗米欧（是俄罗斯圣彼得堡冬宫的设计师）的杰作。伦达尔宫是波罗的海地区最华丽的建筑，拥有138间以巴洛克式风格为主的房间。宫殿的法式洛可可风格花园与凡尔赛宫（Versailles）如出一辙，是波罗的海地区最大、最华丽的花园。宫殿内部装饰十分奢华，穹顶以绘画和镀金雕花做装饰，墙壁上还挂满了不计其数的壁画。</p>
+<p><strong>6. 古老的城堡，给你讲那过去的故事</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/3da864e9d599489782a4147410fec1e8.jpeg"></p>
+<p>采西斯城堡 </p>
+<p>13世纪早期，以德意志人为主的宝剑骑士团侵入波罗的海，手持利剑向当地人宣传基督教，这当然不会受到人们的热情欢迎。因此，坚固的防御工事是必要的防御措施，一座座城堡拔地而起，许多城堡至今仍屹立不倒。参观采西斯城堡（Cēsis Castle）时，您需要手持一盏烛灯，探索城堡断垣残壁上黑漆漆的壁龛。与之相比，文茨皮尔斯四四方方的立窝尼亚骑士团城堡（Livonian Order Castle）已经修复，并改造成了一座互动式的博物馆。</p>
+<p><strong>7. 欧洲之肺，童话般的森林</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/8fe91e25cfd74df1a2d62ad502a1739a.jpeg"></p>
+<p>凯迈里国家公园绿荫步道 </p>
+<p>想靠近拉脱维亚的中心地带？那就到森林里走走吧！拉脱维亚有着“欧洲之肺”的美誉，森林覆盖率约为45%，许多动物在这繁衍后代，包括数量众多的猞猁、海狸和食肉鸟。凯迈里国家公园（?emeri National Park）位于尤尔马拉旁，拥有一大片森林和沼泽，还有一条最美的林荫走道；高加国家公园（Gauja National Park）位于里加东北部，从锡古尔达（Sigulda）通往高加的途中，有着许多条绿荫小道，分布在三座城堡的遗迹间和高加河旁。</p>
+<p><strong>8. 另辟蹊径，风景如画的小镇</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/6cd6df5251dc40cdb1e4e0d12cfec10c.jpeg"></p>
+<p>欧洲最宽的瀑布</p>
+<p>里加确实很容易吸引人们的关注，但更勇敢的游客可以考虑去寻找拉脱维亚一些不那么热门地方，比如美丽的小城采西斯（Cēsis），它隐藏在高加国家公园（Gauja National Park）的森林之中，这里有大教堂、荒废的城堡和美丽的湖泊。在更西边的库尔迪加（Kuldīga），这里有欧洲最宽的瀑布（249米）——而有趣的是它只有两米高，但更值得称道的是它的优美景色。古堡的庭院是库尔迪加最美的景观，如今它们已被改造成树木茂盛的庭园和雕塑花园。</p>
+<p><strong>9. 陶冶情操，欣赏佳作</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/9420747d46014a7f8bc6d75d4fe20162.jpeg"></p>
+<p>陶格夫匹尔斯马克•罗斯科艺术中心 </p>
+<p>您或许知道马克?罗斯科（Mark Rothko）是美国最著名的艺术家之一，也是全球抽象表现主义的主要倡导者之一，但你知道他是在拉脱维亚东南部的陶格夫尔斯（Daugavpils）出生的吗？2013年，人们在他的家乡建立了马克?罗斯科艺术中心（Daugavpils Mark Rothko Art Centre），以纪念这位最负盛名的艺术家。该艺术中心位于一座历史悠久的俄建堡垒的军火库中，专门用于艺术、文化和教育活动。在这儿，您可以一睹这位著名画家的原始作品。</p>
+<p><strong>10. 入住监狱，体验“真正的”囚犯生活</strong></p>
+<p><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180909/1f73ee1b010844aa800369142364bd7b.jpeg"></p>
+<p>导游在详述卡罗斯塔监狱里发生的故事</p>
+<p>从前苏联海岸堡垒里的间谍游戏到黑暗地下室中恐怖的场景，拉脱维亚有着各种稀奇古怪的景点等待您来体验。如果您对苏维埃式惩罚感兴趣，不妨来利耶帕亚市（Liepaja）诡异的旧军事监狱——卡罗斯塔监狱（Karosta）来感受一下。游客们可以游览旧监狱建筑，了解这个阴森地方的历史，参观监狱博物馆，甚至预订在牢房里住上一宿。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/69290?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">博物馆</a>
+            <a class="tag" href="http://m.sohu.com/tag/77919?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">度假</a>
+            <a class="tag" href="http://m.sohu.com/tag/77774?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">旅游</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="252845424">阅读 (<em data-state="252845424" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'252845424'" :region-id="'29'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

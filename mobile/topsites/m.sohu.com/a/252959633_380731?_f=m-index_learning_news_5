@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 15}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="平原公子">
+    <meta name="sharecontent" content="马云选定接班人，从此他要回到讲台，当一名老师">
+    <meta name="keywords" content="选定, 接班人, 从此, 要回, 回到, 讲台, 一名, 老师" />
+    <meta name="description" content="9月10日，是教师节，也是阿里巴巴掌门人马云的生日，今年他54岁了。他很久之前就说过，他偶像是比尔-盖茨，他一生不求比比尔盖茨有钱，只求能够比盖茨更早退休。今天，马云宣布了阿里巴巴的接班人计划，自己将..." />
+<meta itemprop="dateUpdate" content="2018-09-10 11:25:00" />
+<meta itemprop="datePublished" content="2018-09-10 11:25:00" />    <title>马云选定接班人，从此他要回到讲台，当一名老师-财经频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/252959633_380731" />
+    <script>
+        var cfgs = {
+            channelId : '15',
+            media_id: '380731',
+            cms_id: '549038621',
+            title: '马云选定接班人，从此他要回到讲台，当一名老师',
+            authorId : '380731',
+            path: 'https://www.toutiao.com/item/6599431697169646093/',
+            authorName : '平原公子',
+            newsId : '252959633',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/15?_f=m-article_ch">财经</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">马云选定接班人，从此他要回到讲台，当一名老师</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/380731">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/af334398621b452a9fc617206b6e9ca9_1454134448131"/>
+                    <div class="infos-wrapper">
+                        <header class="name">平原公子</header>
+                        <footer class="time">
+                            09-10 11:25
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('ppag44765db44c9a@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>9月10日，是教师节，也是阿里巴巴掌门人马云的生日，今年他54岁了。他很久之前就说过，他偶像是比尔-盖茨，他一生不求比比尔盖茨有钱，只求能够比盖茨更早退休。</p>
+<p>今天，马云宣布了阿里巴巴的接班人计划，自己将会在明年退休，然后去继续他教育和慈善的事业，之前马云也一直说，他要去当老师，他觉得当老师肯定比搞阿里巴巴更好。他本来就是个老师，现在回到讲台上，才是圆满的人生。</p>
+<p>这件事他已经筹备了10年之久了<strong>，他要当老师也是公开的事情，而且在阿里内部，他也一直是老师，员工们都叫他“马老师”，没有人叫他马总。</strong></p>
+<p>看来马老师确实是打算功成身退，去做自己最想做的事情了。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/50e7876686f34cbabc7ed178cac78708.jpeg" img_width="640" img_height="328" class="content-image">
+<p>他当年在杭州教英语的时候，就上了报纸，还发表过对中国英语教学的批评性建议，认为四六级考试不科学，不能真正提高中国学生的英语听说读写能力。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/7bf2ba969b7f486eb1c6dba1674207f8.jpeg" img_width="640" img_height="691" class="content-image">
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">92</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>现在，他想要回到课堂，但估计不是教英语了。</p>
+<p>诸葛亮出山的时候，曾经吩咐自己的弟弟：“给我把宅子田地看好，等老子帮助刘皇叔扫平天下，光复汉室了，老子还得回这里耕田读书。”</p>
+<p>然而丞相一去不回，秋风落日五丈原，他把一生都扔在了朝堂和战场上，南阳的草堂和陇亩并没有等回他的主人。</p>
+<p>人这一生，如果能够初心不改，永远做自己喜欢的事情，就算走的远了，最终还是能够回来，那真是一件幸福的事情。</p>
+<p>中国互联网时代的企业家们，其实都很有趣，张朝阳首创搜狐，堪称开山鼻祖，然而后来他就痴迷修道隐居，甚至玩滑板开party，任由搜狐不上不下，业内人称“<strong>张真人</strong>”；雷军一个码农出身的学霸，一手打造了金山系列软件的天下，然后人到中年，做手机去了，获得个美名叫做“<strong>雷布斯</strong>”；刘强东一个卖光碟白手起家的励志青年，烧钱开路，把自建物流做到了极致，创建京东，也把他仗义疏财的人设卖到了极致，他有着乡贤地主衣锦还乡，发财后娇妻美妾的嗜好，我们不妨叫他“<strong>刘员外</strong>”。</p>
+<p>马云的第一份工作，就是英语老师，他一生也以老师自居，总是说一生最快乐的时光就是拿几十块钱当老师的日子，被人调侃成“<strong>悔创阿里杰克马</strong>”。</p>
+<p><img img_width="640" img_height="483" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/f8ef6d056cc1488aa69e6ff16dd22739.jpeg"></p>
+<p>马云年轻的时候，经常被人当作大忽悠，那是因为他讲话实在太天马行空，不着边际，在中国互联网还是一片荒原的时候，他就想着搞电子商务。在九几年的时候，他曾经给几个政府官员和投资商展示互联网的力量，几张图片，几十KB的网速，从一个城市传到另外一个城市，花了俩小时。他激动地对那些官员和投资人说，你看到了吗？这就是未来啊。那些人面面相觑，觉得自己遇到了一个智障。</p>
+<p>他还曾经找过已经做出一番事业的雷军，讲他的阿里巴巴，希望雷军能够投资他，雷军是个很坦诚的人，很多年后承认：“我当时以为他是搞传销的，谁能想到啊，如果我知道阿里巴巴未来这么厉害，我肯定会投啊。”</p>
+<p><img img_width="640" img_height="289" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/f8380073cc934d15bc9e58b3caa2bc96.jpeg"></p>
+<p>他富有激情和想象力的语言风格，让很多人觉得他不靠谱，在胡说八道，所以他说<strong>后悔创办阿里，他说每天挣十几亿感觉很痛苦，他说他炒股挣了几十亿是为了“改善生活”，他说我对钱不感兴趣，他说我要改变世界，他说我最希望当个老师</strong>。大家听着总是有点不舒服，总觉得他在装逼。</p>
+<p>其实吧，他这个人很坦诚，想什么说什么，有时候也说过不少错话，但他可能就是那么想的，起码他不虚伪。他称自己是风清扬，风清扬最喜欢油腔滑调飞扬跳脱的令狐冲，但却讨厌一本正经假道学的岳不群。</p>
+<p>很多人不喜欢马云，包括我早年也不理解，一个中国互联网企业的龙头老大，一个用淘宝和支付宝改变了世界的男人，怎么说话那么不着调？神神叨叨，很有些神秘主义的腔调，还总是和一些不三不四的神棍有来往，信佛信道，喜欢神秘主义，还喜欢武侠，没事和王菲唱唱歌，和李连杰打打太极拳。</p>
+<p>这个，据说和他是个文科生有关，他喜欢金庸小说和神秘主义，是由来已久的事情，据当年见过他创业初期的人说，当年他一坐下来，就满嘴跑火车，说的总是那些大家听不懂的东西，他喜欢神奇的突变，不喜欢庸庸碌碌按部就班。他曾经在一次创业失败后，对一群高材生朋友说：“<strong>我去美国跑了一圈，发现全世界的电子商务都很落后，太原始了，这是我们中国的机会，我们可以弯道超车，领先世界</strong>。”</p>
+<p>末了，他还叹了口气和那些高材生说：“<strong>我是不行了，我是个失败者，你们要继续努力，未来国家和社会的责任在你们身上，你们都是名校出身的学霸，比我强多了，不要局限于上班拿工资混日子，你们要想着改变世界。</strong>”他还觉得，国外的名校学生，并没有多了不起，真正改变世界的人物，必将出现在本土的“土鳖”中。他说：“<strong>即使失败了也无所谓，我至少把一个概念告诉了别人，我不成功，总会有人成功的</strong>。”</p>
+<p><img img_width="640" img_height="444" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/e8ac9c508d1c4ff1a6fe96f0099c4d43.jpeg"></p>
+<p>那时候，马云还在寄希望于他人，他并没有想到他自己会成功，也没有想到，终有一天，他真的可以和他的偶像比尔-盖茨一起同桌吃饭，谈笑风生。</p>
+<p><img img_width="640" img_height="418" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/76cebac844eb43809d8251e0b3a9f40b.jpeg"></p>
+<p>其实，神秘主义和金庸武侠小说，只是马云的“表”，这些天方夜谭的东西，让马云对世界充满了兴趣，这滋养了他的创造力，所以他能面对十几KB的网速，大谈什么未来的电子商务。</p>
+<p><img img_width="640" img_height="372" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/c5470ce146774b679e1817e8acce3b12.jpeg"></p>
+<p>马云的“里”，就是从《毛选》中读来的实事求是，抓住用户需求；加强团队的建设，支部建在连队上；管理层搞民主集中制，创立合伙人制度；在市场竞争中，战略上藐视对手，战术上重视对手，积小胜为大胜，量变应发质变；以人为本，把用户当作最核心的财富，和腾讯一起，瓜分了互联网天下二分之一的用户。他做什么事情，都很认真，哪怕是拍电影作秀，都是百分百的投入，吴京曾经嘲笑过他，说：“<strong>我们这些行家打拳，都是点到即止，马师傅和我们拍个《攻守道》，真是卖力气、下死手啊</strong>。”</p>
+<p><img img_width="640" img_height="371" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/afdcccddd8f44228bae7144e3845698f.jpeg"></p>
+<p>当年的马云，心心念念的是改变世界，现在的马云，心心念念的是慈善和教育。他在互联网商业王国中狂奔了20多年，做下了伟大的事业，有人说：<strong>没有马云，中国互联网就不是今天的局面。支付宝普及了电子货币，还深刻的改变了中国货币发行制度。</strong></p>
+<p>确实如此，有了阿里巴巴之后，整个社会的商业模式、人们的生活方式，都因此发生了改变。网购、移动支付、阿里云、余额宝，这就是当代人的生产和生活方式。这些事业，有利有弊，他让整个社会的商业运作、生产生活都变得更加高效，降低了成本；但这也导致了早期的网购野蛮生长，假货横行，还有如今的消费主义思潮泛滥。但总的来说，功大于过，利大于弊，别的不说，支付宝的出现，就是世界金融史上的一次伟大革新，阿里巴巴整体功绩说个“七三开”，绝不过分。</p>
+<p>当马云建立达摩院、云谷学校、湖畔大学，关心乡村教师和留守儿童，准备从阿里巴巴的繁杂商业中抽身而退，去做教育和慈善的时候，阴谋论就接踵而至了，他们认为马云怕了，马云不干净，就像历史上的范蠡和沈万三一样，要抽身而退。</p>
+<p>马云一度是中国首富，和马化腾、许家印等人一个身家。改革开放40年来，中国出过那么多富豪，有个老前辈曾经对我说：“中国的首富，不是在狱中，就是在走向监狱的路上。”牟其中、黄光裕、杨斌、周正毅......以及赖昌星，这些一个个搅动风云的人物，都曾锒铛入狱。<strong>但马云、马化腾、雷军和他们不同，他们这批互联网时代的企业家，并没有太多的“原罪”，他们没有利用时代的转变，去骗取资源和政策，没有侵吞国有资产，也没有操纵证券和股市为自己牟利。</strong>所以，马云不是诈骗犯牟其中，更不是操纵股市的黄光裕，更不是黑社会人渣赖昌星。</p>
+<p>阴谋论者都忘了，马云不只是一个商人，马云和政治走得很近，他有着联合国的职位，甚至代表着国家走出去做生意，在“一带一路”的战略中，他也在积极行动，和各国首脑会谈；<strong>在中美贸易战期间，他在日本演讲，呼吁各国自己发展自己的芯片，打破美国的垄断，他还投资了中天微的自研芯片，他说中国的科技产业，绝不能受制于人，他投资一千亿创立达摩院，也是这么个道理。</strong>对于未来的核心技术掌控，他有着任正非一样的忧患意识。</p>
+<p>西湖互联网大会的时候，别看腾讯系、“东兴会”不请他，但在政府面前，他是坐最前排的，也是最被看重的。其他人拉帮结派，啸聚山林一样的江湖义气，和他根本不沾边儿。因为追求不同，档次不同，当刘强东还在专注京东的GMV数据、财务报表，头疼怎么盈利的时候，马云想的，是国际关系和中国企业未来的竞争力，这些已经超越了一个商人的本能。</p>
+<p><img img_width="543" img_height="504" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/2f7d52e525a04e4db15cf0fd8f6eb321.jpeg"></p>
+<p>你开你的会，我吃我的面</p>
+<p>每个人，都有自己阶段性的目标和追求，赚钱真的并不是唯一的追求，愚蠢的懦夫也乐此不疲的宣扬着阴谋论，红了眼的赌徒还在追逐蝇头小利，暴发户在折腾着娇妻美妾衣锦还乡，而<strong>那些真正的强者，已经“暗淡了刀光剑影，远去了鼓角争鸣”，互联网、电商、金融，已经做到了极致了，失去了兴趣，他们会找到他们新的目标和战场。</strong></p>
+<p>对于那些不开窍的阴谋论者，我要说，8102年了，很多人脑子里还长着封建时代的肿瘤。满嘴说些什么激流勇退、保命避祸之类的渣滓，还扯什么沈万三，他是沈万三，谁是朱元璋？你们啊，真是，没有一点点人生的经验，知识全是从地摊文学中学来的。</p>
+<p>诸位就不能单纯一点，用正常人的眼光来看这件事吗？</p>
+<p>首先，马云说过，钱挣多了不快乐，工作太累，责任太大，人家本来就悔创阿里，他心心念念还是想着当老师，本来说搞商业搞个两年玩玩的，结果一干就是二十年，人都老了，54岁了，得留点时间去做自己想做的事情 了。</p>
+<p><img img_width="640" img_height="402" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/b27ba5662e5d48e191bde507fe38cb54.jpeg"></p>
+<p>其次，他还说过，“<strong>我不能死在办公室里，我要死在沙滩上</strong>”，人家挣几百亿只是为了改善生活，现在生活已经改善了，为何还要幸幸苦苦继续忙下去，沙滩上躺躺不好吗？</p>
+<p>再次，人家该做的事情已经做完，该改变世界也改变世界了，<strong>淘宝改变了我们的购物方式，支付宝改变了我们的支付习惯，余额宝倒逼了银行的改革，芝麻信用分已经成为了各大城市的居民信用评价体系。</strong>他说过，他<strong>要把支付宝留在国内，支付宝也不上市，只要国家需要，支付宝随时上交国家，其实不知不觉中，支付宝不是国企，胜似国企了。</strong></p>
+<p><img img_width="640" img_height="425" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/36e04a83ea4f411586451bfdd36ec7a4.jpeg"></p>
+<p><img img_width="640" img_height="398" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/42ed6c8a77e348c2b15b53d87bbe9142.jpeg"></p>
+<p>阿里巴巴，给未来世界搭建了一个框架，他就是那个设计师，设计师的工作已经完成，本来就该功成身退了。他还给阿里留下了一个科学、合理、民主集中的管理体系，剩下的事业，本就该交给年轻一代了。阿里巴巴不是京东，阿里巴巴有着良性的股权分配和充足的人才梯队，离了马云，阿里巴巴依旧会照常运行，支付宝也依旧稳如泰山。</p>
+<p>最后，他真的是很想当老师，他心心念念都是回到校园，他十年前就在筹备这一天了，他的微博账号，都被改成了“乡村教师代言人马云”，教育，真的是他的初心，是他最热爱的事业，他现在一开口，提到的就是乡村里的老师，就是那些山区的留守儿童，<strong>他说要让那些辛辛苦苦搞教育的乡村老师过得更好，让他们和孩子们一起出来。他说中国未来最大的竞争力，就是每年2000万新生儿的脑子，我们要倾尽一切，为这些孩子服务。</strong></p>
+<p><img img_width="640" img_height="419" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/4e0aa4b7ac454037ace4649db6f3495e.jpeg"></p>
+<p><img img_width="640" img_height="624" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/f59e7120a9494529aa4aa962af206321.jpeg"></p>
+<p>对于教育，他还有有一些“异想天开”的前瞻——世界在日新月异，在人工智能和大数据飞速发展的今天，我们当今的许多教育方式和学习方式，已经不合时宜了，我们不能在让孩子把精力浪费在那些落后的知识、方法和家庭作业上，教育需要改革，需要与时俱进。未来国家之间的竞争，就是教育的竞争，谁在教育上领先一步，就抓住了竞争的主导权。</p>
+<p>他考虑的，已经是中国未来一代的竞争力了。</p>
+<p>他讲这些话的时候，表情是赤诚的，语气是急迫的，在这一瞬间，我看到的，不是商人马云，而是理想主义者马云。</p>
+<p>以后，我们就叫他“<strong>重回课堂杰克马</strong>”吧！</p>
+<p>PS：最后再说一句，平原君年轻时候的梦想，其实也是当一个老师，一个教员，一个teacher，我没有什么可以和马云比的，我就比他更早退休吧，45岁退休，带着几百亿，去当个老师，岂不美哉？</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77978?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">历史</a>
+            <a class="tag" href="http://m.sohu.com/tag/66368?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">英语</a>
+            <a class="tag" href="http://m.sohu.com/tag/70454?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">教师</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="252959633">阅读 (<em data-state="252959633" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'252959633'" :region-id="'20'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

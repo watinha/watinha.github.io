@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 13}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="历史客栈">
+    <meta name="sharecontent" content="河北这个普通的小山村，为什么会一度成为中央驻地">
+    <meta name="keywords" content="河北, 这个, 普通, 小山村, 为什么, 一度, 成为, 中央, 驻地" />
+    <meta name="description" content="熟悉近代史的人都知道，中央从延安到北平之间，曾经有10个月的时间驻扎在河北平山县的西柏坡，毛主席就是在这个平静的小山村里，指挥了波澜壮阔的三大战役，被称为“五大革命圣地”之一。" />
+<meta itemprop="dateUpdate" content="2018-09-10 20:30:29" />
+<meta itemprop="datePublished" content="2018-09-10 20:30:29" />    <title>河北这个普通的小山村，为什么会一度成为中央驻地-历史频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253060420_247380" />
+    <script>
+        var cfgs = {
+            channelId : '13',
+            media_id: '247380',
+            cms_id: '549097516',
+            title: '河北这个普通的小山村，为什么会一度成为中央驻地',
+            authorId : '247380',
+            path: 'null',
+            authorName : '历史客栈',
+            newsId : '253060420',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/13?_f=m-article_ch">历史</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">河北这个普通的小山村，为什么会一度成为中央驻地</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/247380">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/13f0d3ebc95146b7ac65ececd5f4b87b_1458264366522"/>
+                    <div class="infos-wrapper">
+                        <header class="name">历史客栈</header>
+                        <footer class="time">
+                            09-10 20:30
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('qingni1214@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>熟悉近代史的人都知道，中央从延安到北平之间，曾经有10个月的时间驻扎在河北平山县的西柏坡，毛主席就是在这个平静的小山村里，指挥了波澜壮阔的三大战役，被称为“五大革命圣地”之一（另外四个：井冈山、瑞金、遵义、延安）。</p>
+<p>那么，我党为什么会把一个小小的西柏坡，作为中央驻地呢？</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/a4ffd7790244419594950793eaa2b804.jpeg" max-width="600" class="content-image">
+<p>在八路军时期，我军规模不大，驻扎在大西北的延安，问题还不大，但当我军与国民党军在全国范围内展开争夺时，延安就显得过于偏僻了，不利于指挥大的战争。</p>
+<p>那么，去哪里合适呢？当时有好几种意见，其中有两个代表性的意见，一是去河北承德，方便争夺东北；二是去新四军基础较好的苏北淮阴，直接和蒋介石争夺江南。</p>
+<p>不过，因形势的变化，最后放弃了这两个选择。</p>
+<p>1947年5月初，朱老总等人率领中央工委，来到河北平山县的封城村，与晋察冀军区司令聂荣臻，以及萧克、罗瑞卿等人会面，商量中央工委驻扎在哪里比较合适。</p>
+<p>这里需要先讲一下，当时中央分为三个部分，朱老总、董必武等人组成中央工委，叶剑英、李维汉等人组成中央后委，而中央前委则由毛主席、周恩来等人组成，继续在陕北一边和国民党军打游击，一边指挥全国的解放战争。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">66</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>聂荣臻向朱老总推荐了一个地方，就是平山县。</p>
+<p class="ql-align-center"><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/f346f98da2a34378b0dbc0c8e8e5be75.jpeg"></p>
+<p>应该说，平山县的地理位置非常好，东南距离石家庄只有40多公里，西边是太行山脉，整体上看，平山县的地势西高东低，太行山脉巍峨入云，易守难攻。</p>
+<p>更重要的是，平山县是革命老区，这里的群众觉悟高，被称为北方的兴国（江西兴国县，著名的革命老区）。抗战时期，平山县有很多百姓的子弟都参加了八路军，编成了两个团，立下很多战功，聂荣臻送给他们一个响亮的称号——太行山上铁的子弟兵。</p>
+<p>聂荣臻还喜欢用“<strong>平山就是晋察冀的乌克兰</strong>”来向客人介绍平山，因为乌克兰是苏联的大粮仓，平山就是晋察冀的大粮仓。这里，滹沱河穿境而过，土地肥美，种稻子、麦子都可以，当时有“滹沱百害，惟富平山”的说法。</p>
+<p>因此，当朱老总向聂荣臻询问的时候，聂荣臻不假思索就推荐了平山县。</p>
+<p>不过，如果驻扎在平山县城，目标太大，容易发生预料不到的危险，还是要找一个村庄比较安全。5月10日，聂荣臻指派一名熟悉平山县环境的处长余光文，陪同朱老总的秘书潘开文和卫士长齐明臣，带着一张地图，开始在平山县境内考察。</p>
+<p class="ql-align-center"><img max-width="600" class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/4d726e3cc92d4d32839b717d7e0a4d12.jpeg"></p>
+<p>还要说明一下，当时考察的不仅是平山县，还有建屏县。</p>
+<p>建屏县设立于1940年，是为了纪念在1938年因病逝世的晋察冀军区第4军分区司令周建屏，包括平山县的东区，以及获鹿县、井径县各一部分。这时的建屏县被称为东建屏，在1945年时就撤销了，随后在平山县西界邻近太行山的山区，又设置了一个建屏县，称为西建屏（撤销于1958年，并入平山县）。</p>
+<p>潘开文他们在平山县没有找到合适的地方，就在建屏县范围内找，找了一圈，都不太理想，直到去了西柏坡，几个人眼前一亮。西柏坡地方小，易隐蔽，背山向阳，阳气十足，当天晚上，他们就在西柏坡留宿，把西柏坡的情况记录了下来。</p>
+<p>朱老总和聂荣臻等人也进行了反复讨论，觉得西柏坡非常合适中央入驻，既易于隐蔽，又便于交通，麻雀虽小五脏俱全，就这样，中央工委就在西柏坡定了下来。</p>
+<p>后来，叶剑英和中央后委也迁了过来，然后就是1948年5月26日，毛主席率领中央前委抵达西柏坡，开创了一段辉煌的历史。</p>
+<p>现在，西柏坡是国家5A级旅游景区，而且免费开放，大家可以去看看，了解一下那段非凡的历史。</p>
+<p><strong>有趣味、有思维、有品位的“三味”历史，请关注微信公众号：mashaohua108</strong></p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/55587?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">战争</a>
+            <a class="tag" href="http://m.sohu.com/tag/55589?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">革命</a>
+            <a class="tag" href="http://m.sohu.com/tag/69304?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">抗战</a>
+    </footer>
+    <section class="promotion" data-spm-acode="3416">
+        <a href="javascript:void(0)" data-uuid="3874500361205083" data-link="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10705459-15923119152.49.38a42714Iys8tF&id=564177982482">
+            <img class="promo-logo" src="http://sucimg.itc.cn/avatarimg/13f0d3ebc95146b7ac65ececd5f4b87b_1458264366522"/>
+            <p class="promo-title">历史客栈十年精选集《历史不是镜子》</p>
+        </a>
+    </section>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253060420">阅读 (<em data-state="253060420" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253060420'" :region-id="'19'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

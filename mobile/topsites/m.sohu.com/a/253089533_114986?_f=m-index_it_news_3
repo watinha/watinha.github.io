@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 30}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="第一财经">
+    <meta name="sharecontent" content="桑德伯格： Facebook盈利女强人 | 人物">
+    <meta name="keywords" content="facebook, 盈利, 女强人, 人物" />
+    <meta name="description" content="“白色套头毛衫罩着浅蓝色牛仔裤，一头黑发吹出有光泽的弧度”，这是Facebook的二号人物谢里尔·桑德伯格(Sheryl Sandberg)现身大多数公众场合时的形象。平静的外表之下，桑德伯格的内心坚..." />
+<meta itemprop="dateUpdate" content="2018-09-10 23:57:20" />
+<meta itemprop="datePublished" content="2018-09-10 23:57:20" />    <title>桑德伯格： Facebook盈利女强人 | 人物-科技频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253089533_114986" />
+    <script>
+        var cfgs = {
+            channelId : '30',
+            media_id: '114986',
+            cms_id: '549108568',
+            title: '桑德伯格： Facebook盈利女强人 | 人物',
+            authorId : '114986',
+            path: 'https://www.yicai.com/news/100024362.html',
+            authorName : '第一财经',
+            newsId : '253089533',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/30?_f=m-article_ch">科技</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">桑德伯格： Facebook盈利女强人 | 人物</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/114986">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/5e7d803490ac4dbab35dff0a4dbcfd8a_1478597768467"/>
+                    <div class="infos-wrapper">
+                        <header class="name">第一财经</header>
+                        <footer class="time">
+                            09-10 23:57
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmthfmfem@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>“白色套头毛衫罩着浅蓝色牛仔裤，一头黑发吹出有光泽的弧度”，这是Facebook的二号人物谢里尔·桑德伯格(Sheryl Sandberg)现身大多数公众场合时的形象。平静的外表之下，桑德伯格的内心坚如磐石。 </p>
+<p>美国当地时间9月5日，美国参议院情报委员会在华盛顿组织了一场听证会，重点聚焦科技和社交媒体公司应当如何阻止国外势力散布分裂性谣言和操纵政治。当天，Facebook首席运营官、二号人物桑德伯格出现在听证席上，举起右手宣誓。桑德伯格态度坚定地表示，用户隐私和社交媒体广告并不存在冲突。 </p>
+<p>这位曾经在福布斯上榜的前50名“最有力量”的商业女精英，同时也是一位女权主义者。她鼓励女性从事任何自己热爱的事业，包括男性主导的科研事业。 </p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/d54822ec3583403da00c73724fe64aa3.jpg" width="500" height="280" class="content-image">
+<p><table> 
+  <tbody> 
+   <tr> 
+    <td><span align="center"></span></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+<p><strong>早年从政结缘华盛顿</strong></p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">92</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>过去几年，Facebook飞速成长为一家市值4700亿美元的科技巨头，站在创始人扎克伯格背后，有着公司“第一夫人”之称的桑德伯格功不可没。特斯拉CEO马斯克在近期的采访中也表示，两年前曾接触过桑德伯格，当时特斯拉正在物色一位首席运营官，而这一任务直到今天仍未完成。 </p>
+<p>在硅谷“兄弟文化”的强势背景下，桑德伯格是为数不多的女性高管代表，她也在始终致力于消除这种性别歧视的文化。尽管桑德伯格成名于Facebook，但她在科技企业的职业经历始于谷歌。她的加入为谷歌和Facebook的企业盈利起到关键作用。而在步入科技界之前，桑德伯格的梦想却是在华盛顿从政。 </p>
+<p>桑德伯格于1969年8月26日出生在美国华盛顿特区一个犹太人家庭。在华盛顿这个充满着政治气息的地方，唯有城府深，才能干出一番大事业。桑德伯格早在上世纪90年代初就进入了政府部门工作。1991年，拉里·萨默斯(Larry Summers)出任世界银行首席经济学家时，桑德伯格就担任他的研究助理，两年后返回校园，就读哈佛大学商学院。1995年，萨默斯成为时任美国总统比尔·克林顿政府的财政部副部长，桑德伯格再度出山，担任财政部的幕僚长。 </p>
+<p>回忆与桑德伯格共事的经历，萨默斯曾说道：“桑德伯格总是认为，如果她的待办事项列表在一天开始时列出30件事，那么在那天结束时，列表上应该有30个‘已办’记号。如果我犯了错误，她会直截了当地告诉我。” </p>
+<p>桑德伯格上课很少发言或者提问，但是考试总是能够获得高分，深得萨默斯的赏识。萨默斯自愿担任桑德伯格的论文导师并协助推广她创办的社团，他还表示，桑德伯格是个注重细节的人，这在学生时代就能看出来。“多数学生组织活动时难免疏漏，而桑德伯格主办经济学会招待会时，所有名字牌、食品和日程都安排得井井有条。”总之只要一提起桑德伯格，萨默斯就对这位爱徒赞不绝口。 </p>
+<p>桑德伯格的注重细节，在她创业之后就反映在了公司的治理中。曾经面对面采访过桑德伯格的《金融时报》记者这样描述她：“桑德伯格无疑是与公司口径最一致的高管之一。谈到业务时，她说的话似乎来自一整套现成脚本，我几乎可以替她背出台词，比如新产品不只是仍处于‘早期’，而且正在以一种‘隐私保护的方式’推出。” </p>
+<p>由于她圆滑的处世之道，此前一直有人猜测桑德伯格可能会竞选政治职务。桑德伯格本人也非常期待美国能够诞生一位女总统，就算不是她本人。在特朗普和希拉里的大选决战之夜，桑德伯格甚至把自己9岁和11岁的儿女叫醒，期待见证美国史上首位女总统的诞生。 </p>
+<p><strong>技术革命让她转变</strong></p>
+<p>桑德伯格年轻的时候曾以为自己会在政府或非营利组织工作一辈子，她从没想过进企业。不到30岁的她就担任了财政部的幕僚长，在很多人眼里可以算是平步青云，但最终她还是选择了改变。桑德伯格在回忆是什么促成了她职业选择的转变时说道：“我想当技术革命发生时，谷歌、Facebook这些公司肩负的使命与其他组织一样，它们的权力和影响力甚至可能与政府一样大。”正是这种使命感迫使桑格伯格在职业发展的道路上进行转向。 </p>
+<p>2001年底桑德伯格加入谷歌，担任谷歌全球在线销售和运营部门副总裁。当时的谷歌不过是一家创办仅3年，还没有实现稳定盈利的私人公司。桑德伯格凭借AdWords、AdSense等广告项目，短时间内帮助谷歌实现盈利。 </p>
+<p>次年，她促成全球因特网服务提供商美国在线公司（AOL）与当时资金实力有限的谷歌合作，使美国在线改用谷歌为其网络搜索引擎，成为谷歌最大客户，谷歌收益因而大幅增加。 </p>
+<p>谈及当年谷歌与美国在线的合作，谷歌首名女性工程师、现任谷歌副总裁玛丽莎·梅尔说道：“桑德伯格让这笔交易运转，她强势而无畏。” </p>
+<p>2007年，Facebook已从一家大学生创业的无名企业跻身成为美国社交网站访问量排名前列的硅谷科技巨头。时年23岁的创始人马克·扎克伯格感到自身经营能力有限，急需一位“老司机”帮忙。不料，有人向他推荐了桑德伯格这位“女司机”，并最终与扎克伯格擦出火花。 </p>
+<p>2007年底的某一天，扎克伯格前往硅谷高管丹·罗森斯韦格家参加圣诞派对，他在门口第一次遇见桑德伯格。据扎克伯格自己回忆，两人交谈足有一小时。也正是这次交谈中，扎克伯格得知桑德伯格有意跳槽，便在圣诞假期过后约她面谈。接下来的6个星期里，扎克伯格每周拜访桑德伯格，按照桑德伯格已故丈夫戴夫·戈德伯格的说法，两人的“约会”从不耽误，常常聊到深夜，而且聊的都是些非常哲学的话题。 </p>
+<p>在深聊中，扎克伯格越来越认为擅长管理的桑德伯格就是他要寻找的绝佳合作伙伴。有人认为，扎克伯格性格羞涩，缺乏经营管理技能，可能难以把Facebook推向商业成功，而桑德伯格正是能够在背后“推他一把”的人。 </p>
+<p>“有人是出色的管理者，能够管理庞大组织；有人精于分析或注重发展策略。”扎克伯格谈到自己时表示，“这两种特质通常不会存在于同一个人身上。我自己更多属于后者。”也就是说，他需要寻找一位管理型的人才与之形成互补。2008年3月，桑德伯格应邀出任Facebook首席运营官。 </p>
+<p>Facebook和谷歌一样，都是男性员工占据主导的科技公司，文化也更偏向男性。对于这位“空降”而来的“女一号”，很多员工心怀戒备。不过，坦诚的桑德伯格经常主动与员工聊天，打消他们的疑虑。这样“放低姿态”的表现，赢得了不少员工的好感。 </p>
+<p>桑德伯格上任以来，一大目标是帮助Facebook盈利。凭借她强大的运营能力和销售技巧，2010年Facebook首次实现盈利，桑德伯格加盟Facebook三年后，Facebook全球范围内用户数量从7000万翻了10倍至7亿。 </p>
+<p>如今，Facebook活跃用户人数已经突破20亿，最新的财报显示，第二季度实现总收入132亿美元，广告收入同比增长超过40%，达到130亿美元。不过这一平台也在面临用户增长瓶颈和年轻人逐渐抛弃的压力。而且欧盟最新出台的《通用数据保护条例》也给公司的经营和对用户隐私权的保护提出了新的挑战。 </p>
+<p>上周，桑德伯格在出席听证会的陈述中发表了虚假新闻看法，她列举了公司为此做出的努力，包括将安全团队员工人数大幅增加，以及增加机器学习的使用以便识别问题内容，并且每天阻止数百万个虚假账户的注册等。委员会大部分成员对桑德伯格的陈述表示满意。 </p>
+<p>但尽管如此，Facebook的商业模式并没有发生彻底的改变，仍然基于为更多用户提供免费的服务。 </p>
+<p><strong>女性应学会“举手到底”</strong></p>
+<p>在扎克伯格看来，桑德伯格最令人叹服之处并非“她有能力担任任何公司的主管”，而在于她能够“放低自我，帮助旁人却不求人前自夸”。这也是女性领导者最大的魅力。 </p>
+<p>按照斯坦福大学领导与组织行为学教授德博拉·格伦菲尔德的说法：“桑德伯格谦逊真诚，不炫耀，也不隐瞒自己的抱负，不回避自己作为职业女性在处理家务方面的烦恼，相信‘你抱怨别人时，也是在接受自己的无能’。” </p>
+<p>桑德伯格在她前几年出版的书《向前一步》（Lean In）中写道：“机会正是来自一个人对某件事的全情投入，而这件事随后就会成为他们的工作内容。在工作上积极主动就一定会带来回报。如果我必须要为成功下个定义，那就是：成功，是为自己做出最好的选择，并且接受它们。” </p>
+<p>虽然有人指责《向前一步》导致一些读者与男友分手，因为她在书中建议：“你可以想跟谁就跟谁约会，但你应该跟书呆子和老实人结婚。”但其实桑德伯格是想告诉女性读者，去追求一个尊重平等关系并支持女性事业的男人。 </p>
+<p>《向前一步》还催生了一个由全球150万职业女性组成的圈子，其中既有来自巴黎的创业企业家，也有辞去国企工作的中国独立女性。桑德伯格还经常通过旅行和她们进行交流。 </p>
+<p>桑德伯格一直坚持：“女性必须学会让手一直举到底，因为当她们放下手时，即使是最细心的经理可能也不会注意到。”同时，桑德伯格还呼吁政府和公司对男女员工实行同工同酬。她曾在接受BBC采访时表示：“我们需要开始向女性提供良好的薪酬，我们需要公共政策和企业政策来实现这一目标。” </p>
+<p>多年后，她终于领悟斯坦福大学教授詹妮弗·阿克尔（Jennifer Aaker）关于“设定一个可达到的目标是幸福的关键”的主张，在众多Facebook的海报中，桑德伯格挑了一句当作自己的座右铭：“完成，好过完美。”“我们需要追求的不是完美，而是要以可持续、可实现的计划为目标。”她在书中这样写道。 </p>
+<p>2015年，桑德伯格华丽的人生轨迹中，遭遇了最大的一次意外。她的丈夫戴夫·高德伯格（Dave Goldberg）在一次与桑德伯格一起去墨西哥度假途中突发心脏病去世。在外界盛传桑德伯格将从此退出商界的流言下，她坚强地从“30天有如30年”的悲痛与绝望中走出来，重新站到公众面前。她还与宾夕法尼亚大学沃顿商学院心理学和管理学教授亚当·格兰特（Adam Grant）一起编著了新书《备用选项》（Option B）。 </p>
+<p>在这本书中，她坦诚地谈到了“老板”扎克伯格在自己失去亲人时对她的鼓励，并讨论了员工如何应对人生中的“至暗时刻”。“我想我写这本书是因为它很私人，而且非常坦诚。”桑德伯格说道，“我想从这场悲剧中得到一些有益的东西。” </p>
+<p>桑德伯格还是一个慈善家。这位在2017年胡润全球白手起家女富豪榜排名第41位的女富豪，去年已经向她和已故丈夫高德伯格共同成立的家庭基金会捐赠了所持有的59万股Facebook股票，价值接近1亿美元。在2016年12月，桑德伯格就向该基金会捐赠了88万股Facebook股票，当时的价值为1.1亿美元。这两笔资金已经流向了LeanIn和OptionB两个非营利组织。 </p>
+<p>桑德伯格还鼓励女性从事任何自己热爱的事业，包括男性主导的科研事业。欧莱雅基金会执行副总裁Alexandra Palt对第一财经记者表示：“在科研领域，女性的从业比例整体仍然偏低，虽然正在缓慢增长。女性在科研职业发展的道路上还是面临很多障碍。” </p>
+<p>以欧盟为例，各大科研机构的高级职位女性比例仅11%，女性科研人员比例不到30%，而女性诺贝尔奖获得者的比例更是仅有3%。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/78035?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">股票</a>
+            <a class="tag" href="http://m.sohu.com/tag/48431?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">Facebook</a>
+            <a class="tag" href="http://m.sohu.com/tag/48260?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">谷歌</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253089533">阅读 (<em data-state="253089533" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253089533'" :region-id="'30'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

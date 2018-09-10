@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="keywords" content="清史民国">
+    <title>清史民国-新闻列表-手机搜狐</title>
+    <script>
+        var cfgs = {
+            channel_id : '13',
+            sub_id : '1342'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch13-1342">
+    <div id="backTop">
+        <back-top :is_index="false" 
+        :addto_desktop_id="10120305" 
+        :webclip_action_id="10120369" 
+        :addto_desktop_id_ios="10120378"
+        app_down_type="msubchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../13.1">清史民国</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253060420_247380?_f=m-sub_channel_1342_feeds_1&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">河北这个普通的小山村，为什么会一度成为中央驻地</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/4d726e3cc92d4d32839b717d7e0a4d12.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f346f98da2a34378b0dbc0c8e8e5be75.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/a4ffd7790244419594950793eaa2b804.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">历史客栈</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:30</span>
+	<span class="com" data-state-loading="253060420">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253060420">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253086200_824814?_f=m-sub_channel_1342_feeds_2&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">蒋介石去台湾时，想带走一个女人却没成功，临终前还想见她</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/62ca17517f4c4a37861c7d915e0d9bf5.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f4d4802bf1a34654995f6608ebd8c7ae.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/e5f3aee6066d473f9fe421d23b03cfea.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">布衣谈史</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:30</span>
+	<span class="com" data-state-loading="253086200">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253086200">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253086069_577721?_f=m-sub_channel_1342_feeds_3&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">孝贤皇后去世，乾隆后宫有七大主位，为何登上皇后之位的是如懿？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/e01ba1a675124932afc8961d7ea13b50.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/56c547899cc54d5592f9dd68e4d3577b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b0de76d56c504a1da5ac486d41712084.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">明清史话</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:26</span>
+	<span class="com" data-state-loading="253086069">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253086069">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253090538_557603?_f=m-sub_channel_1342_feeds_4&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_4" data-spm-type='content'>
+            <h4 class="feed__title">清朝官员有一怪癖，导致贪官盛行，皇帝却纵容，让他们官越做越大</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/eb220d1b039a4c60891e8b35ed368298.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/26a767a9dbf64830bf36eb102238b313.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/5d03c59aec65433d9128ab7ab2b04847.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">静说历史</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:00</span>
+	<span class="com" data-state-loading="253090538">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253090538">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253062571_824814?_f=m-sub_channel_1342_feeds_5&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">此人拒绝为宋美龄买单，当众打断蒋介石讲话，后参加开国大典</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/352cc348311e48ebac6bdb125e6d2996.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/05cff73581824ad989a959e2bf4ec2d5.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/fd62ac01d7c54d929ee810b4f9e9efa8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">布衣谈史</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:50</span>
+	<span class="com" data-state-loading="253062571">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253062571">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253075721_824814?_f=m-sub_channel_1342_feeds_6&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">此人是国军上将，张灵甫死后，蒋介石把他打的头破血流</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/cfe9e5024f814af38ead2fe72d77de20.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/955fe35b528043c0b905594633a20a6b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/a57aed018e81491ba914c69048ecdef4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">布衣谈史</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:12</span>
+	<span class="com" data-state-loading="253075721">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253075721">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253025670_100104125?_f=m-sub_channel_1342_feeds_7&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">婉容怀抱小狗的珍贵照片，溥仪为她养了100多只狗，也有大型犬，原因令人唏</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c490c898d30542a289498527920c1f23.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c3aada83229149c2b8cac88a5b264ab4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/988d3088785a4d18a1b23e1f730a58d7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">文史观澜</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:08</span>
+	<span class="com" data-state-loading="253025670">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253025670">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253075579_585273?_f=m-sub_channel_1342_feeds_8&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_8" data-spm-type='content'>
+            <h4 class="feed__title">中正式步枪与三八式步枪结构对比，都是曾经的时代利器</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/fd679c74b2a34836b6c3085675f36421.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c32d0a4bd39f497eb074572ebd077ac1.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/82bc79da62c64cb59012da7602c37be6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">始说史话</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:13</span>
+	<span class="com" data-state-loading="253075579">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253075579">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253074382_559864?_f=m-sub_channel_1342_feeds_9&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_9" data-spm-type='content'>
+            <h4 class="feed__title">此人是清朝一等一的重臣，晚年爱干两件事，让人哭笑不得</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/d52fb151afe344d7af52cc02b493a96d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0d60d3ed92f94383bc450b1889e46484.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c5640342ae674c4fa2c8b0c496dff547.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">夜读史书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:07</span>
+	<span class="com" data-state-loading="253074382">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253074382">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253072115_577721?_f=m-sub_channel_1342_feeds_10&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">她是乾隆唯一的嫡出公主，被赐5240件护身符，与乾隆相伴61年！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/ea3f6a7c8791448daddf06d2b01a4e28.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/81851985cc25484d9c6961dcde721287.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/6e929478311a4bcd90b8ba64de1bd9f0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">明清史话</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:45</span>
+	<span class="com" data-state-loading="253072115">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253072115">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253086670_386239?_f=m-sub_channel_1342_feeds_11&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_11" data-spm-type='content'>
+            <h4 class="feed__title">《如懿传》周迅饰演的角色原型是谁？为何到死乾隆都不肯原谅她</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c7d732230159404190430f9bd924bc00.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/9378f7fae1e444e889384eb0be2a21b8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/9cfdfa6b22c94b24bb7fd3e83a931bcd.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">有趣的历史段子</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:35</span>
+	<span class="com" data-state-loading="253086670">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253086670">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253059073_699296?_f=m-sub_channel_1342_feeds_12&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_12" data-spm-type='content'>
+            <h4 class="feed__title">心痛的耻辱：东北军拱手让给日军的那些武器</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/682c773827c3446bb526498960553ebe.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/1fe648f59c024ee4853e22be63404f39.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/e11a1baf1734454f9aca2a600839f3a0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">纵古观今</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:22</span>
+	<span class="com" data-state-loading="253059073">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253059073">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253074312_188219?_f=m-sub_channel_1342_feeds_13&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_13" data-spm-type='content'>
+            <h4 class="feed__title">西域唯一问鼎中原的民族，大唐帝国的保护神为何会消失不见</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b768134ca4404174b1e537c1eb59d7b1.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/1da79674785748e3a42fbad5713934a7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/661012262bdd4afdb32e42e95068adcf.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">史料不辑</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:03</span>
+	<span class="com" data-state-loading="253074312">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253074312">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253072184_260710?_f=m-sub_channel_1342_feeds_14&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_14" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">张作霖死后，日本人为何不敢进攻东北？只因张作霖临死前的三句话</h4>
+<footer class="feed__detail">
+		<span class="name">历史脑洞观</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:50</span>
+	<span class="com" data-state-loading="253072184">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253072184">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/6112943b7d1d4a25ad75dc855f442fd0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253092289_393726?_f=m-sub_channel_1342_feeds_15&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_15" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">北洋军阀的尊师观念：张作霖执作揖礼，曹锟亲自为老师发工资</h4>
+<footer class="feed__detail">
+		<span class="name">拾文客栈</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:13</span>
+	<span class="com" data-state-loading="253092289">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253092289">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/631361f3b4454d2e817954e887f3a657.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253086815_581908?_f=m-sub_channel_1342_feeds_16&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">你知道吗？北京故宫匾额上有一根箭头，为何200多年来无人敢动？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/41180fe4257843cdaba122a95717eab3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0ba4153d3c904a3bb7bb7f5f13809277.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/af9d118b92d64facbed573902de4b611.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">穿越历史的迷雾</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:32</span>
+	<span class="com" data-state-loading="253086815">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253086815">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253056985_699296?_f=m-sub_channel_1342_feeds_17&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_17" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">直击清宫密照：她是光绪的宠妃，为何慈禧西逃时将她投入井中</h4>
+<footer class="feed__detail">
+		<span class="name">纵古观今</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:12</span>
+	<span class="com" data-state-loading="253056985">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253056985">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/84d51b5feade4ca1bc15053388c22eab.png" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253084684_500704?_f=m-sub_channel_1342_feeds_18&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">民国名人竟然娶了日本姑娘做妻子？？？</h4>
+<footer class="feed__detail">
+		<span class="name">鬼脸高中历史</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:09</span>
+	<span class="com" data-state-loading="253084684">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253084684">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252984862_389559?_f=m-sub_channel_1342_feeds_19&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">蒋介石为娶她差点自杀，周总理保护她移居香港，死后几天才被发现</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/94509dd624cb4a718df7ba53e61a0dba.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/55c41749aa7e492d93cbdc47b3a3d38b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c1697462cb5e490da49911d83c5c8804.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">扬平说史</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:41</span>
+	<span class="com" data-state-loading="252984862">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252984862">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253072612_260710?_f=m-sub_channel_1342_feeds_20&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1342_feeds_20" data-spm-type='content'>
+            <h4 class="feed__title">《亮剑》王有胜真的只是一名普通士兵吗？原来他也是个隐藏的高手</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/185f497ea19747dcbb01e0315d85eda6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/2091082833a44655952ac8eb803e6b04.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/25b153b5bebc46899b307cf0b7324dc6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">历史脑洞观</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:49</span>
+	<span class="com" data-state-loading="253072612">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253072612">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+	<feed-list :is_server="true" :sub_id="'1342'" @load_more="addExpose"></feed-list>
+</div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channelSub(cfgs);
+    </script>
+</body>
+</html>

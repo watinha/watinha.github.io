@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>美食频道 - 手机搜狐</title>
+        <meta name="keywords" content="搜狐,SOHU,美食,gourmet,米其林,大厨,食谱,菜谱,餐厅,烘焙,酒,甜品,美味,家常菜,粤菜,川菜,西餐,料理,吃喝,烹饪,食品,咖啡" /><meta name="description" content="搜狐美食是专业的美食频道,覆盖走街串巷、烹饪冲调、吃吃喝喝、吃货研究所等栏目。" />
+    <meta name="data-spm" content="smwp">
+    <script>
+        var cfgs = {
+            channel_id : '28'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch28">
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120268" 
+        :addto_desktop_id="10120302" :webclip_action_id="10120367" 
+        :addto_desktop_id_ios="10120376"
+        app_down_type="mchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header fixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="28.1">美食</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<section class="channel-layer-area" data-spm="nav">
+    <section class="layer-box ">
+        <a href="http://m.sohu.com/ch/28/1441" class="btn">走街串巷</a>
+        <a href="http://m.sohu.com/ch/28/1443" class="btn">烹饪冲调</a>
+        <a href="http://m.sohu.com/ch/28/1445" class="btn">吃吃喝喝</a>
+        <a href="http://m.sohu.com/ch/28/1444" class="btn">吃货研究所</a>
+        <a href="http://m.sohu.com/ch/28/1442" class="btn">厨房好物</a>
+    </section>
+</section>
+        <section id="channelFocus" class="focus_wrapper" data-spm="fspic">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253059957_104800?_f=m-channel_28_focus_1" data-log-content-ev="m-channel_28_focus_1" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/f343e3c055d64a2fa32c53328f24f3ec.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">10分钟全营养早餐饼！不揉面不加糖，香甜柔软筷子一夹就断！</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253040675_124150?_f=m-channel_28_focus_2" data-log-content-ev="m-channel_28_focus_2" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/27fae21b7e274c3b80a5134bfc0952fe.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">肉包子的馅料这样做，比外卖的香很多，一出锅老公吃了5个，赞不绝口</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253006433_537513?_f=m-channel_28_focus_3" data-log-content-ev="m-channel_28_focus_3" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/40345866fc0c4c35913bd269ab1f1882.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">秋天，女儿就馋这道菜，简单炖一炖，每次都要多吃2碗饭，太香了</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253030072_582111?_f=m-channel_28_focus_4" data-log-content-ev="m-channel_28_focus_4" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/bf96f41eb5e44d0ea96e80817f583a01.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">入秋后的秋刀鱼，口感紧实肥美，用这个法子烧好吃百倍！</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252993026_107044?_f=m-channel_28_focus_5" data-log-content-ev="m-channel_28_focus_5" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/5362f584539646bbb2bf0e40e943ac3f.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">天凉了，这菜要多做给孩子吃，甜鲜美味，孩子常吃智商高长个快！</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>        </section>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253091714_433133?_f=m-channel_28_feeds_1&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">想让排骨汤更好喝，只需要加入“它”，汤水变得更鲜甜，营养更丰富</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/c36ec98800ce43118391974dc733994e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/7b00eabe354d49b48f0e50ef2e9636ef.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/4183dd88a3e84297b0e5a2aa8a108920.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">南宁美食大咖</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:07</span>
+	<span class="com" data-state-loading="253091714">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253091714">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253080708_369850?_f=m-channel_28_feeds_2&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">面点师傅：蒸馒头别只会用酵母！多加一点它，馒头更香更松软</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/1ad6aa2775634eafb1d04fa346343899.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/983bba17a0874337b8f62d3ee04e55f3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/58a28dfef79144469fe0f67504969c29.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">爱家庭美食</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:36</span>
+	<span class="com" data-state-loading="253080708">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253080708">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253081075_369850?_f=m-channel_28_feeds_3&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">做酥肉不能加一调料，否则味道全走歪，怎样酥香不硬，窍门一一说</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b2207abd1eca4e39ac0cae4a623e25ea.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/041afc60f470421cb1f6ec7ac10f35b6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e3c62f60cf304885a163a1433304fcd3.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">爱家庭美食</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:42</span>
+	<span class="com" data-state-loading="253081075">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253081075">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253013348_578090?_f=m-channel_28_feeds_4&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_4" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">家常煎猪肉的做法</h4>
+<footer class="feed__detail">
+		<span class="name">广东美食菜谱</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 16:23</span>
+	<span class="com" data-state-loading="253013348">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253013348">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/df5ef2cb62944b3c84cc0e6145c07567.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253101444_173282?_f=m-channel_28_feeds_5&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">万德隆自制放心馒头~好面粉蒸出好馒头~</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/65ca787a88964c2d95c8cdfbf63ef54d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/9de32792184e4fd6a33dad8585564b2a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/778ab5985c8344c2a346297a2ea59efc.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">万德隆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 19:18</span>
+	<span class="com" data-state-loading="253101444">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253101444">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252914802_437892?_f=m-channel_28_feeds_6&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">这才是秋季最合适的家常菜，好吃又下饭，还能增加人体抵抗力</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/89020ccd939641bba811951da2c8ffc9.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e4ad426cc30a48598b97445b18a00683.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/94434a9c5a9a4d668a4b16d29ec61f19.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">典典小厨</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 08:34</span>
+	<span class="com" data-state-loading="252914802">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252914802">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253074546_328978?_f=m-channel_28_feeds_7&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">地球毁灭，只能拯救一种食物，你选哪个？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ebb54238d2a44d5296eb4f872a979ac0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c3d9041d6c01463db3a376a9adaab397.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4c4528ef9adc4ed4a2fe23f8e5551852.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">外卖小哥金城武</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:00</span>
+	<span class="com" data-state-loading="253074546">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253074546">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253085723_99975920?_f=m-channel_28_feeds_8&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_8" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">吃米和吃面，到底哪个更营养？是时候告诉你了</h4>
+<footer class="feed__detail">
+		<span class="name">中山发布</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:12</span>
+	<span class="com" data-state-loading="253085723">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253085723">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b65c35ceb5b44ed7ad1105a9b35de579.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253082597_115345?_f=m-channel_28_feeds_9&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_9" data-spm-type='content'>
+            <h4 class="feed__title">为什么秋天吃白萝卜千万别去皮！竟然是因为。。。</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/690bfd841d764432a6bafe8a377a5f5e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/0609dbb8b0d64eda80df6e3dfb8307df.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d2e71c2470cc4cf7bc0d7df1cdb09ffe.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">多味豆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:30</span>
+	<span class="com" data-state-loading="253082597">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082597">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253102470_784284?_f=m-channel_28_feeds_10&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">如何挑选板栗？生板栗的保存方法</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/74a5c76161f94fb9b388174dcd3b584e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/6f305ed03a274d86bef296b195fa416b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/f6c97a5845024b86951f778f29633d39.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">潍坊7080美食俱乐部</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 19:10</span>
+	<span class="com" data-state-loading="253102470">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253102470">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253082353_394161?_f=m-channel_28_feeds_11&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_11" data-spm-type='content'>
+            <h4 class="feed__title">放肆吃！火爆抖音的多嘴肉蟹煲开到南宁！满满一锅肉仅需68元，还有超值代金券哦！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e4b6c7b3a6d84bb1b2262db4333f1a13.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/5caa81458d87445da8422558324a16c2.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ca5977817f734d2b848e526f5a185cc8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">南宁吃吃吃</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:35</span>
+	<span class="com" data-state-loading="253082353">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082353">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253077149_539528?_f=m-channel_28_feeds_12&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_12" data-spm-type='content'>
+            <h4 class="feed__title">开学了，给小学生准备的一周早餐，你们家孩子早餐都咋解决呢？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/7943992606f14a39bfeff65be42caacd.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/42504a501fae4a75ac49aa4acb5fdc75.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/1b3f124b63764bfa95e86f9bac8e96de.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">妖妖原创美食课堂</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:17</span>
+	<span class="com" data-state-loading="253077149">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253077149">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253066082_134333?_f=m-channel_28_feeds_13&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_13" data-spm-type='content'>
+            <h4 class="feed__title">这菜比韭菜好吃，每次炒这个菜，我都要添米饭，太下饭了！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/26b6c03ce8114e6988db4c7e9c5a484d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d535f0d5250647058156533a612d2d0a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/cfed733f983a44c09f4119b16c2c00ba.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">香儿厨房</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:06</span>
+	<span class="com" data-state-loading="253066082">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253066082">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252901408_125309?_f=m-channel_28_feeds_14&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_14" data-spm-type='content'>
+            <h4 class="feed__title">这是一篇吃大闸蟹的小攻略——清蒸大闸蟹【孔老师教做菜】</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d76bda77ef324d138fda2ec6dc0991f0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/13e1d5e3c58244d09772dce43d7add5d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/6cf92c0dbb734fcf93c727753f2e683f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">孔老师教做菜</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 21:05</span>
+	<span class="com" data-state-loading="252901408">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252901408">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252954141_136017?_f=m-channel_28_feeds_15&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_15" data-spm-type='content'>
+            <h4 class="feed__title">谁说小吃登不上大雅之堂？这家频获外媒点赞的餐厅，就将小吃做到了极致！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/98af65825e1f487883502322cefff456.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/aa0a4f0d7f9e4c7d887fa879a4f6eaff.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/9c136121d72441939f5894361dba7e54.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">aramifish</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 11:53</span>
+	<span class="com" data-state-loading="252954141">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252954141">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252999150_620116?_f=m-channel_28_feeds_16&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">又快又香又简单，一口就能吃几碗——凉拌挂面</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//img.mp.sohu.com/q_70,c_fill,w_154,h_100,g_faces/upload/20180910/ae1b8e74c50a49ff9dd57c44c3300f98_th.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/bfac15ce3ff643ba8eb5043a8bcf0855.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4d8dfe36036849e5b9c8fbae9df9683b.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">小圆食记</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 15:50</span>
+	<span class="com" data-state-loading="252999150">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252999150">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253090809_119561?_f=m-channel_28_feeds_17&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_17" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">【醋溜银芽】| 爽脆开胃的家常素菜~</h4>
+<footer class="feed__detail">
+		<span class="name">文怡家常菜</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 10:00</span>
+	<span class="com" data-state-loading="253090809">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253090809">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/7e10151de56a4459b0403acfbc3960ff.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253082599_115345?_f=m-channel_28_feeds_18&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">这样做西红柿好吃到上天， 给肉都不换！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/9536d20e0c50457b9c81726df7dd1615.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/4ccb4ba726b74cb2b41ca648bc48a903.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ca20da90b18a4510add224502e45cd62.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">多味豆</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:30</span>
+	<span class="com" data-state-loading="253082599">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082599">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252881401_119610?_f=m-channel_28_feeds_19&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">1000元炖了一锅老鸭汤，只因为加了它，补肾补肺的“仙草”！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/b098760094374d858bc0636ca3e870bd.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/5aff20aee51541f49218482916af372d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/395ba95fbadb462c860426c941ae80c8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">一叶美食</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 08:15</span>
+	<span class="com" data-state-loading="252881401">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252881401">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253078136_661756?_f=m-channel_28_feeds_20&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_28_feeds_20" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">小鸡炖蘑菇的做法，吃了还想吃</h4>
+<footer class="feed__detail">
+		<span class="name">女王教你煲汤</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:03</span>
+	<span class="com" data-state-loading="253078136">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253078136">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/fc78359d499742028caa5fbad867cb44.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+    <feed-list :is_server='true' :channel_id="'28'" :is_channel="true" @load_more="addExpose"></feed-list>
+</div>    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channel(cfgs);
+    </script>
+</body>
+</html>

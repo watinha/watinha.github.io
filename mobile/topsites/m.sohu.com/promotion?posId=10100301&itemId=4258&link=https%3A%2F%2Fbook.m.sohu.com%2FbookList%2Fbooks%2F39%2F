@@ -1,0 +1,398 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>搜狐阅读</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="mediaid" content="搜狐阅读"/>
+    <meta name="keywords" content="搜狐阅读，搜狐小说，免费阅读，在线阅读，海量小说，经典小说，热门小说，小说排行榜，畅销书，榜单，好看，完结，全本，连载，男生，女生，男频，女频，出版，言情，都市，玄幻，奇幻，架空，历史，东方，穿越，仙侠，青春，职场，官场，科幻，恐怖，悬疑，重生，网游，兵王，总裁"/>
+    <meta name="description" content="搜狐阅读，海量好书，沉浸阅读，智能推荐，快速找书,提供言情,都市，玄幻，奇幻，架空，历史，东方，穿越，仙侠，青春，职场，官场，科幻，恐怖，悬疑，重生，网游，兵王，总裁，等诸多免费小说"/>
+    <meta name="sharecontent" content="搜狐阅读，提供免费小说，采用无限feed流畅游书海体验模式，且支持离线阅读哦，小说类别包括玄幻，都市，言情，官场，军事、玄幻，校园，历史等诸多免费小说"/>
+
+    <link rel="apple-touch-icon-precomposed" href="https://book.m.sohu.com/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="https://book.m.sohu.com/apple-touch-icon.png">
+
+
+    
+
+<link rel="stylesheet" type="text/css" href="https://s2.rr.itc.cn/h5/css/read/v4/tags/0.0.30/c/g.css" media="all"/>
+<meta name="data-spm" content="smwp">
+
+
+
+</head>
+<body>
+<header class="header pageHead">
+    <div class="wrap headerWrap">
+        <div class="wrap">
+            <h1>人气书单：免费试读</h1>
+            <div class="opts optsLeft">
+                <a href="javascript:void window.history.back();" class="opt reBack"><i class="i iG iG_A4"></i><b></b></a>
+            </div>
+            <div class="opts optsRight">
+                <a href="https://book.m.sohu.com/bookShelf/?_once_=000218_sy_sj" class="opt toBookShelf"><i
+                        class="i iG iG_A2"></i><b></b></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="stream bookList">
+    <div class="feed feedBook feedBook_list">
+        <a href="promotion?posId=10100301&amp;itemId=4258&amp;link=https%253A%252F%252Fbook.m.sohu.com%252FbookList%252Fbooks%252F39%252F#" class="main">
+            <div class="image"><img src="http://s7.rr.itc.cn/org/wapChange/20189_4_18/b75ppp226099204250.jpg" alt=""></div>
+            <p>人气榜单：清纯校花、美艳御姐、名门淑女、可爱小萝莉---身边美女太多，自认为很纯洁的曹越同学觉得压力山大......</p>
+        </a>
+        <ul>
+            
+        </ul>
+    </div>
+    
+            <div class="wrap streamWrap">
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/36275/17155052/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        都市超级公子
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_14/a36stl4348508997098.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">闲清 | 都市生活 | 
+                            </div>
+                            <div class="desc">他原本是一名军人，一名真正的强者，因为特殊的原因，他离开了军营走进校园，成为一名大学生。清纯校花、美艳御姐、名门淑女、可爱小萝莉---身边美女太多，自认为很纯洁的曹越同学觉得压力山大......----------交流QQ群：100246532，欢迎书友们的加入。</div>
+                            
+                                <div class="sign"><i class="i i_iGood"></i></div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/62934/23829516/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        花都绝品狂医
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_15/a7rfdl5330661430967.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">流水狂飙 | 异术超能 | 
+                            </div>
+                            <div class="desc">被戴绿帽 男子一路肆意纵横，逆袭成功
+战圣回归都市，会惊天医术，妙手回春白骨生肌，实力强悍，肆意纵横，一路上泡妹子，踩敌人，最终登上王者巅峰！、
+                                                </div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/16899/10241442/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        冥王溺宠：警花娇妻
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_10/a5xm0n8484467433133.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">慕青青 | 都市生活 | 
+                            </div>
+                            <div class="desc">　　她为了救一只陪伴多年帅鬼，死在恶鬼手下。再次醒来，缔结了一桩阴阳缘，稀里糊涂跟她以死相救的帅鬼长的一样男神有了婚约。　　　　　只是，她何时成为众鬼忌惮鬼后了？看着身旁一脸沉默背着他贼笑男人，她仰天大叫起来，不带这样欺负人的！　　***　　白天，她是警局里的小警花，沉默寡言，出手凶悍，对待恶人从不手软。夜晚，她则是冥界鬼后，除了鬼王，她最大，替鬼伸冤，还愿，遇到不听话的小鬼，恶鬼，也会出手相助，不服者必定魂飞魄散！　　　　　*她的不平凡：*　　一双紫瞳阴阳眼，看透鬼物心思，定魂，收魂，只要她想一个都别想走。　　凤袍阴衣，百鬼惧怕，一龙一凤隐身护她安全，龙凤嘶鸣，地动山摇。　　两个可爱萌婴灵为她保驾护航，恶鬼是他们每天口粮。　　一把普通的钥匙，为她开启阴阳界之门，来去过往无人敢管。　　*她的武器：*　　一条五彩神鞭，上打仙神，下打妖魔鬼怪，神鞭出手，惹怒她的各路英豪请慢走。　　淡漠不代表她没有脾气！　　温和不代表她没有性格！　　寡言不代表她没有意见！　　***　　这是一个外表冷漠，内心凶悍小警花行走阴阳两界斗智坏人，收服恶鬼，除暴安良的故事，也是一代鬼王无下限宠妻故事，甘愿放下身份做她背后小男人，默默守护她身边，为她铲除后患，助她走上强者巅峰之路，成为一代鬼后的风华使，共携一场‘不寻常’的甜蜜恋情。　　【威逼篇】　　“记住，你是我的女人，不用妄想逃离我！”　　某女看着趴在他身上的妖孽男子，在想怎么快速的掐死他。　　“收了定情信物，缔结了阴阳缘，我生你生，我死你死！”　　“…”　　“你要怎样的放过我？”　　“生娃！”某男伸出白皙手指12345678…比划着。　　某女一头黑线，贼笑着，挑眉道，“你行吗？”　　某男飞身压向某女，“你的男人身体很强的，一天几十个回合不成问题，你说呢？嗯？”　　“…”　　【求宠篇】　　某女出完任务回到家中，高大英俊的某男早早守候一旁贴心伺候着。　　“老婆，你爱我吗？”　　“嗯？”　　“我爱你！”　　“哦。”　　“那你爱我吗？”　　“孩子都有了，你说呢？”　　“老婆，为了孩子我们在爱你一次吧！”　　“你丫滚粗！每次都找各种理由，咱能有点节操不啊？”　　“嗯？节操是什么？能吃吗？”　　“…”　　　　　　【吃醋篇】　　某父带着某宝坐在沙发上看着美食料理节目，某宝看向一旁神速打着毛线的某父，呶呶嘴，　　“爸比，你不觉这样得很娘吗？凶悍的妈咪不会喜欢你这个娘炮的！”　　某父停下手里的活，笑的一脸高深莫测，“你妈咪永远都喜欢爸比像良家妇男的样子。”　　“…”　　“爸比，前天我看到妈咪跟千年老妖去约会了！”　　“嗯，看腻了你爸比这颗帅草，偶尔看一下歪瓜裂枣愉悦心情也好。”　　“…”　　“爸比，昨天妈咪跟蔡叔叔接吻了，而且吻的时间很长呦！”　　“傻宝贝，那不是接吻，而是人工呼吸，你妈咪那在救人呐。”　　“…”　　某宝看着淡定不像话的爸比，使出杀手锏，“妈咪今天晚上不回了，要跟名扬叔叔回冥阳镇。”　　“砰！”某爸比摔掉手中的半成品，化成一道龙卷风消失在客厅里。　　　　　“呃…”某宝一副真心醉的表情，早出这招就好了，这下好了，爸比不跟他抢电视看喽！　　这次他终于赢了一次，赢了无所不能的爸比一次！@一对一宠文，男女主身心干净无污染哦！走过路过的萌妹子们手指开动记得收藏哦！@　　</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/70277/26180158/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        超神特种兵王
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_15/a04nzo5970404916289.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">容炎 | 战争幻想 | 
+                            </div>
+                            <div class="desc">【2017年热血火爆红文】最强的兵王是特种兵，最强的特种兵在“龙魂”。这支传说中的队伍执行的都是永不解密的最高机密任务。男儿当快意恩仇，睚眦必报。为忠可粉身碎骨，为义可两肋插刀，为情可百死不悔。铁血男儿兵王魂，百死报国英雄气。书友群：272902304，欢迎入坑！</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/72/34527/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        逆天腹黑狂女：绝世狂妃
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_22_16/a42oxk5567643997034.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">冰水仙 | 穿越奇情 | 
+                            </div>
+                            <div class="desc">【男强女强，强强联手+痴情宠溺+腹黑无限】身为一个叱咤风云的绝色杀手，一朝穿越，她成为宰相府的嫡出大小姐。任人欺凌？白痴草包？翩然醒转，当她变成她！绝色容颜，笑靥如花，她比谁都狠毒无情。倾城流世，云淡风轻，她只护她所在乎的。强者为尊，她誓与天齐，搅乱一池风云。生杀予夺，翻云覆雨，且看她手段如何。他，绝世强者，邪魅狂肆，腹黑一枚，却独独对她爱护有加，疼宠入骨。风云涌动，且看两人如何联手，倾覆天下，逆转乾坤！</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/63659/24070347/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        神玩世界
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_15/a8ke6a5385709600677.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">悯生笔 | 现代修真 | 
+                            </div>
+                            <div class="desc">一个废物大学毕业的学生，在落魄的时候，获得了残缺的神格碎片，直接不用修炼渡劫，成了无敌神王……于是出现了自动变口味的水果，神酒，不用汽油的车，偶尔帮别人破破邪，抓抓鬼，去去地府送别人投下胎，一步步成为万人敬仰的存在……直到宇宙黑洞的出现，探索宇宙的神秘，当然，还可以偷窥彪悍美丽的房东美女，顺便来点风花雪月……故事，从这里开始。(无敌，爽文，热血，嚣张文。)完本240万字《全能五行系统》，不太监，更新稳定。</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/96017/36568943/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        娇宠童养媳：七爷，霸道爱
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20185_31_11/a296zn75195043580.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">火轻轻 | 清穿民国 | 
+                            </div>
+                            <div class="desc">和她拜堂的是六爷，洞房花烛夜是七爷。
+
+“看在你对我痴心一片的份上，我成全你。”七爷坐在轮椅上，倨傲清冷眉。
+
+“弟妹，做我的姘头，我给你霍家的一切。。”六爷狂热强势口吻。
+十年等待，喻伊人见到了神秘莫测的七爷，也见到了高高在上的六爷。
+喻伊人是众人皆知童养媳。
+
+黑夜，七爷柔情万千，“伊人，给我生个女儿，我的心是你的！” 
+
+白天，六爷霸道强势，“伊人，给我生个儿子，我的命是你的！”
+
+白天他换着花样宠着她，入夜他玩着花样宠着她，是他？还是他？
+他给她调制出绝世奇香，一味可以令人勾魂摄魄，为爱痴狂的香。。迷醉她，永世宠她
+（架空民国，身心干净）</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/1814/1786466/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        龙血武帝
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_22_18/a02kbh0526079847622.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">流水无痕 | 东方玄幻 | 
+                            </div>
+                            <div class="desc">天才少年惨遭变故，修为不进，人人欺凌，幸得困龙升天柱，觉醒亿万龙力，从此踏上逆天之途，携美傲游九天之外。淬上古龙血，掌浮屠功法，为爱杀上九重天，以三千通能，铸永恒国度，登上武帝之巅。</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/42728/19158321/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        萌妻在上：撩人总裁请躺好
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_14/a6yp0l4645816093582.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">绕过你的北 | 豪门世家 | 
+                            </div>
+                            <div class="desc">新婚之夜，她的丈夫与别的女人上演活春宫，她故作淡定的观摩，指导，送TT……她以为，两人之间，仅止步于这种合法关系，直到一日，他将她压在身下——“你想怎样？”她惊慌失措。“要颗合法种子！”他冷酷无情，剥夺她的一切。十月怀胎，她满含期盼，他却又突然变卦，派人来逼她流产……五年后，狭路再相逢。他将她困在角落：“穿成这个样子，不就是想让我上你？”她媚眼如波，妖媚入骨：“Sorry,萧先生，我对一个被我甩了的前夫…啧啧，没性、趣。”他额头青筋暴突，一个拳头突然砸来。他震怒回望，却看到一个软萌萌的包子怒踢他小腿：“色狼！放开我妈咪！”</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/41313/18742830/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        美女总裁的极品高手
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_14/a2grr84583185955764.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">易继风 | 都市生活 | 
+                            </div>
+                            <div class="desc">他表面上娶了一个如天仙般的老婆，是所有男人羡慕嫉妒恨的对象，暗地里却是让各方大佬闻风丧胆的过江龙，一纸婚约，让他重回都市，一个个人间尤物相继出现在他的身边，诱惑不断！看着面前莺莺燕燕的美女，叶寻欢头疼的说道：允许你诱惑我，但别睡我，喂喂喂，别趴我身上……繁华的都市，如虎如迷的男人，且看他如何铸造自己的传奇！</div>
+                            
+                                <div class="sign"><i class="i i_iGood"></i></div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/13633/8851880/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        都市兵少
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_22_18/a0e6512614034500021.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">进击的奶爸 | 异术超能 | 已完结
+                            </div>
+                            <div class="desc">从邂逅了美女董事长秦若晶开始，他这段注定不太消停的都市生活就拉开了帷幕。
+楚歌觉得安安静静过点小日子其实真挺好的，可惜就他那个驴脾气，再加上他那一身本事，这事真没那么容易。
+
+                                                </div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/2422/2362660/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        超级兵王在都市
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_22_18/a4cu7l0689091661498.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">明日复明日 | 都市生活 | 
+                            </div>
+                            <div class="desc">我的老婆是双胞胎，姐姐是老婆，妹妹是小姨子，姐姐高端大气上档次，妹妹调皮伶俐特贴心；姐姐天天忙工作没时间，妹妹每日无聊找姐夫陪。本就分不清双胞胎哪个是姐姐，哪个是妹妹，这么相处下去，这真要出大事啊。</div>
+                            
+                                <div class="sign"><i class="i i_iGood"></i></div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/64060/24200325/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        三国之无赖兵王
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_15/a0mb535420344643611.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">讳岩 | 秦汉三国 | 
+                            </div>
+                            <div class="desc">兵痞魂游，穿越三国，美人江山我都要！抢司马仲达老婆，让他生不成儿子！夺洛水岸边甄宓，曹丕只能叫大嫂！娶望江城中二乔，孙周两家换媳妇！白门楼外干吕布！收还是不收？社稷图中对诸葛！服还是不服？定河北、平巴蜀，战马如龙过江东！袁绍授首、刘备屈膝、孙权称臣，汉家江山我做主！谋士断乾坤，战将踏征尘。三国乱世，由我而止！</div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/39269/18116205/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        至尊神农
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_14/a10oda4497812725192.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">同名男子 | 异术超能 | 
+                            </div>
+                            <div class="desc">偷看村人洞房花烛的野小子江小白，阴差阳错之下激活了藏匿家族传承的龙佩，从此逆天改命。
+种田地，养鱼虾，日进斗金，富有四海，打造商业帝国；修古法，炼灵丹，惩恶扬善，治病救人，赢得无数赞誉。
+至尊神农，当世无双，引无数佳人竞折腰。美艳村妇、豪门千金、麻辣魔女、娇媚校花、高傲总裁……江山如此多娇。
+                                                </div>
+                            
+                        </a>
+                    </div>
+                
+                    <div class="feed feedBook">
+                        
+                            <a href="https://book.m.sohu.com/book/54896/22308679/?c=0&amp;_once_=000218_ml_mf"  class="main">
+                            <h4>
+                                
+                                        驭房有术
+                                    
+                            </h4>
+                            <div class="cover">
+                                <div class="img"><img data-src="https://s7.rr.itc.cn/e/wapChange/20178_23_15/a00vyh5102988387935.jpg"
+                                                      src="https://s1.rr.itc.cn/p/images/imgloading.jpg" alt=""/></div>
+                            </div>
+                            <div class="info">铁锁 | 风水秘术 | 
+                            </div>
+                            <div class="desc">进城闯荡的小阿姨衣锦还乡，张禹的老妈心动了，决定让儿子前去投奔。不曾想，所谓的豪宅就是一个三十平米的出租屋，孤男寡女怎么住，更为要命的是，小阿姨经营的房产中介都快交不上房租了。风水卖房、风水装修……张禹从乡下棺材铺王老头那里学来的奇门玄术竟然派上了用场，摇身一变成了王牌经纪人……兄弟、美女，买房吗？阴宅阳宅都有，包装修！【都市风水秘术！灵异小说中的新题材，非恐怖，适合各种口味！】本书书友群：149661050。内有萌新妹纸，现肉多狼少，先来先得。话说有研究生，车模，女老师，女护士呦。</div>
+                            
+                                <div class="sign"><i class="i i_iGood"></i></div>
+                            
+                        </a>
+                    </div>
+                
+            </div>
+            
+                <div class="loadMore">
+                    <i class="i iG iG_D7 iLoadingAnim"></i>
+                    <a href="javascript:void window.history.back();" class="more">点击加载更多</a>
+                    <span>加载中...</span>
+                </div>
+            
+        
+</div>
+<script>
+    window.CONFIGS = {
+        listId: 39
+    };
+</script>
+
+
+<script charset="utf-8" src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script charset="utf-8" src="https://book.m.sohu.com/spm/prod/js/1.0.1/index.js"></script>
+<script charset="utf-8" src="https://s2.rr.itc.cn/h5/js/tags/v4/read/0.0.30/all.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>新闻频道 - 手机搜狐</title>
+        <meta name="keywords" content="新闻,搜狐新闻,新闻频道,国内新闻,国际新闻,社会新闻" /><meta name="description" content="手机搜狐新闻频道,全方位的新闻资讯平台,不间断的为您滚动报道国内、国际及社会新闻,为您提供最新、最快、最全的时事热点。" />
+    <meta name="data-spm" content="smwp">
+    <script>
+        var cfgs = {
+            channel_id : '8'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch8">
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120268" 
+        :addto_desktop_id="10120302" :webclip_action_id="10120367" 
+        :addto_desktop_id_ios="10120376"
+        app_down_type="mchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header fixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../8.1">新闻</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<section class="channel-layer-area" data-spm="nav">
+    <section class="layer-box ">
+        <a href="http://m.sohu.com/ch/8/1460" class="btn">时政</a>
+        <a href="http://m.sohu.com/ch/8/1461" class="btn">国际</a>
+        <a href="http://m.sohu.com/ch/8/1462" class="btn">社会</a>
+        <a href="http://m.sohu.com/ch/8/1463" class="btn">财经</a>
+    </section>
+</section>
+        <section id="channelFocus" class="focus_wrapper" data-spm="fspic">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253081174_221650?_f=m-channel_8_focus_1" data-log-content-ev="m-channel_8_focus_1" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/27af1b3f9f714a00b17e3f609e7ad152.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">老虎落马后挑起重任的他，有了新去处</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253024929_428290?_f=m-channel_8_focus_2" data-log-content-ev="m-channel_8_focus_2" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/055a23eee13d489dbad28fb59f46508f.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">这三个国家与台湾“断交”美国召回高级外交官 中方表态</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253092226_260616?_f=m-channel_8_focus_3" data-log-content-ev="m-channel_8_focus_3" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180911/efb7487514a143e0a71c1496c8222985.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">廖海军就遭受刑讯逼供等提出刑事控告，涉原审办案人员11名</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253049042_391398?_f=m-channel_8_focus_4" data-log-content-ev="m-channel_8_focus_4" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/e37e9bd641dc48bf95cac9f8a3485d9d.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">合肥重型车辆今起根据天气单双号限行或禁止上路</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253066948_115362?_f=m-channel_8_focus_5" data-log-content-ev="m-channel_8_focus_5" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/f0575cfc3ec14430a14d5fc75165f350.png" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">中交房地产集团高层“换血”：6名董事卸任 赵晖接任董事长</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>        </section>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253093493_123753?_f=m-channel_8_feeds_1&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">部委“三定”方案密集公布 诸多新增内设机构亮相</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/a3b393eb5724459bbec51835f2f48ed2.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/370c0e6aee4d49e08149de2b0eafe332.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/ddc901eeacf84cf9abacf4d29e5750a8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">中国新闻网</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:26</span>
+	<span class="com" data-state-loading="253093493">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253093493">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252907239_260616?_f=m-channel_8_feeds_2&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">因一条不牵狗绳的狗，杭州一网红与孕妇发生冲突致其先兆早产</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/2adecff530174125bfd7f83ac82f4eaa.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/7fe103c7655c4b919774304fd7e7a372.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c11a2c5a503e4bd3acfa32e2cc9bc74a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">澎湃新闻</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 07:14</span>
+	<span class="com" data-state-loading="252907239">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252907239">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253047293_260616?_f=m-channel_8_feeds_3&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">打假“史润龙”：17岁少年冒充各种身份，软文代发机构现身</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/3bc222c6125e40cc9c8a3d42b3911288.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/149f5c953e4545fa8da7cc8319bc832c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/edfce4e27f5744a496c815302a9d8d47.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">澎湃新闻</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 19:24</span>
+	<span class="com" data-state-loading="253047293">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253047293">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253079974_114988?_f=m-channel_8_feeds_4&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_4" data-spm-type='content'>
+            <h4 class="feed__title">富贵鸟：无法确认前任董事及控股股东林和狮是否被拘留 |新京报财讯</h4>
+<footer class="feed__detail">
+		<span class="name">新京报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:34</span>
+	<span class="com" data-state-loading="253079974">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253079974">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/252900743_157267?_f=m-channel_8_feeds_5&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">养老还是得大家一块来</h4>
+<footer class="feed__detail">
+		<span class="name">人民日报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 04:27</span>
+	<span class="com" data-state-loading="252900743">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252900743">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253084165_260616?_f=m-channel_8_feeds_6&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">土美两国关系紧张之际，土耳其总统拟月底赴美参加联合国大会</h4>
+<footer class="feed__detail">
+		<span class="name">澎湃新闻</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:10</span>
+	<span class="com" data-state-loading="253084165">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253084165">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253018610_160797?_f=m-channel_8_feeds_7&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">海鸥偷吃游客汉堡汉堡主人一脚踢飞一百美元</h4>
+<footer class="feed__detail">
+		<span class="name">新文化报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 17:15</span>
+	<span class="com" data-state-loading="253018610">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253018610">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253066301_260616?_f=m-channel_8_feeds_8&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_8" data-spm-type='content'>
+            <h4 class="feed__title">重庆公安系统一个月内落马3“虎”</h4>
+<footer class="feed__detail">
+		<span class="name">澎湃新闻</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:06</span>
+	<span class="com" data-state-loading="253066301">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253066301">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253108115_148781?_f=m-channel_8_feeds_9&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_9" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">“扶贫英雄史润龙”的身份造假路径</h4>
+<footer class="feed__detail">
+		<span class="name">北京青年报</span>
+		<span class="dot">·</span>
+	<span class="time">今天 03:48</span>
+	<span class="com" data-state-loading="253108115">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253108115">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/b5845370ba3e4274a8eda4b30ea2fca0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253100668_123753?_f=m-channel_8_feeds_10&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">尼泊尔东南部现不明疾病 已致3人丧生400余人染病</h4>
+<footer class="feed__detail">
+		<span class="name">中国新闻网</span>
+		<span class="dot">·</span>
+	<span class="time">今天 02:03</span>
+	<span class="com" data-state-loading="253100668">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253100668">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253065576_161795?_f=m-channel_8_feeds_11&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_11" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">吓skr人，检出防腐剂，还敢吃根辣条压压惊么？</h4>
+<footer class="feed__detail">
+		<span class="name">南方都市报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:04</span>
+	<span class="com" data-state-loading="253065576">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253065576">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/7dd3e53ee8d34809a91af3388a42efe6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253033344_267106?_f=m-channel_8_feeds_12&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_12" data-spm-type='content'>
+            <h4 class="feed__title">通稿新闻改稿目录</h4>
+<footer class="feed__detail">
+		<span class="name">新华社</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:13</span>
+	<span class="com" data-state-loading="253033344">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253033344">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252918398_162522?_f=m-channel_8_feeds_13&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_13" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">特朗普“点赞”朝鲜阅兵未展示核导弹 向金正恩表示感谢</h4>
+<footer class="feed__detail">
+		<span class="name">环球网</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 08:58</span>
+	<span class="com" data-state-loading="252918398">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252918398">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/08d99082419c41c7a576181d8d6545dc.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253048614_114731?_f=m-channel_8_feeds_14&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_14" data-spm-type='content'>
+            <h4 class="feed__title">自贡富顺重大项目助推经济社会持续健康发展</h4>
+<footer class="feed__detail">
+		<span class="name">人民网</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 19:29</span>
+	<span class="com" data-state-loading="253048614">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253048614">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253101817_117503?_f=m-channel_8_feeds_15&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_15" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">顺利合龙</h4>
+<footer class="feed__detail">
+		<span class="name">新华每日电讯</span>
+		<span class="dot">·</span>
+	<span class="time">今天 02:20</span>
+	<span class="com" data-state-loading="253101817">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253101817">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/02177f2b706e4fb88e9c2c4b9ed5890a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253072769_161795?_f=m-channel_8_feeds_16&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">深圳楼市扫黑除恶，收茶水费、克扣押金等十类行为将严惩！</h4>
+<footer class="feed__detail">
+		<span class="name">南方都市报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:54</span>
+	<span class="com" data-state-loading="253072769">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253072769">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253074309_267106?_f=m-channel_8_feeds_17&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">栗战书访问朝鲜并出席朝鲜建国70周年庆祝活动</h4>
+<footer class="feed__detail">
+		<span class="name">新华社</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:03</span>
+	<span class="com" data-state-loading="253074309">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253074309">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253103164_267106?_f=m-channel_8_feeds_18&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">美国决定关闭巴解组织驻华盛顿办事处</h4>
+<footer class="feed__detail">
+		<span class="name">新华社</span>
+		<span class="dot">·</span>
+	<span class="time">今天 02:39</span>
+	<span class="com" data-state-loading="253103164">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253103164">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253092790_115362?_f=m-channel_8_feeds_19&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">西安加速拆除秦岭北麓违建别墅</h4>
+<footer class="feed__detail">
+		<span class="name">每日经济新闻</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:20</span>
+	<span class="com" data-state-loading="253092790">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253092790">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253084539_114731?_f=m-channel_8_feeds_20&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_8_feeds_20" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">＂老师您好！＂海口滨海大道景观灯点赞教师节</h4>
+<footer class="feed__detail">
+		<span class="name">人民网</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:09</span>
+	<span class="com" data-state-loading="253084539">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253084539">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/41354b5e9af24568b22543184853f137.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+    <feed-list :is_server='true' :channel_id="'8'" :is_channel="true" @load_more="addExpose"></feed-list>
+</div>    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channel(cfgs);
+    </script>
+</body>
+</html>

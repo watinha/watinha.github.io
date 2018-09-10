@@ -1,0 +1,46 @@
+User-agent: Baiduspider
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /oversea
+Allow: /mershou
+Disallow: /
+
+User-Agent: Googlebot
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /oversea
+Allow: /mershou
+Disallow: /
+
+User-Agent: Yisouspider
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /mershou
+Disallow: /
+
+User-Agent: 360Spider
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /mershou
+Disallow: /
+
+User-agent: Bingbot
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /oversea
+Allow: /mershou
+Disallow: /
+
+User-Agent: Sogouspider
+Allow: /moshtml-cn
+Allow: /moshtml-zh
+Allow: /mershou
+Disallow: /
+
+User-Agent: Yahoo! Slurp
+Allow: /oversea
+Allow: /mershou
+Disallow: /
+
+User-Agent: *
+Disallow: /

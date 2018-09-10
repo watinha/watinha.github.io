@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 15}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="新京报">
+    <meta name="sharecontent" content="演出消费升级，三四线城市票房激增">
+    <meta name="keywords" content="演出, 消费, 升级, 三四, 四线, 城市, 票房, 激增" />
+    <meta name="description" content="暑期档演出市场消费增速，7日结束的贵州遵义张学友演唱会4万坐席全满，自2016年10月以来，张学友内地128场巡演大麦网票务总代率达98%。而在易烊千玺演唱会场外，可见观众“年轻化”，据大麦网数据显示..." />
+<meta itemprop="dateUpdate" content="2018-09-11 01:05:20" />
+<meta itemprop="datePublished" content="2018-09-11 01:05:20" />    <title>演出消费升级，三四线城市票房激增-财经频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253096767_114988" />
+    <script>
+        var cfgs = {
+            channelId : '15',
+            media_id: '114988',
+            cms_id: '549112182',
+            title: '演出消费升级，三四线城市票房激增',
+            authorId : '114988',
+            path: 'http://epaper.bjnews.com.cn/html/2018-09/11/content_731607.htm?div=-1',
+            authorName : '新京报',
+            newsId : '253096767',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/15?_f=m-article_ch">财经</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">演出消费升级，三四线城市票房激增</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/114988">
+                    <img class="avatar"
+                    src="http://5b0988e595225.cdn.sohucs.com/a_auto,c_cut,x_7,y_0,w_263,h_263/images/20180420/e46f7743d71143279c561a358f609aab.jpeg"/>
+                    <div class="infos-wrapper">
+                        <header class="name">新京报</header>
+                        <footer class="time">
+                            09-11 01:05
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmt3jtzgc@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180911/77a80f492c4f4d9e8e5bb6a5a9b49895.jpeg" class="content-image">
+<p><table> 
+  <tbody> 
+   <tr> 
+    <td><span align="center"></span></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180911/56e55ccb6a5544e791d18e3fbfd610fe.jpeg" class="content-image">
+<p><table> 
+  <tbody> 
+   <tr> 
+    <td><span align="center"></span></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+<p>暑期档演出市场消费增速，7日结束的贵州遵义张学友演唱会4万坐席全满，自2016年10月以来，张学友内地128场巡演大麦网票务总代率达98%。而在易烊千玺演唱会场外，可见观众“年轻化”，据大麦网数据显示，演唱会品类10个用户中至少有3位是95后。图由大麦网提供 </p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180911/5930a0dc11284f949002e8c48af59e3c.jpeg" class="content-image">
+<p><table> 
+  <tbody> 
+   <tr> 
+    <td><span align="center"></span></td> 
+   </tr> 
+  </tbody> 
+ </table></p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">94</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>上周末，连续两场的华晨宇“火星”演唱会在北京鸟巢落下帷幕。作为当下华语乐坛最优秀的新生代歌手之一，华晨宇在两天之中共吸引近20万观众来到，现场观演，整个鸟巢座无虚席。不过，这并不是近期唯一火爆的演出场次——五月天“人生无限公司”演唱会、张杰2018未·LIVE演唱会、“A Classic Tour学友·经典”演唱会、舞台剧《战马》以及2018年乌镇戏剧节、“世界妙物纪音乐节”等项目的成功举办，无不显示随着文娱市场整体的提振升级，现场娱乐消费在今年暑期档呈现出了更加明显的上升趋势。 </p>
+<p>9月9日，大麦网联合中国演出行业协会共同发布了《2017中国演出市场年度报告》（以下简称报告），数据显示，2017年演出市场总体经济规模489.51亿元，相较于2016年的469.22亿元，上升4.32%。其中，演出票房收入（含分账）176.85亿元，占到了36%的份额，较2016年提升5.2%。同时，在今年6月1日至8月31日整个繁荣的暑期档演出市场中，大麦网在售演出项目已占据整个演出行业线上在售项目90%以上，服务观演用户220万人次，覆盖全国281个城市，其中包含话剧、歌剧、音乐会、演唱会、曲苑杂坛、度假休闲、舞蹈芭蕾、体育赛事等多个品类。新京报据报告的数据，解析现场娱乐消费的行业现状根源与未来发展趋势。 </p>
+<p>现 状 </p>
+<p>女性消费者占六成，95后消费升级提升最快 </p>
+<p>中国现场娱乐消费市场格局中，男性几乎一直占主导地位，但近年来高学历、高收入女性的消费需求日渐提升。据报告显示，中国现场娱乐观演人群中女性占比已达61%，远高于男性的39%，尤其在话剧、歌剧、音乐会、舞蹈芭蕾等剧场类演出中，女性用户更是高达64%，票房贡献度几乎是男性的2倍；在受教育程度方面，剧场观众本科及以上学历占比高达93%；而消费年龄层显示，95后现场娱乐消费升级提速最快，尤其在演唱会品类上，每10个观演用户中占3个。 </p>
+<p>这种情况的出现，离不开市场上多样化的演出选择及背后的精准营销。纵观整个暑期档，除传统体育与演唱会类目外，舞台剧《小猪佩奇》中文版全国巡演、舞台剧《战马》中文版北京驻演、2018ChinaJoy、世界妙物纪音乐节、2018年乌镇戏剧节、88会员年度群星盛典、淘宝造物节等多种多样的优质演出内容，不断丰富着线下文娱市场，引领用户消费升级。以大麦网为代表的票务公司，一方面加速对周杰伦、张学友等头部演出的深度布局，增强自身项目宣发及商业化能力，同时也对优质戏剧和亲子垂直类内容充分发挥自身的生态资源与宣发优势，为其量身定制营销方案，这无疑能够帮助项目挖掘并触达更多潜在目标用户。 </p>
+<p>变 化 </p>
+<p>票价更亲民，头部资源向三四线城市倾斜 </p>
+<p>报告显示，2017年中国演出市场中大型演唱会、音乐节演出达2400场，较去年上升了14.29%，但票房收入37.64亿元，较去年却只提升了7.91%；剧场演出9.3万场，较去年上升了5.48%，票房收入77.21亿元，较去年只增了4.27%。由此可见现场娱乐消费正在“亲民化”。 </p>
+<p>以演唱会市场为例，头部艺人资源正从北京、上海、广州、杭州、青岛等一二线城市，向台州、镇江、衡阳等三四线城市倾斜。譬如张学友“A Classic Tour学友·经典”演唱会，两年时间去到全国100多个城市，9月7日刚在贵州遵义结束第184场，现场4万歌迷座无虚席。 </p>
+<p>同时2017年剧场票房收入增速TOP10城市中，贵阳以204%的增速高居榜首，青岛紧随其后，票房增速141%。后面八城分别是南昌、长春、石家庄等。业内资深人士分析，“优质口碑剧目”的“下凡”是剧场类演出向二三线城市下沉的主要原因。经过多年市场积累，一些优秀的戏剧演出团体已形成了IP化的品牌影响力，同时热门小说、影视剧、游戏的舞台化改编热潮也迎来了预想的好口碑。如孟京辉、赖声川等人的话剧，几乎拿下了话剧市场的半壁江山，《巧虎》《你看起来好像很好吃》等儿童剧则备受二三线城市家庭消费者喜爱。 </p>
+<p>趋 势 </p>
+<p>电子票已超四成，无纸化率快速提升 </p>
+<p>随着移动支付的常态化覆盖，电子票消费及无设备验票也逐渐规模化地应用到了演出市场。 </p>
+<p>数据显示，目前大麦网的电子票覆盖率超40%，无纸化已成大型赛事节展的“标配”。例如，北京国际长跑节、郑州黄帝故里拜祖大典、杭州中国国际动漫节、新疆库尔勒“国际军事比赛-2018”、上海ChinaJoy游戏展、大连青岛啤酒节等无一例外全应用了电子化入场，极大地简化了入场流程。与此同时，随着电子票及无纸化的普及，门票的流转过程可被追溯到源头，对于不法分子投机倒把兜售假票能够起到重要的防范作用，有助于进一步规范票务市场。 </p>
+<p>“黄牛猖獗”一直是演出市场中存在的一大难题。在张学友威海演唱会现场，大麦网也联合威海市公安局设置“假票鉴定中心”，大麦网票务工作人员配合公安抓获黄牛2人，共计鉴定假票700余张，帮助受害粉丝200余人；在李宇春重庆演唱会现场，大麦网工作人员帮助李宇春粉丝自发组成的“玉米除牛队”围堵黄牛。种种迹象表明，以大麦网领头的单一的票务代理平台，已逐渐转化成为以票务营销为基础的现场娱乐综合服务平台，这种“全品类覆盖、全渠道触达、全链路服务”的发力方式，不仅多维重塑了现场娱乐消费的新格局，也让人们对未来的市场有更多期待。 </p>
+<p>采写/新京报记者 杨畅</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/78023?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">教育</a>
+            <a class="tag" href="http://m.sohu.com/tag/67300?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">消费</a>
+            <a class="tag" href="http://m.sohu.com/tag/77934?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">公司</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253096767">阅读 (<em data-state="253096767" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253096767'" :region-id="'20'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

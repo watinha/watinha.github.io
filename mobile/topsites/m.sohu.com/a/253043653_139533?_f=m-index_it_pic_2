@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 30}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="好奇心日报">
+    <meta name="sharecontent" content="滴滴出台整改方法，选了最节省成本的一种">
+    <meta name="keywords" content="滴滴, 滴出, 出台, 整改, 方法, 节省, 省成, 成本, 一种" />
+    <meta name="description" content="滴滴不断僵化为一个想尽办法节约管理成本、争取早日上市让投资方退出的公司。" />
+<meta itemprop="dateUpdate" content="2018-09-10 18:00:00" />
+<meta itemprop="datePublished" content="2018-09-10 18:00:00" />    <title>滴滴出台整改方法，选了最节省成本的一种-科技频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253043653_139533" />
+    <script>
+        var cfgs = {
+            channelId : '30',
+            media_id: '139533',
+            cms_id: '549091141',
+            title: '滴滴出台整改方法，选了最节省成本的一种',
+            authorId : '139533',
+            path: 'http://mp.weixin.qq.com/s?timestamp=1536577409&src=3&ver=1&signature=u*S51TVZw32mkrvAU3ioVYxlMPmt*z9quUHx7VPDxkH9SCA4kt4mTO7SqiM1knHDdgelUrwT8xXUD9U52bpwSwOFLu9DzbvtU7ruToaRUqNPBdYmelQC8uTlI1jIcZJRq3HdF553nvD7nI5WVLjipjvnx48ti-Wo6THUAQBqFj4=',
+            authorName : '好奇心日报',
+            newsId : '253043653',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/30?_f=m-article_ch">科技</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">滴滴出台整改方法，选了最节省成本的一种</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/139533">
+                    <img class="avatar"
+                    src="http://5b0988e595225.cdn.sohucs.com/avatar/picon/2014/09/29/04aa9e0c9f7d6ab99f444af1c47b3e1eandroid.png"/>
+                    <div class="infos-wrapper">
+                        <header class="name">好奇心日报</header>
+                        <footer class="time">
+                            09-10 18:00
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('5112344529@sina.sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/c40374cd41ca4c7b998ee4f398dd82f4.jpeg" class="content-image">
+<p>滴滴不断僵化为一个想尽办法节约管理成本、争取早日上市让投资方退出的公司。</p>
+<p>在发生了多起司机针对乘客的恶性犯罪事件后，滴滴出台了新的整改措施：在行程中，司机、乘客分别录音并上传到滴滴服务器，录音会保留 7 天；如果出现投诉、纠纷，滴滴、警方可以调用录音。</p>
+<p>全程录音是一个很省事的做法。实际上，滴滴这是再次把运营成本甩给了乘客和司机。</p>
+<p>出租车保护乘客的方法其实挺多的，例如，深圳今年在电动出租车上安装了人脸识别系统，司机需要刷脸打卡才能开车，而且每 2 小时需要再刷脸一次。河北邢台则在出租车内安装了安防摄像头等等。</p>
+<p>虽然这些措施不能完全防止犯罪，但比起录音上传，犯罪成本显然高得多。</p>
+<p>但就像以前的淘宝、现在的拼多多，在起步阶段对假货睁只眼闭只眼，滴滴的思路也是类似的：以低成本为先。所以在人脸识别、车内摄像头、线下核查、录音上传等方法中，选择了最低成本的一种。而且是靠司机、乘客来录音，把建立客服系统也省了。</p>
+<p>把成本尽量甩给别人，是滴滴的核心商业策略。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">61</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>滴滴的所谓“共享”，是整合外部闲置的司机资源。整合外部资源，最大的问题是服务质量管控。在这个商业模式下，如果要有稳定的服务质量，平台是需要把汽车、司机逐步职业化的，或者变成撮合职业服务的平台。</p>
+<p>商业策略相似、意外频发的 Airbnb 就是这么转型的，在今年，Airbnb 上线了酒店房源，还把房东注册信息向政府主管部门披露。也就是说，整合外部资源，其实是低估了外部的成本的。原本外部的协作方，以及相关用户可能提起的诉讼或维权，会逐渐成为公司内部的管理培训成本甚至负债。</p>
+<p>而滴滴一直在管理上节约成本，节约到连司机的基本认证信息都难以保证准确。但再省钱，还是巨亏。</p>
+<p>上周，程维在滴滴发布了信函，在信中指出，2018 年上半年滴滴亏损超过 40 亿元，毛利率只有 1.6%，给予司机、乘客的补贴超过 117 亿。成立 6 年来，亏损 390 亿。在亏损以外，今年上半年，滴滴还遇到新的对手。</p>
+<p>美团打车在南京、上海上线了，1 月－4 月，美团向司机补贴了 9.76 亿 。其中，在上海，上线出租车和快车服务不到 20 个小时，美团打车日订单量突破 10 万单，上线第三天，单日完成订单量突破 30 万单，在上海的市场份额已达到三分之一。</p>
+<p>这意味着，整合外部司机的互联网打车市场是一个客户黏性很低的市场，一旦提供补贴和低价就能拿到市场份额。原本行业领先者的规模优势其实不堪一击，需要持续不断消耗资本才能维持表面优势，而这个行业的发展也只会是价格战和行业整合的轮回。</p>
+<p>在这样的产业特征下，滴滴只能不断僵化为一个想尽办法节约管理成本、争取早日上市让投资方退出的公司。</p>
+<p>题图来源：Pixabay</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77937?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">公司</a>
+            <a class="tag" href="http://m.sohu.com/tag/69233?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">滴滴</a>
+            <a class="tag" href="http://m.sohu.com/tag/59923?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">租车</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253043653">阅读 (<em data-state="253043653" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253043653'" :region-id="'30'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 12}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="三联生活周刊">
+    <meta name="sharecontent" content="英国的养老金制度：老有所养，贫有所依">
+    <meta name="keywords" content="英国, 养老金, 制度, 老有所养, 有所, 所依" />
+    <meta name="description" content="英国作为世界上老牌的福利社会国家，早在1909年，养老金法已作为一条社会法律制度正式建立，其间经过不断的改革，实行至今已经100多年了，其中也摸索出一些值得参考和借鉴的模式。" />
+<meta itemprop="dateUpdate" content="2018-09-10 17:48:32" />
+<meta itemprop="datePublished" content="2018-09-10 17:48:32" />    <title>英国的养老金制度：老有所养，贫有所依-文化频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253040177_100171034" />
+    <script>
+        var cfgs = {
+            channelId : '12',
+            media_id: '100171034',
+            cms_id: '549086165',
+            title: '英国的养老金制度：老有所养，贫有所依',
+            authorId : '100171034',
+            path: 'http://mp.weixin.qq.com/s?timestamp=1536576307&src=3&ver=1&signature=u*S51TVZw32mkrvAU3ioVVxZB9epwGZTkR2BBwZa2iXuLRR-csDqYmIOcTOzLqTTZ4NKAJQioYAsZvAuLqOVQUV2WgF344HcAmPlLc6q6qvrWYDlgKkd1YaXzuTXjV01yWj3GMvDDLj4kHtz*No0lvJWzg7HwyRzjb8DT4FcgqU=',
+            authorName : '三联生活周刊',
+            newsId : '253040177',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/12?_f=m-article_ch">文化</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">英国的养老金制度：老有所养，贫有所依</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/100171034">
+                    <img class="avatar"
+                    src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM7pldgOabHbYP4CjRhBr7bA78FwHsrUxHBvVRd7EEWxxA/0"/>
+                    <div class="infos-wrapper">
+                        <header class="name">三联生活周刊</header>
+                        <footer class="time">
+                            09-10 17:48
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohump1as69o@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>英国高等法院前大法官迈克尔·图根哈特爵士（Sir Michael Tugendhat）谈英国养老金制度的建立和沿革。</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/97f51fed0ce54c74bc40b3cd8bf6e4f0.jpeg" class="content-image">
+<p>迈克尔·图根哈特</p>
+<p>小男孩奥利弗生来失怙，流落伦敦街头，被一帮小混混引诱入伙，以摸钱包为生。这个小偷团伙的领导是一个贪婪吝啬的孤老头子，他把孩子们偷来的钱藏在他们栖身的破楼地板里，半夜数钱被尿尿的奥利弗撞见。他威胁奥利弗道：这些是我的养命钱，我老了就全靠它了，你绝对不准告诉别人！他狞笑的脸让人感到又可恶又可怜。</p>
+<p>这是狄更斯《雾都孤儿》笔下的伦敦，也是当时英国下层社会的真实写照。不过这是1838年该书出版时的伦敦。一个半世纪过去了，狄更斯描写的那种孤儿鳏老的生活画面被定格在100多年前的那个时代，不再重复。</p>
+<p><strong>英国作为世界上老牌的福利社会国家，早在1909年，养老金法已作为一条社会法律制度正式建立</strong>，其间经过不断的改革，实行至今已经100多年了，其中也摸索出一些值得参考和借鉴的模式。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">86</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p><strong>“退休”这个词，是一个现代概念，是伴随工业化进程而产生的。</strong></p>
+<p>19世纪之前以农业手工业为主的英国传统社会，大多数人都是一直活到老干到老，到实在干不动为止，没有退休一说。而且人们的普遍寿命较短，能够活到70岁以上的，大多是有产者、土地拥有者，加上作家、牧师之类，这些人收入富足，并不存在需要养老金的问题。</p>
+<p>19世纪工业革命时代，大规模的集中雇佣形式兴起，大量人群脱离土地来到城市，到工厂和公司上班，靠挣工资养活自己，不能上班便失去了生活来源。</p>
+<p>继狄更斯深刻揭露社会贫困现象的批判小说出版之后半个世纪，养老金在19世纪末进入政治议题。我们现在就请刚退休的英国最高法院的大法官迈克尔爵士，讲讲英国的养老金制度的建立和沿革。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/b5f529f9014d46309cfae0da744b618a.jpeg"></p>
+<p><strong>问：英国是继德国1889年引进退休制之后，全世界最早实行养老金制度的国家之一。这个制度有何植根英国历史的渊源？</strong></p>
+<p><strong>迈克尔：</strong><strong>英国1909年建立的养老金法出于两个方面的需求，有宗教人道的原因，也有社会实践的考虑。</strong>首先是基于英国1000年以来的基督教文化传统，就是应该主动照顾除家庭之外的、那些贫穷的和生病的人。</p>
+<p>800多年来，英国一直有照顾这些人的专门机构，多数是教会建立的慈善机构。还有就是出于社会实际的考虑。穷人年老以后，如果没有生活来源，他们要么上街乞讨，最后倒毙街头；有的为了生存走向犯罪。所以要建立制度防止穷人乞讨，防止疾病传染，防止犯罪。</p>
+<p>过去穷人的存在被看作对公共秩序的潜在威胁。16世纪以前为贫病者提供救助主要是通过教会，教会的慈善活动部分既是宗教义务又是社会法律职责。16世纪以后救助转移到国家承担，建立了一系列法案，统称贫穷救助法（Poor Laws）。当时贫穷救助法要求的条件很苛刻，必须非常贫穷才能得到国家救助，而且有时候男性女性和孩子被分别安置，一家人因此被迫离散。当时这被认为是鼓励人们自食其力。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/be52f2f46cff4fe69a1a6878769cbf0d.jpeg"></p>
+<p><strong>问：最初的养老金如何规定的？有多少人受益？</strong></p>
+<p><strong>迈克尔：</strong>1909年的养老金法规定，凡年满70岁以上、收入低于相当今天每周40英镑的，无论男女，都可从政府领到相当今天每周25英镑的养老金。1914年统计全英国有大约100万人领取了这笔养老金，当年全国人口不到4000万。这笔钱相当于慈善救济金。<strong>1925年后与工作挂钩，工作期间缴纳养老保险费者，才能领养老金。这样养老金不再是救济性质，而是个人劳动所值，令人有自尊，这个缴费模式受到大家欢迎。</strong></p>
+<p><strong>问：从20世纪初期的养老金到现在，中间经历了哪些重要改革？</strong></p>
+<p><strong>迈克尔：</strong>养老金领取者从最初的少数人发展到今天的全社会绝大多数民众，其中的重要改革发生在“二战”结束之后。</p>
+<p>“二战”期间，联合政府开展了一个全国民意调查，由杰出的经济学家贝弗里奇（William Beveridge）勋爵主持，他根据调查结果写了一个报告，主旨是要全面建设社会安全保障制度，消除五大社会问题，即：贫困、疾病、愚昧、肮脏和懒惰（Want，Disease，Ignorance，Squalor and Idleness）。</p>
+<p>《贝弗里奇报告》影响深远。战争结束后，所有人都希望全社会朝更加平等的方向发展，将英国建设为一个福利社会的国家。1948年通过了一系列法案，对贝弗里奇报告提出的五大社会问题实行全面改革，改革养老金制度和建立全民公费医疗制度就是其中两项重大举措。</p>
+<p>新养老金制度降低了开始领取养老金的年龄，凡女性年满60、男性年满65，且工作期间交纳国民保险费者，均可开始领取国家养老金。<strong>国家养老金的数额人人一致，与工作期间工资高低无关。</strong>这样民众有了基本的退休生活保障。<strong>发放的国家养老金理论上应该出自个人工作期间缴纳的国民保险费，但是实际上个人缴费是不够的，养老金和其他社会福利大部分靠税收补足。</strong></p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/8549faf6340445d882ee3aad10df435c.jpeg"></p>
+<p><strong>问：现代社会的养老金是如何定义的？现在英国养老金由哪些部分构成？</strong></p>
+<p><strong>迈克尔：</strong>现在英国的养老金是个人从工作岗位退休后，或达到退休年龄后固定的有规律的收入来源。<strong>它由三部分组成：国家养老金、工作机构养老金和私人养老金。</strong><strong>国家基本养老金与工作时缴国民保险费的年限直接挂钩，与缴费数额无关。</strong>以前规定是缴费满40年、现在是30年就可以领取全额国家基本养老金，每周116英镑。工作少于30年的，按工作实际年限n年乘以1/30计算。<strong>无论工资高低、缴费多少，领取的国家基本养老金都相同。</strong></p>
+<p><strong>工作的人缴纳国民保险金现在是法定的强制性行为，不是自愿的。</strong>以前是可选择的，有的人交存养老保险金，有的不存。不存储的人老来只好领救济，这样不公平。<strong>现在一开始工作就必须交国民保险金，如个人所得税一样，直接从工资里扣除，把存养老保险变成一种责任。</strong></p>
+<p>国家养老金除了基本养老金外，还有额外养老金，个人自选。多交多得。有人工资高的或得到额外收入的，愿意多交养老保险金。</p>
+<p><strong>问：非英国公民可以领取国家养老金吗？</strong></p>
+<p><strong>迈克尔：</strong>养老金针对所有在英国工作的人。不管你来自什么国家，是不是英国公民，只要合法在英国工作，交了国民保险金，就可以领取相应的国家养老金。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/37f4c8b4330c44a1ada0596892a8a7ef.jpeg"></p>
+<p><strong>问：国家养老金对哪些人群有特殊考虑？</strong></p>
+<p><strong>迈克尔：</strong><strong>对不工作的健康人群，如果每周花20个小时照顾家里的残疾人或病人，或者家有12岁以下的小孩子，那么这段期间视同已缴纳国民保险费。这个规定主要针对女性。</strong></p>
+<p><strong>国家养老金一直对女性更优惠，她们60岁就可以领，因为女性传统上受到很多不利待遇，所以养老金方面有所补偿。</strong>目前社会正在消除所有不平等待遇，消除包括性别在内的不平等，现在对女性的这条年龄优惠也取消了。随着平均寿命增长，领取养老金的年龄提高。到2020年，男女一律提高到66岁才能领取国家养老金。</p>
+<p><strong>问：国家养老金是覆盖全社会成员的，保障老年人基本生活来源。在此之外，另两种养老金是怎样的情形？</strong></p>
+<p><strong>迈克尔：</strong>除了国家养老金外，还有工作机构养老金和个人养老金这两种私人性质的养老金。如果你有工作机构，如政府、公司等，机构通常会在你月工资里按比例抽取一部分，再加一部分，合起来存到你账户下的养老保险金。<strong>工资越高，交的保险金就越多，将来领的养老金也越多。如果没有工作机构，则可以个人与银行或保险公司安排计划，投个人养老保险金，退休时由银行或保险公司付养老金。</strong></p>
+<p><strong>问：迈克尔爵士，您也拿养老金吗？</strong></p>
+<p>迈克尔：（笑）是啊！我工作了45年，到70岁退休。我可以65岁拿养老金，但是我推迟到70岁才开始领取，因此现在拿较高的养老金。</p>
+<p>（本文刊载于《三联生活周刊》2015年第25期）</p>
+<p>⊙文章版权归《三联生活周刊》所有，<strong></strong><strong>欢迎转发到朋友圈</strong><strong>，转载请联系后台</strong><strong>。</strong></p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77995?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">战争</a>
+            <a class="tag" href="http://m.sohu.com/tag/68537?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">英国</a>
+            <a class="tag" href="http://m.sohu.com/tag/60088?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">女性</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253040177">阅读 (<em data-state="253040177" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253040177'" :region-id="'18'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

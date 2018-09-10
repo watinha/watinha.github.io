@@ -1,0 +1,119 @@
+<!--
+ * @module page/layout.tpl
+ * @desc 统一layout（通过fis插件fis-parser-swig2实现）
+    支持设置title、keywords、description
+    支持dp监控设置
+    支持vue开关
+    支持rem开关
+    支持dubug开关
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+        
+            少年捡杯子喝水中剧毒 求生一个月离世 -hao123资讯详情
+        
+    </title>
+	<meta content="telephone=no" name="format-detection">
+	<meta name="keywords" content="上网导航,网址大全,网址导航,hao123上网导航,hao123网址,hao123导航,hao123网址大全">
+	<meta name="description" content="hao123是汇集全网优质网址及资源的中文上网导航。及时收录影视、音乐、小说、游戏等分类的网址和内容，让您的网络生活更简单精彩。上网，从hao123开始。">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+	<meta name="referrer" content="always">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://as1.m.hao123.com/">
+    <link rel="dns-prefetch" href="https://cpro.baidustatic.com/">
+    <link rel="dns-prefetch" href="https://fex.bdstatic.com/">
+    <link rel="dns-prefetch" href="https://gsp0.baidu.com/">
+    <link rel="dns-prefetch" href="https://gss0.bdstatic.com/">
+    <link rel="dns-prefetch" href="https://hdj.baidu.com/">
+    <link rel="dns-prefetch" href="https://hm.baidu.com/">
+    <link rel="dns-prefetch" href="https://user.hao123.com/">
+	<link rel="apple-touch-icon-precomposed" href="https://m.hao123.com/apple-touch-icon-114x114-2.png">
+    <link rel="shortcut icon" href="https://m.hao123.com/favicon.ico">
+    
+        <script>var CONFIG={"z":2,"tn":"sohu06","os":"ios","clientIp":"189.103.141.91","fe_https":true,"debug":0,"news_type":"id","key_value":"47979275"}</script>
+        <script>CONFIG.debug = false;</script>
+        <script>window.wiseHao123=window.wiseHao123||{};window.wiseHao123.https=!0;window.wiseHao123.httpsTrans=function(href){var map = {"http:\/\/www.baidu.com":"https:\/\/www.baidu.com","http:\/\/hm.baidu.com\/":"https:\/\/hm.baidu.com\/","http:\/\/m.hao123.com":"https:\/\/m.hao123.com","http:\/\/wap.hao123.com":"https:\/\/wap.hao123.com","http:\/\/www.hao123.com":"https:\/\/www.hao123.com","http:\/\/haokan.baidu.com":"https:\/\/haokan.baidu.com","http:\/\/nsclick.baidu.com":"https:\/\/gsp1.baidu.com\/8qUJcD3n0sgCo2Kml5_Y_D3","http:\/\/static.tieba.baidu.com":"https:\/\/gsp0.baidu.com\/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK","http:\/\/nssug.baidu.com":"https:\/\/gsp1.baidu.com\/8qUZeT8a2gU2pMbgoY3K","http:\/\/suggestion.baidu.com":"https:\/\/gsp0.baidu.com\/5a1Fazu8AA54nxGko9WTAnF6hhy","http:\/\/hdj.baidu.com":"https:\/\/gsp1.baidu.com\/7LAAsjip0QIZ8tyhnq","http:\/\/suez.baidu.com":"\/\/suez.baidu.com","http:\/\/wapsite.baidu.com":"https:\/\/gsp0.baidu.com\/6bMWfz351MgCo2Kml5_Y_D3","http:\/\/ms.bdimg.com":"https:\/\/gss2.bdstatic.com\/8_V1bjqh_Q23odCf","http:\/\/img.baidu.com":"https:\/\/gss3.bdstatic.com\/70cFsjip0QIZ8tyhnq","http:\/\/s0.m.hao123img.com":"https:\/\/gss0.bdstatic.com\/5eR1cXSg2QdV5wybn9fN2DJv","http:\/\/s1.m.hao123img.com":"https:\/\/gss0.bdstatic.com\/5eN1cXSg2QdV5wybn9fN2DJv","http:\/\/s2.m.hao123img.com":"https:\/\/gss0.bdstatic.com\/5eZ1cXSg2QdV5wybn9fN2DJv","http:\/\/s3.m.hao123img.com":"https:\/\/gss0.bdstatic.com\/5eV1cXSg2QdV5wybn9fN2DJv","http:\/\/s0.haokan.bdimg.com":"https:\/\/gss1.bdstatic.com\/5eR1dDeb0wU38t7mm9GUKT-xh_","http:\/\/s0.hao123img.com":"https:\/\/gss0.bdstatic.com\/5eR1dDebRNRTm2_p8IuM_a","http:\/\/s1.hao123img.com":"https:\/\/gss1.bdstatic.com\/5eN1dDebRNRTm2_p8IuM_a","http:\/\/s2.hao123img.com":"https:\/\/gss2.bdstatic.com\/5eZ1dDebRNRTm2_p8IuM_a","http:\/\/s3.hao123img.com":"https:\/\/gss3.bdstatic.com\/5eV1dDebRNRTm2_p8IuM_a","http:\/\/t10.baidu.com":"https:\/\/gss0.baidu.com\/6ONWsjip0QIZ8tyhnq","http:\/\/t11.baidu.com":"https:\/\/gss1.baidu.com\/6ONXsjip0QIZ8tyhnq","http:\/\/t12.baidu.com":"https:\/\/gss2.baidu.com\/6ONYsjip0QIZ8tyhnq","http:\/\/datax.baidu.com":"https:\/\/gsp0.baidu.com\/-LMSbS0a2gU2pMbgoY3K","http:\/\/timg01.baidu-img.cn":"https:\/\/gss3.bdstatic.com\/6Ls0a7b-KgQFm2e889WK1HF6hq","http:\/\/tc1.baidu-1img.cn":"https:\/\/gss0.baidu.com\/6LVXsjip0QIZ8Aqbn9fN2DC","http:\/\/tc2.baidu-1img.cn":"https:\/\/gss0.baidu.com\/6LVXsjip0QIZ8Aqbn9fN2DC","http:\/\/ztd00.photos.bdimg.com":"https:\/\/gss0.bdstatic.com\/yqACvGbaBA94lNC68IqT0jB-xx1xbK","http:\/\/hiphotos.baidu.com":"https:\/\/gss3.baidu.com\/7LsWdDW5_xN3otqbppnN2DJv","http:\/\/himg.bdimg.com":"https:\/\/gss1.bdstatic.com\/7Ls0a8Sm1A5BphGlnYG","http:\/\/a.hiphotos.bdimg.com":"https:\/\/gss0.bdstatic.com\/94o3dSag_xI4khGkpoWK1HF6hhy","http:\/\/b.hiphotos.bdimg.com":"https:\/\/gss1.bdstatic.com\/9vo3dSag_xI4khGkpoWK1HF6hhy","http:\/\/c.hiphotos.bdimg.com":"https:\/\/gss2.bdstatic.com\/9fo3dSag_xI4khGkpoWK1HF6hhy","http:\/\/d.hiphotos.bdimg.com":"https:\/\/gss3.bdstatic.com\/-Po3dSag_xI4khGkpoWK1HF6hhy","http:\/\/e.hiphotos.bdimg.com":"https:\/\/gss0.bdstatic.com\/-4o3dSag_xI4khGkpoWK1HF6hhy","http:\/\/f.hiphotos.bdimg.com":"https:\/\/gss1.bdstatic.com\/-vo3dSag_xI4khGkpoWK1HF6hhy","http:\/\/g.hiphotos.bdimg.com":"https:\/\/gss2.bdstatic.com\/-fo3dSag_xI4khGkpoWK1HF6hhy","http:\/\/h.hiphotos.bdimg.com":"https:\/\/gss2.bdstatic.com\/7Po3dSag_xI4khGkpoWK1HF6hhy","http:\/\/bdimg.share.baidu.com":"https:\/\/gss1.baidu.com\/9rA4cT8aBw9FktbgoI7O1ygwehsv","http:\/\/timg01.baidu-1img.cn":"https:\/\/gss0.baidu.com\/6Ls0a7b-KgQFm2e8867O_jowehu","http:\/\/timg01.baidu-2img.cn":"https:\/\/gss0.baidu.com\/6Ls0a7b-KgQFm2e886qO_jowehu","http:\/\/a.hiphotos.baidu.com":"https:\/\/gss0.baidu.com\/94o3dSag_xI4khGko9WTAnF6hhy","http:\/\/b.hiphotos.baidu.com":"https:\/\/gss1.baidu.com\/9vo3dSag_xI4khGko9WTAnF6hhy","http:\/\/c.hiphotos.baidu.com":"https:\/\/gss3.baidu.com\/9fo3dSag_xI4khGko9WTAnF6hhy","http:\/\/d.hiphotos.baidu.com":"https:\/\/gss0.baidu.com\/-Po3dSag_xI4khGko9WTAnF6hhy","http:\/\/e.hiphotos.baidu.com":"https:\/\/gss1.baidu.com\/-4o3dSag_xI4khGko9WTAnF6hhy","http:\/\/f.hiphotos.baidu.com":"https:\/\/gss2.baidu.com\/-vo3dSag_xI4khGko9WTAnF6hhy","http:\/\/g.hiphotos.baidu.com":"https:\/\/gss3.baidu.com\/-fo3dSag_xI4khGko9WTAnF6hhy","http:\/\/h.hiphotos.baidu.com":"https:\/\/gss0.baidu.com\/7Po3dSag_xI4khGko9WTAnF6hhy","http:\/\/tuwen-linkunit-version2.bj.bcebos.com":"\/\/tuwen-linkunit-version2.bj.bcebos.com","http:\/\/timg01.bdimg.com":"https:\/\/gss1.bdstatic.com\/6Ls0a7b-KgQIm2_p8IuM_a","http:\/\/timg02.bdimg.com":"https:\/\/gss0.bdstatic.com\/6Ls0a7b7KgQIm2_p8IuM_a","http:\/\/timg03.bdimg.com":"https:\/\/gss2.bdstatic.com\/6Ls0a7b8KgQIm2_p8IuM_a","http:\/\/timg04.bdimg.com":"https:\/\/gss0.bdstatic.com\/6Ls0a7b5KgQIm2_p8IuM_a","http:\/\/timg05.bdimg.com":"https:\/\/gss3.bdstatic.com\/6Ls0a7b6KgQIm2_p8IuM_a","http:\/\/api.map.baidu.com":"https:\/\/gsp0.baidu.com\/9_Q4sjOpB1gCo2Kml5_Y_D3","http:\/\/bos.nj.bpc.baidu.com":"https:\/\/gss0.bdstatic.com\/9rkZsjSeKgQUohGko9WTAnF6hhy","http:\/\/cdn00.baidu-img.cn":"https:\/\/gss3.baidu.com\/9bA1vGba2gU2pMbfm9GUKT-w","http:\/\/sc0.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVWsj_p_tVS5dKfpU_Y_D3","http:\/\/sc1.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVXsj_p_tVS5dKfpU_Y_D3","http:\/\/sc2.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVYsj_p_tVS5dKfpU_Y_D3","http:\/\/sc3.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVZsj_p_tVS5dKfpU_Y_D3","http:\/\/sc4.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVSsj_p_tVS5dKfpU_Y_D3","http:\/\/sc5.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVTsj_p_tVS5dKfpU_Y_D3","http:\/\/sc6.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVUsj_p_tVS5dKfpU_Y_D3","http:\/\/sc7.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVVsj_p_tVS5dKfpU_Y_D3","http:\/\/sc8.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVOsj_p_tVS5dKfpU_Y_D3","http:\/\/sc9.hao123img.com":"https:\/\/gss0.bdstatic.com\/5bVPsj_p_tVS5dKfpU_Y_D3","http:\/\/vd1.bdstatic.com":"https:\/\/vd1.bdstatic.com","http:\/\/vd2.bdstatic.com":"https:\/\/vd2.bdstatic.com","http:\/\/vd3.bdstatic.com":"https:\/\/vd3.bdstatic.com","http:\/\/pic.rmb.bdstatic.com":"https:\/\/p2.bdstatic.com","http:\/\/img0.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K","http:\/\/img1.hao123.com":"https:\/\/ss0.baidu.com\/70cFvXSg2QdV5wzgoY3K","http:\/\/img2.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K","http:\/\/img3.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K","http:\/\/img4.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K","http:\/\/img5.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K","http:\/\/img6.hao123.com":"https:\/\/ss0.baidu.com\/70cFvHSg2QdV5wzgoY3K"}||{};var href = href.replace(/^\s+|\s+$/, "");if (href !== "" && /^http:/.test(href)) {var inMap = 0;for(var key in map) {if (map.hasOwnProperty(key)) {var tmpReg = new RegExp(key, "i");var tmpReg = new RegExp(key, "i");if (tmpReg.test(href)) {href = href.replace(tmpReg, map[key]);inMap = 1;break;}}}if (inMap === 0) {href = "https://" + href;}}return href;}</script>
+    
+	
+  <script>
+    var CONFIG = CONFIG || {};
+    CONFIG.psdWidth = 750;
+    CONFIG.page = 'n_middlepage';
+    CONFIG.level = 2;
+  </script>
+
+    
+        <script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/nomod/flexible_cbe608e.js"></script>    
+    
+    
+
+    <link rel="stylesheet" type="text/css" href="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/pkg/page/news/middle.tpl_aio_cd72117.css" />
+</head>
+<body>
+    <img style="display: none; height: 0; width:0" src="https://hao123.baidu.com/static/mapping/bd.php?type=gif" />
+    
+    <!-- <link rel="stylesheet" href="assets/css/tianqi/alarm.less"> -->
+    <script src="https://dup.baidustatic.com/js/dm.js"></script>
+
+	
+
+    <!-- 首屏数据 -->
+    <div id="appFirst"><div server-rendered="true" class="index__vuec__ midle"><a href="javascript:window.scroll(0, 0);" class="totop" style="display:none;"></a> <div class="md-nav"><nav class="md-nav"><a href="javascript:void(0)" class="backto"><div class="md-nav-arrow"></div></a> <search data="[object Object]" placeholder="" showtype="iconMini"></search> <div class="md-nav-bigFont"></div> <div id="J_mid_fix_r" class="mid-fix-right"><div class="mid-fix-share"><div class="mid-fix-s-icon J_fix_share"></div> <ul class="mp-share" style="display:none;"><li class="title">分享到:</li> <li class="sharelink">QQ空间</li> <li class="sharelink">新浪微博</li></ul></div></div> <div class="md-nav-button" style="display:block;"><i class="mp-reddot" style="display:none;"></i></div></nav></div> <div class="mp-header"><h1 class="mp-title">少年捡杯子喝水中剧毒 求生一个月离世</h1> <p class="mp-detail">湘商视频  1536546540</p></div> <div class="mp-main"><div id="news-content" class="mp-content"><div class="mp-main-first"><p>&nbsp; &nbsp; &nbsp; &nbsp;秦楚网讯记者 蒋辉 报道:8月6日到9月6日,整整一个月,竹溪15岁少年郭文(化名)身中百草枯剧毒,在生与死的边缘几度徘徊,肺部纤维化的严重程度终于让他停止了呼吸,永久的离开了爱他的父母和车城人民。一个月如同白驹过隙,一个人与一座城却因爱的纽带永远联系在一起。让我们祈祷,这世间少些让人扼腕的惨剧,让更多的孩子健康成长。</p><p><br/></p><p>惋惜:9月6日20时郭文停止呼吸</p></div> <div id="mpContentOther" class="mp-content-other"><p><br/></p><p>9月6日晚上,郭元兵在太和医院急诊病室外呆呆得望着天花板,妻子也掩面抽泣。他们不愿意接受这个残酷的事实——儿子残留的肺部已经不能支持大脑和脏器的供养,继续坚持治疗或者放弃,这样的选择摆在哪个父母面前都是无法承受的。</p><p><br/></p><p>百草枯剧毒在所有农药中,百草枯毒性最强、中毒者死亡率最高。郭文中毒一周后才来治疗,原本就错过了最佳抢救时间,这是导致他多个脏器系统出现问题的重要原因。</p><p><br/></p><p>8月21日,太和医院急诊科医生曾桓超就曾说,“经过治疗,他的肝肾功能已经出现好转迹象,目前最严重的是肺部纤维化问题。还有多少残存的肺叶决定了他是否能活下去。一般而言,只要有1/2—1/4的肺,就有活下去的希望。中毒后的前三周是最危险的,如果能熬过这段时间,他就有可能活下来。”</p><p><br/></p><p>而9月6日正是在危险期的最后阶段,如果能够挺过去,郭文尚能活下来。但曾桓超告诉记者,6日郭文的肺部绝大部分都出现纤维化,残留的肺部无法支持脑部和脏器的供养,心肺移植是解决问题的唯一途径。“心肺移植花费太高,病人也无法去等几个月的供体器官,因为工体来源太少,合适的供体配型更少,家属考虑再三,最终是能选择放弃治疗。”</p><p><br/></p><p>放弃治疗后,郭文很快没有了生命体征。7日下午,郭元兵强忍着泪水,将儿子的躯体火化,并将骨灰拉回竹溪。“感谢所有帮助我儿子的人,很遗憾他最终没有挺过来。我们整个家族都很痛苦,当天晚上将他安葬了。”</p><p><br/></p><p>回眸:刚过完生日少年中毒</p><p><br/></p><p>8月7日,刚过生日的竹溪少年郭文开始上吐下泻,直到8月16日零时30分左右,他们才赶到太和医院肾内科。郭文入院时舌头发黑,初检喉咙有溃疡,这是腐烂的前兆,医护人员紧急采取一系列救护措施,将病情先稳住,再做进一步检查和会诊。</p><p><br/></p><p>第二天,郭文转入ICU病房,检查显示,郭文出现急性肝功能、肾功能衰竭以及口腔黏膜腐蚀严重、肺部纤维化状况。多个科室专家会诊后,判断他系农药百草枯中毒。经过会诊,郭文被转到EICU(急诊重症监护室),每天接受血液灌流、透析及药物治疗。</p><p><br/></p><p><br/></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="http://sc0.hao123img.com/data/short_img/9a5573269a57e42a96df8bcf862e2088" title="title" alt="original" wap_url=""/></p><p><br/></p><p>郭元兵在急诊重症监护室为儿子鼓劲。</p><p><br/></p><p>连续治疗5天后,郭文的舌头由发黑转向红润,喉咙溃疡也得到遏制,但仍需要使用呼吸机供氧。“这段时间每一天我们都度日如年,祈祷他能够熬过最难的三周,祈祷他的肺部不再继续病变,祈祷他可以重新站起来,回到家庭和学校。”在微信中郭元兵曾告诉记者。</p><p><br/></p><p>刚刚初中毕业的郭文,这个时候本应坐在高一教室里,和同学们一起开启新的人生篇章;这个时候的郭文,本应和父母有说有笑的吃饭,带着年幼的妹妹去广场遛弯......一切都在9月6日晚上戛然而止,这个家庭从此失去了未来的支柱和希望,这个世界从此失去了一个俊朗阳光的少年!</p><p><br/></p><p>感动:4000多名市民通过轻松筹捐款16多万元</p><p><br/></p><p>8月21日和22日,十堰晚报微信、报纸相继报道了竹溪15岁男孩郭文(化名)身中百草枯剧毒,躺在病床上生命垂危的揪心故事。郭文的病情牵动着整座城市市民的心,不少市民纷纷在晚报微信下留言,一个月来,4000千名网友通过轻松筹通道为他捐款15.7万多元,还有市民通过微信给郭文的父亲郭元兵转账7141.66元。</p><p><br/></p><p>8月21日中午,十堰晚报微信以《十堰15岁男孩河边捡个杯子喝水,竟中百草枯剧毒生命垂危,救救他吧》为题,呼吁广大市民为这位花样少年加油打气,在本报微信发出后的半个小时,就有300多名网友一万多元。</p><p><br/></p><p>而在本报详细报道郭文的中毒情况后,众多市民纷纷给郭元兵致电宽慰,让他安心照顾尚未脱离生命危险的儿子,28位市民通过微信给郭元兵转账7141.66元钱。</p><p><br/></p><p>市民尚飞主动联系上本报记者,他说看到本报报道后非常痛心,联想到自己也有儿子,心里非常难受,并让记者转交1000元钱给郭元兵。“都是做父母的,谁也不愿意看到孩子出这样的事,能帮就帮吧,以后通过你们的平台,我还会给有需要的人捐款。”</p><p><br/></p><p>而在9月6日下午,还有一位好心市民通过本报记者给郭元兵转账500元。他告诉记者,他是最近才看到关于郭文中毒的报道的,他很同情孩子的遭遇,自己只能尽微薄之力,希望这个阳光帅气的孩子早日摆脱病魔。</p><p><br/></p><p>“死者已矣生者坚强,我们一家人都很痛苦,但必须坚强的生活下去,这恐怕也是儿子所希望的。”郭元兵说,“儿子入院以来,得到了十堰晚报的热切关注,得到了广大市民的倾心相助,感谢所有在抢救孩子的过程中给予我们帮助的好心人,我们一定会常怀感恩之心将爱心传递下去。”</p><p><br/></p></div> <div id="mpConternBtn" class="mp-contern-btn"><em></em> 展开全部内容</div> <img src="https://m.hao123.com/assets/wise-vue/img/news/middle/img/shadow.png" alt="" class="mp-content-shadow"></img></div> <scroll-multiline data="Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array,Array" title="少年捡杯子喝水中剧毒 求生一个月离世" cue="3"></scroll-multiline> <div class="mp-contern-share"><span class="mpShare">分享到：</span> <img src="https://m.hao123.com/assets/wise-vue/img/news/middle/img/mp-contern-qq.png" alt="" class="qzone"></img> <img src="https://m.hao123.com/assets/wise-vue/img/news/middle/img/mp-contern-xinlang.png" alt="" class="weibo"></img></div> <span class="mp-content-span"></span></div> <color-block para="[object Object]" class="colorblock1"></color-block> <bdwm dataid="ojyrsrbiimqybf" class="bdwm"></bdwm> <div class="mp-app-ad"><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=middle&amp;qt=tz&amp;url=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fbai-du-shou-ji-wei-shi-sao%2Fid830302503%3Fmt%3D8&amp;key=5bdc85873af3c4281f0108c5676849f4&amp;level=2" class="mp-app-ad-inner"><div class="mp-app-ad-cont"><img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-11-06/b9bae008d31ac8dcb29c563c56183043.jpg" class="mp-app-ad-img"></img> <div class="mp-app-ad-c"><div class="mp-app-ad-t">百度手机卫士</div> <p><i>广告</i> 9754次下载</p></div></div> <i class="mp-app-ad-btn">下载</i></a></div> <span class="mp-content-span"></span> <div class="mp-block"><div class="mp-gaoxiao"><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=cnxh&amp;qt=tz&amp;url=http%3A%2F%2Fm.hao123.com%2Fnews%2FmidNews%3Fid%3D47978822&amp;key=c8ecc44e91ba2c73c3ef6daeffe966fc&amp;level=2"><img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2018-06-11/dcf51f4acdea217b0b75f3cf11f90127.jpg" alt="快来一起玩游戏"></img> <span>快来一起玩游戏</span></a><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=cnxh&amp;qt=tz&amp;url=http%3A%2F%2Fm.hao123.com%2Fnews%2FmidNews%3Fid%3D47978823&amp;key=0ccf406380ac1320be3ba177fc0a45d8&amp;level=2"><img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2018-06-11/b7b5fd174ecae43cf983cec93acc19c7.jpg" alt="穿这样咋干活啊"></img> <span>穿这样咋干活啊</span></a><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=cnxh&amp;qt=tz&amp;url=http%3A%2F%2Fm.hao123.com%2Fnews%2FmidNews%3Fid%3D47978824&amp;key=6560a36539f44a1a823e98784d01e4db&amp;level=2"><img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2018-06-11/be9b33fb16d804964ee17c5202f64c5b.jpg" alt="不要欺负小猫哦"></img> <span>不要欺负小猫哦</span></a><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=cnxh&amp;qt=tz&amp;url=https%3A%2F%2Fh5.lifanr.com%2Fcellphone%2Fcontent%2F1268%2FVsikTcNuwi86srfs&amp;key=0e50cb5b02d566af0f1eb6287e0a5892&amp;level=2"><img src="https://gss0.bdstatic.com/5eN1cXSg2QdV5wybn9fN2DJv/static/img/newzx/gx/fe2017102704.jpg" alt="美团这个广告神 "></img> <span>美团这个广告神 </span></a></div> <a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=gxdzwzl&amp;qt=tz&amp;url=http%3A%2F%2Fm.hao123.com%2Fnews%2FmidNews%3Fid%3D47790162&amp;key=dd906e98e9f35026194e8c4c2b157cc0&amp;level=2" class="newTxt"><span>女神发照片说她的衣服好像买错尺码了！</span></a><a href="https://m.hao123.com/j.php?tn=sohu06&amp;z=2&amp;ver=2_iphone&amp;page=n_middlepage&amp;pos=gxdzwzl&amp;qt=tz&amp;url=http%3A%2F%2Fm.hao123.com%2Fnews%2FmidNews%3Fid%3D47790166&amp;key=5a4063d3dac07910073027674843452a&amp;level=2" class="newTxt"><span>这个才是真正的汽车人，老铁们没毛病吧</span></a></div> <span class="mp-content-span"></span> <h3 class="feed-hd"><span></span>独家推荐</h3> <feed data="null" id="101" moreurl="/hao123_api/news/midNews/feed?" scroll-to-top="true"></feed> <middle-footer></middle-footer></div></div>
+    
+
+    <!-- 非首屏数据 -->
+	<div id="app"></div>
+	<script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/mod_2b1d325.js"></script>	<script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/vue_fbd12c9.js"></script>    <script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/vuex_7bee27e.js"></script>    <script>
+        if (!CONFIG.debug){
+            // 取消vue日志与警告
+            Vue.config.silent = true;
+            Vue.config.devtools = false;
+        }
+    </script>
+    <script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/es6-promise.auto_23fef72.js"></script>
+  <div id="tmpfeedwm" style="margin: 0 15px;">
+      <script type="text/javascript">
+          var cpro_id = "u3125985";
+      </script>
+      <script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/cm.js"></script>
+  </div>
+
+<!-- feed-百度智荐接口 -->
+<!--   <script>
+      var baiduImagePlus = {
+          unionId:'u2665191',
+          formList:[{formId:23}]
+      };
+      var cir_recommend_config = {
+          _popIn_read_selector: '.v_con',
+          _recommend_article: [
+          {
+              tid: 10215,
+              selector: '#recommend'
+          }
+      ]};
+  </script> -->
+  <!-- <script src="//cpro.baidustatic.com/cpro/ui/mi.js"></script> -->
+  <!-- <script src="//cir-smart.baidu.com/static/hao123.min.js"> </script> -->
+
+
+    
+    
+
+<script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/zepto_7eb941e.js"></script>
+<script>
+        (function () {
+          var script = document.createElement('script');  
+          script.src = '//gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/resource/fe/widget/js/service/haoAntiWise.js?t=_' + (new Date()).getTime();
+          document.head.appendChild(script);
+        })();
+    </script>
+<script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/iscroll-lite4_3ff974a.js"></script>
+<script src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/lib/swiper_4bb3bcc.js"></script>
+<script type="text/javascript" src="https://gss0.bdstatic.com/5eR1cXSg2QdV5wybn9fN2DJv/assets/wise-vue/pkg/page/news/middle.tpl_aio_b99774f.js"></script>
+</body>
+</html>

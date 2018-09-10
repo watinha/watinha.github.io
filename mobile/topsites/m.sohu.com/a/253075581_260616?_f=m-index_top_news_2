@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 8}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="澎湃新闻">
+    <meta name="sharecontent" content="交通部公安部：进一步加强网约车和私人小车顺风车安全管理">
+    <meta name="keywords" content="交通部, 公安部, 进一步, 加强, 私人, 人小, 小车, 顺风, 风车, 安全, 管理" />
+    <meta name="description" content="“交通运输部”微信公号9月10日消息，近期，网络预约出租汽车（简称网约车）非法营运、私人小客车合乘（也称顺风车、拼车）恶性刑事案件屡有发生，特别是郑州、温州滴滴顺风车司机杀人案件受到社会广泛关注，严重..." />
+<meta itemprop="dateUpdate" content="2018-09-10 22:13:14" />
+<meta itemprop="datePublished" content="2018-09-10 22:13:14" />    <title>交通部公安部：进一步加强网约车和私人小车顺风车安全管理-新闻频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253075581_260616" />
+    <script>
+        var cfgs = {
+            channelId : '8',
+            media_id: '260616',
+            cms_id: '549104501',
+            title: '交通部公安部：进一步加强网约车和私人小车顺风车安全管理',
+            authorId : '260616',
+            path: 'https://m.thepaper.cn/newsDetail_forward_2427555',
+            authorName : '澎湃新闻',
+            newsId : '253075581',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/8?_f=m-article_ch">新闻</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">交通部公安部：进一步加强网约车和私人小车顺风车安全管理</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/260616">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/ece34a261c7147b0864ef095bf1c02d8_1506051877694"/>
+                    <div class="infos-wrapper">
+                        <header class="name">澎湃新闻</header>
+                        <footer class="time">
+                            09-10 22:13
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmtfm6i3ii@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>“交通运输部”微信公号9月10日消息，近期，网络预约出租汽车（简称网约车）非法营运、私人小客车合乘（也称顺风车、拼车）恶性刑事案件屡有发生，特别是郑州、温州滴滴顺风车司机杀人案件受到社会广泛关注，严重危害人民群众生命财产安全，影响社会稳定和行业健康有序发展。为贯彻落实国务院关于加强交通运输新业态协同监管的统一部署，强化监管责任落实，堵住安全风险隐患，现就进一步加强网络预约出租汽车和私人小客车合乘安全管理有关事项紧急通知如下：</p>
+<p><strong>1立即开展行业安全大检查</strong></p>
+<p>各地交通运输主管部门、公安机关等部门要立即组织对本地运营的网约车平台公司和私人小客车合乘信息服务平台开展联合安全大检查。通过大检查，全面排查行业安全隐患和薄弱环节。存在安全隐患的，要督促相关企业采取有效措施予以整改；存在违法违规行为的，要依法处置。</p>
+<p><strong>交通运输部将组织交通运输新业态协同监管部际联席会议成员单位对滴滴等网约车平台公司开展安全大检查。滴滴公司等平台公司要全面开展安全隐患自查和整改工作，在未完成隐患整改前，无限期停止私人小客车合乘信息服务。</strong></p>
+<p><strong>2加强网约车和顺风车平台驾驶员背景核查</strong></p>
+<p>各地交通运输主管部门、公安机关要严格按照《交通运输部办公厅公安部办公厅关于切实做好出租汽车驾驶员背景核查与监管等有关工作的通知》（交办运〔2018〕32号）要求，对从事或申请从事网约车服务的驾驶员一律进行背景核查，确保网约车驾驶员符合《出租汽车驾驶员从业资格管理规定》（交通运输部令2016年第63号）规定的条件。私人小客车合乘信息服务平台要参照出租汽车驾驶员背景核查和监管有关要求，对从事或申请从事私人小客车合乘服务的驾驶员一律进行背景核查。</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">76</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p><strong>要对现有网约车和私人小客车合乘服务的驾驶员进行一次全面清理，2018年12月31日前全面清退不符合条件的车辆和驾驶员，并基本实现网约车平台公司、车辆和驾驶员合规化。</strong></p>
+<p><strong>3严格督促企业落实安全生产和维稳主体责任</strong></p>
+<p>各地交通运输主管部门、公安机关要督促本地网约车平台公司和私人小客车合乘信息服务平台服务企业落实企业安全生产管理和维护行业稳定的主体责任。相关平台公司要严格规范派单管理，不得向未经背景核查的驾驶员派单，并要在派单前应用人脸识别等技术，对车辆和驾驶员一致性进行审查；要强化运行风险管控，利用大数据技术，对路线行驶偏移、不合理长时间停留等风险进行预警，发现异常情况及时处置；要限制顺风车接单数量，防止以合乘名义从事非法网约车经营服务；要实行随机派单机制，禁止驾驶员选择乘客，允许乘客选择驾驶员；要建立投诉冻结机制，对乘客投诉未核查处理的，不得向被投诉驾驶员派单；要加强乘客信息保护，关闭顺风车平台社交功能，屏蔽乘客信息，防止泄露个人隐私；要规范车辆安全要求，鼓励有条件的平台公司在网约车显著位置粘贴专用标志，车窗透光率要符合出租汽车要求，确保车内情况可视，车辆运行期间不得开启儿童锁，便于乘客遇有突发情况紧急逃生；要定期随机抽查线下运营车辆及驾驶员，核查注册信息与实际情况一致性，防止“修牌改号”“冒名顶替”等问题。</p>
+<p><strong>4健全完善投诉报警和快速反应机制</strong></p>
+<p>各地交通运输主管部门、公安机关要采取多种方式，大力加强对网约车顺风车乘客的安全防范教育提醒。要督促网约车平台公司和私人小客车合乘信息服务平台在APP启动首页设置安全提示界面，提示乘客110报警电话是意外紧急情况下最有效的求助方式，在生命财产安全受到威胁时要立即拨打110报警求助，同时要在APP显著位置设置“一键报警”，方便驾驶员和乘客遇有意外紧急情况时及时向平台预警。相关平台公司要依法向公安机关提供技术接口、实时推送平台司机、车辆注册数据及车辆位置、行驶轨迹、乘客信息等数据。要设置专门的24小时运转的安全管理和应急处置团队，在接到预警后第一时间甄别处置，视情立即向公安机关报警。各地交通运输主管部门要通过本单位门户网站或开通投诉电话等方式，主动接受并快速核查处置社会各界涉及网约车顺风车的各类投诉。各地公安机关、交通运输主管部门和相关平台公司要建立网约车顺风车违法犯罪快速反应、联动处置工作机制，公安机关在接到报警后，要组织警力快速反应、有效处置，交通运输主管部门和相关平台公司要全力提供技术、信息等方面的服务支持。对阻碍人民警察依法执行职务、拒不向公安机关提供技术支持的相关平台公司及其直接负责主管人员和其他直接责任人员，要严格依照《人民警察法》、《治安管理处罚法》、《网络安全法》、《反恐怖主义法》和《刑法》的规定，追究其法律责任。</p>
+<p><strong>5严厉打击非法营运行为</strong></p>
+<p>非法营运行为威胁乘客的人身安全和合法权益，严重扰乱市场竞争秩序。各地交通运输主管部门、公安机关要高度重视，充分发挥各自职能作用，开展联合执法，严格查处各类非法营运行为。对网约车平台、私人小客车合乘信息服务平台开展非法营运活动的，要加大对平台公司等企业的处罚力度。要建立“双随机”抽查机制，切实履行法定监管职责。要推进行政执法公示制、执法全过程记录制、重大执法决定法制审核制，做到严格规范公正文明执法。对阻碍交通运输主管部门工作人员依法执行职务的行为，由公安机关依法予以查处。</p>
+<p><strong>自即日起至12月31日，在全国范围组织开展打击非法从事出租汽车经营的专项整治行动。行动分三个阶段推进：</strong></p>
+<p>安排部署阶段（自即日起至9月30日）：各地交通运输主管部门、公安机关要安排部署专项整治行动，阐明打击非法营运工作的重要意义，广泛宣传从事非法营运活动和乘坐非法营运车辆的危害，教育引导广大人民群众自觉抵制非法营运车辆，并公布举报电话、网站，鼓励探索建立举报奖励制度。要督促网约车平台公司，加快清理网约车平台上不合规的车辆和驾驶员。</p>
+<p>集中整治阶段（2018年10月1日至11月30日）：各地交通运输主管部门、公安机关要建立联合执法机制，组织开展联合执法，采取定点检查与流动巡查相结合等方法实施整治，严格查处未取得经营许可擅自从事出租汽车经营活动、线上与线下车辆及驾驶员不一致、以私人小客车合乘名义开展非法营运等行为。要加大网约车线上监管力度，定期对网约车平台公司进行检查，加强对平台不合规车辆和驾驶员的排查和研判，突出重点，提高执法效率。要加强对重点时段、重点区域、重点企业的监管，在早晚客运高峰、恶劣天气、重要节假日等重点时段和各城市枢纽站场、商圈、旅游景点等重点区域加强执法检查力度，并利用夜间执法、错时执法、定点执法等措施严查非法营运行为。鼓励各省级交通运输主管部门、公安机关加强组织协调，指导城市间开展联合整治，形成震慑效应。</p>
+<p>总结巩固阶段（2018年12月1日至12月31日）：各地交通运输主管部门、公安机关要总结推广取得的工作经验及成效，探索规范出租汽车市场秩序的长效措施，逐步建立起政府统一领导、交通运输和公安等部门联合执法、广大人民群众积极参与的打击非法营运的长效工作机制。要继续强化日常监管执法，巩固专项整治行动成果，防止非法营运活动出现反弹。</p>
+<p>各省级交通运输主管部门要会同同级公安机关于2019年1月15日前将本辖区内专项整治行动开展情况及成果报送交通运输部（运输服务司），并抄报公安部（交通管理局）。专项整治行动期间，交通运输部、公安部将对各地区专项整治行动开展情况进行督查。</p>
+<p>（原题为《交通运输部办公厅公安部办公厅关于进一步加强网络预约出租汽车和私人小客车合乘安全管理的紧急通知》）</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77690?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">隐私</a>
+            <a class="tag" href="http://m.sohu.com/tag/72435?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">能</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253075581">阅读 (<em data-state="253075581" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253075581'" :region-id="'16'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

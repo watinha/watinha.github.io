@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 8}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="澎湃新闻">
+    <meta name="sharecontent" content="外交部：若美对华采取任何新的加征关税措施，中方必会反制">
+    <meta name="keywords" content="外交部, 对华, 采取, 任何, 加征, 关税, 措施, 中方, 必会, 反制" />
+    <meta name="description" content="外交部例行记者会 外交部 图2018年9月10日，外交部发言人耿爽主持例行记者会。应国务委员兼外交部长王毅邀请，智利共和国外交部长罗伯托·安普埃罗将于9月13日至15日对中国进行正式访问。王毅国务委员..." />
+<meta itemprop="dateUpdate" content="2018-09-10 17:43:50" />
+<meta itemprop="datePublished" content="2018-09-10 17:43:50" />    <title>外交部：若美对华采取任何新的加征关税措施，中方必会反制-新闻频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253025272_260616" />
+    <script>
+        var cfgs = {
+            channelId : '8',
+            media_id: '260616',
+            cms_id: '549076715',
+            title: '外交部：若美对华采取任何新的加征关税措施，中方必会反制',
+            authorId : '260616',
+            path: 'https://www.thepaper.cn/newsDetail_forward_2426202',
+            authorName : '澎湃新闻',
+            newsId : '253025272',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/8?_f=m-article_ch">新闻</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">外交部：若美对华采取任何新的加征关税措施，中方必会反制</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/260616">
+                    <img class="avatar"
+                    src="http://sucimg.itc.cn/avatarimg/ece34a261c7147b0864ef095bf1c02d8_1506051877694"/>
+                    <div class="infos-wrapper">
+                        <header class="name">澎湃新闻</header>
+                        <footer class="time">
+                            09-10 17:43
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('sohuzmtfm6i3ii@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/cddb4911442447a1855ffc57e351d758.jpeg" width="600" height="321" class="content-image">
+<p align="center">外交部例行记者会 外交部 图 </p>
+<p>2018年9月10日，外交部发言人耿爽主持例行记者会。</p>
+<p>应国务委员兼外交部长王毅邀请，智利共和国外交部长罗伯托·安普埃罗将于9月13日至15日对中国进行正式访问。</p>
+<p>王毅国务委员兼外长将同安普埃罗举行会谈。双方将就中智关系及共同关心的国际和地区问题深入交换意见。相信此访将进一步深化双方政治互信，扩大合作共识，为中智全面战略伙伴关系发展注入新的动力。</p>
+<p>智利是拉美和亚太地区重要国家，也是中国的全面战略伙伴。近年来，在两国领导人的战略引领下，中智关系持续稳定发展。两国高层交往频繁，各领域合作成果丰硕。新形势下，中方愿同智方一道，保持全方位交往势头，以共建“一带一路”为契机，充分释放双边自贸协定升级红利，推动两国友好关系和互利合作迈上新台阶。</p>
+<p><strong>问：王毅国务委员兼外长日前访问了巴基斯坦。此访正值美国国务卿蓬佩奥刚刚结束访巴之际。你能否介绍王毅国务委员此次访巴有什么考虑？访问取得了哪些成果？</strong></p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">84</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>答：不久前，巴基斯坦顺利完成选举进程，产生了新一届政府。王毅国务委员兼外长此次访巴，主要目的就是同巴新政府全面对接，就各领域合作全面对表，为新形势下的中巴关系起好步，开好头。</p>
+<p>中巴是全天候战略合作伙伴，双方的关系超越党派不同和政权更迭，稳如泰山。中巴友谊经历了国际风云和时代变迁的考验，扎根于两国人民心中，坚不可摧。中巴发展关系不针对第三方，也不会因为各自发展与其他国家的关系而受到影响。</p>
+<p>访问期间，王毅国务委员会见了巴总统阿尔维、总理伊姆兰·汗、议长凯瑟和巴军方领导人，并同巴基斯坦外长库雷希举行了会谈。双方就全面深化中巴全天候战略合作伙伴关系以及共同关心的国际和地区问题深入交换了意见，达成诸多共识。</p>
+<p>政治上，双方将进一步深化战略互信，加强战略沟通，更坚定地相互支持彼此核心和重大利益，更密切地就共同关心的重大问题沟通协调。</p>
+<p>经济上，双方将以民生为重点加强发展合作。中方将把对巴援助更多向农业、教育、医疗、饮水等民生领域倾斜，让更多的民众得到实实在在的利益和福祉。双方将更好推进中巴经济走廊建设，同时根据巴方下一步经济社会发展重点和民众需求，协商确定走廊未来发展路径和合作方向。重点加快产业合作和民生项目建设，并逐步向巴西部地区延伸，让更多的巴民众从走廊中受益。</p>
+<p>安全上，双方决定加强防务安全合作。促进两国军队和执法机构交流，坚决打击“东伊运”恐怖势力。中方将支持巴方根据本国国情继续坚定打击恐怖主义。</p>
+<p>巴基斯坦新政府多次强调将继续把对华关系作为巴外交政策的基石。中国也继续把巴置于中国对外政策和周边外交的优先位置。中方愿同巴新政府一道，将中巴关系打造成睦邻友好的典范、地区和平稳定的支柱和共建“一带一路”的标杆。</p>
+<p><strong>问：据报道，上周，美方威胁称，将对几乎全部中国输美产品加征关税。中方对此有何回应？</strong></p>
+<p>答：不久前，我商务部的同事已就类似问题作出过回应。</p>
+<p><strong>这里我想重申，如果美方一意孤行，对华采取任何新的加征关税措施，中方必然会采取反制措施，坚决维护我们的合法权益。</strong></p>
+<p><strong>问：据报道，美国“人权观察”组织今天在纽约指责中国政府“镇压”在新疆的维吾尔族人。中方对此有何回应？</strong></p>
+<p>答：你提到的这个组织一贯对华充满偏见，也惯于歪曲事实、搬弄是非。对其有关指责或言论，我不作具体回应。</p>
+<p>至于你提到新疆的问题，我这里想要指出，当前，新疆社会大局稳定，经济发展势头良好，各民族和谐相处。新疆社会稳定和长治久安是各族群众的共同愿望，符合各族人民的根本利益。</p>
+<p><strong>新疆实施的一系列政策措施，旨在促稳定、促发展、促团结、促民生，同时依法打击民族分裂和暴恐犯罪活动，维护国家安全，保护人民群众生命和财产。</strong></p>
+<p>另外，中国政府依法保护公民的宗教信仰自由，中国各族人民依法享有充分宗教信仰自由。</p>
+<p><strong>问：据报道，美国国务院上周宣布召回驻多米尼加、萨尔瓦多和巴拿马三国高级外交官。三国此前都已与台湾“断交”并与中华人民共和国建交。中方对此有何回应？</strong></p>
+<p>答：一个中国原则是国际社会的普遍共识，中国在这一原则基础上同有关国家建交，符合国际法和国际关系基本准则，符合中国和有关国家人民的根本利益，理所应当，也是大势所趋。一个主权国家选择同谁发展外交关系是其主权权利，应当受到尊重，别国无权说三道四、指手画脚。</p>
+<p>我们提醒个别国家，不要忘了自己承认一个中国原则，几十年前就同中华人民共和国建立外交关系的事实，正确看待别的国家同中国建交，慎重妥善处理涉台问题，从维护自身形象和台海和平稳定出发，不要再采取不负责任言行。</p>
+<p><strong>问：你刚才介绍了王毅国务委员兼外长访问巴基斯坦的情况。巴基斯坦媒体关注中国没有宣布向巴提供新的经济援助，或许是因为巴新政府在经济危机影响下不堪重负。中方是否向巴作出了援助承诺？</strong></p>
+<p>答：中巴是全天候战略合作伙伴。中巴的友谊不仅体现在政治领域，在经济合作领域也有着充分展示。双方共同推进中巴经济走廊建设取得的成绩有目共睹。</p>
+<p>王毅国务委员兼外交部长此次访巴期间，同巴方就加快推进中巴经济走廊建设达成了重要共识。我刚才也介绍了，双方决定要根据巴方下一步经济社会的发展重点和民众需求，协商确定中巴经济走廊未来发展路径和合作方向。重点加快产业合作和民生项目建设，并逐步向巴西部地区延伸，让更多巴民众从走廊中受益。</p>
+<p>开展中巴经济走廊建设的出发点和落脚点，就是要造福巴基斯坦人民，让巴基斯坦普通民众都能享受到实实在在的好处和利益。</p>
+<p><strong>问：朝鲜昨天举行了国庆阅兵式。习近平主席的特别代表也参加了阅兵式。中方对此有何评论？</strong></p>
+<p>答：中共中央政治局常委、全国人大常委会委员长栗战书作为习近平总书记、国家主席特别代表率中国党政代表团访朝并出席朝鲜建国70周年庆祝活动，这体现了中方对中朝关系的高度重视和对朝鲜建国70周年的诚挚祝贺。</p>
+<p>访问期间，栗战书委员长会见了金正恩委员长，并当面向金正恩委员长转交了习近平总书记的亲署函。有关消息你应该已经看到了。</p>
+<p>我这里想指出，栗战书委员长同其他应邀参加此次庆祝活动的各国代表团团长一道，参加了朝方举行的一系列庆祝活动。许多媒体在报道中都指出，朝方在这些活动中更多展示了经济发展成就和继续推进经济建设、改善民生的决心。</p>
+<p>在半岛问题上，中方的立场坚定、明确。我们坚持实现半岛无核化，坚持维护半岛和平稳定。同时，作为朝鲜友好邻邦，中方愿继续巩固深化中朝友谊，支持朝鲜发展经济、改善民生的有关努力。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77590?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">关税</a>
+            <a class="tag" href="http://m.sohu.com/tag/72435?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">能</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253025272">阅读 (<em data-state="253025272" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253025272'" :region-id="'16'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

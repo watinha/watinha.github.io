@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="http://47f72d130392f.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
+<meta name="data-spm" content="smwp">
+
+<script>
+    !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("将根据已有的meta标签来设置缩放比例");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=(a.navigator.appVersion.match(/android/gi),a.navigator.appVersion.match(/iphone/gi)),q=a.devicePixelRatio;i=p?q>=3&&(!i||i>=3)?3:q>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var r=e.createElement("div");r.appendChild(g),e.write(r.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+</script>  <link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/gallery/css/main-a4043d5442.css"/>
+
+<title>高清图：国足谢场显失落 里皮以手遮面神情疲惫-图库-手机搜狐</title>
+<meta name="keywords" content="高清, 国足, 失落, 遮面, 神情, 疲惫">
+<meta name="share_img" src="//5b0988e595225.cdn.sohucs.com/images/20180911/e515e2050a1b4b31b22a2178d051afdc.jpeg"/>
+<link rel="next" href="http://m.sohu.com/pic/253,099,131/" />
+<link rel="prev" href="http://m.sohu.com/pic/253,095,701"/>
+<meta name="description" content="北京时间9月11日0:00，中国男足在巴林首都麦纳麦迎来与巴林男足的热身赛。最终，两队以0-0互交白卷。武磊上下半时各射中一次门框；颜骏凌下半时封堵了对手的一次单刀机会，力保城门不失。中国队本次西亚客场之旅收获一平一负的战绩。赛后国足众将来到场边谢场，众球员显失落，主帅里皮在发布会以手遮面神情疲惫。">
+  <script>
+    var cfgs = {
+      album_id : '253103231',
+      channelId : '17',
+      media_id : '463728',
+      title : '高清图：国足谢场显失落 里皮以手遮面神情疲惫',
+      path : window.location.href
+    }
+  </script>
+</head>
+<body data-spm="pic-land">
+  <div id="app"></div>
+<script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+<script src="http://statics.itc.cn/mobile/gallery/js/lib-0ae136c58c.js"></script>
+<script src="http://statics.itc.cn/mobile/gallery/js/main-c3117aa917.js"></script>
+<script src='https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.2.js'></script></body>
+</html>

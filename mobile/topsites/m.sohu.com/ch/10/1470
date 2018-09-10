@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="keywords" content="兵器解析">
+    <title>兵器解析-新闻列表-手机搜狐</title>
+    <script>
+        var cfgs = {
+            channel_id : '10',
+            sub_id : '1470'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch10-1470">
+    <div id="backTop">
+        <back-top :is_index="false" 
+        :addto_desktop_id="10120305" 
+        :webclip_action_id="10120369" 
+        :addto_desktop_id_ios="10120378"
+        app_down_type="msubchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../10.1">兵器解析</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253095027_767131?_f=m-sub_channel_1470_feeds_1&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">帝国尴尬了：皇家海军调走运输舰去南海，英国陆军演习没船运坦克</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/9dbfd5056cdf4084a8995c15a22465bc.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/c684962126b545b3a45a34145fba9320.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/0d82a5130a6b4d029751d2ded86dba3e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">虹摄库尔斯克</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:39</span>
+	<span class="com" data-state-loading="253095027">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253095027">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253094380_607689?_f=m-sub_channel_1470_feeds_2&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_2" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">士兵如何看自己剩余子弹数量？方法太直接，连敌人都一眼看清！</h4>
+<footer class="feed__detail">
+		<span class="name">武器风暴眼</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:36</span>
+	<span class="com" data-state-loading="253094380">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253094380">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/153538c6270d48e2b5e63663cfd50b8e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253059044_346466?_f=m-sub_channel_1470_feeds_3&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">中国这6种武器，连美国、俄罗斯都羡慕，个个世界领先</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/76d5dd1cb51f4b6e801b3f4f569a104e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/d05af934ea8642d98acc85bf555e44de.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/11d6debf3e0647bc8ce67fd06b3ae970.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">兵器次元</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:21</span>
+	<span class="com" data-state-loading="253059044">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253059044">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253084977_638238?_f=m-sub_channel_1470_feeds_4&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_4" data-spm-type='content'>
+            <h4 class="feed__title">055万吨驱逐舰引起了美国的警惕，被迫启动一个庞大项目</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/40f8b08d6f2f4605b85c710babdfe426.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/3a310da192d34d438bcd723167a0c473.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/154b066ec67d4c56aa51c9b1cdda307e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name"> 铁血观世界</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:14</span>
+	<span class="com" data-state-loading="253084977">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253084977">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253098508_767131?_f=m-sub_channel_1470_feeds_5&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">叙利亚最后一战将爆发，350万难民吓坏土耳其，重兵拦截可有用？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/ac0729932f6e4040b7c82e564e93e39b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/dbb56a103a2940b6af2e4c945b309ba9.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/783fd322a4aa40c6b411bbcfd3b26505.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">虹摄库尔斯克</span>
+		<span class="dot">·</span>
+	<span class="time">今天 01:23</span>
+	<span class="com" data-state-loading="253098508">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253098508">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253082071_614127?_f=m-sub_channel_1470_feeds_6&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">输赢并不是最重要的：中国歼10再次同泰国鹰狮进行对抗！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f11229c4daf847e38a9b418a8be0751a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f5b734fa47ec4dfd8c34ec9bd5ab635c.png" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/7ad80dc90b114a27b07546d9f44a5214.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">火器营</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:46</span>
+	<span class="com" data-state-loading="253082071">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082071">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253087492_100169017?_f=m-sub_channel_1470_feeds_7&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">F-35实现黑科技！英国这次雄起了！所有飞行器都将危险了</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/57ece7930aa643598ed45a3937b20f69.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/99a475ce6dcd40b1ad60be7708077fa3.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/96072f6b3eaf499fbcd4c02a5a25a5a7.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">辰龙防务</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:51</span>
+	<span class="com" data-state-loading="253087492">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253087492">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253084506_638238?_f=m-sub_channel_1470_feeds_8&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_8" data-spm-type='content'>
+            <h4 class="feed__title">俄罗斯无奈：最终还是选择修补旧航母，新航母实在造不起</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b50be1c243cb4b6c8ce6abe7c319ee07.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/c3736d34a4614d8f8de2b9bbd7846299.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/3c341cd838fb49b984ed9afb0298821c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name"> 铁血观世界</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:07</span>
+	<span class="com" data-state-loading="253084506">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253084506">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253094587_607689?_f=m-sub_channel_1470_feeds_9&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_9" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">美国人眼中最牛的六支步枪，最后一支日本侵华用过！</h4>
+<footer class="feed__detail">
+		<span class="name">武器风暴眼</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:37</span>
+	<span class="com" data-state-loading="253094587">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253094587">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/0268a829a50c40538bf8454a8008d9f4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253080947_600562?_f=m-sub_channel_1470_feeds_10&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">北约国家的武器命名都很高大上，而给中国武器居然起这样的绰号？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0c3f25dfead541229ed7404040159246.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/a4d6d582c988418cb95574746c191333.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/2a2bec92e2204e6a9d70fe872223f4d4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">迷彩青春1001</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:27</span>
+	<span class="com" data-state-loading="253080947">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253080947">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252481501_531913?_f=m-sub_channel_1470_feeds_11&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_11" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">国产CS/LR17系列突击步枪，为何是5.56mm而不是5.8mm口径？</h4>
+<footer class="feed__detail">
+		<span class="name">特战之家</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:24</span>
+	<span class="com" data-state-loading="252481501">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252481501">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/0aac893d3d9946a589e25be7cbfccd28.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253092545_100163484?_f=m-sub_channel_1470_feeds_12&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_12" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">辽宁舰又有重大突破，极限容量令国人热血喷张</h4>
+<footer class="feed__detail">
+		<span class="name">掌握天下</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:15</span>
+	<span class="com" data-state-loading="253092545">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253092545">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/2b6aab1c1d2549d484080ebd7fbba25a.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252483264_531913?_f=m-sub_channel_1470_feeds_13&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_13" data-spm-type='content'>
+            <h4 class="feed__title">能连发的消音穿甲狙击枪, 俄罗斯特种作战武器VSS, 杀人于无形</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/fee0120518394f26b79e5bc18337e76c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/f57c88e2627d49e9afbc18e2b67cc599.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/c30ef1b08964440fb8ad5ce0cf324f7c.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">特战之家</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:24</span>
+	<span class="com" data-state-loading="252483264">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252483264">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253039365_229282?_f=m-sub_channel_1470_feeds_14&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_14" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">港媒：中国将为歼15战机配备国产涡扇10H改进型发动机</h4>
+<footer class="feed__detail">
+		<span class="name">两机动力控制</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:41</span>
+	<span class="com" data-state-loading="253039365">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253039365">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/95631fa2fa3147f58ae0303c99fa4ad5.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253004844_335714?_f=m-sub_channel_1470_feeds_15&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_15" data-spm-type='content'>
+            <h4 class="feed__title">产量超过1400万支！代表德军超过80年！98k凭什么这么NB？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/2663ed23c1bc4dbbbfd99f7ed8f463a5.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/db56a69dd932463695bc8bb3e2f2f81f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/e2bd17b404524184af618731bed1e55d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">军武次位面</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 16:14</span>
+	<span class="com" data-state-loading="253004844">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253004844">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253073242_100211577?_f=m-sub_channel_1470_feeds_16&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_16" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">为什么有的战士, 把两个弹匣用胶布绑在一起, 都是经验啊</h4>
+<footer class="feed__detail">
+		<span class="name">强强流浪记</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:55</span>
+	<span class="com" data-state-loading="253073242">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253073242">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/02b1ab113d624afc86bac6e8a64978da.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253060879_100271455?_f=m-sub_channel_1470_feeds_17&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">世界首艘双向破冰船今日下水，它是用来做啥的，你了解吗</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/01ea1c617cfe4edb8e491fd6a7031cef.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/4b4e468f64a242989b0e0344d748b1c4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/0eabb232fca34c5bacfa98fb6dc8650d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">一点军情</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:34</span>
+	<span class="com" data-state-loading="253060879">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253060879">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253011876_100177677?_f=m-sub_channel_1470_feeds_18&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">叙军正规军采纳的煤气罐炸弹，威力有多强？一个团军队被全灭</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/9c4a78114b6348418a6e92268d68ca5b.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/b04a5dd594594362a0dd7c3f96f0b198.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180910/f8f3e746667347eca59d43c73aa47b16.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">东风军情</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:58</span>
+	<span class="com" data-state-loading="253011876">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253011876">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253093660_805242?_f=m-sub_channel_1470_feeds_19&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">厚积薄发！在这一航空发动机的关键技术上，我们已经超越了美俄？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/7cb8c0724db4441e836cb050176b1f4c.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/30813cd7502543ab80d6f0adf6b5e617.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180911/2a4d420e31aa4147a95b25882d2de07b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">潞州节度</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:25</span>
+	<span class="com" data-state-loading="253093660">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253093660">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252482378_531913?_f=m-sub_channel_1470_feeds_20&amp;scm=0.0.0.0" data-log-content-ev="m-sub_channel_1470_feeds_20" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">造型怪异的弹药, 射程到达5公里击能毁任何汽车</h4>
+<footer class="feed__detail">
+		<span class="name">特战之家</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:23</span>
+	<span class="com" data-state-loading="252482378">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252482378">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/c_fill,w_150,h_100,g_faces,q_70/images/20180907/2a4956d77fec42aeb79c49638ab88918.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+	<feed-list :is_server="true" :sub_id="'1470'" @load_more="addExpose"></feed-list>
+</div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channelSub(cfgs);
+    </script>
+</body>
+</html>

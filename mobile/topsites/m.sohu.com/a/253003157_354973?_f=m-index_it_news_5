@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 30}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="DeepTech深科技">
+    <meta name="sharecontent" content="千年未解质数之谜或藏在准晶体结构中？新研究发现原子排列与质数序列惊人重合">
+    <meta name="keywords" content="千年, 质数, 之谜, 藏在, 晶体结构, 研究, 发现, 原子, 排列, 质数, 序列, 惊人, 重合" />
+    <meta name="description" content="古希腊数学家欧几里得于公元前 300 年前后证明有无限多个素数存在以来，至今科学家仍未发现可以完全区别素数与合数的公式。此外，还有许多有关素数的问题依然未解，如哥德巴赫猜想。" />
+<meta itemprop="dateUpdate" content="2018-09-10 16:00:22" />
+<meta itemprop="datePublished" content="2018-09-10 16:00:22" />    <title>千年未解质数之谜或藏在准晶体结构中？新研究发现原子排列与质数序列惊人重合-科技频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/253003157_354973" />
+    <script>
+        var cfgs = {
+            channelId : '30',
+            media_id: '354973',
+            cms_id: '549062974',
+            title: '千年未解质数之谜或藏在准晶体结构中？新研究发现原子排列与质数序列惊人重合',
+            authorId : '354973',
+            path: 'http://mp.weixin.qq.com/s?timestamp=1536566822&src=3&ver=1&signature=-27*UDLSHCsc2SpwTP8fyxd2Ibk9IzUarX75KvK9ymBPx0pGqQa31dxeuOkvdPGv2n1o3xPI9ZPlJGLqFhIMsdTZ4ZqviSgWdBS0RzsTTT4BxDkRx8NE2Q-MrsChqunVSVbyO4mFA0Mguq8TCRtsNdUBteUpjsJ2ITZZucgWZYA=',
+            authorName : 'DeepTech深科技',
+            newsId : '253003157',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/30?_f=m-article_ch">科技</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">千年未解质数之谜或藏在准晶体结构中？新研究发现原子排列与质数序列惊人重合</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/354973">
+                    <img class="avatar"
+                    src="http://img.mp.sohu.com/upload/20151215/5d7ca4e22d36428ab4da440ae194d9e5.jpg"/>
+                    <div class="infos-wrapper">
+                        <header class="name">DeepTech深科技</header>
+                        <footer class="time">
+                            09-10 16:00
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('mit-tr@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <p>古希腊数学家欧几里得于公元前 300 年前后证明有无限多个素数存在以来，至今科学家仍未发现可以完全区别素数与合数的公式。此外，还有许多有关素数的问题依然未解，如哥德巴赫猜想。但素数已广泛应用在我们的生活中，例如公钥加密就利用了难以将大数分解成其素因数的性质。<strong>目前，确定一个数是否为素数只能进行测试，而难以通过规律准确预测。</strong></p>
+<p>而最近，在普林斯顿大学的一项研究中，科学家发现隐藏在素数分布背后的规律。<strong>通过 X 射线研究准晶体材料内部原子排列模式，研究人员发现所得到的结果与数轴上的素数序列之间有着惊人的相似之处。</strong><strong>这一结果或将极大提高素数预测的精度。</strong></p>
+<p>微软研究中心的首席研究员 Henry Cohn 虽没有参与这项研究，但他说：“这篇论文的有趣之处在于，它为我们提供了一个关于质数的不同视角：我们可以将它们视为粒子，还能尝试通过X射线衍射绘制出它们的结构。这项研究提供了一个优美的新视角，建立了材料科学与晶体散射理论的新联系。”</p>
+<img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/479ffbc1d3ca4da8acf4948db1fcf667.jpeg" class="content-image">
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">83</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>图 | 普林斯顿大学的研究人员发现质数与某些准晶体材料中的原子位置有相似的排列模式。（来源：Kyle McKernan, Office of Communications）</p>
+<p>质数（Prime number），又称素数，指在大于 1 的自然数中，除了 1 和该数自身外，无法被其他自然数整除的数（也可定义为只有 1 与该数本身两个因数的数）。其中，<strong>大质数是许多密码系统的基本构造单元</strong>。虽然数学家已经研究了素数的一些顺序规律，但总的看来质数似乎是随机地分布在数轴上的。最小的几个素数是 2、3、5、7 和 11，随着数轴的延伸，较大的素数的分布则变得更加零散。</p>
+<p>在最近发表于 Journal of Statistical Mechanics: Theory and Experiment 的研究表明，<strong>质数并不像先前所想的那样毫无规律的随机分布。研究人员发现质数在数轴上的序列与 X 射线在材料衍射出的内部原子排列具有惊人的相似性。</strong>普林斯顿材料科学与技术研究所的 Salvatore Torquato 教授和他的同事发现，当考虑大范围时，质数比之前认为的更加有规律，这一模式即“<strong>超齐构体</strong>”模式。这项分析或将对数学和材料学领域的研究者提供帮助。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/02955507fa1d427db04b322d9dfea4fa.jpeg"></p>
+<p>图 | Salvatore Torquato。（来源：C. Todd Reichart, Department of Chemistry）</p>
+<p>“质数的分布远比我们以前认为的要有规律的多”，普林斯顿大学自然科学教授 Lewis Bernard 和 Torquato 教授说，“我们发现质数的分布表现的就像晶体材料一样，更准确地说，是一种称为‘准晶体’的类似晶体的材料。”</p>
+<p>Torquato 及其同事发现，当从数轴上很长一段来看时，质数的分布要比之前所认为的更有规律，属于所谓的“超齐构体”（hyperuniformity）模式。“超齐构体”材料（hyperuniform materials）具有特殊的长程有序性，包括晶体、准晶以及某些特殊无序系统。目前，科学家在鸟类眼睛中视锥细胞的排列中、某些罕见的陨石中以及宇宙大尺度结构中发现了这种“超齐构体”。</p>
+<p>研究者表示，他们在质数中发现的排列模式，跟 X 射线与某些物质相互作用时所得到的模式是一致的。作为化学家的 Torquato 教授非常熟悉 X 射线晶体学，这是一门利用 X 射线来研究晶体中原子排列的学科。比如钻石或其他晶体，<strong>在与 X 射线相互作用的过程会产生可预测的亮点或峰值模式，称为“布拉格峰”（Bragg peaks）。</strong></p>
+<p>相比于典型的晶体材料，准晶材料的布拉格峰排布则更为复杂。典型晶体的布拉格峰会形成规律的有空隙间隔的排布，<strong>但在准晶中，任意两个布拉格峰之间，还可以找到一个新的布拉格峰。</strong></p>
+<p>Torquato 及其同事在质数中发现的模式类似于准晶体中原子的排布模式以及一个称为“有限周期序”（limit-periodic order）系统，但却稍有不同，所以研究者称其为“有效有限周期”（effectively limit-periodic）。<strong>素数出现在一些具有“自相似性”的数组中，也就是说在某些较高的数值“峰”之间，有许多组较小的“峰”。</strong></p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/d37fcf5c4efb48dbb42b3a3575515463.jpg"></p>
+<p>图 | 将素数看作“原子”，红点表示非素数，黑点表示素数。研究者发现某些素数与某些类晶体结构中的原子排布有相似的模式。（来源：Salvatore Torquato 等）</p>
+<p>研究者首先利用计算机模拟研究了将质数作为一串原子与 X 射线相互作用后会发生什么，然后才发现了这个明显的排列模式。在今年 2 月曾发表在《物理学杂志 A》上的研究中，研究报道了所发现的一个令人惊讶的类似于布拉格峰的图样，这表明素数的排列模式其实是高度有序的。</p>
+<p>在近日的研究中，<strong>研究者利用数论方法为前期的模拟实验提供了有力的理论基础。</strong>研究者发现，尽管质数在数轴上较短的间隔里是随机出现的，但在数轴上足够长的范围里，从这些看似混乱的数字中也能找到一定的规律。</p>
+<p>“当到达那个明显的界限时，”Torquato 教授说着，打了个响指，“砰！有序的结构就出现了。”</p>
+<p>De Courcy-Ireland 说，一种称为“圆方法”（circle method）的方法曾描述过类似的数字模式，那是在近一个世纪前发明的用于寻找质数模式的方法。</p>
+<p>“对我来说，有趣的是这些结果追溯可以到 1922 年，然后用某种方式重新阐述它们，得到一个非常有趣的系统，一个有可能指明从哪里能找到更多质数的系统。”De Courcy-Ireland 说。</p>
+<p>这一发现或将有助于数学和材料科学方面的研究。“素数具有漂亮的结构性质，包括不可预期的次序、超齐构体性以及有效有限周期性（effectively limit-periodic）”，Torquato 说，“素数给我们指出了一种全新的物质状态。”</p>
+<p>-End-</p>
+<p>编辑：Lisa 责编：戴青</p>
+<p>参考：</p>
+<p>https://www.princeton.edu/news/2018/09/05/surprising-hidden-order-unites-prime-numbers-and-crystal-materials</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/77794?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">大学</a>
+            <a class="tag" href="http://m.sohu.com/tag/65790?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">技术</a>
+            <a class="tag" href="http://m.sohu.com/tag/60007?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">美的</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="253003157">阅读 (<em data-state="253003157" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'253003157'" :region-id="'30'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-cn" data-log-pv='{"mpc": 30}'>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <meta name="mediaid" content="36氪">
+    <meta name="sharecontent" content="西门子中国研究院院长朱骁洵：不做家电很多年的西门子，早已转型做数字化 | 36氪专访">
+    <meta name="keywords" content="西门子, 中国, 研究院, 院长, 不做, 家电, 很多, 多年, 西门子, 早已, 已转, 转型, 数字化, 36, 专访" />
+    <meta name="description" content="这个年已171岁的制造业巨头已经跳上了数字产业的大船。" />
+<meta itemprop="dateUpdate" content="2018-09-10 08:31:41" />
+<meta itemprop="datePublished" content="2018-09-10 08:31:41" />    <title>西门子中国研究院院长朱骁洵：不做家电很多年的西门子，早已转型做数字化 | 36氪专访-科技频道-手机搜狐</title>
+    <link rel="canonical" href="https://www.sohu.com/a/252923022_114778" />
+    <script>
+        var cfgs = {
+            channelId : '30',
+            media_id: '114778',
+            cms_id: '549015190',
+            title: '西门子中国研究院院长朱骁洵：不做家电很多年的西门子，早已转型做数字化 | 36氪专访',
+            authorId : '114778',
+            path: 'http://mp.weixin.qq.com/s?timestamp=1536542491&src=3&ver=1&signature=9wmFSfrYv9XpAT5c-X0HcEsmNhlc16FRka3dNfVKO0U6hvpnrRUTWkEhJ4wbp-ff*BRzVtg5G323nXdKC5xz6-e9XrwT6MPsutJyA2fwMkafj*U-Yc6ejKKpdRibzTYWzb-s5GQ7d9-DTVeS47iY0YJPrVn-mcTCM6vHQGLq8W0=',
+            authorName : '36氪',
+            newsId : '252923022',
+        };
+        var pageData = {
+            headVideo : {}
+        };
+
+
+    </script>
+ 
+</head>
+    <body class='article-body right-mode-body' data-spm="content">
+
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120267" :addto_desktop_id="10120303" 
+        :is_higher="true" :webclip_action_id="10120368" :addto_desktop_id_ios="10120377"
+        app_down_type="mdetail_putDesk"
+        >
+        </back-top>
+    </div>
+    <div id="toastDialog">
+        <plain-dialog></plain-dialog>
+    </div>
+    <div class="article-page">
+    <div class="sub-header noFixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="http://m.sohu.com/ch/30?_f=m-article_ch">科技</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+        <!-- 文章页内容区块 -->
+        <div class="article-content-wrapper">
+            <!-- 顶通广告占位元素，防止页面抖动。默认640/100的尺寸，但广告也有可能是640/200的 -->
+            <div class="top-bill-wrapper bill-placeholder">
+                <div class="top-bill">
+                    <span class="ch">手机搜狐</span><br/>
+                    <span class="en">SOHU.COM</span>
+                </div>
+            </div>
+            <h2 class="title-info">西门子中国研究院院长朱骁洵：不做家电很多年的西门子，早已转型做数字化 | 36氪专访</h2>
+            <div class="author-info" data-spm="author-info">
+
+                <a class="info" href="http://m.sohu.com/media/114778">
+                    <img class="avatar"
+                    src="http://5b0988e595225.cdn.sohucs.com/avatar/picon/2012/12/18/1355795919760.png"/>
+                    <div class="infos-wrapper">
+                        <header class="name">36氪</header>
+                        <footer class="time">
+                            09-10 08:31
+                        </footer>
+                    </div>
+                </a>
+                <footer class="follow" 
+                data-spm-acode="3401"
+                id="followMedia" @click="followAuthor('cmstest79797@sohu.com')"><i class="add">+</i>关注</footer>
+            </div>
+            <div class="article-main" data-spm="content">
+                <article>
+                    <section id="articleContent" class="article-content">
+                        <div class="display-content">
+                            <img src="http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/fde78f757c064659a5ef277ea874b4b1.jpeg" class="content-image">
+<p>“做技术的人首先要想清楚，这个东西如果你做成了，它的意义在哪？” 朱骁洵说，重视技术的社会价值正是他欣赏西门子的原因。</p>
+<p><strong>文 | 王艺瑾</strong></p>
+<p>创立于1847年的德国西门子公司在1872年进入中国，带来了第一台电报机。此后，西门子又建造了中国第一条有轨电车、第一家发电厂和第一条高压直流输电线。</p>
+<p>但在普通大众的印象里，“西门子”这个名字却是因为频繁出现在洗衣机和冰箱上而成为品牌家电的代名词。</p>
+<p>然而，西门子早在2014年就把家电业务出售给德国博世集团，转而一门心思去做电气化、自动化和数字化业务，提出“公司愿景2020”战略。</p>
+<p>近日，西门子中国研究院院长朱骁洵博士在北京的西门子大厦接受了36氪记者的专访。当被问及为什么西门子的数字化技术不为公众所知，朱骁洵说，这个问题确实是他们的一大痛点。</p>
+<p>“毕竟我们是做面对企业用户（to B）的东西，是平时大家看不到的。我们怎么把这些在工业界已经做到绝对领先的概念让大众去了解，并且让他们体会这里面的价值——这的确是我们自己也一直在琢磨的问题。”</p>
+                        </div>
+                            <section class="look-all" id="artLookAll" data-spm-acode="3402">
+                                <em>展开剩余</em><em class="hidden-ratio-num">88</em><em>%</em><i class="icon-fold icon"></i>
+                            </section>
+                            <div class="hidden-content hide">
+                                <p>高达123米的西门子大厦有着独特的弧形玻璃幕墙，但大厦背后，却坐落着草坪环绕的很多雅致的低层建筑。而走进中国研究院的办公室，见到朱博士，我们却看不到他身上那种典型技术人员的气质，而他也戏称自己为“技术官僚”。从业二十几年、获得250多项美国专利的朱博士，在西门子的管理岗位上，更乐于做“催化剂”，把主要的精力花在了促成研发团队的成功上。</p>
+<p>在2014年加入西门子担任中国研究院院长之前，朱骁洵曾在美国霍尼韦尔公司工作了16年，管理全球近三千人的产品研发团队，直接与市场和客户打交道。而西门子中国研究院却是专注于研究前沿科技，再将研发成果“卖”给公司的业务部门。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/fa108c06845540069b9e61415fd56a0e.jpeg"></p>
+<p>西门子中国研究院院长朱骁洵博士</p>
+<p>这次跳槽对朱骁洵来说是一次职业转型，但他认为这个转型是自然发生的，因为做研究到做产品只不过是“End-to-End”（端到端）的一个完整流程，二者其实不分家。而当他还在美国留学时， 曾经跟从西门子普林斯顿研究院的科学家实习了很多年，学习编程。这段少年时的经历也让他对西门子颇有好感。</p>
+<p>同样是在2014年，西门子也迎来一次公司的战略转型：卖掉家电业务，发力数字化业务。在截至今年6月30日的最新季度财报里，西门子称，它的实体业务（Industrial Business）利润额增长了2%。其中，数字化工厂（Digital Factory）业务营收同比增长12%，利润额同比增长54%。而天然气与电力板块营收同比下降21%，利润额下降56%。可见，数字化业务的快速增长部分抵消了传统能源业务盈利能力的大幅下降。</p>
+<p>可以看出，2014年确立的数字化转型已经让西门子获得了商业回报，于是它在今年又提出一个新战略“公司愿景2020+“。朱骁洵认为，是否能获得商业回报是检验创新的一个量化标准。“创新的主要目的是为了解决痛点。我帮人解决了痛点以后肯定是要有回报的，回报越多就说明这个痛点解决得越好。”</p>
+<p>“但研发不应该被资本驱动，而是为最后的价值驱动。做技术的人首先要想清楚，这个东西如果你做成了，它的意义在哪？” 朱骁洵说，重视技术的社会价值正是他欣赏西门子的原因。</p>
+<p>提到最近被国内外互联网巨头炒得火热的云业务，朱骁洵表示，目前的云计算玩家大多是做纯软件的，可以做大量的数据采集和分析。“那然后怎么办？东西得落地，落地靠硬件，这就是为什么我们很有信心。”朱博士说，西门子有最好的硬件安装基础（install base）、客户渠道和质量稳定的硬件产品——“这才是最后真正对用户产生影响的东西。因为用户要的不是PPT，而是直接能够改变它生产状态的产品。”</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/b699869b97f449ddaba5e95bb3bb9f6a.jpeg"></p>
+<p>在三大运营公司中，西门子对数字化工业的利润率增长预期是最高的</p>
+<p>数据来源：西门子</p>
+<p>西门子此前开发了基于云的开放式物联网操作系统MindSphere，能使工业企业快速收集和分析工业生产过程中的海量数据，找出薄弱环节，使企业能以最低的成本、大幅提升工厂业绩和效率。</p>
+<p>今年7月，西门子和阿里云（Alibaba Cloud）签订合作备忘录称，MindSphere计划在2019年面向中国市场、在阿里云进行部署和运营。而此前，MindSphere已先后登陆了亚马逊AWS和微软Azure。这个工业物联网巨头与全球公有云前三甲的频频联手对他们来说无疑是双赢的过程，而对普通消费者来说，这意味着制造商能更快速准确地响应消费者的个性化需求。</p>
+<p>根据西门子提供的资料，预计2025年之前，西门子物联网集成服务市场的年增长率将达到10%到15%。西门子计划到2025年在这一领域雇佣约1万名员工。朱骁洵认为，现在的物联网很大程度上还停留在咨询（consulting）的状态，没有完整的产品体系。“你找不同的人来讲，他嘴里的物联网都是不一样的。有的人就想卖你几张PPT，有的人就想把云卖给你，口袋里有什么，就说这是物联网。”朱骁洵说，只有把咨询、硬件实施、数据分析和工业云串起来，建立一整套商业模式，物联网的推广才可能会爆发。</p>
+<p>而不管是云业务还是物联网，数据安全问题都令每个人头皮发麻。美国技术和市场研究公司Forrester Research在2018年物联网预测中指出：“安全漏洞是部署物联网解决方案的公司深为担忧的一大问题――事实上，这也是在考虑部署物联网解决方案的企业最关注的问题。然而，大多数公司并没有始终如一地应对物联网安全威胁，业务压力压倒了技术安全问题。”</p>
+<p>但西门子对于网络信息安全这件事似乎颇为上心。2017年，西门子位于苏州的工业信息安全运营中心成为首家同时获得中国国家信息安全等保三级和国际安全认证的工业跨国企业。朱骁洵称，西门子将在10月1日成立一个新部门来负责网络信息安全(cyber security)。“在数字化时代，将来我们所有的产品都是把网络信息安全作为前提来进行。所以我们对工业信息安全还是很有自信的，不管从产品本身的设计，还是到后端的整个网络的监控，我们都有专家在做并且投入巨大。”</p>
+<p>追求安全性和稳定性，可能是西门子一直恪守的产品标准。这或许就能解释为什么西门子在研发城市路面的无人驾驶技术方面显得非常谨慎——毕竟这个新兴行业密切牵涉到人身安全。但西门子在轨道交通的无人驾驶方面已经涉猎已久，它于去年12月宣布要为上海轨道交通18号线一期项目提供全自动无人驾驶车辆牵引系统的核心部件和关键技术，目前已经拿到订单，项目即将启动。能拿到这样一个重量级的轨道交通无人驾驶订单，可见西门子作为一家跨国公司，在中国市场扎根已久。</p>
+<p>在《共同生长的西门子研发与中国创新》一文中，清华大学公共管理学院薛澜教授等人写道，传统跨国公司在中国市场的部署只是总部研发的补充，为了降低研发成本和实现既有产品的本地化。但中国市场环境变化巨大，这种基于总部的研发模式在中国难以为继。“包括礼来、GE、诺华、葛兰素史克、Adobe在内的一大批跨国公司选择了削减其在华的研发业务。但西门子却与之相反，大力加强了在华的研发活动。”文中称。</p>
+<p>在朱骁洵看来，西门子是一个全球公司，但在中国，它又可以算是一家中国公司。因此，其在自身决策过程中有相当大的话语权。 </p>
+<p>这样的自主决策权使得西门子在中国能开发出更接地气的项目，而机器人研发是朱骁洵最满意的项目之一。这也是第一个由西门子中国研究院主导研发，并最终影响西门子全球研发战略的项目。西门子着重研发新型机电一体化、人机协作和人工智能在机器人控制器中的应用，并与清华大学合作在北京成立了先进工业机器人联合研究中心。</p>
+<p><img class="content-image" data-src="//5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180910/9c6a41adb0af4d20b686839cb86b7e91.jpeg"></p>
+<p>做机器人项目的起因，是中国区研究院看到了中国机器人市场的开发潜力。近年来，中国人口红利逐渐消失、劳动力成本上升、消费者购买力升级，这些都催生了中国市场对工业机器人的巨大需求，也吸引了大批本土企业进入机器人制造领域。</p>
+<p>但朱骁洵表示，这些制造商普遍有两个痛点，一是没有可靠的硬件，二是没有精力去研究生产机器人的核心控制算法。所以他们更倾向于从跨国公司手中购买核心控制器。看准这个市场后，他们向总部提出了在中国开发工业机器人控制器的想法。朱骁洵称，现在西门子的PLC控制器已经完全可以胜任一个六轴机器人的控制。</p>
+<p>在访谈快结束时，朱骁洵主动提到西门子想吸引更多年轻的技术人员，尤其是高端博士人才来做研发。 </p>
+<p>提到做技术研究的经验，朱骁洵说，要把一项技术做好，需要十年时间修炼。而很幸运的是，他过去工作过的几家公司都对技术有一个时间上的正确认同。</p>
+<p>同时，朱骁洵还提到自己做技术的最大心得就是“一定要快乐”。他曾经的第一个老板在面试他的时候说过一个词叫“instant gratification”（即时的满足感），也就是说，从事技术研究最有价值的部分，就是能在短期内看到它对人类社会生活的改变。朱骁洵深以为然。</p>
+<p>当被问及是否担心技术变革社会可能导致的巨大风险时，朱骁洵给我们讲了一个故事：一百多年前，纽约有一个很大的产业是做钢琴，因为当时所有人获取音乐的渠道就是买一架钢琴自己弹。之后，留声机出现了，钢琴不再是听音乐的必需品，但当初做钢琴的人并没有因此家破人亡。</p>
+<p>“永远不要低估人。人永远会找到另外一个更快乐、工作时间更短、经济收益更高的行业去解决自己的生存问题。” 朱骁洵说。</p>
+<p>人是如此，企业也一样。</p>
+<p>当大型燃气轮机等业务呈现疲软之态时，这个年已171岁的制造业巨头已经跳上了数字产业的大船。</p>
+    <footer class="article-tags">
+            <a class="tag" href="http://m.sohu.com/tag/78038?_f=m-article_b_tag1" data-log-content-ev="m-article_b_tag1">开发</a>
+            <a class="tag" href="http://m.sohu.com/tag/59998?_f=m-article_b_tag2" data-log-content-ev="m-article_b_tag2">西门子</a>
+            <a class="tag" href="http://m.sohu.com/tag/65790?_f=m-article_b_tag3" data-log-content-ev="m-article_b_tag3">技术</a>
+    </footer>
+<section class="statement">
+    声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。
+</section>                            </div>
+                    </section>
+                    <div class="article-footer">
+                        <span class="com" data-cmsid="252923022">阅读 (<em data-state="252923022" class="com__num">0</em>)</span>
+                        <div id="shareAreaInArticle">
+                            <share-sns :fixed_show="true" :stat_data="{'wechattimeline': '20284','wechatfriends':'20283'}"></share-sns>
+                        </div>
+                    </div>
+                </article>
+                <section id="shareArea">
+                    <share-sns ref="share_dialog" :stat_data="{'wechattimeline': '10036','wechatfriends':'10037','sinaweibo': '10038','huyou': '10005','qq': '10039','qzone': '10040'}" :need_share="true"></share-sns>
+                </section>
+            </div>
+            <div id="artCommentArea">
+                <v-comment :showtype="1" @comment-mounted="commentMounted" :stat-data="{'commentInput': '10120003', 'commentNum': '10120022'}"></v-comment>
+            </div>
+            <div id="apkBannerM">
+                <apk-banner-m></apk-banner-m>
+            </div>
+            <div id="artRecNews">
+                <art-feed :article-id="'252923022'" :region-id="'30'"></art-feed>
+            </div>
+            <div id="artImgsReader">
+                <imgs-reader :lazy-load-attr="'data-src'"></imgs-reader>
+            </div>
+            <!-- 生活服务 -->
+            <div id="artLifeService">
+                <life-service page-type="article" @life_service_mounted="addExpose"></life-service>
+            </div>
+            <!-- 网站地图 -->
+<div class="plate nav_maps article" data-spm="navmap">
+    <header class="plate__head">
+        <h2><cite class="vline"></cite>网站地图</h2>
+    </header>
+    <footer class="footer-navs-wrapper">
+            <ul class="navs-area">
+                <li class="item"><a class="btn" href="http://m.sohu.com/?_f=m_index_dbdh">首页</a></li>
+                <li class="item"><a class="btn" href="../ch/8/index.html?_f=m_important_dbdh">新闻</a></li>
+                <li class="item"><a class="btn" href="../ch/15/index.html?_f=m_business_dbdh">财经</a></li>
+                <li class="item"><a class="btn" href="../c/3/index.html?_f=m_sports_dbdh">体育</a></li>
+                <li class="item"><a class="btn" href="../c/4/index.html?_f=m_yule_dbdh">娱乐</a></li>
+                <li class="item"><a class="btn" href="../ch/10/index.html?_f=m_mil_dbdh">军事</a></li>
+                <li class="item"><a class="btn" href="https://m.auto.sohu.com/?_f=m_auto_dbdh">汽车</a></li>
+                <li class="item"><a class="btn" href="https://m.focus.cn/?_f=m_focus_dbdh">房产</a></li>
+                <li class="item"><a class="btn" href="../c/10/index.html?_f=m_pic_dbdh">图库</a></li>
+                <li class="item"><a class="btn" href="https://book.m.sohu.com/?_once_=000218_rk_mdh">小说</a></li>
+                <li class="item"><a class="btn" href="../ch/13/index.html?_f=m_history_dbdh">历史</a></li>
+                <li class="item"><a class="btn" href="../ch/30/index.html?_f=m_it_dbdh">科技</a></li>
+            </ul>
+    </footer>
+</div>
+            <!-- 底部菜单栏 -->
+
+
+<div class="plate footer_menu article" data-spm="footer">
+    <section class="cooperation">
+        <a class="item" href="https://passport.zhan.sohu.com/passport/sohu/login-jumpto?callback=https%3A%2F%2Fyonghufankui.kuaizhan.com%2Fclubv2%2Fforums%2FWd8dZEz38guoKtsR">用户反馈</a>
+        <a class="item" href="../c/432/index.html">合作</a>
+    </section>
+    <footer class="copyright">
+        <p>Copyright © 2018 Sohu All Rights Reserved</p>
+        <p class="company-font">搜狐公司 版权所有</p>
+    </footer>
+</div>
+            <div class="bottom-slot"></div>            
+        </div>
+    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+    <script src="http://js.tv.itc.cn/m/player/inc-all.js"></script>
+    <script src='http://k.sohu.com/static/ui-open/3.1/js/open.min.js'></script>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.article(cfgs);
+    </script>
+</body>
+</html>

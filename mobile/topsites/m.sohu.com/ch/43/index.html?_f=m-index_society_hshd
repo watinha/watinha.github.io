@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>社会频道 - 手机搜狐</title>
+        <meta name="keywords" content="新闻,时事,社会,民生,评论,头条,排行,搜狐,搜狐社会" /><meta name="description" content="搜狐社会是专业的社会频道,覆盖畅言、百态、新知、深度等栏目。" />
+    <meta name="data-spm" content="smwp">
+    <script>
+        var cfgs = {
+            channel_id : '43'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch43">
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120268" 
+        :addto_desktop_id="10120302" :webclip_action_id="10120367" 
+        :addto_desktop_id_ios="10120376"
+        app_down_type="mchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header fixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../43.1">社会</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<section class="channel-layer-area" data-spm="nav">
+    <section class="layer-box ">
+        <a href="1452" class="btn">畅言</a>
+        <a href="1453" class="btn">百态</a>
+        <a href="1455" class="btn">新知</a>
+        <a href="http://m.sohu.com/ch/43/1456" class="btn">深度</a>
+    </section>
+</section>
+        <section id="channelFocus" class="focus_wrapper" data-spm="fspic">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253068088_478426?_f=m-channel_43_focus_1" data-log-content-ev="m-channel_43_focus_1" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/d35abf33b6d646b3af83c2db95995af7.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">疯狂劫机：FBI布下天罗地网捉捕，他居然凭空消失了？！</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253054155_617717?_f=m-channel_43_focus_2" data-log-content-ev="m-channel_43_focus_2" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/e6098e34de074007a00d48e3319c407d.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">向家中要钱被拒，武大毕业生失联11年 七旬患病老父：儿子来电话就给他寄钱</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253035056_117369?_f=m-channel_43_focus_3" data-log-content-ev="m-channel_43_focus_3" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/6ff882b0fcfa4c8388cb2548b4eabcb1.jpg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">神吐槽：人生如戏，全靠PS加演技</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252782857_658437?_f=m-channel_43_focus_4" data-log-content-ev="m-channel_43_focus_4" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180909/4aec890262ad4a1da4d2609e5abb50ee.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">被韩国“宠着”的农民 | 图集</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252985977_656058?_f=m-channel_43_focus_5" data-log-content-ev="m-channel_43_focus_5" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/6530233441494021b3896fd03afd328a.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">2018韩国小姐出炉：自然脸终于战胜整容脸</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>        </section>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252658676_420076?_f=m-channel_43_feeds_1&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_1" data-spm-type='content'>
+            <h4 class="feed__title">结婚不到1年 妻子被家暴最终身亡 其家属为得赔偿迟迟不报案</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/5514bdc812e046c8b5742036d7432a42.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/8ba2157a5be645b39854841c5f398f26.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/d63d44d69086473fb304bcf879d9db70.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">搜狐警法</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 11:06</span>
+	<span class="com" data-state-loading="252658676">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252658676">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/252737126_420076?_f=m-channel_43_feeds_2&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_2" data-spm-type='content'>
+            <h4 class="feed__title">女子下套与医生发生性关系 敲诈600万</h4>
+<footer class="feed__detail">
+		<span class="name">搜狐警法</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 21:16</span>
+	<span class="com" data-state-loading="252737126">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252737126">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253095813_349247?_f=m-channel_43_feeds_3&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">大连女子悬赏万元寻找一部旧手机！里面的东西太重要…</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/f2997f8dbdae413a84480872c00a87a4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/046ced4f0fac4233bcd88e1c4557f055.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/901dccce22934a1fbf0455b9955e352d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">半岛晨报</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:44</span>
+	<span class="com" data-state-loading="253095813">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253095813">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252784317_351274?_f=m-channel_43_feeds_4&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_4" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">少年街头打架斗殴，已致一死一伤，事发郑州！</h4>
+<footer class="feed__detail">
+		<span class="name">都市报道</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 00:40</span>
+	<span class="com" data-state-loading="252784317">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252784317">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/184defb0210d45ed8fe6c667b2b7e6bb.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252760507_123753?_f=m-channel_43_feeds_5&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_5" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">女老师开宝马操作不当 撞伤6名学生</h4>
+<footer class="feed__detail">
+		<span class="name">中国新闻网</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 00:58</span>
+	<span class="com" data-state-loading="252760507">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252760507">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/da1fa1d7094e4e36b6c3853ee621a5ab.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/252669832_420076?_f=m-channel_43_feeds_6&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">女子把身份证借给领导 名下多出9套房涉千万元</h4>
+<footer class="feed__detail">
+		<span class="name">搜狐警法</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 12:22</span>
+	<span class="com" data-state-loading="252669832">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252669832">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252665332_132462?_f=m-channel_43_feeds_7&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_7" data-spm-type='content'>
+            <h4 class="feed__title">足浴店技师夜不归宿，丈夫气得要离婚！一个举动让他觉得内有蹊跷</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/1043716c3af84c9da56463568291f9b2.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/fb09e1dbb0ed4528921613e6dd1a3c53.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/33d6904dbdba4362abbb9b2196c40055.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">钱江晚报</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 11:35</span>
+	<span class="com" data-state-loading="252665332">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252665332">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252988338_115004?_f=m-channel_43_feeds_8&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_8" data-spm-type='content'>
+            <h4 class="feed__title">“戏精”上身！男子一人“分饰六角” 受害者被骗200余万元</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/94d0639c7a13466785bddaa9270d98c6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/2f1c774455354d458a02f00339494f66.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/6538425779904e18b5345e878b922ba6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">央视新闻</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:01</span>
+	<span class="com" data-state-loading="252988338">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252988338">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252856052_563929?_f=m-channel_43_feeds_9&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_9" data-spm-type='content'>
+            <h4 class="feed__title">京东首次承认刘强东性侵调查，最新声明公布，案情很复杂？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d4a31ecabe6c499b807a6124c0771753.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/1aadd48d6e8a4fa0b8f840d8a8133d32.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/5902f8aaa4b0455b9e35e7095ff0d1f7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">英国唐顿移民中心</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 09:49</span>
+	<span class="com" data-state-loading="252856052">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252856052">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253011937_617374?_f=m-channel_43_feeds_10&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_10" data-spm-type='content'>
+            <h4 class="feed__title">因一条不牵狗绳的狗，网红狠推32周孕妇，警方深夜通报</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/1d02aecc4b5644c4967cc15ba0d7ce4a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/a3689dc76d124737974807cacc85acc1.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/f1318a1b49b8482f99268f69917030e4.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">澎湃新闻精选</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 16:32</span>
+	<span class="com" data-state-loading="253011937">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253011937">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252736289_112864?_f=m-channel_43_feeds_11&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_11" data-spm-type='content'>
+            <h4 class="feed__title">18年前，有人因“娘炮歧视”而死，18年后，他白死了</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/166c7343501a4c8c80ae409452af050a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/8a64d1efcd634f80879e078dac2fa485.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/d9f334c0c3eb4fcf890682cc2b42d69d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">谈资</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 21:02</span>
+	<span class="com" data-state-loading="252736289">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252736289">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253082775_652017?_f=m-channel_43_feeds_12&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_12" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">厉害了！外卖小哥送个外卖，顺便还帮警察抓了俩小偷</h4>
+<footer class="feed__detail">
+		<span class="name">广东公共频道DV现场</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:10</span>
+	<span class="com" data-state-loading="253082775">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082775">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/6fe9c91185e340a59a74c97686d4e209.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252631303_132462?_f=m-channel_43_feeds_13&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_13" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">被蚊子叮了下屁股，23岁小伙险些休克</h4>
+<footer class="feed__detail">
+		<span class="name">钱江晚报</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 07:28</span>
+	<span class="com" data-state-loading="252631303">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252631303">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/0f0c38f85bb445db9b70e05c5aca3113.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253038825_483340?_f=m-channel_43_feeds_14&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_14" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">女司机嫌“骑车人”挡道 还教儿子骂人</h4>
+<footer class="feed__detail">
+		<span class="name">黑鸟单车</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 18:03</span>
+	<span class="com" data-state-loading="253038825">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253038825">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/dd046b293b6e4c83b4fba8c231bc4ba0.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252820740_115004?_f=m-channel_43_feeds_15&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_15" data-spm-type='content'>
+            <h4 class="feed__title">养老山庄竟成诈骗“基地” 涉案超3亿</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/94f35a37303f4c85a791b37dde994f11.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/8ae524fb27ee47ce981964e1f48fbc61.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/3aac80616e0c4229b6aa6001be62981b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">央视新闻</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 13:19</span>
+	<span class="com" data-state-loading="252820740">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252820740">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252907579_132462?_f=m-channel_43_feeds_16&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">为了让儿子上最好的小学，她找前男友帮忙，谁知他竟动了这心思</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b8fe04cdb20649159af5e9364fc53e74.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/7f230080b4f34e8d93fbf4b077ee2021.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ef8f1f4982d94df88b59658cb8920d29.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">钱江晚报</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 07:00</span>
+	<span class="com" data-state-loading="252907579">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252907579">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253082779_652017?_f=m-channel_43_feeds_17&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">慎入！隔着屏幕都觉得臭，记者现场直击黑作坊用腐肉炼油</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/9a71e835f42d4f42aa720b91403ac982.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/0fd8cf7f174a4833a3a3f88b527f3ac8.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/32f835ccbbf246f195519e542d261778.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">广东公共频道DV现场</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:10</span>
+	<span class="com" data-state-loading="253082779">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253082779">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252630953_132462?_f=m-channel_43_feeds_18&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_18" data-spm-type='content'>
+            <h4 class="feed__title">女子为前任生孩子 还向男友借了270万给他</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/c5fb17cd7d03482ba5f7175da08c8805.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/d474cfc147fe411b93754f0d3d60fd16.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/c63aa5eed942441e87242a9fee6c8d2a.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">钱江晚报</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 07:28</span>
+	<span class="com" data-state-loading="252630953">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252630953">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252665333_132462?_f=m-channel_43_feeds_19&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_19" data-spm-type='content'>
+            <h4 class="feed__title">高校食堂的WiFi密码竟是一道题！网友：打扰了，我用流量吧</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/5fe798504a1d4957acb6cd2937f8d4a9.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/eeacfbd0dd234e65bc2b270a507feb25.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180908/07c3e73fb9364f43852da0b9b0a2ad5e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">钱江晚报</span>
+		<span class="dot">·</span>
+	<span class="time">09-08 11:35</span>
+	<span class="com" data-state-loading="252665333">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252665333">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253095275_338398?_f=m-channel_43_feeds_20&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_43_feeds_20" data-spm-type='content'>
+            <h4 class="feed__title">73岁富翁招妻：40岁以下，一年零花钱40万、信用卡随便刷丨被骂了</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/f138f2c073f44a5c98ba97d691db9c04.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/27310be96c2840a68a4a290ad764b984.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/12d8405ffb2f428494356c375437f2fe.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">新晚报</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:17</span>
+	<span class="com" data-state-loading="253095275">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253095275">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+    <feed-list :is_server='true' :channel_id="'43'" :is_channel="true" @load_more="addExpose"></feed-list>
+</div>    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channel(cfgs);
+    </script>
+</body>
+</html>

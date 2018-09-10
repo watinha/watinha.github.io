@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="data-spm" content="smwp">
+<link rel="dns-prefetch" href="http://statics.itc.cn/" />
+<link rel="dns-prefetch" href="http://5b0988e595225.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://29e5534ea20a8.cdn.sohucs.com/" />
+<link rel="dns-prefetch" href="http://img.mp.itc.cn/" />
+<link rel="dns-prefetch" href="http://img.mp.sohu.com/" />
+<link rel="icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://mp.sohu.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://zmt.itc.cn/static/images/pic/sohu-logo/logo-144.png" />
+<link rel="stylesheet" type="text/css" href="http://statics.itc.cn/mobile/css/main-f998c5e051.css"/>
+<script type="text/javascript">
+(function(c,f){var s=c.document;var b=s.documentElement;var m=s.querySelector('meta[name="viewport"]');var n=s.querySelector('meta[name="flexible"]');var a=0;var r=0;var l;var d=f.flexible||(f.flexible={});if(m){var e=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);if(e){r=parseFloat(e[1]);a=parseInt(1/r)}}else{if(n){var j=n.getAttribute("content");if(j){var q=j.match(/initial\-dpr=([\d\.]+)/);var h=j.match(/maximum\-dpr=([\d\.]+)/);if(q){a=parseFloat(q[1]);r=parseFloat((1/a).toFixed(2))}if(h){a=parseFloat(h[1]);r=parseFloat((1/a).toFixed(2))}}}}if(!a&&!r){var p=c.navigator.appVersion.match(/android/gi);var o=c.navigator.appVersion.match(/iphone/gi);var k=c.devicePixelRatio;if(o){if(k>=3&&(!a||a>=3)){a=3}else{if(k>=2&&(!a||a>=2)){a=2}else{a=1}}b.setAttribute("class","ios")}else{a=1;b.setAttribute("class","android")}r=1/a}b.setAttribute("data-dpr",a);if(!m){m=s.createElement("meta");m.setAttribute("name","viewport");m.setAttribute("content","initial-scale="+r+", maximum-scale="+r+", minimum-scale="+r+", user-scalable=no");if(b.firstElementChild){b.firstElementChild.appendChild(m)}else{var g=s.createElement("div");g.appendChild(m);s.write(g.innerHTML)}}function i(){var t=b.getBoundingClientRect().width;if(t/a>540){t=540*a}var u=t/10;b.style.fontSize=u+"px";d.rem=c.rem=u}c.addEventListener("resize",function(){clearTimeout(l);l=setTimeout(i,300)},false);c.addEventListener("pageshow",function(t){if(t.persisted){clearTimeout(l);l=setTimeout(i,300)}},false);if(s.readyState==="complete"){s.body.style.fontSize=12*a+"px"}else{s.addEventListener("DOMContentLoaded",function(t){s.body.style.fontSize=12*a+"px"},false)}i();d.dpr=c.dpr=a;d.refreshRem=i;d.rem2px=function(u){var t=parseFloat(u)*this.rem;if(typeof u==="string"&&u.match(/rem$/)){t+="px"}return t};d.px2rem=function(u){var t=parseFloat(u)/this.rem;if(typeof u==="string"&&u.match(/px$/)){t+="rem"}return t}})(window,window["lib"]||(window["lib"]={}));
+</script>    <title>星座频道 - 手机搜狐</title>
+        <meta name="keywords" content="星座,星座查询,十二星座,运势,塔罗,占卜,占星,生肖,测算,八字" /><meta name="description" content="运势、命理、风水、解梦，似信非信，人生际遇，是良多感慨还是把握当下。你是否需要的不仅仅是导航灯，更向往几句指点迷津的话语。搜狐星座，让你懂得多一点，前途亮一些。" />
+    <meta name="data-spm" content="smwp">
+    <script>
+        var cfgs = {
+            channel_id : '27'
+        };
+        var pageData = {};
+    </script>
+</head>
+<body class="right-mode-body" data-spm="ch27">
+    <div id="backTop">
+        <back-top :is_index="false" :backhome_id="10120268" 
+        :addto_desktop_id="10120302" :webclip_action_id="10120367" 
+        :addto_desktop_id_ios="10120376"
+        app_down_type="mchanel_putDesk"></back-top>
+    </div>
+    <div class="channel-page">
+    <div class="sub-header fixed" data-spm="hdn">
+        <header class="header__l">
+            <a class="back-home" href="../../index.html" onclick="goSpecialUrl('home', event)">
+                <i class="back icon-left"></i>
+                <cite class="sohu"></cite>
+                <h2 class="home">首页</h2>
+            </a>
+                <a class="back-sub" href="../27.1">星座</a>
+        </header>
+        <footer class="header__r">
+            <a class="fr" href="http://m.sohu.com/promotion?posId=50010101&amp;itemId=7764&amp;link=http%3A%2F%2Fm.tv.sohu.com%2F20180830%2Fn600588715.shtml%3Fsrc%3D10010001" data-promo="true">
+                <i class="sprite-icons-video fl"></i>
+                <span>唐诗三百案</span>
+            </a>
+        </footer>
+    </div>
+<section class="channel-layer-area" data-spm="nav">
+    <section class="layer-box ">
+        <a href="http://m.sohu.com/ch/27/1419" class="btn">测算</a>
+        <a href="http://m.sohu.com/ch/27/1416" class="btn">运势</a>
+        <a href="http://m.sohu.com/ch/27/1417" class="btn">生肖</a>
+        <a href="http://m.sohu.com/ch/27/1418" class="btn">风水</a>
+        <a href="http://m.sohu.com/ch/27/1415" class="btn">星座趣闻</a>
+    </section>
+</section>
+        <section id="channelFocus" class="focus_wrapper" data-spm="fspic">
+<section class="mp-focus-content">
+    <div class="swiper-container"> 
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253016926_102092?_f=m-channel_27_focus_1" data-log-content-ev="m-channel_27_focus_1" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/6ee68bb576c741fdb17e364f556d8e48.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">9月11号生肖运势早知道</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253052887_509116?_f=m-channel_27_focus_2" data-log-content-ev="m-channel_27_focus_2" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/0a16dac1b3fa4455bf80f150fd4dcec1.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">九月份诸事顺利，心想事成的生肖</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253083760_100065791?_f=m-channel_27_focus_3" data-log-content-ev="m-channel_27_focus_3" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/21304bce16be41f89e6626873d35598c.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">智慧过人的三大星座，财运方面甩人十条街，脱颖而出</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/252940792_567739?_f=m-channel_27_focus_4" data-log-content-ev="m-channel_27_focus_4" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/d159c09a9bd244c39d78bf80a7328132.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">九月中旬将会走好运，财旺爱情旺的六个星座</span>
+                        </footer>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://m.sohu.com/a/253034156_405381?_f=m-channel_27_focus_5" data-log-content-ev="m-channel_27_focus_5" 
+                    class="focus-item__jump">
+                        <img src="http://5b0988e595225.cdn.sohucs.com/c_fill,w_600,h_300,g_faces/images/20180910/19a434a30c1c4b92baa270d66d6e32da.jpeg" class="focus-item__img"> 
+                        <footer class="focus-item__info">
+                            <span class="focus-item__info__text">明天开始，3生肖惊喜连连，未来一个月运势好到爆，桃花运更旺</span>
+                        </footer>
+                    </a>
+                </div>
+        </div>
+        <footer class="mp-focus-pagination">
+            <span class="index__star index__star--ac"></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span><span class="index__star "></span>  
+        </footer>
+    </div>
+</section>        </section>
+<div class="feed-list-container" data-spm="fd-s" data-spm-stop="init">
+	<ul class="feed-list-area">
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252989477_509231?_f=m-channel_27_feeds_1&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_1" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">杨清华十二生肖9月10日—16日运势</h4>
+<footer class="feed__detail">
+		<span class="name">星星的情书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 14:42</span>
+	<span class="com" data-state-loading="252989477">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252989477">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d06cb0644503491588d9f15d9c22a064.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253102776_190942?_f=m-channel_27_feeds_2&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_2" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">【周运】柒爸一周星座运势（9.10-9.16）</h4>
+<footer class="feed__detail">
+		<span class="name">柒爸星座</span>
+		<span class="dot">·</span>
+	<span class="time">今天 02:33</span>
+	<span class="com" data-state-loading="253102776">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253102776">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/f228ea72d481428aa7cd728f5ed57362.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253059698_106779?_f=m-channel_27_feeds_3&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_3" data-spm-type='content'>
+            <h4 class="feed__title">（周运）佩妮每周星座运程9.10-9.16</h4>
+<footer class="feed__detail">
+		<span class="name">星译社</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:00</span>
+	<span class="com" data-state-loading="253059698">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253059698">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253070866_163345?_f=m-channel_27_feeds_4&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_4" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">白羊座本周运势！</h4>
+<footer class="feed__detail">
+		<span class="name">白羊座运势</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:00</span>
+	<span class="com" data-state-loading="253070866">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253070866">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c9647dcf859d4e33ac729e8d8fdb197c.gif" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253076883_126745?_f=m-channel_27_feeds_5&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_5" data-spm-type='content'>
+            <h4 class="feed__title">12星座一周运势9.10-9.16（文字版）</h4>
+<footer class="feed__detail">
+		<span class="name">唐绮阳占星</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:00</span>
+	<span class="com" data-state-loading="253076883">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253076883">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253059453_106779?_f=m-channel_27_feeds_6&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_6" data-spm-type='content'>
+            <h4 class="feed__title">（感情运）玛利亚每周星座感情运9.10-9.16</h4>
+<footer class="feed__detail">
+		<span class="name">星译社</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:25</span>
+	<span class="com" data-state-loading="253059453">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253059453">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253012094_371578?_f=m-channel_27_feeds_7&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_7" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">【诡魅塔罗-日运】12星座9月11日运势播报</h4>
+<footer class="feed__detail">
+		<span class="name">诡魅塔罗</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 21:54</span>
+	<span class="com" data-state-loading="253012094">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253012094">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e8022effc7a9464b9f19418aa578a415.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253058145_106779?_f=m-channel_27_feeds_8&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_8" data-spm-type='content'>
+            <h4 class="feed__title">（周运）App每周星座运程9.10-9.16（修正）</h4>
+<footer class="feed__detail">
+		<span class="name">星译社</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:19</span>
+	<span class="com" data-state-loading="253058145">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253058145">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252918881_102264?_f=m-channel_27_feeds_9&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_9" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">【一周星相】处女座新月，火星进入水瓶座。</h4>
+<footer class="feed__detail">
+		<span class="name">道不精Athena</span>
+		<span class="dot">·</span>
+	<span class="time">09-09 10:47</span>
+	<span class="com" data-state-loading="252918881">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252918881">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/245e9aff43614f9eaa0fb41fb6c634ae.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252946871_567739?_f=m-channel_27_feeds_10&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_10" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">九月中旬受月老眷顾，感情会变好的几对生肖组合</h4>
+<footer class="feed__detail">
+		<span class="name">星了个星座</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 11:06</span>
+	<span class="com" data-state-loading="252946871">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252946871">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/8aef04eada1b46c5b93dbc9f6d7609dc.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253079650_102265?_f=m-channel_27_feeds_11&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_11" data-spm-type='content'>
+            <h4 class="feed__title">9.11日运|双鱼桃花运旺 摩羯运势低迷</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/bdda05fb5c2e4f8383082593e236db04.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c02c2d3397184e53bff12aee3c61b267.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/7a2d0fc1658a4a4c9ceb742adfb9a1aa.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">科技紫微星座网</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:20</span>
+	<span class="com" data-state-loading="253079650">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253079650">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252833548_420720?_f=m-channel_27_feeds_12&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_12" data-spm-type='content'>
+            <h4 class="feed__title">与12生肖最有缘的星座，看看你和谁有缘？</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/31789e015aeb40a2ae7eba091af2555f.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/ed13fb0d490048dda8ce7690526b0fd0.jpg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180909/fab05b9324754454be08c1b77e9e3820.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">每日星座资讯</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 13:36</span>
+	<span class="com" data-state-loading="252833548">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252833548">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253079858_167067?_f=m-channel_27_feeds_13&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_13" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">12星座2018年9月11日运势详解</h4>
+<footer class="feed__detail">
+		<span class="name">星座爱情运势</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:20</span>
+	<span class="com" data-state-loading="253079858">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253079858">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/c6a5d5a8e21a46b1a0dfeeb99ff4c10e.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/253092861_509144?_f=m-channel_27_feeds_14&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_14" data-spm-type='content'>
+            <h4 class="feed__title">新鲜出炉！十二星座风骚指数排行榜</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/db39f70d3f70419788fcf7e1740a0010.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/e396ce7462f8400bbf00f67ba6b53021.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/f1f6c38e46ab4fc891df6cca71b2f859.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">同道星座运势</span>
+		<span class="dot">·</span>
+	<span class="time">今天 00:00</span>
+	<span class="com" data-state-loading="253092861">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253092861">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252982286_509231?_f=m-channel_27_feeds_15&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_15" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">本周这些生肖财运旺！快来接财运！</h4>
+<footer class="feed__detail">
+		<span class="name">星星的情书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 13:49</span>
+	<span class="com" data-state-loading="252982286">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252982286">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/b0434b62ae384b2ba0ee849c41c48ab6.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="plainText" href="http://m.sohu.com/a/253059249_106779?_f=m-channel_27_feeds_16&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_16" data-spm-type='content'>
+            <h4 class="feed__title">（周运）娜迪亚每周星座运程9.10-9.16</h4>
+<footer class="feed__detail">
+		<span class="name">星译社</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 20:23</span>
+	<span class="com" data-state-loading="253059249">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253059249">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+        <a class="threePic" href="http://m.sohu.com/a/252998553_509231?_f=m-channel_27_feeds_17&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_17" data-spm-type='content'>
+            <h4 class="feed__title">9月桃花多，能遇到真爱的星座，水瓶座要多参加聚会！</h4>
+            <ul class="threePic__pics">
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/60eeb6fa38e84f6e858b34057876d76b.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/ef879cd1044742389eea7eaacd3806e7.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+                <li class="pic-item">
+                    <img class="lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/e93443fb5de04116ac1f2dbf906cf76d.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                </li>
+            </ul>
+<footer class="feed__detail">
+		<span class="name">星星的情书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 15:26</span>
+	<span class="com" data-state-loading="252998553">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252998553">0</em>
+	</span>
+</footer>
+        </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253097328_509231?_f=m-channel_27_feeds_18&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_18" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">常常活在自我感动中的生肖</h4>
+<footer class="feed__detail">
+		<span class="name">星星的情书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 22:59</span>
+	<span class="com" data-state-loading="253097328">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253097328">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/119ea15221b74443a7e37479ef536c3f.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/252902692_509231?_f=m-channel_27_feeds_19&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_19" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">坎坷磨难熬到了尽头，马上时来运转迎富贵的人！</h4>
+<footer class="feed__detail">
+		<span class="name">星星的情书</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 04:33</span>
+	<span class="com" data-state-loading="252902692">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="252902692">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180910/d1aeb5d59dbd4a69ba7f7bedf78f5a21.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+<li class="feed-item right-mode" data-pull-time="1" data-spm-type='resource'>
+                <a class="onePic" href="http://m.sohu.com/a/253093951_642972?_f=m-channel_27_feeds_20&amp;scm=1001.10001.9d.0" data-log-content-ev="m-channel_27_feeds_20" data-spm-type='content'>
+                    <article class="onePic__content">
+                        <h4 class="feed__title">为什么爱情让你痛苦？我来告诉你答案</h4>
+<footer class="feed__detail">
+		<span class="name">撩汉秘术</span>
+		<span class="dot">·</span>
+	<span class="time">昨天 23:32</span>
+	<span class="com" data-state-loading="253093951">
+		<i class="icon icon-eye"></i><em class="com__num" data-state="253093951">0</em>
+	</span>
+</footer>
+                    </article>
+                    <section class="onePic__img-area">
+                        <img class="onePic__img lazy" original="//5b0988e595225.cdn.sohucs.com/q_70,c_fill,w_154,h_100,g_faces/images/20180911/37ca3dbe7c79470cb872d0a14a6244ee.jpeg" src="http://47f72d130392f.cdn.sohucs.com/web/static/images/pic/preload.png"/>
+                    </section>
+                </a>
+</li>
+	</ul>
+</div>
+<div id="channelFeed">
+    <feed-list :is_server='true' :channel_id="'27'" :is_channel="true" @load_more="addExpose"></feed-list>
+</div>    </div>
+    <footer id="webClip">
+        <web-clip ref="webclip"></web-clip>
+    </footer>
+<script src="http://statics.itc.cn/mobile/js/lib-405c6d42b9.js"></script>
+<script src="http://statics.itc.cn/mobile/js/main-8f3f2e7367.js"></script>
+<script src="http://js.sohu.com/pv.js?_t=20171214"></script>
+<script src="https://39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+
+<script type="text/javascript">
+var _maq = _maq || [];
+var userAgent = window.navigator.userAgent;
+var android = userAgent.match(/(Android)[\s\/]*([\d\.]+)/i);
+var ios = userAgent.match(/(iPad|iPhone|iPod)[\w\s]*;(?:[\w\s]+;)*[\w\s]+(?:iPad|iPhone|iPod)?\sOS\s([\d_\.]+)/i);
+_maq.push(
+  ['account', 'sohunews'],
+  ['channel', ''],
+  ['point', ''],
+  ['platform', android ? 'android' : (ios ? 'ios' : '')]);
+(function() {
+var ma = document.createElement('script');
+ma.type = 'text/javascript';
+ma.async = true;
+ma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.qchannel03.cn/m2.js?w='+_maq[0][1];
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+</script><script src="http://statics.itc.cn/spm/prod/js/1.0.1/index.js"></script>
+    <script>
+        h5_sohu.channel(cfgs);
+    </script>
+</body>
+</html>
