@@ -1,0 +1,29 @@
+### BEGIN FILE ###
+#
+# DR
+#
+#
+# The use of robots or other automated means to access the eBay site
+# without the express permission of eBay is strictly prohibited.
+# Notwithstanding the foregoing, eBay may permit automated access to
+# access certain eBay pages but soley for the limited purpose of
+# including content in publicly available search engines. Any other
+# use of robots or failure to obey the robots exclusion standards set
+# forth at <http://www.robotstxt.org/orig.html> is strictly
+# prohibited.
+#
+
+User-agent: *
+Disallow: /*rt=nc
+Disallow: /b/*LH_
+Disallow: /sch/*%7C
+Disallow: /sch/*LH_
+Disallow: /sme/
+Disallow: /soc/
+Disallow: /sch/*modules=SEARCH_REFINEMENTS_MODEL_V2
+Disallow: /b/*modules=SEARCH_REFINEMENTS_MODEL_V2
+Disallow: /itm/*_nkw
+Disallow: /itm/*?fits
+Disallow: /itm/*&fits
+
+### END FILE ###

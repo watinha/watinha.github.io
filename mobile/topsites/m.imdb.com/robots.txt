@@ -1,0 +1,16 @@
+# m.imdb.com
+User-agent: *
+Disallow: /*/*/rg*/mediaviewer/rm*/tr
+Disallow: /*/rg*/mediaviewer/rm*/tr
+Disallow: /_json/
+Disallow: /ads/
+Disallow: /ap/
+Disallow: /find$
+Disallow: /find/
+Disallow: /gallery/rg*/mediaviewer/rm*/tr
+Disallow: /name/json/
+Disallow: /name/nm*/mediaviewer/rm*/tr
+Disallow: /registration/
+Disallow: /title/json/
+Disallow: /title/tt*/mediaviewer/rm*/tr
+Disallow: /tr/

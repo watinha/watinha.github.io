@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="pt"><head><!-- Sync with the domain names for Node JS version in
+https://github.corp.ebay.com/nodejs/site-speed-ebay/blob/master/lib/index.js--><link rel="dns-prefetch" href="https://secureir.ebaystatic.com/"><link rel="dns-prefetch" href="https://i.ebayimg.com/"><script>var ABOVEFOLD = {imagesCount : 0, completedAt : null, load : function(source){this.completedAt = new Date().getTime();this.imagesCount++;},time : function(){return this.completedAt;}}; </script><script type="text/javascript">var ABOVEFOLD = {
+	imagesCount : 0,
+	completedAt : null,
+	load : function(source) {
+		this.completedAt = new Date().getTime();
+		this.imagesCount++;
+	},
+	time : function() {
+		return this.completedAt;
+	}
+};</script><meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="format-detection" content="telephone=no"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="expires" content="0"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="pragma" content="no-cache"><meta name="msapplication-tap-highlight" content="no" /><meta name="referrer" content="unsafe-url"><link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://ir.ebaystatic.com/pictures/aw/pics/mobile/images/apple-touch-icon.png"><link rel="shortcut icon" href="https://ir.ebaystatic.com/rs/v/odwzr2qysi3fpkvoqj35al3w2uk.ico" /><title>Sobre o eBay</title>
+	<link href="https://ir.ebaystatic.com/rs/v/ay5pjmfxre4mrmldvzljnzgdgeq.css" type="text/css" rel="stylesheet"></head><body><div id="mw-hdr" data-variation="4" data-rover="https://rover.ebay.com"  class=" newSearchIconV2"><a class="ac-hide-cnt" href="about#mainContent" id="skiptomaincnt">Pular para o conteúdo principal</a><div id="tbdHdr"><div class="cl lgoCl"><a href="index.html?SSOWebDispatcher&amp;tg=web&amp;ru=" ><img class="headerLogo" alt="eBay" src="https://ir.ebaystatic.com/pictures/aw/pics/mobile/images/logo_new_d_v2.png" border="0"/></a></div><div class="floatedRight"><div class="cl srchCl "><a aria-haspopup="true" alt="Pesquisar no eBay" title="Pesquisar no eBay"href="javascript:void(0)" id="tglSrchAncr" class="tracking " ><span class="hdSpt"></span><span class="ac-hide-cnt">Pesquisar no eBay</span></a></div><div class="cl myBCl"><a title="Acessar a página Meu eBay" href="https://m.ebay.com/myebay?actionName=WATCHING" ><span class="hdSpt"></span><span class="ac-hide-cnt">Acessar a página Meu eBay</span></a></div><div class="cl shopCart"><a title="Acessar página do carrinho" href="shoppingCart" id="shopCartAnchr" class="tracking" ><span class="shopCartDiv"><div class="shopCartSq hidden"></div></span><span class="ac-hide-cnt">Acessar página do carrinho</span></a></div></div></div><form action="https://m.ebay.com/sch/i.html" method="get" id="srchFrm" class="hidden" data-ttl-rws="0" data-ttl-rws-cat="0"><span><div id="srchDv" ><div class="gtx" id="ghostText"><div class="gtxi" id="gohstText"></div></div><div class="inputDiv"><input type="text" class="inputStyle tracking"  value="" placeholder="Estou procurando..."  id="kw" name="_nkw" autocomplete="off" data-sid="0" onkeypress="return AutoSuggestion.onKeyPress(event, 'kw');" /></div></div></span><a class="btnWdth" title="Pesquisar no eBay" role="button" onclick="return AutoSuggestion.triggerSearch('kw');" href="about#" id="searchBtn" ><span class="srchBtnLg"></span></a><input type="hidden" id="afSqp" name="sqp" /><input type="hidden" id="afTrkSid" name="_trksid" /></form><div class="mw-msg hidden &nbsp; error" id="cookieMsg" ><span class="errorIcon"></span><span class="errorMessage">É necessário aceitar cookies, mas essa opção não está ativada no seu navegador. Ajuste as preferências do navegador antes de continuar.</span></div></div><div id="autoFill" class="suggestion hideDivs"></div><div id="dataAttr" data-signed="false" data-fromLogout="false"></div>
+<span class="pgHeading">Sobre o eBay</span><div class="mainDiv"><span class="addrLine1"> O eBay é o maior mercado online do mundo e é disponibilizado a clientes em qualquer dispositivo conectado à Internet, interligando as pessoas com as coisas que elas necessitam ou desejam.</span><span class="addrLine1"> Com mais de 100 milhões de usuários ativos no mundo inteiro (no quarto trimestre de 2011), o eBay é o maior mercado online, onde qualquer pessoa pode comprar e vender praticamente tudo. A empresa, fundada em 1995, interconecta uma comunidade diversificada de compradores e vendedores, além de pequenas e micro empresas. O impacto conjunto dessa comunidade no comércio eletrônico é extraordinário: em 2011, o valor total de mercadorias vendidas no eBay chegou a 68,6 bilhões de dólares - mais de US$ 2.100,00 a cada segundo. <a href="http://www.ebayinc.com" target="_blank">Para obter mais informações sobre o eBay, acesse www.ebayinc.com</a></span><span class="addrLine1"> eBay Marketplaces é líder em comércio eletrônico móvel. Nenhuma outra empresa que disponibiliza comércio eletrônico produziu tantas inovações em tantos tipos de dispositivos, e em tantos países quando o eBay. Os apps do eBay já foram baixados mais de 162.000.000 de vezes e estão disponíveis em oito idiomas e 190 países, para dispositivos iPhone, iPad, Android e BlackBerry. Para saber mais sobre os apps eBay Mobile acesse <a href="http://mobile.ebay.com" target="_blank">http://mobile.ebay.com</a></span><span class="headQ">	eBay Inc. Headquarters</span><span class="addrLine1">	Whitman Campus</span><span class="addrLine">	2065 Hamilton Avenue</span><span class="addrLine">	San Jose, CA 95125 EUA</span><span class="phone">	(408) 376-7400</span><span class="headQ">CEO</span><span class="ceoName">Devin Wenig</span></div><footer class=" fsec"><section id="f1sec"><div class="footlist"><span class="im hm"></span><a
+						href="index.html?SSOWebDispatcher&amp;tg=web&amp;ru="
+						>
+						Início</a></div><div class="footlist"><span class="im my"></span><a
+							href="https://m.ebay.com/myebay?actionName=WATCHING"
+							>
+							Meu eBay </a></div><div class="footlist"><span class="im sign"></span><a id="signinlnk"
+								href="https://signin.ebay.com/ws/eBayISAPI.dll?Signin&srcAppId=3564&ru=https%3A%2F%2Fm.ebay.com%2Fabout"
+								>
+								Entre / Cadastre-se</a></div><div class="footlist"><span class="im sell"></span><a
+								href="http://www.ebay.com/sl/sell"
+								>
+								Vender item</a></div><div class="footlist"><span class="im cus"></span><a
+						href="https://m.ebay.com/ocshelp?srcAppId=5&ePageId=eBay%2BMobile"
+						>
+						Ajuda e contato</a></div><div class="footlist"><span class="gb"></span><a id="toggle" href="javascript:void(0);"
+							>
+							English</a></div></section><section id="f3sec"><div class="ftLnk"><a href="about"
+					>Sobre</a><span class="fpipe"></span><span  id="userAgreementLnk" class="footerPad"><a href="http://pages.ebay.com/br/pt-br/help/policies/user-agreement.html">Contrato do Usuário</a></span><span class="fpipe"></span><br/><span id="Policy"
+						><a href="http://pages.ebay.com/br/pt-br/help/policies/privacy-policy.html">Privacidade</a></span><span class="fpipe"></span><a
+					href="http://www.ebay.com?redirect=mobile"
+					
+					id="classicLnk">Site clássico</a></div><div class="ftLnk"><a title="Dar feedback" aria-label="Abre em janela ou guia separada" href="http://qu.ebay.com/survey?srvName=mobileweb%20(mobileweb)"
+						target="_blank"
+						>Dar feedback</a><span class="fpipe"></span><a title="eBay Mobile" aria-label="Abre em janela ou guia separada" href="http://mobile.ebay.com" target="_blank"
+						>eBay Mobile</a></div><div class="ftLnk fpipe"><span id="cookies" ><a href="http://pages.ebay.com/br/pt-br/help/account/cookies-web-beacons.html">Cookies</a><span class="ac-hide-cnt"> - Abre em janela ou guia separada</span></span></div></section><div class="fcopy">© 1995 - 2018 eBay Inc.</div><div id="visit_count">User Visit # 1</div><!-- RcmdId ABOUT,RlogId t6nrehmkcdw%3F%3Ctofkp%60jhiffr*1447503%29pqtfwpu%29pie%29fgg%7E-fij-165d65a074f-0x122 --><!-- SiteId: 0, Environment: production, AppName: mweb, PageId: 2062112 --></footer>
+<script src="https://ir.ebaystatic.com/rs/v/cw5xah2msa5y5leaz3qvc5wfry2.js" type="text/javascript"></script><script src="https://ir.ebaystatic.com/rs/v/x4k2u4diseyn5ik3skvml0k1pym.js" type="text/javascript"></script><script src="https://ir.ebaystatic.com/rs/v/f2ljybbnlm0nfhdq2u4utl35v2h.js" type="text/javascript"></script><script type="text/javascript">
+(function() {
+var Context = raptor.require('ebay.context.Context');
+Context.call(Context,{"site":0,"errors":{"enabled":false},"app":"mweb","domain":".m.ebay.com","cobrand":514,"pool":"production","locale":"en_US_MAIN","features":{},"pid":2062112});
+})();
+
+	var responseHeaderData = {
+			highEndDevice: 'true',
+			recentSearchText: 'PESQUISAS RECENTES',
+			suggestionIn: 'em',
+			param : {"kw":"_nkw","call":"LH_ItemCondition","so":"_sop","acOverride":"_rusck","loc":"LH_PrefLoc","used":"LH_ItemCondition","cid":"_sacat","nw":"LH_ItemCondition","trs":"LH_TopRatedSellers","viewName":"_dmd","cl":"LH_Complete","fs":"LH_FS","pgn":"_pgn","pmin":"_udlo","bin":"LH_BIN","pp":"LH_PayPal","bid":"LH_Auction","pmax":"_udhi"},
+			clsParamSupport : 'true' == 'true',
+			trackingData : {
+				RECENT_SEARCHES : '',
+				AUTO_SUGGESTION : '',
+				AUTO_SUGGESTION_ICON : '',
+				CLEAR_TEXT_ICON : '',
+				SEARCH_TEXT_BUTTON : '',
+				AC_KEYWORD : '',
+				AC_RECENT_SEARCH : '',
+				AC_QUERY_SEARCH : '',
+				AC_KEYWORD_CATEGORY : ''
+			},
+			prefetchData : null
+	};
+		
+				var autoFillData = {
+					catLink: 'https%3A%2F%2Fm.ebay.com%2Fv%2Fallcategories%2F',
+					followLink: '',
+					signinFollowLink: 'https://signin.ebay.com/ws/eBayISAPI.dll?Signin&srcAppId=3564&ru=https%3A%2F%2Fm.ebay.com%2Ffollowedsearch',
+					recentSearch: '[]',
+					schActionLink : '/sch/i.html',
+					isSMEPage: 'false',
+					isSRP:'false',
+					isNewSRPIcon: 'true',
+					autoCompleteReverseHitHighlight : 'true',
+					iHeartEbayEnabled: 'true',
+					content: {
+						category: "Pesquisar categorias",
+						followSearch: "Veja as pesquisas que você segue",
+						saveSearch: "Veja suas pesquisas salvas",
+						recentSearchText: 'PESQUISAS RECENTES',
+						signinfollowSearch: '<b>Faça login para ver as pesquisas que você segue</b>',
+						signinSaveSearch: '<b>Faça login para ver suas pesquisas salvas</b>',
+						suggestionIn: 'em',
+						clearRecentConfirm: "Apagar pesquisas recentes?",
+						suggestionCancel: "Cancelar",
+						suggestionCancelAlt: "Cancelar janela sobreposta de pesquisa ",
+						clearSearchText: 'Limpar pesquisas recentes',
+						ctxThis:'Esta oferta',
+						ctxEbay:'eBay',
+						ctxPlaceholder:'Procurar dentro desta oferta',
+						gblPlaceholder:'Pesquisar no eBay',
+						searchButtonContent:''
+					},
+					trackingData : {
+						RECENT_SEARCHES : '',
+						AUTO_SUGGESTION : '',
+						AUTO_SUGGESTION_ICON : '',
+						CLEAR_TEXT_ICON : '',
+						SEARCH_TEXT_BUTTON : '',
+						AC_KEYWORD : '',
+						AC_RECENT_SEARCH : '',
+						AC_QUERY_SEARCH : '',
+						AC_KEYWORD_CATEGORY : '',
+						BROWSE_CATEGORY : '',
+						FOLLOWED_SEARCH : ''
+					}
+				}
+			
+	var footerTracking = {
+			isAdroid: false,
+			siteId: 0,
+			pageId: 2062112
+	};
+	
+	
+	new (raptor.require('raptor.tracking.core.Tracker'))({"psi":"AWgdKH9U*","rover":{"imp":"/roverimp/0/0/9","clk":"/roverclk/0/0/9","uri":"https://rover.ebay.com"},"pid":"p2062112"});raptor.require('raptor.tracking.idmap.IdMap').roverService("https://rover.ebay.com/idmap/0?footer");</script></body></html><img src='https://rover.ebay.com/roversync/?site=0&stg=1&mpt=1536899549002'></img>
