@@ -1,0 +1,431 @@
+@media (min-width: 1080px){
+		body{margin: 0; 
+			height: 100%}
+		.menuoculto{height: 100px; 
+			position: fixed; 
+			width: 100%; 
+			background-color: rgb(30, 38, 40);
+			visibility: hidden}
+		.menu1{background-color: rgb(30,38,40); 
+			width: 20%; 
+			height: 100%; 
+			min-width: 270px; 
+			position: fixed; 
+			z-index: 1}
+		.menu2{background-color: rgb(30,38,40); 
+			width: 20%; 
+			height: 185px; 
+			min-width: 270px; 
+			position: fixed; 
+			z-index: 1; 
+			bottom: 0%}
+		.logoorigin{position: fixed; 
+			left: 80px; 
+			top: 30px;}
+		.busca{position: fixed; 
+			left: 5px; 
+			top: 90px;}
+		.menuext1{position: fixed; 
+			height: 48px; 
+			width: 20%; 
+			min-width: 270px; 
+			top: 170px}
+		.oracces{font-family: sans-serif; 
+			font-size: 16px; 
+			font-weight: 400; 
+			line-height: 22px; 
+			color: rgb(195,198,206); 
+			padding: 0; 
+			position: relative; 
+			top: 10px; 
+			left: 20px}
+		.menuext2{position: fixed; 
+			height: 48px; 
+			width: 20%; 
+			min-width: 270px; 
+			top: 218px; 
+			background-color: rgb(76,82,89);}
+		.loja{font-family: sans-serif; 
+			font-size: 16px; 
+			font-weight: 400; 
+			line-height: 22px; 
+			color: rgb(255,255,255); 
+			padding: 0; 
+			position: relative; 
+			top: 10px; 
+			left: 20px}
+		.barrala{height: 48px; 
+			width: 5px; 
+			background-color: rgb(245, 108, 45); 
+			position: fixed;}
+		.menuin1{position: fixed; 
+			height: 30px; 
+			width: 20%; 
+			min-width: 270px; 
+			top: 266px; }
+		.menuin2{position: fixed; 
+			height: 30px; 
+			width: 20%; 
+			min-width: 270px; 
+			top: 296px; }
+		.textmenuin{font-family: sans-serif; 
+			font-size: 14px; 
+			font-weight: 400; 
+			line-height: 18px; 
+			color: rgb(195,198,206); 
+			padding: 0; 
+			position: relative; 
+			top: 5px; 
+			left: 38px}
+		.itemmenu1{font-size: 14px; 
+			font-weight: bold; 
+			line-height: 18px; 
+			color: rgb(195,198,206); 
+			padding: 0; 
+			position: relative; 
+			top: 10px; 
+			left: 140px}
+		.itemmenu2{font-size: 14px; 
+			font-weight: bold; 
+			line-height: 18px; 
+			color: rgb(195,198,206);
+			padding: 0; 
+			position: relative; 
+			top: 5px; 
+			left: 150px}
+		.menupt1 div:hover {background-color: rgb(58,67,76);
+			cursor:pointer;}
+		.ophori{position: fixed; 
+			height: 45px; 
+			width: 20%; 
+			min-width: 270px; 
+			top: 335px}
+		.textmenuhor{font-size: 14px; 
+			font-weight: 400; 
+			line-height: 18px; 
+			color: rgb(120,125,133); 
+			padding: 0; 
+			font-family: sans-serif}
+		.ophori p{margin-left: 20px}
+		.ponto{font-size: 18px; 
+			font-weight: bold; 
+			line-height: 18px; 
+			color: rgb(120,125,133); 
+			padding: 0; 
+			bottom: 3px; 
+			position: relative}
+		.textmenuhor:hover{color: rgb(255,255,255); 
+			cursor:pointer;}
+		.linha{height: 1px; 
+			position: fixed; 
+			top: 335px; 
+			background-color: rgb(120,125,133); 
+			width: 20%; 
+			min-width: 270px}
+		.botao1{width: 16%; 
+			height: 44px; 
+			position: fixed; 
+			bottom: 120px; 
+			background-color: rgb(245, 108, 45); 
+			left: 16px; 
+			min-width: 238px; 
+			border-radius: 5px}
+		.botao2{width: 16%; 
+			height: 44px; 
+			position: fixed; 
+			bottom: 60px; 
+			left: 16px; 
+			min-width: 238px; 
+			border-radius: 5px; 
+			border-color: white; 
+			border-style: solid; 
+			border-width: 1px}
+		.textbot{font-size: 14px; 
+			font-weight: 400; 
+			line-height: 20px; 
+			color: rgb(255,255,255); 
+			padding: 0; 
+			font-family: sans-serif; 
+			position: relative; 
+			top: 12px; 
+			left: 85px;}
+		.linha2{height: 1px; 
+			position: fixed; 
+			bottom: 50px; 
+			background-color: rgb(120,125,133); 
+			width: 17%; 
+			min-width: 240px; 
+			left: 15px}
+		.botao1:hover{background-color: rgb(200,94,54); 
+			cursor:pointer;}
+		.ptinferior{height: 40px; 
+			position: fixed; 
+			bottom: 2px; 
+			width: 20%; 
+			min-width: 270px}
+		.balon{position: relative; 
+			top: 2px; 
+			left: 40px; 
+			margin: 0}
+		.textinfe{font-family: sans-serif; 
+			font-size: 14px; 
+			font-weight: 400; 
+			color: rgb(195,198,206); 
+			padding: 0; 
+			position: relative; 
+			bottom: 15px ; 
+			left: 50px}
+		.textinfe:hover{color: white; 
+			text-decoration: underline;
+			cursor:pointer;}
+		
+
+
+		.telaprincipal{width: 80%; 
+			height: 100;
+			position: relative; 
+			left: 20%}
+		.propaganda1{background-size: cover;
+			background-position: -230px;
+			background-image: url("img1.jpg");
+			position: relative ;
+			height: 500px}
+		.txt1prop1{position:absolute; 
+			width: 48% ;
+			text-align: center;
+			top:10px; 
+			left:26%}
+		.txt2prop1{position:absolute;
+			width:50%; 
+			top: 200px; 
+			text-align: center;
+			left:25%;}
+		.texto1propaganda1{line-height: 65px;
+			font-size: 60px;
+			font-weight: 800; 
+			color: white;
+			min-width: 80px; 
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+		.texto2propaganda1{font-size: 32px;
+			color: rgb(195,198,206); 
+			font-family: sans-serif;
+			top:50px;
+			position: relative;
+			text-align: center;}
+		.imgprop1{left: 40%;
+			position: relative;  
+			width: 20%; 
+			top: 5%;
+			top:80px; }
+		.propaganda2{float: left;
+			position: absolute; 
+			height: 360px;	
+			background-position: center; 
+			width: 43%; 
+			left: 5%; 
+			top: 560px;
+			background-image: url(img2.jpg)}
+		.propaganda2:hover{cursor:pointer}
+		.propaganda3{margin-left: 50%; 
+			position: absolute ;
+			height: 360px;
+			background-size: cover; 
+			background-position: 880px; 
+			width: 43%; 
+			left: 4%; 
+			top: 560px;
+			background-image: url(img3.jpg)}
+		.propaganda3:hover{cursor:pointer}
+		.textbot1{font-size: 14px; 
+			font-weight: 400; 
+			line-height: 20px; 
+			color: rgb(255,255,255); 
+			padding: 0; 
+			font-family: sans-serif; 
+			position: relative; 
+			top: 12px}
+		.aretxtprop2{background-color: rgb(30, 38, 40); 
+			height: 130px; 
+			opacity: 0.8; 
+			top: 230px; 
+			position: relative;}
+		.aretxtprop2:hover{cursor: default;}
+		.imgprop2{float: left ;
+			background-attachment: fixed; 
+			height: 100px; 
+			max-width: 12%; 
+			left:3%;
+			bottom:30%; 
+			position:relative;}
+		.divtxtpropaganda2{ height: 100px;
+			max-width: 75%;
+			position: absolute; 
+			left: 18%;
+			top:10%}
+		.divtxtpropaganda2:hover{cursor: default;}
+		.hover:hover{color: white; 
+			text-decoration: underline;}
+		.botao3{width: 20%; 
+			height: 44px; 
+			position: absolute;
+			top: 370px; 
+			background-color: rgb(245, 108, 45); 
+			left: 40%; 
+			min-width: 200px;
+			text-align: center; 
+			border-radius: 5px}
+		.botao3:hover{background-color: rgb(200,94,54); 
+			cursor:pointer;}
+		.divhover{opacity: 0; 
+			height: 260px; 
+			position: relative;}
+		.divhover:hover{cursor:pointer;}
+		.txtprincprop {position:relative;
+			color: rgb(195,198,206); 
+			font-size: 1.6vw; 
+			font-family: sans-serif;line-height: 40px}
+		.txtsecprop{position:relative;
+			color: rgb(195,198,206); 
+			font-size: 1.2vw; 
+			font-family: sans-serif;}
+		.imagem{height: 100%; 
+			width: 100%; 
+			object-fit: contain;}
+}
+
+
+@media (max-width: 1080px){
+		body{margin: 0; 
+			height: 100%}
+		.menu1{background-color: rgb(30,38,40); 
+			width: 20%; 
+			height: 100%; 
+			min-width: 270px; 
+			position: fixed; 
+			z-index: 1; 
+			float: right; 
+			visibility: hidden}
+		.menu2{background-color: rgb(30,38,40); 
+			width: 20%; 
+			height: 185px; 
+			min-width: 270px; 
+			position: fixed; 
+			z-index: 1; 
+			bottom: 0%;
+			visibility: hidden}
+		.menuoculto{height: 80px; 
+			position: static; 
+			width: 100%; 
+			background-color: rgb(30, 38, 40); 
+			visibility: visible;}
+
+
+		.telaprincipal{width: 100%; 
+			position: static;}
+		.propaganda1{background-size: cover;
+			background-position: -230px;
+			background-image: url("img1.jpg");
+			position: static;
+			height: 550px;
+			width: 100%}
+		.txt1prop1{position:static;
+			text-align: center;
+			width:40%, 
+			margin-left: 35%}
+		.txt2prop1{position:static;
+			text-align: center;
+			width:70%; 
+			margin-left: 15%;
+			margin-top: 20%}
+		.texto1propaganda1{line-height: 50px;
+			font-size: 40px;
+			font-weight: 800; 
+			color: white;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+		.texto2propaganda1{font-size: 32px;
+			color: rgb(195,198,206); 
+			font-family: sans-serif;}
+		.imgprop1{left: 40%;
+			position: relative; 
+			width: 20%; 
+			top: 5%}
+		.propaganda2{position: static;
+			height: 360px;
+			background-position: center; 
+			width: 100%;
+			background-image: url(img2.jpg); margin-top: 30px;}
+		.propaganda2:hover{cursor:pointer}
+		.propaganda3{ margin-top: 30px;
+			position:static ;
+			height: 360px;
+			background-size: cover; 
+			background-position: 880px; 
+			width: 100%;
+			background-image: url(img3.jpg);}
+		.propaganda3:hover{cursor:pointer}
+		.textbot1{font-size: 14px; 
+			font-weight: 400; 
+			line-height: 20px; 
+			color: rgb(255,255,255);
+			padding: 0; 
+			font-family: sans-serif; 
+			position: relative; 
+			top: 12px}
+		.aretxtprop2{background-color: rgb(30, 38, 40); 
+			height: 130px; 
+			opacity: 0.8; 
+			top: 230px; 
+			position: relative;}
+		.aretxtprop2:hover{cursor: default;}
+		.imgprop2{float: left ;
+			background-attachment: fixed; 
+			height: 100px; 
+			max-width: 12%; 
+			left:3%;
+			bottom:30%; 
+			position:relative;}
+		.divtxtpropaganda2{ height: 100px;
+			max-width: 75%;
+			position: absolute; 
+			left: 18%;
+			top:10%}
+		.divtxtpropaganda2:hover{cursor: default;}
+		.hover:hover{color: white; 
+			text-decoration: underline;}
+		.botao3{width: 20%; 
+			height: 44px; 
+			position: static; 
+			background-color: rgb(245, 108, 45); 
+			left: 40%; 
+			border-radius: 5px; 
+			min-width: 100px;
+			text-align: center;	 
+			margin: auto; 
+			margin-top: 10%}
+		.botao3:hover{background-color: rgb(200,94,54); 
+			cursor:pointer;}
+		.divhover{opacity: 0; 
+			height: 260px; 
+			position: relative;}
+		.divhover:hover{cursor:pointer;}
+		.txtprincprop {position:relative;
+			color: rgb(195,198,206); 
+			font-size: 16px; 
+			font-family: sans-serif;
+			line-height: 40px}
+		.txtsecprop{position:relative;
+			color: rgb(195,198,206); 
+			font-size: 12px; 
+			font-family: sans-serif;}
+		.imagem{height: 100%; 
+			width: 100%; 
+			object-fit: contain;}
+		.icomenu{position: absolute; 
+			top: 5px;}
+		.logo2{position: absolute; 
+			top: 5px; 
+			left: 35%;}
+		.lupa{position: absolute; 
+			right: 0%; 
+			top: 5px}
+}

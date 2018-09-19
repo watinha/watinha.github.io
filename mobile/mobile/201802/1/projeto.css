@@ -1,0 +1,312 @@
+body{
+	margin-left: 8%;
+	margin-right: 8%;
+	background: linear-gradient(166deg,#02ccba 5%,#a951ed 60%,#ffffff 60.01%);
+	background-repeat: no-repeat;
+}
+
+div.back{
+	margin:0 auto;
+	width: 100%;
+	height: 700px;
+}
+
+
+div.menu{
+	height: 100px;
+	width: 100%;
+}
+
+img.logo{
+	width: 200px;
+	height: 100px;
+}
+
+div.list{
+	width: 69%;
+	height: 100%;
+	display: block;
+	color: white;
+	float: right;
+	line-height: 4;
+}
+
+
+ul{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	height: 36px;
+	letter-spacing: 0px;
+}
+
+li{
+	display: inline;
+	padding: 10px 15px 10px;
+}
+
+li.caixa{
+	background-color: #02ccba;
+	color: white;
+	border-radius: 5px;
+}
+
+li.borda{
+    border-right:1px solid white;
+    padding: 1px 40px 1px 15px; 
+}
+
+div.cursos{
+	float: left;
+	width: 100%;
+	height: 70%;
+	border-radius: 5px;
+
+}
+
+div.curso_esquerda{
+	width: 66%;
+	height: 97%;
+	float: left;
+	border-radius: 5px;
+	background-image: url(video-bg-nd127.jpg);
+}
+
+div.curso_esquerda_texto{
+	width: 78%;
+	height: 60%;
+	margin:	10% 13% auto;
+}
+
+p.texto_esquerda{
+	text-align: center;
+	color: white;
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	font-weight: 400;
+}
+
+img.three_lines{
+	width: 18px;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+
+h1.texto{
+	text-align: center;
+	color: white;
+	font-size: 0.82rem;
+	line-height: 2.25rem;
+	font-weight: 600;
+	font-family: "Open Sans",sans-serif;
+	margin-bottom: 0px;
+	letter-spacing: .125rem;
+
+}
+
+
+h2.texto{
+	font-family: "Open Sans",sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	line-height: 2.25rem;
+	font-weight: 300;
+	margin-bottom: 0px;
+	margin-top: 3%;
+}
+
+
+div.curso_direita{
+	width: 30%;
+	height: 100%;
+	float: right;
+	border-radius: 5px;
+}
+
+div.curso_box{
+	width: 100%;
+	height: 30%;
+	background: white;
+	float: right;
+	margin-bottom: 16.33px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+div.curso_box_imagem{
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+
+img.box{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+div.curso_box_texto{
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+p{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 600;
+	padding-top: 15px;
+	font-size: 1rem;
+	margin: 1% auto;
+	border: 0px;
+	color: #2e3d49;
+	width: 84%;
+}
+
+p.boxes{
+	font-family: Open Sans;
+	font-size: 9px;
+	font-weight: 550;
+	padding-top: 10%;
+	padding-bottom: 0px;
+	margin: 0 auto;
+	border: 0px;
+	letter-spacing: 0.065rem;
+}
+
+div.promo{
+	clear: both;
+	opacity: .7;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+img.parceiros{
+	max-height: 3.75rem;
+}
+
+
+div.logo_pequeno{
+	display: none;
+	width: 33px;
+	margin: 1% auto;
+	padding-top: 4%;
+}
+
+
+div.bars{
+	display: none;
+	float: left;
+	width: 9%;
+	padding-top: 4%;
+}
+
+
+div.button{
+	background: white;
+	width: 41%;
+	height: 16%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+p.button_text{
+	color: #02b3e4;
+	text-align: center;
+	font-weight: 150;
+	letter-spacing: .125rem;
+	font-size: 0.9rem;
+
+}
+
+p.curso_esquerda_heading{
+	/*font-weight: 300;*/
+	font-size: 2rem;
+	line-height: 2.25rem;
+}
+
+div.button_text1{
+	width: 63%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+div.sub{
+	padding-left: 3%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+    	margin: 0;
+    	overflow: visible;
+    	background: linear-gradient(166deg,#02ccba 5%,#a951ed 43%,#ffffff 43.01%);
+    	background-repeat:no-repeat;
+    }
+
+    div.cursos{
+    	float: none;
+    }
+
+    div.curso_esquerda{
+    	width: 100%;
+		height: 500px;
+		background-color: black;
+	}
+
+
+	div.curso_direita{
+		width: 90%;
+		height: 82%;
+		margin-right: 5%;
+		margin-top: 6%;
+	}
+
+
+    div.menu{
+
+    	height: 10%
+    }
+
+    div.list {
+		display: none;
+    }
+
+    img.logo{
+    	display: none;
+    }
+
+    div.logo_pequeno{
+    	display: block;
+    }
+
+    div.bars{
+    	display: block;
+    }
+
+    div.curso_esquerda_texto{
+    	width: 100%;
+    	margin-top: 35%;
+		margin-left: 0px;
+    }
+
+    div.button{
+    	width: 53%;
+    }
+
+
+    div.button_text1{
+    	width: 100%;
+    }
+
+
+	img.parceiros{
+		max-height: 3rem;
+	}
+
+}
