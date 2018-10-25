@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Index</title>
+        <meta name="viewport" content="width=device-width"/>
+        <style type="text/css" media="screen">
+            body { width: 100%; margin: 0; }
+            textarea { border: 1px solid black; box-shadow: 3px 2px 2px #EEE; }
+            table { width: 100%; margin: 10px 0; }
+            td { border: 1px solid black; margin: 0; transition: all linear 1s; }
+            .container { position: relative; margin: 0 5px; }
+            .oba {
+                background-color: black;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                opacity: 0.7;
+                top: -1000px;
+                left: 0;
+                transition: all linear 0.3s;
+            }
+            .parabens {
+                position: fixed;
+                top: -100px;
+                color: green;
+                background-color: yellow;
+                display: block;
+                padding: 10px;
+                left: 30px;
+                transform: scale(0.1);
+                transition: all linear 1s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bingo do Molina</h1>
+            <table>
+            </table>
+            <label for="palavras">Palavras (separadas por quebras de linha)</label>
+            <textarea name="palavras" rows="10" cols="40"></textarea>
+            <button>gerar</button>
+            <div class="oba">
+            </div>
+            <span class="parabens">Parabéns!!!</span>
+        </div>
+        <script type="text/javascript" charset="utf-8">
+            var table = document.querySelector('table'),
+                textarea = document.querySelector('textarea'),
+                oba = document.querySelector('.oba'),
+                parabens = document.querySelector('.parabens'),
+                count = 0;
+            for (var i = 0; i < 10; i++) {
+                textarea.value += 'palavra' + i + '\n';
+            };
+            document.querySelector('button').addEventListener("click", function () {
+                var palavras = document.querySelector('textarea').value.split('\n');
+                for (var i = 0; i < 5; i++) {
+                    var tr = document.createElement('tr');
+                    for (var j = 0; j < 5; j++) {
+                        var td = document.createElement('td'),
+                            palavra = palavras[Math.round(Math.random() * (palavras.length - 1))];
+                        td.innerHTML = palavra;
+                        tr.appendChild(td);
+                        td.addEventListener('click', function () {
+                            if (this.style.backgroundColor != 'green') {
+                                this.style.backgroundColor = 'green';
+                                count++;
+                            }
+                            if (count === 25) {
+                                oba.style.top = '0px';
+                                parabens.style.top = '50px';
+                                parabens.style.left = '100px';
+                                parabens.style.transform = 'scale(3.0)';
+                            }
+                        });
+                    };
+                    table.appendChild(tr);
+                };
+            });
+        </script>
+    </body>
+</html>
