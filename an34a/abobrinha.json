@@ -1,0 +1,8 @@
+{
+    mensagens: [
+        'agora a mensagem veio em formato JSON',
+        'o próximo passo é baixar dados de APIs com dados dinâmicos'
+    ],
+    exemplo: 'https://github.com/public-apis/public-apis',
+    bibliotecas: ['fetch', 'axios', 'jquery']
+}

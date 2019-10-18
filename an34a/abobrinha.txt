@@ -1,0 +1,3 @@
+agora, recuperado dados do servidor utiliizando o formato TXT
+o próximo passo  é realizar uma requisição pedindo um dado em outro formato
+Exemplo: JSON
