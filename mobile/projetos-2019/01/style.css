@@ -1,0 +1,4083 @@
+.tensorsite-icon--external span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--external.svg)
+}
+
+.tensorsite-icon--forward-arrow span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--forward-arrow.svg)
+}
+
+.tensorsite-icon--github span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--github.svg)
+}
+
+.tensorsite-icon--github--orange span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--github--orange.svg)
+}
+
+.tensorsite-icon--google-ai span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--google-ai.svg)
+}
+
+.tensorsite-icon--google-ai.tensorsite-content__subtitle-icon span::after {
+    top: -3px
+}
+
+.tensorsite-icon--group span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--group.svg)
+}
+
+.tensorsite-icon--internal span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--internal.svg)
+}
+
+.tensorsite-icon--mailbox span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--mailbox.svg)
+}
+
+.tensorsite-icon--medium span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--medium.svg)
+}
+
+.tensorsite-icon--wechat span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--wechat.svg)
+}
+
+.tensorsite-icon--share span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--share.svg)
+}
+
+.tensorsite-icon--stackoverflow span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--stackoverflow.svg)
+}
+
+.tensorsite-icon--twitter span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--twitter.svg)
+}
+
+.tensorsite-icon--video span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--video.svg)
+}
+
+.tensorsite-icon--youtube span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--youtube.svg)
+}
+
+.tensorsite-icon--youku span::after {
+    background-image: url(/site-assets/images/marketing/icon/icon--youku.svg)
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    color: #616161
+}
+
+h1 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px
+}
+
+h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px
+}
+
+h3 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+h4 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px
+}
+
+h5 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px
+}
+
+h6 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px
+}
+
+.hidden-text {
+    height: 1px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: -10px;
+    width: 1px
+}
+
+img,
+video {
+    border: 0;
+    height: auto;
+    max-width: 100%
+}
+
+.wrapper {
+    overflow: hidden
+}
+
+.tensorsite-container {
+    margin: 80px auto;
+    max-width: 1420px;
+    padding: 0 40px;
+    width: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-container {
+        margin: 50px auto;
+        padding: 0 20px
+    }
+}
+
+.tensorsite-container--narrow {
+    max-width: 1160px
+}
+
+body[type="marketing"][theme="tensorflow-theme"][layout="full"] .devsite-main-content {
+    max-width: none;
+    padding: 0
+}
+
+body[type="marketing"][theme="tensorflow-theme"][layout="full"] .devsite-banner {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+body[devsite-framebox] {
+    margin: 0;
+    overflow: hidden
+}
+
+body[devsite-framebox] .tensorsite-container {
+    margin: 0 auto
+}
+
+.tensorsite-block {
+    display: flex;
+    flex-basis: calc(100% / 3 - 30px);
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: column;
+    margin: 15px
+}
+
+.tensorsite-block:not(.tensorsite-block--code-block) .tensorsite-content {
+    padding-bottom: 0
+}
+
+.tensorsite-block .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px
+}
+
+.tensorsite-block .tensorsite-content__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.tensorsite-block .tensorsite-content__description p:last-of-type {
+    margin-bottom: 0
+}
+
+.tensorsite-block__image-wrapper {
+    margin: auto;
+    position: relative;
+    width: 30%
+}
+
+.tensorsite-block__image {
+    height: auto;
+    max-width: 100%;
+    width: auto
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-block__image:focus {
+        outline: 1px solid #ccc
+    }
+}
+
+.tensorsite-block--action .tensorsite-content__subtitle {
+    padding: 0
+}
+
+.tensorsite-block--plain,
+.tensorsite-block--plain-links {
+    margin: 15px;
+    text-align: center
+}
+
+.tensorsite-block--plain .tensorsite-content__cta,
+.tensorsite-block--plain-links .tensorsite-content__cta {
+    align-self: center
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-block--plain,
+    .tensorsite-block--plain-links {
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-block--plain,
+    .tensorsite-block--plain-links {
+        display: block
+    }
+}
+
+.tensorsite-block--plain-links .tensorsite-content {
+    padding-top: 0
+}
+
+.tensorsite-block--code-block {
+    overflow: hidden
+}
+
+.tensorsite-block--code-block .tensorsite-content {
+    text-align: center
+}
+
+.tensorsite-block--code-block .tensorsite-content__description {
+    flex-grow: 0
+}
+
+.tensorsite-block--code-block .devsite-landing-row-item-code {
+    flex-grow: 1
+}
+
+.tensorsite-block--code-block .colab-callout-footer>a>span {
+    font-size: 12px
+}
+
+.tensorsite-block--code-block .colab-callout-footer .button {
+    background: linear-gradient(to right, #ff6f00, #ff9100);
+    border: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1
+}
+
+.tensorsite-block--code-block .colab-callout-footer .button::before {
+    background: #ff6f00;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .3s;
+    z-index: -1
+}
+
+.tensorsite-block--code-block .colab-callout-footer .button:hover::before,
+.tensorsite-block--code-block .colab-callout-footer .button:focus::before {
+    opacity: 1
+}
+
+.tensorsite-block--code-block devsite-code,
+.tensorsite-block--code-block devsite-code pre {
+    height: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-block--code-block devsite-code,
+    .tensorsite-block--code-block devsite-code pre {
+        height: auto
+    }
+}
+
+.tensorsite-button,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: auto;
+    outline: none;
+    padding: 13px 22px;
+    text-transform: none;
+    transition: box-shadow .3s linear, background .3s linear, color .3s linear
+}
+
+.tensorsite-button:active,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a:active {
+    box-shadow: none
+}
+
+.tensorsite-button--orange,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a {
+    background: linear-gradient(to right, #ff6f00, #ff9100);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+
+.tensorsite-button--orange::after,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a::after {
+    background: #ff6f00;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .3s;
+    z-index: -1
+}
+
+.tensorsite-button--orange:focus::after,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a:focus::after,
+.tensorsite-button--orange:hover::after,
+.tensorsite-home-hero .tensorsite-content .tensorsite-content__cta-wrapper a:hover::after {
+    opacity: 1
+}
+
+.tensorsite-button--white {
+    background: #fff;
+    color: #425066
+}
+
+.tensorsite-button--white:focus,
+.tensorsite-button--white:hover {
+    background: #425066;
+    color: #fff
+}
+
+button.tensorsite-play-button {
+    background: #fff center/contain no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='-427.9393' y1='229.2344' x2='-428.1819' y2='228.8326' gradientTransform='matrix(20 0 0 -30 8610 6917)'%3E%3Cstop offset='0' stop-color='%23ff9100'/%3E%3Cstop offset='1' stop-color='%23ff6f00'/%3E%3C/linearGradient%3E%3Cpath d='M41 63V33l20 15-20 15z' fill='url(%23a)'/%3E%3C/svg%3E");
+    border: 0;
+    border-radius: 50%;
+    bottom: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    height: 96px;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    transition: -webkit-transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 96px
+}
+
+button.tensorsite-play-button:focus,
+button.tensorsite-play-button:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.tensorsite-card {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 3 - 30px);
+    max-width: calc(100% / 3 - 30px);
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition: box-shadow .2s linear, opacity .2s linear
+}
+
+.tensorsite-card .tensorsite-content::before {
+    background: linear-gradient(to right, #ff6f00, #ff9100);
+    content: '';
+    height: 102%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .2s linear;
+    width: 102%
+}
+
+.tensorsite-card .tensorsite-content--under-image::before {
+    top: -1px
+}
+
+.tensorsite-card .tensorsite-content .tensorsite-content__subtitle,
+.tensorsite-card .tensorsite-content .tensorsite-content__title,
+.tensorsite-card .tensorsite-content .tensorsite-content__description,
+.tensorsite-card .tensorsite-content .tensorsite-content__cta-wrapper,
+.tensorsite-card .tensorsite-content ul {
+    position: relative
+}
+
+.tensorsite-card .tensorsite-content__image-wrapper {
+    border-bottom: solid 1px #dadada;
+    background-color: #fbfcfc;
+    overflow: hidden;
+    position: relative
+}
+
+.tensorsite-card .tensorsite-content__image-wrapper img {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: -webkit-transform .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: transform .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: transform .5s cubic-bezier(0.25, 0.1, 0.25, 1), -webkit-transform .5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    will-change: transform
+}
+
+.tensorsite-card .tensorsite-content__image-wrapper .tensorsite-content__image__play-button {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tensorsite-card .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px
+}
+
+.tensorsite-card .tensorsite-content__subtitle {
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px
+}
+
+.tensorsite-card .tensorsite-content__subtitle--thin {
+    font-weight: 400
+}
+
+.tensorsite-card .tensorsite-content__description {
+    font-size: 14px;
+    line-height: 22px
+}
+
+.tensorsite-card .tensorsite-content__cta {
+    align-self: flex-start;
+    z-index: 3
+}
+
+.tensorsite-card:focus:not(.no-link),
+.tensorsite-card:hover:not(.no-link) {
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.22);
+    cursor: pointer
+}
+
+.tensorsite-card--double {
+    flex-basis: calc(50% / 3 - 30px);
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: calc(50% / 3 - 30px)
+}
+
+.tensorsite-card__href {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.tensorsite-card--hero-whitecta .tensorsite-content__cta {
+    color: #fff
+}
+
+.tensorsite-card--hero-whitecta a span::after {
+    -webkit-filter: grayscale(100%) brightness(2);
+    filter: grayscale(100%) brightness(2)
+}
+
+.tensorsite-card--hero-whitetext .tensorsite-content__title {
+    color: #fff
+}
+
+.tensorsite-card--hero-bluegradient .tensorsite-content--under-image {
+    background-image: linear-gradient(0deg, rgba(32, 18, 20, 0) 0%, rgba(32, 18, 20, 0) 45%, #5464b5 100%)
+}
+
+.tensorsite-card--hero-h3title .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+.tensorsite-card--hero .tensorsite-content__title {
+    flex-grow: 1
+}
+
+.tensorsite-card--hero .tensorsite-content__title::after {
+    -webkit-filter: brightness(1.3);
+    filter: brightness(1.3)
+}
+
+.tensorsite-card--hero .tensorsite-content__image-wrapper {
+    border-bottom: none;
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+.tensorsite-card--hero .tensorsite-content__image {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.tensorsite-card--hero .tensorsite-content__image,
+.tensorsite-card--hero .tensorsite-content--under-image {
+    border-radius: 10px
+}
+
+.tensorsite-card--clip .tensorsite-content {
+    margin-top: 40%;
+    padding-top: 17%;
+    z-index: 1
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-card--clip .tensorsite-content {
+        background-color: #fff;
+        padding-top: 20px
+    }
+}
+
+.tensorsite-card--clip .tensorsite-content__clip-bg+.tensorsite-content__title {
+    padding-top: 7%
+}
+
+.tensorsite-card--clip .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 81%
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-card--clip .tensorsite-content__title {
+        max-width: none
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .tensorsite-card--clip .tensorsite-content__title {
+        max-width: 80%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-card--clip .tensorsite-content__title {
+        max-width: 60%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tensorsite-card--clip .tensorsite-content__title {
+        max-width: 80%
+    }
+}
+
+.tensorsite-card--clip .tensorsite-content__subtitle {
+    color: #ff6f00;
+    max-width: 42%
+}
+
+.tensorsite-card--clip .tensorsite-content__image-wrapper {
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+.tensorsite-card .tensorsite-card__href:focus~.tensorsite-content ul li:first-child .tensorsite-content__cta span::after,
+.tensorsite-card__href:hover~.tensorsite-content ul li:first-child .tensorsite-content__cta span::after {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px)
+}
+
+.tensorsite-card .tensorsite-card__href:focus~.tensorsite-content div.tensorsite-content__cta-wrapper .tensorsite-content__cta:first-child span::after,
+.tensorsite-card__href:hover~.tensorsite-content div.tensorsite-content__cta-wrapper .tensorsite-content__cta:first-child span::after {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px)
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content a,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content div,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content a,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content div {
+    color: #fff
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content::before,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content::before {
+    opacity: 1;
+    transition: opacity .2s linear
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content ul a span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content .tensorsite-content__cta-wrapper .tensorsite-content__cta-icon span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content ul a span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content .tensorsite-content__cta-wrapper .tensorsite-content__cta-icon span::after {
+    -webkit-filter: grayscale(100%) brightness(2);
+    filter: grayscale(100%) brightness(2)
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content .tensorsite-content__title span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content .tensorsite-content__subtitle span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content .tensorsite-content__title span::after,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content .tensorsite-content__subtitle span::after {
+    -webkit-filter: brightness(1.3);
+    filter: brightness(1.3)
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content .tensorsite-content__clip-bg::before,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content .tensorsite-content__clip-bg::before {
+    background: #ff6f00
+}
+
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link):hover .tensorsite-content .tensorsite-content__clip-shape path,
+.tensorsite-card:not(.tensorsite-card--clip):not(.tensorsite-card--hero):not(.no-link) .tensorsite-card__href:focus~.tensorsite-content .tensorsite-content__clip-shape path {
+    fill: #ff6f00
+}
+
+.tensorsite-card:hover .tensorsite-content__image-wrapper img,
+.tensorsite-card__href:focus~.tensorsite-content__image-wrapper img {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: -webkit-transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), -webkit-transform 1s cubic-bezier(0.25, 0.1, 0.25, 1)
+}
+
+.tensorsite-content {
+    border-radius: 10px;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    padding: 26px 30px;
+    position: relative
+}
+
+.tensorsite-content a:not(.tensorsite-content__button),
+.tensorsite-content div {
+    transition: color .2s linear
+}
+
+.tensorsite-content ul {
+    list-style: none;
+    padding: 0
+}
+
+.tensorsite-content ul li {
+    line-height: 1;
+    margin: 8px 0
+}
+
+.tensorsite-content ul li:last-of-type {
+    margin-bottom: 0
+}
+
+.tensorsite-content p a,
+.tensorsite-content-underline {
+    border-bottom: 1px solid #ff6f00;
+    color: #616161;
+    font-weight: inherit;
+    transition: color .2s linear
+}
+
+.tensorsite-content p a:focus,
+.tensorsite-content-underline:focus {
+    text-decoration: none
+}
+
+.tensorsite-content p a:focus,
+.tensorsite-content p a:hover,
+.tensorsite-content-underline:focus,
+.tensorsite-content-underline:hover {
+    color: #ff6f00
+}
+
+.tensorsite-content p {
+    margin: 0
+}
+
+.tensorsite-content__clip-bg {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-content__clip-bg {
+        display: none
+    }
+}
+
+.tensorsite-content__clip-bg::after {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    content: '';
+    display: block;
+    flex: 1 0 auto;
+    margin-top: -2px;
+    transition: background .2s linear;
+    width: 100%
+}
+
+.tensorsite-content__clip-shape {
+    margin-left: -1px;
+    width: 102%
+}
+
+.tensorsite-content__clip-shape path {
+    transition: fill .2s linear
+}
+
+.tensorsite-content ul.tensorsite-content__cta-wrapper.tensorsite-content__cta-wrapper-abreast {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tensorsite-content ul.tensorsite-content__cta-wrapper.tensorsite-content__cta-wrapper-abreast li {
+    flex: 0 0 auto;
+    margin: 0 21px 0 0
+}
+
+.tensorsite-content ul.tensorsite-content__cta-wrapper.tensorsite-content__cta-wrapper-abreast li:last-child {
+    margin-right: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-content ul.tensorsite-content__cta-wrapper.tensorsite-content__cta-wrapper-abreast li {
+        flex: 0 0 100%;
+        margin-right: 0
+    }
+}
+
+.tensorsite-content ul.tensorsite-content__cta-wrapper li {
+    margin: 0
+}
+
+.tensorsite-content ul.tensorsite-content__cta-wrapper li+li {
+    margin-top: 8px
+}
+
+.tensorsite-content__cta-wrapper {
+    line-height: 1
+}
+
+.tensorsite-content__cta {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ff6f00;
+    position: relative
+}
+
+.tensorsite-content__cta:focus span::after,
+.tensorsite-content__cta:hover span::after {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px)
+}
+
+.tensorsite-content__cta-icon {
+    display: inline-block
+}
+
+.tensorsite-content__cta-icon span {
+    white-space: nowrap
+}
+
+.tensorsite-content__cta-icon span::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '\00a0';
+    display: inline-block;
+    height: 20px;
+    margin-left: 4px;
+    transition: -webkit-filter .2s linear, -webkit-transform .5s;
+    transition: filter .2s linear, transform .5s;
+    transition: filter .2s linear, transform .5s, -webkit-filter .2s linear, -webkit-transform .5s;
+    vertical-align: top;
+    width: 20px
+}
+
+.tensorsite-content__cta.devsite-dialog-button:hover {
+    cursor: pointer
+}
+
+.tensorsite-content__cta-wrapper {
+    margin-top: 4px
+}
+
+.tensorsite-content__image-wrapper {
+    position: relative
+}
+
+.tensorsite-content__image-wrapper .tensorsite-content__image__play-button {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: -webkit-transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform .3s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.tensorsite-content__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 8px
+}
+
+.tensorsite-content__description:last-child {
+    margin-bottom: 0
+}
+
+.tensorsite-content__image {
+    border-radius: 10px 10px 0 0;
+    display: block;
+    height: auto;
+    width: 100%
+}
+
+.tensorsite-content__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    color: #8e96a3;
+    display: flex;
+    margin-bottom: 8px;
+    position: relative
+}
+
+.tensorsite-content__subtitle-icon {
+    margin-left: 40px
+}
+
+.tensorsite-content__subtitle-icon span::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 0;
+    transition: -webkit-filter .2s linear;
+    transition: filter .2s linear;
+    transition: filter .2s linear, -webkit-filter .2s linear;
+    width: 24px
+}
+
+.tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #425066;
+    margin-bottom: 12px
+}
+
+.tensorsite-content__title span::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: -webkit-filter .2s linear;
+    transition: filter .2s linear;
+    transition: filter .2s linear, -webkit-filter .2s linear;
+    width: 24px
+}
+
+.tensorsite-content__title:last-child {
+    margin-bottom: 0
+}
+
+.tensorsite-content__title.tensorsite-icon {
+    padding-right: 26px
+}
+
+.tensorsite-content__title--clip {
+    -webkit-transform: translateY(-35px);
+    transform: translateY(-35px)
+}
+
+.tensorsite-content__title--grow {
+    flex-grow: 1
+}
+
+.tensorsite-content--under-image {
+    border-radius: 0 0 10px 10px
+}
+
+.tensorsite-content__title+.tensorsite-content__cta {
+    margin-top: 16px
+}
+
+a {
+    color: #ff6f00;
+    text-decoration: none
+}
+
+a:active,
+a:focus {
+    text-decoration: none
+}
+
+.firesite-cta {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px
+}
+
+.tensorsite-video-modal {
+    width: 75%
+}
+
+.tensorsite-video-modal .devsite-dialog-contents {
+    padding: 0 0 56.25%;
+    position: relative
+}
+
+.tensorsite-video-modal .devsite-dialog-contents iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.tensorsite-video-modal .devsite-dialog-buttons {
+    display: none
+}
+
+.tensorsite-tab {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    overflow: hidden;
+    z-index: 1
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-tab {
+        border-radius: 0
+    }
+}
+
+.tensorsite-tab ::-webkit-scrollbar {
+    background: transparent;
+    display: none
+}
+
+.tensorsite-tab input[name="tabs"] {
+    left: -10000px;
+    opacity: 0;
+    position: absolute
+}
+
+.tensorsite-tab input[name="tabs"]#tab-1:checked~.tensorsite-tab__contents .tensorsite-tab__content:nth-of-type(1) {
+    display: inline-block
+}
+
+.tensorsite-tab input[name="tabs"]#tab-1:checked~.tensorsite-tab__tabs label:nth-child(1) {
+    color: #ff6f00
+}
+
+.tensorsite-tab input[name="tabs"]#tab-1:checked~.tensorsite-tab__tabs label:nth-child(1)::after {
+    transition: 0.3s;
+    width: calc(100% - 30px)
+}
+
+.tensorsite-tab input[name="tabs"]#tab-2:checked~.tensorsite-tab__contents .tensorsite-tab__content:nth-of-type(2) {
+    display: inline-block
+}
+
+.tensorsite-tab input[name="tabs"]#tab-2:checked~.tensorsite-tab__tabs label:nth-child(2) {
+    color: #ff6f00
+}
+
+.tensorsite-tab input[name="tabs"]#tab-2:checked~.tensorsite-tab__tabs label:nth-child(2)::after {
+    transition: 0.3s;
+    width: calc(100% - 30px)
+}
+
+.tensorsite-tab input[name="tabs"]#tab-3:checked~.tensorsite-tab__contents .tensorsite-tab__content:nth-of-type(3) {
+    display: inline-block
+}
+
+.tensorsite-tab input[name="tabs"]#tab-3:checked~.tensorsite-tab__tabs label:nth-child(3) {
+    color: #ff6f00
+}
+
+.tensorsite-tab input[name="tabs"]#tab-3:checked~.tensorsite-tab__tabs label:nth-child(3)::after {
+    transition: 0.3s;
+    width: calc(100% - 30px)
+}
+
+.tensorsite-tab input[name="tabs"]#tab-4:checked~.tensorsite-tab__contents .tensorsite-tab__content:nth-of-type(4) {
+    display: inline-block
+}
+
+.tensorsite-tab input[name="tabs"]#tab-4:checked~.tensorsite-tab__tabs label:nth-child(4) {
+    color: #ff6f00
+}
+
+.tensorsite-tab input[name="tabs"]#tab-4:checked~.tensorsite-tab__tabs label:nth-child(4)::after {
+    transition: 0.3s;
+    width: calc(100% - 30px)
+}
+
+.tensorsite-tab .tensorsite-tab__content {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-name: tensorsite-tab__content-fade;
+    animation-name: tensorsite-tab__content-fade;
+    display: none;
+    padding: 0 40px 40px 40px
+}
+
+.tensorsite-tab .tensorsite-tab__content a {
+    border-bottom: 1px solid #ff6f00;
+    color: #616161;
+    font-weight: inherit
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-tab .tensorsite-tab__content {
+        padding: 20px 0
+    }
+}
+
+.tensorsite-tab__content--inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tensorsite-tab__content--inner .tensorsite-tab__content__text {
+    flex-basis: calc(40% - 30px)
+}
+
+.tensorsite-tab__content--inner .tensorsite-tab__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: calc(60% - 30px);
+    height: 100%;
+    margin-top: 39px;
+    min-height: 400px
+}
+
+.tensorsite-tab__content--inner .tensorsite-tab__content__text,
+.tensorsite-tab__content--inner .tensorsite-tab__image {
+    margin: 15px
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab__content--inner .tensorsite-tab__content__text,
+    .tensorsite-tab__content--inner .tensorsite-tab__image {
+        flex-basis: calc(100% - 30px);
+        margin: 0 auto
+    }
+}
+
+.tensorsite-tab__tabs {
+    display: flex;
+    margin: auto;
+    overflow-x: auto;
+    position: relative;
+    scrollbar-width: none;
+    white-space: nowrap;
+    width: 84%;
+    -ms-overflow-style: none
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab__tabs {
+        width: 100%
+    }
+}
+
+.tensorsite-tab__tabs label {
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+    flex: 1 1 auto;
+    font-weight: 500;
+    padding: 45px 18px 18px 18px;
+    position: relative;
+    text-align: center;
+    transition: color .2s linear;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.tensorsite-tab__tabs label:focus,
+.tensorsite-tab__tabs label:hover {
+    color: #425066
+}
+
+.tensorsite-tab__tabs label::after {
+    background: #ff6f00;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 15px;
+    position: absolute;
+    width: 0;
+    z-index: 1
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-tab__tabs label:last-child {
+        border-bottom: 1px solid #dadada
+    }
+}
+
+.tensorsite-tab__tabs::after {
+    background: #dadada;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 18px;
+    position: absolute;
+    width: calc(100% - 36px)
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab__tabs::after {
+        width: calc(180% - 36px)
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-tab__tabs::after {
+        width: calc(100% - 36px)
+    }
+}
+
+@-webkit-keyframes tensorsite-tab__content-fade {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes tensorsite-tab__content-fade {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.tensorsite-casestudy {
+    background-color: #f5f6f7;
+    margin: auto;
+    min-height: 1200px;
+    padding: 10px 0
+}
+
+.tensorsite-casestudy .tensorsite-card {
+    background-color: #fff;
+    max-width: none;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-casestudy .tensorsite-card {
+        flex-basis: calc(100% / 2 - 30px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-casestudy .tensorsite-card {
+        flex-basis: calc(100% - 30px)
+    }
+}
+
+.tensorsite-casestudy__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #425066;
+    margin: 15px 15px 60px 15px
+}
+
+.tensorsite-casestudy__content {
+    align-items: flex-start;
+    display: flex
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-casestudy__content {
+        display: block
+    }
+}
+
+.tensorsite-casestudy__content--centered {
+    display: block
+}
+
+.tensorsite-casestudy__cards {
+    flex-basis: calc(3 * 100% / 4 - 30px);
+    flex-grow: 0;
+    flex-shrink: 1
+}
+
+.tensorsite-casestudy__cards .tensorsite-group__inner {
+    border-bottom: none
+}
+
+.tensorsite-casestudy__filter {
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    flex-basis: calc(100% / 4 - 30px);
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 15px 60px 15px 15px;
+    min-width: 200px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.tensorsite-casestudy__filter-categories {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0
+}
+
+.tensorsite-casestudy__filter-categories li:first-child span {
+    border: 0
+}
+
+.tensorsite-casestudy__filter__body {
+    padding: 10px 10px 10px 30px
+}
+
+.tensorsite-casestudy__filter__body label {
+    font-size: 14px;
+    line-height: 22px;
+    color: #8e96a3;
+    transition: color .2s linear
+}
+
+.tensorsite-casestudy__filter__body label:focus,
+.tensorsite-casestudy__filter__body label:hover {
+    color: #425066
+}
+
+.tensorsite-casestudy__filter__body input[type="radio"]::after {
+    color: #c6cad1;
+    transition: color .2s linear
+}
+
+.tensorsite-casestudy__filter__body input[type="radio"]:checked {
+    color: #ff6f00
+}
+
+.tensorsite-casestudy__filter__body input[type="radio"]:checked::after {
+    color: #ff6f00
+}
+
+.tensorsite-casestudy__filter__body input[type="radio"]:focus::before {
+    background: none
+}
+
+.tensorsite-casestudy__filter__body input[type='checkbox'] {
+    left: -9999px;
+    position: absolute;
+    visibility: hidden
+}
+
+.tensorsite-casestudy__filter__body input[type='checkbox']:checked+label::before {
+    background-color: #ff6f00;
+    box-shadow: 0 0 0 2px #ff6f00
+}
+
+.tensorsite-casestudy__filter__body input[type='checkbox']::after {
+    content: none
+}
+
+.tensorsite-casestudy__filter__body li {
+    list-style: none
+}
+
+.tensorsite-casestudy__filter__body:not(.expand) {
+    display: none
+}
+
+.tensorsite-casestudy__filter__item {
+    font-size: 14px;
+    line-height: 22px;
+    color: #8e96a3;
+    cursor: pointer;
+    display: block;
+    margin: 0 0 10px
+}
+
+.tensorsite-casestudy__filter__item::before {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px #c6cad1;
+    content: '';
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 10px;
+    transition: background-color .2s linear;
+    vertical-align: middle;
+    width: 16px
+}
+
+.tensorsite-casestudy__filter__head {
+    font-size: 14px;
+    line-height: 22px;
+    border-top: 1px #dadada solid;
+    color: #ff6f00;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 20px 10px 20px 30px;
+    position: relative
+}
+
+.tensorsite-casestudy__filter__head::after {
+    border-bottom: 2px solid #8e96a3;
+    border-right: 2px solid #8e96a3;
+    content: '';
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+    width: 10px
+}
+
+.tensorsite-casestudy__filter__head--expand::after {
+    border-bottom: 2px solid #ff6f00;
+    border-right: 2px solid #ff6f00;
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg)
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-casestudy__filter {
+        border-radius: 0;
+        margin: 0;
+        width: 100%
+    }
+}
+
+.tensorsite-casestudy__message {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #c6cad1;
+    display: none;
+    margin: 150px auto
+}
+
+.tensorsite-casestudy__message--visible {
+    display: block
+}
+
+.tensorsite-column-list {
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1440px
+}
+
+.tensorsite-column-list__intro {
+    margin: 0 auto 50px;
+    max-width: 550px
+}
+
+.tensorsite-column-list__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #425066;
+    text-align: center
+}
+
+.tensorsite-column-list__description {
+    color: #616161;
+    text-align: center
+}
+
+.tensorsite-column-list__description a {
+    border-bottom: 1px solid #ff6f00;
+    color: #616161;
+    font-weight: inherit;
+    transition: color .2s linear
+}
+
+.tensorsite-column-list__description a:focus {
+    text-decoration: none
+}
+
+.tensorsite-column-list__description a:hover {
+    color: #ff6f00
+}
+
+.tensorsite-column-list__item {
+    border-top: 1px solid #dadada;
+    display: flex;
+    padding: 50px 100px 30px
+}
+
+.tensorsite-column-list__item:last-child {
+    border-bottom: 1px solid #dadada
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-column-list__item {
+        border-top: 0;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        text-align: center
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-column-list__item-image {
+        flex: 0 0 8%;
+        margin-right: 30px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-column-list__item-image {
+        margin: 15px 0
+    }
+}
+
+.tensorsite-column-list__item-image img {
+    max-height: 96px;
+    max-width: 96px;
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-column-list__item-heading {
+        flex: 0 0 30%;
+        margin-right: 20px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-column-list__item-heading {
+        margin: 0
+    }
+    .tensorsite-column-list__item-heading .tensorsite-column-list__item-cta {
+        display: none
+    }
+}
+
+.tensorsite-column-list__item-title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #425066;
+    margin-bottom: 20px
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-column-list__item-cta--mobile {
+        display: none
+    }
+}
+
+.tensorsite-column-list__item-description {
+    color: #616161
+}
+
+.tensorsite-column-list__item-description p:first-child {
+    margin-top: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-ecosystem {
+        background: #f5f6f7
+    }
+    .tensorsite-ecosystem .tensorsite-container {
+        margin-bottom: 0;
+        margin-top: 0
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 767px) {
+    .tensorsite-ecosystem .tensorsite-container {
+        margin-bottom: 0;
+        margin-top: 0
+    }
+}
+
+.tensorsite-ecosystem__diagram-wrapper {
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.tensorsite-ecosystem__diagram-body {
+    overflow: hidden;
+    overflow-x: auto;
+    position: relative;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-ecosystem__diagram-body {
+        height: 800px
+    }
+}
+
+.tensorsite-ecosystem__diagram-image {
+    display: block;
+    height: auto;
+    max-width: none;
+    width: 100%
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-ecosystem__diagram-image {
+        height: 800px;
+        width: auto
+    }
+}
+
+.tensorsite-ecosystem__diagram-labels {
+    background: #fff;
+    height: 100%;
+    padding: 9.12% 0 4.42% 4%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14.5%;
+    z-index: 2
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-ecosystem__diagram-labels {
+        padding: 89px 0 44px 40px;
+        width: 140px
+    }
+}
+
+.tensorsite-ecosystem__diagram-row {
+    display: block;
+    height: calc(100% / 6);
+    padding: 0 9%;
+    position: relative
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-ecosystem__diagram-row:focus {
+        outline: 1px solid #ccc
+    }
+}
+
+.tensorsite-ecosystem__diagram-row::after {
+    background: #dadada;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0
+}
+
+.tensorsite-ecosystem__diagram-row__image {
+    max-height: 100%;
+    width: auto
+}
+
+.tensorsite-fancy-hero-wrapper {
+    background-color: transparent;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero-wrapper {
+        min-height: 550px
+    }
+}
+
+.tensorsite-fancy-hero-wrapper iframe {
+    width: 100%
+}
+
+.tensorsite-fancy-hero-wrapper iframe.framebox {
+    opacity: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero-wrapper iframe {
+        min-height: 550px
+    }
+}
+
+.tensorsite-fancy-hero-wrapper devsite-framebox iframe {
+    margin: 0;
+    opacity: 1
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero-wrapper+.tensorsite-casestudy {
+        margin-top: -90px
+    }
+}
+
+.tensorsite-fancy-hero {
+    background-color: transparent;
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero {
+        min-height: 430px
+    }
+}
+
+.tensorsite-fancy-hero .tensorsite-content__subtitle {
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    font-weight: 600
+}
+
+.tensorsite-fancy-hero__brand-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 0 30px;
+    width: 200px
+}
+
+.tensorsite-fancy-hero__image {
+    position: absolute;
+    right: -22%;
+    top: 0;
+    width: 78%
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-fancy-hero__image {
+        width: 122%
+    }
+}
+
+.tensorsite-fancy-hero__content {
+    padding: 0;
+    text-align: left;
+    width: 420px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-fancy-hero__content {
+        margin-top: 60%;
+        width: 100%
+    }
+}
+
+.tensorsite-fancy-hero__slides-wrapper {
+    position: relative
+}
+
+.tensorsite-fancy-hero__slide {
+    left: 0;
+    opacity: 1;
+    top: 0;
+    transition: .3s opacity linear;
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero__slide {
+        padding: 80px 180px 0 180px
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-fancy-hero__slide {
+        flex-direction: column;
+        padding: 100px 100px 0 100px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-fancy-hero__slide {
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 50px 20px 20px 20px
+    }
+}
+
+.tensorsite-fancy-hero__slide--fade {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: tensorsite-fancy-hero__slide-fade;
+    animation-name: tensorsite-fancy-hero__slide-fade
+}
+
+.tensorsite-fancy-hero__slide.is-carousel {
+    position: absolute
+}
+
+.tensorsite-fancy-hero__slide.is-invisible {
+    opacity: 0;
+    pointer-events: none
+}
+
+.tensorsite-fancy-hero__dots {
+    bottom: 140px;
+    position: absolute
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-fancy-hero__dots {
+        margin: 30px 210px
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-fancy-hero__dots {
+        margin: 30px 130px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-fancy-hero__dots {
+        bottom: 20px;
+        margin: 0 50px 30px
+    }
+}
+
+.tensorsite-fancy-hero__dot {
+    background: none;
+    border: 2px #ccc solid;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0 2px;
+    transition: background-color .3s linear;
+    width: 14px
+}
+
+.tensorsite-fancy-hero__dot.is-active {
+    background-color: #ccc
+}
+
+.tensorsite-footer {
+    margin-top: -92px;
+    overflow: hidden;
+    padding-top: 92px;
+    pointer-events: none;
+    position: relative
+}
+
+.tensorsite-footer::before,
+.tensorsite-footer::after {
+    bottom: 0;
+    content: '';
+    display: block;
+    position: absolute
+}
+
+.tensorsite-footer::before {
+    background: #ff6f00;
+    left: 0;
+    right: calc(1440px + ((100% - 1440px) / 2) + (192px / 2));
+    top: 184px
+}
+
+.tensorsite-footer::after {
+    background: #ff9100;
+    left: calc(1440px + ((100% - 1440px) / 2) + (192px / 2));
+    right: 0;
+    top: 0
+}
+
+.tensorsite-footer--gray {
+    background-color: #f5f6f7
+}
+
+.tensorsite-footer__container {
+    background-image: linear-gradient(-90deg, #ff9100 18%, #ff6f00 86%);
+    margin: 0 auto;
+    max-width: calc(100% - 192px);
+    min-height: 350px;
+    padding: 70px 0;
+    position: relative
+}
+
+@media screen and (min-width: 1440px) {
+    .tensorsite-footer__container {
+        max-width: 1248px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-footer__container {
+        background-image: linear-gradient(-90deg, #ff9100, #ff6f00);
+        padding-bottom: 100px
+    }
+}
+
+.tensorsite-footer__side {
+    bottom: 0;
+    position: absolute;
+    width: 192px
+}
+
+.tensorsite-footer__side::before {
+    content: '';
+    display: block;
+    height: 92px;
+    margin-top: -92px;
+    width: 100%
+}
+
+.tensorsite-footer__side--left {
+    background: #ff6f00;
+    left: -192px;
+    top: 92px
+}
+
+.tensorsite-footer__side--left::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 92'%3E%3Cpath d='M162 8L96 46 30 84a60.7 60.7 0 0 1-30 8h192V0a60.7 60.7 0 0 0-30 8z' fill='%23FF6F00'/%3E%3C/svg%3E")
+}
+
+.tensorsite-footer__side--right {
+    background: #ff9100;
+    right: -192px;
+    top: 0
+}
+
+.tensorsite-footer__side--right::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 92'%3E%3Cpath d='M162 8L96 46 30 84a60.7 60.7 0 0 1-30 8h192V0a60.7 60.7 0 0 0-30 8z' fill='%23FF9100'/%3E%3C/svg%3E")
+}
+
+.tensorsite-footer__content {
+    pointer-events: auto
+}
+
+.tensorsite-footer__content .tensorsite-content {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0
+}
+
+.tensorsite-footer__content .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    width: auto
+}
+
+.tensorsite-footer__content .tensorsite-content__description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center
+}
+
+.tensorsite-footer__content .tensorsite-content__cta-wrapper {
+    margin-top: 10px;
+    text-align: center
+}
+
+.tensorsite-footer__content .tensorsite-content .tensorsite-content__title+.tensorsite-content__cta-wrapper {
+    margin-top: 40px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-footer__content {
+        margin: 0 -76px
+    }
+}
+
+.tensorsite-footer__lines {
+    background: url(/site-assets/images/marketing/footer-lines.svg) center bottom/100% auto no-repeat;
+    bottom: 0;
+    left: 50%;
+    max-width: 1720px;
+    min-width: 1320px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 90vw;
+    z-index: 2
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-footer__lines {
+        -webkit-transform: translate(-30%, 0);
+        transform: translate(-30%, 0)
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tensorsite-footer__lines {
+        -webkit-transform: translate(-20%, 0);
+        transform: translate(-20%, 0)
+    }
+}
+
+.tensorsite-hero+.tensorsite-group .tensorsite-container:first-child {
+    margin-top: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group .tensorsite-block .tensorsite-card {
+        flex-basis: calc(100% - 30px);
+        flex-shrink: 0
+    }
+}
+
+.tensorsite-group__divider {
+    border-top: 1px solid #dadada;
+    margin: auto 80px;
+    max-width: 1420px
+}
+
+@media only screen and (min-width: 1430px) {
+    .tensorsite-group__divider {
+        margin: auto;
+        width: 90%
+    }
+}
+
+.tensorsite-group__header .tensorsite-content {
+    padding-bottom: 50px;
+    padding-top: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group__header .tensorsite-content {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}
+
+.tensorsite-group__header:last-child .tensorsite-content {
+    padding-bottom: 0
+}
+
+.tensorsite-group__header,
+.tensorsite-group__footer {
+    margin: 0 auto;
+    text-align: center
+}
+
+.tensorsite-group__header .tensorsite-content__title,
+.tensorsite-group__footer .tensorsite-content__title {
+    align-self: flex-start;
+    margin: auto;
+    max-width: 540px
+}
+
+.tensorsite-group__header .tensorsite-content__description,
+.tensorsite-group__footer .tensorsite-content__description {
+    margin: 10px auto;
+    width: 50%
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group__header .tensorsite-content__description,
+    .tensorsite-group__footer .tensorsite-content__description {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group__header .tensorsite-content__description,
+    .tensorsite-group__footer .tensorsite-content__description {
+        width: 100%
+    }
+}
+
+.tensorsite-group__header .tensorsite-content__description:last-child,
+.tensorsite-group__footer .tensorsite-content__description:last-child {
+    margin-bottom: 0
+}
+
+.tensorsite-group__header .tensorsite-content__cta-wrapper,
+.tensorsite-group__footer .tensorsite-content__cta-wrapper {
+    margin-top: 16px
+}
+
+.tensorsite-group__header ul.tensorsite-content__cta-wrapper,
+.tensorsite-group__footer ul.tensorsite-content__cta-wrapper {
+    justify-content: center
+}
+
+.tensorsite-group__header .tensorsite-content__cta,
+.tensorsite-group__footer .tensorsite-content__cta {
+    align-self: center
+}
+
+.tensorsite-group__header--align-left,
+.tensorsite-group__footer--align-left {
+    text-align: left
+}
+
+@media only screen and (max-width: 850px) {
+    .tensorsite-group__header--align-left,
+    .tensorsite-group__footer--align-left {
+        max-width: 600px
+    }
+}
+
+.tensorsite-group__header--align-left .tensorsite-content__description,
+.tensorsite-group__header--align-left .tensorsite-content__title,
+.tensorsite-group__footer--align-left .tensorsite-content__description,
+.tensorsite-group__footer--align-left .tensorsite-content__title {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.tensorsite-group__header--align-left .tensorsite-content__cta,
+.tensorsite-group__footer--align-left .tensorsite-content__cta {
+    align-self: flex-start
+}
+
+.tensorsite-group__footer .tensorsite-content {
+    padding-bottom: 0;
+    padding-top: 50px
+}
+
+.tensorsite-group__footer .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+.tensorsite-group__inner {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -15px auto
+}
+
+.tensorsite-group__inner[data-carousel-container] {
+    flex-wrap: nowrap;
+    transition: -webkit-transform .5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform .5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform .5s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform
+}
+
+.tensorsite-group [data-carousel-wrapper] {
+    position: relative
+}
+
+.tensorsite-group__button-previous,
+.tensorsite-group__button-next {
+    background: #fff;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    height: 46px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateY(20px);
+    transform: translateY(-50%) translateY(20px);
+    transition: box-shadow .3s cubic-bezier(0.4, 0, 0.2, 1), opacity .2s linear, -webkit-transform .2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow .3s cubic-bezier(0.4, 0, 0.2, 1), opacity .2s linear, transform .2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow .3s cubic-bezier(0.4, 0, 0.2, 1), opacity .2s linear, transform .2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform .2s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 46px;
+    z-index: 10
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group__button-previous.is-visible,
+    .tensorsite-group__button-next.is-visible {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+}
+
+.tensorsite-group__button-previous:focus,
+.tensorsite-group__button-previous:hover,
+.tensorsite-group__button-next:focus,
+.tensorsite-group__button-next:hover {
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.22)
+}
+
+.tensorsite-group__button-previous .material-icons,
+.tensorsite-group__button-next .material-icons {
+    color: #ff6f00;
+    font-size: 36px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.tensorsite-group:focus__button-previous.is-visible,
+.tensorsite-group:focus__button-next.is-visible,
+.tensorsite-group:hover__button-previous.is-visible,
+.tensorsite-group:hover__button-next.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.tensorsite-group__button-previous {
+    left: 40px
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-group__button-previous {
+        left: calc((100vw - 1400px) / -2 + 40px)
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group__button-previous {
+        left: 0
+    }
+}
+
+.tensorsite-group__button-next {
+    right: 40px
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-group__button-next {
+        right: calc((100vw - 1400px) / -2 + 40px)
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group__button-next {
+        right: 0
+    }
+}
+
+.tensorsite-group--show-all .tensorsite-container {
+    padding-bottom: 86px;
+    position: relative
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle {
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    -webkit-transform: translate(-50%, -5px);
+    transform: translate(-50%, -5px)
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle~.tensorsite-group__inner {
+    margin-bottom: 0;
+    max-height: 500px;
+    overflow: hidden;
+    transition: .3s max-height cubic-bezier(0.4, 0, 0.2, 1), .3s margin-bottom cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle+label {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle+label::before {
+    content: attr(data-show-all-default);
+    display: inline-block
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle:focus+label::after {
+    opacity: 1
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle:checked {
+    pointer-events: none
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner {
+    max-height: 500px
+}
+
+.tensorsite-group--show-all .tensorsite-group__show-all-toggle:checked+label::before {
+    content: attr(data-show-all-collapse)
+}
+
+.tensorsite-group--2up .tensorsite-block,
+.tensorsite-group--2up .tensorsite-card {
+    flex-basis: calc(50% - 30px);
+    flex-shrink: 0;
+    max-width: calc(50% - 30px)
+}
+
+.tensorsite-group--2up .devsite-landing-row-item-code {
+    display: flex;
+    flex-direction: column
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--2up .tensorsite-block,
+    .tensorsite-group--2up .tensorsite-card {
+        flex-basis: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        order: 0 !important
+    }
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-group--2up .tensorsite-content {
+        display: block
+    }
+}
+
+.tensorsite-group--3up .tensorsite-block,
+.tensorsite-group--3up .tensorsite-card,
+.tensorsite-group--3up-small .tensorsite-block,
+.tensorsite-group--3up-small .tensorsite-card,
+.tensorsite-group--3up-short .tensorsite-block,
+.tensorsite-group--3up-short .tensorsite-card,
+.tensorsite-group--row .tensorsite-block,
+.tensorsite-group--row .tensorsite-card {
+    flex-basis: calc(100% / 3 - 30px);
+    flex-shrink: 0;
+    max-width: calc(100% / 3 - 30px)
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-group--3up .tensorsite-block,
+    .tensorsite-group--3up .tensorsite-card,
+    .tensorsite-group--3up-small .tensorsite-block,
+    .tensorsite-group--3up-small .tensorsite-card,
+    .tensorsite-group--3up-short .tensorsite-block,
+    .tensorsite-group--3up-short .tensorsite-card,
+    .tensorsite-group--row .tensorsite-block,
+    .tensorsite-group--row .tensorsite-card {
+        flex-basis: calc(100% / 3 - 30px - 1px)
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    .tensorsite-group--3up .tensorsite-block,
+    .tensorsite-group--3up .tensorsite-card,
+    .tensorsite-group--3up-small .tensorsite-block,
+    .tensorsite-group--3up-small .tensorsite-card,
+    .tensorsite-group--3up-short .tensorsite-block,
+    .tensorsite-group--3up-short .tensorsite-card,
+    .tensorsite-group--row .tensorsite-block,
+    .tensorsite-group--row .tensorsite-card {
+        flex-basis: calc(100% / 3 - 30px - 1px)
+    }
+}
+
+.tensorsite-group--3up .tensorsite-block .devsite-landing-row-item-code,
+.tensorsite-group--3up .tensorsite-card .devsite-landing-row-item-code,
+.tensorsite-group--3up-small .tensorsite-block .devsite-landing-row-item-code,
+.tensorsite-group--3up-small .tensorsite-card .devsite-landing-row-item-code,
+.tensorsite-group--3up-short .tensorsite-block .devsite-landing-row-item-code,
+.tensorsite-group--3up-short .tensorsite-card .devsite-landing-row-item-code,
+.tensorsite-group--row .tensorsite-block .devsite-landing-row-item-code,
+.tensorsite-group--row .tensorsite-card .devsite-landing-row-item-code {
+    display: flex;
+    flex-direction: column
+}
+
+@media only screen and (max-width: 850px) {
+    .tensorsite-group--3up .tensorsite-block,
+    .tensorsite-group--3up .tensorsite-card,
+    .tensorsite-group--3up-small .tensorsite-block,
+    .tensorsite-group--3up-small .tensorsite-card,
+    .tensorsite-group--3up-short .tensorsite-block,
+    .tensorsite-group--3up-short .tensorsite-card,
+    .tensorsite-group--row .tensorsite-block,
+    .tensorsite-group--row .tensorsite-card {
+        flex-basis: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        order: 0 !important
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-group--3up .tensorsite-block .tensorsite-content,
+    .tensorsite-group--3up-small .tensorsite-block .tensorsite-content,
+    .tensorsite-group--3up-short .tensorsite-block .tensorsite-content,
+    .tensorsite-group--row .tensorsite-block .tensorsite-content {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--3up .tensorsite-block .tensorsite-content,
+    .tensorsite-group--3up-small .tensorsite-block .tensorsite-content,
+    .tensorsite-group--3up-short .tensorsite-block .tensorsite-content,
+    .tensorsite-group--row .tensorsite-block .tensorsite-content {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .tensorsite-group--3up .tensorsite-group__inner,
+    .tensorsite-group--3up-small .tensorsite-group__inner,
+    .tensorsite-group--3up-short .tensorsite-group__inner,
+    .tensorsite-group--row .tensorsite-group__inner {
+        max-width: 600px
+    }
+}
+
+.tensorsite-group--3up-small .tensorsite-group__inner {
+    justify-content: center;
+    width: 75%
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-group--3up-small .tensorsite-group__inner {
+        width: auto
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .tensorsite-group--3up-small .tensorsite-block,
+    .tensorsite-group--3up-small .tensorsite-card {
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--3up-small .tensorsite-block,
+    .tensorsite-group--3up-small .tensorsite-card {
+        flex-basis: calc(100% - 30px);
+        max-width: calc(100% - 30px)
+    }
+}
+
+.tensorsite-group--3up-short .tensorsite-content__image-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-height: 150px;
+    overflow: hidden
+}
+
+.tensorsite-group--4up .tensorsite-group__inner {
+    justify-content: center
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--4up .tensorsite-group__inner {
+        max-width: 600px
+    }
+}
+
+.tensorsite-group--4up .tensorsite-block,
+.tensorsite-group--4up .tensorsite-card {
+    flex-basis: calc(25% - 30px);
+    flex-shrink: 0;
+    max-width: calc(25% - 30px)
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group--4up .tensorsite-block,
+    .tensorsite-group--4up .tensorsite-card {
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--4up .tensorsite-block,
+    .tensorsite-group--4up .tensorsite-card {
+        flex-basis: calc(100% - 30px);
+        max-width: calc(100% - 30px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--4up .tensorsite-block {
+        margin: 40px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--4up .tensorsite-card--hero {
+        min-height: 400px
+    }
+}
+
+.tensorsite-group--4up .tensorsite-content__title {
+    max-width: none
+}
+
+.tensorsite-group--4up .tensorsite-block--plain .tensorsite-content {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tensorsite-group--logos .tensorsite-group__inner,
+.tensorsite-group--logos-small .tensorsite-group__inner {
+    margin-top: -20px
+}
+
+.tensorsite-group--logos .tensorsite-block,
+.tensorsite-group--logos .tensorsite-card,
+.tensorsite-group--logos-small .tensorsite-block,
+.tensorsite-group--logos-small .tensorsite-card {
+    flex-basis: calc(12.5% - 30px);
+    flex-grow: 0;
+    flex-shrink: 0
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group--logos .tensorsite-block,
+    .tensorsite-group--logos .tensorsite-card,
+    .tensorsite-group--logos-small .tensorsite-block,
+    .tensorsite-group--logos-small .tensorsite-card {
+        flex-basis: calc(25% - 30px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--logos .tensorsite-block,
+    .tensorsite-group--logos .tensorsite-card,
+    .tensorsite-group--logos-small .tensorsite-block,
+    .tensorsite-group--logos-small .tensorsite-card {
+        flex-basis: calc(50% - 30px)
+    }
+}
+
+.tensorsite-group--logos .tensorsite-block,
+.tensorsite-group--logos-small .tensorsite-block {
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+.tensorsite-group--logos .tensorsite-block:nth-child(n+9),
+.tensorsite-group--logos-small .tensorsite-block:nth-child(n+9) {
+    visibility: hidden
+}
+
+.tensorsite-group--logos .tensorsite-block__image,
+.tensorsite-group--logos-small .tensorsite-block__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65px
+}
+
+.tensorsite-group--logos .tensorsite-group__show-all-toggle~.tensorsite-group__inner,
+.tensorsite-group--logos-small .tensorsite-group__show-all-toggle~.tensorsite-group__inner {
+    max-height: 85px
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group--logos .tensorsite-group__show-all-toggle~.tensorsite-group__inner,
+    .tensorsite-group--logos-small .tensorsite-group__show-all-toggle~.tensorsite-group__inner {
+        max-height: calc(85px * 2)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--logos .tensorsite-group__show-all-toggle~.tensorsite-group__inner,
+    .tensorsite-group--logos-small .tensorsite-group__show-all-toggle~.tensorsite-group__inner {
+        max-height: calc(85px * 4)
+    }
+}
+
+.tensorsite-group--logos .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner,
+.tensorsite-group--logos-small .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner {
+    --number-of-rows: 6;
+    max-height: 510px;
+    max-height: calc(85px * var(--number-of-rows))
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-group--logos .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner,
+    .tensorsite-group--logos-small .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner {
+        max-height: 1020px;
+        max-height: calc(85px * var(--number-of-rows) * 2)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--logos .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner,
+    .tensorsite-group--logos-small .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner {
+        max-height: 1020px;
+        max-height: calc(85px * var(--number-of-rows) * 4)
+    }
+}
+
+.tensorsite-group--logos .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner .tensorsite-block:nth-child(n+9),
+.tensorsite-group--logos-small .tensorsite-group__show-all-toggle:checked~.tensorsite-group__inner .tensorsite-block:nth-child(n+9) {
+    visibility: visible
+}
+
+.tensorsite-group--row .tensorsite-group__header {
+    display: flex;
+    flex-basis: calc(100% / 3);
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 15px 0;
+    max-width: calc(100% / 3);
+    text-align: left
+}
+
+@media only screen and (max-width: 850px) {
+    .tensorsite-group--row .tensorsite-group__header {
+        flex-basis: 100%;
+        max-width: none
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-group--row .tensorsite-group__header {
+        flex-basis: 100%;
+        max-width: 100%
+    }
+}
+
+.tensorsite-group--row .tensorsite-group__header .tensorsite-content {
+    padding-bottom: 0;
+    padding-top: 0
+}
+
+.tensorsite-group--row .tensorsite-group__header .tensorsite-content__title {
+    align-self: flex-start;
+    margin: 0;
+    max-width: none
+}
+
+.tensorsite-group--row .tensorsite-group__header .tensorsite-content__description {
+    margin: 0;
+    width: auto
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-group--learn-product-roadmap {
+        background: #f5f6f7
+    }
+    .tensorsite-group--learn-product-roadmap .tensorsite-container {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 80px;
+        padding-top: 80px
+    }
+}
+
+.tensorsite-group--why-fundamentals {
+    position: relative;
+    z-index: 1
+}
+
+.tensorsite-hero {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero {
+        padding: 100px 180px 50px
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero {
+        flex-direction: column;
+        padding: 100px 100px 0
+    }
+}
+
+@media only screen and (max-width: 1279px) and (-ms-high-contrast: none),
+only screen and (max-width: 1279px) and (-ms-high-contrast: active) {
+    .tensorsite-hero {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero {
+        padding: 50px 20px 0
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero--river,
+    .tensorsite-hero--river-large {
+        align-items: center;
+        justify-content: space-between
+    }
+}
+
+.tensorsite-hero--river::before,
+.tensorsite-hero--river-large::before {
+    background: url(/site-assets/images/marketing/hero-river-bg-left.svg) center/cover no-repeat;
+    content: '';
+    height: 304px;
+    left: -250px;
+    position: absolute;
+    top: 0;
+    width: 443px
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero--river::after,
+    .tensorsite-hero--river-large::after {
+        background: url(/site-assets/images/marketing/hero-river-bg-right.svg) center/cover no-repeat;
+        content: '';
+        height: 904px;
+        position: absolute;
+        right: -350px;
+        top: 0;
+        width: 1440px;
+        z-index: -1
+    }
+}
+
+.tensorsite-hero--river .tensorsite-hero__side--left,
+.tensorsite-hero--river-large .tensorsite-hero__side--left {
+    background-color: #ff6f00;
+    height: 304px;
+    right: calc(100% + 250px);
+    top: 0
+}
+
+.tensorsite-hero--river .tensorsite-hero__side--right,
+.tensorsite-hero--river-large .tensorsite-hero__side--right {
+    background: linear-gradient(to bottom, #f5f6f7, rgba(255, 255, 255, 0));
+    height: 904px;
+    left: calc(100% + 350px);
+    top: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero--river-large {
+        padding: 80px 20px 40px
+    }
+}
+
+.tensorsite-hero--river-large::before {
+    background: url(/site-assets/images/marketing/hero-river-bg-left-large.svg) center/cover no-repeat;
+    height: 546px;
+    left: -450px;
+    width: 774px
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__side--left {
+    height: 546px;
+    right: calc(100% + 449px)
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero--river-large::after {
+        background: url(/site-assets/images/marketing/hero-river-bg-right-large.svg) center/cover no-repeat;
+        height: 1938px;
+        right: -5px;
+        width: 1573px
+    }
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__side--right {
+    background: #f5f6f7;
+    height: 1936px;
+    left: 100%;
+    top: 0
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__side--left-lower {
+    background: #f5f6f7;
+    height: 930px;
+    right: 100%;
+    top: 1008px
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__content {
+    flex-basis: 100%
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__content .tensorsite-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero--river-large .tensorsite-hero__content .tensorsite-content {
+        width: auto
+    }
+}
+
+.tensorsite-hero--river-large .tensorsite-hero__image {
+    display: none
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero--shape {
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-top: 20px
+    }
+}
+
+.tensorsite-hero--shape::before {
+    background: url(/site-assets/images/marketing/hero-shape-bg.svg) center/cover no-repeat;
+    content: '';
+    height: 402.25179px;
+    right: -32%;
+    position: absolute;
+    top: 0;
+    width: 1500px;
+    z-index: -1
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero--shape::before {
+        left: 50%;
+        right: auto;
+        top: 0;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+}
+
+.tensorsite-hero--video {
+    height: 600px;
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero--video {
+        padding-top: 120px
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero--video {
+        flex-direction: row
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video {
+        flex-direction: column;
+        height: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero--video {
+        margin-bottom: 0
+    }
+}
+
+.tensorsite-hero--video::after {
+    background: #dadada;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 100vw;
+    z-index: 1
+}
+
+.tensorsite-hero--video::before {
+    background: url(/site-assets/images/marketing/hero-video-bg.svg) top right/cover no-repeat;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75%;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video::before {
+        display: none
+    }
+}
+
+.tensorsite-hero--video .tensorsite-hero__content {
+    position: relative;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero--video .tensorsite-hero__content {
+        text-align: left
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .tensorsite-hero--video .tensorsite-hero__content {
+        max-width: 50%
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video .tensorsite-hero__content {
+        padding-bottom: 50px;
+        text-align: center
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero--video .tensorsite-hero__content .tensorsite-content__title {
+        font-family: "Google Sans", sans-serif;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 56px
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video .tensorsite-content__cta-wrapper {
+        justify-content: center
+    }
+}
+
+.tensorsite-hero--video .tensorsite-hero__image {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+@media only screen and (min-width: 1441px) {
+    .tensorsite-hero--video .tensorsite-hero__image {
+        margin-left: 2px;
+        margin-right: calc((100vw - 1440px) / -2)
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video .tensorsite-hero__image {
+        height: 45vw;
+        margin-left: -100px;
+        margin-right: -100px;
+        min-height: 350px;
+        position: relative
+    }
+    .tensorsite-hero--video .tensorsite-hero__image.tensorsite-hero__image--has-mobile .tensorsite-hero__image--desktop {
+        display: none
+    }
+}
+
+.tensorsite-hero--video .tensorsite-hero__image--desktop,
+.tensorsite-hero--video .tensorsite-hero__image--mobile {
+    background: center right 45% / cover no-repeat;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tensorsite-hero--video .tensorsite-hero__image--mobile {
+    display: none
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video .tensorsite-hero__image--mobile {
+        display: block
+    }
+}
+
+.tensorsite-hero--video .tensorsite-hero__side--left {
+    background-color: #fff;
+    height: 100%;
+    right: 100%;
+    top: 0;
+    z-index: 1
+}
+
+.tensorsite-hero--video .tensorsite-hero__play-button {
+    bottom: 0;
+    position: absolute;
+    right: 20%;
+    top: 0;
+    z-index: 2
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-hero--video .tensorsite-hero__play-button {
+        left: 0;
+        right: 0
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero--community {
+        padding-right: 60px;
+        padding-top: 20px
+    }
+    .tensorsite-hero--community .tensorsite-hero__content {
+        max-width: 400px
+    }
+}
+
+.tensorsite-hero__side {
+    position: absolute;
+    width: calc((100vw - 1440px) / 2)
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero__content {
+        padding-right: 25px
+    }
+    .tensorsite-hero--shape .tensorsite-hero__content {
+        max-width: 400px
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero__content {
+        text-align: center
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero__content {
+        flex: 0 0 50%
+    }
+}
+
+.tensorsite-hero__content .tensorsite-content {
+    padding: 0
+}
+
+.tensorsite-hero__content .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.tensorsite-hero__content .tensorsite-content__description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #425066
+}
+
+.tensorsite-hero__content .tensorsite-content__description a {
+    color: #425066
+}
+
+.tensorsite-hero__buttons {
+    margin: 20px 0
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero__buttons {
+        justify-content: center
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero__buttons {
+        display: flex
+    }
+}
+
+.tensorsite-hero__buttons .tensorsite-hero__button-column {
+    width: 160px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero__buttons .tensorsite-hero__button-column {
+        margin: 0 auto
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero__buttons .tensorsite-hero__button-column {
+        margin-right: 20px
+    }
+}
+
+.tensorsite-hero__button {
+    text-align: center;
+    width: 100%
+}
+
+.tensorsite-hero__button-subtitle {
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero__image {
+        margin: 20px -8%
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero__image {
+        flex: 0 0 50%
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-hero__image {
+        margin: 20px 0;
+        text-align: center
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .tensorsite-hero__image {
+        padding-left: 25px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-hero__image img {
+        max-width: 500px;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-hero__image img {
+        min-width: 500px
+    }
+}
+
+.tensorsite-home-hero-wrapper {
+    background: #fff url(/site-assets/images/marketing/home/hero/hero_slice_desktop_center.svg) no-repeat top center/contain;
+    background-size: 1720px auto;
+    height: 883px;
+    margin: auto auto -180px auto;
+    max-width: 1720px;
+    position: relative
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-home-hero-wrapper {
+        background: #f5f6f7 url(/site-assets/images/marketing/home/hero/hero_slice-mobile.svg) no-repeat right top/100%;
+        height: 900px;
+        margin: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero-wrapper {
+        background-position: 100% calc(50px - 15vw);
+        background-size: 900px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tensorsite-home-hero-wrapper {
+        background-size: 1000px;
+        background-position: 100% 0%
+    }
+}
+
+.tensorsite-home-hero-wrapper iframe {
+    min-height: 750px;
+    width: 100%
+}
+
+.tensorsite-home-hero-wrapper iframe.framebox {
+    opacity: 0
+}
+
+.tensorsite-home-hero-wrapper devsite-framebox iframe {
+    margin: 0;
+    opacity: 1
+}
+
+.tensorsite-home-hero {
+    height: 883px;
+    margin: auto;
+    max-width: 1720px;
+    position: relative
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-home-hero {
+        height: 900px;
+        margin: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero {
+        background-size: 220%
+    }
+}
+
+.tensorsite-home-hero .tensorsite-container {
+    margin: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero .tensorsite-container {
+        width: auto
+    }
+}
+
+.tensorsite-home-hero .tensorsite-tab {
+    margin-left: 50px;
+    max-width: 640px;
+    position: absolute
+}
+
+@media only screen and (max-width: 985px) {
+    .tensorsite-home-hero .tensorsite-tab {
+        bottom: 20px;
+        left: 0;
+        margin: auto;
+        max-width: none;
+        right: 0;
+        width: 80%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero .tensorsite-tab {
+        bottom: 0;
+        width: 100%
+    }
+}
+
+.tensorsite-home-hero .tensorsite-tab__tabs {
+    margin: 0 26px;
+    overflow: auto;
+    width: auto;
+    -ms-overflow-style: none
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-home-hero .tensorsite-tab__tabs::after {
+        width: calc(100% - 44px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero .tensorsite-tab__tabs::after {
+        width: calc(150% - 44px)
+    }
+}
+
+.tensorsite-home-hero .tensorsite-tab__tabs label {
+    padding: 24px 18px 14px 18px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero .tensorsite-group__header .tensorsite-content {
+        padding: 0 10px 20px 10px
+    }
+}
+
+.tensorsite-home-hero .tensorsite-tab .tensorsite-tab__content {
+    padding: 0 10px 20px 10px
+}
+
+.tensorsite-home-hero .tensorsite-content__title {
+    font-family: "Google Sans", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    margin: 0;
+    overflow: visible;
+    padding: 70px 0 30px 70px;
+    top: 0;
+    width: 559px;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-home-hero .tensorsite-content__title {
+        font-family: "Google Sans", sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 44px;
+        font-weight: 700;
+        width: 439px
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-home-hero .tensorsite-content__title {
+        font-family: "Google Sans", sans-serif;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 56px;
+        padding: 70px 0 30px 0;
+        width: 440px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero .tensorsite-content__title {
+        font-family: "Google Sans", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 46px;
+        padding: 20px;
+        width: 350px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tensorsite-home-hero .tensorsite-content__title {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 300px
+    }
+}
+
+.tensorsite-home-hero .tensorsite-content__description {
+    margin-bottom: 32px
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-home-hero .tensorsite-content__description {
+        max-width: 560px
+    }
+}
+
+.tensorsite-home-hero__side {
+    position: absolute;
+    width: calc((100vw - 1720px) / 2 + 3px)
+}
+
+.tensorsite-home-hero__side--left {
+    background-color: #ff6f00;
+    height: 696px;
+    right: calc(100% - 3px)
+}
+
+.tensorsite-home-hero__side--right {
+    background-color: #f5f6f7;
+    left: calc(100% - 3px);
+    height: 801px
+}
+
+.tensorsite-home-hero-animation {
+    left: 51%;
+    max-width: 800px;
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    transition: .3s opacity linear;
+    width: 800px
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-home-hero-animation {
+        top: 60px;
+        width: 60%
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-home-hero-animation {
+        left: 41%;
+        top: 28vw;
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-home-hero-animation {
+        left: 15vw;
+        margin: 0 auto;
+        top: calc(300px - 10vw);
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tensorsite-home-hero-animation {
+        left: 0;
+        margin: 0 auto;
+        top: 300px;
+        width: 100%
+    }
+}
+
+.tensorsite-home-hero-animation.is-loaded {
+    opacity: 1
+}
+
+.tensorsite-home-hero-animation .tensorsite-home-hero-animation-browser,
+.tensorsite-home-hero-animation .tensorsite-home-hero-animation-phone,
+.tensorsite-home-hero-animation .tensorsite-home-hero-animation-server {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-home-hero-animation {
+        height: 800px;
+        top: 0;
+        width: 600px
+    }
+}
+
+.tensorsite-side-side .tensorsite-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 80px 40px
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-side-side .tensorsite-container {
+        padding: 80px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-side-side .tensorsite-container {
+        padding: 80px 20px
+    }
+}
+
+.tensorsite-side-side .tensorsite-content {
+    height: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-side-side .tensorsite-content {
+        padding: 26px 0
+    }
+}
+
+.tensorsite-side-side .tensorsite-content p {
+    margin: 10px 0
+}
+
+.tensorsite-side-side .tensorsite-content__title {
+    margin-bottom: 24px
+}
+
+.tensorsite-side-side .tensorsite-content__image-wrapper {
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 100%
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-side-side .tensorsite-content__image-wrapper {
+        height: 300px;
+        margin: 0
+    }
+}
+
+.tensorsite-side-side--gray {
+    background-color: #f5f6f7
+}
+
+.tensorsite-side-side-wrapper {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.tensorsite-side-side-wrapper--reverse {
+    flex-direction: row-reverse
+}
+
+.tensorsite-side-side__main-section,
+.tensorsite-side-side__secondary-section {
+    flex-basis: 42%;
+    z-index: 1
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-side-side__main-section,
+    .tensorsite-side-side__secondary-section {
+        flex-basis: calc(100% - 30px)
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-side-side__secondary-section {
+        padding: 0 20px
+    }
+}
+
+.tensorsite-side-side__main-section .tensorsite-content {
+    padding-top: 0
+}
+
+.tensorsite-side-side__main-section .tensorsite-content .tensorsite-content__description {
+    margin-bottom: 24px
+}
+
+.tensorsite-side-side__secondary-section-text-wrapper {
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    flex-basis: calc(40% - 30px);
+    margin-bottom: 26px;
+    padding: 0
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-side-side__secondary-section-text-wrapper {
+        flex-basis: calc(100% - 30px);
+        margin: 45px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-side-side__secondary-section-text-wrapper {
+        margin: 15px
+    }
+}
+
+.tensorsite-side-side__secondary-section-text-wrapper .tensorsite-content {
+    padding: 40px
+}
+
+.tensorsite-side-side__secondary-section-text-wrapper .tensorsite-content__description {
+    margin-bottom: 24px
+}
+
+.tensorsite-side-side__secondary-section-text-wrapper .tensorsite-content__description strong {
+    color: #425066
+}
+
+@media only screen and (min-width: 1001px) {
+    .tensorsite-side-side__secondary-section--short {
+        margin-top: 120px
+    }
+}
+
+.tensorsite-side-side--why-bg {
+    position: relative
+}
+
+.tensorsite-side-side--why-bg::before,
+.tensorsite-side-side--why-bg::after {
+    background: #f5f6f7;
+    content: '';
+    position: absolute;
+    width: calc((100vw - 1794px) / 2)
+}
+
+.tensorsite-side-side--why-bg::before {
+    bottom: -411px;
+    left: 50%;
+    top: -643px;
+    -webkit-transform: translateX(-100%) translateX(-897px);
+    transform: translateX(-100%) translateX(-897px)
+}
+
+.tensorsite-side-side--why-bg::after {
+    bottom: -751px;
+    left: 50%;
+    top: 284px;
+    -webkit-transform: translateX(896px);
+    transform: translateX(896px)
+}
+
+.tensorsite-side-side--why-bg .tensorsite-side-side__background {
+    background: url(/site-assets/images/marketing/why/whytf-bg.svg) center/contain no-repeat;
+    content: '';
+    left: 50%;
+    height: 1932px;
+    position: absolute;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1794px;
+    z-index: -1
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab-group .tensorsite-container {
+        padding: 0;
+        width: 100%
+    }
+}
+
+.tensorsite-tab-group .tensorsite-tab {
+    max-width: 1200px;
+    min-height: 580px
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab-group .tensorsite-tab__tabs::after {
+        left: 85px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-tab-group .tensorsite-tab__tabs::after {
+        left: 45px
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tensorsite-tab-group .tensorsite-tab__tabs {
+        padding: 0 67px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-tab-group .tensorsite-tab__tabs {
+        padding: 0 27px
+    }
+}
+
+@media only screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .tensorsite-tab-group .tensorsite-tab__content--inner {
+        display: block;
+        padding: 0 30px;
+        width: 30%
+    }
+}
+
+.tensorsite-twitter-stream {
+    left: 50vw;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 2160px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-twitter-stream {
+        width: 200vw
+    }
+}
+
+.tensorsite-twitter-stream::before {
+    background: url(/site-assets/images/marketing/why/whytf-tweet-bg.svg) 50% 0/cover no-repeat;
+    bottom: -300px;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -42%
+}
+
+.tensorsite-twitter-stream__side {
+    background: #f5f6f7;
+    position: absolute;
+    width: calc((100vw - 1440px) / 2)
+}
+
+.tensorsite-twitter-stream__side--left {
+    bottom: -300px;
+    right: 100%;
+    top: -26.9%
+}
+
+.tensorsite-twitter-stream__side--right {
+    bottom: -300px;
+    left: 100%;
+    top: 31.2%
+}
+
+.tensorsite-twitter-stream__header {
+    text-align: center
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-twitter-stream__header {
+        margin: 0 auto;
+        max-width: 90vw
+    }
+}
+
+.tensorsite-twitter-stream__header .tensorsite-content__title {
+    margin: auto
+}
+
+@media only screen and (min-width: 768px) {
+    .tensorsite-twitter-stream__header .tensorsite-content__title {
+        max-width: 540px
+    }
+}
+
+.tensorsite-twitter-stream__header .tensorsite-content__description {
+    margin: 10px auto;
+    max-width: 580px;
+    width: 50%
+}
+
+@media only screen and (max-width: 1279px) {
+    .tensorsite-twitter-stream__header .tensorsite-content__description {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-twitter-stream__header .tensorsite-content__description {
+        width: 100%
+    }
+}
+
+.tensorsite-twitter-stream__tweets {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 30px;
+    max-height: 800px;
+    position: relative
+}
+
+.tensorsite-twitter-stream__tweets::after {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7));
+    bottom: -100px;
+    content: '';
+    height: 45%;
+    left: calc((100vw - 1440px) / -2);
+    pointer-events: none;
+    position: absolute;
+    right: calc((100vw - 1440px) / -2)
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-twitter-stream__tweets {
+        max-height: 110vw
+    }
+}
+
+.tensorsite-twitter-stream__column {
+    flex: 0 0 20%;
+    padding: 0 15px
+}
+
+.tensorsite-twitter-stream__column:nth-child(1) {
+    padding-top: 250px
+}
+
+.tensorsite-twitter-stream__column:nth-child(2) {
+    padding-top: 100px
+}
+
+.tensorsite-twitter-stream__column:nth-child(4) {
+    padding-top: 200px
+}
+
+.tensorsite-twitter-stream__column:nth-child(5) {
+    padding-top: 120px
+}
+
+@media only screen and (max-width: 767px) {
+    .tensorsite-twitter-stream__column {
+        flex: 0 0 33%
+    }
+    .tensorsite-twitter-stream__column:first-child,
+    .tensorsite-twitter-stream__column:last-child {
+        display: none
+    }
+}
+
+.tensorsite-twitter-stream__tweet {
+    display: block;
+    margin: 25px 0
+}
+
+.tensorsite-twitter-stream__tweet:focus img,
+.tensorsite-twitter-stream__tweet:hover img {
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.22)
+}
+
+.tensorsite-twitter-stream__tweet img {
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s
+}
+
+
+/* override theme */
+
+table img {
+    max-width: 100%;
+}
+
+
+/* override var element to differentiate color from comment */
+
+var,
+var code,
+var span,
+.prettyprint var span {
+    color: #039be5;
+}
+
+
+/* .devsite-terminal virtualenv prompt */
+
+.tfo-terminal-venv::before {
+    content: "(venv) $ " !important;
+}
+
+
+/* .devsite-terminal root prompt */
+
+.tfo-terminal-root::before {
+    content: "# " !important;
+}
+
+
+/* .devsite-terminal Windows prompt */
+
+.tfo-terminal-windows::before {
+    content: "C:\\> " !important;
+}
+
+
+/* .devsite-terminal Windows prompt w/ virtualenv */
+
+.tfo-terminal-windows-venv::before {
+    content: "(venv) C:\\> " !important;
+}
+
+devsite-code .tfo-notebook-code-cell-output {
+    max-height: 300px;
+    overflow: auto;
+    background: rgba(255, 247, 237, 1);
+    /* orange bg to distinguish from input code cells */
+}
+
+devsite-code .tfo-notebook-code-cell-output+.devsite-code-buttons-container button {
+    background: rgba(255, 247, 237, .7);
+    /* orange bg to distinguish from input code cells */
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output {
+    background: rgba(64, 78, 103, 1);
+    /* medium slate */
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output+.devsite-code-buttons-container button {
+    background: rgba(64, 78, 103, .7);
+    /* medium slate */
+}
+
+
+/* override default table styles for notebook buttons */
+
+.devsite-table-wrapper .tfo-notebook-buttons {
+    display: inline-block;
+    margin-left: 3px;
+    width: auto;
+}
+
+.tfo-notebook-buttons td {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.tfo-notebook-buttons a,
+.tfo-notebook-buttons :link,
+.tfo-notebook-buttons :visited {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    color: #202124;
+    padding: 12px 24px;
+    transition: box-shadow 0.2s;
+}
+
+.tfo-notebook-buttons a:hover,
+.tfo-notebook-buttons a:focus {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 2px 6px 2px rgba(60, 64, 67, .15);
+}
+
+.tfo-notebook-buttons tr {
+    background: 0;
+    border: 0;
+}
+
+
+/* on rendered notebook page,
+remove link to webpage since we're already here */
+
+.tfo-notebook-buttons:not(.tfo-api) td:first-child {
+    display: none;
+}
+
+.tfo-notebook-buttons td>a {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.tfo-notebook-buttons td>a>img {
+    margin-right: 8px;
+}
+
+
+/* landing pages */
+
+.tfo-landing-row-item-inset-white {
+    background-color: #fff;
+    padding: 32px;
+}
+
+.tfo-landing-row-item-inset-white ol,
+.tfo-landing-row-item-inset-white ul {
+    padding-left: 20px;
+}
+
+
+/* colab callout button */
+
+.colab-callout-row devsite-code {
+    border-radius: 8px 8px 0 0;
+    box-shadow: none;
+}
+
+.colab-callout-footer {
+    background: #e3e4e7;
+    border-radius: 0 0 8px 8px;
+    color: #37474f;
+    padding: 20px;
+}
+
+.colab-callout-row devsite-code[dark-code]+.colab-callout-footer {
+    background: #3f4f66;
+}
+
+.colab-callout-footer>.button {
+    margin-top: 4px;
+    color: #ff5c00;
+}
+
+.colab-callout-footer>a>span {
+    padding-top: 10px;
+    vertical-align: middle;
+    color: #37474f;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.colab-callout-row devsite-code[dark-code]+.colab-callout-footer>a>span {
+    color: #fff;
+}
+
+a.colab-button {
+    background: rgba(255, 255, 255, .75);
+    border: solid 1px rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    color: #aaa;
+    display: inline-block;
+    font-size: 11px !important;
+    font-weight: 300;
+    line-height: 16px;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.colab-button:hover {
+    background: white;
+    border-color: rgba(0, 0, 0, .2);
+    color: #666;
+}
+
+a.colab-button span {
+    background: url(/images/colab_logo_button.svg) no-repeat 1px 1px / 20px;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .tfo-notebook-buttons td {
+        display: block;
+    }
+}
+
+
+/* guide and tutorials landing page cards and sections */
+
+.tfo-landing-page-card {
+    padding: 16px;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Page section headings */
+
+.tfo-landing-page-heading h2,
+h2.tfo-landing-page-heading {
+    font-family: "Google Sans", sans-serif;
+    color: #425066;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+/* Item title headings */
+
+.tfo-landing-page-heading h3,
+h3.tfo-landing-page-heading,
+.tfo-landing-page-card h3,
+h3.tfo-landing-page-card {
+    font-family: "Google Sans", sans-serif;
+    color: #425066;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+/* List of tutorials notebooks for subsites */
+
+.tfo-landing-page-resources-ul {
+    padding-left: 15px
+}
+
+.tfo-landing-page-resources-ul>li {
+    margin: 6px 0;
+}

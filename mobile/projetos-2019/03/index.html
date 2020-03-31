@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://danielgaletti.github.io/style.css" />
+    <style type="text/css">
+
+        #topbar{
+            display: fixed;
+            background: #eee;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 55px;
+            border-bottom-width: 1px;
+            border-bottom-color: #ddd;
+            border-bottom-style: solid;
+            z-index: -1;
+            width: 100%
+        }
+
+        #menu{
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 15px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            right: 0;
+        }
+
+        #caixa{
+            height: auto;
+            padding-left: 80px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            padding-right: 80px;
+            text-align: justify;
+            background-color: white;
+        }
+
+        #video{
+            display: fixed;
+            position: relative;
+            width: 100%;
+            padding-top: 25px;
+            padding-right: 30px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            top: -30.5em;
+            left: 660px;
+        }
+
+        #console{
+            display: fixed;
+            position: relative;
+            top: -28em;
+            left: 80px;
+            width: 500px;
+            background: #fff;
+            border-left-color:  rgb(238, 238, 238);
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-right-color: rgb(238, 238, 238);
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-bottom-color: rgb(238, 238, 238);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-top-color: rgb(238, 238, 238);
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-radius: 3px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+
+        #box1{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 215px;
+            background-color: white;
+            text-align: left;
+            top: -26em;
+            left: 80px;
+            float: left;
+        }
+
+        #box2{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 215px;
+            background-color: white;
+            text-align: justify;
+            left: 160px;
+            top: -26em;
+            float: left;
+        }
+
+        #box3{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 215px;
+            background-color: white;
+            text-align: justify;
+            left: 240px;
+            top: -26em;
+            float: left;
+        }
+
+        #box4{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 215px;
+            background-color: white;
+            text-align: left;
+            left: 950px;
+            top:-26em;
+            left:320px;
+            float: left;
+        }
+
+        #title{
+            font-size: 25px;
+            margin-bottom: -15px;
+            font-weight: 50;
+            font-family: "open-sans", sans-serif;
+            padding-right: 2px;
+            line-height: 1.25em;
+        }
+
+        #text2{
+            position: relative
+            font-family: sans-serif;
+            line-height: 1.6;
+            font-size: 14px;
+            color: #555;
+            font-weight: 400;
+            top: -4em;
+            padding-bottom: 10px;
+        }
+
+        #button{
+            position: relative;
+            left:-740px;
+            top: -8em;
+        }
+
+        #button2{
+            position: relative;
+            left:-700px;
+            top: -09.25em;
+            float: left;
+        }
+
+        #footer{
+            position: relative;
+            font-family: sans-serif;
+            font-size: 11px;
+            color: #555;
+            top: -14em;
+            left: -680px;
+        }
+
+        #foot{
+            position: relative;
+            font-family: sans-serif;
+            font-size: 11px;
+            color: #555;
+            top: -4.5em;
+            left: 140px;
+        }
+
+        #bt_menu{
+            display: none;
+        }
+
+        label[for="bt_menu"]{
+            display: none;
+        }
+
+
+
+        @media (max-width:850px){
+            #box1{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 70%;
+            background-color: white;
+            text-align: left;
+            top: -10em;
+            left: 20px;
+            margin-right: 100%
+            }
+
+            #box2{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 70%;
+            background-color: white;
+            text-align: justify;
+            left: 20px;
+            top: -15em;
+            margin-right: 100%
+            }
+
+        #box3{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 70%;
+            background-color: white;
+            text-align: justify;
+            left: 20px;
+            top: -20em;
+            margin-right: 100%
+            }
+
+        #box4{
+            display: fixed;
+            position: relative;
+            height: 224px;
+            width: 70%;
+            background-color: white;
+            text-align: left;
+            left: px;
+            top:-25em;
+            left:20px;
+            bottom: -30px;
+            margin-right: 100%
+        }
+
+        #video{
+            display: fixed;
+            position: relative;
+            width: 100%px;
+            left: 20px;
+            top:-12em;
+            margin-right: 100%;
+            padding-top: 25px;
+            padding-right: 30px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+
+        #footer{
+            position: relative;
+            font-family: sans-serif;
+            font-size: 11px;
+            color: #555;
+            top: -40em;
+            left: 20px;
+        }
+
+        #foot{
+            position: relative;
+            font-family: sans-serif;
+            font-size: 11px;
+            color: #555;
+            top: -10em;
+            left: 20px;
+        }
+
+        #console{
+            display: none;
+        }
+
+
+        label[for="bt_menu"]{
+            padding: 5px;
+            background-color: black;
+            color: #222;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 30px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+        }
+
+        #bt_menu{
+            display: none;
+        }
+    }
+
+    </style>
+
+    <meta charset="utf-8"></meta>
+    <title>Express - framework de aplicativo da web Node.js</title>
+    <meta name="Author" content="Daniel Galetti"></meta>
+</head>
+
+<body>
+    <div id="topbar"></div>
+    <p><a href="https://expressjs.com/" class="express">Express</a></p>
+    <form>
+        <input id="q" placeholder="🔎 search" class="searchbox">
+    </form>
+
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+
+    <ul id="menu">
+        <li>
+            <a href="https://expressjs.com/pt-br/" class="pagina_inicial">Página Inicial</a>
+        </li>
+        <li>
+            <a href="https://expressjs.com/pt-br/starter/installing.html" class="introducao">Introdução</a>
+        </li>
+        <li>
+            <a href="https://expressjs.com/pt-br/guide/routing.html" class="guia">Guia</a>
+        </li>
+        <li>
+            <a href="https://expressjs.com/pt-br/4x/api.html" class="referencia">Referência da API</a>
+        </li>
+        <li>
+            <a href="https://expressjs.com/pt-br/advanced/developing-template-engines.html" class="topicos">Tópicos Avançados</a>
+        </li>
+        <li>
+            <a href="https://expressjs.com/pt-br/resources/glossary.html" class="recursos">Recursos</a>
+        </li>
+    </ul>
+    <p><a href="https://expressjs.com/" class="body_express">Express</a></p>
+
+    <div id="caixa">
+    <span class="description">Framework web rápido, flexível e minimalista para
+            <a href="htt://nodejs.org" class="Node">Node.js</a>
+    </span>
+    </div>
+
+    <div id="video">
+        <iframe height="273" src="https://www.youtube.com/embed/HxGt_3F0ULg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="console">
+        <span class="consoletext">$ npm install express --save</span>
+    </div>
+
+    <div id="box1">
+        <div id="title"><h3>Aplicativos da web</h3></div>
+        <div id="text2">
+            <p>O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</p>
+        </div>
+    </div>
+
+    <div id="box2">
+        <div id="title"><h3>APIs</h3></div>
+            <div id="text2">
+                <p>Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil.</p>
+            </div>
+    </div>
+
+    <div id="box3">
+            <div id="title"><h3>Desempenho</h3></div>
+            <div id="text2">
+                <p>O Express fornece uma camada fina de recursos fundamentais para aplicativos da web, sem obscurecer os recursos do Node.js que você conhece e ama.</p>
+            </div>
+    </div>
+
+    <div id="box4">
+            <div id="title"><h3>Loopback</h3></div>
+            <div id=text1><a href="https://loopback.io/" class="Node">Desenvolva aplicativos orientado a modelos com um framework baseado em Express.<br/>
+                Descubra mais em loopback.io.</a></div>
+    </div>
+    <div id="button">
+        <button class="btn"><a href="https://github.com/expressjs/express/" class="btn2">Star</a></button>
+    </div>
+
+    <div id="button2">
+        <button class="btn"><a href="https://github.com/expressjs/express/stargazers" class="btn2" target="_blank">45,428</a></button>
+    </div>
+    <div id="footer">
+        <p><a href="https://github.com/expressjs/express" class="Node">Express</a> é um projeto da fundação Node.js.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/expressjs/expressjs.com" class="Node">Crie um Fork do website no GitHub.</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © StrongLoop, Inc., e outros contribuidores do expressjs.com</a> </p>
+        <p></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/us/80x15.png" class="img"></p>
+
+    <div id="foot">
+            <p>Este obra está licenciado com uma Licença <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank" class="Node">Creative Commons Atribuição-CompartilhaIgual 3.0 Estados Unidos</a>  </p>
+    </div>
+</body>
+
+</html>

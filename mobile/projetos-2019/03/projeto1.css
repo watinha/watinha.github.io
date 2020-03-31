@@ -1,0 +1,241 @@
+.express{
+    position: absolute;
+    font-style: normal;
+    font-family: "helvetica neue", "Open sans", sans-serif;
+    color: #444;
+    font-weight: 100;
+    font-size: 25px;
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right:25px;
+    width: 25px;
+    top:0.55em;
+}
+
+.searchbox{
+    display: fixed;
+    position: relative;
+    height: 1.5em;
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    left:270px;
+    top: -.2em; 
+    min-width: 12em;
+    font-size:14px;
+}
+
+.pagina_inicial{
+    display: fixed;
+    position: relative;
+    top: -2.2em;
+    text-decoration:none;
+    left: 480px;
+    color: #353535;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size:14px;
+}
+
+.introducao{
+    display: fixed;
+    position: relative;
+    top: -3.5em;
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    padding-left: 20px;
+    left: 570px;
+    font-size:14px;
+}
+
+.guia{
+    display: fixed;
+    position: relative;
+    top: -4.8em;
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    padding-left: 20px;
+    left: 652px;
+    font-size:14px;
+}
+
+.referencia{
+    display: fixed;
+    position: relative;
+    top: -6.1em;
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    padding-left: 20px;
+    left: 702px;
+    font-size:14px;
+}
+
+.topicos{
+    display: fixed;
+    position: relative;
+    top: -7.35em;
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    padding-left: 20px;
+    left: 835px;
+    font-size:14px;
+}
+
+.recursos{
+    display: fixed;
+    position: relative;
+    top: -8.7em;
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    padding-left: 20px;
+    left: 978px;
+    font-size:14px;
+}
+
+.body_express{
+    display: fixed;
+    position: relative;
+    font-size:56.7px;
+    font-stretch: 100%;
+    font-weight: 100;
+    text-decoration: none;
+    color: #353535;
+    font-family: sans-serif;
+    margin: 80px;
+    top:-.5em;
+}
+
+.description{
+    display: fixed;
+    position: relative;
+    color: #aeaeae;
+    top: -1.8em;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-weight: 100;
+    font-stretch: normal;
+    font-size: 3.8em;
+    line-height: .87;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Node{
+    text-decoration: none;
+    color: #259dff
+}
+
+.consoletext{
+    font-family: consolas, Monaco, andale, mono, monospace;
+    font-style: normal;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+
+.text2{
+    font-family: sans-serif;
+    line-height: 1.;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding-top:20px;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.btn2{
+    text-decoration: none;
+    color: #333;
+}
+
+.img{
+    position: relative;
+    top:-2em;
+}
+
+@media (max-width: 850px){
+
+    .express{
+        position: absolute;
+        font-style: normal;
+        font-family: "helvetica neue", "Open sans", sans-serif;
+        color: #444;
+        font-weight: 700;
+        font-size: 25px;
+        text-decoration:none;
+        padding-left: 20px;
+        padding-right:25px;
+        width: 25px;
+        left: 40%;
+        top:0.55em;
+    }
+
+    .body_express{
+        display: none;
+    }
+    
+    .description{
+        display: fixed;
+        position: relative;
+        color: #aeaeae;
+        top: -4em;
+        left: -60px;
+        width:300px;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-weight: 100;
+        font-stretch: normal;
+        font-size: 2em;
+        line-height: .87;
+        font-family: sans-serif;
+        text-decoration: none;
+        margin-bottom: 20px;
+        margin-right: 100%
+        float: bottom;
+    }
+
+    .searchbox{
+        display: none;
+    }
+
+    .pagina_inicial{
+        display: none;
+    }
+
+    .introducao{
+        display: none;
+    }
+    
+    .guia{
+        display: none;
+    }
+    
+    .referencia{
+        display: none;
+    }
+    
+    .topicos{
+        display: none;
+    }
+    
+    .recursos{
+        display: none;
+    }
+}
