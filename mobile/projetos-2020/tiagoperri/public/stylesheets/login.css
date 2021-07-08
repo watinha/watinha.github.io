@@ -1,0 +1,114 @@
+#login{
+width: 45%; 
+margin: auto;
+background: rgb(247, 247, 247);
+border: 1px solid rgba(147, 184, 189,0.8);
+border-radius: 4px;
+height: 350px;
+}
+.contLogin h1{
+  font-size: 2.375rem;
+  color:#484848;
+  font-family: "Museo-Sans";
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+#login h1{
+  font-size: 2.375rem;
+  color:#484848;
+  font-family: "Museo-Sans";
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.div-input{
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.label-geral{
+  font-family: "Museo-Sans";
+  font-size: 14px;
+  font-weight: bold;
+  color: #484848;
+  align-self: center;
+  margin-bottom: 5px;
+}
+.label-api{
+  font-family: "Museo-Sans";
+  font-size: 14px;
+  font-weight: bold;
+  color: #484848;
+  align-self: center;
+  margin-bottom: 8px;
+}
+.input-geral{
+  height: 45px;
+  align-self: center;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #DADADA;
+  width: 380px;
+}
+.div-btn{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+#BtnSubmit{
+  background-color:#e60012;
+  width: 170px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: white; 
+  font-size: 16px;
+  font-family: "Museo-Sans";
+}
+#BtnSubmit_cadastro{
+  background-color:#e60012;
+  width: 170px;
+  height: 45px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: white; 
+  font-size: 16px;
+  font-family: "Museo-Sans";
+}
+#BtnLogout{
+  background-color:#e60012;
+  width: 120px;
+  height: 25px;
+  border-radius: 4px;
+  margin-left: 5px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: white; 
+  font-size: 12px;
+  font-family: "Museo-Sans";
+}
+
+@media screen and (max-width: 425px){
+  #login{
+    width: 100%;
+  }
+  .div-input{
+    width: 90%;
+  }
+  .label-geral{
+    margin-left: 0px;
+  }
+}

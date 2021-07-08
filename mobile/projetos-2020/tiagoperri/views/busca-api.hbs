@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Nintendo Brasil</title>
+
+		<meta name = "keywords" content = "Alunos, UTFPR, Projeto1, nintendo, layout, treinamento">
+		<meta name = "author" content = "Leonardo Goulart, Tiago Perri">
+		<meta name = "description" content = "Página inicial da nintendo replicada por motivos de estudos pelos alunos Leonardo Goulart e Tiago Perri">
+        <meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+		<!--Links-->
+        <link rel="stylesheet" href="stylesheets/reset.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+		<link rel="stylesheet" href="stylesheets/fonts.css">
+		<link rel="stylesheet" href="stylesheets/login.css">
+		<link rel="stylesheet" href="stylesheets/modal.css">
+
+		<!--Icons-->
+        <script src="https://kit.fontawesome.com/92b73e7f59.js" crossorigin="anonymous"></script>
+    </head>
+	<body>
+		<div class="header"> <!-- Header -->
+			<a href="./" class="logo">
+				<img src="images/logo_nintendo.png" alt="logo principal da nintendo" />
+			</a>
+			<div class="header-info">
+				<div class="support">
+					<a href="#">
+						<i class="fas fa-question-circle"></i>
+						<p>Support</p>
+					</a>
+				</div>
+				<div class="cadastroheader">
+					<a href="./register">
+						<i class="fas fa-user"></i>
+						<p>Criar conta</p>
+					</a>
+				</div>
+				<div class="login">
+					<a href="./login">
+						<i class="fas fa-user"></i>
+						<p>Fazer login</p>
+					</a>
+				</div>
+				<div class="hamburguer">
+						<a href="#">
+							<i class="fas fa-user" style="margin-right: 8px;"></i>
+							<p>Fazer login</p>
+						</a>
+					<a href="#">
+						<img class="hamburger-menu" src="./images/hamburger-menu.png" alt="icon de um Menu hamburguer, riscos na horizontal um em cima do outro">
+					</a>
+				</div>
+			</div>
+		</div>
+		
+        <div id="contAPI">
+			<form action="/showhero" method="GET" accept-charset="utf-8">
+				<div class="contLogin">			 
+					<div>      
+						<div id="cadastro">
+								<h1>Faça a busca na API</h1> 
+								<div class="div-input"> 
+									<label for="busca" class="label-api">Nome Personagem</label>
+									<input id="busca" name="busca" type="text" placeholder="exemplo: batman (capslock faz diferenca)" class="input-geral"/> 
+								</div>	   
+								<div class="div-btn">
+									<input id="BtnSubmit" type="submit" value="Buscar Herói"/>
+									<a class="btnComprar" href="heroes">Cadastrar Herói</a>
+								</div>
+								<p class="aviso-p">Para cadastrar um novo herói você deve ser admin</p>
+								<p class="aviso-p">Cadastre um novo herói para fazer a busca na API.</p>
+						</div>
+					</div>
+				</div> 
+		   </form>
+			<h1 class="h1API">Resultados da Pesquisa:</h1>
+			<div class="resultadosAPI">	
+				<div id="div-hero">
+				{{#posts}}
+					<div class="card-hero">
+						<h1>Nome: {{name}}</h1></a>
+						<p>Poder: {{poder}}</p></a>
+						<p>Velocidade: {{velocidade}}</p>
+						<p>Defesa: {{defesa}}</p> 
+           			</div>
+				{{/posts}}
+				</div> <!-- Add elementos da pesquisa do script aqui-->
+			</div>
+		</div>
+
+	   <footer>
+		   <div class="first-line-footer">
+				<a href="www.nintendo.com">www.nintendo.com</a>
+				<p>(apenas em inglês) |</p>
+				<a href="#">Política de privacidade</a>
+				<p>| <a href="#">Termos de uso </a> |</p>
+				<a href="#">Princípios de Segurança Online</a>
+		   </div>
+		   <div>
+				<p>Support / Asistencia / Assistência</p>
+		   </div>
+		   <div>
+				<p>Support for residents of Latin America is available in English by clicking <a href="">here.</a></p>
+		   </div>
+		   <div>
+			   <p>Para assistência em português para residentes da América Latina, <a href="">clique aqui.</a></p>
+		   </div>
+	   </footer>
+
+	   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	   {{!-- <script src="javascripts/reqRes.js"></script> --}}
+	</body>
+</html>

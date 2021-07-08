@@ -1,0 +1,162 @@
+.box-busca {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    display: block;
+    background-image: linear-gradient(rgb(18, 93, 231), rgb(97, 147, 240));
+}
+
+.div-busca {
+    width: 800px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #3f3f3f;
+}
+
+.center-busca {
+    width: 700px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.input-busca {
+    border-radius: 10px;
+}
+
+.busca-resultados {
+    width: 750px;
+    border: 1px solid rgb(226, 226, 226, 0.1);
+    padding: 30px;
+    padding-top: 0;
+    margin-top: 30px;
+    display: block;
+}
+
+.nome-serie {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.center-container {
+    display: flex;
+}
+
+.resultado-left {
+    float: left;
+}
+
+.resultado-left img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgb(27, 27, 27);
+}
+
+.resultado-right {
+    width: 650px;
+    margin-left: 50px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 12pt;
+    font-family: Whitney-light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-left: 3px solid black;
+    float: right;
+}
+
+#btn-buscar {
+    color: #fff;
+    background-color: #7289da;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 44px;
+    min-width: 130px;
+    min-height: 44px;
+    border: none;
+}
+
+#btn-buscar:hover {
+    background-color: #677bc4;
+}
+
+#btn-buscar:active {
+    background-color: #5b6eae;
+}
+
+#btn-buscar:focus {
+    outline: none;
+}
+
+.not-found {
+    margin-top: 30px;
+    color: #f04747;
+    font-size: 15pt;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 415px) {
+    .box-busca {
+        width: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .div-busca {
+        width: 100%;
+        padding: 0;
+        margin: 70px auto;
+    }
+    .center-busca {
+        width: 90%;
+    }
+    .busca-resultados {
+        width: 90%;
+        display: block;
+        padding: 0;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .center-container {
+        width: 98%;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .nome-serie {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+    .resultado-left {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .resultado-right {
+        float: none;
+        width: 98%;
+        padding: 0;
+        margin: 10px 0 0 10px;
+        text-align: left;
+        border-left: none;
+        display: block;
+    }
+    .not-found {
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Nintendo Brasil</title>
+
+		<meta name = "keywords" content = "Alunos, UTFPR, Projeto1, nintendo, layout, treinamento">
+		<meta name = "author" content = "Leonardo Goulart, Tiago Perri">
+		<meta name = "description" content = "Página inicial da nintendo replicada por motivos de estudos pelos alunos Leonardo Goulart e Tiago Perri">
+        <meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+		<!--Links-->
+        <link rel="stylesheet" href="stylesheets/reset.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+		<link rel="stylesheet" href="stylesheets/fonts.css">
+		<link rel="stylesheet" href="stylesheets/login.css">
+		<link rel="stylesheet" href="stylesheets/modal.css">
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+		<!--Icons-->
+        <script src="https://kit.fontawesome.com/92b73e7f59.js" crossorigin="anonymous"></script>
+    </head>
+	<body>
+		<div class="header"> <!-- Header -->
+			<a href="./" class="logo">
+				<img src="images/logo_nintendo.png" alt="logo principal da nintendo" />
+			</a>
+			<div class="header-info">
+				<div class="support">
+					<a href="#">
+						<i class="fas fa-question-circle"></i>
+						<p>Support</p>
+					</a>
+				</div>
+				<div class="cadastroheader">
+					<a href="./register">
+						<i class="fas fa-user"></i>
+						<p>Criar conta</p>
+					</a>
+				</div>
+				<div class="login">
+					<a href="./login">
+						<i class="fas fa-user"></i>
+						<p>Fazer login</p>
+					</a>
+				</div>
+				<div class="hamburguer">
+						<a href="#">
+							<i class="fas fa-user" style="margin-right: 8px;"></i>
+							<p>Fazer login</p>
+						</a>
+					<a href="#">
+						<img class="hamburger-menu" src="./images/hamburger-menu.png" alt="icon de um Menu hamburguer, riscos na horizontal um em cima do outro">
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div> <!-- Banner principal -->
+			<a href="https://www.nintendo.com/pt_BR/switch/system/">
+				<img class="imgbanner" src="images/principal.jpg" alt="imagem principal do site, com a presença do nintendo switch"/>
+			</a>
+		</div>
+	
+		<div class="div-centro"> <!-- compre já -->
+			<h1>Adicione Herois</h1>
+			<a class="btnComprar" href="./heroes">
+				<p>Adicionar Agora</p>
+				<i class="fas fa-angle-right"></i>
+			</a>			
+	   </div>
+	
+		<!-- CARDS -->
+	   <div class="card-container">
+			<div class="card">
+				<img src="./images/jogo1.jpg" alt="jogo do Super Mario All Stars"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo2.jpg" alt="jogo Pokemon Sword"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo3.jpg" alt="jogo Pokemon Shield"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo4.jpg" alt="jogo Super Smash Bros"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo1.jpg" alt="jogo do Super Mario All Stars"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo4.jpg" alt="jogo Super Smash Bros"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo2.jpg" alt="jogo Pokemon Sword"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+			<div class="card">
+				<img src="./images/jogo3.jpg" alt="jogo Pokemon Shield"/>
+				<h1>Já disponível</h1>
+				<p>Nintendo Switch</p>
+			</div>
+	   </div>
+
+	   <footer>
+		   <div class="first-line-footer">
+				<a href="www.nintendo.com">www.nintendo.com</a>
+				<p>(apenas em inglês) |</p>
+				<a href="#">Política de privacidade</a>
+				<p>| <a href="#">Termos de uso </a> |</p>
+				<a href="#">Princípios de Segurança Online</a>
+		   </div>
+		   <div>
+				<p>Support / Asistencia / Assistência</p>
+		   </div>
+		   <div>
+				<p>Support for residents of Latin America is available in English by clicking <a href="">here.</a></p>
+		   </div>
+		   <div>
+			   <p>Para assistência em português para residentes da América Latina, <a href="">clique aqui.</a></p>
+		   </div>
+	   </footer>
+
+	   
+		<div class="contModal" id="Modal1">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Login Inválido</h1>
+				<p>E-mail inválido, digite outro E-mail</p>
+			</div>
+		</div>
+
+		<div class="contModal" id="Modal2">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Senha Inválida</h1>
+				<p>Senha vazia. Digite uma senha!</p>
+			</div>
+		</div>
+
+		<div class="contModal" id="Modal3">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Login Inválido</h1>
+				<p>E-mail muito curto</p>
+			</div>
+		</div>
+
+		<div class="contModal" id="Modal4">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Senha Inválida</h1>
+				<p>Senha muito curta</p>
+			</div>
+		</div>
+
+		<div class="contModal" id="Modal5">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Login Inválido</h1>
+				<p>E-mail não pode ficar vazio</p>
+			</div>
+		</div>
+
+		<div class="contModal" id="Modal6">
+			<div class="modal">
+				<button class="fecharModal">X</button>
+				<h1>Login Inválido</h1>
+				<p>Você já está logado. Se quiser sair da sessão clique aqui: <button id= "BtnLogout">Deslogar</button></p>
+			</div>
+	   </div>
+
+	   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	   <script src="javascripts/api.js"></script>
+	   <script src="javascripts/reqRes.js"></script>
+	</body>
+</html>

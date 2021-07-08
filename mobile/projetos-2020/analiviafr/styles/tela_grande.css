@@ -1,0 +1,681 @@
+@font-face {
+  font-family: Graphik-Regular;
+  src: url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff2') format('woff2'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff') format('woff'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.ttf') format('truetype'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.svg#Graphik-Regular') format('svg'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.eot?#iefix') format('embedded-opentype');
+  font-style: normal;
+  font-display: fallback;
+}
+
+body {
+  font-family: Graphik-Regular;
+}
+
+/*ESTILO BARRA DE NAVEGAÇÃO*/
+nav{
+    background-color: white;
+    box-shadow: 0 0 0.2em rgb(175, 175, 175); /* offset-x | offset-y | blur-radius | color */
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+}
+
+/*bloco de menu*/
+.menu{
+    width: 1000px;
+    height: 38px;
+    display: flex;
+    overflow: hidden; /*O que ultrapassar é cortado e o restante do conteúdo fica invisível*/
+}
+
+.logo img{
+    width: 45px;
+    padding: 0px 20px 0px 32px; /*distância entre o conteúdo e a borda superior | direita | inferior | esquerda */
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+/*estilo da lista presente no menu da barra de navegação*/
+ul{
+    width: 800px;
+    height: 38px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+}
+
+li{
+    max-height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /*recolhe os espaços em branco e suprime a quebra de linha*/
+}
+
+li a span{
+    color: rgb(138, 5, 190);
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+    font-size: 17px;
+    font-weight: bold;
+    max-height: 38px;
+    padding: 0px 0px 3px 30px;
+}
+
+li a:hover{
+    text-decoration: none;
+    color:rgb(186, 77, 227);
+}
+
+/*bloco para os botões de login*/
+.Login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+}
+
+/*botão de login*/
+.bt_login{
+    height: 80px;
+    width: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt_login a{
+    color:rgb(138, 5, 190);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bt_login a:hover{
+    text-decoration: underline;
+}
+
+/*botão "quero ser nu"*/
+.bt_querosernu{
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    border-radius:6.25rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+    height: 48px;
+    align-items: center;
+}
+
+.bt_querosernu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*BOTÃO DE MENU DO MOBILE - NÃO EXIBIDO EM TELAS GRANDES E MÉDIAS*/
+.bt_elementos{
+    display: none;
+}
+
+/*estilo do header*/
+header{
+    height: 1013px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*primeiro bloco*/
+.conteiner{
+    background-image: url("../img/fundo1.jpg");
+    background-size: cover;
+    width: 89%;
+    height: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*bloco para o cabeçalho*/
+.cont-esquerdo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 80%;
+    height: 55%;
+    padding-left:50px;
+}
+
+.titulo1{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    color: white;
+    font-size: 47px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.subtitulo1{
+    flex-wrap: wrap;
+    width: 75%;
+    height: 27%;
+    color: white;
+    font-size: 19.2;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+/*botão "quero ser nubank"*/
+.botao{
+    box-shadow: 0 0 0.1em rgb(0, 0, 0);
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border-radius:6.25rem;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*bloco para imagem sobreposta do celular*/
+.cont-direito{
+    height: 100%;
+    width: 42.5%;
+    margin-right: -55px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cont-direito img{
+    height: 75.5%;
+    padding-top: 50%;
+}
+
+/*IMAGEM DO CELULAR ADAPTADA PARA A VERSÃO MOBILE: O CELULAR FICA EM CIMA DO CARTÃO E NÃO AO LADO*/
+.cont-direito-mobile{
+    display: none;    /*NÃO EXIBIDO*/
+}
+
+/*SESSAO 1*/
+.fundo_S1{
+    background-color: rgb(245, 245, 245);
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner2{
+    width: 1199px;
+    height: 710px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo2{
+    height: 370px;
+    width: 470px;
+    padding: 195px 0px 10px 0px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.titulo2 h1 span{
+    color: rgb(138, 5, 190);
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.titulo2 h1{
+    color: black;
+    font-size: 45px;
+    padding: 0px 0px 35px 0px;
+    text-decoration: none;
+}
+
+.titulo2 a{
+    color: rgb(138, 5, 190);
+    text-decoration: none;
+}
+
+.titulo2 a:hover{
+    text-decoration: underline;
+}
+
+.figura2{
+    height: 700px;
+    width: 750px;
+}
+
+.figura2 img{
+    height: 580px;
+    padding: 65px 0px 0px 50px;
+}
+
+/*SESSAO 2*/
+.fundo_S2{
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner3{
+    width: 1199px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo3{
+    height: 330px;
+    width: 470px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.titulo3 h1 span{
+    color: rgb(138, 5, 190);
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.titulo3 h1{
+    color: black;
+    font-size: 45px;
+    padding: 0px 0px 35px 0px;
+    text-decoration: none;
+}
+
+.titulo3 a{
+    color: rgb(138, 5, 190);
+    text-decoration: none;
+}
+
+.titulo3 a:hover{
+    text-decoration: underline;
+}
+
+.figura3{
+    height: 580px;
+    width: 320px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.figura3 img{
+    height: 525px;
+}
+
+/*SESSAO 3*/
+.fundo_S3{
+    background-color: rgb(80, 23, 126);
+    height: 609.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner4{
+    width: 1199px;
+    height: 609.96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo4{
+    height: 330px;
+    width: 470px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.titulo4 h1 span{
+    color: rgb(192, 147, 251);
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.titulo4 h1{
+    color: white;
+    font-size: 3em;
+    padding: 0px 0px 35px 0px;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.titulo4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo4 a:hover{
+    text-decoration: underline;
+}
+
+.figura4{
+
+    height: 535px;
+    width: 404px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.figura4 img{
+    height: 535px;
+}
+
+/*SESSAO 4*/
+
+.fundo_S4{
+    background-image: url("../img/fundo2.png");
+    background-size: 100%;
+    height: 609.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camada_de_cor{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner5{
+    width: 1199px;
+    height: 609.96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo5{
+    height: 330px;
+    width: 470px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.titulo5 h1{
+    color: white;
+    font-size: 45px;
+    padding: 0px 0px 35px 0px;
+    text-decoration: none;
+}
+
+.titulo5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo5 a:hover{
+    text-decoration: underline;
+}
+
+/*SESSAO 5*/
+.fundo_S5{
+    background-image: url("../img/fundo3.png");
+    background-size: 122%;
+    height: 609.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo_de_cor2{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner6{
+    width: 1199px;
+    height: 609.96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo6{
+    height: 330px;
+    width: 510px;
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.titulo6 h1 span{
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.titulo6 h1{
+    color: white;
+    font-size: 45px;
+    padding: 0px 0px 35px 0px;
+    text-decoration: none;
+}
+
+.titulo6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo6 a:hover{
+    text-decoration: underline;
+}
+
+/*SESSAO 6*/
+.fundo_S6{
+    background-image: url("../img/fundo4.png");
+    background-size: 100%;
+    height: 609.96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner7{
+    width: 1199px;
+    height: 609.96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo7{
+    height: 330px;
+    width: 400px;
+    margin-top: 120px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.titulo7 h1{
+    color: white;
+    padding: 0px 0px 35px 0px;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.titulo7 a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo7 a:hover{
+    text-decoration: underline;
+}
+
+/* estilo do rodapé*/
+footer{
+    background-color: rgb(17, 17, 17);
+    height: 1458.6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+}
+
+.conteiner8{
+    width: 1290px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.bloco{
+    height: auto;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.bloco h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0px 20px 0px 20px;
+    line-height: 3;
+}
+
+.bloco a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    line-height: 2;
+}
+
+.bloco a:hover{
+    color: rgb(192, 147, 251);
+}
+
+.bloco img{
+    height: 50px;
+}
+
+
+.bloco p{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 20px 20px 20px;
+    line-height: 2;
+}
+
+/*bloco para o endereço*/
+.conteiner9{
+    border-top: 1px solid rgb(51, 51, 51);
+    border-bottom: 1px solid rgb(51, 51, 51);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.caixa1{
+    display: flex;
+    justify-content: space-between;
+    width: 525px;
+    padding-left: 60px;
+}
+
+.caixa1 img{
+    height: 50px;
+}
+
+.caixa1 p{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    padding-left: 500px;
+}
+
+.caixa2 a{
+    Background-color: rgb(238, 238, 238);
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.caixa2 a:hover{
+    Background-color: rgb(192, 147, 251);
+}
+
+/*bloco para alterar idioma*/
+.conteiner10{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.caixa3{
+    height: 80px;
+    padding-top: 20px;
+}
+
+.caixa3 a{
+    text-decoration: none;
+}
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-right: 40px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}

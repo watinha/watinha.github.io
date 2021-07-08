@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Netflix Brasil - Sign In
+    </title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" />    
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="imgs/netflix.svg" alt="Netflix" draggable="false" />
+      </div>
+      
+
+      <div class="header-actions">
+        <div class="language-picker js-language-picker">
+          <form action="" class="language-picker__form">
+            <select data-uia="language-picker" class="ui-select medium" id="undefined-select" tabindex="0" placeholder="lang-switcher">
+              <option selected="" value="/br/" data-language="pt" data-country="BR">Português</option>
+              <option value="/br-en/" data-language="en" data-country="BR">English</option></select>
+            </select>
+          </form>
+        </div>
+        <a href="index.html">Voltar</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-child">
+        <div class = "container">
+          <h2>Crie uma conta</h2>
+          <div class = "login-form">     
+            <form class = "container1">
+              <div class="form-group">
+                <input type="name" class="form-control" data-js="inputNome"
+                id="name" 
+                aria-describedby="nomeHelp" 
+                placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" data-js="inputEmail"
+                id="email" 
+                aria-describedby="emailHelp" 
+                placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="userName" class="form-control" data-js="inputuserName"
+                id="userName" 
+                aria-describedby="userNameHelp" 
+                placeholder="Usuário">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" data-js="inputPassword"
+                id="senha" 
+                placeholder="Senha">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" 
+                id="adm" data-js= "inputAdm"> 
+                <label class="form-check-label" 
+                for="exampleCheck1"><nobr>Administrador</nobr></label>
+              </div>
+            </form>
+            <div class="button">
+              <button onclick="Cadastro();" class="btn-primary">Cadastrar</button>
+              <p class="warningText" data-js="warningText">Erro ao efetuar o cadastro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gradient"></div>
+    </main>
+    
+    
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="cadastro.js"></script>
+  </body>
+  
+</html>

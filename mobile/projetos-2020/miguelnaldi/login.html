@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Netflix Brasil - Sign In
+    </title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" />    
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="imgs/netflix.svg" alt="Netflix" draggable="false" />
+      </div>
+      
+
+      <div class="header-actions">
+        <div class="language-picker js-language-picker">
+          <form action="" class="language-picker__form">
+            <select data-uia="language-picker" class="ui-select medium" id="undefined-select" tabindex="0" placeholder="lang-switcher">
+              <option selected="" value="/br/" data-language="pt" data-country="BR">Português</option>
+              <option value="/br-en/" data-language="en" data-country="BR">English</option></select>
+            </select>
+          </form>
+        </div>
+        <a href="index.html">Voltar</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-child">
+        <div class = "container">
+          <h2>Login</h2>
+          <div class = "login-form">     
+            <form class = "container1">
+              <div class="form-group">
+                <input type="email" class="form-control" data-js="inputEmail"
+                id="Email" 
+                aria-describedby="Email" 
+                placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" data-js="inputPassword"
+                id="senha" 
+                placeholder="Senha">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" 
+                id="exampleCheck1">
+                <label class="form-check-label" 
+                for="exampleCheck1"><nobr>Lembre-se de mim</nobr></label>
+              </div>
+            </form>
+            <a href="cadastro.html">Crie uma conta</a>
+            <div class="button">
+              <button onclick="LogIn();" class="btn-primary">Entrar</button>
+              <p class="warningText" data-js="warningText">E-mail ou Senha incorretos!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gradient"></div>
+    </main>
+    
+    
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+  </body>
+  
+</html>
+
+
+<!--
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="login.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+    <body>
+
+
+        <div class = "container">
+            <div class = "login-form" style="margin: 0 auto; margin-top: 120px;">     
+                <form class = "Container">
+                    <div class="form-group">
+                  <label for="exampleInputEmail1">Entrar</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ou numero de telefone">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
+                </div>
+              </form>
+              <div class="button">
+                <button onclick="logar();" class="btn btn-primary">Entrar</button>
+              </div>
+            </div>
+        </div>
+       
+
+    </body>
+
+</html>
+
+-->

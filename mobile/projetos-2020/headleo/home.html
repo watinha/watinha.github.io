@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="./css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="./css/middlescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/smallscreen.css">
+    <title>Twitter. É o que está acontecendo / Twitter</title>
+    <link rel="icon" href="./img/fav_twitter.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+   
+        <div id="Login-Content">
+            <button id="logout">Logout</button> 
+            <div id="Center"></div>
+                <img class="b2" id="center-img" src="./img/logo_twitter_branco.webp" alt="">
+                <div id="leftbox">
+                
+                        <form >
+                            <label for="fname">Title:</label><br>
+                            <input id="postTitle" type="text" id="fname" name="fname" value=""><br>
+                            <label for="dname">Description:</label><br>
+                            <input id="postDesc" type="text" id="dname" name="dname" value=""><br>
+                            <input type="file" id="img" name="img" accept="image/*" onchange="previewFile();">
+                            <input id="submitPost"type="submit">
+                        </form>
+                        <img id="preview" src="#" alt="image" height="200"/>
+                </div>
+                <div id="rightbox">
+                    <form >
+                        <label for="sname">Search:</label><br>
+                        <input id="postTitleFind" type="text" id="sname" name="sname" value=""><br>
+                        <input id="submitSearch"type="submit">
+                    </form>
+                    <div style="display: grid;">
+                        <table id="contentTable" ></table>
+                  
+                
+                        <a id="error-message" class="center-container"></a>
+                        <a id="message" class="center-container"></a>
+                    </div>
+              
+                </div> 
+               
+    
+        
+            </div>           
+        </div> 
+      
+    </div>
+    <div id="Footer">
+        <div>
+            <a href="https://about.twitter.com">Sobre</a>
+            <a href="https://help.twitter.com">Ajuda</a>
+            <a href="https://twitter.com/tos">Termos de Serviço</a>
+            <a href="https://twitter.com/privacy">Politica de Privacidade</a>
+            <a href="https://support.twitter.com/articles/20170514">Politica de Cookie</a>
+            <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html">Informações de anuncio</a>
+            <a href="https://blog.twitter.com">Blog</a>
+            <a href="https://status.twitterstat.us">Status</a>
+            <a href="https://careers.twitter.com">Carreiras</a>
+            <a href="https://about.twitter.com/press/brand-assets">Recursos da Marca</a>
+            <a href="https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise">Publicidade</a>
+            <a href="https://marketing.twitter.com">Marketing</a>
+            <a href="https://business.twitter.com">Twitter para empresas</a>
+            <a href="https://developer.twitter.com">Develvedores</a>
+            <a href="https://twitter.com/i/directory/profiles">Diretorio</a>
+            <a href="/settings">Configurações</a>
+            <a href="">© 2021 Twitter, Inc.</a>
+            
+        </div>
+    </div>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+

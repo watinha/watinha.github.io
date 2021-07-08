@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: black;
+}
+#container {	
+    background-color: black;
+    display: table;
+    height: 90%;
+    width: 100%;
+}
+
+#Bloco1
+{
+    display: table-footer-group;
+    background: url('../img/foto_fundo.png') ;
+    background-position: center;
+    background-size: cover; 
+    text-align: center;
+}
+
+
+#Bloco1 img
+{
+    background-size: cover;
+  
+}
+#Center .b2{
+    margin-bottom: 5px;
+}
+#Center .p1{
+   margin-left: 5px;
+}
+#Center .p2{
+    margin-left: 5px;
+}
+
+#Bloco2 {
+    display: flex;
+    justify-content: center;
+    min-height: 415px;
+}
+#Bloco2 #Center{
+    width: 505px;
+    margin-top: 25px;
+    display: table;
+}
+
+#Bloco2 #btn-layout{
+
+   width: 505px;
+}
+
+#Bloco2 #btn-layout button{
+    
+    top: 35px;
+    left: 50%;
+    
+    width: 250px;
+    height: 46px;
+    border-radius: 50px 50px;
+   
+}
+#Bloco2 #button1{
+    width: 425px;
+    height: 50px;
+    border-radius: 50px 50px;
+    border:none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #1A91DA;
+    cursor: pointer;
+ }
+ #button1:hover, #button1:focus, #button1:active {
+    background-color:#1a90dae1!important;
+    
+    }
+ #Bloco2 #button2{
+    width: 425px;
+     height: 50px;
+     font-size: 15px;
+     border-radius: 50px 50px;
+     background-color: black;
+     color: #1A91DA;
+     font-weight: bold;
+     border-color: #1A91DA;
+     cursor: pointer;
+  }
+#Footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+}
+#Footer div
+{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#Footer div a{
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 14px;
+    color: gray;
+    text-decoration:none; 
+}
+#Footer div a:hover{
+   
+    text-decoration:underline;
+}
+
+.p1{
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.p2{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.b2{
+ height: 54.6px;
+ width:  62.57px;
+
+}
+
+
+#Login-Content {
+    min-width: 550px;
+    margin-left: 30px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#center-text {
+    text-align: center;
+}
+#center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-container{
+
+    display: table;
+    margin: 0 auto;
+    
+}
+
+.input{
+    width: 375px;
+    height: 46px;
+    margin-bottom: 20px;
+    border: 1;
+    border-color: white;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 5px;
+}
+
+
+.center-container a{
+    padding-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 14px;
+    color: gray;
+    text-decoration:none; 
+    display: table;
+    margin: 0 auto;
+}
+
+#error-message{
+    color: red;
+}
+#message{
+    color: white;
+}
+
+#pokemon_list{
+    height: 200px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th{
+    color: white;
+}
+td{
+    color: white;
+}
+label {
+    color: white;
+}
+#leftbox {
+    float:left; 
+    width:50%;
+    height:280px;
+}
+
+#rightbox{
+    float:right;
+    width:50%;
+    height:280px;
+}

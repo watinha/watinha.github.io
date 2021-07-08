@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Compra e Venda de Apartamentos de Forma Descomplicada</title>
+    <link rel="icon" type="imagem/png" href="imagem/icon.png" />
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            border-bottom: 1px solid;
+            border-bottom-color: #e1e9ef;
+            height: 63px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+
+        .header1 {
+            height: 64px;
+            width: 1408px;
+            align-items: center;
+            padding: 0px 16px;
+            display: flex;
+            height: 64px;
+            max-width: 100%;
+            margin: 0 auto;
+            flex-flow: row nowrap;
+            flex-basis: 100%;
+            flex-grow: 0;
+        }
+
+        .header2 {
+            box-sizing: border-box;
+            height: 64px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            flex-flow: row nowrap;
+        }
+
+        main {
+            width: 1440px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            height: 100%;
+            text-align: initial;
+            align-items: center;
+        }
+
+        .principal {
+            margin-top: 64px;
+            width: 100%;
+            background-image: url("imagem/desktop.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 70vh;
+        }
+
+        .conteiner {
+            max-width: 420px;
+            vertical-align: middle;
+        }
+
+        .conteiner1 {
+            font-size: 3.5rem;
+            line-height: 4.25rem;
+            margin-bottom: 16px;
+            font-family: 'HelveticaNowDisplay-ExtraBold',Arial,sans-serif;
+            color: white;
+            letter-spacing: 0;
+            text-align: initial;
+        }
+
+        .conteiner2 {
+            font-family: 'HelveticaNowText-Regular',Arial,sans-serif;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+
+        .box {
+            background-color: white;
+            height: 518px;
+            width: 435px;
+            border: 1px solid #e1e9ef;
+            border-radius: 24px;
+            margin: 0 16px;
+            max-width: 435px;
+            box-shadow: 0px 4px 8px #19202433;
+            padding: 40px 32px;
+            box-sizing: border-box;
+        }
+
+        .b1 {
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-family: 'HelveticaNowDisplay-ExtraBold', Arial, sans-serif;
+            text-align: left;
+            color: #191f23;
+        }
+
+        .b2 {
+            margin-top: 16px;
+            padding: 16px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .b2a {
+            color: #191f23;
+            font-family: 'HelveticaNowText-Regular',Arial,sans-serif;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .b2a1 {
+            margin-bottom: 8px;
+        }
+
+        .b2b {
+            display: flex;
+            background: #f3f7fa;
+            border: 1px solid #B7C8D5;
+            border-radius: 8px;
+            width: 100%;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .b2b1 {
+            color: #b7c8d5;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-family: HelveticaNowText-Regular,Arial,sans-serif;
+            text-align: left;
+            padding: 11px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .b2b2 {
+            fill: #879dac;
+            margin-right: 11px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .b2c {
+            margin-top: 32px;
+            color: #ffffff;
+            border: 1px solid;
+            border-color: #d9562b;
+            background-color: #ff774a;
+            padding: 16px 32px;
+            font-size: 1rem;
+            font-family: HelveticaNowText-Regular,Arial,sans-serif;
+            line-height: 1.5rem;
+            border-radius: 12px;
+            justify-content: center;
+            display: flex;
+        }
+
+            .b2c:hover {
+                background-color: #d9562b;
+            }
+
+        .cidade {
+            margin-right: 12px;
+            margin-bottom: 24px;
+            cursor: pointer;
+            border: 1px solid #B7C8D5;
+            box-sizing: content-box;
+            background-color: #FFFFFF;
+            height: 32px;
+            display: inline-flex;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            align-items: center;
+            font-family: HelveticaNowText-Regular,Arial,sans-serif;
+            border-radius: 16px;
+            vertical-align: middle;
+            justify-content: center;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+            .cidade:hover {
+                border: 1px solid #191f23;
+            }
+
+        .logo {
+            width: 1em;
+            height: 1em;
+            font-size: 40px;
+            cursor: pointer;
+            fill: #ff774a;
+        }
+
+        .seta {
+            margin-left: 8px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .item {
+            font-family: 'HelveticaNowText-Regular',Arial,sans-serif;
+            font-weight: normal;
+            color: #191f23;
+            height: 60px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            font-size: 1rem;
+            border-bottom: 4px solid transparent;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .itemexclusivo {
+            font-family: 'HelveticaNowText-Regular',Arial,sans-serif;
+            font-weight: normal;
+            color: #191f23;
+            height: 60px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            font-size: 1rem;
+            border-bottom: 4px solid transparent;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .subitem {
+            height: 64px;
+            padding: 0 16px;
+        }
+
+        .item:hover {
+            border-bottom-color: #ff774a;
+        }
+
+        .opcao {
+            height: 40px;
+            width: 40px;
+            display: none;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .espaco {
+            background-color: white;
+            width: 100%;
+            height: 230px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            main {
+                width: 360px;
+                height: 570px;
+                flex-direction: column;
+            }
+
+            .principal {
+                width: 100%;
+                background-image: url("imagem/mobile.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                flex-direction: column;
+                box-sizing: border-box;
+                height: 590px;
+                justify-content: center;
+                padding-bottom: 40px;
+                box-sizing: border-box;
+            }
+
+            .header1 {
+                width: 312px;
+                padding: 0px 8px;
+            }
+
+            .logo {
+                font-size: 32px;
+            }
+
+            .item {
+                display: none;
+            }
+
+            .itemexclusivo {
+                display: none;
+            }
+
+            .opcao {
+                display: flex;
+            }
+
+            .box {
+                padding: 24px 16px;
+                width: 328px;
+                height: 398px;
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+
+            .conteiner {
+                vertical-align: top;
+                width: 328px;
+                height: 152px;
+                margin: 0 auto;
+            }
+
+            .conteiner1 {
+                font-size: 1.5rem;
+                text-align: center;
+                height: 32px;
+                margin-top: 40px;
+                margin-bottom: 16px;
+                line-height: 2rem;
+                letter-spacing: 0;
+            }
+
+            .conteiner2 {
+                font-size: 0.875rem;
+                text-align: center;
+                height: 48px;
+                margin-bottom: 16px;
+            }
+
+            .b1 {
+                font-size: 1.5rem;
+                padding-left: 8px;
+                padding-right: 8px;
+                line-height: 2rem;
+            }
+
+            .b2 {
+                padding: 8px;
+                margin-top: 8px;
+            }
+
+            .b2a {
+                font-size: 0.875rem;
+            }
+
+            .b2b1 {
+                font-size: 0.875rem;
+            }
+
+            .cidade {
+                font-size: 0.75rem;
+            }
+
+            .b2c {
+                padding: 12px 24px;
+            }
+
+            .espaco {
+                display: none;
+            }
+
+        }
+
+        @font-face {
+            font-family: 'HelveticaNowDisplay-ExtraBold';
+            src: url('font/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'HelveticaNowText-Regular';
+            src: url('font/HelveticaNowText-Regular.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <div class="header2 flex-start">
+                <div class="logo">
+                    <svg focusable="false" viewBox="0 0 140 119" color="#FF774A" role="img" style="font-size:40px"><g fill-rule="evenodd"><polygon points="139.879 44.876 131.05 44.876 131.05 28.52 118.437 28.52 118.437 98.567 131.05 98.567 131.05 57.384 139.879 57.384"></polygon><path d="M90.6315856,119.840822 L78.018973,119.840822 L78.018973,27.6728524 C78.018973,12.9617512 90.087982,0.991235202 104.922937,0.991235202 L104.922937,13.4996113 C97.0425766,13.4996113 90.6315856,19.8576189 90.6315856,27.6728524 L90.6315856,119.840822 Z"></path><path d="M71.6580365,44.8761224 L112.073027,44.8761224 L108.497351,57.3844985 L71.6580365,57.3844985 C68.8358742,68.510984 58.6626658,76.7724816 46.5798919,76.7724816 C32.3225946,76.7724816 20.724036,65.2697789 20.724036,51.1303105 C20.724036,36.9908421 32.3225946,25.4881394 46.5798919,25.4881394 C58.6626658,25.4881394 68.8358742,33.749637 71.6580365,44.8761224 Z M32.0753874,51.1303105 C32.0753874,59.0618718 38.5822342,65.514943 46.5798919,65.514943 C54.5775495,65.514943 61.0843964,59.0618718 61.0843964,51.1303105 C61.0843964,43.1987492 54.5775495,36.7456779 46.5798919,36.7456779 C38.5822342,36.7456779 32.0753874,43.1987492 32.0753874,51.1303105 Z"></path><path d="M34.9076757,97.7300156 C15.6595676,97.7300156 -0.000252252253,82.1996158 -0.000252252253,63.1093321 L-0.000252252253,28.5199196 L12.6123604,28.5199196 L12.6123604,63.1093321 C12.6123604,75.3012464 22.6141622,85.2216395 34.9076757,85.2216395 L34.9076757,97.7300156 Z"></path></g><title>Loft</title></svg>
+                </div>
+            </div>
+            <div class="header2 flex-end">
+                <div class="subitem">
+                    <div class="item">
+                        Comprar
+                        <div class="seta">
+                            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 14.61L17.3124 9.28995C17.6985 8.90335 18.3244 8.90335 18.7104 9.28995C19.0965 9.67656 19.0965 10.3034 18.7104 10.69L12.699 16.71C12.3612 17.0483 11.8398 17.0906 11.4561 16.8369C11.4012 16.8007 11.3492 16.7584 11.301 16.71L5.28954 10.69C4.90349 10.3034 4.90349 9.67656 5.28954 9.28995C5.67559 8.90335 6.3015 8.90335 6.68755 9.28995L12 14.61Z" fill="#191F23"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="subitem">
+                    <div class="item">Vender</div>
+                </div>
+                <div class="subitem">
+                    <div class="item">Reformar</div>
+                </div>
+                <div class="subitem">
+                    <div class="item">Corretores</div>
+                </div>
+                <div class="subitem">
+                    <div class="item">
+                        Crédito
+                        <div class="seta">
+                            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 14.61L17.3124 9.28995C17.6985 8.90335 18.3244 8.90335 18.7104 9.28995C19.0965 9.67656 19.0965 10.3034 18.7104 10.69L12.699 16.71C12.3612 17.0483 11.8398 17.0906 11.4561 16.8369C11.4012 16.8007 11.3492 16.7584 11.301 16.71L5.28954 10.69C4.90349 10.3034 4.90349 9.67656 5.28954 9.28995C5.67559 8.90335 6.3015 8.90335 6.68755 9.28995L12 14.61Z" fill="#191F23"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="subitem">
+                    <div class="item">
+                        Mais
+                        <div class="seta">
+                            <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 14.61L17.3124 9.28995C17.6985 8.90335 18.3244 8.90335 18.7104 9.28995C19.0965 9.67656 19.0965 10.3034 18.7104 10.69L12.699 16.71C12.3612 17.0483 11.8398 17.0906 11.4561 16.8369C11.4012 16.8007 11.3492 16.7584 11.301 16.71L5.28954 10.69C4.90349 10.3034 4.90349 9.67656 5.28954 9.28995C5.67559 8.90335 6.3015 8.90335 6.68755 9.28995L12 14.61Z" fill="#191F23"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="subitem">
+                    <div class="itemexclusivo">Entrar</div>
+                </div>
+
+                <div class="opcao">
+                    <svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.5 5C4.67157 5 4 5.67157 4 6.5C4 7.32843 4.67157 8 5.5 8H18.5C19.3284 8 20 7.32843 20 6.5C20 5.67157 19.3284 5 18.5 5H5.5Z" fill="#191F23"></path><path d="M4 11.5C4 10.6716 4.67157 10 5.5 10H18.5C19.3284 10 20 10.6716 20 11.5C20 12.3284 19.3284 13 18.5 13H5.5C4.67157 13 4 12.3284 4 11.5Z" fill="#191F23"></path><path d="M4 16.5C4 15.6716 4.67157 15 5.5 15H18.5C19.3284 15 20 15.6716 20 16.5C20 17.3284 19.3284 18 18.5 18H5.5C4.67157 18 4 17.3284 4 16.5Z" fill="#191F23"></path></svg>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="principal">
+        <main>
+            <div class="conteiner">
+                <div class="conteiner1">Apês sem mistérios</div>
+                <div class="conteiner2">Encontre o seu apartamento com toda a facilidade e a assessoria da Loft.</div>
+            </div>
+            <div class="box">
+                <div class="b1">
+                    Encontre o apartamento dos seus sonhos
+                </div>
+                <div class="b2">
+                    <div class="b2a">Cidade</div>
+                    <div class="cidade">São Paulo</div>
+                    <div class="cidade">Rio de Janeiro</div>
+                    <div class="b2a b2a1">Bairro</div>
+                    <div class="b2b">
+                        <div class="b2b1">Selecione</div>
+                        <div class="b2b2"><svg xmlns="http://www.w3.org/2000/svg"><path d="M12 14.61L17.3124 9.28995C17.6985 8.90335 18.3244 8.90335 18.7104 9.28995C19.0965 9.67656 19.0965 10.3034 18.7104 10.69L12.699 16.71C12.3612 17.0483 11.8398 17.0906 11.4561 16.8369C11.4012 16.8007 11.3492 16.7584 11.301 16.71L5.28954 10.69C4.90349 10.3034 4.90349 9.67656 5.28954 9.28995C5.67559 8.90335 6.3015 8.90335 6.68755 9.28995L12 14.61Z"></path></svg></div>
+                    </div>
+                    <div class="b2c">Buscar apartamentos</div>
+
+
+                </div>
+            </div>
+        </main>        
+    </div>
+
+    <div class="espaco"></div>
+
+</body>
+</html>

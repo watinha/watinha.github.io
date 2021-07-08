@@ -1,0 +1,279 @@
+:root {
+  --background-color: #121214;
+  --primary-purple: #8257e6;
+  --primary-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  background: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 32px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 375px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+.login-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 480px;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  margin-bottom: 66px;
+}
+
+h1 {
+  color: #e1e1e6;
+  margin-bottom: 24px;
+  font-size: 54px;
+  line-height: 64px;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 30px;
+    margin-right: 0px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-fields {
+  display: block;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 480px;
+  background: #202024;
+  border-radius: 5px;
+  padding: 64px;
+}
+
+@media (max-width: 375px) {
+  .form-login {
+    padding: 32px;
+  }
+}
+
+.form-input {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
+.email,
+.password {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.fa,
+.fas {
+  position: absolute;
+  color: #28272c;
+  transition: fill 0.2s ease 0s;
+  margin-left: 13px;
+}
+
+.eye-password {
+  display: flex;
+  position: absolute;
+  background: none;
+  border: 0px;
+  outline: 0px;
+  margin-left: 320px;
+  transition: opacity 0.2s ease 0s;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .eye-password {
+    margin-left: 215px;
+  }
+}
+
+.eye-password svg {
+  fill: rgb(130, 87, 229);
+  font-size: 18px;
+}
+
+.email input,
+.password input {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  background: var(--background-color);
+  border: none;
+  padding: 0px 1em 0px 2.65em;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  outline: 0px;
+  background: rgb(18, 18, 20);
+  border: 2px solid rgb(40, 39, 44);
+  border-radius: 5px;
+  height: 50px;
+  padding: 15px 21px;
+  color: var(--primary-white);
+  font-size: 17px;
+  width: 100%;
+  transition: border 0.2s ease 0;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--primary-purple);
+}
+
+.forgot-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-purple);
+  margin: 8px 0px 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease 0s;
+  align-self: flex-start;
+}
+
+.submit-button {
+  background: var(--primary-purple);
+  border-radius: 5px;
+  border: none;
+  color: var(--primary-white);
+  font-weight: bold;
+  height: 50px;
+  transition: background 0.2s ease 0s, color 0.2s ease 0s;
+  font-family: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #977ef2;
+}
+
+.singup {
+  font-size: 14px;
+  margin-top: 24px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.singup-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-purple);
+  margin: 8px 0px 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease 0s;
+  align-self: flex-start;
+}
+
+.lines {
+  position: relative;
+  font-size: 12px;
+  color: rgb(135, 134, 139);
+  margin: 24px 0px;
+  text-align: center;
+}
+
+.lines::before {
+  left: 0px;
+}
+
+.lines::after {
+  right: 0px;
+}
+
+.lines::before,
+.lines::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 25px);
+  height: 1px;
+  background: rgb(40, 39, 47);
+}
+
+.info-bottom-form {
+  display: flex;
+}
+
+.info-left {
+  color: #ffffe6;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-right: 24px;
+  align-self: center;
+}
+
+.github-access {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: rgb(41, 41, 46);
+  border-radius: 5px;
+  border: 0px;
+  color: var(--primary-white);
+  height: 50px;
+  transition: background 0.2s ease 0s;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.github-access svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: var(--primary-purple);
+  transition: all 0.2s ease 0s;
+}

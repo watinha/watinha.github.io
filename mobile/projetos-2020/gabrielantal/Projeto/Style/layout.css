@@ -1,0 +1,2936 @@
+﻿﻿.delimeter{/* delimitador da barra com a logo*/
+  height: 100px;
+  width: 100%;
+  
+}
+.barra{ /*barra com a logo*/
+    background-color:white;
+    height: 115px;
+    width: 100%;
+    top:0px;
+    position: sticky;
+    z-index: 1;
+
+   }
+
+.imagem{
+  width:100%;
+}
+   
+   .tec1{
+     color: #1087FF;
+     position: absolute;
+     text-align: center;
+     left: 50%;
+     transform: translateX(-50%);
+     bottom:15px;
+     width: 135px;
+     height: 25.19px;
+     line-height: 24px;
+     font-size: 22px;
+   }
+
+   .tec1:hover{
+      color: rgb(31, 159, 238);
+   }
+  
+   
+   
+   .logo{
+     height:27px ;
+     width: 32px;
+     left:0px;
+     position: absolute;
+   }
+
+   .tec1:hover .logo{
+     opacity: 0%;
+   }
+
+   .logo_act{
+     left: 0px;
+     height:27px;
+     width: 32px;
+     float: left;
+   }
+
+
+  .button_back{
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  left: 0px;
+  bottom: 4px;
+  padding:5px 14px 5px 14px;
+  text-align: center;
+  line-height: 50%; 
+}
+.button_back:hover{
+  background-color: rgba(0,0,0,.06); 
+  border-radius: 50%;
+ }
+ .button_back:active{
+  border: solid 3px;
+  border-color:rgba(52,144,220,.5);
+}
+
+.search{
+    background-color: inherit;
+    border: none;   
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    padding: 4px;
+    text-align: center;
+    line-height: 50%;
+    box-sizing: border-box;
+    
+  }
+  .search a:hover{
+    background:none ;
+
+  }
+  
+.search:active{
+  border: solid 3px;
+  border-color:rgba(52,144,220,.5);
+  
+ }
+
+.search:hover{
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.06);
+
+}
+  /*Fim da Barra com a logo-----------------------------------------------------------------------------------------*/
+
+  .barra2{/* barra para substituir a barra com a logo a partir da barra_autor*/
+    background-color:white;
+    height: 57.5px;
+    width: 100%;
+    top:0;
+    position: fixed;
+    box-shadow: 0px 6.2px  6px -6px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+   }
+
+   .sb{
+    position: absolute;
+    border: none;
+    top: 50%;
+    transform: translateY(-40%);
+    right:56px;
+    height: 26px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    line-height: 1.6em;
+   }
+
+ 
+
+   .save_image{
+
+    right:56px;
+
+   
+   }
+
+   .save_image:hover{
+     color: #0a9eff;
+   }
+
+   .save_image:active{
+    border:  solid 3px;
+    border-color:  rgba(52,144,220,.5);
+    border-radius: 5px;
+   }
+
+   .img_share{
+
+    right:100px;
+
+   }
+
+
+   .img_share:active{
+    border: solid 3px;
+    border-color:  rgba(52,144,220,.5);
+    border-radius: 5px;
+    
+   
+  }
+
+   .img_share:hover{
+    color: #1087FF;
+   }
+
+  
+  
+   .barra2_filho{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 56px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   }
+ .in{
+  display:none;
+ }
+ button label{
+   position:relative;
+
+ }
+/* modo noturno*/
+.modo-noturno{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  right: 130px;
+  
+}
+  
+button.noturno{
+  border: 1px solid #eceeef;
+  border-radius: 15px;
+  padding:0px 4px 0px 16px;
+  font-size: 10px;
+  white-space: nowrap;
+  box-sizing:content-box;
+  outline: none; 
+  
+}
+.noturno:focus{
+  border: 3px solid rgba(52,144,220,.5);     
+}    
+.noturno i{
+  font-size:15px;
+  padding:5px;
+  margin:4px 2px;
+  border-radius: 50%;
+  background-color:#f1f5f8;;
+  color: #8995a0;
+}
+.page{
+  background-color: white;
+  color: #575757;
+  width: 100%;
+  height: 100%;
+
+}
+input[type=checkbox]:checked ~ .page{
+  color:#dddddd;
+  background-color: #262626;
+
+}
+
+input[type=checkbox]:checked + .page .barra, 
+input[type=checkbox]:checked + .page .barra2{
+  background-color: rgb(29, 28, 28);
+}
+
+input[type=checkbox]:checked + .page .color-bar,
+input[type=checkbox]:checked + .page figure,
+input[type=checkbox]:checked + .page .inst input:checked ~ label
+{
+  background-color: #414141;
+
+
+}
+
+input[type=checkbox]:checked + .page .noturno,
+input[type=checkbox]:checked + .page .mudar-cor:hover {
+  border:none;
+  color:#ddd;
+  
+}
+input[type=checkbox]:checked + .page .noturno i,
+input[type=checkbox]:checked + .page,
+input[type=checkbox]:checked + .text-area-icons
+{
+  background-color: rgba(39, 37, 37, 0.966);
+}
+input[type=checkbox]:checked + .page h1,
+input[type=checkbox]:checked + .page p.comentario,
+input[type=checkbox]:checked + .page .fonte .link_button,
+input[type=checkbox]:checked + .page p.rvj,
+input[type=checkbox]:checked + .page  .text1,
+input[type=checkbox]:checked + .page  .text2,
+input[type=checkbox]:checked + .page  .save,
+input[type=checkbox]:checked + .page  .reactions button,
+input[type=checkbox]:checked + .page .quantidade-de-comentarios,
+input[type=checkbox]:checked + .page .comentarios-tecmundo,
+input[type=checkbox]:checked + .page .form-text,
+input[type=checkbox]:checked + .page .inst ul li a:hover,
+input[type=checkbox]:checked + .page .dropdown a:hover,
+input[type=checkbox]:checked + .page .comentarios-tecmundo a:hover,
+input[type=checkbox]:checked + .page  .reactions  input[type=radio]:checked + .reaction
+{
+  color:white;
+}
+
+
+input[type=checkbox]:checked + .page .sob-comentario a:hover
+{
+  color:#0a9eff;
+}
+
+
+
+input[type=checkbox]:checked + .page .inst_sites{
+  background-color: #1f1f1f;
+  color:#dddddd;
+}
+input[type=checkbox]:checked + .page .img_share,
+input[type=checkbox]:checked + .page .save_image,
+input[type=checkbox]:checked + .page .barra_autor button
+{
+  color:#b5b7b9;
+}
+input[type=checkbox]:checked + .page .logo_nzn_noturno,
+input[type=checkbox]:checked + .page .discus-dark{
+  display: inline-block;
+
+}
+input[type=checkbox]:checked + .page .logo_nzn,
+input[type=checkbox]:checked + .page .discus-hover,
+input[type=checkbox]:checked + .page .discus{
+ 
+  display:none;
+}
+input[type=checkbox]:checked + .page  .reactions  input[type=radio]:checked + .reaction .btn-secondary{
+  background-color:  rgba(255,255,255,0.3);
+  border-color: white;
+  color:white;
+  
+
+}
+
+/*fim modo noturno */
+   /*Fim da Barra2--------------------------------------------------------------------------------------------------*/
+
+
+
+  /*Personalização das tags a, body, h1, figure*/
+  a:hover{ 
+    background-color:rgba(10,158,255,.1);
+
+  }
+  a{
+    color: #1087ff;
+  }
+  body{
+    font-family: 'Source Sans Pro',sans-serif ;
+    font-size: 22px;
+    line-height: 1.6em;
+    width:100%;
+    height: 100%;
+    padding:0px;
+    margin:0px;
+  }
+  h1{
+    color:black;
+    line-height: 1em;
+  }
+ 
+  figure{
+    background-color:#f6f8fa;
+    margin-left: 0px;
+    width: 100%; 
+  }
+
+  figcaption p{
+    font-size: 14px;
+    padding: 16px;
+    margin:0px;
+  }
+  /*Fim da personalização----------------------------------------------------------------------------------------*/
+
+
+   /*barra autor*/
+   
+   
+   .barra_autor{/* borda inferor da barra*/
+    border-bottom: 1px solid;
+    border-color:rgb(188, 197, 206) ;
+    margin-top: -5px;
+    overflow: hidden/*recupera a altura e comprimento perdido pelo float*/;
+    
+  } 
+  .perfil_autor{
+    float :left;
+    margin-right: 1%;
+}  
+.perfil_autor_image{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+   
+}
+.perfil_autor_image img{
+  border:solid 1px;
+  border-color: lightgray;
+  border-radius:360px;
+  padding:2px;
+  width: 36px;
+  height: 36px;;
+
+}
+.perfil_autor a{
+  background-color:inherit;
+  text-decoration: none;
+  color:#575757;
+}
+.perfil_autor_text{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    margin-left:8px;
+  
+}
+.link a{
+ color: #1087ff; 
+}
+.link a:hover{
+ background-color:rgba(10,158,255,.1); 
+}
+.perfil_autor_text p{
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 7px;
+}
+
+.comment{
+    float: right;
+
+  
+}
+.comment button{
+  cursor: pointer;
+  border:none;
+  color:black;
+  outline:none;
+}
+
+.comment button:active{
+  border:3px solid  rgba(52,144,220,.5); 
+  border-radius: 5px;
+  color: #0a9eff;
+  
+}
+
+.comment button:hover{
+  color: #0a9eff;
+}
+
+
+.comment a{
+  background-color: inherit;
+  text-decoration: none;
+}
+
+
+.comment_image{
+    display: inline-block;
+    position: relative;
+    top: 2px; 
+}
+
+
+
+.comment_text{
+    display: inline-block;
+    position: relative;
+    top:-4px;
+    font: 14px "Source Sans Pro", sans-serif;
+    font-weight:normal;
+}
+
+
+.share{
+   float: right;
+   margin-right: 1%;
+   text-align: center;
+   transform: translateY(5%);
+}
+
+
+
+.share button{
+  border:none;
+  color:black;
+  outline: none;
+}
+
+.share button:hover{
+  color:#0a9eff;
+}
+.share button:active{
+  border: rgba(52,144,220,.5) 3px solid;
+  
+}
+
+.share_image{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    transform: translateY(-28%);
+}
+.share_text{
+    display: inline-block;
+    position: relative;
+    transform: translateY(-18%);
+    right:0px;
+    font: 14px "Source Sans Pro", sans-serif;
+    font-weight: normal;
+
+}
+   /*modificado 07/04 inserção compartilhar*/
+   /*Fim do barra autor-------------------------------------------------------------------------------------------------*/
+ 
+  .data{
+    font-size: 14px;
+    line-height: 20px;
+    color:rgba(82,82,82,.5);
+  }
+.artigo{
+  
+  width:100%;
+  background-color:inherit; 
+  margin: -20px auto 0px auto;
+  padding:  15px ;/*conteudo interno, todo o conteudo sera ajeitado a 15px tanto a direita como esquerda , em cima e embaixo*/
+  box-sizing:border-box;
+}
+/*botões fonte*/
+.fonte{
+  margin:15px;
+}
+.fonte p{
+  font-weight: bold;
+}
+button{
+  background-color: inherit;
+  border: solid 1px;
+  border-color: darkgray;
+  border-radius: 5px;
+  color:#444;
+  padding: 3px 8px;
+  margin-right: 8px;
+  margin-top:8px;
+}
+
+/*botões categoria*/
+.categoria{
+  margin:15px;
+  border-bottom: lightgray 1px solid;
+}
+
+.categoria .link_button{
+  border-color:#1087ff;
+  color:#1087ff;
+}
+.categoria p{
+  font-weight:bold;
+}
+
+.link_button{
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: darkgray;
+  color:#444;
+  padding: 3px 8px;
+  margin-right: 8px;
+  margin-top:8px;
+  margin-bottom: 25px;
+  font: 400 13.3333px Arial;
+  text-decoration:none;
+  white-space:nowrap;
+  transform: translateY(-50%); 
+  position:relative;
+  display: inline-block;
+}
+.link_button:hover{
+  background-color: inherit ;
+  
+}
+ .comentario {
+   color:black;
+   font-size: 24px;
+   font-weight: bold;
+}
+ .comments_text{
+  color: inherit;
+  margin:0px;
+  font-size: 15px;
+  text-align: center;
+
+}
+/*Fim de botões categoria ---------------------------------------------------------------------------------------------*/
+/* comentarios*/
+#comments{
+  border-bottom: 2px solid #e7e9ee;
+}
+
+/*botões de reações*/
+.reaction{
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+.reactions button{
+  margin: 5px 6px 10px;
+  padding: 5px 10px;
+  color: #2a2e2e;
+  box-sizing: border-box;
+  outline:none;
+  
+}
+
+
+
+.reaction_text{
+  position:relative;
+  bottom: 7px;
+  font-family: "Helvetica Neue",arial,sans-serif;
+  font-size: 15px;
+  margin-left: 8px;
+}
+.reactions{
+ text-align: center;
+ 
+}
+input[type=radio]:checked + .reaction .btn-secondary{
+  color: #2e87e7;
+  background-color:#f2f9ff;
+  border-color:   #2e87e7;
+}
+input[type=radio]:checked + .reaction{
+  color: #2e87e7;
+}
+
+ 
+
+.reaction img{
+  width: 20px;
+  height: 20px;
+}
+.btn-secondary:hover img{
+  animation: mymove 2s infinite; 
+}
+
+
+@keyframes mymove {
+  from {transform:scale(1,1)}
+  to {transform:scale(1.5,1.5)}
+}
+/*Fim dos botões de reação----------------------------------------------------------------------------------------------*/
+/* Itens de comentário 1, abaixo das reações  */
+.comentarios{
+  
+  border-bottom: solid 2px #e7e9ee;
+  white-space: nowrap;
+  height: auto;
+  overflow: visible;
+  margin:0px 0px 24px;
+  color:#656c6a
+
+}
+.comentarios-tecmundo{
+  padding: 10px;
+  display: inline-block;
+  position:relative;
+  top:3px;
+  font:15px "Helvetica Neue",arial,sans-serif;
+  font-weight:bold;
+  color:inherit;
+  white-space: nowrap;
+  width: auto;
+ 
+}
+.comentarios-tecmundo:hover {
+   color:#2a2e2e;
+   background-color:inherit;
+}
+.quantidade-de-comentarios{
+  font:15px "Helvetica Neue",arial,sans-serif;
+  color:#2a2e2e;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;;
+  border-bottom: 2px solid #288ce4;
+  
+}
+
+.comentarios-tecmundo a{
+  color:inherit;
+  text-decoration: none;
+}
+
+.comentarios-tecmundo a:hover{
+  color:#2a2e2e;
+  background-color:inherit;
+}
+
+.iniciar-sessao{
+  float: right;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  color:inherit;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  border:2px solid #687a86;;
+  border-radius:3px;
+  z-index: 1 ;
+  padding-top:5px;
+  padding-bottom:5px;
+   min-width:120px;
+   max-width: 120px;
+  
+}
+.dropdown-content a {
+  color: #687a86;
+  padding: 4px 15px;
+  text-decoration: none;
+  display:block;
+  font-weight:normal;
+  
+
+}
+.dropdown-content a:hover {
+  background-color: #0a9eff;
+  color:white;
+  
+}
+.dropdown button{
+  border:none;
+  outline:none;
+  color:inherit;
+  font:inherit;
+
+}
+.dropdown button:focus + .dropdown-content {
+  display: block;
+}
+/*Fim dos itens de comentário 1 abaixo das reações   -------------------------------------------------------------------------------*/
+/*itens de coméntário 2, abaixo das reaçacões */
+.itens{
+  margin:-12px 0px 6px;
+}
+.item{
+  font:13px "Helvetica Neue",arial,sans-serif;
+  display:inline-block;
+  font-weight:bold;
+  white-space: nowrap;
+  width: auto;
+  margin-right: 5px;
+  color:inherit;
+  cursor:pointer;
+
+}
+.remover-efeito a:hover{
+  background-color:inherit;
+}
+.recomendar-img{
+  color: #f05f70;
+  margin-right:1px;
+  font-size:15px;
+
+}
+
+.mudar-cor:hover{
+  color: #2a2e2e;
+}
+ button .item-text{
+  color:white;
+  margin: 0.5px 0px 0px  4px;
+}
+.twitter button{
+  background-color:#00aced;
+  border:none;
+}
+.facebook button{
+  background-color:#3b5998;
+  border:none;
+}
+.item button:hover{
+  opacity:0.9;
+}
+select{
+  border:none;
+  outline:none;
+}
+.opcao{
+  border:2px solid;
+  border-radius:5px;
+  border-color:#687a86;
+  padding:5px;
+  
+}
+.ordem-comentarios{
+  position:relative;
+  top:10px;
+  float:right;
+}
+.comments-order{
+  position:absolute;
+  right:0;
+}
+
+/*Fim dos itens de comentário 2, abaixo das reações   -------------------------------------------------------------------------------*/
+/*text-area*/
+.comment-textarea{
+  position:relative;
+  overflow:hidden;
+}
+label{
+  position:absolute;
+  top:0;
+}
+.comment-textarea img{
+ width:48px;
+ height:48px;
+}
+.text-area{
+  border-radius: 4px;
+  border: 2px solid#dbdfe4;
+  float: right;
+  width: 94%;
+  
+
+}
+textarea {
+  width: 100%;
+  height:35px;
+  padding: 12px 20px;
+  background-color:inherit;
+  resize: none;
+  font-family:"Helvetica Neue",arial,sans-serif;
+  outline:none;
+  border:none;
+  box-sizing: border-box;
+  overflow:hidden;
+  color:inherit;
+  
+ 
+}
+::placeholder  {
+  font-size:18px;
+  color: #687a86;
+ }
+ textarea:focus{
+  height: 73px;
+  }
+
+.text-area-icons{
+  background-color: inherit;
+  border-top: 2px solid  #dbdfe4;
+  width: 100%;
+  display: block;
+  padding: 5px 0px;
+  height:30px;
+  
+ 
+
+}
+.icon{
+  color:rgb(172, 165, 165);
+  cursor:pointer;
+  display:inline-block;
+}
+.icon:hover{
+  color: #656c6a;
+}
+.icon-gif{
+  display:inline-block;
+  position: relative;
+  margin: 5px 0px 5px 5px;
+  height:25px;
+  bottom: 3px;
+}
+.gif{
+  font-size:8px;
+  border: 1.5px solid;
+  border-radius: 2px;
+  width:20px;
+  height: 15px;
+  padding:1px;
+  position: relative;
+  top:2px;
+  
+ 
+}
+.gif p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.new i{
+  color:#00aced;
+  font-size:12px;
+  position:absolute;
+  top: 0px;
+  right: -4px;
+ 
+}
+
+.image{
+  transform:scaleX(-1);
+  font-size: 23px;
+  margin:5px;
+  position:relative;
+  bottom: 3px; 
+  height: 25px;
+}
+.divisor{
+  border-left: 2px solid #dbdfe4;
+  margin: 0 5px;
+  width:3px;
+  height: 25px;
+
+  display:inline-block;
+}
+.format-text{
+  font-size: 25px;
+  
+  
+}
+
+.icon-link{
+  height: 25px;
+  position:relative;
+  display: inline-block;
+  bottom:4px;
+ 
+}
+.link1{
+  transform:rotate(89deg);
+  position:absolute;
+  top:-5px;
+  left:5px;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.link2{
+  transform:rotate(-91deg);
+  font-size: 17px;
+  position: absolute;
+  top:2px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.spoiler{
+  position:relative;
+  left: 20px;
+}
+.code{
+  position:relative;
+  left: 20px;
+  font-size: 24px;
+  bottom:4px;
+  
+}
+.quote{
+  font-size:20px;
+  position:relative;
+  left: 20px;
+  bottom:4px;
+}
+
+.publish{
+  font-size: 15px;
+  background-color: #575757;
+  color: white;
+  position: absolute;
+  width: 250px;
+  height: 42px;
+  border-radius: 0px 0px 4px 0px;
+  text-align: center;
+  line-height: 50%;
+  font-weight: bold;
+  margin:0px;
+  bottom:0px;
+  right: 0px;
+}
+
+.publish:hover{
+  background-color: #444343;
+}
+
+.publish:active{
+  background-color:#00aced;
+}
+/*fim do text-area------------------------------------------------------------------------------------------------------------*/
+/* iniciar sessão*/
+.begin-session button{
+  border:none;
+  height: auto;
+  width: auto;
+  padding: 0em;
+  outline: none;
+ 
+}
+.begin-session p{
+   font-weight: 700;
+   font-size: 11px;
+   color: #687a86;
+   margin: 0 0 10px;
+   line-height: 1;
+}
+.begin-session{
+ position:relative;
+ left:60px;
+ top:20px;
+ width: 20%;
+}
+.begin-session a{
+ text-decoration:none;
+}
+.begin-session a:hover{
+  background-color:inherit;
+}
+
+.session{
+  color:white;
+  cursor: pointer;
+}
+.discus-button{
+  position: relative;
+  bottom:-2px;
+}
+.discus-hover{
+  position:absolute;
+}
+.discus-hover:hover{
+  opacity: 0;
+}
+.discus-dark{
+  display: none;
+}
+.facebook-button{
+  position:relative;
+  bottom:8px;
+  left: -10px;
+}
+.iniciar-com-facebook{
+  border-radius: 50%;
+  background-color:#3b5998 ;
+  opacity:0.9;
+  padding: 8px 12px 8px 12px;
+}
+.iniciar-com-facebook:hover{
+  opacity:1;
+}
+.twitter-button{
+  position:relative;
+  bottom:8px;
+  left: -20px;
+}
+.iniciar-com-twitter{
+  border-radius: 50%;
+  background-color:#00aced; ;
+  opacity:0.9;
+  padding: 9px; 
+ 
+}
+
+
+.iniciar-com-twitter:hover{
+ opacity:1;
+}
+.google-button{
+  position:relative;
+  bottom:5px;
+  left: -30px;
+}
+.iniciar-com-google{
+  border-radius: 50%;
+  background-color:rgb(218, 31, 31) ;
+  opacity:0.9;
+  padding: 4px 8px;
+  font-size: 24px;
+  font-family:Century Gothic;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.iniciar-com-google:hover{
+ opacity: 1;
+}
+
+/*fim Inciar sessão----------------------------------------------------------------------------------------------------------*/
+  /*Registrar no discus*/
+.alinhar{
+  display:inline-block;
+
+}
+.button-style{ 
+  background-color: rgba(29,47,58,.6);
+  outline: none;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+ .button-style:hover{
+  background-color: rgba(29,47,58,.7);
+
+}
+ .button-style:active{
+  background-color: #288ce4;
+ }
+
+button .action{
+  position: absolute;
+  top:7px;
+  left:160px;
+  cursor:pointer;
+  font-size: 12px;
+  border-radius: 50%;
+  border:2px solid #687a86;;
+  padding: 0px 3px;
+  font-weight: 700;
+  
+}
+.form{
+  position:relative; 
+  left:230px;
+  top:-60px;
+  display: inline-block;
+  width: 80%;
+}
+ .discus-text {
+  font-size: 11px;
+  color: #687a86;
+  font-weight: 700;
+  margin-bottom:0px;
+ 
+ }
+ 
+
+
+ .action:hover .discus-information,
+ .action button:focus + .discus-information{
+  display: block;
+}
+
+ 
+
+ .action button{
+   border:none;
+   padding:2px;
+   cursor: pointer;
+   
+ }
+ .discus-information {
+  width: 300px;
+  color:#687a86;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+  border-radius: 4px;
+  padding: 0em;
+  background-color:white;
+  position:absolute;
+  top:30px;
+  transform: translateX(-51%); 
+  z-index:0;
+  display:none;
+  
+  
+ }
+ .form span{
+  color:#687a86;
+  font-size: 12px;
+  border-radius: 50%;
+  border:2px solid ;
+  padding: 0px 3px;
+  font-weight: 700;
+ }
+  
+
+.discus-information li {
+
+  list-style: disc;
+  line-height: 1.4;
+  font-size: 13px;
+  
+}
+
+.discus-information p{
+   font-weight: 700;
+   font-size: 16px;
+   margin-top: 1em;
+   text-align: center;
+}
+.discus-information button{
+    width: 90%;
+    line-height: 1.1;
+    font-weight: 500; 
+    text-align: center;
+    margin: 0em 1em 1em 1em;
+    padding: 8px ;
+   
+   
+}
+
+.discus-information a:hover{
+  background: none;
+}
+input{
+  outline: none;
+  width: 100%;
+  height: 32px;
+  border: 2px solid #dbdfe4;
+  padding: 5px 9px;
+  margin:5px 0px ;
+  border-radius: 4px;
+  font-size: 13px;
+  box-sizing: border-box;
+  background-color: inherit;
+  color: inherit;
+}
+input:focus{
+  border-color: #c2c6cc;
+}
+input::placeholder{
+  font-size: 13px;
+  
+}
+.form-text{
+  color:#687a86;
+  font-family:"Helvetica Neue",arial,sans-serif;
+  font-size: 18px;
+}
+.form-text a{
+  color:#288ce4;
+  text-decoration: none;
+}
+.form-text a:hover{
+ background-color:inherit;
+text-decoration: underline;
+}
+form button{
+  float:right;
+}
+
+/* fim Registrar no discus----------------------------------------------------------------------------------------------------------*/
+/* fim comentarios----------------------------------------------------------------------------------------------------------*/
+/* sob-comentario*/
+.sob-comentario a{
+  font-size: 11px; 
+  font-family:"Helvetica Neue",arial,sans-serif; 
+  text-decoration: none;
+  font-weight: 700;
+  color: #656c7a;
+  margin: 5px;
+}
+.sob-comentario a:hover{
+  background-color:inherit;
+  color: rgb(29,47,58);
+}
+.sob-comentario i{
+  position: relative;
+  top: 0px;
+  font-size: 15px;
+}
+/* fim comentarios----------------------------------------------------------------------------------------------------------*/
+/*Parte de Relacionados*/
+.rvj{
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+
+
+
+.relat{
+  position: relative;
+  background-color:inherit;
+  height: 120px;
+ 
+  width: 100%;
+  border-bottom: lightgray 1px solid;
+  padding: 16px 0px;
+  color:#444444;
+ 
+}
+
+.text1{
+  color:inherit;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+
+.link_tex{
+  text-decoration: none;
+  color: inherit;
+}
+
+.link_tex:hover{
+  color: #1087ff;
+  background-color:inherit;
+}
+
+
+.save{
+  position: relative;
+  left: 40px;
+  display: inline-block;
+  transform: translateY(-44%);
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+
+.date_rel{
+ 
+  color:rgb(186, 186, 196);
+  height: 17px;
+  font-size: 18px;
+  width: 40px;
+  line-height: 120%;
+  transform: translateY(-80%);
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.days{
+  left: 20px;
+  color:rgb(186, 186, 196);
+  padding-right: 15px;
+  position: relative;
+  height: 17px;
+  line-height: 120%;
+  font-size: 18px;
+  transform: translateY(-80%);
+  border-right: lightgray 1px solid;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.redirect{
+  float: right;
+  text-align: center;
+}
+
+.redirect img{
+  border-radius: 10%;
+}
+
+
+.text2{
+  color:#444444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.pat{
+  color: #E2AC55;
+  height: 17px;
+  font-size: 18px;
+  width: 40px;
+  line-height: 120%;
+  transform: translateY(-170%);
+  text-align: center;
+  display: inline-block;
+}
+
+.veja:hover .ti{
+  text-decoration: underline;
+}
+
+.veja{
+  position: relative;
+  background-color:inherit;
+  height: 120px;
+  width: 100%;
+  border-bottom: lightgray 1px solid;
+  padding: 16px 0px;
+  cursor: pointer;
+}
+
+.veja a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.veja ul{
+  color:rgb(186, 186, 196);
+  /*padding-right: 15px;*/
+  left:40px;
+  height: 17px;
+  line-height: 120%;
+  font-size: 18px;
+  transform: translateY(-170%);
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding:0px  15px 0px 60px;
+  
+}
+
+.list
+{
+  list-style: none
+}
+
+ .list li:before{
+  content: "•"; 
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  color:#E2AC55;
+}
+
+.veja img{
+  transform: translateY(-40%);
+}
+
+/*Fim dos relacionados----------------------------------------------------------------------------------------------------------------------*/
+
+/*Institucional*/
+.inst_sites{
+  background-color: rgb(240, 238, 238);
+  padding: 20px 30px 15px 30px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.inst{
+  color:inherit;
+  line-height: 50%;
+  padding: 32px 0px 0px;
+  margin: 16px;
+  position: relative;
+  height: auto;
+ 
+}
+
+.inst label{
+  display: block;
+  padding: 8px 16px ;
+  font-size:18px;
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  font-weight: bold;
+  height: 20px;
+  border-radius: 2px;
+  
+}
+
+.inst label p{
+   bottom: -10%;
+   position: absolute;
+  
+}
+
+.inst label i{
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: 22%;
+  transform: rotate(90deg);
+  color:inherit;
+}
+
+.inst ul{
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  max-height: 0;
+  padding: 5px  0px 0px 0px;
+  margin: 0px;
+  transform: translateY(10%);
+}
+
+.inst ul li a{
+  width: 100%;
+  height: 24px;
+  padding: 4px 16px;
+  text-decoration: none;
+  color:inherit;
+  display: block;
+  font-size: 16px;
+}
+.inst ul li a:hover{
+  color: black;
+  background-color: inherit;
+}
+
+.inst input:checked ~ ul{
+  height: auto;
+  max-height: 300px;
+}
+
+
+.inst input:checked ~ label{
+ background-color: rgb(231, 229, 229);
+}
+
+.inst input:checked ~ label i{
+  transform: rotate(-90deg);
+  transition: 0.5s;
+ }
+ 
+
+.inst input{
+  display: none;
+}
+
+
+
+/*Fim do Institucional--------------------------------------------------------------------------------------------*/
+/*NZN*/
+.nzn{
+ /* border-top:1px solid rgba(3,3,3,.05);*/
+  border-top:0.2px solid rgba(186, 186, 196,0.6);
+  width: 100%;
+  font-size:13px;
+  font-family:"Helvetica Neue",arial,sans-serif; 
+  color: inherit;
+  text-align:center;
+  line-height:2em;
+  font-weight: bold;
+  transform: translateY(10%);
+}
+.nzn a{
+  text-decoration: none;
+}
+.nzn a:hover{
+  background: none;
+}
+.nzn img{
+  width:  114px;
+  height: 31px;
+  
+}
+.logo_nzn_noturno{
+ display:none;
+}
+/*Fim NZN --------------------------------------------------------------------------------------------*/
+/*Medias para deixar o site responsivo*/
+@media only screen and (min-width: 300px) and (max-width:400px){
+  
+  .omitir{
+    display: none;
+  }
+ 
+  .save_image{
+    right:15px;
+   }
+
+   .img_share{
+     right: 47px;
+   }
+
+   .barra2{
+     width:100%;
+   }
+
+  .barra2_filho{
+    font-size: 18px;
+    left:20px;
+    width:57%;
+  
+  }
+  button.noturno{
+    padding: 0px 3px;
+  }
+  .modo-noturno{
+    right: 73px;
+   
+  }
+  .night-mode-text{
+    display:none;
+  }
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-6%);
+  }
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 65px;
+    width: 53px; 
+  }
+
+  .text1{
+    font-size: 12px;
+  }
+
+  .date_rel{
+    font-size: 10px;
+  }
+
+  .days{
+    font-size:10px;
+    left:2px
+  }
+  
+  .text2{
+    font-size: 13px;
+  }
+
+  .pat{
+    font-size: 13px;
+    
+  }
+
+  .save{
+    left:20px;
+  }
+  .save i{
+    width: 10px;
+    height: 14px;
+  }
+  .form{
+    position: static;
+    width: 100%;
+  }
+
+.begin-session{
+  width: 100%;
+  left: 0px;
+ }
+
+ .dropdown{
+  left: 0px;
+ 
+ }
+
+ .comment-textarea{
+  top:10px;
+  width:100%;
+ }
+
+.comentarios div{
+  font-size: 15px;
+ }
+ .veja img{
+ transform: translateY(0%);
+ }
+
+ .veja ul{
+  font-size: 11px;
+  padding-left:  20px;
+ }
+
+ .comment-textarea img{
+  left:10px;
+  position: absolute;
+  width:10%;
+  height: auto;
+ }
+
+  .text-area{
+    width: 85%;
+  }
+
+  
+
+  .publish{
+    width: 155px;
+    font-size: 12px;
+
+  }
+
+ 
+  .text-area-icons .material-icons{
+    opacity: 0%;
+  }
+ 
+  .save{
+    transform: translateY(-30%);
+  }
+
+
+  .father{
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+
+  }
+
+  .moz{
+    padding: 10px;
+  }
+
+  .moz, .moz img{
+    width: 100%;
+   
+  }
+
+  .moz p{
+    font-weight: bold;
+  }
+
+  .one img{
+    height: 200px;
+  }
+
+  
+  
+  
+  
+
+ 
+
+}
+
+@media only screen and (min-width: 401px)and (max-width:500px){
+  
+
+   .omitir{
+     display:none;
+   }
+
+
+
+  .save_image{
+    right:10px;
+   }
+
+   .img_share{
+     right: 45px;
+   }
+
+  .barra2_filho{
+    font-size: 20px;
+    width: 40%;
+    left:20px;
+  }
+  .modo-noturno{
+    right:70px ;
+  }
+  
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 65px;
+    width: 53px; 
+  }
+
+  .text1{
+    font-size: 17px;
+  }
+
+  .date_rel{
+    font-size: 15px;
+  }
+
+  .days{
+    font-size:15px;
+  }
+  
+  .text2{
+    font-size: 17px;
+  }
+
+
+
+  .pat{
+    font-size: 14px;
+  }
+
+
+  .form{
+    position: static;
+    width: 100%;
+  }
+
+  .begin-session{
+    width: 100%;
+    left: 0px;
+  }
+
+.dropdown{
+  left: 0px;
+}
+
+.comment-textarea{
+  top:10px;
+  width:100%;
+}
+
+.comentarios div{
+  font-size: 16px;
+}
+.veja img{
+ transform: translateY(0%);
+}
+
+.veja ul{
+  font-size: 15px;
+  padding-left: 30px;
+}
+.comment-textarea img{
+  left:10px;
+  position: absolute;
+  width: 10%;
+  height: auto;
+ }
+
+  .text-area{
+    width: 85%;
+  
+  }
+
+  .publish{
+    width: 240px;
+  }
+
+  .text-area-icons .material-icons{
+    opacity: 0%;
+  }
+
+  .father{
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+
+  }
+
+  .moz{
+    padding: 10px;
+  }
+
+  .moz, .moz img{
+    width: 100%;
+   
+  }
+
+  .moz p{
+    font-weight: bold;
+  }
+
+  .one img{
+    height: 200px;
+  }
+
+}
+
+
+@media only screen and (min-width: 501px)and (max-width:600px){
+ 
+ 
+  
+  .save_image{
+    right:20px;
+   }
+
+   .img_share{
+     right: 55px;
+   }
+
+  
+  
+  .barra2_filho{
+    font-size: 17px;
+    width: 80%;
+    width:55%;
+    left:20px;
+  }
+  .modo-noturno{
+    right:80px;
+  }
+  
+  
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 65px;
+    width: 53px; 
+  }
+
+  .text1{
+    font-size: 17px;
+  }
+
+  .date_rel{
+    font-size: 15px;
+  }
+
+  .days{
+    font-size:15px;
+  }
+  
+  .text2{
+    font-size: 17px;
+  }
+
+
+
+  .pat{
+    font-size: 15px;
+  }
+
+  
+
+
+  .form{
+    position: static;
+    width: 100%;
+  }
+
+  .begin-session{
+    width: 100%;
+    left: 0px;
+  }
+
+
+
+.comment-textarea{
+  top:10px;
+  width:100%;
+}
+.text-area{
+  width:90%;
+}
+.comentarios div{
+  font-size: 14px;
+}
+ .veja img{
+ transform: translateY(0%);
+ }
+
+ .veja ul{
+  font-size: 15px;
+  padding-left:40px;
+ }
+
+
+
+ .publish{
+  width: 170px;
+  font-size: 13px;
+ }
+
+ .father{
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+.moz{
+  padding: 10px;
+}
+
+.moz, .moz img{
+  width: 100%;
+ 
+}
+
+.moz p{
+  font-weight: bold;
+}
+
+.one img{
+  height: 250px;
+}
+
+}
+
+@media only screen and (min-width: 601px)and (max-width:700px){
+
+ 
+  
+  .save_image{
+    right:15px; 
+   }
+
+   .img_share{
+     right: 50px;
+   }
+
+  .barra2_filho{
+    font-size: 17px;
+    left:20px;
+    width:60%
+  }
+  .modo-noturno{
+    right:75px;
+  }
+  
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 65px;
+    width: 53px; 
+  }
+
+  .text1{
+    font-size: 16px;
+  }
+
+  .date_rel{
+    font-size: 14px;
+  }
+
+  .days{
+    font-size:14px;
+  }
+  
+  .text2{
+    font-size: 16px;
+  }
+
+
+
+  .pat{
+    font-size: 14px;
+  }
+
+  
+
+
+
+  .form{
+    position: static;
+    width: 100%;
+  }
+
+  .begin-session{
+    width: 100%;
+    left: 0px;
+  }
+
+ .dropdown{
+  left: 0px;
+ }
+
+ .comment-textarea{
+  top:10px;
+  width:100%;
+ }
+
+
+ .comment-textarea img{
+  left: 0px;
+  height: auto;
+  width: 10%;
+  position: absolute;
+ }
+ .text-area{
+  width:85%;
+ } 
+ .comentarios div{
+  font-size: 13px;
+ }
+ .veja img{
+ transform: translateY(0%);
+ }
+
+ .veja ul{
+  font-size: 14px;
+  padding-left: 30px;
+  
+ }
+
+ .save{
+  transform: translateY(-39%);
+ }
+
+ .publish{
+  width: 200px;
+ }
+
+ .father{
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+.moz{
+  padding: 10px;
+}
+
+.moz, .moz img{
+  width: 100%;
+ 
+}
+
+.moz p{
+  font-weight: bold;
+}
+
+.one img{
+  height: 265px;
+}
+
+
+}
+
+@media only screen and (min-width: 701px)and (max-width:800px){
+  
+  
+  .save_image{
+    right:20px;
+   }
+
+   .img_share{
+     right: 65px;
+   }
+
+  .barra2_filho{
+    font-size: 26px;
+    width: 80%;
+    width:60%;
+  }
+  .modo-noturno{
+    right:85px;
+  }
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+ .begin-session{
+    width: 100%;
+    left: 0px;
+  }
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 70px;
+    width: 58px; 
+  }
+
+  .text1{
+    font-size: 18px;
+  }
+
+  .date_rel{
+    font-size: 16px;
+  }
+
+  .days{
+    font-size:16px;
+    left: 48px;
+    position: absolute;
+  }
+  
+  .text2{
+    font-size: 18px;
+  }
+
+  .pat{
+    font-size: 16px;
+  }
+
+  .inst_sites{
+    width: 100%;
+  }
+
+  .form{
+    position: static;
+    width: 100%;
+  }
+
+ .begin-session{
+  width: 60%;
+ }
+
+ .dropdown{
+  left: 0px;
+  font-size: 14px;
+ }
+
+ .comment-textarea{
+  top:10px;
+  width:100%;
+ }
+ .comment-textarea img{
+  left: 0px;
+  height: auto;
+  width:7%;
+  position: absolute;
+ }
+ .text-area{
+  width:90%;
+ }
+ .comentarios div{
+  font-size: 17px;
+ }
+
+
+
+ .veja img{
+  transform: translateY(0%);
+ }
+ 
+ .veja ul{
+   font-size: 16px;
+   left: 70px;
+   position: absolute;
+ }
+
+ .save{
+   position: relative;
+   left: 140px;
+   
+ }
+ .father{
+  flex-direction: column;
+  width: 100%;
+  font-size: 28px;
+
+}
+
+.moz{
+  padding: 10px;
+}
+
+.moz, .moz img{
+  width: 100%;
+ 
+}
+
+.moz p{
+  font-weight: bold;
+}
+
+.one img{
+  height: 300px;
+}
+
+}
+
+@media only screen and (min-width: 810px) and (max-width:900px){
+ 
+  
+  .save_image{
+    right:20px;
+   }
+
+   .img_share{
+     right: 55px;
+   }
+
+   .barra2{
+     width: 95%;
+   }
+
+  .barra2_filho{
+    font-size: 19px;
+    width: 65%;
+  }
+  
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+  .modo-noturno{
+    right: 80px;
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 62px;
+    width: 48px; 
+  }
+
+  .text1{
+    font-size: 18px;
+  }
+
+  .date_rel{
+    font-size: 15px;
+  }
+
+  .days{
+    font-size:15px;
+    left: 48px;
+    position: absolute;
+  }
+  
+  .text2{
+    font-size: 18px;
+  }
+
+  .pat{
+    font-size: 15px;
+  
+  }
+
+  .inst_sites{
+    width: 100%;
+  }
+
+  .veja img{
+    transform: translateY(0%);
+  }
+
+  .save{
+    position: relative;
+    left: 150px;
+    
+  }
+  .father{
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+  
+  }
+  
+  .moz{
+    padding: 10px;
+  }
+  
+  .moz, .moz img{
+    width: 100%;
+   
+  }
+  
+  .moz p{
+    font-weight: bold;
+  }
+  
+  .one img{
+    height: 310px;
+  }
+
+
+}
+
+@media only screen and (min-width: 910px)and (max-width:1000px){
+
+
+  
+  .save_image{
+    right:20px;
+   }
+
+   .img_share{
+     right: 65px;
+   }
+
+  .barra2_filho{
+    font-size: 19px;
+    width: 60%;
+  }
+  
+  .barra_autor button{
+    width: 40px;
+    height: 38px;
+    overflow: hidden;
+    
+  }
+
+  .share{
+    transform: translateY(-3%);
+  }
+
+
+  .redirect{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+  }
+  
+  .redirect img{
+    height: 62px;
+    width: 48px; 
+  }
+
+  .text1{
+    font-size: 18px;
+  }
+
+  .date_rel{
+    font-size: 15px;
+  }
+
+  .days{
+    font-size:15px;
+    left: 48px;
+    position: absolute;
+  }
+  
+  .text2{
+    font-size: 18px;
+  }
+
+  .pat{
+    font-size: 15px;
+  }
+
+  .inst_sites{
+    width: 100%;
+  }
+
+  .veja img{
+    transform: translateY(0%);
+  }
+
+  .save{
+    position: relative;
+    left: 150px;
+  }
+
+  .father{
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+  
+  }
+  
+  .moz{
+    padding: 10px;
+  }
+  
+  .moz, .moz img{
+    width: 100%;
+   
+  }
+  
+  .moz p{
+    font-weight: bold;
+  }
+  
+  .one img{
+    height: 310px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px)and (max-width:1199px){
+
+ 
+
+
+  .barra2_filho{
+    font-size: 25px;
+    width:100px;
+    width: 65%;
+  }
+
+  .text1{
+    font-size: 23px;
+  }
+
+  .date_rel {
+    font-size: 20px;
+   
+  }
+
+  .days{
+    font-size:20px;
+    left: 70px;
+    position: absolute;
+  }
+  .save{
+    position: relative;
+    left: 200px;
+    transform: translateY(-48%);
+    font-size: 18px;
+  }
+  
+  .text2{
+    font-size: 23px;
+  }
+
+  .pat{
+    font-size: 20px;
+  }
+
+  .veja ul{
+    font-size: 20px;
+    left: 100px;
+    position: absolute;
+  }
+
+  .comentarios div{
+    font-size: 20px;
+  }
+ .form{
+  width: 75%;
+ }
+ .father{
+  flex-direction: column;
+  width: 100%;
+  font-size: 29px;
+
+}
+
+.moz{
+  padding: 10px;
+}
+
+.moz, .moz img{
+  width: 100%;
+ 
+}
+
+.moz p{
+  font-weight: bold;
+}
+
+.one img{
+  height: 350px;
+}
+
+}
+@media only screen and (max-width:1000px){
+  div.share_text{
+   display: none;
+  }
+}
+@media only screen and (max-width:800px){
+
+  .form{
+    left:-10px;
+    top:10px;
+    width:100%;
+    position:relative; 
+    
+  }
+  .button-style{
+    position:relative;
+    bottom:20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 299px){
+ 
+  .omitir, .relat ul,.veja,.comment-textarea img,.share{
+    display:none;
+  }
+ 
+
+  h1{
+    font-size: 20px;
+
+  }  
+  
+  
+    
+    .save_image{
+      right:18px;
+      height: 20px;
+      width: 20px;
+     }
+  
+     .img_share{
+       right: 55px;
+       height: 20px;
+       width: 20px;
+     }
+    
+    
+    .barra2_filho{
+      font-size: 16px;
+      width:60%;
+      left:10px;
+     
+    }
+   
+    .modo-noturno{
+     display: none;
+    }
+    
+    .barra_autor button{
+      width: 40px;
+      height: 38px;
+      overflow: hidden;
+      
+    }
+  
+    .share{
+      transform: translateY(3%);
+    }
+  
+  
+    .redirect{
+      position: absolute;
+      bottom:10px;
+      right: 10px;
+    }
+    
+    .redirect img{
+      height: 65px;
+      width: 53px; 
+    }
+  
+    .text1{
+      font-size: 17px;
+    }
+  
+    .date_rel{
+      font-size: 16px;
+    }
+  
+    .days{
+      font-size:16px;
+    }
+    
+    .text2{
+      font-size: 17px;
+    }
+  
+  
+  
+    .pat{
+      font-size: 15px;
+    }
+  
+   
+    .inst a {
+     font-size: 16px;
+     text-overflow: ellipsis;
+     white-space: nowrap; 
+     overflow: hidden;
+     padding:15px 0px 0px 0px;
+    }
+    .image{
+      width:100%;
+    }
+    .form{
+      position: static;
+      width: 100%;
+    }
+  
+  .begin-session{
+    width: 70%;
+    left:5px;
+
+  }
+  
+  .dropdown{
+    left: 0px;
+   
+  }
+  
+  .comment-textarea{
+    top:10px;
+    width:100%;
+
+  }
+  
+  .comentarios div{
+    font-size: 15px;
+  }
+  .veja img{
+   transform: translateY(0%);
+   display:none;
+  }
+  
+  .veja ul{
+    font-size: 13px;
+    display:none;
+  }
+  
+  .comment-textarea img{
+    left:10px;
+    position: absolute;
+   }
+  
+    .text-area{
+      width: 100;
+    }
+  
+    
+  
+    .publish{
+      width: 155px;
+      font-size: 12px;
+     
+    }
+  
+   
+      .text-area-icons .material-icons{
+        opacity: 0%;
+      }
+    .begin-session{
+      width: 100%;
+    }
+    .relat .text1{
+      display: block;
+      width: 70%;
+      height: 80%;
+      overflow: hidden;
+      text-overflow:ellipsis;
+    }
+    .relat{
+      height: auto;
+    }
+    .relat img{
+      
+      transform: translateY(-50%);
+    }
+    .discus-information{
+      width:150px;
+    }
+    .button-style{
+      position:relative;
+      bottom:5px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+  .button_back,.modo-noturno,.search{
+    display:none;
+  }
+  
+  div.tec1{
+    transform:translateX(50%);
+    left:0%;
+    
+
+  }
+  .show{
+    display:block;
+    width: 50%;
+    float:left;
+    margin-top:15px;
+    margin-bottom:10px;
+    background-color: #fafcfd;       
+    font-size: 18px;
+    font-weight:normal;
+    font: 400 16px Arial;
+    height:40px;
+    box-sizing: border-box;
+    color:gray;
+    padding:8px 16px 8px 48px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:2px;
+    border:1px solid  rgb(195, 195, 195);
+  
+  }
+  .show:focus{
+    border: 1px solid blue ;
+    outline: 3px solid rgba(52,144,220,.5);
+  
+  }
+  .show:focus~.search-box{
+    display: block;
+  }
+  input::placeholder{
+    color:#b8c2cb;
+    font-size:16px;
+    font-weight: normal;
+  
+  }
+ .img_bar{
+  display:block;
+  position: absolute;
+  bottom: 20px;
+  right:5%;
+  }
+  .search-box{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    background-color: white;
+    transform:translateX(-47%);
+    top: 98%;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    color: #575757;
+    font:16px  Source Sans Pro,sans-serif;
+  }
+  .search-box p{
+    font-weight: bold;
+    margin: 0px;
+   
+  }
+  
+  .em_alta{
+    padding: 12px 16px;
+    border-top: 1px solid lightgray;
+  }
+  .em_alta:hover{
+    background-color:  #fafcfd;;
+
+  }
+  .box-title{
+    padding: 14px 16px;
+  }
+  .lup{
+   position: relative;
+   top:6px;
+  }
+
+  .father{
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    
+  }
+
+  .moz{
+  
+    padding: 10px 5px;
+    overflow: hidden;
+    
+  }
+  
+  
+  .one{
+    float: left;
+    cursor: pointer;
+    width: 60%;
+  }
+
+  .one p{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+  }
+
+  .one img{
+    border-radius: 8px;
+  }
+
+  .two{
+    float: right;
+    width: 40%;  
+  }
+
+  .news{
+    line-height: 70%;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .news img{
+    max-width: 165px;
+    max-height:180px;
+    border-radius: 10%;
+  }
+
+  .news p{
+    color: black; 
+    font-size: 16px;
+    position: absolute;
+    top:20%;
+    left: 180px;
+    font-weight: bold;
+  }
+
+  .news p:hover, .one h1:hover{
+    color: rgb(31, 159, 238);
+  }
+
+
+  
+}
+
+
+
+/*Fim do medias------------------------------------------------------------------------------------------------*/

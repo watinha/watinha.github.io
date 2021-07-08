@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(../fonts/whitney-medium.otf);
+}
+
+@font-face {
+    font-family: Whitney-bold;
+    src: url(../fonts/whitney-bold.otf);
+}
+
+@font-face {
+    font-family: Whitney-book;
+    src: url(../fonts/whitney-book.otf);
+}
+
+@font-face {
+    font-family: Whitney-light;
+    src: url(../fonts/whitney-light.otf);
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+
+/* Todo os conteudos dentro dessa div */
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Box com todo o conteudo do topo da pagina */
+
+.box-superior {
+    width: 100%;
+    background-image: linear-gradient(rgb(18, 93, 231), rgb(97, 147, 240));
+    color: #fff;
+    display: block;
+}
+
+
+/* Barra de menu superior */
+
+nav {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 124px;
+    height: 34px;
+    display: flex;
+}
+
+.links-menu {
+    text-align: center;
+}
+
+.links {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.entrar div {
+    width: 65px;
+    height: 35px;
+    background-color: #fff;
+    color: #434647;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+
+/* Conteudo central */
+
+.main-box {
+    width: 100%;
+    height: 83vh;
+    color: #fff;
+    display: flex;
+}
+
+.img-esq {
+    width: 25%;
+    margin-top: 94px;
+    background: url(../images/lateral_esq.svg) no-repeat right;
+}
+
+.img-dir {
+    width: 25%;
+    margin-top: 50px;
+    background: url(../images/lateral_dir.svg) no-repeat left;
+}
+
+
+/* Box central */
+
+.main-center-box {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.main-text-box {
+    text-align: center;
+}
+
+.main-text-box h1 {
+    font-family: Whitney-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42pt;
+    display: block;
+}
+
+.main-text-box p {
+    font-family: Whitney-book, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 24px;
+    line-height: 32px;
+    font-size: 19px;
+}
+
+
+/* Dois links inferiores "baixar..." e "abrir...") */
+
+.main-links {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.main-links .baixar-dc div,
+.main-links .abrir-dc div {
+    display: inline;
+    border-radius: 28px;
+    margin: 0 20px;
+    padding: 16px 32px;
+}
+
+.baixar-dc .div-baixar {
+    background-color: #fff;
+    color: #373a3d;
+    float: left;
+}
+
+.baixar-dc:hover div,
+.entrar:hover div {
+    color: #7289da;
+    -webkit-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.abrir-dc,
+.baixar-dc {
+    margin-top: 24px;
+}
+
+.abrir-dc div {
+    background-color: #23272a;
+    color: #fff;
+    float: right;
+}
+
+.abrir-dc:hover div {
+    -webkit-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.baixar-playstore {
+    display: none;
+}
+
+
+/* Geral */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e4e0e0;
+    margin: 1em 0;
+}
+
+
+/* mobile */
+
+.links-mobile {
+    display: none;
+}
+
+.menu-lateral {
+    display: none;
+}
+
+.painel-lateral {
+    display: none;
+}
+
+.divisor {
+    height: 35px;
+    background-color: #2e2e30;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* media queries - design responsivo */
+
+@media screen and (max-width: 415px) {
+    nav .links-menu,
+    .img-dir,
+    .img-esq,
+    .baixar-dc {
+        display: none;
+        /* visibility: collapse; */
+    }
+    .main-box {
+        height: 100vh;
+    }
+    .main-center-box {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .main-text-box {
+        text-align: left;
+        font-size: 14pt;
+    }
+    .main-text-box h1 {
+        line-height: normal;
+        font-size: 36pt;
+    }
+    .main-text-box p {
+        margin-top: 25px;
+        line-height: 32px;
+        font-size: 21px;
+        vertical-align: baseline;
+    }
+    .main-links {
+        display: block;
+    }
+    .baixar-playstore,
+    .main-links .abrir-dc div {
+        border-radius: 28px;
+        display: block;
+        margin-top: 25px;
+        margin: 25px 0 0 0;
+        font-family: Whitney-light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .baixar-playstore {
+        width: 70%;
+        background-color: #fff;
+        color: #23272a;
+        padding: 15px;
+    }
+    .main-links .abrir-dc div {
+        width: 80%;
+        background-color: #23272a;
+        color: #fff;
+    }
+    .entrar div {
+        color: #23272a;
+        padding: 1px;
+        margin-right: -60px;
+        font-family: Whitney-light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    li {
+        list-style: none;
+        display: block;
+    }
+    .menu-lateral {
+        display: flex;
+    }
+    .menu-icon {
+        color: #fff;
+        background-color: transparent;
+        line-height: 0;
+    }
+    button.menu-icon {
+        border: none;
+        outline: none;
+    }
+    nav .links-mobile {
+        display: block;
+    }
+    nav .links-mobile a {
+        color: #464849;
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        border-radius: 8px;
+        line-height: 24px;
+        bottom: 100%;
+        overflow: hidden;
+    }
+    nav .links-mobile a.selected {
+        margin-top: 10px;
+        background: #f6f6f6;
+        color: #00b0f4;
+    }
+    .painel-lateral {
+        position: fixed;
+        z-index: 999;
+        left: 30px;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+        transition: all 0.5s ease-in-out;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .show-painel-lateral {
+        display: block;
+    }
+    .hide-painel-lateral {
+        display: none;
+    }
+    .div-interna {
+        margin: 20px 30px 0 20px;
+    }
+    .fechar-btn {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        padding: 8px;
+        appearance: none;
+        background-color: transparent;
+        line-height: 0;
+        border: none;
+        outline: none;
+    }
+    .div-inferior {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        height: 100px;
+        border-bottom-left-radius: 8px;
+    }
+    .baixar-playstore-lateral {
+        width: 80%;
+        height: 30px;
+        background-color: #7289da;
+        color: #fff;
+        justify-content: center;
+        border-radius: 40px;
+        display: flex;
+        margin: auto auto;
+        padding: 7px 16px;
+        font-size: 11pt;
+        line-height: 24px;
+    }
+}

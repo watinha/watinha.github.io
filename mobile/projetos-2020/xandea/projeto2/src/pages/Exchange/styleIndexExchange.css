@@ -1,0 +1,236 @@
+.divHeader{
+    display: flex;
+    width: 1050px;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.subDivHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.divImgLogoAzul{
+    display: flex;
+    width: 50%;
+}
+.logoazul{
+    display: flex;
+    height: 55px;
+}
+.menuDropdown {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+.btnDropdown {
+    width: 160px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0.5px solid gray;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #0070ba;
+    cursor: pointer;
+}  
+.sectionLinks {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sectionLinks a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.sectionLinks a:hover {
+     background-color: #f1f1f1
+}
+.menuDropdown:hover .sectionLinks {
+    display: block;
+}
+.menuDropdown:hover .btnDropdown {
+    background-color: #0264a5;
+}
+
+.divCadastroMoeda{
+    display: none;
+    flex-direction: column;
+}
+.formCadastrarMoeda{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid #0070ba;
+}
+.sectionInputs{
+    display: flex;
+    margin: 7px;
+}
+.labelForm{
+    margin: 7px;
+}
+
+.textCotacao{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.tagh2{
+    color: #025c75;
+}
+.divInformacao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid #0070ba;
+   
+}
+.subDivInformacao{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.sectionInformacao{
+    margin: 20px 35px;
+    display: flex;
+    flex-direction: column;
+}
+.buttonConverte{
+    border-radius: 4px;
+    padding: 15px;
+    border: 0.5px solid gray;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #0070ba;
+}
+.buttonConverte:hover{
+    background-color: #0264a5;
+}
+
+.divResultado{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #0070ba;
+    background-color: rgb(248, 248, 248);
+}
+.tagh3{
+    color: #025c75;
+}
+.sectionResultadoOne{
+    display: hidden;
+    flex-direction: row;
+    margin-left: 65px;
+}
+.sectionData{
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top: 22px;
+    font-weight: bold;
+    color: #025c75;
+    display: none;
+}
+.labelData{
+    display: flex;
+    flex-direction: row;
+}
+.spanData{
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+.sectionResultadoTwo{
+    display: hidden;
+    flex-direction: column;
+    margin-left: 65px;
+    padding-bottom: 50px;
+}
+
+.msgError{
+    display: none;
+    color: red;
+}
+
+.msgCadastro{
+    display: none;
+}
+
+.moedaBase{
+    display: none;
+}
+.moedaBaseCotacao{
+    display: none;
+
+}
+.moedaValor{
+    display: none;
+}
+
+
+/* responsividade para @media notebook alexandre*/
+@media only screen and (max-width: 1200px) {
+    .divHeader{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+/* responsividade para mobile */
+@media only screen and (max-width: 600px){
+    .divHeader{
+        display: flex;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .subDivHeader{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .divImgLogoAzul{
+        width: 100%;
+    }
+    .textCotacao{
+        margin-left: 10px;
+    }
+    .divInformacao{
+        width: 80%;
+    }
+    .subDivInformacao{
+        flex-direction: column;
+    }
+    .sectionInformacao{
+        justify-content: center;
+        align-items: center;
+    }
+    .divResultado{
+        width: 80%;
+    }
+    .sectionResultadoOne{
+        margin-left: 20px;
+    }
+    .sectionData{
+        margin-left: 40px;
+    }
+    .sectionResultadoTwo{
+        margin-left: 20px;
+    }
+}
+

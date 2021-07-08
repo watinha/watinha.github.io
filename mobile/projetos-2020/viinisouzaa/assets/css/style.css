@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Grotesk BQ Light';
+    src: url(../assets/fonts/akzidenz-grotesk-bq-light.otf);
+}
+
+html, body, a, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+    font-family:  Grotesk BQ Light,Helvetica,Arial !important;
+}
+
+.seta {
+    display: none;
+}
+
+.mongo {
+    float: left;
+    margin: 16px;
+}
+
+.cabecalho > div > div{
+    display: inline-block;
+    /*background-color: brown;*/
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+    position: initial;
+}
+
+.cabecalho {
+    /*background-color: blue;*/
+    height: 70px;
+    width: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01), 0 10px 30px rgba(0,0,0,0.08);
+    z-index: 1000000;
+    display: block;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.corpo {
+    background-image: url("../images/background.png");
+    background-size: 400px;
+    background-position: center;
+    background-repeat: repeat;
+    height: 510px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.meio {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.meio2 {
+    width: 90%;
+    height: 90%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to bottom,rgba(19,170,82,0.2),#fff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meio3 {
+    width: 88%;
+    height: 88%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(to bottom,rgba(19,170,82,0.2),#fff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.meio3 h1{
+    color: #116149;
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 0,67em;
+    margin-block-end: 0,67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.texto p {
+    font-size: 21px;
+}
+.leaf {
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.texto > div {
+    margin-top: 30px;
+}
+
+.texto > div > div {
+    margin-top: 30px;
+}
+
+
+.left ul {
+    display: none;
+}
+
+.cloud:hover > ul, .software:hover > ul,
+.learn:hover > ul, .solution:hover > ul,
+.docs:hover > ul {
+    display: block;
+    z-index: 1000; /* Pra ficar na frente da imagem*/
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01), 0 10px 30px rgba(0,0,0,0.08);
+
+    padding: 0;
+    margin-top: 0;
+}
+
+.cloud ul li, .software ul li,
+.learn ul li, .solution ul li,
+.docs ul li {
+    padding: 20px;
+}
+
+.cloud ul li:hover, .software ul li:hover,
+.learn ul li:hover, .solution ul li:hover,
+.docs ul li:hover {
+    background-color: #e4e4e4;
+    border-left: solid 3px rgb(63, 248, 63);
+    padding-left: 17px;
+}
+
+.menu-split {
+    display: none;
+}
+
+.seta:hover ~ .menu-split {
+    display: grid !important;
+    z-index: 50000;
+    overflow: hidden;
+}
+
+.menu-split:hover{
+    display: grid !important;
+    overflow: hidden;
+    z-index: 50000;
+}
+
+.cloud-1, .software-1,
+.learn-1, .solution-1,
+.docs-1 {
+    border: 1px solid grey;
+}
+
+.cloud-1 ul, .software-1 ul,
+.learn-1 ul, .solution-1 ul,
+.docs-1 ul {
+    display: none;
+}
+
+.buttons-menu {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 980px) { 
+    .mongo {
+        display: inline-block !important;
+        position: initial;
+    }   
+
+    .seta {
+        display: inline-block;
+        float: right;
+        padding: 10px;
+        z-index: 5000;
+        cursor: pointer;
+    }
+
+    .menu-split {
+        z-index: 500000;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .seta i {
+        font-size: 50px;
+    }
+
+    .left,  .right{
+        display: none !important;
+        float: none;
+    }
+
+    .seta i:active .menu-split{
+        display: block !important;
+    }
+}
+
+.submenu-description {
+    font-size: 14px !important;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) { 
+    .meio {
+        width: 600px;
+        height: 600px;
+        margin-top: -75px;
+    }
+    
+    .meio3 h1{
+        font-size: 38px !important;
+    }
+    .texto p {
+        font-size: 15px;
+    }
+    
+    .submenu-description{
+        font-size: 9px !important;
+    }
+}
+
+@media screen and (max-width: 600px) { 
+    .meio {
+        width: 600px;
+        height: 600px;
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+    
+    .meio3 h1{
+        font-size: 35px !important;
+        line-height: unset;
+    }
+    .texto {
+        width: 300px;
+        height: 300px;
+    }
+    .texto p {
+        font-size: 20px;
+    }
+    
+    .submenu-description{
+        font-size: 9px !important;
+    }
+}

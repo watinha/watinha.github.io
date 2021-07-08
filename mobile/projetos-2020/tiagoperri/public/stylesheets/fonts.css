@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Museo-Bold';
+	src: url('../fonts/Museo700-Regular.otf');
+}
+@font-face {
+	font-family: 'Museo-Medium';
+	src: url('../fonts/Museo500-Regular.otf');
+}
+@font-face {
+	font-family: 'Museo-Regular';
+	src: url('../fonts/Museo300-Regular.otf');
+}
+@font-face {
+	font-family: 'Museo-Sans';
+	src: url('../fonts/MuseoSans_500.otf');
+}

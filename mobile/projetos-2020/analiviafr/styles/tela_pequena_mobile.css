@@ -1,0 +1,486 @@
+@font-face {
+  font-family: Graphik-Regular;
+  src: url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff2') format('woff2'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff') format('woff'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.ttf') format('truetype'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.svg#Graphik-Regular') format('svg'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.eot?#iefix') format('embedded-opentype');
+  font-style: normal;
+  font-display: fallback;
+}
+
+body {
+  font-family: Graphik-Regular;
+}
+
+/*ESTILO BARRA DE NAVEGAÇÃO*/
+nav{
+    background-color: white;
+    box-shadow: 0 0 0.2em rgb(175, 175, 175);
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.menu{
+    width: 640px;
+    height: 38px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 40px;
+    padding: 5px 10px 0px 32px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+ul{
+    display: none;
+}
+
+li{
+    display: none;
+}
+
+.Login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+}
+
+.bt_login{ /*BOTÃO DE LOGIN E DE "QUERO SER NU" SUPERIOR NÃO SÃO EXIBIDOS*/
+    display: none;
+}
+
+.bt_querosernu{
+    display: none;
+}
+
+.bt_elementos{ /*BOTÃO DE MENU PARA A VERSÃO MOBILE*/
+    display: flex;
+    width: 300px;
+    margin-left: 290px;
+    margin-bottom: 6px;
+}
+
+.bt_elementos a{ /*ESPECIFICAÇÕES DE FONTE E COR DO TEXTO DO MENU. TAMBÉM FOI FEITO UM CÍRCULO PARA O FORMATO DO BOTÃO*/
+    font-weight: lighter;
+    text-decoration: none;
+    color: #494949;
+    font-size: 33px;
+    display: -webkit-flex; /*TRABALHO COM O FLEXBOX PARA CENTRALIZAR O TEXTO DENTRO DO CÍRCULO, SEM ELE, FICA TORTO*/
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 40px; /*FORMANDO O CÍRCULO EM VOLTA DO MENU*/
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    position: relative;
+    -webkit-transition:background 0.6s ease-in-out; /*EFEITO FADE DO MENU*/
+    -moz-transition:background 0.6 ease-in-out;
+    -o-transition:background 0.6s ease-in-out;
+    -ms-transition:background 0.6s ease-in-out;
+    justify-content: center;
+}
+
+.bt_elementos a:hover{ /*EFEITO HOVER DO BOTÃO DE MENU*/
+    background-color: #EFD8FA;
+    display: -webkit-flex; /*TRABALHO COM O FLEXBOX PARA CENTRALIZAR O TEXTO DENTRO DO CÍRCULO, SEM ELE, FICA TORTO*/
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 40px; /*FORMANDO O CÍRCULO EM VOLTA DO MENU*/
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    position: relative;
+    -webkit-transition:background 0.8s ease-in-out; /*EFEITO FADE DO MENU*/
+    -moz-transition:background 0.8 ease-in-out;
+    -o-transition:background 0.8s ease-in-out;
+    -ms-transition:background 0.8s ease-in-out;
+    justify-content: center;
+}
+
+header{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-image: url("../img/fundo1_mobile.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 155%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-esquerdo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 200%;
+    height: 20%;
+    padding-left: 30px;
+}
+
+h1 br{ /*IGNORA O ESPAÇAMENTO <BR> DO HTML NO TÍTULO 1*/
+    display: none;
+}
+
+.titulo1{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+.subtitulo1{
+    flex-wrap: wrap;
+    width: 75%;
+    height: 27%;
+    color: white;
+    font-size: 18.5px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 550px;
+}
+
+.botao{
+    box-shadow: 0 0 0.1em rgb(0, 0, 0);
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30rem;
+    height: 50px;
+    width: 88%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-direito{ /*NÃO EXIBE A IMAGEM DO CELULAR AO LADO DO CARTÃO. EXIBE UMA IMAGEM ADAPTADA PARA TELAS MENORES*/
+    display: none;
+}
+
+.cont-direito-mobile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: static;
+    justify-content: center;
+}
+
+.cont-direito-mobile img{
+    height: 78%;
+    padding-top: 30%;
+}
+
+/*SESSAO 1*/
+
+.fundo_S1{
+   display: none;
+}
+
+.conteiner2{
+    display: none;
+}
+
+.titulo2{
+    display: none;
+}
+
+.titulo2 h1 span{
+    display: none;
+}
+
+.titulo2 h1{
+    display: none;
+}
+
+.titulo2 a{
+    display: none;
+}
+
+.titulo2 a:hover{
+    display: none;
+}
+
+.figura2{
+    display: none;
+}
+
+/*SESSAO 2*/
+
+.fundo_S2{
+    display: none;
+}
+
+.conteiner3{
+    display: none;
+}
+
+.titulo3{
+    display: none;
+}
+
+.titulo3 h1 span{
+    display: none;
+}
+
+.titulo3 h1{
+    display: none;
+}
+
+.titulo3 a{
+    display: none;
+}
+
+.titulo3 a:hover{
+    display: none;
+}
+
+.figura3{
+    display: none;
+}
+
+.figura3 img{
+    display: none;
+}
+
+/*SESSAO 3*/
+
+.fundo_S3{
+    display: none;
+}
+
+.conteiner4{
+    display: none;
+}
+
+.titulo4{
+    display: none;
+}
+
+.titulo4 h1 span{
+    display: none;
+}
+
+.titulo4 h1{
+    display: none;
+}
+
+.titulo4 a{
+    display: none;
+}
+
+.titulo4 a:hover{
+    display: none;
+}
+
+.figura4{
+    display: none;
+}
+
+.figura4 img{
+    display: none;
+}
+
+/*SESSAO 4*/
+
+.fundo_S4{
+    display: none;
+}
+
+.camada_de_cor{
+    display: none;
+}
+
+.conteiner5{
+    display: none;
+}
+
+.titulo5{
+    display: none;
+}
+
+.titulo5 h1{
+    display: none;
+}
+
+.titulo5 a{
+    display: none;
+}
+
+.titulo5 a:hover{
+    display: none;
+}
+
+/*SESSAO 5*/
+
+.fundo_S5{
+    display: none;
+}
+
+.fundo_de_cor2{
+    display: none;
+}
+
+.conteiner6{
+    display: none;
+}
+
+.titulo6{
+    display: none;
+}
+
+.titulo6 h1 span{
+    display: none;
+}
+
+.titulo6 h1{
+    display: none;
+}
+
+.titulo6 a{
+    display: none;
+}
+
+.titulo6 a:hover{
+    display: none;
+}
+
+/*SESSAO 6*/
+
+.fundo_S6{
+    display: none;
+}
+
+.conteiner7{
+    display: none;
+}
+
+.titulo7{
+    display: none;
+}
+
+.titulo7 h1{
+    display: none;
+}
+
+.titulo7 a{
+    display: none;
+}
+
+.titulo7 a:hover{
+    display: none;
+}
+
+
+footer{
+    display: none;
+}
+
+.conteiner8{
+    display: none;
+}
+
+.bloco{
+    display: none;
+}
+
+.bloco h3{
+    display: none;
+}
+
+.bloco a{
+    display: none;
+}
+
+.bloco a:hover{
+    display: none;
+}
+
+.bloco img{
+    display: none;
+}
+
+.bloco p{
+    display: none;
+}
+
+.conteiner9{
+    display: none;
+}
+
+.caixa1{
+    display: none;
+}
+
+.caixa1 img{
+    display: none;
+}
+
+.caixa1 p{
+    display: none;
+}
+
+.caixa2{
+    display: none;
+}
+
+.caixa2 a{
+    display: none;
+}
+
+.caixa2 a:hover{
+    display: none;
+}
+
+.conteiner10{
+    display: none;
+}
+
+.caixa3{
+    display: none;
+}
+
+.caixa3 a{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}

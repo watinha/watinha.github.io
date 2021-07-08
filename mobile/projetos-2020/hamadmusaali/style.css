@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 75.5rem;
+    margin: 3rem auto 0;
+}
+
+#wrapper > .container {
+    display: flex;
+    padding: 0 15.5rem;
+}
+
+.celulares {
+    height: 36rem;
+    background: url("imagens/celulares.png") center no-repeat;
+    flex: 1;
+}
+
+.top {
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 2.8rem;
+}
+
+.top form {
+    background-color: #fff;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2.5rem;
+    text-align: center;
+}
+
+.logo img{
+    width: 175px;
+    margin-bottom: 1.0rem;
+}
+
+.top form input {
+    padding: .4rem;
+    margin-bottom: .2rem;
+    border: 0.7px solid #eee;
+    border-radius: .05rem;
+}
+
+.botao {
+    margin: 1rem 0 1.5rem;
+    height: 1.5rem;
+    background-color: #3897f0;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: .1rem;
+    cursor: pointer;
+}
+
+.separar {
+    font-size: 0.8rem;
+    color: #999999;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.separar::before,
+.separar::after {
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    width: 40%;
+    height: 1px;
+    top: 58%;
+    transform: translateY(-50%);
+}
+
+.separar::before {
+    left: 0;
+}
+
+.separar::after {
+    right: 0;
+}
+
+.facebook {
+    font-size: 0.8rem;
+    color: #003590;
+    margin-bottom: 0.7rem;
+    padding-top: 0.8rem;
+}
+
+.esqueceuSenha {
+    font-size: 0.6rem;
+    color: #003569;
+}
+
+.cadastrar {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #262626;
+    padding: 1rem 0;
+    background-color: #fff;
+    border: 2px solid #eee;
+    margin: 0.5rem 0;
+}
+
+.cadastrar a {
+    color: #3897f0;
+    font-weight: bold;
+}
+
+.obtenhaApp {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.obtenhaApp span {
+    display: block;
+    margin: 1rem 0;
+    color: #262626;
+}
+
+.download {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.download img {
+    max-width: 8rem;
+    cursor: pointer;
+    padding-left: 0.5rem;
+}
+
+.download img: first-child {
+    margin-right: 1rem;
+}
+
+footer {
+    padding: 5rem 0;
+    justify-content: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+.rodape ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.rodape ul li {
+    margin-right: 1.6rem;
+    text-align: center;
+}
+
+.rodape ul li a {
+    color: #003569;
+}
+
+.copyright {
+    color: #999999;
+    padding-top: 0.2rem;
+    padding-left: 8.7rem;
+}
+
+
+
+.textoFB img{
+    width: 22px;
+    position: relative;
+    top: 4px;
+    padding-right: 0.3rem;
+}
+
+
+
+@media (max-width: 1300px) {
+    .celulares {
+        display: none;
+    }
+
+    .top {
+        margin: 0 auto;
+    }
+
+    #wrapper > .container {
+        padding: 0;
+    }
+
+    footer .container {
+        padding: 0 2rem;
+        justify-content: center;
+    }
+
+    .rodape ul {
+        justify-content: center;
+    }
+
+    .rodape ul li {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #wrapper {
+        padding-top: 0;
+    }
+
+    .top form{
+        background-color: transparent;
+        border: none;
+        padding: 0 rem;
+    }
+
+    .cadastrar {
+        background-color: transparent;
+        border: none;
+        margin: 4rem 0;
+    }
+
+    footer {
+        padding-bottom: 2rem;
+    }
+}

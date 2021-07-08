@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<title>- Pixabay</title>
+		<link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico">
+		<link rel="stylesheet" href="styles\style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</head>
+	<body>
+		<header class="menu">
+			<div class="pixabay" id="pixabay">
+            	<a href="#"><img src="imagens/logop.svg" alt="logo Pixabay"></a>
+         	</div>
+          <div class= "menuesquerda">
+            <ul>
+				<li><a href="#">Fotos</a></li>
+				<li><a href="#">Ilustrações</a></li>
+				<li><a href="#">Vectores</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Música</a></li>
+            </ul>
+          </div>
+          <div class="menudireita">
+            <ul>
+				<li><a href="#">Explorar &#160;						<span class="dropdown1">
+							<img src="imagens/icon-explorar.svg" alt="dropdown1">
+						</span></a></li>
+				<li><a href="#" id="btn_inicio">Efetuar login</a></li>
+				<li><a href="#" id="link2_cadastrar">Join&#160;&#160;&#160;&#160;&#160;&#160;</a></li>
+				<li><a href="#"><span class="bt-verde">
+					<img src="imagens/icon-btverde.svg" alt="bt-verde">&#160;&#160;Carregar
+					</span></a></li>
+            </ul>
+          </div>
+           	<div class="icon-menu"> 
+					<a href="#" id="icon_drop"> <span class="icon-menu">
+					<img src="imagens/icon-menu.svg" alt="icon-menu">
+					</span></a>
+			</div>
+		</header>
+
+	<div class="subrot" id="p_busca">
+		<div class="main">
+			<div class="fundo"> </div>
+			<div class="textoprincipal"><b>Use o nosso banco de imagens Royalty Free</b></div>	
+			<div class="bpesquisa">		
+				<input type="text" class="binput" id="input_2" name="busca" value="" placeholder="Procurar imagens, vetores e videos" style="background-color: unset;">
+				<div class="btn" id="btn_pesquisar">
+				<div class="lupa">
+				<a><button id="button_2"><img src="imagens/lupa.svg" alt="lupa" width="120%" ></button></a >  
+				</div>
+				<div class="bimagens"> <a href="#">Imagens 
+					<span class="dropdown1">
+							<img src="imagens/icon-explorar.svg" alt="dropdown2">
+					</span></a></div></div>
+			</div> 
+			<div class="rodape"><a href="#">Imagens gratuitas de Kanenori</a></div>
+			<div class="popular">
+			Popular Images:
+				<a href="#">mulher</a>,
+				<a href="#">natureza</a>,
+				<a href="#">flores</a>,
+				<a href="#">praia</a>,
+				<a href="#">tecnologia</a>,
+				<a href="#">carnaval</a>,
+				<a href="#">paisagem</a>,
+				<a href="#">background</a>,
+				<a href="#">pizza</a>,
+				<a href="#">dinheiro</a>,
+				<a href="#">pessoas</a>,
+				<a href="#">covid</a>
+			</div>
+				</form>
+		</div>
+		<div class="dialog" id="dialog_index">
+			<p id="mensagem_index" class="c_login">Para realizar uma busca é necessário estar logado</p>
+			<input id="botao_conf_index" type="submit" class="botao_conf" value="OK">
+			</div>
+	
+		<div class="baba">
+		<div class="ba">
+		<ul></ul></div></div>
+	</div>
+ 
+	<div class="subrot" id="p_login">
+	<div class="login">
+		<div class="flogin">
+			<div class="elogin">
+		Efetuar login
+	</div>
+		</div> ㅤㅤㅤ
+		<div class="caixa">
+		<form id="caixa_login">
+			<div class="inputs">
+			<input id="username_login" class="fdigit" type="text" name="username"
+				placeholder="Nome de usuário ou e-mail">
+			<p id="verificacao1name_login" class="test"></p>
+			</div>
+			<div class="inputs">
+			<input id="passwd_login" class="fdigit" type="password" name="pass" placeholder="Senha">
+			<p id="verificacao2_login" class="test"></p>
+			</div>
+
+		</form>
+		</div>
+		<div class="logar">
+		<input id="button_login" type="submit" class="bt-login" value="Efetuar Login">
+		<div class="25">    &#160;   </div>
+		<input id="link_cadastrar" type="submit" class="bt-login" value="Join">
+		</div>
+		<div class="dialog" id="dialog_login">
+		<p id="login_m" class="c_login"></p>
+		<input id="botao_conf_login" type="submit" class="botao_conf" value="OK">
+		</div>
+	</div>
+	</div>
+
+	<div class="subrot" id="p_cadastro">
+	<div class="cadastro">
+		<div class="flogin">
+		<a>Signup to join our community and download high resolution media</a>
+		</div> ㅤㅤㅤ
+		<div class="caixa">
+		<form id="caixa_cadastro">
+			<div class="inputs">
+				<input id="usuario" type="text" class="fdigit" placeholder="Nome do usuário">
+				<p id="usuario-verify" class="test"></p>
+				</div>			
+			<div class="inputs">
+			<input id="email" type="text" class="fdigit" placeholder="E-mail">
+			<p id="email-verify" class="test"></p>
+			</div>
+			<div class="inputs">
+			<input id="senha" type="password" class="fdigit" placeholder="Senha">
+			<p id="senha-verify" class="test"></p>
+			</div>
+		</form>
+		</div>
+		<div class="join">
+		<input id="button" type="submit" class="bt-cadastro" value="Join">
+		<div class="25">    &#160;   </div></div>
+		<div class="logar">
+		<input id="link_logar2" type="submit" class="bt-login" value="Efetuar Login">
+		</div>
+	</div>
+	<div class="dialog" id="dialog_cadastro">
+		<p id="mensagem_cadastro" class="c_login"></p>
+		<input id="botao_conf_cadastro" type="submit" class="botao_conf" value="OK">
+	</div>
+	</div>
+
+	<div id="mobile" class="mobile_menu_top">
+	<a class="mostrar_menu" data-w="442" href="#" id="link_logar1">
+		Efetuar login
+	</a>
+	<a class="mostrar_menu" data-w="442" style="border-left:1px solid #eee" href="#" id="link3_cadastrar">
+		Join
+	</a>
+	</div>
+   	</body>
+
+	<script type="text/javascript">
+	buscar();
+	pixabay();
+	login();
+	icon_menu();
+	cadastro();
+	join();
+	logar();
+	</script>
+
+</html>

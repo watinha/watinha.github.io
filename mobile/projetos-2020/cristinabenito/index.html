@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Caffeex Tecnologia</title>
+    <meta name="description" content="A primeira plataforma independente de negociação de café verde entre empresas no brasil" />
+    <meta name="author" content="Cristina Benito" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-web/css/all.css" />
+    <!-- <link rel="stylesheet" href="./assets/fonts/font-lato/Lato-Regular.ttf" /> -->
+    <link rel="shortcut icon" href="./assets/imgs/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</head>
+
+<body onload="verificarLogin()">
+    <div class="container">
+        <div class="bg">
+            <div class="bg-mask">
+
+                <header>
+                    <nav class="nav my-flex my-justify-content-space-around text-white my-width-100">
+                        <section id="teste" class="nav-image">
+                            <img src="./assets/imgs/logo-caffeex.png">
+
+                            <ul class="my-hover">
+                                <li>SOLUÇAO</li>
+                            </ul>
+
+                            <ul class="my-hover">
+                                <li>CLIENTES</li>
+                            </ul>
+
+                            <ul class="my-hover">
+                                <li>QUEM SOMOS</li>
+                            </ul>
+
+                            <ul class="my-hover">
+                                <li>CONTATO</li>
+                            </ul>
+
+                            <ul class="my-hover">
+                                <li>FAQ</li>
+                            </ul>
+
+                            <ul class="my-hover my-margin">
+                                <li>VERSÃO TRIAL</li>
+                            </ul>
+
+                            <ul>
+                                <li><button class="my-button my-button-colorless nav-button text-white" id="myBtn"
+                                        onclick="abrir()">ENTRAR</button>
+                                        <i class="fas fa-user fa-2x" onclick="deslogar()" id="user-icon"></i>
+                                </li>
+                            </ul>
+                            <section class="icon">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </section>
+                        </section>
+                    </nav>
+                </header>
+
+
+                <div class="principal my-flex my-justify-content-center my-flex-column my-align-items-center my-width-100">
+                    <div class="slogan">
+                        <h3 class="text-white"> a primeira plataforma independente de
+                            negociação de café verde entre
+                            empresas no brasil
+                        </h3>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="my-button my-button-green button-info">SOLICITE UMA DEMONSTRAÇÃO</button>
+                        <button class="my-button my-button-colorless button-more text-white"><img src="./assets/imgs/top.png">
+                            SAIBA
+                            MAIS
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="buscar" id="busca">
+                <input type="text" placeholder="Buscar" class="search" id="campo-buscar">
+                <button class="mySeach" onclick="buscar()">Buscar</button>
+                <div class="my-list-item">
+                    <ul id="lista-resultados" class="show-image"></ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="slogan-trader my-flex my-justify-content-center my-flex-column my-align-items-center my-width-100">
+            <div class="info">
+                <h4>tecnologia de comercialização
+                    ao alcance do trader</h4>
+            </div>
+        </div>
+
+        <div>
+            <section class="display-col my-flex my-justify-content-between">
+                <div class="text-col">
+                    <h4 class="my-h4">SEGURANÇA</h4>
+                    <p>Na Plataforma Caffeex as ofertas são sempre firmes e vinculantes e eventuais discordâncias são
+                        resolvidas em uma câmara de arbitragem. Aceitou uma oferta, negócio fechado! Pode fazer seu
+                        hedge
+                        sem preocupação.</p>
+                </div>
+                <div class="text-col">
+                    <h4 class="my-h4">ALCANCE</h4>
+                    <p>Com alcance nacional, a plataforma aproxima o mercado permitindo que compradores e vendedores
+                        façam
+                        negócios de forma simples e eficiente. Seu próximo negócio está a cliques de distância.</p>
+                </div>
+                <div class="text-col">
+                    <h4 class="my-h4">EFICIENCIA</h4>
+                    <p>Na Plataforma Caffeex o trader tem inteiro controle sobre quem participa na sua oferta, sem
+                        restrição
+                        de quantidade de negociações simultâneas. Mais eficiência de preço, melhores resultados no
+                        negócio.</p>
+                </div>
+            </section>
+
+            <section class="half-green">
+                <img src="./assets/imgs/screen.png">
+
+            </section>
+
+            <section class="my-flex my-justify-content-center my-flex-column my-align-items-center my-width-100">
+                <div class="info">
+                    <h4>Quem confia na plataforma caffeex</h4>
+                    <p class="clients">A Plataforma Caffeex conta com clientes de vários segmentos da cadeia do café,
+                        desde
+                        cooperativas,
+                        exportadores, grandes produtores, indústria, químicas até armazéns gerais. O business do café
+                        se
+                        encontra aqui.</p>
+                </div>
+            </section>
+        </div>
+
+
+        <footer>
+
+        </footer>
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close" onclick="fechar()">&times;</span>
+                <div id="tela-login">
+                    <div id="painel-erro-login" class="painel-cadastro">
+                    </div>
+                    <div id="painel-sucesso-login" class="painel-sucesso"></div>
+                    <input type="email" id="user" placeholder="email@host.com">
+                    <input type="text" id="key" placeholder="Senha">
+                    <button class="myBtn" onclick="entrar()">Entrar</button>
+                    <button class="myBtn" onclick="abrirCadastro()">Cadastrar</button>
+                </div>
+                <div id="tela-cadastro">
+                    <div id="painel-erro-cadastro" class="painel-cadastro">
+                    </div>
+                    <input type="email" id="cadastro-user" placeholder="email@host.com">
+                    <input type="text" id="cadastro-senha" placeholder="Senha">
+                    <input type="text" id="cadastro-confirma-senha" placeholder="Confirmar Senha">
+                    <button class="myBtn" onclick="cadastrar()">Cadastrar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

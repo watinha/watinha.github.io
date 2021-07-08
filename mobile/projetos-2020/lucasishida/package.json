@@ -1,0 +1,31 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "DribbbleWEB",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "local-storage": "^2.0.0",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Back/back.js",
+    "dev": "nodemon ./Back/back.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasIshida/DribbbleWEB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasIshida/DribbbleWEB/issues"
+  },
+  "homepage": "https://github.com/LucasIshida/DribbbleWEB#readme"
+}

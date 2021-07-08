@@ -1,0 +1,441 @@
+/* A font do website original não funcionou aqui (scandia-web), 
+   então usei sans-serif mesmo e alterei a cor 
+*/
+
+/* Professor, encontrei algumas dificuldades na hora de deixar
+   a página responsiva, então fiz algumas mudanças. Ela está
+   reponsiva, mas não igual à original.
+*/
+
+/* O fundo da página original é animado, então usei uma imagem mesmo */
+
+/* Não fiz vários commits no git porque o dominio github.io normalmente
+   demora um pouco pra atualizar, então testar o código em tempo real
+   por lá não seria viável 
+*/
+
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #9E9E9E;
+    overflow-x: hidden;
+
+}
+
+body{
+    color: #878787;
+    padding: 0 5.5%;
+}
+
+h1{
+    color: black;
+    font-size: 2.5em;
+}
+
+header{ /* Cabeçalho */
+    padding: 1.5em 5.5% 1.25em;
+}
+
+#contentHeader{ /* Conteúdo do cabeçalho */
+
+    padding: 0 2em;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+
+}
+
+#left{ /* Container esquerdo */
+
+    width: 55%;
+    height: 550px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#right{ /* Container direito */
+
+    width: 45%;
+    display: inline-block;
+    position: absolute;
+}
+
+.imgsLogo{ /* Imagens da logo */
+    margin-right: 4.5%;
+    display: flex;
+}
+
+img.logo{
+    vertical-align: middle;
+}
+
+.logo:first-child{
+    margin-right: 1.25em;
+}
+
+nav>ul>li{
+    padding-right: 35px;
+    display: inline-block;
+}
+
+nav>ul>li:last-child{
+    margin-right: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    max-width: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #878787;
+}
+
+.navMain{
+    transition: all 1s;
+}
+
+#searchBox{ /* Caixa de pesquisa do nav */
+    width: 23%;
+    position: absolute;
+    right: 0;
+    border-bottom: 1px solid #878787;
+    transition: all 1s;
+}
+
+#lupa:hover{
+    cursor: pointer;
+}
+
+#lupa{
+    margin-right: 10px;
+}
+
+#menuIcon{
+    display: none;
+    
+}
+
+#menuIcon:hover{
+    cursor: pointer;
+}
+
+#hiddenMenu:hover ul,li{
+    display: block;
+
+
+}
+
+#hiddenMenu ul{  /* Menu escondido (recursivo pra telas menores) */
+    display: none;
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    margin: auto;
+    overflow: visible;
+}
+
+#hiddenMenu ul li{
+    padding: 15px;
+    list-style-type: none;
+}
+
+#bigBox{ /* Caixa principal dentro do container esquerdo */
+    position: absolute;
+    left: 0;
+    margin-top: 2em;
+    padding: 0 5.5%;
+    width: auto;
+    height: 500px;
+}
+
+
+
+#botoes div{
+    display: inline-block;
+    font-weight: bold;
+}
+
+#botoes div:hover{
+    cursor: pointer;
+}
+
+#botoes{
+    width: 150%;
+}
+
+#vermelho{ /* Botão vermelho */
+
+    background: red;
+    color: white;
+    padding: 15px 30px;
+}
+
+#branco{ /* Botão branco */
+
+    color: red;
+    border: 2px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    position: relative;
+    top: 6px;
+}
+
+#content{ /* Contém as informações principais (h1 e descrição) */
+    position: relative;
+    min-width: 50%;
+    max-width: 50%;
+    top: 10%;
+}
+
+#content p{
+    font-size: 1.2em;
+}
+
+/* Banner */
+
+#banner{
+    position: absolute;
+    left: 0;
+    height: 50px;
+    display: inline-block;
+}
+
+#banner img{ /* imagem banner */
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#banner div{ 
+    /* esse banner tive que fazer na gambiarra, 
+        pq não tava aumentando o width da div de acordo com o tamanho do texto */
+    
+    position: relative;
+    left: -5px;
+    top: -20px;
+    padding: 16px;
+    background: #FAF9F9;
+    display: inline-block;
+
+}   
+
+#banner div{
+    transition: all 1s;
+}
+
+#banner div:hover{
+    padding-left: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+/* Hover individual (menubar) - Foi na gambiarra.
+   Tentei colocar o efeito com hover em cada elemento
+   separado, mas na hora de aumentar a fonte, acaba
+   afetando a posição dos outros elementos 
+*/
+
+nav>ul>li:nth-child(1):hover{
+    font-size: 18px;
+}
+
+nav>ul>li:nth-child(2):hover{
+    font-size: 18px;
+}
+
+nav>ul>li:nth-child(3):hover{
+    font-size: 18px;
+}
+
+nav>ul>li:nth-child(4):hover{
+    font-size: 18px;
+}
+
+nav>ul>li:nth-child(5):hover{
+    font-size: 18px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1080px){
+
+    .navMain{
+        width: 0%;
+        overflow: hidden;
+    }
+
+    #searchBox{
+        width: 17%;
+        right: 6%;
+    }
+
+    #searchBox input{
+        width: 0;
+        display: none;
+    }
+
+    #menuIcon{
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    #hiddenMenu{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #menuIcon{
+        display: inline-block;
+    }
+
+    #right{
+        display: none;
+    }
+
+    #left{
+        text-align: center;
+        margin-right: 0;
+        padding: 1.5em 5.5% 1.25em;
+        width: auto;
+    }
+
+    #content{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 10%;
+    }
+
+    #bigBox{
+        margin-top: 0;
+    }
+
+    h1{
+        font-size: 2.1em;
+    }
+
+    #botoes{
+        position: relative;
+    }
+
+    #banner div{ 
+
+        text-align: left;
+        position: relative;
+        left: 50px;
+    }
+
+    #banner div span{
+        font-size: 12px;
+    }
+
+    #banner div{
+        position: relative;
+        top: 0px;
+    }
+
+    #banner img{
+        position: absolute;
+        left: 0;
+    }
+
+    #botoes{
+        text-align: center;
+        width: 100%;
+    }
+
+    #content h1, p{
+        text-align: left;
+
+    }
+
+    #content h1{
+        max-width: 12.5em;
+    }
+
+    #content p{
+        max-width: 32.888em;
+    }
+
+    #vermelho{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    #branco{
+        margin-left: 0;
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 425px){
+
+    #searchBox{
+        width: 19%;
+    }
+
+    #content{
+        margin-top: 15%;
+    }
+
+    #content p{
+        font-size: 1em;
+    }
+
+    #vermelho{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    #branco{
+        margin-left: 0;
+        width: 70%;
+    }
+
+    #botoes{
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    #logo2{
+	    display: none;
+    }
+    
+}
+
+@media (max-width: 375px){
+    #content{
+        margin-top: 20%;
+    }
+
+    #lupa{
+        margin-right: 0;
+    }
+
+    #content h1{
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 320px){
+    #content{
+        margin-top: 20%;
+    }
+
+
+
+}

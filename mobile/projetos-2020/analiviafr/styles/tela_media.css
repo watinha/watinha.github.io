@@ -1,0 +1,495 @@
+/*A TELA MÉDIA É BASICAMENTE A TELA GRANDE COM ALGUMAS ALTERAÇÕES NAS DIMENSÕES DA IMAGEM DO CELULAR E TAMBÉM DO ESPAÇAMENTO ENTRE PALAVRAS E ITENS*/
+/*PARA O DESIGN RESPONSIVO, FOI IMPLEMENTADO APENAS A PARTE SUPERIOR DO SITE, ANTES DO SCROLL*/
+/*FOI NECESSÁRIO CRIAR 4 NOVOS CSS EM VIRTUDE, PRINCIPALMENTE, DA DIMENSÃO DA IMAGEM DO CELULAR QUE É ALTERADA MUITAS VEZES*/
+
+@font-face {
+  font-family: Graphik-Regular;
+  src: url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff2') format('woff2'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.woff') format('woff'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.ttf') format('truetype'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.svg#Graphik-Regular') format('svg'),url('https://cdn.nubank.com.br/fonts/Graphik/variants/Graphik-Regular.eot?#iefix') format('embedded-opentype');
+  font-style: normal;
+  font-display: fallback;
+}
+
+body {
+  font-family: Graphik-Regular;
+}
+
+/*ESTILO BARRA DE NAVEGAÇÃO*/
+nav{
+    background-color: white;
+    box-shadow: 0 0 0.2em rgb(175, 175, 175);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.menu{
+    width: 1000px;
+    height: 38px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 45px;
+    padding: 0px 20px 0px 32px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+ul{
+    width: 800px;
+    height: 38px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+}
+
+li{
+    max-height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+li a span{
+    color: rgb(138, 5, 190);
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(118, 118, 118);
+    font-size: 17px;
+    font-weight: bold;
+    max-height: 38px;
+    padding: 0px 0px 3px 30px;
+}
+
+li a:hover{
+    text-decoration: none;
+    color:rgb(186, 77, 227);
+}
+
+.Login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 450px;
+}
+
+.bt_login{
+    height: 80px;
+    width: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt_login a{
+    color:rgb(138, 5, 190);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bt_login a:hover{
+    text-decoration: underline;
+}
+
+.bt_querosernu{
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    border-radius:6.25rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+    height: 48px;
+    align-items: center;
+}
+
+.bt_querosernu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.bt_elementos{ /*BOTÃO DE MENU DE TELAS PEQUENAS - NÃO EXIBIDO*/
+    display: none;
+}
+
+header{
+    height: 1013px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-image: url("../img/fundo1.jpg");
+    background-size: cover;
+    width: 89%;
+    height: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont-esquerdo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 80%;
+    height: 55%;
+    padding-left:50px;
+}
+
+.titulo1{
+    flex-wrap: wrap;
+    width: 118%;
+    height: 40%;
+    color: white;
+    font-size: 47px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.subtitulo1{
+    flex-wrap: wrap;
+    width: 200%;
+    height: 27%;
+    color: white;
+    font-size: 19.2;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.botao{
+    box-shadow: 0 0 0.1em rgb(0, 0, 0);
+    background-color: rgb(138, 5, 190);
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border-radius:6.25rem;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-direito{ /*IMAGEM DO CELULAR COM AS DIMENSÕES ALTERADAS*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+}
+
+.cont-direito img{
+    height: 55%;
+    padding-top: 25%;
+    padding-left: 45%;
+}
+
+.cont-direito-mobile{ /*IMAGEM DO CELULAR ADAPTADA PARA A VERSÃO MOBILE: O CELULAR FICA EM CIMA DO CARTÃO E NÃO AO LADO - NÃO EXIBIDO*/
+    display: none;
+}
+
+
+/*SESSAO 1*/
+
+.fundo_S1{
+   display: none;
+}
+
+.conteiner2{
+    display: none;
+}
+
+.titulo2{
+    display: none;
+}
+
+.titulo2 h1 span{
+    display: none;
+}
+
+.titulo2 h1{
+    display: none;
+}
+
+.titulo2 a{
+    display: none;
+}
+
+.titulo2 a:hover{
+    display: none;
+}
+
+.figura2{
+    display: none;
+}
+
+/*SESSAO 2*/
+
+.fundo_S2{
+    display: none;
+}
+
+.conteiner3{
+    display: none;
+}
+
+.titulo3{
+    display: none;
+}
+
+.titulo3 h1 span{
+    display: none;
+}
+
+.titulo3 h1{
+    display: none;
+}
+
+.titulo3 a{
+    display: none;
+}
+
+.titulo3 a:hover{
+    display: none;
+}
+
+.figura3{
+    display: none;
+}
+
+.figura3 img{
+    display: none;
+}
+
+/*SESSAO 3*/
+
+.fundo_S3{
+    display: none;
+}
+
+.conteiner4{
+    display: none;
+}
+
+.titulo4{
+    display: none;
+}
+
+.titulo4 h1 span{
+    display: none;
+}
+
+.titulo4 h1{
+    display: none;
+}
+
+.titulo4 a{
+    display: none;
+}
+
+.titulo4 a:hover{
+    display: none;
+}
+
+.figura4{
+    display: none;
+}
+
+.figura4 img{
+    display: none;
+}
+
+/*SESSAO 4*/
+
+.fundo_S4{
+    display: none;
+}
+
+.camada_de_cor{
+    display: none;
+}
+
+.conteiner5{
+    display: none;
+}
+
+.titulo5{
+    display: none;
+}
+
+.titulo5 h1{
+    display: none;
+}
+
+.titulo5 a{
+    display: none;
+}
+
+.titulo5 a:hover{
+    display: none;
+}
+
+/*SESSAO 5*/
+
+.fundo_S5{
+    display: none;
+}
+
+.fundo_de_cor2{
+    display: none;
+}
+
+.conteiner6{
+    display: none;
+}
+
+.titulo6{
+    display: none;
+}
+
+.titulo6 h1 span{
+    display: none;
+}
+
+.titulo6 h1{
+    display: none;
+}
+
+.titulo6 a{
+    display: none;
+}
+
+.titulo6 a:hover{
+    display: none;
+}
+
+/*SESSAO 6*/
+
+.fundo_S6{
+    display: none;
+}
+
+.conteiner7{
+    display: none;
+}
+
+.titulo7{
+    display: none;
+}
+
+.titulo7 h1{
+    display: none;
+}
+
+.titulo7 a{
+    display: none;
+}
+
+.titulo7 a:hover{
+    display: none;
+}
+
+
+footer{
+    display: none;
+}
+
+.conteiner8{
+    display: none;
+}
+
+.bloco{
+    display: none;
+}
+
+.bloco h3{
+    display: none;
+}
+
+.bloco a{
+    display: none;
+}
+
+.bloco a:hover{
+    display: none;
+}
+
+.bloco img{
+    display: none;
+}
+
+.bloco p{
+    display: none;
+}
+
+.conteiner9{
+    display: none;
+}
+
+.caixa1{
+    display: none;
+}
+
+.caixa1 img{
+    display: none;
+}
+
+.caixa1 p{
+    display: none;
+}
+
+.caixa2{
+    display: none;
+}
+
+.caixa2 a{
+    display: none;
+}
+
+.caixa2 a:hover{
+    display: none;
+}
+
+.conteiner10{
+    display: none;
+}
+
+.caixa3{
+    display: none;
+}
+
+.caixa3 a{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}

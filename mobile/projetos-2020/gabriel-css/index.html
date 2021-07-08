@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/busca.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>DISCORD | Seu Lugar para Papear e Ficar De Boa</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box-superior">
+            <nav>
+                <a class="logo" href="">
+                    <img src="images/discord-logo-white.png" width="140px" height="45px">
+                </a>
+
+                <div class="links-menu">
+                    <a class="links" href="">Baixar</a>
+                    <a class="links" href="">Por que usar o Discord?</a>
+                    <a class="links" href="">Nitro</a>
+                    <a class="links" href="">Segurança</a>
+                    <a class="links" href="">Suporte</a>
+                </div>
+
+                <a class="entrar" href="javascript:void(0)" onclick="onClickEntrar()">
+                    <div id="div-entrar" class="deslogado">
+                        Entrar
+                    </div>
+                </a>
+
+                <div class="menu-lateral">
+                    <button class="menu-icon" aria-hidden="false">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M33.3327 10H6.66602V15H33.3327V10ZM6.66602 18.3317H33.3327V23.3317H6.66602V18.3317ZM6.66602 26.665H33.3327V31.665H6.66602V26.665Z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="painel-lateral">
+                    <div class="div-interna">
+                        <a class="logo" href="">
+                            <img src="images/discord-logo-black.png" width="140px" height="45px">
+                        </a>
+                        <button class="fechar-btn">
+                            <svg width="12" height="12" viewBox="0 0 12 12">
+                                <g fill="none" fill-rule="evenodd" aria-hidden="true">
+                                    <path d="M0 0h12v12H0"></path>
+                                    <path fill="currentColor"
+                                        d="M9.5 3.205L8.795 2.5 6 5.295 3.205 2.5l-.705.705L5.295 6 2.5 8.795l.705.705L6 6.705 8.795 9.5l.705-.705L6.705 6">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                        <hr>
+                        <ul class="links-mobile">
+                            <li><a href="" class="selected">Início</a></li>
+                            <li><a href="">Baixar</a></li>
+                            <li><a href="">Por que usar o Discord?</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Segurança ></a></li>
+                            <li><a href="">Academia de Moderadores ></a></li>
+                            <li><a href="">Suporte</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="div-inferior">
+                        <a href="" class="baixar-playstore-lateral">
+                            <div>
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <g fill="currentColor">
+                                        <path
+                                            d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+                                        </path>
+                                        <path
+                                            d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+                                        </path>
+                                    </g>
+                                </svg> Baixar no Google Play
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="main-box">
+                <div class="img-esq"></div>
+
+                <div class="main-center-box">
+                    <div class="main-text-box">
+                        <h1>Seu lugar para conversar</h1>
+                        <p>
+                            Não importa se você faz parte de um clube escolar, uma comunidade artística mundial ou só amigos querendo ficar de boa, o Discord torna mais fácil conversar todo dia e se ver com mais frequência.
+                        </p>
+                    </div>
+
+                    <div class="main-links">
+                        <a href="" class="baixar-dc">
+                            <div class="div-baixar">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <g fill="currentColor">
+                                        <path
+                                            d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+                                        </path>
+                                        <path
+                                            d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+                                        </path>
+                                    </g>
+                                </svg> Baixar para Windows
+                            </div>
+                        </a>
+
+                        <a href="" class="baixar-playstore">
+                            <div>
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <g fill="currentColor">
+                                        <path
+                                            d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+                                        </path>
+                                        <path
+                                            d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+                                        </path>
+                                    </g>
+                                </svg> Baixar no Google Play
+                            </div>
+                        </a>
+
+                        <a href="" class="abrir-dc">
+                            <div>
+                                <p>Abra o Discord no seu navegador</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-dir"></div>
+            </div>
+        </div>
+
+        <div class="divisor"></div>
+
+        <!-- Tela de Login -->
+        <div class="box-login">
+            <div class="form-box">
+                <div class="center-box">
+                    <div class="left-box">
+                        <div class="boas-vindas">
+                            Boas-vindas de volta!
+                        </div>
+                        <div class="animados">
+                            Estamos muito animados em te ver novamente!
+                        </div>
+                        <div class="login-infos">
+                            <div class="login-entrada">
+                                <h5>E-MAIL OU NÚMERO DE TELEFONE</h5>
+                                <div class="div-input">
+                                    <input class="input" name="email" type="text" aria-label="E-mail ou número de telefone">
+                                </div>
+                            </div>
+                            <div class="login-senha">
+                                <h5>SENHA</h5>
+                                <div class="div-input">
+                                    <input class="input" name="senha" type="password" aria-label="Senha">
+                                </div>
+                            </div>
+                            <p id="error-span"></p>
+                            <a href="">Esqueceu sua senha?</a>
+                            <button type="submit" id="btn-login">
+                                Entrar
+                            </button>
+                            <div class="registrar">
+                                <span>Precisando de uma conta?</span>
+                                <a href="">Registre-se</a>
+                                <div class="cancelar">
+                                    <a href="javascript:void(0)" onclick="hideBoxLogin()">
+                                        Cancelar login
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <img src="../images/qrcode.png" width="176px" height="176px">
+                        <h1>Entrar com Código QR</h1>
+                        <div class="info-qrcode">
+                            <span>Escaneie isto com o <strong>app móvel do Discord</strong> para fazer login
+                                imediatamente.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="id-busca" class="box-busca">
+            <div class="div-busca">
+                <div class="center-busca">
+                    <div class="boas-vindas">
+                        Search - API TVMaze
+                    </div>
+                    <div class="animados" style="margin-bottom: 30px;">
+                        Esta API retorna informações sobre séries de TV de acordo com os termos informados na busca.
+                    </div>
+
+                    <div class="div-input">
+                        <input class="input input-busca" name="busca" type="text" placeholder="Pesquise seriados de tv">
+                    </div>
+                    <button type="submit" id="btn-buscar">
+                        Buscar
+                    </button>
+                    <div class="not-found hide">Não foram encontrados resultados a partir desta busca!</div>
+                </div>
+
+                <ul id="ul"></ul>
+            </div>
+        </div>
+
+        <div class="divisor"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/busca.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,611 @@
+@font-face {
+    font-family: "FF Mark";
+    src: url(../fonts/FFMark.ttf)
+}
+
+@font-face {
+    font-family: "Chorus";
+    src: url(../fonts/ChorusW00Bold.ttf)
+}
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+#topbar-wrapper {
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+#topbar-wrapper.stickybar {
+    position: fixed;
+    z-index: 2;
+}
+
+#topbar {
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+#topbar-left-wrapper {
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    #topbar-left-wrapper {
+        padding-right: 0;
+    }
+}
+
+.first-logo {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-left: 32px;
+    width: 75px;
+}
+
+.first-logo-img {
+    width: 160px;
+    height: 160px;
+    background: url(../img/fistsprite.png) 0 -2400px no-repeat;
+    transform: scale(0.33);
+    position: absolute;
+    top: -55px;
+    left: -55px;
+}
+
+.first-logo-arrow {
+    margin-top: 22px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    position: absolute;
+    top: 3px;
+    left: 51px;
+}
+
+.logo-separator {
+    margin-left: 0;
+    margin-right: 32px;
+    margin-top: 10px;
+    border-left: 2px solid #7E7E7E;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-separator {
+        display: none;
+    }
+}
+
+.second-logo {
+    display: inline-block;
+    height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .second-logo {
+        display: none;
+    }
+}
+
+.second-logo-img {
+    min-width: 38px;
+    display: block;
+}
+
+.second-logo-svg {
+    margin-top: 9px;
+    display: block;
+}
+
+#topbar-middle-wrapper {
+    height: 80px;
+    flex: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    #topbar-middle-wrapper {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+#navbar {
+    height: 80px;
+    max-width: 100%;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #navbar {
+        position: static;
+        display: inline-block;
+    }
+}
+
+.topbar-lol-logo {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .topbar-lol-logo {
+        display: block;
+        line-height: 80px;
+        height: 80px;
+    }
+}
+
+.topbar-lol-logo-svg {
+    display: block;
+    margin: 24px auto 0;
+    max-height: 50px;
+}
+
+.navbar-item {
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-item {
+        display: none;
+    }
+}
+
+.navbar-item-text {
+    font-family: "FF Mark";
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 76px;
+    margin: 0 0.85em;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    display: inline-block;
+}
+
+.navbar-item-arrow {
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+
+.navbar-item-linkarrow {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+#topbar-right-wrapper {
+    padding-right: 16px;
+    right: 0px;
+    bottom: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #topbar-right-wrapper {
+        padding-right: 0;
+    }
+}
+
+.hamburguer-menu {
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hamburguer-menu {
+        display: inline !important;
+    }
+}
+
+.hamburguer-menu-svg {
+    margin-top: 23px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.lang-logo {
+    margin: 0px 12px;
+    float: left;
+    color: #F9F9F9;
+    padding: 0 8px;
+    position: relative;
+}
+
+.lang-logo-img {
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.login-cadastro {
+    float: left;
+    height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .login-cadastro {
+        display: none;
+    }
+}
+
+.login-cadastro-text {
+    font-family: "FF Mark";
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 15px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    padding: 12px 0;
+}
+
+.cadastro-button {
+    background-color: #0BC4E2;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 16px;
+    height: 41px;
+    position: relative;
+    min-width: 129px;
+    max-width: 220px;
+    z-index: 0;
+    text-overflow: ellipsis;
+}
+
+#main-wrapper {
+    margin-top: 80px;
+}
+
+.video-box {
+    position: relative;
+    min-height: 31.25rem;
+    padding: 3.75rem;
+}
+
+@media screen and (max-width: 599px) {
+    .video-box {
+        height: 31.25rem;
+        padding: 0px;
+    }
+}
+
+.background-wrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(7, 18, 26);
+}
+
+@media screen and (max-width: 599px) {
+    .background-wrapper {
+        display: none;
+    }
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 18, 26);
+    position: relative;
+    z-index: 0;
+}
+
+.background-video-play{ 
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.foreground-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 105rem;
+    height: 55vh;
+    min-height: 31.25rem;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 599px) {
+    .foreground-wrapper {
+        height: 31.25rem;
+    }
+}
+
+.foreground-video-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 18, 26);
+}
+
+.foreground-video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.foreground-video-play {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.foreground-content {
+    width: 100%;
+    text-align: center;
+}
+
+.foreground-logo {
+    margin-top: 0.625rem;
+    display: inline-block;
+    position: relative;
+    width: 40vw;
+    height: calc(17.6333vw);
+    max-width: 37.5rem;
+    max-height: 16.5312rem;
+}
+
+@media screen and (max-width: 599px) {
+    .foreground-logo {
+        width: 80vw;
+        height: calc(35.2667vw);
+    }
+}
+
+.foreground-logo-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.foreground-button {
+    width: 100%;
+    margin-top: 0.625rem;
+    text-align: center;
+}
+
+.foreground-button-text {
+    position: relative;
+    display: inline-block;
+    min-width: 195px;
+    height: 56px;
+    padding: 0px;
+    margin: 5px;
+    font-size: 0.8125rem;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 599px) {
+    .foreground-button-text {
+        font-size: 0.75rem;
+        letter-spacing: 0.16em;
+    }
+}
+
+.foreground-button-inner {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 195px;
+    height: 56px;
+    padding: 0px 40px;
+}
+
+@media screen and (max-width: 599px) {
+    .foreground-button-inner {
+        padding: 16px 20px;
+    }
+}
+
+.foreground-button-inner-background {
+    background-color: rgb(11, 198, 227);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    min-width: 195px;
+    height: 56px;
+}
+
+.foreground-button-inner-text {
+    position: relative;
+    z-index: 1;
+    font-family: "Chorus";
+    color: #551b8b;
+    text-transform: uppercase;
+}
+
+.news-box {
+    position: relative;
+    padding: 40px 0px;
+    background: url(../img/background-news.png) left top repeat-x rgb(247, 247, 247);
+    height: 100%;
+}
+
+@media screen and (min-width: 599px) {
+    .news-box {
+        margin-top: -120px;
+        padding-top: 120px;
+    }
+}
+
+/*Teste com o menu "Mais"*/
+
+#more.navbar-item {
+    display: none;
+}
+
+@media screen and (max-width: 1610px) {
+    #support {
+        display: none;
+    }
+    #more.navbar-item{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1588px) {
+    #universe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1466px) {
+    #esports {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1351px) {
+    #discover {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1222px) {
+    #patch-notes {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #more.navbar-item {
+        display: none;
+    }
+}
+
+/*Teste com o menu "Mais"*/
+
+.wrapper-sentim-hidden {
+    display: none;
+}
+
+.wrapper-sentim {
+    display: block;
+    flex: 1;
+}
+
+.title-wrapper-sentim {
+    flex: 1;
+}
+
+.title-sentim {
+    font-family: "FF Mark";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle-sentim {
+    text-align: center;
+}
+
+.submit-wrapper-sentim {
+    flex: 1;
+    justify-content: center;
+}
+
+.input-sentim {
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 300px;
+}
+
+.button-sentim {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.errortext-sentim {
+    color: red;
+    text-align: center;
+}
+
+.apireturn-sentim {
+    text-align: justify;
+    padding-bottom: 25px;
+    background-color: #f7f7f7;
+}
+
+.test-sentim {
+    margin: 0 auto;
+    width: 30em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.login--button--hidden {
+    display: none;
+}
+
+.logout--button--hidden {
+    display: none;
+}
+
+.login--button {
+    display: block;   
+}
+
+.logout--button {
+    display: block;
+}

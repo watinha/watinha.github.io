@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+  <meta name="theme-color" content="#7B1FA2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <link id="favicon" rel="shortcut icon" href="/assets/img/logo-pequena.png" type="image/png">
+	<title>aiqfome - Happy Delivery</title>
+</head>
+<body>
+
+  <form id="modalLogin" class="modal validator" >
+    <div class="login">
+
+      <p class="Close">
+        <span onclick="toogleModalLogin()">X</span>
+        
+      </p>
+      <p class="LostPassword formTitle">Login</p>
+      <br>
+      <span id="login-notfound"></span>
+      <div class="field">
+        <img id="logoMail" src= "/assets/img/mail.png" alt= "Logo mail"></img> 
+        <input id= "email" placeholder="email" data-rules="required|min=3" />
+      </div>
+      
+      <div class="field">
+        <img id="logoSenha" src= "/assets/img/senha.png" alt= "Logo senha"></img> 
+        <input type="password" id= "senha" placeholder="senha" data-rules="required|min=3" />
+      </div>
+      <button type="submit" class="btnLogin" onclick="login(event)" >ENTRAR</button>
+      
+      <p class="LostPassword">
+        <span>putz, <a href="#" onclick="openModalRegister(event)">não tenho uma conta</a> :(</span>
+      </p>
+      
+    </div>
+  </form><!--login-banner-->
+
+  <form id="modalRegister" class="modal verify">
+    <div class="login">
+
+      <p class="Close">
+        <span onclick="closeModalRegister()">X</span>
+        
+      </p>
+      <p class="LostPassword formTitle">Cadastrar</p>
+      <br>
+      <span id="register-error"></span>
+      <div class="field">
+        <img id="logoMail" src= "/assets/img/mail.png" alt= "Logo mail"></img> 
+        <input id= "emailRegister" placeholder="email" data-rules="required|min=3" />
+      </div>
+      
+      <div class="field">
+        <img id="logoSenha" src= "/assets/img/senha.png" alt= "Logo senha"></img> 
+        <input type="password" id= "senhaRegister" placeholder="senha" data-rules="required|min=3" />
+      </div>
+      <button type="submit" class="btnRegister"  onclick="register(event)">Cadastrar</button>     
+      <br>
+      <br>
+      <p class="LostPassword">
+        <span><a href="#" onclick="openModalLogin(event)">Ir para formulário de Login</a></span>
+      </p>
+    </div>
+  </form><!--login-banner-->
+
+  <div id="header">
+    <div class="container-login">
+      <button onclick="showRestrictPage()" class="login">entrar</button>
+    </div>
+
+    <div class="container-logout">
+      <button class="logout" onclick="logout()">Sair</button>
+    </div>
+
+    <div class="container-logo" >
+      <a href="/">
+        <img id="logo" src= "/assets/img/logo-aiqfome-original.png" alt= "Logo Aiqfome"></img> 
+      </a>
+    </div>
+    <div class="empty"></div>
+  </div><!--header-->
+
+  <div id="main" style="display: none;">
+    <section class="banner">
+      <div class="containerText">
+        <p class="bannerText">
+        oie, bem vindo à fominhaland, eu serei seu guia pelo mundo do delivery. aqui à sua direita vemos a vila burguer, ali à sua esquerda temos o parque das pizzas, e logo à frente fica o maravilhoso banco de cupons. divirta-se! \o/
+        </p>
+
+        <div class="bannerButton">
+          <button type="submit">
+            ESCOLHER CIDADE
+          </button> 
+        </div><!--bannerButton-->
+      </div><!--containerText-->
+    </section>
+
+    <section class="area1">
+      <div class="center">
+          <p class="purple">
+            como que faz, hein, aiq? 🤔
+          </p>
+          <p class="dark">
+            é assim ó:
+          </p>
+      </div><!--center-->
+
+      <div class="imgs">  
+        <div class="touch">
+          <img id="touch" src= "/assets/img/touch-screen.png" alt= "Logo touch screen"></img>
+          <p class="green">
+            quer comer o que?
+          </p>
+          <p class="black">
+            você escolhe o rango e o restaurante
+          </p>
+        </div><!--touch-->
+        <div class="moto">
+          <img id="moto" src= "/assets/img/delivery.png" alt= "Logo delivery"></img>
+          <p class="green">
+            pediu, pagou, entregou
+          </p>
+          <p class="black">
+            dá pra pagar pelo app ou na hora da entrega
+          </p>
+        </div><!--moto-->
+        <div class="dish">
+          <img id="dish" src= "/assets/img/dish.png" alt= "Logo dish"></img>
+          <p class="green">
+            momento de glória
+          </p>
+          <p class="black">
+            depois é só avaliar pra dar aquele feedback pro restaurante
+          </p>
+        </div><!--dish--> 
+      </div><!--imgs-->
+    </section>
+
+    <div class="help-button">
+      <img src="/assets/img/icon-ajuda.png" alt="help button"></img>
+    </div><!--help-button-->
+  </div>
+   
+  
+  <div id="container-area2">
+    <span id="timer"></span> 
+    <section class="area2">
+        <form class="area2-form">
+          <input class="area2-input" id="area2-input" type="text" placeholder="Busque a sua receita">
+        </form>
+        <form class="area2-inputPost" id="area2-inputPost">
+          <label for="titleRec">Nome da receita:</label><br>
+          <input type="text" id="titleRec" name="titleRec"><br>
+          <label for="urlImage">URL da imagem:</label><br>
+          <input type="text" id="urlImage" name="urlImage"><br>      
+          <label for="urlRecipe">URL da receita:</label><br>
+          <input type="text" id="urlRecipe" name="urlRecipe"><br><br>
+          <button type="submit" class="btnRegister"  onclick="registerRec(event)">Cadastrar</button><br><br>     
+          <span id="registerRec-error"></span><script></script>
+        </form>
+        <div class="search-result"></div>
+    </section>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="assets/js/axios.js"></script>
+  
+  <script src="assets/js/fetch.js"></script>
+  <script src="assets/js/inputRules.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.registercard{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.cardtop{
+    text-align: center;
+}
+
+.cardgroup{
+    margin-bottom: 10px;
+}
+
+.cardgroup > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.cardgroup > label{
+    width: 100%;
+    color: rgb(75, 75, 75);
+    display: block;
+}
+
+.cardgroup > button{
+    background-image: linear-gradient(to right, #ccc, rgb(97, 94, 94));
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.titulo{
+    color: #ccc
+}
+
+.registerbutton {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.plus{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
