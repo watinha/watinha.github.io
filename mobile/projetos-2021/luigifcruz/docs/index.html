@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teach, Learn, and Make with Raspberry Pi</title>
+        <link rel="icon" type="image/webp" href="favicon.webp"/>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <script>
+            if (!confirm("This is a mockup of the Raspberry Pi website. All copyrighted content is their property. This is meant for educational purposes only.")) {
+                window.location.replace("http://pudim.com.br/");
+            }
+
+        </script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+            html {
+                font-size: 62.5%;
+            }
+
+            p {
+                margin-top: 0;
+            }
+
+            body {
+                font-family: Roboto,sans-serif;
+                padding: 0;
+                margin: 0;
+                line-height: 1.4;
+                background-color: #EDF0F6;
+            }
+
+            header {
+                background-color: #FFFFFF;
+            }
+
+            main {
+                padding-bottom: 10em;
+            }
+
+            .header {
+                overflow: hidden;
+                padding: 0 1.6rem;
+                height: 7.5rem;
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+                max-width: 130rem;
+                box-sizing: border-box;
+                margin: 0 auto;
+            }
+
+            @media screen and (min-width: 700px) {
+                .header {
+                    padding: 0 7rem;
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                .header {
+                    padding: 0 8.4rem;
+                }
+            }
+
+            .header .menu {
+                padding-right: 3.5rem;
+                flex-grow: 1;
+                max-width: 76.5rem;
+                display: none;
+            }
+
+            .header .menu-icon {
+                width: 2.6rem;
+                height: 2.6rem;
+                visibility: unset;
+            }
+
+            @media screen and (min-width: 1000px) {
+                .header .menu {
+                    display: flex;
+                }
+
+                .header .menu-icon {
+                    visibility: hidden;
+                }
+            }
+
+            .header svg {
+                box-sizing: border-box;
+            }
+
+            .header .menu .dropdown {
+                flex-grow: 1;
+                position: static;
+                font-weight: 500;
+                font-size: 2rem;
+                line-height: 7.6rem;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            .body {
+                padding-right: 5vw;
+                padding-left: 5vw;
+                max-width: 130rem;
+                margin: 0 auto;
+                box-sizing: border-box;
+                padding-top: 3rem;
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body {
+                    padding-top: 5rem;
+                }
+            }
+
+            .body .featured-card {
+                background-image: url("media/b876a3cb4c23af845ca6.png");
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-color: #d44e62;
+                display: flex;
+                margin-bottom: 3rem;
+                    align-items: stretch;
+                    flex-direction: column;
+            }
+
+            @media screen and (min-width: 700px) {
+                .body .featured-card {
+                    background-image: url("media/3cb031d8ac9039f62347.png");
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .featured-card {
+                    background-image: url("media/10ef7abb0d32966fa487.png");
+                    align-items: stretch;
+                    flex-direction: row;
+                }
+            }
+
+            .body .featured-card .main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 48vw 4rem 4rem;
+            }
+
+            @media screen and (min-width: 700px) {
+                .body .featured-card .main {
+                    padding: 30vw 4rem 4rem;
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .featured-card .main {
+                    padding: 22vw 4rem 4rem;
+                    flex-basis: 67%;
+                }
+            }
+
+            @media screen and (min-width: 1300px) {
+                .body .featured-card .main {
+                    padding: 28rem 4rem 4rem;
+                }
+            }
+
+            .body .featured-card .main img {
+                margin-bottom: 2.0rem;
+            }
+
+            .body .featured-card .main .subtitle {
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 1.6rem;
+                margin-bottom: 2.4rem;
+                text-align: center;
+            }
+
+            @media screen and (min-width: 700px) {
+                .body .featured-card .main .subtitle {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .big-button {
+                color: #ffffff;
+                font-weight: 500;
+                cursor: pointer;
+                font-size: 2rem;
+                line-height: 1.2;
+                background-color: rgb(0, 69, 173);
+                border-radius: .5rem;
+                padding: .8rem 3.2rem;
+            }
+
+            @media screen and (min-width: 800px) {
+                .big-button {
+                    padding: 1rem 4rem;
+                }
+            }
+
+            @media screen and (min-width: 1200px) {
+                .big-button {
+                    padding: 1.2rem 4.8rem;
+                }
+            }
+
+            .big-button:hover {
+                background-color: #0052cc;
+            }
+
+            .body .featured-card .secondary {
+                display: flex;
+                align-items: stretch;
+                justify-content: center;
+                padding-right: 4rem;
+                padding-bottom: 4rem;
+                display: none;
+                gap: 2rem;
+            }
+
+            @media screen and (min-width: 700px) {
+                .body .featured-card .secondary {
+                    padding-top: 0rem;
+                    padding-left: 4rem;
+                    flex-direction: row;
+                    display: flex;
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .featured-card .secondary {
+                    flex-basis: 33%;
+                    flex-direction: column;
+                    padding-top: 4rem;
+                    padding-left: 0rem;
+                }
+            }
+
+            .body .featured-card .secondary .cell {
+                background-color: #ffffff;
+                border-radius: .5rem;
+                overflow: hidden;
+                display: flex;
+                cursor: pointer;
+            }
+
+            .body .featured-card .secondary .cell img {
+                object-fit: cover;
+                width: 9rem;
+                display: none;
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .featured-card .secondary .cell img {
+                    display: unset;
+                }
+            }
+
+            .body .featured-card .secondary .cell .title {
+                color: rgb(0, 68, 171);
+                font-weight: 500;
+                line-height: 2.5rem;
+                font-size: 1.8rem;
+                padding-bottom: 1.5rem;
+                padding-left: 1rem;
+                padding-top: 1.5rem;
+            }
+
+            .body .featured-card .secondary .cell .title:hover {
+                color: #c51d4a;
+            }
+
+            .body .featured-card .secondary .cell .arrow {
+                display: inline-block;
+                color: black;
+                background-color: #ffffff;
+                background-image: url("media/arrow.svg");
+                background-repeat:no-repeat;
+                background-position: center center;
+                height: 100%;
+                padding-right: 3rem;
+                content: " ";
+            }
+
+            .body .news {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .news {
+                    grid-auto-rows: min(28vw, 37rem);
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 3rem;
+                }
+            }
+
+            .body .news .small-card {
+                grid-row: 1;
+                background-color: #ffffff;
+                background-size: contain;
+                background-repeat: no-repeat;
+                overflow: hidden;
+                display: none;
+                flex-direction: column;
+                align-items: stretch;
+                cursor: pointer;
+            }
+
+            @media screen and (min-width: 1024px) {
+                .body .news .small-card {
+                    display: flex;
+                }
+            }
+
+            .body .news .small-card .category {
+                color: #666;
+                font-size: 1.4rem;
+                margin-bottom: .5rem;
+                text-transform: uppercase;
+            }
+
+            .body .news .small-card .title {
+                color: #0044ab;
+                font-weight: 500;
+                line-height: 2.5rem;
+                font-size: 1.8rem;
+            }
+
+            .body .news .small-card:hover .title {
+                color: #c51d4a;
+            }
+
+            .body .news .small-card .cover {
+                flex: 1;
+                object-fit: cover;
+                height: 10rem;
+            }
+
+            .body .news .small-card .content {
+                min-height: 12.8rem;
+                padding: 1.6rem;
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+            }
+
+            .body .news .small-card .content .footer {
+                color: #444;
+                display: flex;
+                margin-top: auto;
+                flex-direction: row;
+                font-size: 1.6rem;
+                justify-content: space-between;
+            }
+
+            .body .news .small-card .content .footer .comments {
+                border-radius: 1.1rem;
+                padding-inline: 1.2rem;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                background-color: #eee;
+            }
+
+            .body .news .small-card .content .footer .comments img {
+                position: absolute;
+                width: 1rem;
+                height: 1rem;
+                margin-top: 1.7rem;
+            }
+
+            .body .news .thick-card {
+                grid-column: 2 / 4;
+                overflow: hidden;
+                background-color: rgb(224, 168, 67);
+                background-image: url("media/7111882e2c5bf33135bb.png");
+                background-size: 45rem auto;
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: center;
+                padding: 3rem 2rem;
+                padding-bottom: 40rem;
+            }
+
+            @media screen and (min-width: 830px) {
+                .body .news .thick-card {
+                    background-size: auto 90%;
+                    padding: 3rem 2rem;
+                }
+            }
+
+            .body .news .thick-card .title {
+                font-size: 2.4rem;
+                margin-bottom: 2rem;
+                font-weight: 700;
+            }
+
+            .body .news .thick-card .description {
+                margin-bottom: 2.4rem;
+                font-size: 1.8rem;
+                font-weight: 400;
+            }
+
+            @media screen and (min-width: 830px) {
+                .body .news .thick-card .description {
+                    max-width: 50%;
+                }
+            }
+
+            @media only screen and (min-width: 1300px) {
+                .body {
+                    padding-right: 6.5rem;
+                    padding-left: 6.5rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="media/raspberry.svg"/>
+                <div class="menu">
+                    <a class="dropdown">Hardware</a>
+                    <a class="dropdown">Software</a>
+                    <a class="dropdown">Books & magazines</a>
+                    <a class="dropdown">Learn</a>
+                    <a class="dropdown">Teach</a>
+                    <a class="dropdown">About us</a>
+                </div>
+                <img src="media/hamburger.jpg" class="menu-icon"/>
+            </div>
+        </header>
+        <main>
+            <div class="body">
+                <div class="featured-card">
+                    <div class="main">
+                        <img width="320" height="45" src="media/ffd870602ddcfc19a8a0.svg"/>
+                        <p class="subtitle">Your complete personal computer, built into a <b>compact keyboard</b></p>
+                        <a class="big-button">Find out more</a>
+                    </div>
+                    <div class="secondary">
+                        <div class="cell">
+                            <img src="media/Raspberry-Pi-400-back-.jpeg" class="image"/>
+                            <a class="title">Raspberry Pi 400: the $70 desktop PC</a>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="cell">
+                            <img src="media/Getting-Started-4th-edition.jpeg" class="image"/>
+                            <a class="title">Get started with your Raspberry Pi 400</a>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="cell">
+                            <img src="media/Raspberry-Pi-400-desk-2.jpeg" class="image"/>
+                            <a class="title">Raspberry Pi 400 for working and learning at home</a>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="small-card">
+                        <img src="media/Screenshot-2021-06-29-at-18.30.48.jpeg" class="cover"/>
+                        <div class="content">
+                            <div class="category">PROJECT</div>
+                            <a class="title">Translate dog barks with Raspberry Pi</a>
+                            <div class="footer">
+                                <div class="date">2nd Jul 2021</div>
+                                <div class="comments">1<img src="media/download.svg"/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thick-card">
+                        <div class="title">Community stories</div>
+                        <p class="description">Meet some of the inspirational community members who are creating with technology and changing the world around them.</p>
+                        <a class="big-button">Meet the community</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

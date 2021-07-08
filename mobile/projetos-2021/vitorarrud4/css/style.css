@@ -1,0 +1,241 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    background-color: #612a92;
+    color: white;
+    padding: 7px;
+}
+
+.iconeMenu {
+    padding-top: 15px;
+    padding-left: 90px;
+}
+
+.iconeMenu span {
+    padding: 0px 0px 0px 10px;
+}
+
+.logo {
+    padding-top: 8px;
+}
+
+#barraPesquisa {
+    position: relative;
+    width: 55%;
+}
+
+#imagem-lupa{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    opacity: 0.3;
+}
+
+#txtBusca{
+    margin: 0px;
+    outline: none;
+    float: left;
+    background-color: white;
+    padding-left: 20px;
+    font-size:18px;
+    border: none;
+    width: 100%;
+    border: solid 0,5px;
+    border-radius: 50px;
+    border-color: white;
+    height: 48px;
+  }
+
+.botaoEntrar{
+    padding-right: 100px;
+}
+
+.botaoEntrar button {
+    border-radius: 6px; 
+    padding: 15px 32px; 
+    cursor: pointer; 
+    color: #3790f8; 
+    border: 0,5px; 
+    border-color: #3790f8; 
+    font-size: 100%; 
+    text-align: center;
+}
+
+.container {
+    padding-right: 5%;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.alertaPreco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #d1d1d1;
+    border-style: solid;
+    border-width: thin;
+    padding: 15px;
+}
+
+.alertaPreco a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13.5px;
+}
+
+.imagem-anuncio {
+    align-items: center;
+    background-color: #582c92;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.imagem-anuncio #anuncioDesktop {
+    width: 100%
+}
+
+.imagem-anuncio #anuncioMobile {
+    display: none;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.icones div {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    border-color: #eee;
+    border-style: solid;
+    border-width: thin;
+    font-size: 14px;
+}
+
+.icones p {
+    padding-left: 10px;
+}
+
+.icones img {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding-bottom: 82px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .iconeMenu span {
+        display: none;
+    }
+
+    .iconeMenu {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        position: absolute;
+        padding-left: 60px;
+    }
+
+    #barraPesquisa {
+        position:absolute;
+        top: 60px;
+        width: 98%;
+    }
+
+    #barraPesquisa #txtBusca {
+        display: flex;
+    }
+
+    .botaoEntrar {
+        display: flex;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+    .botaoEntrar button {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 12px;
+        border-width: 1px;
+    }
+
+    .alertaPreco a {
+        white-space: nowrap; 
+        width: 238px; 
+        overflow: hidden;
+        text-overflow: clip;
+    }
+
+    .imagem-anuncio #anuncioDesktop {
+        display: none;
+    }
+
+    .imagem-anuncio #anuncioMobile {
+        display: block;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .icones {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 15px;
+    }
+
+    .icones div {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 15px;
+    }
+}

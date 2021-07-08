@@ -1,0 +1,38 @@
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style: none;
+}
+
+.menuItem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: 1px solid #d4c9c2;
+    border-right: 0;
+    height: 9vh;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menuItem:hover {
+    border-bottom: 3px solid #006c49;
+}
+
+.menuItem span {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 1.8px;
+    color: #32312d;
+}
+
+@media (max-width: 1000px){
+    .menuContainer {
+        display: none;
+    }
+}

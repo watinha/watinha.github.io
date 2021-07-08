@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav {
+    background-color: transparent;
+    padding: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+    padding-top: 10px;
+    float: left;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Catamaran,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    /*position: absolute;*/
+    right: 10px;
+    display: none;
+}
+
+button:focus ~ ul{
+    width: 250px;
+}
+
+.banner {
+    background-image: url(https://www.cursoemvideo.com/wp-content/uploads/2019/08/fundo08.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    width: 45%;
+    padding-left: 30px;
+}
+.imagem{
+    width: 55%;
+}
+
+.inicio .texto h1{
+    color: #00e5fc;
+    font-weight: 700;
+    font-size: min(110px, 6vw);
+    clear: both;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    padding-top: 150px;
+}
+
+.inicio .texto h3{
+    color: #fcfcfc;
+    font-weight: 700;
+    font-size: min(110px, 6vw);
+    line-height: .8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.inicio .texto p {
+    padding: 0 0 10px 0;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: min(21px, 2vw);
+    line-height: 1.3;
+    font-family: 'Roboto',sans-serif;
+}
+
+.inicio .texto a{
+    font-family: Catamaran,sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    border: 1px solid rgba(243,0,0,0);
+    border-color: #fff;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.inicio .texto a:hover{
+    color: #2727ff ;
+    background-color: #fff;
+}
+
+.inicio .texto .botão-começar{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/*media query apenas para o menu */
+@media (max-width: 500px){
+    nav {
+        padding: 0;
+        padding-top: 10px;
+        display: block;
+    }
+    nav .logo .img{
+        width: 80% !important;
+    }
+
+    nav button {
+        display: flex;
+        float: right;
+    }
+
+    nav ul {
+        position: absolute;
+        background-color: #fff;
+        width: 0;
+        display: block;
+        flex-direction: column;
+        height: 100%;
+        margin-left: -20px;
+        margin-top: -10px;
+
+    }
+
+    nav ul li {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    nav ul li .primeiro-li{
+        padding-top: 100px;
+    }
+
+    nav ul li a {
+        color: #1c0051 !important;
+    }
+
+}
+
+/* media query para o conteudo da página */
+@media (max-width: 500px){
+    .inicio{
+        display: block;
+        flex-direction: row;
+    }
+
+    .inicio .texto h1{
+        font-size: 60px;
+        padding-top: 0px;
+    }
+    
+    .inicio .texto h3{
+        font-size: 60px;
+    }
+    
+    .inicio .texto p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.3;
+        font-family: 'Roboto',sans-serif;
+    }
+    
+    .texto{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .imagem{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .inicio .imagem .img{
+        width: 100% !important;
+        margin-top: -40px;
+    }
+}

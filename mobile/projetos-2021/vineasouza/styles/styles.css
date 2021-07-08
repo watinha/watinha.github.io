@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  font-family: "Space Mono", monospace;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3vw 4vw;
+}
+
+.page-section {
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.header-img-logo-wrapper {
+  width: 50px;
+  height: 50px;
+  margin-right: 36px;
+  position: relative;
+}
+
+.header-img-logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  animation: fade-in-button 1s forwards;
+}
+
+.header-nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: max-content;
+  justify-content: space-between;
+  align-items: center;
+  animation: fade-in-nav 1s;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.header-nav-title-lab {
+  font-weight: 400;
+  padding: 1.6px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  padding: 0.1em 0;
+  margin-right: 9px;
+  border-bottom: 0.9px solid #000;
+  margin-bottom: 1px;
+  text-decoration: none;
+}
+
+.header-nav-title {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  padding: 1.6px;
+  margin-right: 9px;
+  margin-left: 6px;
+  text-decoration: none;
+}
+
+.actions-container {
+  width: fit-content;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-container {
+  height: fit-content;
+}
+
+.social-icon-container,
+a {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon-container-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.social-icon-container-menu,
+a {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button-container button {
+  margin: 80px 0 0 0;
+  width: 210px;
+  height: 42px;
+  font-size: 19.2px;
+}
+
+.login-button {
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  border: 2px solid black;
+  background-color: white;
+
+  border-radius: 6px;
+  margin-left: 42px;
+  padding: 18px;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+  transition: background-color 0.1s linear, color 0.1s linear;
+  animation: fade-in-button 1s forwards;
+}
+
+.login-button:hover {
+  background-color: black;
+
+  color: white;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 8px;
+}
+
+.placeholder {
+  height: 100vh;
+}
+
+.header-nav-menu {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 6.5vw;
+  line-height: inherit;
+  color: #000000;
+  padding: 1.6px;
+  margin-right: 9px;
+  margin-left: 6px;
+  text-decoration: none;
+}
+
+.container {
+  width: calc(100% - 8vw);
+  height: calc(100vh - 10vw - 50px);
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.nav-menu {
+  height: 74%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  object-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  animation: fade-in 1s forwards;
+  padding: 6vw;
+}
+
+.content-text {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: calc(1.8 * 1.2vw + 1rem);
+  line-height: 59px;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+@keyframes fade-in-menu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-button {
+  from {
+    opacity: 0;
+    top: 50%;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes fade-in-nav {
+  from {
+    opacity: 0;
+    top: 50%;
+  }
+  to {
+    opacity: 1;
+    top: 10px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    top: 10%;
+  }
+  to {
+    opacity: 1;
+    top: 0%;
+  }
+}
+
+@keyframes fade-in-logo {
+  from {
+    opacity: 0;
+    top: 60%;
+  }
+  to {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+.burger-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.container-menu {
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 2;
+  position: absolute;
+
+  opacity: 0;
+  background-color: white;
+
+  animation: fade-in-menu 0.5s ease forwards;
+}
+
+@media screen and (max-width: 810px) {
+  .header {
+    height: 18vw;
+    padding: 4vw 6vw;
+  }
+
+  .header-nav,
+  .actions-container {
+    display: none;
+  }
+
+  .header-img-logo-wrapper {
+    width: 2em;
+    height: 2em;
+    position: relative;
+  }
+
+  .header-img-logo {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+  }
+
+  .content-text {
+    font-size: 1.6em;
+    line-height: 1.6em;
+  }
+
+  .container {
+    height: calc(100vh - 10vw - 32px);
+    position: relative;
+  }
+
+  .img {
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .burger-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35px;
+    height: fit-content;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .line-space {
+    height: 8px;
+    display: none;
+    transition: all 1s ease;
+  }
+
+  .first-line-menu {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(121, 119, 119);
+    transition: all 0.3s ease;
+  }
+
+  .second-line-menu {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(121, 119, 119);
+    transition: all 0.3s ease;
+  }
+}
+
+.line-rotation-clockwise {
+  transform: rotate(45deg);
+}
+
+.line-rotation-anticlockwise {
+  transform: rotate(-45deg);
+}
+
+.visible {
+  display: block;
+}
+
+.social-icon-container-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.social-icon-container-menu img {
+  margin: 8px;
+  width: 24px;
+  height: 24px;
+}
