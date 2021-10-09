@@ -211,8 +211,8 @@
             "anchor": "references",
             "list": [
                 { "description": "Prof. Dra. Renata Pontin de Mattos Fortes. Associate Professor of Computer Science at S&atilde;o Paulo University. E-mail: <a href=\"mailto:renata @ icmc.usp.br\">renata @ icmc.usp.br</a>." },
-                { "description": "Pablo Lacerda de Miranda. Principal UI Engineer at Netflix."},
-                { "description": "Rodrigo Setti. Senior Software Engineer at Google."}
+                { "description": "Pablo Lacerda de Miranda. Staff Software Engineer at Google."},
+                { "description": "Rodrigo Setti. Staff Software Engineer at Google."}
             ]
         }
     ]
