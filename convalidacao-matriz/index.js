@@ -23,6 +23,7 @@ const grade_nova = {
 	'Disciplina Certificadora Comum': { ch: 120, r: true },
 	'Disciplina Certificadora Identitária': { ch: 120, r: true},
 	'Disciplina Certificadora Específica': { ch: 300, r: true },
+  'Estágio Curricular Obrigatório': { ch: 400, r: true },
 	'Teste de Software': { ch: 60, r: true, op: true },
 	'Computação em Nuvem': { ch: 60, r: true, op: true },
 	'Programação para Dispositivos Móveis': { ch: 60, r: true, op: true },
@@ -58,16 +59,18 @@ const grade_antiga = {
 	'Oficina de Integração': { ch: 30 },
 	'Metodologia de Pesquisa': { ch: 30 },
 	'Programação Móvel': { ch: 60, eq: grade_nova['Programação para Dispositivos Móveis'] },
-	'Gestão Financeira': { ch: 30 },
 	'Arquitetura de Software': { ch: 60, eq: grade_nova['Arquitetura de Software'] },
 	'Interação Homem Computador': { ch: 60, eq: grade_nova['Interação Homem Computador'] },
-	'Economia': { ch: 30, eq: grade_nova['Economia'] },
-	'Gestão Empresarial': { ch: 30, eq: grade_nova['Estratégias de Inovação'] },
-	'Empreendedorismo': { ch: 30, eq: grade_nova['Empreendedorismo'] },
 	'Programação Distribuída': { ch: 60 },
 	'Segurança e Auditoria de Sistemas': { ch: 60 },
 	'Qualidade de Software': { ch: 30 },
-	'Tópicos em Computação': { ch: 60, eq: grade_nova['Programação Web Fullstack'] }
+	'Tópicos em Computação': { ch: 60, eq: grade_nova['Programação Web Fullstack'] },
+	'Gestão Financeira': { ch: 30, op: true },
+	'Economia': { ch: 30, eq: grade_nova['Economia'], op: true },
+	'Gestão Empresarial': { ch: 30, eq: grade_nova['Estratégias de Inovação'], op: true },
+	'Empreendedorismo': { ch: 30, eq: grade_nova['Empreendedorismo'], op: true },
+  'Atividades Complementares': { ch: 180, r: true },
+  'Estágio Curricular Obrigatório': { ch: 400, r: true, eq: grade_nova['Estágio Curricular Obrigatório'] }
 };
 
 const ul_grade_antiga = document.querySelector('.selecao.grade.antiga'),
