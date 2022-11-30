@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Feira de Profissões - Desenvolvimento Web</title>
+    <style type="text/css" media="all">
+      body {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      iframe {
+        aspect-ratio: 16/9;
+        width: 100%;
+      }
+      img { transition: all linear 1s }
+      img:hover { transform: rotate(1080deg) scale(1.1); }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <img src="./utfpr.png" alt="UTFPR" width="50%"/>
+    <h1>Feira de Profissões 2022</h1>
+
+    <h2>Desenvolvimento Web</h2>
+
+    <p>O Desenvolvimento Web faz uso de tecnologias abertas de Internet para construir serviços como:</p>
+    <section>
+      <img width="50px" src="facebook.png" alt="Facebook" />
+      <img width="50px" src="google.png" alt="Google" />
+      <img width="50px" src="amazon.png" alt="amazon" />
+    </section>
+
+    <h2>Cursos de Web na UTFPR</h2>
+
+    <p>Desenvolvimento Web é uma área de atuação profissional foco de todos os nossos cursos de graduação de computação:</p>
+    <ul>
+      <li>Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+      <li>Engenharia de Computação</li>
+      <li>Engenharia de Software</li>
+    </ul>
+
+    <p>Na UTFPR, nós estudamos as tecnologias para construir esses serviços. Quer saber mais sobre a UTFPR?</p>
+    <iframe class="video" src="https://www.youtube.com/embed/gQ1zNdpVI1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>Que tal avaliar outras fontes? Conhecem a Wikipedia?</p>
+    <img width="50px" src="wikipedia.png" alt="Wikipedia" />
+    <input type="text" />
+    <button type="submit">Procurar</button>
+
+    <ul class="wikipedia"></ul>
+
+    <script type="text/javascript" charset="utf-8">
+      const input = document.querySelector('input'),
+            button = document.querySelector('button'),
+            ul = document.querySelector('ul.wikipedia');
+      button.addEventListener('click', async () => {
+        const data = await fetch(
+          `https://pt.wikipedia.org/w/rest.php/v1/search/page?q=${input.value}&limit=1`).then(r => r.json()),
+              { title, excerpt } = data.pages[0];
+        ul.innerHTML = `<li>Título: ${title}</li><li>Descrição:${excerpt}</li>`;
+      });
+    </script>
+
+    <h2>Quer ver o resultado?</h2>
+    <p>Venha estudar com agente na <a href="http://www.utfpr.edu.br/">UTFPR</a>.</p>
+    <img style="width: 100%" src="qr.png" alt="Serviço online" />
+  </body>
+</html>
