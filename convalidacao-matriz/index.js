@@ -25,6 +25,7 @@ const grade_nova = {
 	'Programação para Dispositivos Móveis': { ch: 60, r: true, op: true },
 	'Inteligência Artificial': { ch: 60, r: true, op: true },
 	'Aprendizado de Máquina': { ch: 60, r: true, op: true },
+	'Aprendizagem Profunda': { ch: 60, r: true, op: true },
 	'Processamento de Imagens': { ch: 60, r: true, op: true },
 	'Mineração de Dados': { ch: 60, r: true, op: true },
 	'Realidade Extendida': { ch: 60, r: true, op: true },
