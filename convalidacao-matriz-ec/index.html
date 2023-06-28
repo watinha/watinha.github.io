@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style type="text/css" media="screen">
+      main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      ul li {
+        transition: all linear 0.3s;
+        border-radius: 5px;
+      }
+      .optativas .status {
+        width: 30px;
+        height: 15px;
+        overflow: hidden;
+        display: inline-block;
+      }
+      .optativas .status span {
+        transition: all linear 0.3s;
+        width: 30px;
+        max-height: 15px;
+        display: block;
+        overflow: hidden;
+      }
+      .optativas .status.OK span:first-child { max-height: 0; }
+      ul li.realizado { opacity: 0.7; }
+      ul li.optativa { border: solid 1px gray;}
+      .antiga .realizado { background-color: #CCFFCC; }
+      .nova .realizado { background-color: #CCCCFF; }
+    </style>
+  </head>
+  <body>
+    <h1>Simulador de convalidações</h1>
+
+    <main>
+      <section>
+        <div>
+          <h2>Sumário da grade antiga</h2>
+          <p class="total">Carga horária faltante: <span>XXh</span></p>
+          <p class="optativas">Optativas: <span class="status"><span>--</span><span>OK</span></span></p>
+          <p class="optativas humanas">Optativas Humanas: <span class="status"><span>--</span><span>OK</span></span></p>
+        </div>
+        <ul class="selecao grade antiga"></ul>
+      </section>
+      <section>
+        <div>
+          <h2>Sumário da grade nova</h2>
+          <p class="total">Carga horária faltante: <span>XXh</span></p>
+          <p class="optativas">Optativas: <span class="status"><span>--</span><span>OK</span></span></p>
+          <p class="optativas humanas">Optativas Humanas: <span class="status"><span>--</span><span>OK</span></span></p>
+        </div>
+        <ul class="selecao grade nova"></ul>
+      </section>
+    </main>
+
+    <script type="text/javascript" charset="utf-8" src="./index.js"></script>
+  </body>
+</html>
