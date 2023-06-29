@@ -90,10 +90,10 @@ const grade_antiga = {
 
 "Algor\u00edtmos 1": { "ch":90,"eq": grade_nova['Algoritmos 1']},
 "Organiza\u00e7\u00e3o de Computadores": { "ch":30,"eq": grade_nova['Organização de Computadores']},
-"F\u00edsica Geral 1": { "ch":45 },
-"F\u00edsica Experimental 1": { "ch":30 },
+"F\u00edsica Geral 1": { "ch":45,"eq": grade_nova['Teoria de Cinemática e Mecânica'] },
+"F\u00edsica Experimental 1": { "ch":30,"eq": grade_nova['Laboratório de Cinemática e Mecânica'] },
 "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o": { "ch":30,"eq": grade_nova['Introdução a Engenharia de Computação']},
-"C\u00e1lculo Diferencial e Integral 1": { "ch":90,"eq": grade_nova['Cálculo Diferencial e Integral 1']},
+"C\u00e1lculo Diferencial e Integral 1": { "ch":90,"eq": [grade_nova['Fundamentos de Matemática'], grade_nova['Cálculo Diferencial e Integral 1']]},
 "Geometria Anal\u00edtica e \u00c0lgebra Linear": { "ch":90,"eq": grade_nova['Geometria Analitica e Álgebra Linear']},
 "INGL\u00caS INSTRUMENTAL": { "ch":30,"op_hu":true, "eq": grade_nova['Leitura Instrumental em Língua Inglesa']},
 "Ci\u00eancias Humanas 1": { "ch":30,"op_hu":true, "eq": grade_nova['Espanhol Instrumental']},
@@ -101,8 +101,8 @@ const grade_antiga = {
 "Probabilidade e Estat\u00edstica": { "ch":60,"eq": grade_nova['Probabilidade e Estatística']},
 "Algor\u00edtmos 2": { "ch":60,"eq": grade_nova['Algoritmos 2']},
 "Desenho T\u00e9cnico": { "ch":60 },
-"F\u00edsica Geral 2": { "ch":45 },
-"F\u00edsica Experimental 2": { "ch":30 },
+"F\u00edsica Geral 2": { "ch":45,"eq": grade_nova['Teoria de Oscilações e Ondas'] },
+"F\u00edsica Experimental 2": { "ch":30,"eq": grade_nova['Laboratório de Oscilações e Ondas'] },
 "Qu\u00edmica": { "ch":60, eq: grade_nova['Química']},
 "Psicologia do Trabalho": { "ch":30,"op_hu":true, "eq": grade_nova['Sociedade e Política']},
 "Ci\u00eancias Humanas 2": { "ch":30,"op_hu":true },
@@ -125,25 +125,25 @@ const grade_antiga = {
 "F\u00edsica Experimental 3": { "ch":30,"op":null},
 "Mec\u00e2nica dos S\u00f3lidos": { "ch":60,"op":null},
 "M\u00e9todos de Matem\u00e1tica Aplicada": { "ch":60,"op":null},
-"An\u00e1lise de Algor\u00edtmos": { "ch":60,"eq": grade_nova['Estrutura de Dados 2']},
+"An\u00e1lise de Algor\u00edtmos": { "ch":60,"op":null},
 "Banco de Dados 1": { "ch":60,"eq": grade_nova['Bancos de Dados']},
 "An\u00e1lise e Projeto Orientado a Objetos": { "ch":60,"eq": grade_nova['Programação Orientada a Objetos 2']},
 "An\u00e1lise de Circuitos El\u00e9tricos": { "ch":60,"eq": grade_nova['Análise de Circuitos em Corrente Contínua']},
 "Matem\u00e1tica Discreta": { "ch":60,"op":null},
 "Comunica\u00e7\u00e3o Oral e Escrita": { "ch":30,"eq": grade_nova['Comunicação Acadêmica']},
-"Teoria da Computa\u00e7\u00e3o": { "ch":60,"op":null},
+"Teoria da Computa\u00e7\u00e3o": { "ch":60,"eq": grade_nova['Estrutura de Dados 2']},
 "Banco de Dados 2": { "ch":60,"op":null},
 "Sistemas de Controle": { "ch":60,"eq": grade_nova['Sistemas de Controle']},
 "Arquitetura de Computadores": { "ch":60,"eq": grade_nova['Arquitetura de Computadores']},
 "Eletr\u00f4nica Digital": { "ch":60 },
 "Transmiss\u00e3o de Dados": { "ch":60,"eq": grade_nova['Transmissão de Dados']},
-"Eletr\u00f4nica Geral 1": { "ch":60,"eq": grade_nova['Eletrônica Básica']},
+"Eletr\u00f4nica Geral 1": { "ch":60},
 "Compiladores": { "ch":60,"op":null},
 "Engenharia de Software": { "ch":60,"eq": grade_nova['Desenvolvimento Ágil']},
 "Sistemas Operacionais": { "ch":60,"eq": grade_nova['Sistemas Operacionais']},
 "Sistemas microcontrolados": { "ch":60,"eq": grade_nova['Sistemas Microcontrolados']},
 "Ci\u00eancias do Ambiente": { "ch":30,"eq": grade_nova['Ciências do Ambiente']},
-"Eletr\u00f4nica Geral 2": { "ch":60,"op":null},
+"Eletr\u00f4nica Geral 2": { "ch":60,"eq": grade_nova['Eletrônica Básica']},
 "Oficina de Integra\u00e7\u00e3o": { "ch":30,"op":null},
 "Fen\u00f4menos de Transporte": { "ch":30,"eq": grade_nova['Fenômenos de Transporte']},
 "Empreendedorismo": { "ch":30,"eq": grade_nova['Empreendedorismo']},
@@ -203,6 +203,7 @@ const grade_antiga = {
   'Estágio Curricular Obrigatório': { ch: 400, r: true, eq: grade_nova['Estágio Curricular Obrigatório'] },
   'Atividades Complementares': { ch: 180, r: true, eq: grade_nova['Atividades Complementares'] },
 }
+
 
 
 const ul_grade_antiga = document.querySelector('.selecao.grade.antiga'),
@@ -273,7 +274,11 @@ const render_grade = (grade, target, ch_opt, ch_hu) => {
           this.classList.add('realizado');
           grade[cur].realizado = true;
           if (grade[cur].eq) {
-            grade[cur].eq.realizado = true;
+            if (Array.isArray(grade[cur].eq)) {
+              grade[cur].eq.forEach((unit) => { unit.realizado = true; });
+            } else {
+              grade[cur].eq.realizado = true;
+            }
             render_grade(grade_nova, ul_grade_nova, GRADE_NOVA_OPTS_CH, GRADE_NOVA_OPTS_HU_CH);
           }
         } else {
