@@ -210,7 +210,7 @@ const ul_grade_antiga = document.querySelector('.selecao.grade.antiga'),
       ul_grade_nova = document.querySelector('.selecao.grade.nova'),
 			GRADE_NOVA_OPTS_CH = 120,
 			GRADE_NOVA_OPTS_HU_CH = 120,
-			GRADE_ANTIGA_OPTS_CH = 180,
+			GRADE_ANTIGA_OPTS_CH = 240,
 			GRADE_ANTIGA_OPTS_HU_CH = 90;
 
 const render_sum = (grade, target, opts, opts_hu, ch_opt, ch_hu) => {
@@ -250,6 +250,7 @@ const render_sum = (grade, target, opts, opts_hu, ch_opt, ch_hu) => {
 
   result += ch_opt - Math.min(ch_opt, ch_done);
   result += ch_hu - Math.min(ch_hu, ch_hu_done);
+  console.log(ch_opt, ch_hu);
 
   target.innerHTML = `${result}h`;
 }
