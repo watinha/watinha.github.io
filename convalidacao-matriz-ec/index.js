@@ -268,31 +268,37 @@ const render_grade = (grade, target, ch_opt, ch_hu) => {
     if (dados.op_hu)
       li.classList.add('optativa');
 
-    (() => {
-      const cur = unidade;
-      li.addEventListener('click', function () {
-        if (!grade[cur].realizado) {
-          this.classList.add('realizado');
-          grade[cur].realizado = true;
-          if (grade[cur].eq) {
-            if (Array.isArray(grade[cur].eq)) {
-              grade[cur].eq.forEach((unit) => { unit.realizado = true; });
-            } else {
-              grade[cur].eq.realizado = true;
+    if (grade === grade_antiga) {
+      (() => {
+        const cur = unidade;
+        li.addEventListener('click', function () {
+          if (!grade[cur].realizado) {
+            this.classList.add('realizado');
+            grade[cur].realizado = true;
+            if (grade[cur].eq) {
+              if (Array.isArray(grade[cur].eq)) {
+                grade[cur].eq.forEach((unit) => { unit.realizado = true; });
+              } else {
+                grade[cur].eq.realizado = true;
+              }
+              render_grade(grade_nova, ul_grade_nova, GRADE_NOVA_OPTS_CH, GRADE_NOVA_OPTS_HU_CH);
             }
-            render_grade(grade_nova, ul_grade_nova, GRADE_NOVA_OPTS_CH, GRADE_NOVA_OPTS_HU_CH);
+          } else {
+            this.classList.remove('realizado');
+            grade[cur].realizado = false;
+            if (grade[cur].eq) {
+              if (Array.isArray(grade[cur].eq)) {
+                grade[cur].eq.forEach((unit) => { unit.realizado = false; });
+              } else {
+                grade[cur].eq.realizado = false;
+              }
+              render_grade(grade_nova, ul_grade_nova, GRADE_NOVA_OPTS_CH, GRADE_NOVA_OPTS_HU_CH);
+            }
           }
-        } else {
-          this.classList.remove('realizado');
-          grade[cur].realizado = false;
-          if (grade[cur].eq) {
-            grade[cur].eq.realizado = false;
-            render_grade(grade_nova, ul_grade_nova, GRADE_NOVA_OPTS_CH, GRADE_NOVA_OPTS_HU_CH);
-          }
-        }
-        render_sum(grade, target.parentElement.querySelector('span'), target.parentElement.querySelector('.optativas span'), target.parentElement.querySelector('.optativas.humanas span'), ch_opt, ch_hu);
-      });
-    })();
+          render_sum(grade, target.parentElement.querySelector('span'), target.parentElement.querySelector('.optativas span'), target.parentElement.querySelector('.optativas.humanas span'), ch_opt, ch_hu);
+        });
+      })();
+    }
 
     target.appendChild(li);
     render_sum(grade, target.parentElement.querySelector('span'), target.parentElement.querySelector('.optativas span'), target.parentElement.querySelector('.optativas.humanas span'), ch_opt, ch_hu);
