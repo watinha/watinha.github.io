@@ -128,7 +128,7 @@ const grade_antiga = {
 "An\u00e1lise de Algor\u00edtmos": { "ch":60,"op":null},
 "Banco de Dados 1": { "ch":60,"eq": grade_nova['Bancos de Dados']},
 "An\u00e1lise e Projeto Orientado a Objetos": { "ch":60,"eq": grade_nova['Programação Orientada a Objetos 2']},
-"An\u00e1lise de Circuitos El\u00e9tricos": { "ch":60,"eq": grade_nova['Eletricidade Básica']},
+"An\u00e1lise de Circuitos El\u00e9tricos": { "ch":60,"eq": [grade_nova['Eletricidade Básica'], grade_nova['Análise de Circuitos em Corrente Contínua']]},
 "Matem\u00e1tica Discreta": { "ch":60,"op":null},
 "Comunica\u00e7\u00e3o Oral e Escrita": { "ch":30,"eq": grade_nova['Comunicação Acadêmica']},
 "Teoria da Computa\u00e7\u00e3o": { "ch":60,"eq": grade_nova['Estrutura de Dados 2']},
