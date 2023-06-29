@@ -190,7 +190,7 @@ const grade_antiga = {
 "Servo-acionamentos Industriais": { "ch":60,"op":"[997]"},
 "Supervis\u00e3o de Processos": { "ch":60,"op":"[997]"},
 "Economia": { "ch":30,"eq": grade_nova['Economia']},
-"Programa\u00e7\u00e3o para Web": { "ch":60,"eq": grade_nova['Programação Web Front-End']},
+"Programa\u00e7\u00e3o para Web": { "ch":60,"eq": [grade_nova['Programação Web Front-End'], grade_nova['Programação Web Back-End']]},
 "Sistemas Distribu\u00eddos": { "ch":60,"eq": grade_nova['Sistemas Distribuídos']},
 "Seguran\u00e7a e Auditoria de Sistemas": { "ch":60,"op":null},
 "Metodologia de Pesquisa": { "ch":30,"eq": grade_nova['Metodologia de Pesquisa']},
